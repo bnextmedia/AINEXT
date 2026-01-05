@@ -1,44 +1,21 @@
 baseURL = "https://bnextmedia.github.io/AINEXT/"
 languageCode = "zh-TW"
 title = "AINEXT"
-theme = "PaperMod"
+theme = "newsroom"
+author = "James"
+canonifyurls = true
 
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+[pagination]
+  pagerSize = 10
+
 [params]
   description = "AI 閱讀筆記與產業觀察"
-  author = "James"
-  defaultTheme = "auto"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  disableSpecial1stPost = true
-  
-  [params.homeInfoParams]
-    Title = "AINEXT"
-    Content = "AI 閱讀筆記與產業觀察"
-
-[menu]
-  [[menu.main]]
-    identifier = "archives"
-    name = "文章列表"
-    url = "/archives/"
-    weight = 10
-  [[menu.main]]
-    identifier = "tags"
-    name = "標籤"
-    url = "/tags/"
-    weight = 20
-  [[menu.main]]
-    identifier = "categories"
-    name = "分類"
-    url = "/categories/"
-    weight = 30
+  # defaultMode = "dark"  # 取消註解可設定預設深色模式
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

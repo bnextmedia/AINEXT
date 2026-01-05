@@ -1,0 +1,8 @@
+- item: 首頁
+  url: ""
+- item: 文章列表
+  url: posts/
+- item: 分類
+  url: categories/
+- item: 標籤
+  url: tags/

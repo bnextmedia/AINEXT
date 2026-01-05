@@ -13,8 +13,6 @@ draft: false
 
 {{< youtube 3qHkcs3kG44 >}}
 
-{{< spotify "episode/2ilk3ZQRW5KVvbY0nhtqBA" >}}
-
 ---
 
 ## 熊騎獨輪車的魅力

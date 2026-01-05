@@ -13,8 +13,6 @@ draft: false
 
 {{< youtube 3qHkcs3kG44 >}}
 
-{{< spotify "episode/2ilk3ZQRW5KVvbY0nhtqBA" >}}
-
 ---
 
 Naval Ravikant 出生貧窮、成長於紐約皇后區的單親家庭，後來成為矽谷最成功的天使投資人之一。但真正讓他與眾不同的，不是他的投資眼光，而是他對幸福的深刻思考。

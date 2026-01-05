@@ -1,0 +1,85 @@
+{{- $title := site.Title }}
+{{- $logoText := printf "%s %s" $title (T "logo") }}
+{{- $logo := trim site.Params.logo " " }}
+{{- $logoDark := trim site.Params.logoDark " " }}
+<header class="nav">
+  <nav class="nav-menu">
+    <a href={{ absURL "" }} class="nav-brand nav_item">
+      {{- if and $logo (ne $logo "") }}
+        <img src="{{ $logo }}" alt="{{ $logoText }}" class="logo-light" width="130px" />
+        {{- if and $logoDark (ne $logoDark "") }}
+        <img src="{{ $logoDark }}" alt="{{ $logoText }}" class="logo-dark" width="130px" />
+        {{- end }}
+      {{- else }}
+        {{ $title }}
+      {{- end -}}
+    </a>
+    
+    {{/* Desktop menu - visible on larger screens */}}
+    <div class="nav-links">
+      {{- range site.Data.menu }}
+        <a href="{{ absURL .url }}" class="nav-link">{{ .item }}</a>
+      {{- end }}
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+/* Desktop navigation links */
+.nav-links {
+  display: none;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+/* Show desktop menu on larger screens */
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+  }
+  
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+/* Logo switching for dark mode */
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+/* Auto dark mode detection */
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+</style>

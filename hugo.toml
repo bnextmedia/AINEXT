@@ -16,6 +16,7 @@ buildExpired = false
 [params]
   description = "AI 閱讀筆記與產業觀察"
   logo = "/images/logo.png"
+  logoDark = "/images/logo-dark.png"
   # defaultMode = "dark"  # 取消註解可設定預設深色模式
   mainSections = ["posts"]
 

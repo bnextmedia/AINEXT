@@ -2,7 +2,3 @@
   url: ""
 - item: 文章列表
   url: archives/
-- item: 分類
-  url: categories/
-- item: 標籤
-  url: tags/

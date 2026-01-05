@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 的公開演講與訪談。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=RH_ycZYH8-s)
+
+{{< youtube RH_ycZYH8-s >}}
+
+---
 
 「如果你把俄羅斯從中國勢力範圍奪走的所有領土加起來，比整個美國密西西比河以東的領土還大。」
 

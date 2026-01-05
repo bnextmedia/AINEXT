@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 Lenny's Podcast 2026 年 1 月播出的單集。
-> 🎬 YouTube：[收看連結](https://youtu.be/I-R1bc1rlFs)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/5lt9zI2E5MVPm5aHQ3FDJ7)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305)
+
+{{< youtube I-R1bc1rlFs >}}
+
+{{< spotify episode/5lt9zI2E5MVPm5aHQ3FDJ7 >}}
+
+{{< apple-podcast us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305 >}}
+
+---
 
 「傳統 SDR，那種大學剛畢業、被雇來發 email 的年輕人——我們不需要了。明年會被 AI 取代九成。」
 

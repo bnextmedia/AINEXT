@@ -10,7 +10,8 @@ draft: false
 ---
 
 > 本文整理自 Stanford AI Club 邀請 Jeff Dean 的演講。
-> 🎬 觀看連結：[YouTube](https://www.youtube.com/watch?v=AnTw_t21ayE)
+
+{{< youtube AnTw_t21ayE >}}
 
 ---
 

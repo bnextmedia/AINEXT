@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 Lenny's Podcast 2026 年 1 月播出的單集。
-> 🎬 YouTube：[收看連結](https://youtu.be/I-R1bc1rlFs)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/5lt9zI2E5MVPm5aHQ3FDJ7)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305)
+
+{{< youtube I-R1bc1rlFs >}}
+
+{{< spotify episode/5lt9zI2E5MVPm5aHQ3FDJ7 >}}
+
+{{< apple-podcast us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305 >}}
+
+---
 
 走進 SaaStr 的辦公室，你會看到一排十張空桌子。每張桌上立著一個小牌子，寫著奇怪的名字：Repli、Quali、Arti、AgentForce。這些不是員工的暱稱，而是 AI Agent 的名字。半年前，這些位子坐的還是真人——銷售開發代表、客戶經理、業務助理。現在，整個銷售部門只剩下一個全職業務，加上一位每週投入十幾小時的「AI 長」。十個人的工作，變成了 1.2 個人加 20 個 AI Agent 在做。
 

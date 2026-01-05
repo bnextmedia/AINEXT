@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Hudson Institute 於 2025 年 7 月 22 日舉辦的座談會「How Trump's Tariffs Will Affect US-Taiwan Relations」。
-> 🎬 YouTube：[觀看完整座談](https://www.youtube.com/watch?v=0v2ytB6KVA0)
+
+{{< youtube 0v2ytB6KVA0 >}}
+
+---
 
 「美國被朋友和敵人坑了幾十年。」這是川普在各種場合反覆說的話。對他來說，無論是對岸的中國，還是英國、日本、臺灣這些長年盟友，都是同樣的「肥羊」。這種一視同仁的態度，讓許多期待「民主盟友優待」的國家大失所望。
 
@@ -49,7 +52,3 @@ Walters 也質疑目前的政策邏輯。過去美中貿易戰時，美國對中
 這就是 2025 年美臺關係的現實面貌。無論臺灣多麼強調自己是「民主夥伴」、「供應鏈關鍵角色」、「印太戰略要角」，在川普的關稅世界裡，這些身份可能都換不到特殊待遇。唯一確定的是，臺灣需要為接下來的艱難談判做好準備——而且要準備好「給對方一個政治勝利」的姿態。
 
 ---
-
-📎 請確認以下連結是否正確：
-- YouTube：https://www.youtube.com/watch?v=0v2ytB6KVA0
-- Hudson Institute 活動頁：https://www.hudson.org/events/how-trumps-tariffs-will-affect-us-taiwan-relations

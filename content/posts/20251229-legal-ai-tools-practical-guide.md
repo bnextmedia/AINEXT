@@ -10,8 +10,12 @@ draft: false
 ---
 
 > 本文整理自 Legaltech Lounge Podcast 2025 年 3 月播出的單集。
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/s02e05-navigating-digital-transformation-in-house-counsel/id1725709717?i=1000699635807)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/6TcTTIeMjbZ6ksljumcM1N)
+
+{{< spotify episode/6TcTTIeMjbZ6ksljumcM1N >}}
+
+{{< apple-podcast us/podcast/s02e05-navigating-digital-transformation-in-house-counsel/id1725709717?i=1000699635807 >}}
+
+---
 
 法務部門想導入 AI 工具，第一個會遇到的問題不是「該用什麼工具」，而是「誰會批准這筆預算」。
 

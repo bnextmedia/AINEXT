@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 OpenAI DevDay 的技術分享。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=p1CmPZ2j6Lk)
+
+{{< youtube p1CmPZ2j6Lk >}}
+
+---
 
 「這是我們第一次讓模型在訓練過程中與外部世界互動。」OpenAI 微調團隊的 Will Hang 在介紹 Agent RFT 時這樣說。這句話聽起來或許平淡，但它標誌著 AI 訓練範式的一個重要轉變：模型不再只是被動地學習靜態資料，而是在訓練過程中主動操作真實環境、接收真實反饋。
 

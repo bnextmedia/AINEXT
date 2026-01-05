@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2025 年 10 月播出的單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=lXUZvyajciY)
+
+{{< youtube lXUZvyajciY >}}
+
+---
 
 「我們不是在建造動物，我們是在召喚幽靈。」這句話出自 Andrej Karpathy 在一篇廣為流傳的部落格文章，也成為他在這集訪談中反覆闡述的核心概念。對於一個在 OpenAI 和 Tesla 都待過的人來說，這個比喻並非詩意的修辭，而是一個嚴肅的技術判斷——它關乎我們該如何理解 LLM 的本質，以及為什麼某些對 AI 發展的期待可能從根本上就搞錯了方向。
 

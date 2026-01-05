@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 Lenny's Podcast 2026 年 1 月播出的單集。
-> 🎬 YouTube：[收看連結](https://youtu.be/I-R1bc1rlFs)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/5lt9zI2E5MVPm5aHQ3FDJ7)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305)
+
+{{< youtube I-R1bc1rlFs >}}
+
+{{< spotify episode/5lt9zI2E5MVPm5aHQ3FDJ7 >}}
+
+{{< apple-podcast us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305 >}}
+
+---
 
 那個 AI 本來只是用來回答社群問題的。沒有人訓練它銷售技巧，沒有人教它怎麼談贊助，它只是一個用 Jason Lemkin 的文章和訪談內容訓練出來的數位分身，放在網站上讓 SaaStr 社群成員問問題用。然後有一天，它自己談成了一筆七萬美元的贊助案。
 

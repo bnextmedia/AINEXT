@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Beyang Liu 在 AI Engineer World's Fair 的演講。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=gvIAkmZUEZY)
+
+{{< youtube gvIAkmZUEZY >}}
+
+---
 
 市場上的 coding agent 已經多到讓人眼花撩亂。Cursor、Windsurf、GitHub Copilot、Claude Code——每隔幾週就有新的選手加入戰局。在這個擁擠的市場裡，Amp Code 的創辦人 Beyang Liu 選擇了一條不同的路：他不打算說服你 Amp 是「最好的」，而是要告訴你，他們的思考方式有多麼不一樣。
 

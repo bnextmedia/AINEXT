@@ -60,4 +60,3 @@ Podcast 主持人對 Anthropic 的整體評價仍然正面。他自己使用 Cla
 這場爭議大概不會是最後一次。隨著 AI 服務越來越普及、使用者付出的金額越來越高，對透明度和服務品質的要求也會水漲船高。AI 公司如何在商業利益和使用者信任之間取得平衡，將是 2026 年的重要課題。
 
 本文整理自 Break Even Brothers Podcast 2025 年 12 月底播出的單集。
-🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=f8I4cGrDFYA)

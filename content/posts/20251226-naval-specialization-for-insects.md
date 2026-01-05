@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Joe Rogan Experience #1309，2019 年 6 月 4 日播出。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=3qHkcs3kG44) ｜ [Spotify](https://open.spotify.com/episode/2ilk3ZQRW5KVvbY0nhtqBA)
+
+{{< youtube 3qHkcs3kG44 >}}
+
+{{< spotify episode/2ilk3ZQRW5KVvbY0nhtqBA >}}
 
 ---
 

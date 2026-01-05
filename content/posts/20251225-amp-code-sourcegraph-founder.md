@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Beyang Liu 在 AI Engineer World's Fair 的演講。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=gvIAkmZUEZY)
+
+{{< youtube gvIAkmZUEZY >}}
+
+---
 
 如果你在過去幾年接觸過「程式碼搜尋」這個領域，你大概聽過 Sourcegraph。這家由史丹佛畢業生 Quinn Slack 和 Beyang Liu 於 2013 年創立的公司，專門解決一個問題：如何在超大型程式碼庫中快速找到你需要的東西。Uber、Dropbox、Lyft 都是他們的早期客戶。2021 年，Sourcegraph 以 26.25 億美元估值完成 D 輪融資，從 Andreessen Horowitz 和 Sequoia 手中募得超過兩億美元。
 

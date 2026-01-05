@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Heritage Foundation 2025 年 9 月舉辦的公開活動。
-> 🎬 YouTube：[收看連結](https://www.youtube.com/watch?v=Td2RsaL0lsQ)
+
+{{< youtube Td2RsaL0lsQ >}}
+
+---
 
 6 萬人。這是自 2019 年以來選擇移居台灣的香港居民數量。這個數字背後，是一個城市的自由消亡，也是另一個島嶼的警醒。陸委會主委邱垂正在 Heritage Foundation 的演講中，被問及「香港的教訓對台灣意味著什麼」，他的回答揭示了台灣官方如何看待這場發生在鄰近地區的悲劇。
 

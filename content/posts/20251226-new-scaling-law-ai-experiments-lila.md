@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自《NEJM AI Grand Rounds》2025 年 7 月播出的單集。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879)
+
+{{< apple-podcast tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879 >}}
+
+---
 
 大型語言模型能通過美國醫師執照考試。這件事在 2020 年還是科幻小說，到了 2024 年已經沒有人會驚訝。但這裡有一個問題：通過考試是一回事，發現新藥是另一回事。
 

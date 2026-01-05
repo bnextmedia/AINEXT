@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 The a16z Show 2025 年 5 月播出的單集，錄製於 a16z 2025 LP 大會。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760)
+
+{{< apple-podcast lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760 >}}
+
+---
 
 「我們應該在惡魔島蓋一座千碼高的閃亮巨像。」a16z 創辦人 Marc Andreessen 在他們 2025 年 LP 大會的訪談尾聲，說出了這句聽起來像在開玩笑、實際上認真無比的話。
 

@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 OpenAI DevDay 的技術分享。
-> 🎧 收聯連結：[YouTube](https://www.youtube.com/watch?v=p1CmPZ2j6Lk)
+
+{{< youtube p1CmPZ2j6Lk >}}
+
+---
 
 Devin 是 Cognition 推出的 AI 程式碼代理，它能夠自主完成複雜的程式開發任務。但「自主完成」這件事背後有一個核心挑戰：代理要怎麼知道該修改哪些檔案？一個大型程式碼庫可能有成千上萬個檔案，選錯了檔案，後續的所有工作都是白費。Cognition 用 OpenAI 的 Agent RFT 來訓練這個「程式碼編輯規劃」的能力，結果不只是效能提升，而是讓 Devin 學會了一種全新的工作方式。
 

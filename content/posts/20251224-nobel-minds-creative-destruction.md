@@ -10,7 +10,8 @@ draft: false
 ---
 
 > 本文整理自 Nobel Minds 2025 座談會，2024 年 12 月於斯德哥爾摩皇家宮殿錄製。
-> 🎬 觀看連結：[YouTube](https://www.youtube.com/watch?v=e0yqY_bPIU0)
+
+{{< youtube e0yqY_bPIU0 >}}
 
 ---
 

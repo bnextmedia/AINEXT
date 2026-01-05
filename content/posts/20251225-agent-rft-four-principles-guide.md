@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 OpenAI DevDay 的技術分享。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=p1CmPZ2j6Lk)
+
+{{< youtube p1CmPZ2j6Lk >}}
+
+---
 
 OpenAI 的 Agent RFT 是一個強大的工具，但強大不代表簡單。在與多家企業合作的過程中，OpenAI 團隊累積了一些關於「什麼情況下 Agent RFT 會成功、什麼情況下會失敗」的經驗。這些經驗被濃縮成四個核心原則。這不是教條式的規則，而是從實戰中提煉出來的指引——違反這些原則不一定會失敗，但遵循這些原則會讓成功的機率大幅提高。
 

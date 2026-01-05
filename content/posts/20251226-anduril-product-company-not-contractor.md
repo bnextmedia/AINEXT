@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自台灣人工智慧學校 2025 年 8 月於台大舉辦的講座。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=ktERIegV8RI)
+
+{{< youtube ktERIegV8RI >}}
+
+---
 
 2017 年，Palmer Luckey 創辦 Anduril 的時候，國防產業在矽谷是個禁忌話題。這是 Google 員工走上街頭抗議公司與美國軍方合作的年代。頂尖的科技人才紛紛投入社群媒體、電商、金融科技，而不是「幫政府造武器」。
 

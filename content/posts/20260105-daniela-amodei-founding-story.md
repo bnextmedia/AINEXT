@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 CNBC Television 2026 年 1 月播出的專訪。
-> 🎬 YouTube：[觀看完整訪談](https://www.youtube.com/watch?v=GMXnmaky9FY)
+
+{{< youtube GMXnmaky9FY >}}
+
+---
 
 2021 年 1 月的某一天，加州下著雨。七個人戴著口罩，站在一個後院的帳篷下，向一位訪客解釋他們打算做什麼。那位訪客是 Eric Schmidt（艾瑞克·施密特），Google 前執行長，2001 年到 2011 年間帶領 Google 從新創公司成長為全球科技巨頭，離開 Google 後成為矽谷最活躍的 AI 領域投資人之一。帳篷的主人是 Dario Amodei，他剛從 OpenAI 離職，打算創辦一家新公司。站在他旁邊的是他的妹妹 Daniela，當時懷孕八週，除了 Dario 之外沒有人知道這件事。
 

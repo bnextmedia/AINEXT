@@ -42,4 +42,3 @@ Google 推出的 Gemini 3 Flash 在各項 benchmark 上表現亮眼，速度快�
 或許，最務實的態度是：把 AI 當成一個非常聰明但有時會胡說八道的助手。它能幫你快速完成很多事情，但你不應該盲目相信它說的每一句話。就像你不會因為一個同事很聰明，就完全不檢查他交出來的報告一樣。AI 幻覺的存在，提醒我們人類的判斷力依然不可或缺。
 
 本文整理自 Break Even Brothers Podcast 2025 年 12 月底播出的單集。
-🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=f8I4cGrDFYA)

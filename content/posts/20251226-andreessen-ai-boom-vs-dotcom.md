@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 The a16z Show 2025 年 5 月播出的單集，錄製於 a16z 2025 LP 大會。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760)
+
+{{< apple-podcast lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760 >}}
+
+---
 
 「AI 就像你塗在投資人身上的乳液，讓他們興奮起來。」這句話不是在說 2024 年，而是 1995 年傳奇創投家 John Doerr 對「網路」的形容。Doerr 是 Kleiner Perkins 的合夥人，投資過 Google、Amazon、Netscape，被譽為矽谷最具影響力的創投人之一。a16z 創辦人 Marc Andreessen 在最近一場訪談中引用了這個比喻，因為他是少數親身經歷過兩次科技熱潮的人——1990 年代的網路浪潮和現在的 AI 浪潮。
 

@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Moonshots Podcast 2024 年 12 月播出的單集。
-> 🎧 收聯連結：[YouTube](https://www.youtube.com/watch?v=7GFKB0oKd9A)
+
+{{< youtube 7GFKB0oKd9A >}}
+
+---
 
 2024 年初，Klarna 的公關團隊一定很得意。他們的 AI 客服系統在第一個月處理了 230 萬通電話，等同 700 名全職客服的工作量，預計年省 4000 萬美元。這個案例迅速成為業界最常引用的 AI 成功故事，出現在無數的簡報和演講中。
 

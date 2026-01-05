@@ -9,8 +9,11 @@ source_name: "Dwarkesh Patel Podcast"
 draft: false
 ---
 
+{{< youtube 8-boBsWcr5A >}}
+
+---
+
 > 本文整理自 Dwarkesh Patel Podcast 2024 年 12 月播出的單集，由 Dwarkesh Patel 與 SemiAnalysis 創辦人 Dylan Patel 共同訪問 Microsoft CEO Satya Nadella。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=8-boBsWcr5A)
 
 訪談接近尾聲時，Dylan Patel 問了一個尖銳的問題：在美中對抗加劇、各國都在推動「主權 AI」的今天，Microsoft 要怎麼維持全球競爭力？
 

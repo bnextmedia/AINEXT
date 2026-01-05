@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2024 年播出的 Sarah Paine 系列講座。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=FdkpWrlR5zg)
+
+{{< youtube FdkpWrlR5zg >}}
+
+---
 
 「雷根單槍匹馬擊敗了蘇聯。」這是許多美國人對冷戰結束的標準答案。簡潔、英雄主義、容易記憶。但如果這個答案是對的，為什麼冷戰結束後，雷根和戈巴乔夫會在雷根的牧場開心合影，看起來相處愉快？
 

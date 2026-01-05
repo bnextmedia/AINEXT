@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 CBS《60 Minutes》2025 年播出的 AI 專題報導。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=KpOcUrPdx-4)
+
+{{< youtube KpOcUrPdx-4 >}}
+
+---
 
 「你在教機器人如何像人類一樣思考、像人類一樣做事。」
 

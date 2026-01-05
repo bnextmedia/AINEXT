@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。
-> 🎬 YouTube：[連結](https://www.youtube.com/watch?v=uJWZQb9rWUk)
+
+{{< youtube uJWZQb9rWUk >}}
+
+---
 
 如果要用一句話解釋 AI 是怎麼回答你的問題的，KAIST 電子及電機工程學部的金正鎬（Kim Jung-ho）教授會這樣說：「它在翻一本巨大的密碼本。」
 

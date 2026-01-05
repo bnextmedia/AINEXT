@@ -9,10 +9,11 @@ source_name: "Information Bottleneck Podcast"
 draft: false
 ---
 
-> 本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=7u-DXVADyhc)
+{{< youtube 7u-DXVADyhc >}}
 
 ---
+
+> 本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。
 
 AI 安全是當前最熱門的話題之一。各大實驗室花費大量資源做 RLHF（人類反饋強化學習）、Constitutional AI、紅隊測試，試圖讓他們的模型更安全、更不容易說出有害的內容。
 

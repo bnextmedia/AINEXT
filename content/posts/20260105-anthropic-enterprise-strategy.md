@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 CNBC Television 2026 年 1 月播出的專訪。
-> 🎬 YouTube：[觀看完整訪談](https://www.youtube.com/watch?v=GMXnmaky9FY)
+
+{{< youtube GMXnmaky9FY >}}
+
+---
 
 2022 年底，ChatGPT 上線後在兩個月內突破一億用戶，創下史上最快達到這個里程碑的紀錄。OpenAI 一夕之間成為家喻戶曉的名字，「跟 ChatGPT 聊天」變成全民運動。同一時間，Anthropic 在做什麼？他們在跟企業談合約、建立 API 服務、確保模型能整合進大公司的工作流程。
 

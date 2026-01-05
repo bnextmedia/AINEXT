@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Ray Dalio 在牛津辯論社的訪談。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=blp67tGDFUg)
+
+{{< youtube blp67tGDFUg >}}
+
+---
 
 主持人問 Ray Dalio：如果你 25 歲，站在人生旅程的起點，面對一個比以往更不確定、更競爭、更焦慮的世界，你會告訴年輕時的自己什麼？
 

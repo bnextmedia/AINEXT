@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2024 年播出的 Sarah Paine 系列講座。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=FdkpWrlR5zg)
+
+{{< youtube FdkpWrlR5zg >}}
+
+---
 
 蘇聯曾宣稱是世界最大的電視生產國。為什麼？因為他們生產的電視最重。
 

@@ -10,7 +10,8 @@ draft: false
 ---
 
 > 本文整理自黃仁勳（Jensen Huang）於 2024 年 12 月在華府的公開對談。
-> 🎬 影片連結：[YouTube](https://www.youtube.com/watch?v=jpZ0dPsnIWw)
+
+{{< youtube jpZ0dPsnIWw >}}
 
 ---
 

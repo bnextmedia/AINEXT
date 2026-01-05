@@ -109,9 +109,4 @@ Blackwell 的延遲給了 Google 一個暫時的喘息空間。在 Blackwell 部
 
 ---
 
-🎧 **收聽本集完整訪談**：
-- [Invest Like the Best EP.451 - Gavin Baker](https://podwise.ai/dashboard/episodes/6327964)
-
----
-
 *本文為 AINEXT 系列報導「Gavin Baker 談 AI 產業」第一篇。下一篇將探討 Baker 對太空資料中心的驚人分析。*

@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 TBPN 2025 年 12 月 19 日播出的年終特別節目。
-> 🎬 YouTube：[收看連結](https://www.youtube.com/watch?v=2gCZql8C0tk)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/1arhdqrFfjs9Dj3lt1qfoU)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/2025-in-review-cursor-acquires-graphite-tiktoks-%2450b/id1772360235)
+
+{{< youtube 2gCZql8C0tk >}}
+
+{{< spotify episode/1arhdqrFfjs9Dj3lt1qfoU >}}
+
+{{< apple-podcast us/podcast/2025-in-review-cursor-acquires-graphite-tiktoks-%2450b/id1772360235 >}}
+
+---
 
 「我們兩家公司的辦公室就在紐約街對面，我從這裡可以直接看到他們的窗戶。」Graphite 創辦人 Merrill Lutsky 在訪談中笑著說。這不只是地理上的巧合——Cursor 與 Graphite 的整合，代表的是 AI 程式碼工具領域一個更大的趨勢：當 AI 生成程式碼的速度越來越快，誰來負責審核這些程式碼？
 

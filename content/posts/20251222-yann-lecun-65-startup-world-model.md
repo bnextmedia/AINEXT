@@ -9,10 +9,11 @@ source_name: "Information Bottleneck Podcast"
 draft: false
 ---
 
-> 本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=7u-DXVADyhc)
+{{< youtube 7u-DXVADyhc >}}
 
 ---
+
+> 本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。
 
 Yann LeCun 65 歲了。圖靈獎得主、卷積神經網路發明者、Meta FAIR 創辦人。按理說，這個年紀可以退休了。他太太也這麼希望。
 

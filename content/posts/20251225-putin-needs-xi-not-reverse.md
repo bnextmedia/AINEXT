@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 的公開演講與訪談。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=RH_ycZYH8-s)
+
+{{< youtube RH_ycZYH8-s >}}
+
+---
 
 有一張普京與習近平的合照在網路上流傳。照片裡，兩人表情僵硬，小個子的那位正拉扯著大個子的手臂。
 

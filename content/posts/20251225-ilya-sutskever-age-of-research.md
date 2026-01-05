@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2024 年 12 月播出的單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=aR20FWCCjAs)
+
+{{< youtube aR20FWCCjAs >}}
+
+---
 
 「2012 到 2020 年，是研究時代。2020 到 2025 年，是 Scaling 時代。現在，我們又回到研究時代了——只是電腦變大了。」
 

@@ -9,8 +9,11 @@ source_name: "Stanford AI Club"
 draft: false
 ---
 
+{{< youtube b6Doq2fz81U >}}
+
+---
+
 > 本文整理自 Stanford AI Club 2025 年的演講。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=b6Doq2fz81U)
 
 如果你想預測 AI 在哪個領域會有下一個大突破，Jason Wei 給了一個簡單的答案：看那個領域的任務有多容易被驗證。
 

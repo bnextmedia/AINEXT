@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dreamforce 2025 的對談。
-> 🎬 YouTube：[A Conversation with Sundar Pichai and Marc Benioff](https://www.youtube.com/watch?v=brQH2CCxbSE)
+
+{{< youtube brQH2CCxbSE >}}
+
+---
 
 「我們在 3 到 5 年內，會面臨一個必須讓加密系統適應量子運算的時刻。」
 

@@ -10,8 +10,12 @@ draft: false
 ---
 
 > 本文整理自芝加哥大學 Becker Friedman Institute 製作的《The Pie》Podcast，2025 年 5 月 13 日播出的單集。
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/show/2UEsLEtKK1JHOWO4Mf9uPa)
+
+{{< spotify show/2UEsLEtKK1JHOWO4Mf9uPa >}}
+
+{{< apple-podcast us/podcast/pandemic-economics/id1509074261 >}}
+
+---
 
 「我看不到任何解決方案能讓雙方都滿意，或者至少不會讓其中一方覺得遭受了嚴重的不公義。」
 
@@ -69,9 +73,4 @@ draft: false
 
 這或許就是為什麼謝長泰的結論如此令人不安。不是因為他說了什麼驚人的話，而是因為他把我們都知道、但不願面對的現實講了出來：這是一個無解的問題，而且可能會在某一天以我們都不希望看到的方式「被解決」。
 
----
 
-📎 請確認以下連結是否正確：
-- 官網介紹：https://bfi.uchicago.edu/insights/between-a-chip-and-a-hard-place-the-economics-of-security-and-sovereignty-in-taiwan/
-- Apple Podcast：https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261
-- Spotify：https://open.spotify.com/show/2UEsLEtKK1JHOWO4Mf9uPa

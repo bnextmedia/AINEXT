@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自《Open Residency》2024 年 12 月播出的單集。
-> 🎬 YouTube：[連結](https://youtu.be/EVDQ1MijHbk)
-> 🎧 Spotify：[連結](https://open.spotify.com/episode/5C6IjBT3Jn6HWNtJI2DeuX)
-> 🎧 Apple Podcast：[連結](https://podcasts.apple.com/kn/podcast/dan-koe-how-to-get-ahead-of-99-of-people-in-2026/id1791782856)
+
+{{< youtube EVDQ1MijHbk >}}
+
+{{< spotify episode/5C6IjBT3Jn6HWNtJI2DeuX >}}
+
+{{< apple-podcast kn/podcast/dan-koe-how-to-get-ahead-of-99-of-people-in-2026/id1791782856 >}}
+
+---
 
 「我不是那種會寫作的人。」
 

@@ -10,7 +10,12 @@ draft: false
 ---
 
 > 本文整理自 TBPN 2025 年 12 月 18 日播出的單集。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856) / [Spotify](https://open.spotify.com/episode/1v3nZ2FuZ1HFivr79nWjid)
+
+{{< spotify episode/1v3nZ2FuZ1HFivr79nWjid >}}
+
+{{< apple-podcast rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856 >}}
+
+---
 
 「十年前，我在 MIT 大一的時候，第一次接觸 Coinbase，是因為他們送了我們每人 100 美元的免費加密貨幣。」Kalshi 創辦人 Tarek 在 TBPN 節目上這樣回憶。十年後，他的預測市場平台正式與 Coinbase 合作，成為這間加密貨幣巨頭「萬物交易所」戰略的一塊關鍵拼圖。這個從大學生到合作夥伴的故事，本身就是一個關於金融創新如何演進的縮影。
 

@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Moonshots Podcast 2024 年 12 月播出的單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=7GFKB0oKd9A)
+
+{{< youtube 7GFKB0oKd9A >}}
+
+---
 
 每當 OpenAI、Anthropic 或 Google 發布新模型，科技媒體都會報導一串基準測試數字：HumanEval 編程能力提升 20%、GSM8K 數學推理進步 15%、MMLU 知識測試創新高。這些數字讓我們知道模型在「變強」，但它們回答不了一個關鍵問題：這個模型能不能用在我的業務上？
 

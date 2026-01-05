@@ -9,10 +9,11 @@ source_name: "Information Bottleneck Podcast"
 draft: false
 ---
 
-> 本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=7u-DXVADyhc)
+{{< youtube 7u-DXVADyhc >}}
 
 ---
+
+> 本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。
 
 Sam Altman 說 AGI 可能在 2025 年就會到來。一堆 AI 公司在融資簡報裡寫著「通往 AGI 的路徑」。Elon Musk 給他的 AI 公司取名叫 xAI，目標是「理解宇宙的真正本質」。
 

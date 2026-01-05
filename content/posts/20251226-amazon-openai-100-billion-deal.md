@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 TBPN Podcast 2025 年 12 月播出的單集。
-> 🎬 YouTube：[收聽連結](https://www.youtube.com/watch?v=DRZatti6mVM)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/6IaZ6BSNKkQQy6y4mmGQVN)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/amazon-x-openai-fords-ev-reality-check-kushner-drops/id1772360235?i=1000741755977)
+
+{{< youtube DRZatti6mVM >}}
+
+{{< spotify episode/6IaZ6BSNKkQQy6y4mmGQVN >}}
+
+{{< apple-podcast us/podcast/amazon-x-openai-fords-ev-reality-check-kushner-drops/id1772360235?i=1000741755977 >}}
+
+---
 
 Amazon 宣布對 OpenAI 投資超過 100 億美元。這個數字本身已經夠震撼，但更值得注意的是交易的結構：這筆投資很大一部分是以 AWS 雲端服務的「credits」形式提供，而非純粹的現金。換句話說，OpenAI 拿到的不只是錢，而是與 Amazon 雲端基礎設施的深度綁定。
 

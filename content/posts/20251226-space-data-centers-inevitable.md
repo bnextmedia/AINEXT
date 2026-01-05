@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 TBPN 2025 年 12 月 19 日播出的年終特別節目。
-> 🎬 YouTube：[收看連結](https://www.youtube.com/watch?v=2gCZql8C0tk)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/1arhdqrFfjs9Dj3lt1qfoU)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/2025-in-review-cursor-acquires-graphite-tiktoks-%2450b/id1772360235)
+
+{{< youtube 2gCZql8C0tk >}}
+
+{{< spotify episode/1arhdqrFfjs9Dj3lt1qfoU >}}
+
+{{< apple-podcast us/podcast/2025-in-review-cursor-acquires-graphite-tiktoks-%2450b/id1772360235 >}}
+
+---
 
 「如果你不相信太空資料中心，你就是不相信運算會繼續成長。」Pranav Myana 在 TBPN 的訪談中開門見山地說。這位能源產業背景的研究者，過去幾個月因為他的太空資料中心財務模型在科技圈引發討論。他的核心論點很簡單：地球上的資源是有限的，而太空的資源幾乎是無限的。
 

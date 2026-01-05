@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。
-> 🎬 YouTube：[連結](https://www.youtube.com/watch?v=uJWZQb9rWUk)
+
+{{< youtube uJWZQb9rWUk >}}
+
+---
 
 你以為 AI 運算的瓶頸是 GPU 不夠強？這個假設可能從根本上就錯了。
 

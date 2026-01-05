@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 CNBC Television 2026 年 1 月播出的專訪。
-> 🎬 YouTube：[觀看完整訪談](https://www.youtube.com/watch?v=GMXnmaky9FY)
+
+{{< youtube GMXnmaky9FY >}}
+
+---
 
 一千億美元對上一兆四千億美元。這是 Anthropic 與 OpenAI 目前在算力投資承諾上的差距——將近十四倍。但如果你問業界人士，哪家公司的模型在過去兩年最常被認為是「最強」，答案經常是 Anthropic 的 Claude。這個數字與結果之間的落差，正是 Anthropic 總裁 Daniela Amodei 在 CNBC 專訪中最想解釋的事。
 

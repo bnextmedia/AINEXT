@@ -10,8 +10,12 @@ draft: false
 ---
 
 > 本文整理自芝加哥大學 Becker Friedman Institute 製作的《The Pie》Podcast，2025 年 5 月 13 日播出的單集。
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/show/2UEsLEtKK1JHOWO4Mf9uPa)
+
+{{< spotify show/2UEsLEtKK1JHOWO4Mf9uPa >}}
+
+{{< apple-podcast us/podcast/pandemic-economics/id1509074261 >}}
+
+---
 
 台積電在美國設廠的成本比在台灣高，這件事早就不是秘密。但芝加哥大學經濟學教授謝長泰（Chang-Tai Hsieh）在一集 Podcast 中，把這個問題往下推了一層：這些額外成本最終會落在誰身上？答案會影響的不只是幾家公司的財報，可能還包括整個 AI 革命的發展速度。
 
@@ -55,9 +59,4 @@ draft: false
 
 無論如何，有一件事是確定的：這場關於晶片製造的地緣政治博弈，最終會反映在某個人的帳單上。是股東、是企業、還是消費者？這個問題的答案，可能比多數人想像的更重要。
 
----
 
-📎 請確認以下連結是否正確：
-- 官網介紹：https://bfi.uchicago.edu/insights/between-a-chip-and-a-hard-place-the-economics-of-security-and-sovereignty-in-taiwan/
-- Apple Podcast：https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261
-- Spotify：https://open.spotify.com/show/2UEsLEtKK1JHOWO4Mf9uPa

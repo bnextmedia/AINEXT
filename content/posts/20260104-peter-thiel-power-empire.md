@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 DW Documentary 於 2026 年 1 月播出的紀錄片《Silicon Valley mastermind - Who's behind Palantir's "Gotham" surveillance software?》
-> 🎬 YouTube：[觀看連結](https://www.youtube.com/watch?v=hN-mEGLF_6w)
+
+{{< youtube hN-mEGLF_6w >}}
+
+---
 
 「I'm Peter Thiel. I'm not a politician, but neither is Donald Trump. He is a builder, and it's time to rebuild America.」（我是 Peter Thiel。我不是政治人物，但川普也不是。他是建設者，而現在是重建美國的時候了。）
 

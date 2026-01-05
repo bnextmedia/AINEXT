@@ -9,6 +9,10 @@ source_name: "Stanford CS230"
 draft: false
 ---
 
+{{< youtube AuZoDsNmG_s >}}
+
+---
+
 在史丹佛 CS230 的課堂上，業界專家 Laurence Moroney 放了一張投影片，上面畫著一個三角形金字塔，最上層寫著「炒作」，最下層寫著「真實價值」。他指著這張圖說：「這就是泡沫的解剖學。AI 的泡沫，很可能正在形成。」
 
 這句話從別人嘴裡說出來可能只是危言聳聽，但 Moroney 不是普通人。他在 Google 擔任 AI 倡導者多年，親手推動 TensorFlow 的全球推廣，現在在晶片公司 Arm 負責 AI 業務。他不是那種喜歡製造恐慌的人，而是長年在產業第一線觀察錢往哪裡流、哪些專案成功哪些失敗的人。
@@ -118,5 +122,3 @@ AI 也會是類似的劇本。炒作會退潮，不切實際的估值會修正�
 ---
 
 本文整理自 Stanford CS230 2025 年秋季班第九講「Career Advice in AI」。
-
-🎬 YouTube：https://www.youtube.com/watch?v=AuZoDsNmG_s

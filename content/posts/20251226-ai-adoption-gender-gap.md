@@ -10,7 +10,12 @@ draft: false
 ---
 
 > 本文整理自《The Pie》2025 年 6 月播出的單集「AI, the Economy, and Public Policy」。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261) ｜ [Spotify](https://open.spotify.com/us/podcast/pandemic-economics/id1509074261)
+
+{{< spotify us/podcast/pandemic-economics/id1509074261 >}}
+
+{{< apple-podcast us/podcast/pandemic-economics/id1509074261 >}}
+
+---
 
 想像兩個在同一間法律事務所工作的助理律師。他們處理同樣類型的案件，面對同樣的工作要求，擁有類似的教育背景。唯一的差別是，一個是男性，一個是女性。你可能會猜測，他們使用 AI 工具的比例應該差不多吧？
 

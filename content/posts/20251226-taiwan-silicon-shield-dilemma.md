@@ -10,8 +10,12 @@ draft: false
 ---
 
 > 本文整理自芝加哥大學 Becker Friedman Institute 製作的《The Pie》Podcast，2025 年 5 月 13 日播出的單集。
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/show/2UEsLEtKK1JHOWO4Mf9uPa)
+
+{{< spotify show/2UEsLEtKK1JHOWO4Mf9uPa >}}
+
+{{< apple-podcast us/podcast/pandemic-economics/id1509074261 >}}
+
+---
 
 「只要我們擁有這家製造關鍵產品、讓全世界運轉的公司，世界其他地方就會認為保護我們安全符合他們的利益。」這是台灣社會普遍存在的一種信念——台積電是台灣的「矽盾」，是讓國際社會不得不在意台灣安危的護身符。
 
@@ -51,9 +55,4 @@ draft: false
 
 對台灣來說，台積電一直是那個讓大國「不得不」承擔成本的理由。但如果這個理由被削弱了呢？這個問題沒人敢公開回答，但所有人都在心裡想。
 
----
 
-📎 請確認以下連結是否正確：
-- 官網介紹：https://bfi.uchicago.edu/insights/between-a-chip-and-a-hard-place-the-economics-of-security-and-sovereignty-in-taiwan/
-- Apple Podcast：https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261
-- Spotify：https://open.spotify.com/show/2UEsLEtKK1JHOWO4Mf9uPa

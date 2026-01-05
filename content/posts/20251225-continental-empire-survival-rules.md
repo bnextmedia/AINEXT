@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 的公開演講與訪談。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=RH_ycZYH8-s)
+
+{{< youtube RH_ycZYH8-s >}}
+
+---
 
 「這種戰爭方式會製造廢墟。這解釋了為什麼那些古代遺跡都是廢墟。」
 

@@ -10,8 +10,12 @@ draft: false
 ---
 
 > 本文整理自芝加哥大學 Becker Friedman Institute 製作的《The Pie》Podcast，2025 年 5 月 13 日播出的單集。
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/show/2UEsLEtKK1JHOWO4Mf9uPa)
+
+{{< spotify show/2UEsLEtKK1JHOWO4Mf9uPa >}}
+
+{{< apple-podcast us/podcast/pandemic-economics/id1509074261 >}}
+
+---
 
 「當強權對你提出要求，而過去處理關係的規則不再適用——你該怎麼辦？如果你給了他們想要的，這代表事情結束了嗎？還是他們會再回來要更多？」
 
@@ -49,9 +53,4 @@ draft: false
 
 這些原則當然不能保證成功。但在一個規則被打破的世界裡，或許能提供的只是一些思考的框架，而非確定的答案。
 
----
 
-📎 請確認以下連結是否正確：
-- 官網介紹：https://bfi.uchicago.edu/insights/between-a-chip-and-a-hard-place-the-economics-of-security-and-sovereignty-in-taiwan/
-- Apple Podcast：https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261
-- Spotify：https://open.spotify.com/show/2UEsLEtKK1JHOWO4Mf9uPa

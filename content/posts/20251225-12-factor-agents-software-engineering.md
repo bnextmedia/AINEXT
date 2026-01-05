@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dex Horthy 在 AI Engineer 大會的演講。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=8kMaTybvDUw)
+
+{{< youtube 8kMaTybvDUw >}}
+
+---
 
 「你用框架很快做出一個 Agent，讓老闆很興奮，團隊加了六個人。但接下來你發現，70-80% 的完成度不夠用。想要突破這個天花板，你得鑽進七層深的呼叫堆疊，逆向工程這個 Prompt 到底是怎麼組出來的。」Dex Horthy 在台上描述的這個場景，讓現場不少人舉起了手——他們都經歷過。
 

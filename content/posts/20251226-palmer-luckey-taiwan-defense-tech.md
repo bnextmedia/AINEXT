@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自台灣人工智慧學校 2025 年 8 月於台大舉辦的講座。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=ktERIegV8RI)
+
+{{< youtube ktERIegV8RI >}}
+
+---
 
 「當事情出錯，人會死。當事情做對，人也會死。」
 

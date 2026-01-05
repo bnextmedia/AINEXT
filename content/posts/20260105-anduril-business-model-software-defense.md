@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自《Sourcery》2025 年 12 月播出的專訪。
-> 🎬 YouTube：[收聽連結](https://www.youtube.com/watch?v=P5dsb28UVec)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/3RvA8djwoG1x8rBOg7ee7v)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/in/podcast/full-interview-anduril-ceo-brian-schimpf-on-%241b-revenue/id1738124704)
+
+{{< youtube P5dsb28UVec >}}
+
+{{< spotify episode/3RvA8djwoG1x8rBOg7ee7v >}}
+
+{{< apple-podcast in/podcast/full-interview-anduril-ceo-brian-schimpf-on-%241b-revenue/id1738124704 >}}
+
+---
 
 市場上出現了一堆假的 SPV（特殊目的投資工具），聲稱可以讓你買到 Anduril 的股票。這家國防科技公司的執行長乾脆拿這件事開玩笑：「大家都在兜售他們根本沒有的 Anduril 股票。」這個現象本身就說明了一件事——在私募市場上，真正高速成長、有實績的公司屈指可數，而 Anduril 是其中之一。
 

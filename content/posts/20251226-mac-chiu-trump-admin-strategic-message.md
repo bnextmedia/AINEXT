@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Heritage Foundation 2025 年 9 月舉辦的公開活動。
-> 🎬 YouTube：[收看連結](https://www.youtube.com/watch?v=Td2RsaL0lsQ)
+
+{{< youtube Td2RsaL0lsQ >}}
+
+---
 
 為什麼是 Heritage Foundation？當陸委會主委邱垂正選擇在這個場合發表公開演說時，場地本身就是訊息的一部分。Heritage Foundation 不只是美國頂尖的保守派智庫，更是川普政府政策圈的核心節點。在這裡發言，等於是直接對美國新政府喊話。而邱垂正帶來的訊息，正是華府最想聽到的：台灣理解美國的期待，也準備好承擔責任。
 

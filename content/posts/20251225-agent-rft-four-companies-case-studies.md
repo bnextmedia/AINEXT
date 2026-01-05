@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 OpenAI DevDay 的技術分享。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=p1CmPZ2j6Lk)
+
+{{< youtube p1CmPZ2j6Lk >}}
+
+---
 
 「我們看到有人只用 10 個範例就成功了。」OpenAI 微調團隊的 Will Hang 在介紹 Agent RFT 時提到這個數字。這聽起來有點不可思議——傳統的機器學習需要大量標註資料，怎麼可能 10 個範例就夠？但 Agent RFT 的邏輯不太一樣：你不是在教模型「看到 A 要回答 B」，而是讓模型自己探索你的環境，從成功和失敗中學習。這種方式對資料量的需求，確實可以非常低。
 

@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dreamforce 2025 的對談。
-> 🎬 YouTube：[A Conversation with Sundar Pichai and Marc Benioff](https://www.youtube.com/watch?v=brQH2CCxbSE)
+
+{{< youtube brQH2CCxbSE >}}
+
+---
 
 2022 年 11 月 30 日，OpenAI 發布 ChatGPT。接下來的幾週，這個聊天機器人以史上最快速度突破一億用戶，媒體開始大量報導「Google 殺手」、「搜尋引擎末日」之類的標題。
 

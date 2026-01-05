@@ -9,8 +9,11 @@ source_name: "AI Engineer World's Fair 2025"
 draft: false
 ---
 
+{{< youtube rmvDxxNubIg >}}
+
+---
+
 > 本文整理自 AI Engineer World's Fair 2025 的演講「No Vibes Allowed: Solving Hard Problems in Complex Codebases」。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=rmvDxxNubIg)
 
 7 小時完成 2 週的工作量。35,000 行程式碼。一個週六下午。
 

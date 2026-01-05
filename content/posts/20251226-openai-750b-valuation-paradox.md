@@ -10,7 +10,12 @@ draft: false
 ---
 
 > 本文整理自 TBPN 2025 年 12 月 18 日播出的單集。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856) / [Spotify](https://open.spotify.com/episode/1v3nZ2FuZ1HFivr79nWjid)
+
+{{< spotify episode/1v3nZ2FuZ1HFivr79nWjid >}}
+
+{{< apple-podcast rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856 >}}
+
+---
 
 七千五百億美元。這個數字比 NVIDIA 2023 年初的市值還高，比整個台灣股市總市值的三分之一還多。Bloomberg 記者 Katie Roof 在 12 月中旬爆出獨家新聞：OpenAI 正在進行「早期洽談」，計畫募集數百億甚至上看一千億美元的新一輪融資，估值可能達到 7,500 億美元。這距離他們上一輪以 1,570 億美元估值完成的融資，才過了不到三個月。
 

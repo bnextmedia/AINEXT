@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 TBPN Podcast 2025 年 12 月播出的單集。
-> 🎬 YouTube：[收聽連結](https://www.youtube.com/watch?v=DRZatti6mVM)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/6IaZ6BSNKkQQy6y4mmGQVN)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/amazon-x-openai-fords-ev-reality-check-kushner-drops/id1772360235?i=1000741755977)
+
+{{< youtube DRZatti6mVM >}}
+
+{{< spotify episode/6IaZ6BSNKkQQy6y4mmGQVN >}}
+
+{{< apple-podcast us/podcast/amazon-x-openai-fords-ev-reality-check-kushner-drops/id1772360235?i=1000741755977 >}}
+
+---
 
 最近矽谷出現一個有趣的現象：「storyteller」這個職位突然變得很搶手。不是傳統的行銷主管或公關經理，而是專門負責「說故事」的角色。這讓許多創辦人開始思考——是不是應該請一個專人來處理公司的敘事？
 

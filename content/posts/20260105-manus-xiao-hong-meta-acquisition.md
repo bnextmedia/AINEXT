@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自《機器之心》2025 年 12 月 30 日播出的訪談。
-> 🎬 YouTube：[收看連結](https://www.youtube.com/watch?v=85c_gy3zKic)
+
+{{< youtube 85c_gy3zKic >}}
+
+---
 
 2025 年的最後一週，AI 產業丟出了一顆震撼彈。Meta（原 Facebook）宣布以 20 億美元收購新加坡 AI 新創 Manus。這家公司 3 月才發布產品，9 個月內就累積了數百萬使用者、年度經常性收入（ARR）突破 1 億美元。收購消息一出，矽谷譁然——這是 AI Agent 賽道迄今最大的一筆收購案。
 

@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自《NEJM AI Grand Rounds》2025 年 7 月播出的單集。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879)
+
+{{< apple-podcast tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879 >}}
+
+---
 
 Andy Beam 小時候得了百日咳，被小兒科醫師誤診為鼻竇炎。這件事讓他看見醫療診斷的認知盲點，從此立志用電腦解決這個問題。他花了二十年研究醫療 AI，從訓練神經網路通過美國醫師執照考試開始，一路做到哈佛教授，現在是 Lila Sciences 的技術長。
 

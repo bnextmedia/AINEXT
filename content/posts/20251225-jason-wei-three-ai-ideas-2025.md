@@ -9,8 +9,11 @@ source_name: "Stanford AI Club"
 draft: false
 ---
 
+{{< youtube b6Doq2fz81U >}}
+
+---
+
 > 本文整理自 Stanford AI Club 2025 年的演講。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=b6Doq2fz81U)
 
 「AI 還剩幾年會取代我們的工作？」如果你問一個量化交易員，他可能會說 ChatGPT 根本做不了他的事；但如果你問一個頂尖 AI 實驗室的研究員，答案可能是兩到三年。這個巨大的認知落差，正是 Jason Wei 這場演講想解決的問題。
 

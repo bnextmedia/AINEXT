@@ -11,10 +11,11 @@ draft: false
 
 每年底，矽谷頂級創投 a16z 都會發布「Big Ideas」系列，由各領域合夥人分享他們對未來一年的預測。這不是憑空猜測，而是基於他們每天與創辦人、新創公司近身接觸所累積的第一線觀察。2026 年的主題很明確：AI Agent。三位合夥人分別從不同角度切入，但指向同一個方向——我們與 AI 的互動方式，正在發生根本性的轉變。
 
-🎬 本文整理自 a16z「Big Ideas for 2026」影片。
-📺 影片連結：https://www.youtube.com/watch?v=ULszsXDyjMY
+{{< youtube ULszsXDyjMY >}}
 
 ---
+
+> 本文整理自 a16z「Big Ideas for 2026」影片。
 
 ## 預測一：Prompt Box 之死
 

@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Hudson Institute 於 2025 年 7 月 22 日舉辦的座談會「How Trump's Tariffs Will Affect US-Taiwan Relations」。
-> 🎬 YouTube：[觀看完整座談](https://www.youtube.com/watch?v=0v2ytB6KVA0)
+
+{{< youtube 0v2ytB6KVA0 >}}
+
+---
 
 幾個月前，TSMC 宣布在美國追加投資 1000 億美元。白宮以最高規格接待，讓 TSMC 高層風光地在白宮宣布這項「歷史性投資」。Hudson Institute 資深研究員 Riley Walters 和主持人許毓仁當時人在臺灣，親眼見證了這一刻。但 Walters 在座談會上問了一個尷尬的問題：「這項投資對關稅談判有什麼實際效果？我們不知道。到現在為止，我們還是不知道。」
 
@@ -53,7 +56,3 @@ Setser 的建議是，臺灣應該把這些承諾具體化、數字化：50% 產
 最後一個問題是：臺灣準備好做這樣的承諾了嗎？這不只是 TSMC 一家公司的決定，而是整個國家產業政策的選擇。在一個越來越分裂的世界裡，臺灣可能無法同時保持「全球化供應商」和「美國戰略夥伴」兩個身份。選擇的時刻正在逼近。
 
 ---
-
-📎 請確認以下連結是否正確：
-- YouTube：https://www.youtube.com/watch?v=0v2ytB6KVA0
-- Hudson Institute 活動頁：https://www.hudson.org/events/how-trumps-tariffs-will-affect-us-taiwan-relations

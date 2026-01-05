@@ -10,7 +10,8 @@ draft: false
 ---
 
 > 本文整理自 YC 官方 Podcast《The Light Cone》2025 年 12 月播出的年度回顧單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=cqrJzG03ENE)
+
+{{< youtube cqrJzG03ENE >}}
 
 ---
 

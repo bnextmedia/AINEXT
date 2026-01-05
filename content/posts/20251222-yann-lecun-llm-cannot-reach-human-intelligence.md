@@ -9,10 +9,11 @@ source_name: "Information Bottleneck Podcast"
 draft: false
 ---
 
-> 本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=7u-DXVADyhc)
+{{< youtube 7u-DXVADyhc >}}
 
 ---
+
+> 本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。
 
 Yann LeCun 與矽谷主流的分歧，不是「A 方法好還是 B 方法好」這種程度的爭論。他認為 LLM 這整條路線從根本上就走錯了。在最近的 Information Bottleneck 訪談中，這位圖靈獎得主花了將近兩個小時，詳細解釋為什麼他認為 LLM 是死胡同，以及他認為正確的方向是什麼。
 

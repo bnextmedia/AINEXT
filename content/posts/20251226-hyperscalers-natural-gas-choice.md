@@ -9,8 +9,11 @@ source_name: "YouTube"
 draft: false
 ---
 
+{{< youtube 3cDHx2_QbPE >}}
+
+---
+
 > 本文整理自 Casey Handmer 受訪的 Podcast，2024 年 12 月播出。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=3cDHx2_QbPE)
 
 Meta 宣布要蓋 5 GW 的資料中心。Google、Microsoft、xAI 也在擴建。他們選的電力來源，清一色是天然氣。
 

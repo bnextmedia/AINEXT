@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Heritage Foundation 2025 年 9 月舉辦的公開活動。
-> 🎬 YouTube：[收看連結](https://www.youtube.com/watch?v=Td2RsaL0lsQ)
+
+{{< youtube Td2RsaL0lsQ >}}
+
+---
 
 台灣的內閣部長很少在華府智庫發表公開演講，更少用如此直白的語言定性中國領導人。但陸委會主委邱垂正（Chiu Chui-cheng）在 Heritage Foundation 的這場演說，打破了這個慣例。他用「三個極端化發展」來描述習近平治下的中國，這個框架值得仔細拆解——因為它代表的不只是個人觀點，而是台灣政府對當前威脅的官方判斷。
 

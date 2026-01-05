@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2024 年 12 月播出的單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=aR20FWCCjAs)
+
+{{< youtube aR20FWCCjAs >}}
+
+---
 
 你有沒有遇過這種情況？
 

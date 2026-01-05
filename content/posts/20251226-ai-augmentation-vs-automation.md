@@ -10,7 +10,12 @@ draft: false
 ---
 
 > 本文整理自《The Pie》2025 年 6 月播出的單集「AI, the Economy, and Public Policy」。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261) ｜ [Spotify](https://open.spotify.com/us/podcast/pandemic-economics/id1509074261)
+
+{{< spotify us/podcast/pandemic-economics/id1509074261 >}}
+
+{{< apple-podcast us/podcast/pandemic-economics/id1509074261 >}}
+
+---
 
 ChatGPT 在 2022 年底橫空出世，到現在已經兩年半。這段時間裡，「AI 會搶走工作」的恐懼從未停歇。有人預測大規模失業潮即將來臨，也有人相信 AI 只是另一個被過度炒作的科技泡沫。但當芝加哥大學的經濟學家們真正去研究數據、跑實驗、訪談企業時，他們發現的故事遠比這些極端預測複雜得多。
 

@@ -9,8 +9,11 @@ source_name: "Dwarkesh Patel Podcast"
 draft: false
 ---
 
+{{< youtube 8-boBsWcr5A >}}
+
+---
+
 > 本文整理自 Dwarkesh Patel Podcast 2024 年 12 月播出的單集，由 Dwarkesh Patel 與 SemiAnalysis 創辦人 Dylan Patel 共同訪問 Microsoft CEO Satya Nadella。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=8-boBsWcr5A)
 
 「如果你是模型公司，你可能有贏家詛咒。」
 

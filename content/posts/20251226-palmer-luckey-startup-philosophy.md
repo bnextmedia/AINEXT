@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自台灣人工智慧學校 2025 年 8 月於台大舉辦的講座。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=ktERIegV8RI)
+
+{{< youtube ktERIegV8RI >}}
+
+---
 
 Palmer Luckey 32 歲，穿著他標誌性的夏威夷襯衫站在台大的講台上。場外有抗議者舉著標語，反對他出售武器給以色列。他的開場白是澄清：Anduril 從來沒有賣過任何東西給以色列。「我不是說賣武器給以色列是什麼可怕的事，」他說，「只是他們可能抗議錯人了。」
 

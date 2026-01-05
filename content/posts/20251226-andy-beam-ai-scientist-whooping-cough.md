@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自《NEJM AI Grand Rounds》2025 年 7 月播出的單集。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879)
+
+{{< apple-podcast tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879 >}}
+
+---
 
 那年夏天，一個剛從太空營回來的六年級男孩開始像狗一樣咳嗽。那聲音太奇怪了，他媽媽從沒聽過。幾天後的某個晚上，他咳到窒息、咳到嘔吐。隔天在小兒科診所，同樣的發作當場發生——劇烈咳嗽、支氣管痙攣、嘔吐。醫師的診斷是：鼻竇炎。
 

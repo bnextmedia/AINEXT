@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 CNBC Television 2026 年 1 月播出的專訪。
-> 🎬 YouTube：[觀看完整訪談](https://www.youtube.com/watch?v=GMXnmaky9FY)
+
+{{< youtube GMXnmaky9FY >}}
+
+---
 
 一般公司不會主動告訴你，他們的產品可能被用來做壞事。但 Anthropic 會。
 

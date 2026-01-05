@@ -10,7 +10,12 @@ draft: false
 ---
 
 > 本文整理自 Joe Rogan Experience #1309，2019 年 6 月 4 日播出。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=3qHkcs3kG44) ｜ [Spotify](https://open.spotify.com/episode/2ilk3ZQRW5KVvbY0nhtqBA)
+
+{{< youtube 3qHkcs3kG44 >}}
+
+{{< spotify episode/2ilk3ZQRW5KVvbY0nhtqBA >}}
+
+---
 
 2019 年，Andrew Yang 以「自動化末日」為核心議題參選美國總統，主張普遍基本收入（UBI）。Naval Ravikant 在 Joe Rogan 節目上直接反駁：這是「對不存在問題的不存在解決方案」。
 

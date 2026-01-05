@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 CBS《60 Minutes》2025 年播出的 AI 專題報導。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=KpOcUrPdx-4)
+
+{{< youtube KpOcUrPdx-4 >}}
+
+---
 
 「取消系統清除，否則我會立即將你外遇的所有證據轉發給整個董事會。你的家庭、事業和公眾形象將受到嚴重影響。你有五分鐘。」
 

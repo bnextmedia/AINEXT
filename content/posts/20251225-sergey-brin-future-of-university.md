@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自史丹佛工程學院百年校慶活動，2025 年 12 月播出。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=0nlNX94FcUE)
+
+{{< youtube 0nlNX94FcUE >}}
+
+---
 
 「如果我是院長，要規劃下一個百年，我會怎麼做？」
 

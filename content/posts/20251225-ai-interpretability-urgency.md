@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Lightspeed Venture Partners 的 Generative Now 活動。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=azoBSxpkv7Y)
+
+{{< youtube azoBSxpkv7Y >}}
+
+---
 
 「全世界語言模型輸出的 token 數量，很快就會超過地球上所有人類能閱讀的總量。」這是 Anthropic 研究員 Jack Lindsay 在一場可解釋性對談中拋出的警告。如果我們沒辦法逐一檢查模型寫的每一行程式碼、每一個數學證明，我們就需要某種方式來信任這些系統的思考過程本身——就像我們信任人類員工一樣。
 

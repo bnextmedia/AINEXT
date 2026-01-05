@@ -10,7 +10,8 @@ draft: false
 ---
 
 > 本文整理自 NeurIPS 2024 期間的訪談。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=wZ4DT20OHXE)
+
+{{< youtube wZ4DT20OHXE >}}
 
 ---
 

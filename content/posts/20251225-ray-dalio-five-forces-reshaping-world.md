@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Ray Dalio 在牛津辯論社的訪談。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=blp67tGDFUg)
+
+{{< youtube blp67tGDFUg >}}
+
+---
 
 「我現在看到的一切，就像在看一部我已經看過很多次的電影。」
 

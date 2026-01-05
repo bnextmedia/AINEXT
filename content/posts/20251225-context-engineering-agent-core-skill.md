@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dex Horthy 在 AI Engineer 大會的演講。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=8kMaTybvDUw)
+
+{{< youtube 8kMaTybvDUw >}}
+
+---
 
 「LLM 是純函數，token 進、token 出。」Dex Horthy 在 AI Engineer 大會上說出這句話時，台下安靜了一秒。這聽起來太簡單了，簡單到像是廢話。但 Dex 認為，正是這個被忽略的基本事實，解釋了為什麼有些 Agent 可靠、有些不可靠。
 

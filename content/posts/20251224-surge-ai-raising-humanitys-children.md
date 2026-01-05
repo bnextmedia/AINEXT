@@ -10,7 +10,8 @@ draft: false
 ---
 
 > 本文整理自 Lenny's Podcast 與 Surge AI 創辦人 Edwin Chen 的訪談。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=dduQeaqmpnI)
+
+{{< youtube dduQeaqmpnI >}}
 
 ---
 

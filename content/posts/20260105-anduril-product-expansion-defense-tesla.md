@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自《Sourcery》2025 年 12 月播出的專訪。
-> 🎬 YouTube：[收聽連結](https://www.youtube.com/watch?v=P5dsb28UVec)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/3RvA8djwoG1x8rBOg7ee7v)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/in/podcast/full-interview-anduril-ceo-brian-schimpf-on-%241b-revenue/id1738124704)
+
+{{< youtube P5dsb28UVec >}}
+
+{{< spotify episode/3RvA8djwoG1x8rBOg7ee7v >}}
+
+{{< apple-podcast in/podcast/full-interview-anduril-ceo-brian-schimpf-on-%241b-revenue/id1738124704 >}}
+
+---
 
 「你現在最喜歡哪個產品？」面對 Sourcery 主持人乙莫莉・歐乙西亞（Molly O'Shea）的提問，Anduril 執行長乙布萊恩・乙辛普夫（Brian Schimpf）幾乎沒有猶豫：「自主戰鬥機。它真的很狂、是同類型中的第一個，而且⋯⋯大飛機就是很酷。」但他馬上補了一句：「不過我的答案大概四週後就會變，因為我們有很多很酷的東西正在進行。」
 

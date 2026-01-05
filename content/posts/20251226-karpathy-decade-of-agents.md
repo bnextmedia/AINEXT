@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2025 年 10 月播出的單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=lXUZvyajciY)
+
+{{< youtube lXUZvyajciY >}}
+
+---
 
 「這是 Agent 的十年，不是 Agent 的一年。」Andrej Karpathy 這句話是對業界的直接回應。不知道是哪家實驗室先說的，但「2025 是 Agent 元年」這個說法在圈子裡傳開了。Karpathy 看到這些預測時被「觸發」了——他的原話是 triggered——因為在他看來，這種過度樂觀的預測已經成為 AI 產業的慣性毛病。
 

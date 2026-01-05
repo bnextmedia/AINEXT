@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Moonshots Podcast 2024 年 12 月播出的單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=7GFKB0oKd9A)
+
+{{< youtube 7GFKB0oKd9A >}}
+
+---
 
 每到年底，各路專家都會發布來年預測。但大多數預測要嘛太模糊（「AI 會繼續進步」），要嘛太聳動（「AGI 明年到來」），真正對企業有參考價值的並不多。Matt Fitzpatrick 的預測不一樣。他曾在麥肯錫待了十多年，領導 QuantumBlack Labs 的 AI 產品開發；現在是 Invisible Technologies 的 CEO，每天都在和各種規模的企業打交道，幫他們把 AI 從概念驗證推到實際生產。
 

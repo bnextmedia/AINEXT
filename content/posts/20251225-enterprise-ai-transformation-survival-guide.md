@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Moonshots Podcast 2024 年 12 月播出的單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=7GFKB0oKd9A)
+
+{{< youtube 7GFKB0oKd9A >}}
+
+---
 
 「我們將在 2026 年看到史上最大的企業顛覆——來自那些沒有完成轉型的公司。」這是 Matt Fitzpatrick 在 Moonshots Podcast 上的預言。Fitzpatrick 曾在麥肯錫待了超過十年，一路做到 QuantumBlack Labs 全球主管，負責整個事務所的 AI 軟體開發、研發與全球 AI 產品。一年前，他跳槽到 Invisible Technologies 擔任 CEO，這家公司專門為大型語言模型提供訓練數據，並為企業打造客製化的工作流程與 AI 代理人。
 

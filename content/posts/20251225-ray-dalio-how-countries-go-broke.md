@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Ray Dalio 在牛津辯論社的訪談。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=blp67tGDFUg)
+
+{{< youtube blp67tGDFUg >}}
+
+---
 
 「帝國不是被打敗的，是破產的。」
 

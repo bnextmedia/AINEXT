@@ -10,7 +10,12 @@ draft: false
 ---
 
 > 本文整理自《The Pie》2025 年 6 月播出的單集「AI, the Economy, and Public Policy」。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261) ｜ [Spotify](https://open.spotify.com/us/podcast/pandemic-economics/id1509074261)
+
+{{< spotify us/podcast/pandemic-economics/id1509074261 >}}
+
+{{< apple-podcast us/podcast/pandemic-economics/id1509074261 >}}
+
+---
 
 研究人員發現了一個能讓更多人獲得糧食援助的方法，數據清楚顯示效果顯著。政策制定者也認同這個發現很有價值。然後呢？什麼都沒發生。
 

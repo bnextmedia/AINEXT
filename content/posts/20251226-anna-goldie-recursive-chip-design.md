@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 TBPN 2025 年 12 月 19 日播出的年終特別節目。
-> 🎬 YouTube：[收看連結](https://www.youtube.com/watch?v=2gCZql8C0tk)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/1arhdqrFfjs9Dj3lt1qfoU)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/2025-in-review-cursor-acquires-graphite-tiktoks-%2450b/id1772360235)
+
+{{< youtube 2gCZql8C0tk >}}
+
+{{< spotify episode/1arhdqrFfjs9Dj3lt1qfoU >}}
+
+{{< apple-podcast us/podcast/2025-in-review-cursor-acquires-graphite-tiktoks-%2450b/id1772360235 >}}
+
+---
 
 「我唸電腦科學的原因，就是因為想做 AI。」Anna Goldie 在訪談中回憶，那是 2004 年，她在 MIT 聽了一場午餐演講，講的是能理解和生成人類語言的電腦系統。「從那之後，我就一直朝這個方向走。」
 

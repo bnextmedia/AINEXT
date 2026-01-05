@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Heritage Foundation 2025 年 9 月舉辦的公開活動。
-> 🎬 YouTube：[收看連結](https://www.youtube.com/watch?v=Td2RsaL0lsQ)
+
+{{< youtube Td2RsaL0lsQ >}}
+
+---
 
 「兩岸還有在對話嗎？」這大概是國際媒體與外國政府最常問台灣官員的問題之一。表面上看，答案似乎是否定的：自 2016 年民進黨執政以來，北京以台灣不接受其政治前提為由，中斷了官方對話。但實際情況比這複雜得多。陸委會主委邱垂正在 Heritage Foundation 的演講中，詳細說明了目前兩岸之間仍在運作的三條溝通管道。
 

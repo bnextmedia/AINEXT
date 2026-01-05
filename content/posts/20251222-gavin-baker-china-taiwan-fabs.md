@@ -10,7 +10,8 @@ draft: false
 ---
 
 **本文整理自 Invested Podcast 訪談。**
-🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=ugihLT9cFTE)
+
+{{< youtube ugihLT9cFTE >}}
 
 ---
 

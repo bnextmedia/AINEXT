@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 TBPN 2025 年 12 月 19 日播出的年終特別節目。
-> 🎬 YouTube：[收看連結](https://www.youtube.com/watch?v=2gCZql8C0tk)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/1arhdqrFfjs9Dj3lt1qfoU)
-> 🎧 Apple Podcast：[收聯連結](https://podcasts.apple.com/us/podcast/2025-in-review-cursor-acquires-graphite-tiktoks-%2450b/id1772360235)
+
+{{< youtube 2gCZql8C0tk >}}
+
+{{< spotify episode/1arhdqrFfjs9Dj3lt1qfoU >}}
+
+{{< apple-podcast us/podcast/2025-in-review-cursor-acquires-graphite-tiktoks-%2450b/id1772360235 >}}
+
+---
 
 500 億美元。這是 ByteDance 2025 年的預估獲利數字，根據 Bloomberg 的報導。如果這個數字成真，張一鳴在 2012 年創辦的這家公司，獲利規模將直逼 Meta——後者今年預計賺約 600 億美元。
 

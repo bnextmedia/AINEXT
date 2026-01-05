@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 The a16z Show 2025 年 5 月播出的單集，錄製於 a16z 2025 LP 大會。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760)
+
+{{< apple-podcast lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760 >}}
+
+---
 
 「閉上眼睛，想像兩個世界。一個是全世界都運行美國的開源大型語言模型。另一個是全世界，包括美國，都運行中國的軟體。」a16z 創辦人 Marc Andreessen 在最近一場訪談中拋出這個思想實驗，直接切入開源 AI 最敏感的地緣政治議題。
 

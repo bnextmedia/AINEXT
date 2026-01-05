@@ -10,7 +10,8 @@ draft: false
 ---
 
 > 本文整理自 Lenny's Podcast 2024 年 12 月播出的單集，訪問 Lovable 增長負責人 Elena Verna。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=6qAB6aUMIeA)
+
+{{< youtube 6qAB6aUMIeA >}}
 
 ---
 

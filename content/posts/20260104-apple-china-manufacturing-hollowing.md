@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 a16z《The Ben & Marc Show》2025 年 9 月播出的單集。
-> 🎬 YouTube：[收看連結](https://www.youtube.com/watch?v=ShkxpBoObCQ)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/6x9oNKwXhe2OBrr9xsoSGs)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/the-ben-marc-show-china-has-scale-can-america-catch-up/id842818711)
+
+{{< youtube ShkxpBoObCQ >}}
+
+{{< spotify episode/6x9oNKwXhe2OBrr9xsoSGs >}}
+
+{{< apple-podcast us/podcast/the-ben-marc-show-china-has-scale-can-america-catch-up/id842818711 >}}
+
+---
 
 ## 一個比馬歇爾計畫還大的投資
 

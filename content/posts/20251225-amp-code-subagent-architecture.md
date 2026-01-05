@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Beyang Liu 在 AI Engineer World's Fair 的演講。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=gvIAkmZUEZY)
+
+{{< youtube gvIAkmZUEZY >}}
+
+---
 
 「Agent 是什麼？就是一個 for loop，加上工具呼叫，加上一個模型。」Amp Code 創辦人 Beyang Liu 在演講開頭就這樣說。這句話聽起來有點輕描淡寫——如果 agent 這麼簡單，為什麼市場上的 coding agent 表現差異這麼大？
 

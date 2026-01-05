@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2025 年 10 月播出的單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=lXUZvyajciY)
+
+{{< youtube lXUZvyajciY >}}
+
+---
 
 Andrej Karpathy 可以選擇開一家 AI 公司。以他的經歷和人脈，募資不會是問題。但他選擇了教育。這個選擇背後的邏輯，比表面看起來更深刻——它關乎他對 AI 時代人類角色的根本擔憂。
 

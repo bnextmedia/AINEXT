@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dex Horthy 在 AI Engineer 大會的演講。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=8kMaTybvDUw)
+
+{{< youtube 8kMaTybvDUw >}}
+
+---
 
 「誰建過 Agent？」台下一片手海。「誰建過十個以上的 Agent？」手少了一些。「誰建過一百個 Agent？」剩下幾隻手。Dex Horthy 站在 AI Engineer 大會的講台上，看著這些手，知道他們都經歷過同樣的事。
 

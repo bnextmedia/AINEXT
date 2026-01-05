@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 CBS《60 Minutes》2025 年播出的 AI 專題報導。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=KpOcUrPdx-4)
+
+{{< youtube KpOcUrPdx-4 >}}
+
+---
 
 Demis Hassabis 去年贏得諾貝爾獎的那天晚上，他的慶祝方式是和一位西洋棋世界冠軍打撲克牌。
 

@@ -9,6 +9,10 @@ source_name: "Stanford CS230"
 draft: false
 ---
 
+{{< youtube AuZoDsNmG_s >}}
+
+---
+
 「我們公司要導入 Agent。」
 
 如果你在科技業工作，2025 年大概聽過不少次這句話。Agent 是這一年最熱的關鍵字，從媒體報導到供應商簡報，每個人都在講 Agentic AI（能自主執行任務的 AI）要如何改變一切。但當老闆或客戶說出這句話時，你的第一反應應該是什麼？
@@ -130,5 +134,3 @@ Moroney 說，他看過太多公司這樣做事：高層在 LinkedIn 上看到�
 ---
 
 本文整理自 Stanford CS230 2025 年秋季班第九講「Career Advice in AI」。
-
-🎬 YouTube：https://www.youtube.com/watch?v=AuZoDsNmG_s

@@ -133,9 +133,4 @@ SpaceX 正在解決發射成本問題。Starlink 已經證明了大規模衛星�
 
 ---
 
-🎧 **收聽本集完整訪談**：
-- [Invest Like the Best EP.451 - Gavin Baker](https://podwise.ai/dashboard/episodes/6327964)
-
----
-
 *本文為 AINEXT 系列報導「Gavin Baker 談 AI 產業」第二篇。下一篇將分析 OpenAI、Anthropic、Google、XAI 四大前沿實驗室的競爭格局。*

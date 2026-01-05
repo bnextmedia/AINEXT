@@ -9,10 +9,11 @@ source_name: "DealBook Summit"
 draft: false
 ---
 
-> 本文整理自 DealBook Summit 訪談，由 Andrew Ross Sorkin 主持。
-> 🎬 原始影片：[YouTube](https://www.youtube.com/watch?v=N9gSO66oC6U)
+{{< youtube N9gSO66oC6U >}}
 
 ---
+
+> 本文整理自 DealBook Summit 訪談，由 Andrew Ross Sorkin 主持。
 
 2025 年初，一支影片悄悄在 YouTube 上架。
 

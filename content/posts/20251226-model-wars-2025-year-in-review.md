@@ -10,7 +10,12 @@ draft: false
 ---
 
 > 本文整理自 TBPN 2025 年 12 月 18 日播出的單集。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856) / [Spotify](https://open.spotify.com/episode/1v3nZ2FuZ1HFivr79nWjid)
+
+{{< spotify episode/1v3nZ2FuZ1HFivr79nWjid >}}
+
+{{< apple-podcast rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856 >}}
+
+---
 
 「Gemini 3 的發布才一個月前，感覺已經像是很久以前的事了。」TBPN 主持人在 12 月中的節目上這樣感嘆。這句話精準捕捉了 2025 年下半年 AI 產業的節奏——模型發布的速度之快，讓人幾乎來不及消化。從 8 月到 12 月，各大 AI 實驗室密集推出了超過十個重要模型，每一次發布都引發新一輪的排名洗牌和敘事轉變。這是一場史無前例的模型軍備競賽，而我們正身處其中。
 

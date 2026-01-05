@@ -9,10 +9,11 @@ source_name: "Generative Now (Lightspeed)"
 draft: false
 ---
 
-本文整理自 Lightspeed Venture Partners 的 Podcast《Generative Now》訪談內容。
-🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=_-V5objmQ00)
+{{< youtube _-V5objmQ00 >}}
 
 ---
+
+本文整理自 Lightspeed Venture Partners 的 Podcast《Generative Now》訪談內容。
 
 DeepSeek 的出現讓整個科技圈重新思考一個問題：當模型能力越來越接近，AI 產品的差異化要靠什麼？
 

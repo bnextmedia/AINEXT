@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dreamforce 2025 的對談。
-> 🎬 YouTube：[A Conversation with Sundar Pichai and Marc Benioff](https://www.youtube.com/watch?v=brQH2CCxbSE)
+
+{{< youtube brQH2CCxbSE >}}
+
+---
 
 Dreamforce 2025 的舞台上，Google 執行長皮查伊（Sundar Pichai）和 Salesforce 執行長貝尼奧夫（Marc Benioff）並肩而坐。兩人認識多年，私交甚篤，這場對談的氣氛輕鬆得像老朋友聚會。
 

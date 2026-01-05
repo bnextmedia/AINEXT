@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自《Sourcery》2025 年 12 月播出的專訪。
-> 🎬 YouTube：[收聽連結](https://www.youtube.com/watch?v=P5dsb28UVec)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/3RvA8djwoG1x8rBOg7ee7v)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/in/podcast/full-interview-anduril-ceo-brian-schimpf-on-%241b-revenue/id1738124704)
+
+{{< youtube P5dsb28UVec >}}
+
+{{< spotify episode/3RvA8djwoG1x8rBOg7ee7v >}}
+
+{{< apple-podcast in/podcast/full-interview-anduril-ceo-brian-schimpf-on-%241b-revenue/id1738124704 >}}
+
+---
 
 「有才華的人通常很難搞。他們意見超多、有時候很嗆、會直接說你很蠢。」國防科技公司 Anduril 的執行長乙布萊恩・乙辛普夫（Brian Schimpf）在談到他從 Palantir 學到的最重要教訓時，沒有給出那種勵志書會寫的漂亮答案。他給的是一個聽起來有點令人不舒服的真相：真正的人才管理，比大多數人想像的要麻煩得多。
 

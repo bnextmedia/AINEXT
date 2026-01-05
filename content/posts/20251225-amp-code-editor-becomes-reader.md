@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Beyang Liu 在 AI Engineer World's Fair 的演講。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=gvIAkmZUEZY)
+
+{{< youtube gvIAkmZUEZY >}}
+
+---
 
 「我現在已經很少手動編輯程式碼了。」這句話出自 Amp Code 的創辦人 Beyang Liu。對於一個專門打造 coding agent 的人來說，這聽起來可能有點諷刺，但這正是他觀察到的現實——當你真的開始重度使用 AI coding agent，你的工作內容會發生根本性的轉變。
 

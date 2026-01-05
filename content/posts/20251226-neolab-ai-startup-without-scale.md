@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自 TBPN Podcast 2025 年 12 月播出的單集。
-> 🎬 YouTube：[收聽連結](https://www.youtube.com/watch?v=DRZatti6mVM)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/6IaZ6BSNKkQQy6y4mmGQVN)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/us/podcast/amazon-x-openai-fords-ev-reality-check-kushner-drops/id1772360235?i=1000741755977)
+
+{{< youtube DRZatti6mVM >}}
+
+{{< spotify episode/6IaZ6BSNKkQQy6y4mmGQVN >}}
+
+{{< apple-podcast us/podcast/amazon-x-openai-fords-ev-reality-check-kushner-drops/id1772360235?i=1000741755977 >}}
+
+---
 
 「Scale is all you need。」這句話在 AI 圈幾乎成了信條。OpenAI、Anthropic、Google DeepMind 這些頂尖實驗室，都在瘋狂擴大運算規模，動輒燒掉數十億甚至上百億美元。Scaling Laws 的信仰者認為，只要持續加大模型參數、增加訓練資料、堆疊更多運算，AI 的能力就會持續提升。
 

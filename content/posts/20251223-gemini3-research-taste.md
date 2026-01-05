@@ -10,7 +10,8 @@ draft: false
 ---
 
 > 本文整理自《The MAD Podcast with Matt Turck》2025 年 12 月 18 日播出的單集，訪談來賓為 Google DeepMind Gemini 3 預訓練負責人 Sebastian Bourgeaud。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=cNGDAqFXvew)
+
+{{< youtube cNGDAqFXvew >}}
 
 ---
 

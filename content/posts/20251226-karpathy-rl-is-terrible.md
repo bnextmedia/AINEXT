@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2025 年 10 月播出的單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=lXUZvyajciY)
+
+{{< youtube lXUZvyajciY >}}
+
+---
 
 「強化學習很糟糕。只是之前的方法更糟。」這是 Andrej Karpathy 對目前 AI 訓練方法的直白評價。對於一個在 OpenAI 和 Tesla 都深度參與過模型訓練的人來說，這不是外行的抱怨，而是來自第一線的觀察。他認為 RL 的問題比大多數人理解的更根本，而人類學習的方式和機器學習之間的差距，可能比我們想像的大得多。
 

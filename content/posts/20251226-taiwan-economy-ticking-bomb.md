@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Hudson Institute 於 2025 年 7 月 22 日舉辦的座談會「How Trump's Tariffs Will Affect US-Taiwan Relations」。
-> 🎬 YouTube：[觀看完整座談](https://www.youtube.com/watch?v=0v2ytB6KVA0)
+
+{{< youtube 0v2ytB6KVA0 >}}
+
+---
 
 「臺灣真正的威脅不是關稅，而是災難性的總體經濟政策。」這是芝加哥大學布斯商學院教授謝長泰（Chang-Tai Hsieh）在座談會上的直言。當所有人都在焦慮川普會對臺灣課多少趴的關稅時，謝長泰和前美國財政部副助理部長 Brad Setser 把話題拉到了更深層的問題：臺灣經濟結構本身就有嚴重的失衡，而這些失衡正在累積成一顆定時炸彈。
 
@@ -65,7 +68,3 @@ Setser 認為，臺灣政府遲早要決定如何「資本重組」（recapitali
 這是一個不舒服但必要的對話。關稅可能只是表面，臺灣經濟結構的深層問題才是真正的挑戰。
 
 ---
-
-📎 請確認以下連結是否正確：
-- YouTube：https://www.youtube.com/watch?v=0v2ytB6KVA0
-- Hudson Institute 活動頁：https://www.hudson.org/events/how-trumps-tariffs-will-affect-us-taiwan-relations

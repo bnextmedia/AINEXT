@@ -9,8 +9,11 @@ source_name: "YouTube"
 draft: false
 ---
 
+{{< youtube 3cDHx2_QbPE >}}
+
+---
+
 > 本文整理自 Casey Handmer 受訪的 Podcast，2024 年 12 月播出。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=3cDHx2_QbPE)
 
 電網是什麼？
 

@@ -9,10 +9,11 @@ source_name: "Generative Now (Lightspeed)"
 draft: false
 ---
 
-本文整理自 Lightspeed Venture Partners 的 Podcast《Generative Now》訪談內容。
-🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=_-V5objmQ00)
+{{< youtube _-V5objmQ00 >}}
 
 ---
+
+本文整理自 Lightspeed Venture Partners 的 Podcast《Generative Now》訪談內容。
 
 「我有一個 Project 專門放我所有的健康紀錄。」
 

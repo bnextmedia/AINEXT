@@ -9,6 +9,10 @@ source_name: "Stanford CS230"
 draft: false
 ---
 
+{{< youtube AuZoDsNmG_s >}}
+
+---
+
 2025 年底，史丹佛大學的 CS230 深度學習課程進入了第九講，主題不是神經網路架構，不是最新的模型優化技術，而是一堂「AI 職涯建議」。這堂課之所以重要，不只因為授課者的份量，更因為它反映了整個 AI 產業正在經歷的人才觀念轉變。
 
 ## 為什麼這堂課值得關注？
@@ -94,5 +98,3 @@ Moroney 特別強調，社群媒體的貨幣是「互動」，不是「準確」
 ---
 
 本文整理自 Stanford CS230 2025 年秋季班第九講「Career Advice in AI」。
-
-🎬 YouTube：https://www.youtube.com/watch?v=AuZoDsNmG_s

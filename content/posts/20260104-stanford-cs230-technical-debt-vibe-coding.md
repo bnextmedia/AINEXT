@@ -9,6 +9,10 @@ source_name: "Stanford CS230"
 draft: false
 ---
 
+{{< youtube AuZoDsNmG_s >}}
+
+---
+
 程式碼現在幾乎是免費的。打開 ChatGPT、Claude 或任何一個 AI 程式助手，用自然語言描述你要的功能，幾秒鐘後就會吐出一段可以執行的程式碼。這個能力在兩年前還是科幻小說，現在已經是很多工程師的日常。
 
 但免費的程式碼，代價其實很高。
@@ -116,5 +120,3 @@ Vibe Coding 是一個強大的工具，但工具不會自己做決策。會用�
 ---
 
 本文整理自 Stanford CS230 2025 年秋季班第九講「Career Advice in AI」。
-
-🎬 YouTube：https://www.youtube.com/watch?v=AuZoDsNmG_s

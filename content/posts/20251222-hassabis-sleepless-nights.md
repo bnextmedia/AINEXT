@@ -10,7 +10,8 @@ draft: false
 ---
 
 > 本文整理自 Google DeepMind Podcast 2024 年 12 月播出的單集，由 Hannah Fry 主持，專訪 DeepMind 共同創辦人兼 CEO Demis Hassabis。
-> 🎧 收聯連結：[YouTube](https://www.youtube.com/watch?v=PqVbypvxDto)
+
+{{< youtube PqVbypvxDto >}}
 
 ---
 

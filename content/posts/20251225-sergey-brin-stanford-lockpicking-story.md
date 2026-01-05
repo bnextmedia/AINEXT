@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自史丹佛工程學院百年校慶活動，2025 年 12 月播出。
-> 🎧 收聯連結：[YouTube](https://www.youtube.com/watch?v=0nlNX94FcUE)
+
+{{< youtube 0nlNX94FcUE >}}
+
+---
 
 「追溯時效應該已經過了吧，我可以講這個故事了。」
 

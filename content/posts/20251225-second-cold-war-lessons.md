@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2024 年播出的 Sarah Paine 系列講座。
-> 🎧 收聯連結：[YouTube](https://www.youtube.com/watch?v=FdkpWrlR5zg)
+
+{{< youtube FdkpWrlR5zg >}}
+
+---
 
 「我們似乎正處於第二次冷戰。」
 

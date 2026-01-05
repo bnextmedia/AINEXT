@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自《Sourcery》2025 年 12 月播出的專訪。
-> 🎬 YouTube：[收聽連結](https://www.youtube.com/watch?v=P5dsb28UVec)
-> 🎧 Spotify：[收聽連結](https://open.spotify.com/episode/3RvA8djwoG1x8rBOg7ee7v)
-> 🎧 Apple Podcast：[收聽連結](https://podcasts.apple.com/in/podcast/full-interview-anduril-ceo-brian-schimpf-on-%241b-revenue/id1738124704)
+
+{{< youtube P5dsb28UVec >}}
+
+{{< spotify episode/3RvA8djwoG1x8rBOg7ee7v >}}
+
+{{< apple-podcast in/podcast/full-interview-anduril-ceo-brian-schimpf-on-%241b-revenue/id1738124704 >}}
+
+---
 
 美國國防預算即將突破一兆美元大關。這個數字聽起來龐大到難以想像，很多人直覺地認為，美國每年花一兆美元在買武器、造飛機、建軍艦。但實際情況完全不是這樣。國防科技公司 Anduril 的執行長乙布萊恩・乙辛普夫（Brian Schimpf）在接受 Sourcery 專訪時，拆解了這筆預算的真實去向，答案可能會讓你大吃一驚。
 

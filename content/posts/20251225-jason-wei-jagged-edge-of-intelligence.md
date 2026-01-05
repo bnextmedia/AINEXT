@@ -9,8 +9,11 @@ source_name: "Stanford AI Club"
 draft: false
 ---
 
+{{< youtube b6Doq2fz81U >}}
+
+---
+
 > 本文整理自 Stanford AI Club 2025 年的演講。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=b6Doq2fz81U)
 
 你可能聽過一種說法：一旦 AI 突破某個臨界點，就會在短短幾年內遠遠超越人類，接管一切。這個「快速起飛」的論述聽起來很嚇人，但 Jason Wei 不這樣看。
 

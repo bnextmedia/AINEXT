@@ -10,9 +10,14 @@ draft: false
 ---
 
 > 本文整理自《Open Residency》2024 年 12 月播出的單集。
-> 🎬 YouTube：[連結](https://youtu.be/EVDQ1MijHbk)
-> 🎧 Spotify：[連結](https://open.spotify.com/episode/5C6IjBT3Jn6HWNtJI2DeuX)
-> 🎧 Apple Podcast：[連結](https://podcasts.apple.com/kn/podcast/dan-koe-how-to-get-ahead-of-99-of-people-in-2026/id1791782856)
+
+{{< youtube EVDQ1MijHbk >}}
+
+{{< spotify episode/5C6IjBT3Jn6HWNtJI2DeuX >}}
+
+{{< apple-podcast kn/podcast/dan-koe-how-to-get-ahead-of-99-of-people-in-2026/id1791782856 >}}
+
+---
 
 「AI 會取代我嗎？」這個問題從 2024 年問到現在，還是沒有停。但如果你仔細觀察，會發現真正焦慮的人，往往是那些把職涯綁定在「單一技能」上的人——會寫程式、會做設計、會寫文案，卻從來沒想過這些技能背後，有沒有更底層、更不容易被取代的能力。
 

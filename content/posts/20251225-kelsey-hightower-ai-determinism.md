@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 JetBrains 2024 年 12 月發布的訪談。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=HdUbTyvrfKo)
+
+{{< youtube HdUbTyvrfKo >}}
+
+---
 
 「為什麼要預測？明明可以確定。」
 

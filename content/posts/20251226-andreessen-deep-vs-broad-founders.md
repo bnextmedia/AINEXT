@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 The a16z Show 2025 年 5 月播出的單集，錄製於 a16z 2025 LP 大會。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760)
+
+{{< apple-podcast lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760 >}}
+
+---
 
 「深耕」還是「廣博」？這個問題困擾了很多職場工作者和創業者。傳統觀念告訴我們，要成為某個領域的專家，得花一萬小時練習，才能建立不可取代的競爭力。但 a16z 創辦人 Marc Andreessen 在最近一場訪談中，給出了一個反直覺的答案：在 AI 時代，他更看好「什麼都懂一點」的人。
 

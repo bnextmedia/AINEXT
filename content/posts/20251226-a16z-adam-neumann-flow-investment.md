@@ -10,7 +10,14 @@ draft: false
 ---
 
 > 本文整理自《20VC》2024 年 12 月 15 日播出的單集。
-> 🎬 [YouTube](https://www.youtube.com/watch?v=IxoGRY6TXwk) ｜ 🎧 [Spotify](https://open.spotify.com/episode/78O9tV4CEyE5o9TEbo6qTe) ｜ 🎧 [Apple Podcast](https://podcasts.apple.com/bh/podcast/20vc-a16zs-david-george-on-how-%24bn-funds-can-5-do-margins/id958230465)
+
+{{< youtube IxoGRY6TXwk >}}
+
+{{< spotify episode/78O9tV4CEyE5o9TEbo6qTe >}}
+
+{{< apple-podcast bh/podcast/20vc-a16zs-david-george-on-how-%24bn-funds-can-5-do-margins/id958230465 >}}
+
+---
 
 「我真的不懂 Flow。你能幫我理解嗎？」
 

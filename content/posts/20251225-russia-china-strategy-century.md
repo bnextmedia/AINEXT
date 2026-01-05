@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 的公開演講與訪談。
-> 🎧 收聯連結：[YouTube](https://www.youtube.com/watch?v=RH_ycZYH8-s)
+
+{{< youtube RH_ycZYH8-s >}}
+
+---
 
 「我用『俄羅斯』這個詞來指稱沙皇、蘇聯和現代時期，就像你用『法國』來指稱它的多個君主制和共和制一樣。」
 

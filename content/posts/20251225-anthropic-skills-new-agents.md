@@ -62,4 +62,3 @@ OpenAI 已經悄悄在 ChatGPT 中加入了 Skills 功能。據 Podcast 主持�
 2025 是 Agent 之年，這個判斷沒有錯。但技術發展總是一浪接一浪。Anthropic 已經開始佈局下一個階段，把重心從「建造更聰明的 Agent」轉向「賦予 Agent 專業技能」。這是否代表 Agent 開發的終結？當然不是。但它確實揭示了一個趨勢：AI 越來越強大之後，關鍵差異化將來自專業知識的封裝和分享方式。誰能建立最好的 Skills 生態系，誰就可能在下一輪競爭中佔據優勢。
 
 本文整理自 Break Even Brothers Podcast 2025 年 12 月底播出的單集。
-🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=f8I4cGrDFYA)

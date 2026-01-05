@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自《NEJM AI Grand Rounds》2025 年 7 月播出的單集。
-> 🎧 收聽連結：[Apple Podcast](https://podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879)
+
+{{< apple-podcast tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879 >}}
+
+---
 
 2024 年 2 月，Andy Beam 在家休育嬰假。第二個孩子剛出生，這次比第一胎輕鬆太多了——沒有疫情、沒有同時創業、日托沒有關閉。他終於有時間好好想一件事：我真正想做的問題，在學界還做得了嗎？
 

@@ -10,7 +10,12 @@ draft: false
 ---
 
 > 本文整理自 Joe Rogan Experience #1309，2019 年 6 月 4 日播出。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=3qHkcs3kG44) ｜ [Spotify](https://open.spotify.com/episode/2ilk3ZQRW5KVvbY0nhtqBA)
+
+{{< youtube 3qHkcs3kG44 >}}
+
+{{< spotify episode/2ilk3ZQRW5KVvbY0nhtqBA >}}
+
+---
 
 Naval Ravikant 是 AngelList 創辦人，矽谷最具影響力的天使投資人之一。他投資過 Twitter、Uber、Notion 等公司，但真正讓他聲名大噪的，是他在 Twitter 上發布的「How to Get Rich (without getting lucky)」推文串，後來被翻譯成數十種語言。
 

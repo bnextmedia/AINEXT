@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。
-> 🎬 YouTube：[連結](https://www.youtube.com/watch?v=uJWZQb9rWUk)
+
+{{< youtube uJWZQb9rWUk >}}
+
+---
 
 「HBM 這個詞，大家大概是一年前才開始聽到的。但這項技術從 2010 年就開始研發了，花了 15 年才變成今天的熱門話題。」
 

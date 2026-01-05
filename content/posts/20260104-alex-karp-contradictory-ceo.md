@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 DW Documentary 於 2026 年 1 月播出的紀錄片《Silicon Valley mastermind - Who's behind Palantir's "Gotham" surveillance software?》
-> 🎬 YouTube：[觀看連結](https://www.youtube.com/watch?v=hN-mEGLF_6w)
+
+{{< youtube hN-mEGLF_6w >}}
+
+---
 
 「Alex Karp is a coward! Alex Karp is a coward!」（Alex Karp 是懦夫！）
 

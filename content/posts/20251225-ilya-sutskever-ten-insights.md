@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2024 年 12 月播出的單集。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=aR20FWCCjAs)
+
+{{< youtube aR20FWCCjAs >}}
+
+---
 
 Ilya Sutskever 是深度學習革命的核心人物。從 2012 年的 AlexNet 到 GPT 系列，他參與了過去十年幾乎所有重要的 AI 突破。2024 年，他離開 OpenAI，創辦了專注於超級智慧的公司 SSI（Safe Superintelligence Inc.）。
 

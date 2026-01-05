@@ -10,7 +10,10 @@ draft: false
 ---
 
 > 本文整理自 Dwarkesh Podcast 2024 年播出的 Sarah Paine 系列講座。
-> 🎧 收聽連結：[YouTube](https://www.youtube.com/watch?v=FdkpWrlR5zg)
+
+{{< youtube FdkpWrlR5zg >}}
+
+---
 
 1989 年 11 月 9 日，柏林圍牆倒塌。全世界都在狂歡，但美國總統老布希選擇不飛去柏林，不在圍牆上跳舞，不發表慷慨激昂的勝利演說。
 

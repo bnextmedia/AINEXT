@@ -3,9 +3,10 @@
   <h1 class="archive_title">{{ .Title }}</h1>
   
   {{- $pages := where site.RegularPages "Type" "posts" }}
-  {{- $grouped := $pages.GroupByDate "2006" }}
+  {{- $grouped := $pages.GroupByDate "2006" "Date" }}
   
   {{- range $grouped }}
+  {{- if ne .Key "0001" }}
   <div class="archive-year">
     <h2 class="archive-year-title">{{ .Key }}</h2>
     {{- range .Pages }}
@@ -15,6 +16,7 @@
     </a>
     {{- end }}
   </div>
+  {{- end }}
   {{- end }}
 </div>
 

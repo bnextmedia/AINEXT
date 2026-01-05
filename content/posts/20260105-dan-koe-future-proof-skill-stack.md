@@ -13,9 +13,9 @@ draft: false
 
 {{< youtube EVDQ1MijHbk >}}
 
-{{< spotify episode/5C6IjBT3Jn6HWNtJI2DeuX >}}
+{{< spotify "episode/5C6IjBT3Jn6HWNtJI2DeuX" >}}
 
-{{< apple-podcast kn/podcast/dan-koe-how-to-get-ahead-of-99-of-people-in-2026/id1791782856 >}}
+{{< apple-podcast "kn/podcast/dan-koe-how-to-get-ahead-of-99-of-people-in-2026/id1791782856" >}}
 
 ---
 

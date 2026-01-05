@@ -11,7 +11,7 @@ draft: false
 
 > 本文整理自 The a16z Show 2025 年 5 月播出的單集，錄製於 a16z 2025 LP 大會。
 
-{{< apple-podcast lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760 >}}
+{{< apple-podcast "lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760" >}}
 
 ---
 

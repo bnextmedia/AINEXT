@@ -13,7 +13,7 @@ draft: false
 
 {{< youtube 3qHkcs3kG44 >}}
 
-{{< spotify episode/2ilk3ZQRW5KVvbY0nhtqBA >}}
+{{< spotify "episode/2ilk3ZQRW5KVvbY0nhtqBA" >}}
 
 ---
 

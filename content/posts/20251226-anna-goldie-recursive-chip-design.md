@@ -13,9 +13,9 @@ draft: false
 
 {{< youtube 2gCZql8C0tk >}}
 
-{{< spotify episode/1arhdqrFfjs9Dj3lt1qfoU >}}
+{{< spotify "episode/1arhdqrFfjs9Dj3lt1qfoU" >}}
 
-{{< apple-podcast us/podcast/2025-in-review-cursor-acquires-graphite-tiktoks-%2450b/id1772360235 >}}
+{{< apple-podcast "us/podcast/2025-in-review-cursor-acquires-graphite-tiktoks-%2450b/id1772360235" >}}
 
 ---
 

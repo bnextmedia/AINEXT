@@ -11,9 +11,9 @@ draft: false
 
 > 本文整理自 Legaltech Lounge Podcast 2025 年 3 月播出的單集。
 
-{{< spotify episode/6TcTTIeMjbZ6ksljumcM1N >}}
+{{< spotify "episode/6TcTTIeMjbZ6ksljumcM1N" >}}
 
-{{< apple-podcast us/podcast/s02e05-navigating-digital-transformation-in-house-counsel/id1725709717?i=1000699635807 >}}
+{{< apple-podcast "us/podcast/s02e05-navigating-digital-transformation-in-house-counsel/id1725709717?i=1000699635807" >}}
 
 ---
 

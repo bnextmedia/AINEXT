@@ -11,9 +11,9 @@ draft: false
 
 > 本文整理自《The Pie》2025 年 6 月播出的單集「AI, the Economy, and Public Policy」。
 
-{{< spotify us/podcast/pandemic-economics/id1509074261 >}}
+{{< spotify "us/podcast/pandemic-economics/id1509074261" >}}
 
-{{< apple-podcast us/podcast/pandemic-economics/id1509074261 >}}
+{{< apple-podcast "us/podcast/pandemic-economics/id1509074261" >}}
 
 ---
 

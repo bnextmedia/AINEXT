@@ -13,9 +13,9 @@ draft: false
 
 {{< youtube DRZatti6mVM >}}
 
-{{< spotify episode/6IaZ6BSNKkQQy6y4mmGQVN >}}
+{{< spotify "episode/6IaZ6BSNKkQQy6y4mmGQVN" >}}
 
-{{< apple-podcast us/podcast/amazon-x-openai-fords-ev-reality-check-kushner-drops/id1772360235?i=1000741755977 >}}
+{{< apple-podcast "us/podcast/amazon-x-openai-fords-ev-reality-check-kushner-drops/id1772360235?i=1000741755977" >}}
 
 ---
 

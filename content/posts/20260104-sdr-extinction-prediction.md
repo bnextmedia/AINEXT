@@ -13,9 +13,9 @@ draft: false
 
 {{< youtube I-R1bc1rlFs >}}
 
-{{< spotify episode/5lt9zI2E5MVPm5aHQ3FDJ7 >}}
+{{< spotify "episode/5lt9zI2E5MVPm5aHQ3FDJ7" >}}
 
-{{< apple-podcast us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305 >}}
+{{< apple-podcast "us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305" >}}
 
 ---
 

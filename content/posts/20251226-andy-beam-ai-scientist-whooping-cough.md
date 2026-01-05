@@ -11,7 +11,7 @@ draft: false
 
 > 本文整理自《NEJM AI Grand Rounds》2025 年 7 月播出的單集。
 
-{{< apple-podcast tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879 >}}
+{{< apple-podcast "tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879" >}}
 
 ---
 

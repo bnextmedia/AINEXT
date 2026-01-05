@@ -11,9 +11,9 @@ draft: false
 
 > 本文整理自 TBPN 2025 年 12 月 18 日播出的單集。
 
-{{< spotify episode/1v3nZ2FuZ1HFivr79nWjid >}}
+{{< spotify "episode/1v3nZ2FuZ1HFivr79nWjid" >}}
 
-{{< apple-podcast rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856 >}}
+{{< apple-podcast "rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856" >}}
 
 ---
 

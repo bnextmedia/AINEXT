@@ -13,9 +13,9 @@ draft: false
 
 {{< youtube ShkxpBoObCQ >}}
 
-{{< spotify episode/6x9oNKwXhe2OBrr9xsoSGs >}}
+{{< spotify "episode/6x9oNKwXhe2OBrr9xsoSGs" >}}
 
-{{< apple-podcast us/podcast/the-ben-marc-show-china-has-scale-can-america-catch-up/id842818711 >}}
+{{< apple-podcast "us/podcast/the-ben-marc-show-china-has-scale-can-america-catch-up/id842818711" >}}
 
 ---
 

@@ -11,9 +11,9 @@ draft: false
 
 > 本文整理自芝加哥大學 Becker Friedman Institute 製作的《The Pie》Podcast，2025 年 5 月 13 日播出的單集。
 
-{{< spotify show/2UEsLEtKK1JHOWO4Mf9uPa >}}
+{{< spotify "show/2UEsLEtKK1JHOWO4Mf9uPa" >}}
 
-{{< apple-podcast us/podcast/pandemic-economics/id1509074261 >}}
+{{< apple-podcast "us/podcast/pandemic-economics/id1509074261" >}}
 
 ---
 

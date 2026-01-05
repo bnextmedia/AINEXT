@@ -11,9 +11,9 @@ draft: false
 
 > 本文整理自《The Diary Of A CEO with Steven Bartlett》2025 年 12 月 4 日播出的單集。
 
-{{< spotify episode/6LDmLYDdYwyBtwCqELGzQk >}}
+{{< spotify "episode/6LDmLYDdYwyBtwCqELGzQk" >}}
 
-{{< apple-podcast nl/podcast/the-man-who-wrote-the-book-on-ai-2030-might-be-the/id1291423644 >}}
+{{< apple-podcast "nl/podcast/the-man-who-wrote-the-book-on-ai-2030-might-be-the/id1291423644" >}}
 
 ---
 

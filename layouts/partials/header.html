@@ -31,9 +31,11 @@
 <style>
 /* Desktop navigation links */
 .nav-links {
-  display: none;
+  display: flex;
+  flex-direction: row;
   gap: 1.5rem;
   align-items: center;
+  white-space: nowrap;
 }
 
 .nav-link {
@@ -48,14 +50,21 @@
   color: var(--theme);
 }
 
-/* Show desktop menu on larger screens */
+/* Hide hamburger menu on desktop */
 @media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+/* Show hamburger menu on mobile, hide nav-links */
+@media (max-width: 767px) {
   .nav-links {
-    display: flex;
+    display: none;
   }
   
   .nav_bar-wrap {
-    display: none;
+    display: grid;
   }
 }
 

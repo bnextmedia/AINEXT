@@ -1,0 +1,46 @@
+{{ $p := .Params }}
+{{ $image := "" }}
+{{ $images_dir := "images/" }}
+
+{{/* 1. 優先使用 front matter 中指定的 image */}}
+{{ if isset $p "image" }}
+  {{ $image = $p.image }}
+{{ end }}
+
+{{/* 2. 如果沒有 image，嘗試從 source_url 抓 YouTube 縮圖 */}}
+{{ if eq $image "" }}
+  {{ with $p.source_url }}
+    {{ if findRE "youtube\\.com|youtu\\.be" . }}
+      {{/* 從 YouTube URL 提取 video ID */}}
+      {{ $videoID := "" }}
+      {{ if findRE "v=([a-zA-Z0-9_-]+)" . }}
+        {{ $videoID = replaceRE ".*v=([a-zA-Z0-9_-]+).*" "$1" . }}
+      {{ else if findRE "youtu\\.be/([a-zA-Z0-9_-]+)" . }}
+        {{ $videoID = replaceRE ".*youtu\\.be/([a-zA-Z0-9_-]+).*" "$1" . }}
+      {{ end }}
+      {{ if ne $videoID "" }}
+        {{ $image = printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" $videoID }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* 3. 如果還是沒有，使用預設縮圖 */}}
+{{ if eq $image "" }}
+  {{ $image = "thumbnail.svg" }}
+{{ end }}
+
+{{ $bg := $image }}
+
+{{/* 處理相對路徑 */}}
+{{ if eq (in $image "https://") false }}
+  {{ if eq (in $image "http://") false }}
+    {{ $bg = (printf "%s%s" $images_dir $image) }}
+    {{ if in $image $images_dir }}
+      {{ $bg = $image }}
+    {{ end }}
+    {{ $bg = absURL $bg }}
+  {{ end }}
+{{ end }}
+
+{{ return $bg }}

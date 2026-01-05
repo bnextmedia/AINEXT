@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="archive wrap mt">
+  <h1 class="archive_title">{{ .Title }}</h1>
+  
+  {{- $pages := where site.RegularPages "Type" "posts" }}
+  {{- $grouped := $pages.GroupByDate "2006" }}
+  
+  {{- range $grouped }}
+  <div class="archive-year">
+    <h2 class="archive-year-title">{{ .Key }}</h2>
+    {{- range .Pages }}
+    <a class="archive_item" href="{{ .Permalink }}">
+      <time class="post_date">{{ dateFormat "01-02" .Date }}</time>
+      <span class="article_title">{{ .Title }}</span>
+    </a>
+    {{- end }}
+  </div>
+  {{- end }}
+</div>
+
+<style>
+.archive-year {
+  margin-bottom: 2rem;
+}
+.archive-year-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-color, #eee);
+}
+.archive_item {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  color: inherit;
+}
+.archive_item:hover {
+  background-color: var(--hover-bg, #f5f5f5);
+}
+.archive_item .post_date {
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  color: var(--secondary-color, #666);
+  min-width: 50px;
+}
+.archive_item .article_title {
+  flex-grow: 1;
+}
+</style>
+{{ end }}

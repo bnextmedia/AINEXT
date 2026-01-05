@@ -1,6 +1,6 @@
 ---
 title: "Groq 攜手 NVIDIA：Chamath 親解「Pre-fill 與 Decode」的架構之爭"
-date: 2026-01-06T12:00:00+08:00
+date: 2026-01-05T12:00:00+08:00
 description: "為什麼 NVIDIA 願意與潛在競爭對手 Groq 合作？All-In Podcast 主持人、Groq 早期投資人 Chamath Palihapitiya 揭露了 AI 推論背後的關鍵技術瓶頸：Pre-fill（預填充）與 Decode（解碼）的本質差異。"
 tags: ["Groq", "NVIDIA", "AI晶片", "Chamath Palihapitiya", "LLM"]
 categories: ["AI 產業"]

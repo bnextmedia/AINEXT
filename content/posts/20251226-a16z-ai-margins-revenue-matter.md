@@ -15,7 +15,7 @@ draft: false
 
 {{< spotify "episode/78O9tV4CEyE5o9TEbo6qTe" >}}
 
-{{< apple-podcast "bh/podcast/20vc-a16zs-david-george-on-how-%24bn-funds-can-5-do-margins/id958230465" >}}
+{{< apple-podcast "us/podcast/20vc-a16zs-david-george-on-how-%24bn-funds-can-5-do-margins/id958230465?i=1000741318876" >}}
 
 ---
 

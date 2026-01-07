@@ -4,9 +4,10 @@
 {{- $pages := where site.RegularPages "Type" "in" $config.mainSections }}
 <div class="wrap pt-2 mt-2">
   {{- $paginator := .Paginate $pages -}}
-  {{- $size := $paginator.PagerSize }}
-  {{- $scratch := newScratch }}
+  {{- $size := len $paginator.Pages }}
   {{- range $index, $value := $paginator.Pages }}
+  {{/* 第一篇之後開始 grid-2 區塊 */}}
+  {{- if eq $index 1 }}<div class="grid-2 article_showcase">{{ end }}
   {{ $bg := partial "func/getImage" . }}
   <article class="article mb-2">
     <a href={{ $value.Permalink }} {{ if eq $index 0 }} class=grid-reverse {{ end }}>
@@ -20,9 +21,9 @@
       </div>
     </a>
   </article>
-  {{- if and (eq $index 0) (gt $size 1) }}<div class="grid-2 article_showcase">{{ end }}
-    {{- if and (eq $index (add $size -1)) (gt $size 1) }}</div>{{ end }}
   {{- end }}
+  {{/* 如果有超過一篇文章，關閉 grid-2 區塊 */}}
+  {{- if gt $size 1 }}</div>{{ end }}
 </div>
 <a href='{{ absURL (printf "%s/%s" $blog_dir "") }}' class=post_nav><span class=post_next>{{ T "archive_text" }}
     <svg class="icon icon_scale">

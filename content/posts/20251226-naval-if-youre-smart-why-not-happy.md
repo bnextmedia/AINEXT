@@ -13,6 +13,8 @@ draft: false
 
 {{< youtube 3qHkcs3kG44 >}}
 
+{{< spotify "episode/2ilk3ZQRW5KVvbY0nhtqBA" >}}
+
 ---
 
 有一種說法在知識分子圈子裡流傳：聰明人不快樂。彷彿智慧與痛苦是一體兩面，彷彿看透世界的代價就是無法享受它。

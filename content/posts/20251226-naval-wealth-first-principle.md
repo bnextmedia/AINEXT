@@ -13,6 +13,8 @@ draft: false
 
 {{< youtube 3qHkcs3kG44 >}}
 
+{{< spotify "episode/2ilk3ZQRW5KVvbY0nhtqBA" >}}
+
 ---
 
 Naval Ravikant 是 AngelList 創辦人，矽谷最具影響力的天使投資人之一。他投資過 Twitter、Uber、Notion 等公司，但真正讓他聲名大噪的，是他在 Twitter 上發布的「How to Get Rich (without getting lucky)」推文串，後來被翻譯成數十種語言。

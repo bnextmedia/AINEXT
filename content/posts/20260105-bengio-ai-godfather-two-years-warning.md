@@ -10,14 +10,9 @@ draft: false
 ---
 
 > 本文整理自《The Diary Of A CEO with Steven Bartlett》2025 年 12 月 18 日播出的單集。
-
-{{< youtube zQ1POHiR8m8 >}}
-
-{{< spotify "episode/3IWYsx5XV9hOFJdtFOKbU8" >}}
-
-{{< apple-podcast "mo/podcast/creator-of-ai-we-have-2-years-before-everything/id1291423644?i=1000741795419" >}}
-
----
+> 🎬 YouTube：[連結](https://www.youtube.com/watch?v=zQ1POHiR8m8)
+> 🎧 Spotify：[連結](https://open.spotify.com/episode/3IWYsx5XV9hOFJdtFOKbU8)
+> 🎧 Apple Podcast：[連結](https://podcasts.apple.com/mo/podcast/creator-of-ai-we-have-2-years-before-everything/id1291423644?i=1000741795419)
 
 2023 年初的某個下午，Yoshua Bengio 正在照顧他剛滿一歲的孫子。這位被譽為「AI 三巨頭」之一的學者，看著孫子在地上爬行、對世界充滿好奇，突然意識到一件事：這個孩子 20 年後是否還能擁有正常的人生，可能取決於他接下來做出的選擇。
 

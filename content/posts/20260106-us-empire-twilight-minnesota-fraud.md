@@ -1,6 +1,6 @@
 ---
 title: "美國帝國的黃昏？從明尼蘇達詐欺案看財政崩壞與資產稅爭議"
-date: 2026-01-05T12:00:00+08:00
+date: 2026-01-06T12:00:00+08:00
 description: "當福利詐欺變成買票工具，當政府試圖透過沒收資產來填補赤字黑洞。All-In Podcast 揭示的已不只是單一案件，而是美國「贊助體系」下的系統性崩壞。Chamath Palihapitiya 警告：如果我們視這種盜竊為理所當然，這將是美國帝國終結的開始。"
 tags: ["總體經濟", "美國財政", "All-In Podcast", "David Sacks", "Chamath Palihapitiya"]
 categories: ["投資理財"]

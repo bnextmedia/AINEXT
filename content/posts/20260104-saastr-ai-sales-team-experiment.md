@@ -15,7 +15,7 @@ draft: false
 
 {{< spotify "episode/5lt9zI2E5MVPm5aHQ3FDJ7" >}}
 
-{{< apple-podcast "us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305?i=1000743418847" >}}
+{{< apple-podcast "us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305" >}}
 
 ---
 

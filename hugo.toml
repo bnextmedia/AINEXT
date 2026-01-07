@@ -3,7 +3,7 @@ languageCode = "zh-TW"
 title = "AINEXT"
 theme = "newsroom"
 author = "James"
-canonifyurls = true
+canonifyurls = false
 
 enableRobotsTXT = true
 buildDrafts = false

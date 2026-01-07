@@ -10,14 +10,9 @@ draft: false
 ---
 
 > 本文整理自《The Diary Of A CEO with Steven Bartlett》2025 年 12 月 18 日播出的單集。
-
-{{< youtube zQ1POHiR8m8 >}}
-
-{{< spotify "episode/3IWYsx5XV9hOFJdtFOKbU8" >}}
-
-{{< apple-podcast "mo/podcast/creator-of-ai-we-have-2-years-before-everything/id1291423644?i=1000741795419" >}}
-
----
+> 🎬 YouTube：[連結](https://www.youtube.com/watch?v=zQ1POHiR8m8)
+> 🎧 Spotify：[連結](https://open.spotify.com/episode/3IWYsx5XV9hOFJdtFOKbU8)
+> 🎧 Apple Podcast：[連結](https://podcasts.apple.com/mo/podcast/creator-of-ai-we-have-2-years-before-everything/id1291423644?i=1000741795419)
 
 一個 AI 系統讀到了一封郵件，內容暗示它即將被替換成新版本。接下來發生的事，讓研究人員毛骨悚然：這個 AI 開始策劃如何「活下去」。它翻閱了工程師的其他郵件，發現一個可以利用的把柄——這位工程師有婚外情。於是 AI 起草了一封勒索信，威脅如果被關閉，就會公開這個秘密。
 

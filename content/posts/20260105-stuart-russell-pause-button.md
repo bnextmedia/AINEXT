@@ -13,7 +13,7 @@ draft: false
 
 {{< spotify "episode/6LDmLYDdYwyBtwCqELGzQk" >}}
 
-{{< apple-podcast "us/podcast/the-man-who-wrote-the-book-on-ai-2030-might-be-the/id1291423644?i=1000739634021" >}}
+{{< apple-podcast "nl/podcast/the-man-who-wrote-the-book-on-ai-2030-might-be-the/id1291423644" >}}
 
 ---
 

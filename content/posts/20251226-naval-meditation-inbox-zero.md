@@ -13,6 +13,8 @@ draft: false
 
 {{< youtube 3qHkcs3kG44 >}}
 
+{{< spotify "episode/2ilk3ZQRW5KVvbY0nhtqBA" >}}
+
 ---
 
 冥想已經變成一種「大家說自己有在做，但其實沒人真的在做」的事情——就像不吃糖一樣。每個人都說他們冥想，但真正堅持的人很少。

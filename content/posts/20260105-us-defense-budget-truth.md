@@ -15,7 +15,7 @@ draft: false
 
 {{< spotify "episode/3RvA8djwoG1x8rBOg7ee7v" >}}
 
-{{< apple-podcast "us/podcast/full-interview-anduril-ceo-brian-schimpf-on-%241b-revenue/id1738124704?i=1000741520331" >}}
+{{< apple-podcast "in/podcast/full-interview-anduril-ceo-brian-schimpf-on-%241b-revenue/id1738124704" >}}
 
 ---
 

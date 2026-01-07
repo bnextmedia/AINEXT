@@ -13,7 +13,7 @@ draft: false
 
 {{< spotify "show/2UEsLEtKK1JHOWO4Mf9uPa" >}}
 
-{{< apple-podcast "us/podcast/between-a-chip-and-a-hard-place/id1509074261?i=1000708232327" >}}
+{{< apple-podcast "us/podcast/pandemic-economics/id1509074261" >}}
 
 ---
 

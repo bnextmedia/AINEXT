@@ -10,14 +10,9 @@ draft: false
 ---
 
 > 本文整理自《The Diary Of A CEO with Steven Bartlett》2025 年 12 月 18 日播出的單集。
-
-{{< youtube zQ1POHiR8m8 >}}
-
-{{< spotify "episode/3IWYsx5XV9hOFJdtFOKbU8" >}}
-
-{{< apple-podcast "mo/podcast/creator-of-ai-we-have-2-years-before-everything/id1291423644?i=1000741795419" >}}
-
----
+> 🎬 YouTube：[連結](https://www.youtube.com/watch?v=zQ1POHiR8m8)
+> 🎧 Spotify：[連結](https://open.spotify.com/episode/3IWYsx5XV9hOFJdtFOKbU8)
+> 🎧 Apple Podcast：[連結](https://podcasts.apple.com/mo/podcast/creator-of-ai-we-have-2-years-before-everything/id1291423644?i=1000741795419)
 
 當一位科學家說「即使只有 1% 的機率，也是無法接受的」，我們應該認真聽聽他在說什麼。尤其當這位科學家是 Yoshua Bengio——深度學習的奠基者之一、2018 年圖靈獎得主、全球被引用次數最多的學者。
 

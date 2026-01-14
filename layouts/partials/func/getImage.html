@@ -32,15 +32,14 @@
 
 {{ $bg := $image }}
 
-{{/* 處理相對路徑 */}}
-{{ if eq (in $image "https://") false }}
-  {{ if eq (in $image "http://") false }}
-    {{ $bg = (printf "%s%s" $images_dir $image) }}
-    {{ if in $image $images_dir }}
-      {{ $bg = $image }}
-    {{ end }}
-    {{ $bg = absURL $bg }}
+{{/* 處理相對路徑 - 只有非外部 URL 才需要加上 absURL */}}
+{{ $isExternal := or (hasPrefix $image "https://") (hasPrefix $image "http://") }}
+{{ if not $isExternal }}
+  {{ $bg = (printf "%s%s" $images_dir $image) }}
+  {{ if hasPrefix $image $images_dir }}
+    {{ $bg = $image }}
   {{ end }}
+  {{ $bg = absURL $bg }}
 {{ end }}
 
 {{ return $bg }}

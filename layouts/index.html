@@ -1,9 +1,43 @@
 {{ define "main" }}
 {{- $config := site.Params }}
 {{- $blog_dir := default "posts" $config.blogDir }}
-{{- $pages := where site.RegularPages "Type" "in" $config.mainSections }}
+{{- $allPages := where site.RegularPages "Type" "in" $config.mainSections }}
+
+{{/* 過濾同 source_url 的重複文章，只保留最新一篇 */}}
+{{- $seenSources := slice }}
+{{- $filteredPages := slice }}
+{{- range $allPages }}
+  {{- $sourceID := "" }}
+  {{- with .Params.source_url }}
+    {{/* 從 YouTube URL 提取 video ID */}}
+    {{- if findRE "youtube\\.com|youtu\\.be" . }}
+      {{- if findRE "v=([a-zA-Z0-9_-]+)" . }}
+        {{- $sourceID = replaceRE ".*v=([a-zA-Z0-9_-]+).*" "$1" . }}
+      {{- else if findRE "youtu\\.be/([a-zA-Z0-9_-]+)" . }}
+        {{- $sourceID = replaceRE ".*youtu\\.be/([a-zA-Z0-9_-]+).*" "$1" . }}
+      {{- end }}
+    {{/* 從 Spotify URL 提取 episode ID */}}
+    {{- else if findRE "spotify\\.com" . }}
+      {{- if findRE "episode/([a-zA-Z0-9]+)" . }}
+        {{- $sourceID = replaceRE ".*episode/([a-zA-Z0-9]+).*" "$1" . }}
+      {{- end }}
+    {{/* 其他 URL 使用完整 URL 作為 ID */}}
+    {{- else }}
+      {{- $sourceID = . }}
+    {{- end }}
+  {{- end }}
+
+  {{/* 如果沒有 source_url 或是新的 source，加入列表 */}}
+  {{- if eq $sourceID "" }}
+    {{- $filteredPages = $filteredPages | append . }}
+  {{- else if not (in $seenSources $sourceID) }}
+    {{- $seenSources = $seenSources | append $sourceID }}
+    {{- $filteredPages = $filteredPages | append . }}
+  {{- end }}
+{{- end }}
+
 <div class="wrap pt-2 mt-2">
-  {{- $paginator := .Paginate $pages -}}
+  {{- $paginator := .Paginate $filteredPages -}}
   {{- $size := $paginator.PagerSize }}
   {{- $scratch := newScratch }}
   {{- range $index, $value := $paginator.Pages }}

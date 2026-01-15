@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>Devin 背後的秘密： cognition 如何用 agent rft 讓 ai 學會平行處理 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="Devin 背後的秘密：Cognition 如何用 Agent RFT 讓 AI 學會平行處理">
+<meta property="og:description" content="
+本文整理自 OpenAI DevDay 的技術分享。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-cognition-devin-agent-rft-parallel-learning/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-cognition-devin-agent-rft-parallel-learning/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">Devin 背後的秘密：Cognition 如何用 Agent RFT 讓 AI 學會平行處理</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 OpenAI DevDay 的技術分享。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/p1CmPZ2j6Lk" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>Devin 是 Cognition 推出的 AI 程式碼代理，它能夠自主完成複雜的程式開發任務。但「自主完成」這件事背後有一個核心挑戰：代理要怎麼知道該修改哪些檔案？一個大型程式碼庫可能有成千上萬個檔案，選錯了檔案，後續的所有工作都是白費。Cognition 用 OpenAI 的 Agent RFT 來訓練這個「程式碼編輯規劃」的能力，結果不只是效能提升，而是讓 Devin 學會了一種全新的工作方式。</p>
+<h2 id="問題的本質在龐大的程式碼庫中精準定位">問題的本質：在龐大的程式碼庫中精準定位</h2>
+<p>當使用者給 Devin 一個任務——比如「修復這個 bug」或「加入這個功能」——Devin 需要先搞清楚要動哪些檔案。這個階段叫做「程式碼編輯規劃」，Devin 會檢視整個程式碼庫，執行一系列的 shell 工具（像是 grep、檔案讀取等），然後決定一個檔案清單。</p>
+<p>這個任務的困難之處在於，你必須在兩個方向上都做對。選太少，你會漏掉關鍵的依賴檔案或相關程式碼，導致後續的修改不完整。選太多，你會給下游的編輯模組製造額外的雜訊，拖慢處理速度，甚至可能導致不必要的改動。</p>
+<p>傳統的做法是透過提示詞工程來引導模型的行為，告訴它「要全面」或「要精確」。但這種方式有天花板——模型對你的程式碼庫沒有任何實際經驗，它只能依賴通用的程式設計知識來做判斷。Agent RFT 提供了一個不同的路徑：讓模型在你的真實環境中反覆嘗試，從成功和失敗中學習什麼才是「選對檔案」。</p>
+<h2 id="cognition-的訓練設計">Cognition 的訓練設計</h2>
+<p>Cognition 的做法是收集真實的使用資料：使用者提出的查詢，以及使用者最終實際修改了哪些檔案。這些資料形成了「輸入-正確答案」的配對，但他們並不是直接拿這些配對去做監督式學習。他們用這些資料來定義獎勵函數，然後讓模型自己去探索該怎麼到達正確答案。</p>
+<p>獎勵函數的設計選擇了 F1 分數。這是一個同時考慮精確度（precision）和召回率（recall）的指標。精確度問的是「模型選的檔案中，有多少是對的」；召回率問的是「該選的檔案中，模型選中了多少」。F1 是這兩者的調和平均，會懲罰任何一邊的極端表現。</p>
+<p>為什麼這個選擇很重要？想像兩種失敗模式。如果模型只追求精確度，它會變得非常保守，只選那些「百分之百確定」的檔案，結果漏掉很多其實應該修改的。如果模型只追求召回率，它會把可能相關的檔案都選進來，結果塞進一堆不相關的雜訊。F1 分數讓模型必須在這兩端之間找到平衡。</p>
+<p>基礎設施的設計也值得注意。Cognition 為每一個訓練軌跡都啟動一個獨立的虛擬機，這個 VM 會承載程式碼庫的副本、執行模型發出的工具呼叫、最後根據結果計算 F1 分數。這樣設計的目的是確保隔離——一個訓練軌跡執行的 shell 指令不會影響另一個，這對訓練的穩定性和可重現性至關重要。</p>
+<p>想像如果沒有隔離會發生什麼：一個訓練軌跡可能不小心刪除或修改了某個檔案，下一個軌跡看到的程式碼庫狀態就不對了，評分結果會變得不可靠，模型學到的東西也會是錯的。這種「環境污染」在多步驟的代理任務中特別容易發生，獨立 VM 的設計從根本上避免了這個問題。</p>
+<h2 id="從-100-到-1000資料量的影響">從 100 到 1000：資料量的影響</h2>
+<p>Cognition 觀察到一個清楚的規律：資料量和效能提升之間有直接的關係。</p>
+<p>他們一開始用大約 100 個範例來訓練，得到了 5 個百分點的效能提升。這個結果已經不錯——只用 100 個範例就能看到明顯改善，說明 Agent RFT 確實能從少量資料中學習。</p>
+<p>但當他們把範例數擴大到 1,000 個，提升幅度跳到了 10 個百分點。這是一個兩倍的增長，說明在這個規模區間內，資料量的邊際效益並沒有遞減。更多的高品質範例，直接轉換成更好的代理行為。</p>
+<p>這個發現對於想要使用 Agent RFT 的團隊有實際的指導意義。如果你的初步實驗顯示有效，值得投資收集更多的訓練資料。「夠用就好」的心態可能會讓你錯過進一步提升的機會。</p>
+<p>當然，這裡有一個前提：資料品質。Cognition 收集的是「真實使用者的查詢 + 真實使用者實際修改的檔案」，這是最接近生產環境的資料來源。如果你的訓練資料是人工捏造的、或者來自不同的任務分布，增加數量可能不會帶來同樣的效果。</p>
+<h2 id="最驚人的改變從串列到平行">最驚人的改變：從串列到平行</h2>
+<p>效能數字的提升固然重要，但 Cognition 觀察到的另一個變化可能更有意思：模型的工作方式改變了。</p>
+<p>訓練之前，模型的行為模式是這樣的：推理一下、呼叫一個工具、等待結果、再推理一下、再呼叫一個工具。這個循環會重複 8 到 10 次才能完成任務。每一步都是串列的，下一步要等上一步完成才能開始。</p>
+<p>訓練之後，模型學會了一種完全不同的策略：在第一步就同時發出多個工具呼叫。這些呼叫可以平行執行，不需要互相等待。結果是，整體步驟數從 8-10 降到了 4。</p>
+<p>這個改變不是人工設計的。沒有人在提示詞裡告訴模型「你應該平行呼叫工具」，也沒有人在獎勵函數裡直接獎勵「平行呼叫」這個行為。模型是自己發現的——透過大量的嘗試和 F1 分數的反饋，它發現「先一次問完、等全部結果回來再一起分析」是一個更高效的策略。</p>
+<p>這說明了強化學習的一個強大之處：它能讓模型發現人類可能沒想到的、或者難以用規則描述的最佳策略。你不需要事先知道「正確答案」長什麼樣，你只需要定義清楚什麼是「好的結果」，模型會自己找到達成結果的方法。</p>
+<h2 id="對-devin-使用體驗的實際影響">對 Devin 使用體驗的實際影響</h2>
+<p>從使用者的角度來看，這個改變意味著什麼？</p>
+<p>最直接的影響是速度。程式碼規劃階段是使用者提交任務後的第一個等待環節。如果這個階段從 8-10 步變成 4 步，使用者能更快看到「Devin 開始動手修改程式碼」這件事發生。在互動式的工作流程中，這種延遲的減少對使用體驗的影響很大——它讓 Devin 感覺更像一個「能幹的同事」，而不是一個「需要等很久才會回應的系統」。</p>
+<p>另一個影響是可預測性。串列的多步驟流程，每一步都有出錯或卡住的風險。步驟越多，出問題的機會越大。收斂到更短的流程，意味著更少的潛在故障點，行為更穩定、結果更一致。</p>
+<p>從工程的角度來看，更短的流程也意味著更低的運算成本。每一個步驟都涉及 API 呼叫、工具執行、結果處理，這些都是需要付費的資源。把 10 步變成 4 步，不只是省下 60% 的步驟，而是省下相應的 token 消耗、網路延遲、以及潛在的錯誤處理成本。</p>
+<h2 id="可以借鏡的經驗">可以借鏡的經驗</h2>
+<p>Cognition 的案例提供了幾個可以借鏡的經驗。</p>
+<p>獎勵函數的設計要考慮多個面向。F1 分數之所以有效，是因為它同時約束了兩個方向的錯誤。如果你的任務也有類似的「不能太多、不能太少」的特性，找一個能平衡兩端的指標會比只優化單一方向更好。</p>
+<p>環境隔離很重要。對於涉及真實系統操作的訓練，每個軌跡都應該在乾淨、獨立的環境中執行。這是一個看似繁瑣的工程投資，但它確保了訓練過程的可靠性。</p>
+<p>資料量有明確的回報。如果初步實驗顯示 Agent RFT 對你的任務有效，投資收集更多高品質的訓練資料通常是值得的。Cognition 從 100 到 1,000 範例的經驗顯示，這個規模區間的邊際效益仍然很高。</p>
+<p>最後，讓模型自己發現策略。與其嘗試在提示詞裡規定每一個細節，不如設計好獎勵函數，讓模型自己探索。Cognition 沒有告訴模型要平行處理，但模型自己發現了這個策略。這可能是 Agent RFT 相對於傳統微調最獨特的價值：它能讓模型學到人類難以明確傳授的「訣竅」。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

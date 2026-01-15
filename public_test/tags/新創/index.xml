@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>新創 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E6%96%B0%E5%89%B5/</link>
+    <description>Recent content in 新創 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 24 Dec 2025 01:31:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E6%96%B0%E5%89%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI 內部人士：2026 是 Agent 元年，但最大瓶頸不是算力</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-openai-codex-2026-agent-year/</link>
+      <pubDate>Wed, 24 Dec 2025 01:31:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-openai-codex-2026-agent-year/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Lenny&amp;rsquo;s Podcast 2024 年 12 月播出的單集，主持人 Lenny Rachitsky 專訪 OpenAI Codex 產品負責人 Alexander Embiricos。&#xA;收聽連結：&lt;a href=&#34;https://www.youtube.com/watch?v=z1ISq9Ty4Cg&#34;&gt;YouTube&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一個前創業者的震撼&#34;&gt;一個前創業者的震撼&lt;/h2&gt;&#xA;&lt;p&gt;Alexander Embiricos 在加入 OpenAI 之前，自己經營了五年的新創公司。他以為自己知道什麼叫「快」。&lt;/p&gt;&#xA;&lt;p&gt;結果他錯了。加入 OpenAI 之後，他發現自己對「速度」和「野心」的理解需要徹底重建。他在訪談中坦承，這是一個有點難為情的體悟——每個創業者都覺得自己的公司夠快、團隊夠強、目標夠遠大。但 OpenAI 讓他意識到，那些都還不夠。&lt;/p&gt;&#xA;&lt;p&gt;這種速度有數字可以佐證。Codex（OpenAI 的程式碼 agent）幾個月內成長了十倍，「之後又成長了更多」。Sora 的 Android app 從零到上線只花了 28 天，然後登上 App Store 第一名。這不是漸進式改善，是不同量級的執行力。&lt;/p&gt;&#xA;&lt;p&gt;但真正讓我注意的，不是這些數字，而是 Embiricos 對 AI agent 未來瓶頸的分析。他的觀點跟主流敘事不太一樣。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;聰明的實習生但不讀-slack&#34;&gt;「聰明的實習生，但不讀 Slack」&lt;/h2&gt;&#xA;&lt;p&gt;要理解 Embiricos 的觀點，首先要理解 Codex 現在是什麼、還不是什麼。&lt;/p&gt;&#xA;&lt;p&gt;Codex 是一個程式碼 agent。你可以把它裝進 VS Code，給它一個任務——修 bug、寫功能、理解程式碼——它會去執行。它可以跑測試、讀檔案、寫程式碼，做很多軟體工程師日常在做的事。&lt;/p&gt;&#xA;&lt;p&gt;Embiricos 用了一個比喻：Codex 現在就像一個「非常聰明的實習生，但這個實習生拒絕讀 Slack，除非你叫它看 Datadog 否則它不會去看」。&lt;/p&gt;&#xA;&lt;p&gt;這個比喻很精準。不管實習生多聰明，如果它不知道公司正在發生什麼、不知道上下文、不知道哪些事情重要，你能信任它做多少事？你還是得一直盯著它、給它指令、審核它的產出。它是一個需要大量管理的聰明工具，還不是可以獨立運作的隊友。&lt;/p&gt;&#xA;&lt;p&gt;Codex 團隊的目標是讓它從「實習生」變成「真正的隊友」。這意味著什麼？Embiricos 說，真正的隊友不只是執行你交代的任務。你剛招進來一個人，一開始你會給他具體的工作、跟他對齊方向、讓他熟悉程式碼。但最終，你希望他能自己判斷什麼事情該做、主動發現問題、不需要你一直管。&lt;/p&gt;&#xA;&lt;p&gt;這就是他們說的「proactivity」（主動性）。一個有主動性的 agent，不只是等你下指令，而是會去讀 Slack、看監控儀表板、發現有個指標掉了、甚至在你還沒注意到之前就提出修復方案。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

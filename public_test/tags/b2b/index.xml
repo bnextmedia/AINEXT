@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>B2B on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/b2b/</link>
+    <description>Recent content in B2B on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 05 Jan 2026 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/b2b/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>當 OpenAI 搶消費者時，Anthropic 為什麼選擇 B2B？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260105-anthropic-enterprise-strategy/</link>
+      <pubDate>Mon, 05 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260105-anthropic-enterprise-strategy/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 CNBC Television 2026 年 1 月播出的專訪。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/GMXnmaky9FY&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;2022 年底，ChatGPT 上線後在兩個月內突破一億用戶，創下史上最快達到這個里程碑的紀錄。OpenAI 一夕之間成為家喻戶曉的名字，「跟 ChatGPT 聊天」變成全民運動。同一時間，Anthropic 在做什麼？他們在跟企業談合約、建立 API 服務、確保模型能整合進大公司的工作流程。&lt;/p&gt;&#xA;&lt;p&gt;這看起來是一個很「無聊」的選擇。但幾年後回頭看，Anthropic 的 Claude 成為第一個同時在 Amazon、Google、Microsoft 三大雲端平台上架的大型語言模型。企業客戶的需求經常超過他們的供給能力。Anthropic 總裁 Daniela Amodei 在 CNBC 專訪中解釋了這個策略背後的邏輯。&lt;/p&gt;&#xA;&lt;h2 id=&#34;理由一dna-的契合&#34;&gt;理由一：DNA 的契合&lt;/h2&gt;&#xA;&lt;p&gt;Daniela 坦承，她不會說他們從一開始就「確定知道」企業市場是正確的選擇。但有兩個因素讓這個方向變得自然。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

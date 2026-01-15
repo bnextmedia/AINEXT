@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>社會影響 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E7%A4%BE%E6%9C%83%E5%BD%B1%E9%9F%BF/</link>
+    <description>Recent content in 社會影響 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 22 Dec 2025 22:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E7%A4%BE%E6%9C%83%E5%BD%B1%E9%9F%BF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 革命會比工業革命快 10 倍——Demis Hassabis 的社會預言</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-industrial-revolution/</link>
+      <pubDate>Mon, 22 Dec 2025 22:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-industrial-revolution/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Google DeepMind Podcast 2024 年 12 月播出的單集，由 Hannah Fry 主持，專訪 DeepMind 共同創辦人兼 CEO Demis Hassabis。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/PqVbypvxDto&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「十倍規模，十倍速度。」&lt;/p&gt;&#xA;&lt;p&gt;Demis Hassabis 用這八個字形容 AI 革命與工業革命的差異。工業革命花了大約一個世紀讓社會適應；AI 革命可能只給我們一個十年。這不是科幻小說的設定，而是一位正在打造 AGI 的人，對未來十年的實際判斷。&lt;/p&gt;&#xA;&lt;p&gt;在 Google DeepMind Podcast 的訪談中，Hassabis 花了相當篇幅談社會影響。他不只是在做技術預測，更像是在發出預警：我們準備好了嗎？&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Moravec 悖論 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/moravec-%E6%82%96%E8%AB%96/</link>
+    <description>Recent content in Moravec 悖論 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 22 Dec 2025 22:15:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/moravec-%E6%82%96%E8%AB%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「AGI 這個概念完全是鬼扯」——LeCun 如何拆解 AI 產業的集體妄想</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-agi-is-complete-bs/</link>
+      <pubDate>Mon, 22 Dec 2025 22:15:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-agi-is-complete-bs/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/7u-DXVADyhc&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Sam Altman 說 AGI 可能在 2025 年就會到來。一堆 AI 公司在融資簡報裡寫著「通往 AGI 的路徑」。Elon Musk 給他的 AI 公司取名叫 xAI，目標是「理解宇宙的真正本質」。&lt;/p&gt;&#xA;&lt;p&gt;Yann LeCun 對這一切的評價是：「complete BS」——徹頭徹尾的鬼扯。&lt;/p&gt;&#xA;&lt;p&gt;在最近的 Information Bottleneck 訪談中，這位圖靈獎得主直接拆解了「通用人工智慧」這個概念本身的問題，以及為什麼那些宣稱 AGI 即將到來的說法，大多是妄想。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

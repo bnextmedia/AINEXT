@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 幻覺 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E5%B9%BB%E8%A6%BA/</link>
+    <description>Recent content in AI 幻覺 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E5%B9%BB%E8%A6%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 太聰明反而更會騙人？Gemini 3 Flash 的「幻覺式推理」現象</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-gemini-flash-hallucination-reasoning/</link>
+      <pubDate>Thu, 25 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-gemini-flash-hallucination-reasoning/</guid>
+      <description>&lt;p&gt;Google 推出的 Gemini 3 Flash 在各項 benchmark 上表現亮眼，速度快、成本低，而且智能水準幾乎追平旗艦級的 Gemini 3 Pro。但在最近一集 Break Even Brothers Podcast 中，主持人提到了一個有趣的發現：Gemini 3 Flash 的幻覺率（hallucination rate）其實蠻高的。更奇怪的是，這並沒有影響它在 benchmark 上的優異表現。這是怎麼回事？&lt;/p&gt;&#xA;&lt;p&gt;「我看到的線上分析指出，Gemini 3 Flash 的幻覺率其實蠻高的，」主持人說明。所謂幻覺，就是模型會自己編造事實——說一些聽起來很有道理，但實際上完全是捏造的內容。這在 AI 領域一直是個大問題，也是很多人不敢完全信任 AI 輸出的主要原因。但令人意外的是，即使幻覺率高，Gemini 3 Flash 在各種測試中的最終答案正確率卻沒有受到太大影響。&lt;/p&gt;&#xA;&lt;h2 id=&#34;幻覺式推理在思考過程中瞎掰卻能自我修正&#34;&gt;「幻覺式推理」：在思考過程中瞎掰，卻能自我修正&lt;/h2&gt;&#xA;&lt;p&gt;這個現象讓人困惑。按照常理，一個會亂編東西的 AI 應該更容易給出錯誤答案才對。為什麼 Gemini 3 Flash 能夠兩者兼得？Podcast 主持人給出了一個解釋：「這個 benchmark 的分析認為，模型幾乎是用幻覺的方式『推理出』答案。」&lt;/p&gt;&#xA;&lt;p&gt;想像一下這個場景：AI 在解決一個複雜問題時，它的思考過程（chain of thought）可能會走錯方向、編造一些不存在的中間步驟或假設。但因為它整體的推理能力夠強，它能夠在後續的思考中發現這些錯誤，然後自我修正，最終還是得到正確答案。換句話說，它在推理「過程」中會胡說八道，但推理「結果」卻是對的。&lt;/p&gt;&#xA;&lt;p&gt;這讓人想到 OpenAI 的 o3 模型。當時 o3 推出時也有類似的觀察——高智能伴隨著高幻覺率。主持人回憶道：「o3 在 benchmark 上同樣展現出高智能但高幻覺的特性，這跟它深度的 chain of thought 推理有關。」這些模型在思考過程中可能會偏離軌道，但它們的推理能力強到可以「想通」這些錯誤，最後還是走回正軌。&lt;/p&gt;&#xA;&lt;p&gt;這是一個有點弔詭的現象。傳統上我們認為幻覺是 AI 的缺陷，是需要被消除的問題。但這些觀察暗示，某種程度的「創造性瞎掰」可能反而有助於推理——只要 AI 有足夠的能力在後續步驟中自我糾正。就像人類在解題時，有時候也會先嘗試一個錯誤的方向，然後意識到不對，再回頭嘗試別的方法。&lt;/p&gt;&#xA;&lt;h2 id=&#34;這對-ai-開發者和使用者意味著什麼&#34;&gt;這對 AI 開發者和使用者意味著什麼&lt;/h2&gt;&#xA;&lt;p&gt;這個發現對實際應用有什麼影響？首先，它提醒我們不要只看單一指標。幻覺率高不一定代表模型不可靠，最終答案的正確率高也不代表模型的思考過程完全正確。評估 AI 模型需要更全面的視角，而不是只看某個 benchmark 的分數。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

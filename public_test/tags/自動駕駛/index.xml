@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>自動駕駛 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E8%87%AA%E5%8B%95%E9%A7%95%E9%A7%9B/</link>
+    <description>Recent content in 自動駕駛 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 08 Jan 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E8%87%AA%E5%8B%95%E9%A7%95%E9%A7%9B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Samsara 執行長：下一波 AI 革命不在螢幕上，而在卡車、倉庫與工地</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260108-samsara-physical-ai-edge/</link>
+      <pubDate>Thu, 08 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260108-samsara-physical-ai-edge/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Sequoia Capital Podcast 2025 年 12 月播出的單集，主持人為 Sonya Huang 與 Pat Grady。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/VQXivhM8I-g&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    src=&#34;https://open.spotify.com/embed/episode/2j1ea0OYknBXD1oRqrzMRN&#34; &#xA;    width=&#34;100%&#34; &#xA;    height=&#34;152&#34; &#xA;    frameBorder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; &#xA;    loading=&#34;lazy&#34;&#xA;    style=&#34;border-radius: 12px;&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/us/podcast/why-the-next-ai-revolution-will-happen-off-screen/id1750736528?i=1000741506908&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;從-mit-到市值-230-億美元&#34;&gt;從 MIT 到市值 230 億美元&lt;/h2&gt;&#xA;&lt;p&gt;Sanjit Biswas 的創業軌跡是一條清晰的技術演進線。在 MIT 時期，他參與 RoofNet 計畫，目標是用 Wi-Fi 晶片打造大規模無線網路——那是 2000 年代初期，網路還是稀有資源。後來他創辦 Meraki，被 Cisco 以 12 億美元收購。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

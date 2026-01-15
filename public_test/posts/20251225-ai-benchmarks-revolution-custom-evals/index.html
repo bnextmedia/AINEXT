@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>Ai 基準測試革命——為什麼通用評測無法告訴你 ai 能不能用在你的業務 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="AI 基準測試革命——為什麼通用評測無法告訴你 AI 能不能用在你的業務">
+<meta property="og:description" content="
+本文整理自 Moonshots Podcast 2024 年 12 月播出的單集。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-ai-benchmarks-revolution-custom-evals/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-ai-benchmarks-revolution-custom-evals/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">AI 基準測試革命——為什麼通用評測無法告訴你 AI 能不能用在你的業務</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 Moonshots Podcast 2024 年 12 月播出的單集。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/7GFKB0oKd9A" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>每當 OpenAI、Anthropic 或 Google 發布新模型，科技媒體都會報導一串基準測試數字：HumanEval 編程能力提升 20%、GSM8K 數學推理進步 15%、MMLU 知識測試創新高。這些數字讓我們知道模型在「變強」，但它們回答不了一個關鍵問題：這個模型能不能用在我的業務上？</p>
+<p>「大部分公眾關注的焦點，到目前為止都放在大型公開基準上，比如編程能力測試，」Matt Fitzpatrick 在 Moonshots Podcast 上說。他曾在麥肯錫待了超過十年，領導 QuantumBlack Labs 的 AI 產品開發，現在是 Invisible Technologies 的 CEO。「這些基準對於衡量『模型整體上有沒有進步』很有用。但問題是，如果你是企業或小公司，你的基準不是寬泛的認知測試——而是特定任務的準確度，或者與人類表現的等效程度。」</p>
+<h2 id="為什麼-80-準確度在企業場景不夠用">為什麼 80% 準確度在企業場景不夠用</h2>
+<p>假設你要導入一個 AI 系統來處理保險理賠審核。這個任務需要閱讀理賠申請文件、交叉比對保單條款、判斷理賠是否成立、計算應賠金額。一個在通用基準上表現優異的大型語言模型，能做到這件事的 80% ——聽起來不錯，對吧？</p>
+<p>問題在於，那 20% 的錯誤會在哪裡發生。可能是把應該拒絕的理賠批准了（公司虧錢），可能是把合理的理賠拒絕了（客戶投訴、聲譽受損），可能是計算金額算錯（法律糾紛）。在企業場景中，80% 的準確度通常意味著系統不可用——風險太高，不如不用。</p>
+<p>Fitzpatrick 用一個直接的問題來檢驗 AI 用例是否真的可行：「你願意把年終獎金押在這個用例能成功嗎？」如果答案是否定的，代表你還沒有足夠的信心相信這個系統。而要建立這種信心，你需要的不是通用基準，而是針對你的特定任務設計的評測方法。</p>
+<p>這就是所謂的「客製化評測」（custom evals）。以客服中心為例，你需要建立一套基準，裡面包含你最好的客服人員會如何處理各種類型的來電，然後測試 AI 代理人能否達到同等水準。這套基準會針對你的產品、你的客戶群、你的處理流程來設計，而不是用某個通用的客服對話資料集。</p>
+<h2 id="從理賠處理到投資備忘錄基準的碎片化">從理賠處理到投資備忘錄：基準的碎片化</h2>
+<p>通用基準之所以有用，是因為它們有清晰的對錯定義。編程題目有標準答案——程式碼能不能通過測試案例。數學題目有正確解答。但企業任務往往沒有這麼清楚的邊界。</p>
+<p>以投資備忘錄為例。不同的投資公司，對於備忘錄的格式、長度、內容重點都有不同偏好。有的公司習慣寫十頁，有的寫四十頁。有的強調財務分析，有的著重市場競爭態勢。你要怎麼判斷一份 AI 生成的投資備忘錄「夠好」？沒有標準答案，只有「這家公司的專業人士覺得可以接受」這個標準。</p>
+<p>這意味著，幾乎每一個企業 AI 用例，都需要建立自己的評測基準。保險理賠審核有保險理賠審核的基準，法律合約審查有法律合約審查的基準，醫療診斷建議有醫療診斷建議的基準。這些基準不能通用，因為每個領域、每家公司、每個任務的「正確」定義都不一樣。</p>
+<p>Fitzpatrick 估計，這代表我們需要「數以千計的新型窄領域基準，來涵蓋每一個勞動類別、每一個產業垂直領域」。這是一個巨大的工作量，但也是一個巨大的機會。</p>
+<h2 id="誰擁有基準誰就擁有話語權">誰擁有基準，誰就擁有話語權</h2>
+<p>Podcast 主持人 Dave Friedberg 點出了一個有趣的現象：在 AI 時代，定義基準的人可能會成為產業領袖。他舉了一個假設性的例子——產權保險（title insurance）。這是一個高度專業化的領域，外人很難判斷 AI 在這個領域做得好不好。如果有人既懂這個產業又懂 AI，主動建立了一套公認的評測標準，他就自動成為這個領域的權威。</p>
+<p>「如果你宣稱自己是這個基準的擁有者，然後公開這個基準的細節，」Friedberg 說，「目前的證據顯示，你會立刻成為明星。因為沒有人在搶這些主題的話語權。如果你先到達那裡，你就會成為即時的權威。」</p>
+<p>這個觀察揭示了一個創業機會。在 post-training（後訓練）越來越商品化的時代，如果你擁有高品質的評測基準，你往往也擁有了訓練出優秀專業模型的能力。因為基準不只是測試工具，它也定義了「什麼是好」，而這個定義可以用來指導訓練過程。擁有基準的人，可以利用現有的開源模型進行專業微調，產出在特定領域表現卓越的產品。</p>
+<p>Invisible Technologies 正是在做這件事的一部分。他們為企業客戶建立特定任務的基準，然後用這些基準來評估和改進 AI 代理人的表現。這不是一次性的工作，而是持續的過程——隨著任務需求變化、模型能力提升，基準也需要不斷更新。</p>
+<h2 id="從證明-ai-行到證明-ai-對你的任務行">從「證明 AI 行」到「證明 AI 對你的任務行」</h2>
+<p>通用基準告訴我們的是：AI 作為一種技術，在過去三年裡取得了 50% 到 100% 的進步。這很重要，因為它支撐了整個產業對未來的信心，也支撐了數十億美元的資本支出。如果通用基準停滯不前，投資人會開始質疑 AI 是否已經到達瓶頸。</p>
+<p>但對於試圖導入 AI 的企業來說，通用基準只是入門門檻。它告訴你「AI 有可能做到這件事」，但不告訴你「AI 在你的特定情境下能做到什麼程度」。這兩者之間的差距，正是企業導入失敗率居高不下的原因之一。</p>
+<p>MIT 的研究顯示，只有 5% 的企業 AI 模型最終進入生產環境。其中一個關鍵原因是：企業在做概念驗證時，往往沒有建立嚴謹的評測方法。系統「看起來能用」，但沒人能量化「用得多好」。上線後出問題，才發現當初的評估太粗糙。</p>
+<p>這個問題的解決方案不是等 AI 變得更強——AI 已經夠強了。解決方案是在每一個用例上，花時間建立真正有意義的評測基準。這需要領域專家的參與（只有他們知道什麼叫「做對了」），需要足夠的測試案例（涵蓋各種邊緣情況），需要持續的監控和更新（因為需求會變化）。</p>
+<p>這聽起來很麻煩，但這正是把 AI 從「展示用」變成「生產用」的必經之路。誰能在自己的領域建立起可靠的評測體系，誰就能真正把 AI 的能力轉化為業務價值。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

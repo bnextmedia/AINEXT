@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microsoft Office on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/microsoft-office/</link>
+    <description>Recent content in Microsoft Office on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 29 Dec 2025 14:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/microsoft-office/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>法務部門的 AI 工具指南——從免費工具開始的務實策略</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251229-legal-ai-tools-practical-guide/</link>
+      <pubDate>Mon, 29 Dec 2025 14:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251229-legal-ai-tools-practical-guide/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Legaltech Lounge Podcast 2025 年 3 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    src=&#34;https://open.spotify.com/embed/episode/6TcTTIeMjbZ6ksljumcM1N&#34; &#xA;    width=&#34;100%&#34; &#xA;    height=&#34;152&#34; &#xA;    frameBorder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; &#xA;    loading=&#34;lazy&#34;&#xA;    style=&#34;border-radius: 12px;&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/us/podcast/s02e05-navigating-digital-transformation-in-house-counsel/id1725709717?i=1000699635807&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;法務部門想導入 AI 工具，第一個會遇到的問題不是「該用什麼工具」，而是「誰會批准這筆預算」。&lt;/p&gt;&#xA;&lt;p&gt;這是一個現實問題。在多數企業裡，法務被歸類為支援單位，不像業務或研發能直接創造營收。當你走進財務長辦公室，說想訂閱一套每月 300 美元的合約管理系統，對方的第一反應多半是：「這能幫公司賺多少錢？」&lt;/p&gt;&#xA;&lt;p&gt;答案通常是：很難量化。這讓法務部門在數位轉型的路上，比其他部門更難起步。&lt;/p&gt;&#xA;&lt;p&gt;但這不代表沒有辦法。在迦納舉辦的 Accra Law Tech Hangout 上，三位企業法務分享了他們的務實策略：從免費工具開始，用現有資源證明價值，再逐步爭取更多資源。這套方法論，適用於任何資源有限的法務團隊。&lt;/p&gt;&#xA;&lt;h2 id=&#34;第一步盤點你已經有的工具&#34;&gt;第一步：盤點你已經有的工具&lt;/h2&gt;&#xA;&lt;p&gt;Ashesi 大學法律講師 Shefi Nelson 的建議很直接：別急著找新工具，先把手上有的工具用好。她觀察到，很多法務人員只把 Microsoft Word 當成打字機，完全沒有發揮它的進階功能。&lt;/p&gt;&#xA;&lt;p&gt;舉個例子。如果你要處理一筆涉及 30、40 個當事人的交易，需要產出大量格式相似但內容不同的文件，你會怎麼做？很多人的做法是：複製貼上，然後一個一個改。但 Word 有郵件合併功能，可以自動從資料表抓取資訊、批次產出文件。這不是什麼新功能，但用的人不多。&lt;/p&gt;&#xA;&lt;p&gt;Hubtel 法務主管 Cornelis Rouloph Otoo 則分享了另一個案例。他過去習慣用 Word 寫長篇政策文件，進入科技公司後發現根本沒人要看。工程師和產品經理習慣的是流程圖和表格，不是密密麻麻的文字。於是他開始學著用 Excel 把政策拆解成流程——從 A 點到 B 點，從 B 點到 C 點——一目了然。這個調整，讓他的政策文件終於有人願意讀了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrej Karpathy on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/andrej-karpathy/</link>
+    <description>Recent content in Andrej Karpathy on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 11:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/andrej-karpathy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Karpathy 的教育願景：打造 AI 時代的星際艦隊學院</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-eureka-starfleet-academy/</link>
+      <pubDate>Fri, 26 Dec 2025 11:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-eureka-starfleet-academy/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2025 年 10 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/lXUZvyajciY&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Andrej Karpathy 可以選擇開一家 AI 公司。以他的經歷和人脈，募資不會是問題。但他選擇了教育。這個選擇背後的邏輯，比表面看起來更深刻——它關乎他對 AI 時代人類角色的根本擔憂。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼不開-ai-公司&#34;&gt;為什麼不開 AI 公司？&lt;/h2&gt;&#xA;&lt;p&gt;Karpathy 的解釋很直接：他覺得 AI 實驗室正在做的事情有一種「確定性」。意思是，就算沒有他，那些事情也會發生。他可以在那裡幫忙，但不會「獨特地」改善什麼。&lt;/p&gt;&#xA;&lt;p&gt;他真正擔心的是另一件事：人類會被邊緣化。他最怕的場景不是 AI 建不出戴森球，而是 AI 建出了戴森球，但人類變成了《瓦力》或 Idiocracy 裡那種廢人——坐在飄浮椅上，一切都被自動化處理，人類什麼都不用做，也什麼都不會做。如果那是未來，他根本不在乎有沒有戴森球。&lt;/p&gt;&#xA;&lt;p&gt;所以他選擇教育。他認為這是他能「獨特地」增加價值的地方。讓人類在 AI 時代保持強大、保持有能力，這件事不會自動發生，需要有人去做。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Karpathy：「強化學習很糟糕，只是之前的方法更糟」</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-rl-is-terrible/</link>
+      <pubDate>Fri, 26 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-rl-is-terrible/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2025 年 10 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/lXUZvyajciY&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「強化學習很糟糕。只是之前的方法更糟。」這是 Andrej Karpathy 對目前 AI 訓練方法的直白評價。對於一個在 OpenAI 和 Tesla 都深度參與過模型訓練的人來說，這不是外行的抱怨，而是來自第一線的觀察。他認為 RL 的問題比大多數人理解的更根本，而人類學習的方式和機器學習之間的差距，可能比我們想像的大得多。&lt;/p&gt;&#xA;&lt;h2 id=&#34;用吸管吸取監督訊號&#34;&gt;用吸管吸取監督訊號&lt;/h2&gt;&#xA;&lt;p&gt;Karpathy 用了一個極具畫面感的比喻來描述 RL 的問題：「你在用吸管吸取監督訊號。」這是什麼意思？&lt;/p&gt;&#xA;&lt;p&gt;想像你在解一道數學題。在強化學習的框架下，你會同時嘗試幾百種不同的解法。每一種嘗試都可能很複雜——試這個、試那個、這條路走不通、換一條路。最後，你得到一個答案，翻開課本後面的解答對照：對了。&lt;/p&gt;&#xA;&lt;p&gt;接下來發生什麼？RL 的做法是：那些最終答對的解法，沿途的每一個步驟都被「加權」——系統告訴自己「多做這樣的事」。問題是，你可能在解題過程中走了很多錯誤的彎路，只是最後碰巧找到正確答案。但 RL 不管這些，只要結果對了，過程中的所有步驟——包括那些錯誤的彎路——都會被當作「好的」來強化。&lt;/p&gt;&#xA;&lt;p&gt;這就是「用吸管吸取監督訊號」的意思。你可能花了一分鐘產生一個複雜的解題軌跡，但最後只得到一個單一的位元資訊：對或錯。然後你把這一個位元的監督訊號「廣播」到整個軌跡上，用它來調整權重。這太蠢了。這太瘋狂了。Karpathy 的原話就是這麼直接。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Karpathy：「這是 Agent 的十年，不是 Agent 的一年」</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-decade-of-agents/</link>
+      <pubDate>Fri, 26 Dec 2025 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-decade-of-agents/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2025 年 10 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/lXUZvyajciY&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「這是 Agent 的十年，不是 Agent 的一年。」Andrej Karpathy 這句話是對業界的直接回應。不知道是哪家實驗室先說的，但「2025 是 Agent 元年」這個說法在圈子裡傳開了。Karpathy 看到這些預測時被「觸發」了——他的原話是 triggered——因為在他看來，這種過度樂觀的預測已經成為 AI 產業的慣性毛病。&lt;/p&gt;&#xA;&lt;h2 id=&#34;agent-現在到底缺什麼&#34;&gt;Agent 現在到底缺什麼？&lt;/h2&gt;&#xA;&lt;p&gt;Karpathy 使用 Claude 和 Codex 這類工具，而且是每天使用。他認為這些早期 Agent「極其令人印象深刻」。但當你問他：什麼時候這些 Agent 可以取代你的員工或實習生？他的答案很直接：現在不行，因為它們就是不能用。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Karpathy：「我們不是在建造動物，是在召喚幽靈」</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-summoning-ghosts-not-animals/</link>
+      <pubDate>Fri, 26 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-summoning-ghosts-not-animals/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2025 年 10 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/lXUZvyajciY&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「我們不是在建造動物，我們是在召喚幽靈。」這句話出自 Andrej Karpathy 在一篇廣為流傳的部落格文章，也成為他在這集訪談中反覆闡述的核心概念。對於一個在 OpenAI 和 Tesla 都待過的人來說，這個比喻並非詩意的修辭，而是一個嚴肅的技術判斷——它關乎我們該如何理解 LLM 的本質，以及為什麼某些對 AI 發展的期待可能從根本上就搞錯了方向。&lt;/p&gt;&#xA;&lt;h2 id=&#34;動物是演化的產物llm-是模仿的產物&#34;&gt;動物是演化的產物，LLM 是模仿的產物&lt;/h2&gt;&#xA;&lt;p&gt;要理解「幽靈」這個比喻，得先理解 Karpathy 為什麼對「動物」類比如此謹慎。在 AI 領域，用動物或人類大腦來比喻神經網路是常見的做法。Richard Sutton 的框架就是典型的「建造動物」思維：我們應該追求一個單一的演算法，讓它像動物一樣被丟進世界，從零開始學會一切，不需要任何標籤或預先知識。&lt;/p&gt;&#xA;&lt;p&gt;Karpathy 認為這個願景很美好，但有一個根本問題：動物的智能來自演化，而演化是一個我們完全沒有在執行的過程。當一隻斑馬出生後幾分鐘就能站起來跟著母親跑，那不是強化學習的結果，那是數百萬年演化「烘焙」進 DNA 的能力。演化以某種我們完全不理解的方式，把神經網路的權重編碼進了 ATCG 的序列裡。這是一種極其複雜的壓縮機制，而我們根本不知道它怎麼運作。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

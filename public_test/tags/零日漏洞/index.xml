@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>零日漏洞 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E9%9B%B6%E6%97%A5%E6%BC%8F%E6%B4%9E/</link>
+    <description>Recent content in 零日漏洞 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 24 Dec 2025 01:44:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E9%9B%B6%E6%97%A5%E6%BC%8F%E6%B4%9E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 時代的網路戰爭：當攻擊者與防禦者都在用 AI，誰會贏？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-cybersecurity-ai-attackers-vs-defenders/</link>
+      <pubDate>Wed, 24 Dec 2025 01:44:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-cybersecurity-ai-attackers-vs-defenders/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Google DeepMind Podcast 2024 年 12 月播出的兩集特別節目，由主持人 Hannah Fry 專訪 Google DeepMind 安全副總裁 Four Flynn。&#xA;📺 收聽連結：&lt;a href=&#34;https://youtube.com/watch?v=1gO2bC5xLlo&#34;&gt;Part 1&lt;/a&gt; / &lt;a href=&#34;https://www.youtube.com/watch?v=kv-b6RFRbfI&#34;&gt;Part 2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;防禦者的永恆困境&#34;&gt;防禦者的永恆困境&lt;/h2&gt;&#xA;&lt;p&gt;在網路安全領域，有一個術語叫做「防禦者困境」（Defender&amp;rsquo;s Dilemma）。這個概念描述的是一種結構性的不對等：防禦者必須守住所有可能的入侵途徑，而攻擊者只需要找到一個漏洞就能得手。這種不對稱性，幾十年來一直是資安人員的夢魘。&lt;/p&gt;&#xA;&lt;p&gt;Google DeepMind 安全副總裁 Four Flynn 對這個困境有切身體會。他在 2009 年親歷了改變網路安全歷史的「極光行動」（Operation Aurora）——中國對 Google 發動的國家級駭客攻擊。那年聖誕節假期，當多數人還在享受假期時，Flynn 和他的團隊發現了異常活動，隨後花了數個月試圖拼湊出攻擊的全貌。「回想起來，我的胃還是會揪緊。」Flynn 在訪談中坦言。對於那些將職涯奉獻給保護使用者的人來說，被入侵的感覺就像是一種失敗。&lt;/p&gt;&#xA;&lt;p&gt;這次攻擊的入侵方式，說來並不複雜：一封釣魚郵件，利用了當時 Internet Explorer 瀏覽器的漏洞。有人點擊了不該點的連結，攻擊者就這樣進入了 Google 的內部網路。十五年過去了，釣魚攻擊依然是最主要的入侵途徑之一——甚至可以說，在 AI 的加持下，它變得比以往更加危險。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;攻擊者正在用-ai-做什麼&#34;&gt;攻擊者正在用 AI 做什麼&lt;/h2&gt;&#xA;&lt;p&gt;大型語言模型的出現，讓網路攻擊的門檻大幅降低。Flynn 指出，他們已經觀察到攻擊者開始使用 AI 來創造「多型態惡意軟體」（polymorphic malware）。這是什麼意思？傳統上，防毒軟體（現在叫 EDR，端點偵測與回應）透過辨識已知的惡意程式碼特徵來攔截攻擊。如果一段惡意程式碼被廣泛使用，它很快就會被加入黑名單。&lt;/p&gt;&#xA;&lt;p&gt;多型態惡意軟體的目標，就是讓每一份惡意程式看起來都不一樣。想像一個病毒，每次感染新的電腦時，都會自動改寫自己的程式碼，保留惡意功能，但改變外觀。過去，這需要高超的程式設計能力和大量時間。現在，大型語言模型可以自動化這個過程。攻擊者可以讓 AI 持續產生功能相同、但程式碼結構不同的惡意軟體變種，讓每一個版本都是「全新的」，從未被任何防毒軟體見過。&lt;/p&gt;&#xA;&lt;p&gt;更令人擔憂的是 deepfake 技術在社交工程中的應用。Flynn 分享了一個已經發生的真實案例：攻擊者使用 AI 克隆了公司財務長的臉孔和聲音，透過視訊會議說服財務團隊的員工進行匯款。這不是科幻小說——這已經發生過多次了。在消費端，也有案例是攻擊者克隆受害者女兒的聲音，打電話給母親，謊稱自己被綁架需要贖金。當你聽到的聲音聽起來完全就是你認識的人，你要如何保持冷靜的判斷力？&lt;/p&gt;&#xA;&lt;p&gt;這些攻擊之所以有效，是因為它們直接針對人類心理的弱點。我們傾向於相信自己的感官，相信眼見為憑、耳聽為真。當 AI 可以完美模擬我們所信任的人，傳統的「眼見為憑」就不再可靠了。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;防禦者的-ai-武器庫&#34;&gt;防禦者的 AI 武器庫&lt;/h2&gt;&#xA;&lt;p&gt;好消息是，防禦者也沒有坐以待斃。Flynn 透露了 Google DeepMind 正在進行的一個重要專案：Big Sleep（前身叫 Naptime，因為原本的目標是讓漏洞研究員可以「睡個午覺」讓 AI 去找漏洞，後來目標更大了，改叫「大睡」）。這個專案的目標，簡單來說，就是用 AI 來尋找那些從未被發現過的零日漏洞。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

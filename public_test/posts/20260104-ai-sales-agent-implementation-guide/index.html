@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>導入 ai 銷售 agent 實戰指南： saa str 的 30 天訓練法則 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="導入 AI 銷售 Agent 實戰指南：SaaStr 的 30 天訓練法則">
+<meta property="og:description" content="
+本文整理自 Lenny&rsquo;s Podcast 2026 年 1 月播出的單集。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20260104-ai-sales-agent-implementation-guide/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20260104-ai-sales-agent-implementation-guide/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>04. January 2026</p>
+      <h1 class="post_title">導入 AI 銷售 Agent 實戰指南：SaaStr 的 30 天訓練法則</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 Lenny&rsquo;s Podcast 2026 年 1 月播出的單集。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/I-R1bc1rlFs" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<div class="media-embed">
+  <iframe 
+    src="https://open.spotify.com/embed/episode/5lt9zI2E5MVPm5aHQ3FDJ7" 
+    width="100%" 
+    height="152" 
+    frameBorder="0" 
+    allowfullscreen 
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+    loading="lazy"
+    style="border-radius: 12px;"
+  ></iframe>
+</div>
+
+<div class="media-embed">
+  <iframe 
+    allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
+    frameborder="0" 
+    height="175" 
+    width="100%"
+    style="border-radius: 12px; overflow: hidden;" 
+    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+    src="https://embed.podcasts.apple.com/us/podcast/we-replaced-our-sales-team-with-20-ai-agents-heres/id1627920305"
+    loading="lazy"
+  ></iframe>
+</div>
+
+<hr>
+<p>那個 AI 本來只是用來回答社群問題的。沒有人訓練它銷售技巧，沒有人教它怎麼談贊助，它只是一個用 Jason Lemkin 的文章和訪談內容訓練出來的數位分身，放在網站上讓 SaaStr 社群成員問問題用。然後有一天，它自己談成了一筆七萬美元的贊助案。</p>
+<p>這個意外，成為 SaaStr 全面導入 AI 銷售 Agent 的起點。如果一個通用型的 AI 都能做到這件事，那專門訓練過的銷售 Agent 能做到什麼程度？Jason Lemkin 花了半年時間回答這個問題，把原本十人的銷售團隊轉型成 1.2 個人加 20 個 AI Agent 的新模式。</p>
+<p>這篇文章整理他在這個過程中學到的實戰經驗：用什麼工具、怎麼選擇、怎麼訓練、需要多久、誰來管理。如果你正在考慮在自己的公司導入 AI 銷售 Agent，這是一份來自真實戰場的參考指南。</p>
+<h2 id="先理解背景saastr-在賣什麼">先理解背景：SaaStr 在賣什麼？</h2>
+<p>在談導入方法之前，必須先理解 SaaStr 的業務模式，因為不同的銷售場景適合不同的 AI 工具。</p>
+<p>SaaStr 是全球最大的 B2B SaaS 創業社群，由 Jason Lemkin 在 2012 年創立。Jason 本身是連續創業家，曾共同創辦電子簽名公司 EchoSign（後被 Adobe 收購成為 Adobe Sign），之後開始經營部落格分享創業經驗，逐漸發展成一個龐大的社群。每年舉辦的 SaaStr Annual 大會吸引超過一萬名創業者和投資人參加，是軟體訂閱制產業的年度盛事。</p>
+<p>SaaStr 的主要營收來自兩個產品線。第一條是贊助商銷售，平均客單價約七到八萬美元，銷售週期較長，需要跟企業客戶談判。第二條是票務銷售，價格從幾百美元到兩千美元不等，量大但單價低，比較接近自助式購買。這兩種產品需要不同的銷售策略，也適合不同類型的 AI Agent。</p>
+<p>此外，SaaStr 還有一個特殊的銷售場景：「復活」舊名單。過去參加過活動但近年沒回來的人、曾經表達過興趣但沒有成交的潛在贊助商——這些名單數量龐大，真人業務根本沒有時間逐一聯繫，但 AI 可以。</p>
+<p>理解這個背景，才能理解為什麼 Jason 會用多個不同的 AI 工具，而不是只用一個。</p>
+<h2 id="saastr-使用的四大-ai-銷售工具">SaaStr 使用的四大 AI 銷售工具</h2>
+<p>Jason 在訪談中提到，他們目前使用四種主要的 AI 工具，各自負責不同的銷售環節。</p>
+<p><strong>Delphi</strong> 是最早導入的工具，用來建立「數位分身」。這個 Agent 是用 Jason 本人的內容訓練出來的，可以回答關於 SaaStr 的各種問題，語氣和風格都模仿 Jason。它最初的用途是社群客服，但後來發現它也會自己發現銷售機會——當有人問的問題暗示了贊助意願，它會主動引導對話，最後成交了那筆七萬美元的訂單。Jason 也用這個工具來做一些非銷售用途，比如上傳求職者的 LinkedIn 資料，讓 AI 評估是否值得面試。</p>
+<p><strong>Artisan</strong> 負責對外開發（outbound）。這是一個專門做主動聯繫的 AI Agent，會自動寄送開發信給潛在的贊助商。對外開發是銷售流程中最消耗人力的環節——要研究目標公司、找到對的聯絡人、寫客製化的信件、追蹤回覆、安排後續會議。Artisan 把這些事情自動化，讓 AI 代替 SDR（銷售開發代表）做第一線的接觸。</p>
+<p><strong>Qualified</strong> 處理進站詢問（inbound）。當有人在 SaaStr 網站上填表單、發問題，或是透過 chat 視窗開始對話，Qualified 會即時回應，判斷對方是不是認真的潛在客戶。這在過去需要人類 SDR 或 BDR（業務開發代表）來做——回覆網站上的詢問、問一系列問題判斷對方有沒有預算、有沒有決策權、需求符不符合。現在 AI 可以 24 小時做這件事，而且反應速度比人類快得多。</p>
+<p><strong>Salesforce 的 AgentForce</strong> 負責「復活」任務。它會去聯繫那些被人類業務放棄的舊名單——過去表達過興趣但沒有成交的人、曾經參加過活動但幾年沒回來的人。這些名單數量龐大，人類業務會本能地「挑肥揀瘦」，把時間花在看起來最有機會的對象身上。但 AI 不會這樣，它會老老實實聯繫每一個人。Jason 說，這個 Agent 聯繫舊名單的回覆率高達 70%——十個人裡有七個願意回應。這些都是真人業務已經放棄的對象。</p>
+<h2 id="選擇工具的核心原則誰願意幫你訓練">選擇工具的核心原則：誰願意幫你訓練？</h2>
+<p>市場上的 AI 銷售工具越來越多，功能看起來都差不多。Jason 說，選擇的關鍵不是誰的功能最強，而是誰願意花時間幫你訓練。</p>
+<p>「這些工具底層都是跑在 Claude 上面，基本上就是一堆 API 串在一起。這不代表功能都一樣，但因為你必須訓練它們，如果一個軟體功能世界第一但沒人幫你做訓練，99% 的人都不該買。」</p>
+<p>這個觀點很重要。AI Agent 不是買來就能用的現成產品，它更像是一個需要調教的新員工。你要餵它資料、教它規則、糾正它的錯誤、調整它的回應風格。這個過程需要大量的時間和耐心，如果工具廠商願意派人幫你做這件事，導入成功率會高很多。</p>
+<p>Jason 特別提到，很多 AI 銷售工具現在會提供「Forward Deployed Engineer」（前線部署工程師）的服務——派一個技術人員到你的公司，幫你完成訓練和設定。這種服務在過去只有企業級客戶才享有，現在越來越多工具廠商開始提供給中小型客戶。他建議在選擇工具的時候，直接問對方：「你們會派人來幫我訓練嗎？能投入多少時間？」</p>
+<h2 id="訓練一個-agent-需要多久30-天法則">訓練一個 Agent 需要多久？30 天法則</h2>
+<p>Jason 給出了一個明確的時間框架：大約一個月。</p>
+<p>「你要把公司網站、內部 wiki、訓練文件全部上傳給它，然後花好幾個小時跟它對話、問它問題、糾正它的錯誤。如果你這樣做 30 天，它會變得相當不錯。」</p>
+<p>這個過程可以拆解成幾個階段。第一階段是「餵資料」。把所有跟銷售相關的內容都上傳：公司網站、產品說明、定價頁面、常見問題、過去的成功案例、銷售腳本、email 範本。資料不用完美，但要足夠讓 AI 理解你的業務。Jason 說，訓練資料的量不需要像很多人想像的那麼多，「只需要一點點就能讓它變得很好」。</p>
+<p>第二階段是「對話測試」。開始跟 Agent 對話，問它各種可能會被潛在客戶問到的問題。看它怎麼回答，找出答錯的地方，然後糾正它。這個階段會發現很多「AI 幻覺」——它會自信滿滿地給出錯誤資訊，或是用不適合的語氣回應。每次發現問題，都要回去調整訓練資料或設定規則。</p>
+<p>第三階段是「實戰測試」。讓 Agent 開始處理真實的潛在客戶，但保持密切監控。這時候會發現很多在測試階段沒想到的邊界情況——客戶問了意想不到的問題、出現了需要人類介入的狀況、AI 的回應太制式或太啰唆。持續收集這些問題，每天或每週做一次調整。</p>
+<p>Jason 強調，這不是一次性的工作。即使 Agent 上線了，也需要持續監控和校正。這就是為什麼需要一個專門的人來管理。</p>
+<h2 id="誰來管理這些-agentai-長的角色">誰來管理這些 Agent？AI 長的角色</h2>
+<p>SaaStr 現在有一個專門的職位叫做「Chief AI Officer」（AI 長），由一位叫 Amelia 的員工擔任。她每週花十到十五小時管理這 20 個 Agent。</p>
+<p>這個角色的工作內容包括：監控 Agent 發出去的信件和對話品質、調整表現不好的 Agent、處理需要人類介入的特殊狀況、收集客戶反饋來優化訓練、評估是否需要導入新的工具、確保各個 Agent 之間不會互相衝突。這是一個橫跨行銷、銷售、產品和技術的綜合性角色。</p>
+<p>Jason 說，這種人需要具備幾個特質。首先要懂銷售和行銷的邏輯——理解什麼樣的訊息會吸引潛在客戶、什麼樣的問題代表高購買意願、什麼時候應該把對話轉給人類。其次要有數據分析的能力——能看懂 Agent 的表現數據、找出需要優化的地方、設計 A/B 測試來驗證改進效果。第三要對 AI 工具有足夠的技術理解——不需要會寫程式，但要懂得怎麼調整設定、怎麼餵資料、怎麼跟工具廠商溝通技術需求。最後要有耐心——訓練 AI 是重複性很高的工作，要能接受「調整、測試、再調整」的循環。</p>
+<p>「這種人不太可能從傳統業務出身，」Jason 說，「比較可能來自產品、行銷或營運部門。他們得是那種有點 nerdy、喜歡數據、願意花時間搞懂工具怎麼運作的人。」</p>
+<h2 id="常見的導入陷阱">常見的導入陷阱</h2>
+<p>Jason 在訪談中也分享了一些他觀察到的錯誤模式。</p>
+<p>第一個陷阱是「期待 AI 開箱即用」。很多人買了 AI 銷售工具，設定完成後就期待它自己運作，結果發現效果很差，就下結論說「AI 還不夠成熟」。問題不是 AI 不夠成熟，而是你沒有花時間訓練它。這就像雇了一個新員工，第一天就叫他獨立作業，然後抱怨他表現不好。</p>
+<p>第二個陷阱是「追求完美才上線」。有些人會想把 Agent 訓練到 100% 正確才敢讓它接觸真實客戶，結果永遠在內部測試。Jason 的建議是，AI 不需要完美，只需要比「你現在能負擔的人類」做得好就行了。如果你的選擇是「一個 70 分的 AI」跟「根本沒人處理這些詢問」，70 分的 AI 顯然更好。</p>
+<p>第三個陷阱是「忽略後續監控」。上線之後就不管了，以為 Agent 會自己越變越好。實際上，如果沒有人持續監控和調整，Agent 的表現會逐漸劣化——客戶的問題會變化、產品會更新、市場環境會改變，但 Agent 如果不更新訓練資料，就會開始給出過時或錯誤的資訊。</p>
+<p>第四個陷阱是「用錯工具解決問題」。不同的銷售場景適合不同類型的 AI 工具。用來做主動開發的 Agent，跟用來回覆進站詢問的 Agent，需要的能力不同。如果你只買一個工具想解決所有問題，很可能會發現它在某些場景表現很好，在其他場景完全不行。</p>
+<h2 id="一個務實的導入路徑">一個務實的導入路徑</h2>
+<p>如果你想在自己的公司嘗試導入 AI 銷售 Agent，Jason 建議的起步方式是這樣的：</p>
+<p>先找出你銷售流程中「最痛」的環節。可能是回覆網站詢問太慢、可能是開發信效果太差、可能是舊名單沒人有時間聯繫。選一個最痛的問題，只針對這個問題找工具。不要一開始就想全面改造。</p>
+<p>接著，花時間研究和試用。大部分 AI 銷售工具都有免費試用期，利用這段時間實際測試，不是只看 demo。重點觀察：工具的設定複雜度如何？廠商的客戶支援反應如何？願不願意幫你做訓練？</p>
+<p>選定工具後，投入時間訓練。Jason 說的「30 天」是一個合理的預期。這段時間要有人專門負責這件事，不能只是「順便做」。</p>
+<p>最後，從小範圍開始測試。不要一上線就讓 AI 處理所有的潛在客戶，先挑一小部分來測試，確認效果符合預期，再逐步擴大範圍。</p>
+<p>Jason 總結說：「軟體會 scale，人不會。」這句話點出了 AI Agent 的真正價值。一個訓練好的 Agent，可以同時處理一百個對話、週末和假日照常工作、不會請假或離職。這不是要取代人類，而是讓有限的人力可以專注在真正需要人類判斷的高價值工作上。</p>
+<p>重點是，你要先動手試。不是等到 AI 完美了再開始，而是現在就開始學習怎麼使用它、怎麼訓練它。因為這些知識和經驗，會在接下來幾年變得越來越值錢。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

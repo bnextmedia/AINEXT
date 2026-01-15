@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>能源危機 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E8%83%BD%E6%BA%90%E5%8D%B1%E6%A9%9F/</link>
+    <description>Recent content in 能源危機 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 14:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E8%83%BD%E6%BA%90%E5%8D%B1%E6%A9%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 晶片新創押注「類腦計算」：當電網撐不住 GPU 的胃口</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-unconventional-ai-energy-crisis/</link>
+      <pubDate>Thu, 25 Dec 2025 14:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-unconventional-ai-energy-crisis/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 NeurIPS 2024 期間的訪談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/wZ4DT20OHXE&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;2024 年夏天，美國西南部首次因為資料中心用電而出現區域性停電警報。這不是科幻小說的情節，而是已經發生的事。&lt;/p&gt;&#xA;&lt;p&gt;Naveen Rao 是 Unconventional AI 的創辦人，他在這個時間點選擇創業，不是沒有原因的。「美國的資料中心已經吃掉全國 4% 的電網，」他在 NeurIPS 2024 的訪談中說，「想像一下，當這個數字變成 8%、10% 會發生什麼事。」根據業界估算，未來十年 AI 產業需要額外 400 GW 的電力供應。問題是，美國每年能新增的發電容量只有約 4 GW。數學不會說謊：我們根本來不及蓋電廠。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;80-年前的選擇今天的包袱&#34;&gt;80 年前的選擇，今天的包袱&lt;/h2&gt;&#xA;&lt;p&gt;為什麼 AI 這麼耗電？答案要追溯到 1940 年代。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

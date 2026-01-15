@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 就業衝擊 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E5%B0%B1%E6%A5%AD%E8%A1%9D%E6%93%8A/</link>
+    <description>Recent content in AI 就業衝擊 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 22 Dec 2025 21:15:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E5%B0%B1%E6%A5%AD%E8%A1%9D%E6%93%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic CEO 說了五個圈內人才敢講的真話</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-dario-amodei-five-truths/</link>
+      <pubDate>Mon, 22 Dec 2025 21:15:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-dario-amodei-five-truths/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dario Amodei 於 2024 年 12 月在紐約時報 DealBook Summit 的公開訪談。&#xA;📺 影片連結：&lt;a href=&#34;https://www.youtube.com/watch?v=FEj7wAjwQIk&#34;&gt;YouTube&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Dario Amodei 是 Anthropic 的 CEO 兼共同創辦人。在一個所有 AI 公司都在喊「我們最強」的時代，他是少數願意在公開場合講真話的人。這場將近 40 分鐘的訪談，他談了泡沫風險、產業競爭、監管爭議、國家安全、還有工作衝擊——每一個都是別人避之唯恐不及的敏感話題。&lt;/p&gt;&#xA;&lt;p&gt;值得一聽的原因不是他特別悲觀。恰恰相反，他可能是業界最樂觀的人之一。他寫過一篇文章說 AI 可能在十年內把人類壽命延長到 150 歲。但他的樂觀建立在一個前提上：我們得先誠實面對風險。這篇文章整理了他在訪談中說的五個「真話」，每一個都值得細想。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;真相一有人在-yolo而且可能會出事&#34;&gt;真相一：有人在 YOLO，而且可能會出事&lt;/h2&gt;&#xA;&lt;p&gt;主持人 Andrew Ross Sorkin 開門見山問：AI 產業現在的投資規模，是不是泡沫？&lt;/p&gt;&#xA;&lt;p&gt;Dario 的回答很有層次。他說技術面他很有信心，Scaling Laws 會持續有效，模型會繼續變強。但經濟面，他確實擔心。他用了一個內部術語：「&lt;strong&gt;不確定性錐&lt;/strong&gt;」（cone of uncertainty）。&lt;/p&gt;&#xA;&lt;p&gt;這個概念是這樣的：Anthropic 的營收過去三年每年成長十倍——2023 年 1 億美元，2024 年 10 億，2025 年預計落在 80 到 100 億之間。如果你「很蠢地」直接外推這個趨勢，明年就是 1000 億。但 Dario 說他自己都不信。用比較務實的方式估算，可能是 200 億，也可能是 500 億。這個範圍就是「錐」——越往未來看，可能的範圍就越大，不確定性也越高。&lt;/p&gt;&#xA;&lt;p&gt;問題在於，建資料中心需要一到兩年。你現在就得決定要買多少運算資源，來服務兩年後的客戶。買少了，客戶來了你接不住，只能把他們推給競爭對手。買多了，營收跟不上，最糟的情況就是破產。&lt;/p&gt;&#xA;&lt;p&gt;Dario 說 Anthropic 採取保守策略：「我們計畫的是錐的下緣。就算落在第十百分位的悲觀情境，我們也要能撐得住。」但他話鋒一轉，說有些公司不是這樣想的。&lt;/p&gt;&#xA;&lt;p&gt;「如果你是那種天性上就喜歡 &lt;strong&gt;YOLO&lt;/strong&gt; 的人，或者就是喜歡大數字，你可能會把風險調得很高。」&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

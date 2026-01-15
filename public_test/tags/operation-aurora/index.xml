@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operation Aurora on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/operation-aurora/</link>
+    <description>Recent content in Operation Aurora on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 24 Dec 2025 01:47:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/operation-aurora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從 Operation Aurora 到 Deepfake 詐騙：一位資安老兵眼中的 15 年演變</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-cybersecurity-ai-aurora-to-deepfake/</link>
+      <pubDate>Wed, 24 Dec 2025 01:47:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-cybersecurity-ai-aurora-to-deepfake/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Google DeepMind Podcast 2024 年 12 月播出的兩集特別節目，由主持人 Hannah Fry 專訪 Google DeepMind 安全副總裁 Four Flynn。&#xA;📺 收聽連結：&lt;a href=&#34;https://youtube.com/watch?v=1gO2bC5xLlo&#34;&gt;Part 1&lt;/a&gt; / &lt;a href=&#34;https://www.youtube.com/watch?v=kv-b6RFRbfI&#34;&gt;Part 2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2009-年聖誕節改變一切的那通電話&#34;&gt;2009 年聖誕節，改變一切的那通電話&lt;/h2&gt;&#xA;&lt;p&gt;如果你在網路安全領域工作夠久，你就會知道一個不成文的規則：重大資安事件偏愛假期。聖誕節、感恩節、春節——當人們離開辦公室享受假期時，往往就是攻擊者選擇動手的時機。2009 年 12 月，Four Flynn 原本計劃好的聖誕假期，就這樣被一通電話徹底改變了。&lt;/p&gt;&#xA;&lt;p&gt;那年冬天，Flynn 還在 Google 的資安團隊工作。他們偵測到了異常活動——有人正在嘗試進入 Google 的內部系統。起初，沒有人知道這是什麼，攻擊者是誰，目標是什麼。「在處理這類情況時，你會遇到所謂的『戰爭迷霧』，」Flynn 在訪談中回憶，「你完全不知道發生了什麼事，你甚至不知道攻擊的細節是什麼。你只是在做數位鑑識，試圖拼湊出事情的全貌，而你連拼圖的完整樣子都不清楚。」&lt;/p&gt;&#xA;&lt;p&gt;接下來的日子，Flynn 和他的同事們幾乎放棄了所有假期。「我們很多人在那個房間裡待了很長時間，每天很多很多小時。」當主持人 Hannah Fry 問他是否和 Google 創辦人 Sergey Brin 一起每天工作 15 小時時，Flynn 確認了這一點。而當被問到回想起那段日子的感受時，他停頓了一下：「回想起來，我的胃還是會揪緊。」&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;極光行動當國家級駭客瞄準矽谷&#34;&gt;極光行動：當國家級駭客瞄準矽谷&lt;/h2&gt;&#xA;&lt;p&gt;這次攻擊後來被命名為「極光行動」（Operation Aurora），是網路安全歷史上的一個分水嶺。這是第一次有國家級駭客大規模攻擊西方科技公司的公開案例，而且目標不只是 Google——多家美國科技公司都成為目標。攻擊的幕後黑手被認定為中國，目的是獲取人權活動人士的 Gmail 帳號資訊，以及各公司的智慧財產權。&lt;/p&gt;&#xA;&lt;p&gt;入侵的手法，說來諷刺地簡單：一封釣魚郵件。當時 Internet Explorer 瀏覽器存在一個漏洞，攻擊者利用社交工程手法，誘騙 Google 的一名員工點擊了惡意連結。就這樣，攻擊者取得了進入 Google 內部網路的初始據點。Flynn 將這種攻擊方式稱為「客戶端攻擊」（client-side attacks），與早期駭客直接攻擊伺服器的「前門」攻擊不同，這種方式繞過了企業精心建構的防火牆，直接瞄準最脆弱的環節——人。&lt;/p&gt;&#xA;&lt;p&gt;「那些終將自己的生命奉獻給保護他人的人，」Flynn 談到當時的心情，「會感覺像是一種失敗。」這不只是技術上的挫敗，更是一種深層的責任感被侵犯的痛苦。「我把整個職涯都投入保護人們的資料、帳號、公司的網路——所有這些都是為了讓人們的日常生活能夠盡可能美好。」&lt;/p&gt;&#xA;&lt;p&gt;極光行動的影響遠超出 Google 一家公司。Google 做出了一個當時極為罕見的決定：公開披露這次攻擊。在此之前，遭受網路攻擊的企業通常選擇沉默，擔心公開會損害公司聲譽。但 Google 選擇了透明，這個決定後來被證明推動了整個產業的進步——從資料外洩通報法規的制定，到負責任的漏洞揭露流程的標準化，極光行動成為了一個轉折點。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

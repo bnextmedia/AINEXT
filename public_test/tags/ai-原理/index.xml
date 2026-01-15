@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 原理 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E5%8E%9F%E7%90%86/</link>
+    <description>Recent content in AI 原理 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E5%8E%9F%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 的「密碼本」越大越聰明：一位 KAIST 教授的記憶體比喻</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-ai-codebook-memory-analogy/</link>
+      <pubDate>Fri, 26 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-ai-codebook-memory-analogy/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/uJWZQb9rWUk&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;如果要用一句話解釋 AI 是怎麼回答你的問題的，KAIST 電子及電機工程學部的金正鎬（Kim Jung-ho）教授會這樣說：「它在翻一本巨大的密碼本。」&lt;/p&gt;&#xA;&lt;p&gt;這位韓國頂尖的半導體專家，是 HBM 技術發展的重要推手之一。在韓國財經節目《삼프로TV 언더스탠딩》中，他用了一個精妙的比喻，把複雜的 AI 技術原理講得讓一般人都能理解。而這個比喻的核心訊息是：AI 的能力，很大程度上取決於它的「密碼本」有多大——而那本密碼本，就儲存在記憶體裡。&lt;/p&gt;&#xA;&lt;h2 id=&#34;encoder-和-decoder翻譯人類語言的密碼機&#34;&gt;Encoder 和 Decoder：翻譯人類語言的密碼機&lt;/h2&gt;&#xA;&lt;p&gt;當你問 ChatGPT 一個問題時，背後其實發生了兩件事。&lt;/p&gt;&#xA;&lt;p&gt;首先，你的問題會被送進一個叫做 Encoder（編碼器）的系統。這個系統的工作是把人類的語言——無論是英文、中文還是韓文——轉換成一種「機器能理解的語言」。金教授把這種語言稱為「密碼」，更詩意一點的說法是「神的語言」或「外星人的語言」。總之，這是一套人類無法直接閱讀的符號系統。&lt;/p&gt;&#xA;&lt;p&gt;這套密碼會被記錄在一本「密碼本」裡。技術上，這本密碼本叫做 Prior（先驗知識）或 KV Cache。它記錄了所有詞彙之間的關係、每個概念的重要性、以及各種知識的連結方式。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

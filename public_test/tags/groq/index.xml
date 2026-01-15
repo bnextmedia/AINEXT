@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Groq on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/groq/</link>
+    <description>Recent content in Groq on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 06 Jan 2026 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/groq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 硬體突圍與美國財政危機：All-In 年終關鍵回顧</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260106-all-in-podcast-recap-ai-fiscal-crisis/</link>
+      <pubDate>Tue, 06 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260106-all-in-podcast-recap-ai-fiscal-crisis/</guid>
+      <description>&lt;p&gt;如果說這一集的《All-In Podcast》是一部電影，那它肯定是一部充滿張力的雙線敘事片。&lt;/p&gt;&#xA;&lt;p&gt;上半場，是一部令人背脊發涼的政治驚悚片：獨立記者揭發明尼蘇達州數億美元的福利詐欺，資金疑似流向恐怖組織，而加州政府正試圖通過沒收富人資產來填補赤字黑洞。下半場，畫風一轉成為硬核科技大片：NVIDIA 與 Groq 的 200 億美元合作案，宣告了 AI 運算架構的全新時代來臨。&lt;/p&gt;&#xA;&lt;p&gt;這兩種截然不同的氛圍——政治上的腐敗與絕望，科技上的突破與希望——在同一集節目中激烈碰撞。這或許正是當前世界的縮影：舊秩序正在崩解，而新秩序正在程式碼與晶片中重生。&lt;/p&gt;&#xA;&lt;h2 id=&#34;崩壞的系統當詐欺變成工業&#34;&gt;崩壞的系統：當詐欺變成工業&lt;/h2&gt;&#xA;&lt;p&gt;故事從一位 23 歲的獨立記者 Nick Shirley 開始。他深入明尼蘇達州，揭發了一連串令人咋舌的福利詐欺案。&lt;/p&gt;&#xA;&lt;p&gt;其中最荒謬的是「Feeding Our Future」醜聞：一個名義上為了餵飽貧困兒童的計畫，被詐取了 2.5 億美元。Shirley 實地走訪那些領取鉅額補助的「托兒所」，發現大多是大門深鎖的空殼，有些甚至連招牌都拼錯字。更令人震驚的是，自閉症治療補助的申報額在短短五年間暴增了 130 倍，從 300 萬美元激增至 4 億美元。&lt;/p&gt;&#xA;&lt;p&gt;David Sacks 犀利地指出，這不是單純的管理疏失，而是民主黨建立的「贊助體系（Patronage System）」。透過放任詐欺，政府資金被輸送給特定族群（在此案中是索馬利亞移民社群），再透過政治獻金回流，形成一個完美的利益閉環。&lt;/p&gt;&#xA;&lt;p&gt;而在西岸的加州，面對 180 億美元的財政赤字，政客們提出的解方竟然是「資產沒收」。David Friedberg 分析了加州擬議中的「億萬富翁稅」，這項法案試圖對未實現的資產增值徵稅。這打破了「有收入才繳稅」的百年原則，本質上是對私有財產的掠奪。Chamath Palihapitiya 警告，這種竭澤而漁的政策將導致資本加速逃離美國，最終引發債券市場的崩盤。&lt;/p&gt;&#xA;&lt;p&gt;「如果我們認為這種規模的盜竊是可以接受的，」Chamath 語重心長地說，「那這就是美國帝國終結的開始。」&lt;/p&gt;&#xA;&lt;h2 id=&#34;科技的救贖groq-與-nvidia-的世紀聯手&#34;&gt;科技的救贖：Groq 與 NVIDIA 的世紀聯手&lt;/h2&gt;&#xA;&lt;p&gt;然而，就在對體制的絕望中，科技界傳來了令人振奮的消息。NVIDIA 宣佈與 AI 晶片新創 Groq 達成 200 億美元的戰略合作。&lt;/p&gt;&#xA;&lt;p&gt;作為 Groq 的早期投資人，Chamath 在節目中親自拆解了這場合作背後的技術邏輯。他解釋了 AI 推論（Inference）的兩個關鍵階段：&lt;strong&gt;Pre-fill（預填充）&lt;strong&gt;與&lt;/strong&gt;Decode（解碼）&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pre-fill（閱讀）&lt;/strong&gt;：這是模型讀取你輸入的 Prompt 的過程。這需要巨大的平行運算能力，是 NVIDIA GPU 的絕對主場。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Decode（寫作）&lt;/strong&gt;：這是模型一個字一個字生成回答的過程。這時的瓶頸不再是算力，而是記憶體頻寬。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Chamath 用「搭電梯」來比喻：GPU 的架構就像是要不斷搭電梯上下樓搬運數據，對於需要頻繁存取的 Decode 階段來說，效率極低。而 Groq 的架構則是將記憶體（SRAM）直接做在晶片上，完全消除了外部傳輸的延遲。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Groq 攜手 NVIDIA：Chamath 親解「Pre-fill 與 Decode」的架構之爭</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260106-groq-nvidia-prefill-decode/</link>
+      <pubDate>Tue, 06 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260106-groq-nvidia-prefill-decode/</guid>
+      <description>&lt;p&gt;這可能是近期 AI 硬體圈最令人震驚的消息之一：NVIDIA 宣佈與 AI 晶片新創 Groq 達成戰略合作。&lt;/p&gt;&#xA;&lt;p&gt;這個消息之所以反直覺，是因為 Groq 長期以來都被視為 NVIDIA 的挑戰者。Groq 創辦人 Jonathan Ross 曾是 Google TPU 的發明者，這家公司主打的 LPU（Language Processing Unit）架構，正是為了打破 GPU 在大型語言模型（LLM）推論上的壟斷而生。然而，這場原本被視為「大衛對抗歌利亞」的戰爭，卻在 2025 年底演變成了一場價值 200 億美元的聯手。&lt;/p&gt;&#xA;&lt;p&gt;為什麼 NVIDIA 執行長黃仁勳（Jensen Huang）會願意「擁抱」競爭對手？All-In Podcast 主持人、同時也是 Groq 早期投資人的 Chamath Palihapitiya，在最新一集節目中揭露了這場合作背後的技術邏輯。這不僅是一次商業上的合縱連橫，更揭示了 LLM 運算架構正在經歷一場根本性的典範轉移——從單一架構通吃，走向「Pre-fill（預填充）」與「Decode（解碼）」的分工時代。&lt;/p&gt;&#xA;&lt;h2 id=&#34;llm-的兩張面孔閱讀與寫作&#34;&gt;LLM 的兩張面孔：閱讀與寫作&lt;/h2&gt;&#xA;&lt;p&gt;要理解這次合作的意義，首先得理解大型語言模型是如何思考的。Chamath 在節目中引用了一組關鍵概念：Pre-fill（預填充）與 Decode（解碼）。這兩個術語聽起來生硬，但它們精準地描述了 AI 處理任務的兩個截然不同的階段。&lt;/p&gt;&#xA;&lt;p&gt;所謂「Pre-fill」，就是模型的「閱讀階段」。當你把一長串 Prompt（提示詞）丟給 ChatGPT 時，模型必須一次性讀取所有的文字，計算字與字之間的關聯。這個過程是高度平行化的，需要巨大的算力來同時處理龐大的矩陣運算。這正是 NVIDIA GPU 的主場——GPU 的設計初衷就是為了處理這種大規模並行任務，它能像推土機一樣，暴力且高效地碾過這些數據。隨著 Context Window（上下文視窗）越來越大，Pre-fill 的運算需求也呈指數級上升，這讓 NVIDIA 的優勢更加不可撼動。&lt;/p&gt;&#xA;&lt;p&gt;然而，當模型讀完題目，開始「寫作」時，情況就變了。這就是「Decode」階段。在這個階段，模型必須一個字、一個字（token by token）地生成答案。每生成一個字，它都必須回頭看之前生成的所有內容，以確保上下文連貫。&lt;/p&gt;&#xA;&lt;p&gt;這時，運算的瓶頸不再是「算力」，而是「記憶體頻寬」。因為每生成一個字，資料就必須在晶片的運算單元（Logic）和記憶體（HBM）之間來回搬運一次。這就像是你每寫一個字，都得從書桌跑到圖書館查一次字典，然後再跑回來寫下一個字。無論你的寫字速度（算力）有多快，你的產出速度最終會被「跑圖書館」（記憶體傳輸）的時間給卡住。這就是為什麼我們有時會覺得 AI 回答時會「卡頓」或「像打字機一樣慢」的物理原因。&lt;/p&gt;&#xA;&lt;h2 id=&#34;蓋大樓的比喻為什麼-gpu-在-decode-階段效率低&#34;&gt;蓋大樓的比喻：為什麼 GPU 在 Decode 階段效率低？&lt;/h2&gt;&#xA;&lt;p&gt;Chamath 用了一個生動的建築比喻來解釋這個瓶頸。想像你在一棟摩天大樓裡，如果你要從 A 點移動到 B 點（完成一次運算），在 GPU 的架構下，你必須先搭電梯上到 10 樓，處理完後再搭電梯回到一樓，然後走到隔壁棟，再搭電梯上去。這個「搭電梯」的過程，就是資料在 HBM（高頻寬記憶體）與運算單元之間傳輸的過程。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>客製化晶片來了，Nvidia 的好日子要結束了嗎？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260106-custom-silicon-nvidia-groq/</link>
+      <pubDate>Tue, 06 Jan 2026 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260106-custom-silicon-nvidia-groq/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Deepwater Asset Management 旗下《DeepTech》Podcast 2025 年 9 月播出的單集。&#xA;🎬 YouTube：&lt;a href=&#34;https://www.youtube.com/watch?v=NsQozkZmrXA&#34;&gt;收看連結&lt;/a&gt;&#xA;🎧 Spotify：&lt;a href=&#34;https://open.spotify.com/episode/54P6sV9SekO2nPjtHiiJIN&#34;&gt;收聽連結&lt;/a&gt;&#xA;🎧 Apple Podcast：&lt;a href=&#34;https://podcasts.apple.com/us/podcast/deeptech-ep5-upon-further-review-were-still-early-in-ai/id1721973292?i=1000726489600&#34;&gt;收聽連結&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;OpenAI 和晶片設計公司 Broadcom 簽下了一份價值超過 100 億美元的合約，要開發專為 OpenAI 設計的客製化 AI 晶片。幾乎在同一時間，Nvidia 宣布以 200 億美元收購 AI 推論晶片新創公司 Groq 的技術和團隊。&lt;/p&gt;&#xA;&lt;p&gt;這兩則新聞放在一起看，透露出一個重要訊號：AI 晶片市場正在發生結構性的變化。&lt;/p&gt;&#xA;&lt;p&gt;投資管理公司 Deepwater Asset Management 的合夥人 Doug Clinton 在《DeepTech》Podcast 中提出了一個大膽的判斷：AI 產業的敘事正在從「GPU 需求」轉向「客製化晶片需求」。這個轉變對 Nvidia 來說，可能是好消息，也可能是壞消息——取決於你用什麼時間尺度來看。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼市值超過-1000-億美元的-ai-公司都想自己做晶片&#34;&gt;為什麼市值超過 1000 億美元的 AI 公司都想自己做晶片？&lt;/h2&gt;&#xA;&lt;p&gt;Doug Clinton 在節目中提出了一個明確的判斷：任何市值超過 1000 億美元的 AI 公司，最終都必須發展自己的客製化晶片。這不是選擇題，而是生存問題。&lt;/p&gt;&#xA;&lt;p&gt;理由很直接：成本和效率。&lt;/p&gt;&#xA;&lt;p&gt;Nvidia 的 GPU 是「通用型」晶片，設計目標是能夠處理各種不同的運算任務。這種通用性是它的優勢，讓 Nvidia 可以賣給各種不同的客戶。但通用性也意味著妥協——對於任何單一特定任務，通用型晶片都不會是「最佳化」的選擇。&lt;/p&gt;&#xA;&lt;p&gt;客製化晶片（Broadcom 稱之為 XPU）則不同。它是專門為特定模型、特定用途設計的。當你知道這顆晶片只需要跑某一種模型時，你可以把所有不需要的功能都拿掉，把所有資源都集中在你需要的功能上。結果就是：更低的功耗、更高的效率、更低的單位運算成本。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

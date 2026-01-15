@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jason Wei on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/jason-wei/</link>
+    <description>Recent content in Jason Wei on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 11:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/jason-wei/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從圖書館到 ChatGPT：取得知識的成本正在歸零</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-instant-knowledge/</link>
+      <pubDate>Thu, 25 Dec 2025 11:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-instant-knowledge/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/b6Doq2fz81U&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Stanford AI Club 2025 年的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;1983 年，韓國釜山有多少對新人結婚？&lt;/p&gt;&#xA;&lt;p&gt;這個問題看起來很無聊，但 Jason Wei 用它來說明一件大事：取得知識的成本正在經歷歷史性的崩塌。&lt;/p&gt;&#xA;&lt;p&gt;Jason Wei 是 OpenAI o1 和 Deep Research 的共同創作者，學術引用超過 9 萬次。在 Stanford AI Club 的演講中，他提出了「智慧商品化」的概念。核心主張很簡單：&lt;strong&gt;一旦 AI 能做某件事，做那件事的成本會被快速壓到趨近於零。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;知識取得就是最明顯的例子。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>驗證者法則：為什麼容易打分數的任務，會最先被 AI 征服</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-verifiers-law/</link>
+      <pubDate>Thu, 25 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-verifiers-law/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/b6Doq2fz81U&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Stanford AI Club 2025 年的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;如果你想預測 AI 在哪個領域會有下一個大突破，Jason Wei 給了一個簡單的答案：看那個領域的任務有多容易被驗證。&lt;/p&gt;&#xA;&lt;p&gt;Jason Wei 是 OpenAI o1 和 Deep Research 的共同創作者，學術引用超過 9 萬次。他在 Stanford AI Club 的演講中提出了一個他稱為「Verifier&amp;rsquo;s Law」（驗證者法則）的概念。這個法則很簡單，但解釋力驚人：&lt;strong&gt;AI 被訓練來解決某個任務的能力，與這個任務有多容易被驗證成正比。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;換句話說，如果一個任務的答案很容易打分數，AI 就能快速進步。如果答案很難評判好壞，AI 就會卡住。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>為什麼 AI 會先取代工程師，卻不會取代理髮師？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-jagged-edge-of-intelligence/</link>
+      <pubDate>Thu, 25 Dec 2025 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-jagged-edge-of-intelligence/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/b6Doq2fz81U&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Stanford AI Club 2025 年的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;你可能聽過一種說法：一旦 AI 突破某個臨界點，就會在短短幾年內遠遠超越人類，接管一切。這個「快速起飛」的論述聽起來很嚇人，但 Jason Wei 不這樣看。&lt;/p&gt;&#xA;&lt;p&gt;Jason Wei 是 OpenAI o1 和 Deep Research 的共同創作者，曾在 Google Brain 推廣 Chain-of-Thought Prompting，學術引用超過 9 萬次。他在 Stanford AI Club 的演講中提出了一個不同的框架：&lt;strong&gt;智慧的鋸齒狀邊緣&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>o1 共同創作者的 2025 AI 預言：三個你該知道的核心趨勢</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-three-ai-ideas-2025/</link>
+      <pubDate>Thu, 25 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-three-ai-ideas-2025/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/b6Doq2fz81U&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Stanford AI Club 2025 年的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;「AI 還剩幾年會取代我們的工作？」如果你問一個量化交易員，他可能會說 ChatGPT 根本做不了他的事；但如果你問一個頂尖 AI 實驗室的研究員，答案可能是兩到三年。這個巨大的認知落差，正是 Jason Wei 這場演講想解決的問題。&lt;/p&gt;&#xA;&lt;p&gt;Jason Wei 是誰？他是 OpenAI o1 和 Deep Research 的共同創作者，在加入 OpenAI 之前是 Google Brain 的研究科學家，推廣了 Chain-of-Thought Prompting 和 Instruction Tuning 這些現在已成為業界標準的技術。他的學術引用超過 9 萬次，是當今最有影響力的 AI 研究者之一。最近他加入了 Meta 的 Superintelligence Labs。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

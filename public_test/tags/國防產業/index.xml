@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>國防產業 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E5%9C%8B%E9%98%B2%E7%94%A2%E6%A5%AD/</link>
+    <description>Recent content in 國防產業 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E5%9C%8B%E9%98%B2%E7%94%A2%E6%A5%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>供應鏈去中國化的實戰手冊：Palmer Luckey 的「意識形態狂熱分子」策略</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-supply-chain-decoupling-china-playbook/</link>
+      <pubDate>Fri, 26 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-supply-chain-decoupling-china-playbook/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自台灣人工智慧學校 2025 年 8 月於台大舉辦的講座。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/ktERIegV8RI&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「法規合規」和「真正獨立」是兩回事。&lt;/p&gt;&#xA;&lt;p&gt;這是 Palmer Luckey 在台大演講中反覆強調的一個觀點。Anduril 是一家國防公司，理論上應該對供應鏈安全特別敏感。但 Palmer 坦承，即使在兩年前 Anduril 已經完全「合規」——符合美國法律對中國供應鏈的所有規定——他們仍然發現自己在很多地方間接依賴中國。&lt;/p&gt;&#xA;&lt;p&gt;這個問題不是 Anduril 獨有的。對於任何想要在供應鏈上擺脫中國依賴的公司來說，Palmer 分享的經驗提供了一個務實的框架。&lt;/p&gt;&#xA;&lt;h2 id=&#34;合規陷阱三個你以為沒問題其實有問題的案例&#34;&gt;合規陷阱：三個你以為沒問題、其實有問題的案例&lt;/h2&gt;&#xA;&lt;p&gt;Palmer 用三個具體案例說明「合規」和「獨立」之間的差距。&lt;/p&gt;&#xA;&lt;p&gt;第一個案例是稀土礦物。假設你從一個「友好國家」採購某種零組件，它的產地標示是那個友好國家，所有的進口文件都證明這不是中國製造的產品，完全符合法規要求。但問題是：這個零組件的原料——稀土礦物——全部來自中國。那個友好國家只是做了加工，真正的源頭還是中國。如果中國決定斷供稀土，這條供應鏈一樣會斷。&lt;/p&gt;&#xA;&lt;p&gt;你在法律上合規，但你在戰略上依然脆弱。&lt;/p&gt;&#xA;&lt;p&gt;第二個案例更微妙，Palmer 稱之為「製程依賴」。Anduril 使用一種黏著劑，這種黏著劑本身的化學成分完全不含中國製造的原料。但問題出在黏著劑的「載體」——那個讓黏著劑可以捲成膠帶形式的塑膠薄膜。這種特殊規格的塑膠薄膜全世界只有一家工廠生產，而那家工廠在中國。&lt;/p&gt;&#xA;&lt;p&gt;黏著劑進入你的產品，塑膠薄膜不會。所以按照法規定義，你的產品沒有「中國成分」。但沒有那個塑膠薄膜，你就無法製造黏著劑膠帶，你的生產線就會停擺。合規文件上看起來沒問題，實際上你還是被中國卡住了脖子。&lt;/p&gt;&#xA;&lt;p&gt;第三個案例是「產能依賴」。假設你找到了一個非中國的供應商，他們可以提供你需要的零組件，價格合理、品質過關。但仔細一看，這個供應商的主要客戶群都在中國，他們 80% 的產能是服務中國市場的。他們為你留了一條小小的專線，使用非中國的原料，完全符合你的採購規格。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anduril 的產品思維：為什麼軍火商要像 Apple 那樣做產品</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-anduril-product-company-not-contractor/</link>
+      <pubDate>Fri, 26 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-anduril-product-company-not-contractor/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自台灣人工智慧學校 2025 年 8 月於台大舉辦的講座。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/ktERIegV8RI&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;2017 年，Palmer Luckey 創辦 Anduril 的時候，國防產業在矽谷是個禁忌話題。這是 Google 員工走上街頭抗議公司與美國軍方合作的年代。頂尖的科技人才紛紛投入社群媒體、電商、金融科技，而不是「幫政府造武器」。&lt;/p&gt;&#xA;&lt;p&gt;八年後，Anduril 估值超過 280 億美元，成為美國成長最快的國防公司之一。但讓他們與眾不同的，不只是技術——而是他們從根本上顛覆了國防產業的商業模式。&lt;/p&gt;&#xA;&lt;p&gt;Palmer 在台大演講時，用了一個簡單的區分來解釋這件事：Anduril 不是「國防承包商」（defense contractor），而是「國防產品公司」（defense product company）。這兩個詞聽起來差不多，但背後代表的是完全不同的世界。&lt;/p&gt;&#xA;&lt;h2 id=&#34;承包商-vs-產品公司誰承擔失敗的風險&#34;&gt;承包商 vs 產品公司：誰承擔失敗的風險？&lt;/h2&gt;&#xA;&lt;p&gt;傳統的國防承包商是這樣運作的：政府發出需求規格，承包商提交標書和 PowerPoint 簡報，贏得合約後開始開發。開發過程中，政府持續付款。如果專案延遲、超支、或者最終產品不如預期，承包商還是拿到了錢。納稅人承擔了所有風險。&lt;/p&gt;&#xA;&lt;p&gt;這種模式存在一個根本性的激勵錯位：承包商沒有動力控制成本、加快進度、或者淘汰不可行的專案。延遲意味著更多帳單。複雜意味著更高的收費。失敗不會讓你賠錢，只是少了下一份合約而已。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

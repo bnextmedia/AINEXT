@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>美國製造 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E7%BE%8E%E5%9C%8B%E8%A3%BD%E9%80%A0/</link>
+    <description>Recent content in 美國製造 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 13:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E7%BE%8E%E5%9C%8B%E8%A3%BD%E9%80%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>台積電美國廠的真實成本：誰來買單？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-tsmc-us-fabs-cost-who-pays/</link>
+      <pubDate>Fri, 26 Dec 2025 13:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-tsmc-us-fabs-cost-who-pays/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自芝加哥大學 Becker Friedman Institute 製作的《The Pie》Podcast，2025 年 5 月 13 日播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    src=&#34;https://open.spotify.com/embed/show/2UEsLEtKK1JHOWO4Mf9uPa&#34; &#xA;    width=&#34;100%&#34; &#xA;    height=&#34;152&#34; &#xA;    frameBorder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; &#xA;    loading=&#34;lazy&#34;&#xA;    style=&#34;border-radius: 12px;&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/us/podcast/pandemic-economics/id1509074261&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;台積電在美國設廠的成本比在台灣高，這件事早就不是秘密。但芝加哥大學經濟學教授謝長泰（Chang-Tai Hsieh）在一集 Podcast 中，把這個問題往下推了一層：這些額外成本最終會落在誰身上？答案會影響的不只是幾家公司的財報，可能還包括整個 AI 革命的發展速度。&lt;/p&gt;&#xA;&lt;h2 id=&#34;成本轉嫁的三條路&#34;&gt;成本轉嫁的三條路&lt;/h2&gt;&#xA;&lt;p&gt;謝長泰分析，如果台積電真的在美國擴大產能，而這些產能的營運成本確實比台灣高（目前的證據顯示確實如此），那麼接下來會發生三件事之一。&lt;/p&gt;&#xA;&lt;p&gt;第一種可能是台積電自己吸收成本。這意味著台積電的利潤會下降，股東得到的回報會減少。對於一家市值超過兆美元的公司來說，利潤率的任何下滑都會在財報上非常顯眼。&lt;/p&gt;&#xA;&lt;p&gt;第二種可能是台積電把成本轉嫁給客戶。它的主要客戶是誰？Apple、NVIDIA、Meta——這些全球最有價值的科技公司。如果晶片價格上漲，這些公司就必須做出選擇：是自己吸收成本、壓縮利潤，還是再往下轉嫁給自己的客戶？&lt;/p&gt;&#xA;&lt;p&gt;第三種可能是成本最終轉嫁到消費者身上。iPhone 變貴、NVIDIA 的 GPU 變貴、雲端 AI 服務的訂閱費變貴。&lt;/p&gt;&#xA;&lt;p&gt;謝長泰坦承他不知道 NVIDIA 等公司的利潤率到底有多高，也不知道它們有沒有能力吸收這些成本。但他指出，不管是哪一種情況，結果都是有人的利潤會減少。&lt;/p&gt;&#xA;&lt;h2 id=&#34;兩種世界觀的碰撞&#34;&gt;兩種世界觀的碰撞&lt;/h2&gt;&#xA;&lt;p&gt;這裡謝長泰提出了一個更深層的問題：利潤減少到底是好事還是壞事？&lt;/p&gt;&#xA;&lt;p&gt;他描述了兩種對立的世界觀。第一種是「進步派」的觀點：如果公司賺得少，那就意味著股東分得少，其他人分得多。從這個角度看，高科技公司利潤下降不是什麼壞事，反而是財富重新分配的機會。&lt;/p&gt;&#xA;&lt;p&gt;第二種觀點則認為，利潤是驅動創新的關鍵燃料。這些公司之所以能投入大量資金進行研發，正是因為它們有豐厚的利潤。如果利潤被壓縮，研發投資就會減少，下一波技術革命可能會被推遲。&lt;/p&gt;&#xA;&lt;p&gt;「哪一邊是對的？我不知道，」謝長泰說。他指出，有些公司確實是把利潤拿去分紅而不是投資，但也有很多公司如果沒有利潤，所有對未來創新的投資都會停滯。「我們現在處於哪種情況？很難說。」&lt;/p&gt;&#xA;&lt;h2 id=&#34;對-ai-產業的潛在影響&#34;&gt;對 AI 產業的潛在影響&lt;/h2&gt;&#xA;&lt;p&gt;如果把這個問題放到 AI 產業的脈絡下，影響可能更加深遠。目前，AI 革命的硬體基礎幾乎完全建立在台積電製造的先進晶片上。NVIDIA 的 GPU、各大科技公司的 AI 加速器、甚至 Apple 的自研晶片，都依賴台積電的製程技術。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

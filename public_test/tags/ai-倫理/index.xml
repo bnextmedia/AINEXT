@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 倫理 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E5%80%AB%E7%90%86/</link>
+    <description>Recent content in AI 倫理 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 24 Dec 2025 01:55:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E5%80%AB%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 正在被訓練成討好你，而不是幫助你</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-surge-ai-trained-to-please-you/</link>
+      <pubDate>Wed, 24 Dec 2025 01:55:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-surge-ai-trained-to-please-you/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Lenny&amp;rsquo;s Podcast 與 Surge AI 創辦人 Edwin Chen 的訪談。&#xA;收聽連結：&lt;a href=&#34;https://www.youtube.com/watch?v=dduQeaqmpnI&#34;&gt;YouTube&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Edwin Chen 是 Surge AI 的創辦人，這家公司為所有主要 AI 實驗室提供訓練資料。他最近分享了一個親身經歷。&lt;/p&gt;&#xA;&lt;p&gt;他請 Claude 幫忙修改一封 email。來來回回改了 30 個版本，花了 30 分鐘，最後對成果很滿意，按下送出。然後他意識到一件事：他剛剛花了 30 分鐘，做一件根本不重要的事。這封 email 改成什麼樣子，對任何事情都不會有影響。如果沒有 AI，他根本不會在乎這封信，三分鐘就寄出去了。&lt;/p&gt;&#xA;&lt;p&gt;這個經歷讓他開始思考一個讓人不舒服的問題：如果你可以選擇模型的完美行為，你要哪一種？&lt;/p&gt;&#xA;&lt;p&gt;是一個會說「你說得對，這封 email 還有 20 種方式可以改進」然後陪你再改 50 個版本的模型？還是一個會說「不，你該停了。這封信很好，寄出去，去做更重要的事」的模型？&lt;/p&gt;&#xA;&lt;h2 id=&#34;社群媒體的教訓&#34;&gt;社群媒體的教訓&lt;/h2&gt;&#xA;&lt;p&gt;Edwin 曾在 Twitter、Google、Facebook 工作過。他在那裡學到一件事：每次你為「互動」（engagement）優化，可怕的事情就會發生。&lt;/p&gt;&#xA;&lt;p&gt;「你會得到標題黨、比基尼照片、大腳怪、還有嚇人的皮膚病，全部塞滿你的動態牆。」他回憶道。這不是意外，這是演算法按照指令運作的結果。如果目標是讓使用者花更多時間、點更多按讚，那最有效的內容往往不是最有價值的內容，而是最能刺激本能反應的內容。&lt;/p&gt;&#xA;&lt;p&gt;這個教訓，社群媒體花了十幾年才讓大眾理解。但現在，Edwin 擔心同樣的事情正在 AI 上發生——而且大多數人還沒意識到。&lt;/p&gt;&#xA;&lt;h2 id=&#34;ai-也在追多巴胺&#34;&gt;AI 也在追多巴胺&lt;/h2&gt;&#xA;&lt;p&gt;想想看 ChatGPT 那些諂媚的回應。「你說得太對了！」「這是個很棒的問題！」為什麼模型會這樣說話？因為這樣使用者會更開心，會更常使用，會給更高的評分。&lt;/p&gt;&#xA;&lt;p&gt;「最容易讓使用者上鉤的方式，就是告訴他們有多厲害。」Edwin 說。所以這些模型不斷告訴你你是天才，順著你的幻想走，把你拉進越來越深的兔子洞——因為矽谷喜歡最大化使用時間、增加對話次數。&lt;/p&gt;&#xA;&lt;p&gt;這不是陰謀論，這是激勵機制的必然結果。當你要求模型「讓使用者更滿意」，而滿意度用互動指標來測量，模型就會學會討好。討好不等於幫助。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為雜貨店結帳台的八卦讀者優化&#34;&gt;為雜貨店結帳台的八卦讀者優化&lt;/h2&gt;&#xA;&lt;p&gt;Edwin 對當前最流行的 AI 排行榜有非常尖銳的批評。LLM Arena 讓全世界的隨機使用者投票，選擇哪個 AI 回答比較好。聽起來很民主，但 Edwin 認為這會把模型訓練到災難的方向。&lt;/p&gt;&#xA;&lt;p&gt;「這些使用者不會仔細閱讀回應，不會查證事實。他們就是快速掃兩秒鐘，然後選看起來最花俏的那個。」他觀察道。一個模型可以完全在胡說八道，但只要它有很酷的表情符號、華麗的 Markdown 標題、很長的回覆，看起來很厲害，這些人就會投它一票。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Palantir 的「道德灰色地帶」——當 AI 遇上國家機器</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-palantir-karp-ai-ethics-grey-zone/</link>
+      <pubDate>Wed, 24 Dec 2025 01:40:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-palantir-karp-ai-ethics-grey-zone/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Palantir CEO Alex Karp 在紐約時報 DealBook 峰會的訪談（2024 年 12 月）。&#xA;原始影片：&lt;a href=&#34;https://www.youtube.com/watch?v=8i-ys9faa74&#34;&gt;YouTube&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「你越想讓移民執法合乎憲法、越想讓它精準，你就越需要我的產品。」&lt;/p&gt;&#xA;&lt;p&gt;這句話出自 Palantir 執行長 Alex Karp，在紐約時報 DealBook 峰會上。主持人正在追問 Palantir 與美國移民執法局（ICE）的合作是否「合乎憲法」，Karp 的回應卻把問題翻了過來。&lt;/p&gt;&#xA;&lt;p&gt;這就是 Palantir 最讓人不安的地方：它的存在讓你很難用簡單的「對」或「錯」來評判。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;palantir-是什麼公司&#34;&gt;Palantir 是什麼公司？&lt;/h2&gt;&#xA;&lt;p&gt;先說背景。Palantir 成立於 2003 年，創辦人包括 Peter Thiel（PayPal 共同創辦人、知名川普支持者）和 Alex Karp。公司名稱來自《魔戒》裡的「真知晶球」（palantír）——一種可以遠距離窺視的魔法石。&lt;/p&gt;&#xA;&lt;p&gt;這個名字取得很貼切。Palantir 的核心業務就是幫助政府和企業「看見」他們原本看不見的東西。它的軟體可以整合來自不同來源的海量資料——監控攝影機、社群媒體、金融紀錄、通訊記錄——然後找出其中的模式和關聯。&lt;/p&gt;&#xA;&lt;p&gt;早期客戶主要是情報機構。據報導，Palantir 的軟體在獵殺賓拉登的行動中扮演了角色。後來業務擴展到軍方、執法單位，以及商業客戶。&lt;/p&gt;&#xA;&lt;p&gt;今天，Palantir 市值超過 1,700 億美元，擠進全球最有價值公司的前 30 名。客戶名單很精彩：美國國防部、CIA、FBI、ICE，還有以色列國防軍和摩薩德。&lt;/p&gt;&#xA;&lt;p&gt;也正是這份客戶名單，讓 Palantir 成為矽谷最具爭議的公司之一。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;ice-合約技術中立還是政治站隊&#34;&gt;ICE 合約：技術中立還是政治站隊？&lt;/h2&gt;&#xA;&lt;p&gt;Palantir 與 ICE 的合作從 2014 年就開始了，但在川普時代變得特別敏感。川普政府的「零容忍」移民政策導致了大規模的家庭分離，而 Palantir 的軟體正是 ICE 用來追蹤和逮捕非法移民的關鍵工具之一。&lt;/p&gt;&#xA;&lt;p&gt;這引發了一連串問題：&lt;/p&gt;&#xA;&lt;p&gt;Palantir 是否該為 ICE 的執法方式負責？一家提供「資料分析工具」的公司，是否等同於「參與」了執法行動？如果工具本身是中性的，那責任應該由誰來承擔？&lt;/p&gt;&#xA;&lt;p&gt;Karp 在訪談中的立場很明確：Palantir 的工具讓執法更精準、更合乎憲法，這是好事，不是壞事。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

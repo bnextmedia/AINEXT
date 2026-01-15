@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matt Fitzpatrick on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/matt-fitzpatrick/</link>
+    <description>Recent content in Matt Fitzpatrick on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 15:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/matt-fitzpatrick/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026 年 AI 三大預測——來自企業導入最前線的觀察</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-matt-fitzpatrick-2026-ai-predictions/</link>
+      <pubDate>Thu, 25 Dec 2025 15:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-matt-fitzpatrick-2026-ai-predictions/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Moonshots Podcast 2024 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/7GFKB0oKd9A&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;每到年底，各路專家都會發布來年預測。但大多數預測要嘛太模糊（「AI 會繼續進步」），要嘛太聳動（「AGI 明年到來」），真正對企業有參考價值的並不多。Matt Fitzpatrick 的預測不一樣。他曾在麥肯錫待了十多年，領導 QuantumBlack Labs 的 AI 產品開發；現在是 Invisible Technologies 的 CEO，每天都在和各種規模的企業打交道，幫他們把 AI 從概念驗證推到實際生產。&lt;/p&gt;&#xA;&lt;p&gt;「我們剛做完 2026 年預測的研究，」他在 Moonshots Podcast 上說，「我不會全部講完，但我會點出幾個重要的。」&lt;/p&gt;&#xA;&lt;h2 id=&#34;預測一多代理人團隊成為企業-ai-的標準架構&#34;&gt;預測一：多代理人團隊成為企業 AI 的標準架構&lt;/h2&gt;&#xA;&lt;p&gt;過去一年，「AI 代理人」成為熱門話題。但 Fitzpatrick 認為，單一代理人的範式已經碰到了天花板。2026 年會看到更多企業採用「多代理人團隊」（Multi-agent Teams）的架構。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Human in the Loop 不是臭蟲，是功能——為什麼 AI 全自動化的狂熱走錯了路</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-human-in-the-loop-feature-not-bug/</link>
+      <pubDate>Thu, 25 Dec 2025 15:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-human-in-the-loop-feature-not-bug/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Moonshots Podcast 2024 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/7GFKB0oKd9A&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;2024 年初，Klarna 的公關團隊一定很得意。他們的 AI 客服系統在第一個月處理了 230 萬通電話，等同 700 名全職客服的工作量，預計年省 4000 萬美元。這個案例迅速成為業界最常引用的 AI 成功故事，出現在無數的簡報和演講中。&lt;/p&gt;&#xA;&lt;p&gt;然後，大約一年後，Klarna 宣佈全面撤回這套系統，重新回到人工客服。&lt;/p&gt;&#xA;&lt;p&gt;「整個演變過程讓我很困惑，」Matt Fitzpatrick 在 Moonshots Podcast 上說。他曾在麥肯錫待了超過十年，領導 QuantumBlack Labs 的 AI 開發，現在是 Invisible Technologies 的 CEO。「因為你本來就不應該想要讓一切都變成代理人自動處理。你會希望在幾乎每一個產業、幾乎每一個主題上，都有人類在迴路中。」&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI 基準測試革命——為什麼通用評測無法告訴你 AI 能不能用在你的業務</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-ai-benchmarks-revolution-custom-evals/</link>
+      <pubDate>Thu, 25 Dec 2025 14:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-ai-benchmarks-revolution-custom-evals/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Moonshots Podcast 2024 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/7GFKB0oKd9A&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;每當 OpenAI、Anthropic 或 Google 發布新模型，科技媒體都會報導一串基準測試數字：HumanEval 編程能力提升 20%、GSM8K 數學推理進步 15%、MMLU 知識測試創新高。這些數字讓我們知道模型在「變強」，但它們回答不了一個關鍵問題：這個模型能不能用在我的業務上？&lt;/p&gt;&#xA;&lt;p&gt;「大部分公眾關注的焦點，到目前為止都放在大型公開基準上，比如編程能力測試，」Matt Fitzpatrick 在 Moonshots Podcast 上說。他曾在麥肯錫待了超過十年，領導 QuantumBlack Labs 的 AI 產品開發，現在是 Invisible Technologies 的 CEO。「這些基準對於衡量『模型整體上有沒有進步』很有用。但問題是，如果你是企業或小公司，你的基準不是寬泛的認知測試——而是特定任務的準確度，或者與人類表現的等效程度。」&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2026 企業 AI 轉型生存指南——Klarna 的教訓與三個不踩雷原則</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-enterprise-ai-transformation-survival-guide/</link>
+      <pubDate>Thu, 25 Dec 2025 14:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-enterprise-ai-transformation-survival-guide/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Moonshots Podcast 2024 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/7GFKB0oKd9A&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「我們將在 2026 年看到史上最大的企業顛覆——來自那些沒有完成轉型的公司。」這是 Matt Fitzpatrick 在 Moonshots Podcast 上的預言。Fitzpatrick 曾在麥肯錫待了超過十年，一路做到 QuantumBlack Labs 全球主管，負責整個事務所的 AI 軟體開發、研發與全球 AI 產品。一年前，他跳槽到 Invisible Technologies 擔任 CEO，這家公司專門為大型語言模型提供訓練數據，並為企業打造客製化的工作流程與 AI 代理人。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>從 code search 到 ai agent： sourcegraph 創辦人如何用 amp code 開啟下一局 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="從 Code Search 到 AI Agent：Sourcegraph 創辦人如何用 Amp Code 開啟下一局">
+<meta property="og:description" content="
+本文整理自 Beyang Liu 在 AI Engineer World&rsquo;s Fair 的演講。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-amp-code-sourcegraph-founder/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-amp-code-sourcegraph-founder/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">從 Code Search 到 AI Agent：Sourcegraph 創辦人如何用 Amp Code 開啟下一局</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 Beyang Liu 在 AI Engineer World&rsquo;s Fair 的演講。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/gvIAkmZUEZY" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>如果你在過去幾年接觸過「程式碼搜尋」這個領域，你大概聽過 Sourcegraph。這家由史丹佛畢業生 Quinn Slack 和 Beyang Liu 於 2013 年創立的公司，專門解決一個問題：如何在超大型程式碼庫中快速找到你需要的東西。Uber、Dropbox、Lyft 都是他們的早期客戶。2021 年，Sourcegraph 以 26.25 億美元估值完成 D 輪融資，從 Andreessen Horowitz 和 Sequoia 手中募得超過兩億美元。</p>
+<p>2025 年，這家公司推出了 Amp——一個 AI coding agent。在這個已經擁擠到令人眼花的市場裡，為什麼一家專做程式碼搜尋的公司要來參一腳？</p>
+<h2 id="從幫你找程式碼到幫你寫程式碼">從「幫你找程式碼」到「幫你寫程式碼」</h2>
+<p>要理解 Amp 的定位，你需要先理解 Sourcegraph 的核心能力是什麼。這家公司花了十幾年時間在思考一個問題：開發者如何理解大型程式碼庫？當你面對幾百萬行程式碼、分散在上百個 repository 時，你怎麼知道某個函數是在哪裡定義的、被哪些地方呼叫、最近被誰修改過？</p>
+<p>Sourcegraph 的 Code Search 產品已經服務超過八十萬名開發者，索引了超過 540 億行程式碼。他們使用一種類似 Google PageRank 的演算法來排序搜尋結果，並支援超過 30 種程式語言。這種對「程式碼如何被組織和理解」的深度認識，直接影響了 Amp 的設計。</p>
+<p>當大型語言模型開始能夠寫程式碼時，Sourcegraph 團隊意識到，他們已經花了十年在思考的問題——如何幫助開發者在海量程式碼中找到方向——正是 AI coding agent 最需要解決的核心挑戰之一。一個 agent 如果不知道怎麼在程式碼庫中導航、不知道怎麼找到相關的上下文，它就無法有效地完成任務。</p>
+<p>這就是為什麼 Amp 的架構中有一個專門的 Finder sub-agent，使用快速的小模型搭配精心設計的工具集來搜尋程式碼庫。這不是隨便做的功能，這是 Sourcegraph 十年累積的 know-how。</p>
+<h2 id="有觀點的產品設計">「有觀點的」產品設計</h2>
+<p>Beyang Liu 在演講中反覆強調一個詞：opinionated（有觀點的）。這個詞在軟體產品設計中有特定的含義——它指的是產品做出明確的設計選擇，而不是把所有選項都留給使用者。</p>
+<p>Amp 最明顯的「觀點」之一是不做模型選擇器。幾乎所有主流 coding agent 都讓你在各種大型語言模型之間切換——GPT-4、Claude、Gemini，你想用哪個就用哪個。這聽起來很彈性，但 Liu 認為這種彈性其實是一個架構陷阱。</p>
+<p>當你要支援 N 種模型時，你的框架只能做「最大公約數」式的設計。每個模型都有不同的最佳使用方式，但你無法針對任何一個做深度最佳化。結果就是，你在每個模型上都表現平庸。</p>
+<p>Amp 的做法是只提供兩種頂層 agent 模式：Smart 和 Rush。Smart 模式目前使用 Claude Opus 4.5，配備完整的 sub-agent 能力，適合複雜任務。Rush 模式則使用更快更便宜的模型，適合小型、明確定義的任務。與其給使用者無限的選擇，不如針對兩種最常見的使用情境做到極致。</p>
+<p>另一個「觀點」是 Oracle sub-agent 的設計。大多數 agent 透過模型選擇來解決「需要深度推理」的場景——你想要更強的推理能力，就換一個 reasoning model。但 Amp 把 reasoning 能力做成一個專門的 sub-agent。主 agent 保持輕快，能快速回應日常任務；只有在遇到棘手問題時，才調用 Oracle 來「深度思考」。</p>
+<p>Liu 分享了他自己的使用經驗：當遇到一個他本來要花一兩個小時 debug 的問題時，他會叫 Amp 調用 Oracle。有時候 Oracle 要跑好幾分鐘，但大約八成的機率能直接解決問題。</p>
+<h2 id="終端機裡放廣告">終端機裡放廣告？</h2>
+<p>Amp 最奇特的設計決策之一是在終端機和編輯器中放置廣告。這聽起來很瘋狂——開發者不是最討厭廣告的族群嗎？</p>
+<p>但 Liu 解釋了背後的思考。他們觀察到，使用 coding agent 最大的障礙之一是成本。在大學校園裡，實際使用過 coding agent 的學生比例遠低於預期，主要原因就是每月 $20-50 的訂閱費對很多人來說是一筆負擔。</p>
+<p>Amp 團隊的解法是建立一個開發者工具廣告網路。這些廣告都是其他開發者工具的推廣，被設計得非常低調（Liu 說他們試圖讓廣告「不顯眼」）。透過這些廣告收入，他們可以補貼 Rush 模式的推論成本，讓更多人能夠免費或低價體驗 coding agent。</p>
+<p>2025 年推出的 Amp Free 計畫就是這個策略的體現——完全免費使用，由廣告支持，但仍然符合 Amp 的安全標準，用戶資料不會被用於模型訓練。</p>
+<p>這個決策反映了一個更大的產品哲學：降低使用門檻比討好付費用戶更重要。如果你相信 AI coding agent 會根本性地改變開發者的工作方式，那麼讓更多人能夠體驗這個改變，比在短期內最大化收入更有戰略價值。</p>
+<h2 id="團隊學習的基礎建設">團隊學習的基礎建設</h2>
+<p>Amp 另一個有意思的設計是 Thread 分享功能。每一次你跟 Amp 的對話——你給的 prompt、agent 的回應、產生的程式碼修改——都可以被儲存成一個 thread，然後分享給團隊成員。</p>
+<p>這個功能解決的是一個新出現的問題：怎麼學習使用 coding agent。傳統的程式開發有大量的書籍、課程、最佳實踐可以參考，但「怎麼跟 AI agent 協作」太新了，沒有標準答案。每個人都在摸索，而且每個人摸索出來的技巧都不一樣。</p>
+<p>有了 thread 分享，團隊成員可以互相看對方是怎麼使用 agent 的。這種透明度讓整個團隊可以更快地收斂到有效的工作模式。Liu 提到，在 Amp 的團隊儀表板上，你甚至可以看到每個人用 Amp 改了多少程式碼——這不是為了監控，而是為了創造一種「我們都在學習這個新工具」的氛圍。</p>
+<p>這個功能也反映了 Sourcegraph 的基因。作為一家專門做程式碼理解和搜尋的公司，他們很自然地會思考：怎麼讓「使用 AI agent」這件事本身變得可追蹤、可搜尋、可分享。</p>
+<h2 id="名人使用者與社群建設">名人使用者與社群建設</h2>
+<p>Liu 在演講中特別提到了兩位使用者。一位是 Mitchell Hashimoto，HashiCorp（Terraform、Vagrant 等產品的公司）的共同創辦人，現在專注於開發 Ghostty 終端機。Hashimoto 使用 Amp 來開發 Ghostty。另一位是 Hamel Hussain，AI 評估（evals）領域的權威人士，他曾公開表示 Amp 是他最喜歡的 coding agent。</p>
+<p>Liu 強調，這兩位都不是 Amp 團隊的成員，也沒有投資 Amp。他刻意提到這點，是想表達 Amp 不做付費的開發者網紅行銷。他們瞄準的是「想活在未來一年」的那一小群開發者，而不是大眾市場。</p>
+<p>除了產品本身，Amp 團隊還建立了一個叫做 Build Crew 的社群。這個社群由 Ryan Carson 主持——Carson 之前創辦的 Treehouse 教過超過一百萬人寫程式。Build Crew 的定位是一個讓「用 agent 建造東西」的人互相交流的地方，無論你用的是不是 Amp。</p>
+<p>這種社群建設的思路，與 Amp 把自己定位為「agentic research lab」是一致的。他們不只是在賣產品，而是在探索一個新領域，並且試圖把這個探索過程開放給更多人參與。</p>
+<h2 id="擁抱怪異">擁抱怪異</h2>
+<p>Liu 用一個很有意思的意象來描述 Amp 的精神：展位上有一個「騎著金魚的吹笛人」（Pied Piper）造型。這個看似莫名其妙的視覺設計，其實代表了他們想要傳達的訊息——擁抱這個時代的怪異和荒謬。</p>
+<p>如果你想像一年前的工作方式和現在的工作方式，改變是劇烈的。Agent 寫的程式碼量越來越大，開發者的角色正在從「寫程式碼的人」變成「審核程式碼的人」。這種轉變既神奇又令人不安。</p>
+<p>Liu 認為，面對這種轉變，最好的態度是「lean into the weird」——擁抱這種怪異，而不是試圖否認或抵抗它。Amp 團隊把自己定位為「活在未來一年」的研究實驗室，他們的工作就是去探索這些轉變會把我們帶向何方。</p>
+<p>對於其他開發者工具的建造者來說，Amp 的故事提供了一個有趣的案例：當 AI 改變遊戲規則時，你十年累積的領域專業知識不一定會變得過時——它可能正是你進入新遊戲的最大優勢。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

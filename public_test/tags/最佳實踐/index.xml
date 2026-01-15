@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>最佳實踐 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E6%9C%80%E4%BD%B3%E5%AF%A6%E8%B8%90/</link>
+    <description>Recent content in 最佳實踐 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 15:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E6%9C%80%E4%BD%B3%E5%AF%A6%E8%B8%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>訓練 AI 代理的四個不能妥協——OpenAI 的 Agent RFT 實戰指南</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-agent-rft-four-principles-guide/</link>
+      <pubDate>Thu, 25 Dec 2025 15:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-agent-rft-four-principles-guide/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 OpenAI DevDay 的技術分享。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/p1CmPZ2j6Lk&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;OpenAI 的 Agent RFT 是一個強大的工具，但強大不代表簡單。在與多家企業合作的過程中，OpenAI 團隊累積了一些關於「什麼情況下 Agent RFT 會成功、什麼情況下會失敗」的經驗。這些經驗被濃縮成四個核心原則。這不是教條式的規則，而是從實戰中提煉出來的指引——違反這些原則不一定會失敗，但遵循這些原則會讓成功的機率大幅提高。&lt;/p&gt;&#xA;&lt;h2 id=&#34;原則一任務要明確可評分&#34;&gt;原則一：任務要明確可評分&lt;/h2&gt;&#xA;&lt;p&gt;「你的任務應該有一個清楚、不含糊的成功定義。」這是 OpenAI 給出的第一個原則，聽起來像是廢話，但實際上很多團隊在這一步就出問題。&lt;/p&gt;&#xA;&lt;p&gt;什麼叫「明確可評分」？意思是，給定一個模型的輸出，你應該能夠用程式碼自動判斷它是成功還是失敗，中間不需要人類的主觀判斷。如果你需要一個人看過輸出之後「憑感覺」決定分數，那這個任務對 Agent RFT 來說就不夠明確。&lt;/p&gt;&#xA;&lt;p&gt;這個原則背後的邏輯是：強化學習需要大量的嘗試和反饋。在訓練過程中，模型會產生成千上萬個軌跡（trajectory），每一個都需要被評分。如果評分需要人工介入，這個規模就不可能達成。更重要的是，人類的判斷有內在的不一致性——同一個輸出，今天和明天可能會給出不同的分數。這種不一致性會讓模型學到錯誤的東西。&lt;/p&gt;&#xA;&lt;p&gt;Cosine 的案例提供了一個很好的例子。他們一開始嘗試給模型「部分分數」，根據程式碼風格和嘗試的努力程度來給分。結果發現模型開始優化這些次要指標，而不是專注在「寫出能跑的程式碼」這個核心目標。他們最後改成一個完全二元的標準：程式碼通過測試就給分，沒通過就是零分。這個改變讓模型的行為變得更加對齊實際目標。&lt;/p&gt;&#xA;&lt;p&gt;「移除所有主觀性」——這是 OpenAI 給的建議。如果你的評分標準需要用到「好」、「適當」、「專業」這類詞彙，你可能需要重新思考怎麼把這些抽象概念轉換成具體、可測量的指標。品味不應該是評分的必要條件。&lt;/p&gt;&#xA;&lt;h2 id=&#34;原則二訓練資料要像生產環境&#34;&gt;原則二：訓練資料要像生產環境&lt;/h2&gt;&#xA;&lt;p&gt;「你不希望模型在生產環境中感到驚訝。」這是第二個原則的核心概念。你的訓練資料集和評估資料集應該準確反映你的生產流量分布，不能有任何偏移。&lt;/p&gt;&#xA;&lt;p&gt;這個原則說起來簡單，做起來卻經常出錯。常見的問題包括：訓練資料是手動捏造的、或者來自早期測試使用者、或者是從某個特定場景收集的。這些資料可能在技術上「正確」，但它們的分布和真實使用情境不同。模型在這種資料上表現很好，到了生產環境卻一塌糊塗。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>機器學習 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/</link>
+    <description>Recent content in 機器學習 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ilya Sutskever：人類的學習能力遠超 AI，而且原因不是你想的那樣</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-ilya-sutskever-human-learning-superiority/</link>
+      <pubDate>Thu, 25 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-ilya-sutskever-human-learning-superiority/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2024 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/aR20FWCCjAs&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Yann LeCun 曾說過，人類青少年只需要大約十小時的練習就能學會開車。&lt;/p&gt;&#xA;&lt;p&gt;Ilya Sutskever 在訪談中回應這個觀察：「這是真的，但我們的視覺能力太強了。我記得我五歲的時候對車很著迷，我很確定當時我的車輛辨識能力就已經足夠用於自動駕駛了。」&lt;/p&gt;&#xA;&lt;p&gt;一個五歲小孩，大部分時間待在家裡，看到的車輛資料極其有限，卻能發展出足以支撐複雜駕駛任務的視覺能力。這怎麼可能？&lt;/p&gt;&#xA;&lt;h2 id=&#34;人類學習的三個驚人特點&#34;&gt;人類學習的三個驚人特點&lt;/h2&gt;&#xA;&lt;p&gt;Ilya 指出，人類的學習能力有幾個讓 AI 研究者羨慕的特點。&lt;/p&gt;&#xA;&lt;p&gt;第一，樣本效率高得離譜。模型需要看過幾乎整個網路的資料才能有今天的能力，人類十五年就能用極少量資料學會很多事情。我們知道的東西可能比模型少，但「知道的深度」不一樣。五歲小孩不會犯 AI 會犯的那種低級錯誤。&lt;/p&gt;&#xA;&lt;p&gt;第二，不需要可驗證的獎勵。訓練 AI 需要明確的對錯信號，但人類學習不是這樣。一個年輕研究員跟著資深研究員工作，看他怎麼思考、怎麼寫程式，就能吸收他的思維方式。不需要有人設計課程、設計獎勵函數。「這不是什麼『好，這是你課程的下一部分，然後這是下一部分，然後訓練不穩定了我們得調整&amp;hellip;』那種繁瑣的過程。」&lt;/p&gt;&#xA;&lt;p&gt;第三，極度穩健。人類的能力很少會在奇怪的邊界情況下崩潰。我們可能不是最強的，但我們是穩定的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;這不只是進化給的先驗知識&#34;&gt;這不只是進化給的先驗知識&lt;/h2&gt;&#xA;&lt;p&gt;有人可能會說：這是進化給我們的優勢。幾百萬年的演化讓我們的大腦有了某些「先天設定」，所以學得快。&lt;/p&gt;&#xA;&lt;p&gt;Ilya 不完全同意。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>「LLM 永遠無法達到人類智慧」——Yann LeCun 的技術宣戰</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-llm-cannot-reach-human-intelligence/</link>
+      <pubDate>Mon, 22 Dec 2025 22:20:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-llm-cannot-reach-human-intelligence/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/7u-DXVADyhc&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Yann LeCun 與矽谷主流的分歧，不是「A 方法好還是 B 方法好」這種程度的爭論。他認為 LLM 這整條路線從根本上就走錯了。在最近的 Information Bottleneck 訪談中，這位圖靈獎得主花了將近兩個小時，詳細解釋為什麼他認為 LLM 是死胡同，以及他認為正確的方向是什麼。&lt;/p&gt;&#xA;&lt;p&gt;這不是學術象牙塔裡的辯論。LeCun 剛離開 Meta，創辦了一家專注於 World Model 的新公司 AMI。他把自己的信念付諸行動，用創業來押注這個與主流完全不同的技術路線。&lt;/p&gt;&#xA;&lt;h2 id=&#34;文字資料的資訊量少得可憐&#34;&gt;文字資料的資訊量，少得可憐&lt;/h2&gt;&#xA;&lt;p&gt;LeCun 的核心論點之一，是關於資料量的數學計算。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

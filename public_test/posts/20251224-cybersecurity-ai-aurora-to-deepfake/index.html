@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>從 operation aurora 到 deepfake 詐騙：一位資安老兵眼中的 15 年演變 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="從 Operation Aurora 到 Deepfake 詐騙：一位資安老兵眼中的 15 年演變">
+<meta property="og:description" content="
+本文整理自 Google DeepMind Podcast 2024 年 12 月播出的兩集特別節目，由主持人 Hannah Fry 專訪 Google DeepMind 安全副總裁 Four Flynn。
+📺 收聽連結：Part 1 / Part 2
+
+
+2009 年聖誕節，改變一切的那通電話
+如果你在網路安全領域">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251224-cybersecurity-ai-aurora-to-deepfake/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251224-cybersecurity-ai-aurora-to-deepfake/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>24. December 2025</p>
+      <h1 class="post_title">從 Operation Aurora 到 Deepfake 詐騙：一位資安老兵眼中的 15 年演變</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 Google DeepMind Podcast 2024 年 12 月播出的兩集特別節目，由主持人 Hannah Fry 專訪 Google DeepMind 安全副總裁 Four Flynn。
+📺 收聽連結：<a href="https://youtube.com/watch?v=1gO2bC5xLlo">Part 1</a> / <a href="https://www.youtube.com/watch?v=kv-b6RFRbfI">Part 2</a></p>
+</blockquote>
+<hr>
+<h2 id="2009-年聖誕節改變一切的那通電話">2009 年聖誕節，改變一切的那通電話</h2>
+<p>如果你在網路安全領域工作夠久，你就會知道一個不成文的規則：重大資安事件偏愛假期。聖誕節、感恩節、春節——當人們離開辦公室享受假期時，往往就是攻擊者選擇動手的時機。2009 年 12 月，Four Flynn 原本計劃好的聖誕假期，就這樣被一通電話徹底改變了。</p>
+<p>那年冬天，Flynn 還在 Google 的資安團隊工作。他們偵測到了異常活動——有人正在嘗試進入 Google 的內部系統。起初，沒有人知道這是什麼，攻擊者是誰，目標是什麼。「在處理這類情況時，你會遇到所謂的『戰爭迷霧』，」Flynn 在訪談中回憶，「你完全不知道發生了什麼事，你甚至不知道攻擊的細節是什麼。你只是在做數位鑑識，試圖拼湊出事情的全貌，而你連拼圖的完整樣子都不清楚。」</p>
+<p>接下來的日子，Flynn 和他的同事們幾乎放棄了所有假期。「我們很多人在那個房間裡待了很長時間，每天很多很多小時。」當主持人 Hannah Fry 問他是否和 Google 創辦人 Sergey Brin 一起每天工作 15 小時時，Flynn 確認了這一點。而當被問到回想起那段日子的感受時，他停頓了一下：「回想起來，我的胃還是會揪緊。」</p>
+<hr>
+<h2 id="極光行動當國家級駭客瞄準矽谷">極光行動：當國家級駭客瞄準矽谷</h2>
+<p>這次攻擊後來被命名為「極光行動」（Operation Aurora），是網路安全歷史上的一個分水嶺。這是第一次有國家級駭客大規模攻擊西方科技公司的公開案例，而且目標不只是 Google——多家美國科技公司都成為目標。攻擊的幕後黑手被認定為中國，目的是獲取人權活動人士的 Gmail 帳號資訊，以及各公司的智慧財產權。</p>
+<p>入侵的手法，說來諷刺地簡單：一封釣魚郵件。當時 Internet Explorer 瀏覽器存在一個漏洞，攻擊者利用社交工程手法，誘騙 Google 的一名員工點擊了惡意連結。就這樣，攻擊者取得了進入 Google 內部網路的初始據點。Flynn 將這種攻擊方式稱為「客戶端攻擊」（client-side attacks），與早期駭客直接攻擊伺服器的「前門」攻擊不同，這種方式繞過了企業精心建構的防火牆，直接瞄準最脆弱的環節——人。</p>
+<p>「那些終將自己的生命奉獻給保護他人的人，」Flynn 談到當時的心情，「會感覺像是一種失敗。」這不只是技術上的挫敗，更是一種深層的責任感被侵犯的痛苦。「我把整個職涯都投入保護人們的資料、帳號、公司的網路——所有這些都是為了讓人們的日常生活能夠盡可能美好。」</p>
+<p>極光行動的影響遠超出 Google 一家公司。Google 做出了一個當時極為罕見的決定：公開披露這次攻擊。在此之前，遭受網路攻擊的企業通常選擇沉默，擔心公開會損害公司聲譽。但 Google 選擇了透明，這個決定後來被證明推動了整個產業的進步——從資料外洩通報法規的制定，到負責任的漏洞揭露流程的標準化，極光行動成為了一個轉折點。</p>
+<hr>
+<h2 id="護城河已死零信任的誕生">護城河已死：零信任的誕生</h2>
+<p>極光行動暴露了當時企業安全模式的根本缺陷。Flynn 用「護城河與吊橋」（moat and drawbridge）來描述這種過時的思維：企業建立高大的防火牆，像中世紀城堡的護城河一樣，把內部系統和人員都保護在裡面。理論上，只要守住城門（防火牆），內部就是安全的。</p>
+<p>但這個模式有兩個致命缺陷。第一，行動時代來臨了。員工不再只在辦公室工作，筆記型電腦讓人們可以在任何地方連接公司網路，智慧型手機更是讓「隨時連線」成為常態。城堡的邊界模糊了，員工可能在咖啡店、在家裡、在機場使用公司資源，他們不再待在城牆之內。</p>
+<p>第二，攻擊者改變了策略。既然正面突破防火牆越來越困難，不如繞道而行。客戶端攻擊——透過釣魚郵件、瀏覽器漏洞等方式直接攻擊員工的設備——成為主流。一旦員工的電腦被攻陷，攻擊者就等於取得了進入城堡的通行證，護城河形同虛設。</p>
+<p>極光行動之後，Google 開發了一套全新的安全架構，他們稱之為「BeyondCorp」，業界後來將這個概念推廣為「零信任」（Zero Trust）。核心理念是：不要假設任何人或設備是可信的，即使他們在「內部網路」。每一次存取請求都要驗證身份、評估風險。這意味著，即使攻擊者成功入侵了一個員工的電腦，他們也無法自由地在內部網路中遊走——每一步都需要額外的授權。</p>
+<p>另一個同樣重要的轉變是「假設已被入侵」（assume breach）的心態。傳統上，資安團隊專注於「阻止入侵」。但極光行動的教訓是：再好的防禦都可能被突破，尤其是面對國家級的攻擊者。因此，你必須同時問自己另一個問題：「如果他們已經進來了，我們怎麼發現？我們怎麼限制損害？」這導致了「威脅獵捕」（threat hunting）的興起——主動在自己的系統中尋找可能已經潛伏的攻擊者，而不是坐等警報響起。</p>
+<hr>
+<h2 id="eternalblue-與-wannacry當漏洞武器被洩漏">EternalBlue 與 WannaCry：當漏洞武器被洩漏</h2>
+<p>2017 年，一個叫做「EternalBlue」的漏洞利用工具被洩漏到網路上。這個工具被廣泛認為是由美國國家安全局（NSA）開發的，用於情報活動。無論開發它的初衷是什麼，一旦它落入公開網路，就成為了任何人都可以使用的武器。</p>
+<p>幾週後，WannaCry 勒索軟體席捲全球。這個惡意程式利用 EternalBlue 漏洞自動傳播，像蠕蟲一樣從一台電腦感染到另一台。受害最嚴重的是英國國家醫療服務體系（NHS）——醫院的電腦系統被加密鎖住，手術被迫取消，救護車被轉送到其他醫院，整個醫療系統陷入混亂。</p>
+<p>諷刺的是，微軟其實在 WannaCry 爆發前就已經釋出了修補程式。Flynn 分析了為什麼 NHS 仍然如此脆弱：「你會發現，醫院裡那些放在病床旁邊的設備，很多都在運行 Windows。」資安團隊可能曾經嘗試更新這些系統，但更新過程可能導致某些設備故障。在醫療環境中，這種不穩定是不可接受的——人命關天。於是，「如果沒壞就不要修」成為預設策略，直到真的「壞」了。</p>
+<p>這個案例揭示了一個更深層的困境：越是關鍵的基礎設施，往往越難以更新和修補。電力網、水處理廠、醫院——這些系統太重要了，以至於任何可能導致停機的改變都讓人卻步。結果就是，最需要被保護的系統，反而成為最脆弱的目標。「具有諷刺意味的是，」Flynn 觀察，「最關鍵的系統因此對變更的接受度最低。而對變更接受度低，就意味著你對資安改進的能力也最低。」</p>
+<hr>
+<h2 id="2024deepfakeai-agent-與全新的威脅格局">2024：Deepfake、AI Agent 與全新的威脅格局</h2>
+<p>快轉到 2024 年，網路攻擊的面貌已經再次演變。Flynn 描述了他們觀察到的新型態攻擊：利用 AI 生成的深度偽造（deepfake）進行社交工程。</p>
+<p>一個具體的案例是這樣的：攻擊者研究了目標公司的組織架構，然後使用 AI 技術克隆了公司財務長的臉孔和聲音。他們發起一個視訊會議，「財務長」出現在畫面中，開口說話，語調、用詞都和真人如出一轍。會議的另一端是財務部門的員工，他們被說服進行一筆大額匯款。這不是理論上的威脅——這類案例已經真實發生，而且造成了實際的財務損失。</p>
+<p>在消費端，類似的手法被用來進行更直接的詐騙。Flynn 提到有案例是攻擊者克隆了受害者女兒的聲音，打電話給母親，聲稱自己被綁架，需要贖金。當你聽到的是你認識數十年的人的聲音，情緒激動地向你求救，要保持冷靜的懷疑是極其困難的。</p>
+<p>同時，AI 代理（AI Agent）的興起帶來了全新的攻擊面。當我們讓 AI 不只是回答問題，而是代替我們執行操作——管理行事曆、處理電子郵件、進行交易——它就成為了一個值得被攻擊的目標。Flynn 的團隊正在研究如何讓 AI 系統抵抗「prompt injection」（提示注入）攻擊，這是一種誘騙 AI 執行非預期指令的手法。更複雜的是「contextual integrity」（情境完整性）問題：AI 如何知道什麼資訊可以分享給誰？你的社會安全號碼可以給國稅局，但不應該發在社群媒體上。這種對我們人類來說不言自明的判斷，對 AI 來說需要被明確教導。</p>
+<hr>
+<h2 id="從護城河到零信任資安思維的根本轉變">從護城河到零信任：資安思維的根本轉變</h2>
+<p>回顧 Flynn 在網路安全領域的十五年歷程，最深刻的改變或許不是任何特定的技術或攻擊手法，而是思維模式的轉變。</p>
+<p>從「只要守住城門就安全」的護城河思維，到「假設攻擊者已經進入」的零信任架構；從「阻止入侵」的單一目標，到「偵測、限制、恢復」的多層防禦；從「保護組織」的內部視角，到「保護整個生態系統」的開放態度——這些轉變不只是技術策略的更新，更是對網路安全本質的重新認識。</p>
+<p>Flynn 對未來保持審慎樂觀。「我認為防禦者最終會贏，」他說，「我們不會贏得每一場戰役，但我希望我們能贏得這場戰爭。」這種信心的來源之一，是他觀察到各大科技公司在 AI 安全議題上的合作意願。雖然 Google、OpenAI、Anthropic 等公司在產品上激烈競爭，但在讓 AI 系統更安全這個共同目標上，大家正在分享研究成果、共同制定標準。</p>
+<p>對於像 Flynn 這樣見證了網路安全演變的老兵來說，這種跨公司合作的意願或許是最令人振奮的發展。因為他們知道：在這場永無止境的攻防戰中，防禦者最大的優勢從來不是任何單一的技術突破，而是團結一致的決心。</p>
+<p>「我們所有人都在攜手合作，試圖保護代理時代的未來。」Flynn 說。這句話既是對過去十五年經驗的總結，也是對下一個十五年的承諾。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

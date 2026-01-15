@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pre-Training on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/pre-training/</link>
+    <description>Recent content in Pre-Training on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/pre-training/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scaling Law 的下一章：讓 AI 自己做實驗</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-new-scaling-law-ai-experiments-lila/</link>
+      <pubDate>Fri, 26 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-new-scaling-law-ai-experiments-lila/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《NEJM AI Grand Rounds》2025 年 7 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;大型語言模型能通過美國醫師執照考試。這件事在 2020 年還是科幻小說，到了 2024 年已經沒有人會驚訝。但這裡有一個問題：通過考試是一回事，發現新藥是另一回事。&lt;/p&gt;&#xA;&lt;p&gt;LLM 能告訴你教科書裡寫了什麼，但它不能告訴你教科書還沒寫的東西。它能從現有文獻中找出最合理的假說，但它不能告訴你哪個假說是對的。要知道答案，你還是得做實驗。&lt;/p&gt;&#xA;&lt;p&gt;這是 Lila Sciences 技術長 Andy Beam 正在解決的問題。他的團隊正在打造一套系統，讓 AI 不只是讀論文，而是能自己設計實驗、自己執行、自己學習。這是他所謂的「新 Scaling Law」——當 pre-training 的邊際效益越來越低，下一個突破可能來自讓模型生成自己的訓練資料。&lt;/p&gt;&#xA;&lt;h2 id=&#34;pre-training-的極限&#34;&gt;Pre-training 的極限&lt;/h2&gt;&#xA;&lt;p&gt;先退一步，理解現在 AI 發展的瓶頸在哪。&lt;/p&gt;&#xA;&lt;p&gt;過去幾年 AI 的爆發式成長，靠的是一個經驗觀察：當你增加模型參數、訓練資料、和運算量，模型表現會以可預測的方式提升。這就是 Pre-training Scaling Law。OpenAI、Google、Anthropic 投入數十億美元建造超大規模運算叢集，都是基於這個定律會繼續成立的假設。&lt;/p&gt;&#xA;&lt;p&gt;但這個定律是 Power Law，指數關係。這意味著每一代要獲得同樣的進步，你需要把算力再擴大一個數量級——從一萬張 GPU 到十萬張，從十萬張到一百萬張。Meta 預計 2025 年底要部署 130 萬張 GPU，但即使如此，進步幅度可能也不會比以前更大。&lt;/p&gt;&#xA;&lt;p&gt;更麻煩的是，我們其實不知道這個定律為什麼會成立。Beam 用一個比喻來形容這種認知狀態：古埃及人能精確測量太陽的運行軌跡，精確到能把金字塔的東西軸對準春分點。但他們不懂軌道力學，不知道地球繞著太陽轉。我們對 Scaling Law 的理解，就處在類似的階段——精確測量，但缺乏根本性理解。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apple Silicon on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/apple-silicon/</link>
+    <description>Recent content in Apple Silicon on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/apple-silicon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>M5 晶片的 AI 野心：為什麼 Apple 要在每個 GPU 核心塞入神經加速器</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-apple-m5-chip-ai-architecture/</link>
+      <pubDate>Fri, 26 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-apple-m5-chip-ai-architecture/</guid>
+      <description>&lt;p&gt;「M5 在每個 GPU 核心都塞入了神經加速器，專門為 AI 工作負載進行超級加速。」&lt;/p&gt;&#xA;&lt;p&gt;這是 Tim Cook 在財報電話會議上的原話。短短一句話，透露了 Apple 晶片架構的重大變革。&lt;/p&gt;&#xA;&lt;p&gt;M5 的 AI 效能是 M4 的 3.5 倍。這個數字本身就很驚人——M4 已經是業界頂尖的筆電晶片，一年內效能提升 3.5 倍，在半導體產業並不常見。但更值得關注的是「怎麼做到的」：不是靠製程微縮，不是靠堆更多電晶體，而是靠架構創新。&lt;/p&gt;&#xA;&lt;p&gt;這篇文章試圖解析 M5 的設計邏輯，以及它對 Apple 裝置端 AI 戰略的意義。&lt;/p&gt;&#xA;&lt;h2 id=&#34;傳統架構neural-engine-是獨立單元&#34;&gt;傳統架構：Neural Engine 是獨立單元&lt;/h2&gt;&#xA;&lt;p&gt;要理解 M5 的創新，先要理解傳統 Apple Silicon 的架構。&lt;/p&gt;&#xA;&lt;p&gt;從 A11 Bionic 開始，Apple 在晶片中加入了「Neural Engine」，專門用來加速機器學習運算。Neural Engine 是一個獨立的處理單元，和 CPU、GPU 平行運作。當 App 需要執行 AI 任務（如人臉辨識、語音轉文字），系統會把任務分配給 Neural Engine 處理。&lt;/p&gt;&#xA;&lt;p&gt;這種設計的優點是專業化。Neural Engine 針對矩陣運算、張量處理進行了深度優化，效率遠高於通用 CPU。缺點是資料搬移。當 AI 任務需要和圖形處理結合時（例如即時濾鏡、AR 特效），資料必須在 GPU 和 Neural Engine 之間來回傳遞，產生延遲和功耗。&lt;/p&gt;&#xA;&lt;p&gt;這個問題在「裝置端 AI」時代變得更加明顯。Apple Intelligence 強調 AI 功能要即時、無縫、融入日常使用。如果每次調用 AI 都要把資料從 GPU 搬到 Neural Engine，再把結果搬回來，使用者體驗會受影響。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

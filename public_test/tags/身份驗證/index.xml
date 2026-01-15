@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>身份驗證 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E8%BA%AB%E4%BB%BD%E9%A9%97%E8%AD%89/</link>
+    <description>Recent content in 身份驗證 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 24 Dec 2025 01:53:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E8%BA%AB%E4%BB%BD%E9%A9%97%E8%AD%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>密碼要消失了嗎？從 Passkeys 到 AI 驅動的身份驗證</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-cybersecurity-ai-passwords-passkeys/</link>
+      <pubDate>Wed, 24 Dec 2025 01:53:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-cybersecurity-ai-passwords-passkeys/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Google DeepMind Podcast 2024 年 12 月播出的兩集特別節目，由主持人 Hannah Fry 專訪 Google DeepMind 安全副總裁 Four Flynn。&#xA;📺 收聽連結：&lt;a href=&#34;https://youtube.com/watch?v=1gO2bC5xLlo&#34;&gt;Part 1&lt;/a&gt; / &lt;a href=&#34;https://www.youtube.com/watch?v=kv-b6RFRbfI&#34;&gt;Part 2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;我們都知道密碼很爛&#34;&gt;我們都知道密碼很爛&lt;/h2&gt;&#xA;&lt;p&gt;「123456」、「password」、「qwerty」——每年公布的最常用密碼榜單，總是讓資安專家感到絕望。但問題真的出在使用者懶惰嗎？Google DeepMind 安全副總裁 Four Flynn 有不同的看法：「人類的大腦根本就和密碼不相容。」&lt;/p&gt;&#xA;&lt;p&gt;這句話聽起來簡單，但它觸及了一個根本性的設計缺陷。密碼系統要求使用者記住一串隨機字元，而且每個服務最好都用不同的密碼。但人類的工作記憶容量有限，我們擅長記住有意義的模式和故事，不擅長記住隨機字串。讓使用者「選一個安全的密碼」，本質上就是要求他們做一件違反認知天性的事。&lt;/p&gt;&#xA;&lt;p&gt;結果就是我們看到的現狀：人們要嘛用極其簡單的密碼，要嘛在所有服務上重複使用同一個密碼，要嘛把密碼寫在便利貼上貼在螢幕旁邊。這不是道德問題，這是系統設計問題。當一個安全機制需要使用者做出違反人性的行為才能發揮效果，這個機制就註定會失敗。&lt;/p&gt;&#xA;&lt;p&gt;Flynn 指出，多因素驗證（Multi-Factor Authentication, MFA）的普及是一大進步，但這花了整整 15 年。從 2009 年極光行動後 Google 開始大力推動，到 2024 年多因素驗證才真正成為企業的標準配置。而在消費端，雖然許多服務都支援多因素驗證作為選項，大多數使用者並沒有主動啟用。「消費者資安真正推動改變的，不是要求消費者改變行為，」Flynn 觀察，「而是改變預設值。讓預設更安全，才是讓日常生活更安全的真正推手。」&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;passkeys不用記住任何東西的登入方式&#34;&gt;Passkeys：不用記住任何東西的登入方式&lt;/h2&gt;&#xA;&lt;p&gt;好消息是，我們正在接近「後密碼時代」。Flynn 在訪談中特別提到了 Passkeys 這項技術，並稱之為「一個即將來到你附近登入頁面的真正令人振奮的創新」。&lt;/p&gt;&#xA;&lt;p&gt;Passkeys 的運作方式是這樣的：當你在一個網站註冊或登入時，不需要輸入密碼。取而代之的是，你的手機會生成一對加密金鑰——一個私鑰儲存在你的手機裡，一個公鑰交給網站。當你下次登入時，網站會發送一個驗證請求，你的手機用私鑰簽署這個請求，網站用公鑰驗證。整個過程對使用者來說可能就是看到螢幕上的 QR code，用手機掃一下，搞定。&lt;/p&gt;&#xA;&lt;p&gt;這個設計有幾個關鍵優勢。首先，沒有「密碼」可以被偷或被猜。攻擊者拿不到你的私鑰（它被安全地儲存在你的設備上，通常還受到生物辨識保護），也拿不到任何可以重播的認證憑證。其次，釣魚攻擊變得無效。傳統釣魚攻擊的核心是誘騙你在假網站上輸入密碼，但 Passkeys 的驗證過程綁定到特定網域——假網站無法觸發對真正網站的驗證請求。&lt;/p&gt;&#xA;&lt;p&gt;Flynn 解釋了 Google 早期在這個領域的創新：Titan Security Key。這是一個實體的硬體金鑰，透過 USB 或 NFC 連接到你的設備，提供「不可釣魚」（unphishable）的多因素認證。這個概念後來演變成今天的 Passkeys，把同樣的安全性整合到每個人已經擁有的設備——智慧型手機——裡面。「我是 Passkeys 的超級粉絲，」Flynn 說，「因為如果你只要有一支手機，拍一張螢幕的照片之類的，你就登入了。這更簡單，也更安全。」&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;當-deepfake-讓眼見為憑不再可靠&#34;&gt;當 Deepfake 讓「眼見為憑」不再可靠&lt;/h2&gt;&#xA;&lt;p&gt;然而，身份驗證的挑戰不僅僅在於「證明你知道密碼」。在某些情境下，我們需要驗證的是「你是你」，而這在 AI 時代變得格外棘手。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

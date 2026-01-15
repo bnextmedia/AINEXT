@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>職涯選擇 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E8%81%B7%E6%B6%AF%E9%81%B8%E6%93%87/</link>
+    <description>Recent content in 職涯選擇 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E8%81%B7%E6%B6%AF%E9%81%B8%E6%93%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>為什麼哈佛教授離開學界去做 AI</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-why-harvard-professor-left-academia-ai/</link>
+      <pubDate>Fri, 26 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-why-harvard-professor-left-academia-ai/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《NEJM AI Grand Rounds》2025 年 7 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;2024 年 2 月，Andy Beam 在家休育嬰假。第二個孩子剛出生，這次比第一胎輕鬆太多了——沒有疫情、沒有同時創業、日托沒有關閉。他終於有時間好好想一件事：我真正想做的問題，在學界還做得了嗎？&lt;/p&gt;&#xA;&lt;p&gt;幾個月後，他從哈佛公衛學院請了留職停薪，加入一家叫 Lila Sciences 的新創公司擔任技術長。&lt;/p&gt;&#xA;&lt;p&gt;這個決定在當時看起來有點瘋狂。Beam 的學術生涯正在巔峰——有支持他的系所、優秀的學生、穩定的研究經費。他的研究甚至影響過 FDA 的決策。為什麼要離開？&lt;/p&gt;&#xA;&lt;h2 id=&#34;一個完美的學術生涯&#34;&gt;一個完美的學術生涯&lt;/h2&gt;&#xA;&lt;p&gt;Beam 的學術履歷幾乎是教科書範本。北卡州大統計碩士、生物資訊博士，研究貝葉斯神經網路。2014 年到哈佛做博士後，師從醫學資訊學大老 Zak Kohane。博士後期間，他是最早用深度學習解決醫學問題的研究者之一。2019 年，他成為哈佛公衛學院流行病學系的助理教授。&lt;/p&gt;&#xA;&lt;p&gt;他的實驗室專注於兩件事：一是結合因果推論與深度學習，這在當時是前沿方法論研究；二是新生兒醫學的應用，這是他太太 Kristyn 的專長——她是新生兒科醫師。夫妻倆經常合作研究。&lt;/p&gt;&#xA;&lt;p&gt;有一個研究特別值得一提。有一種藥叫 17-OHPC，被認為可以預防早產。這是孕婦用藥，影響面很廣。Beam 的團隊用因果推論方法分析保險資料庫，發現這個藥可能根本沒效。後來藥廠必須做的確認性臨床試驗也是陰性。FDA 審查後決定撤銷這個藥的上市許可，引用的關鍵證據之一就是 Beam 團隊的論文。&lt;/p&gt;&#xA;&lt;p&gt;對一個還沒拿到終身職的助理教授來說，這已經是相當了不起的影響力了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;但有些問題做不了&#34;&gt;但有些問題做不了&lt;/h2&gt;&#xA;&lt;p&gt;那為什麼離開？&lt;/p&gt;&#xA;&lt;p&gt;Beam 在訪談中解釋得很直白：AI 一直是他最想做的事，醫療只是應用領域——一個很重要的沙盒，但終究是沙盒。2019 年他開始教授工作時，GPT-3 還沒出現，在學校的運算叢集上做前沿 AI 研究還是可能的。到了 2024 年，這已經很難成立。&lt;/p&gt;&#xA;&lt;p&gt;你要訓練一個前沿模型，需要數千張 GPU。一張 H100 的市價大約三萬美元，光是硬體就是數千萬美元的投資。更別說電費、冷卻系統、工程團隊。學校能提供的資源，和業界的差距越來越大。&lt;/p&gt;&#xA;&lt;p&gt;更根本的問題是：Scaling Law 是殘酷的。每一代模型需要的算力都是上一代的十倍，但改進幅度卻會趨緩。這意味著如果你想做最前沿的研究，你必須一直保持在算力的最前線。落後一個數量級，你就不在遊戲裡了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

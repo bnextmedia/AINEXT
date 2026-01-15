@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI競爭 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai%E7%AB%B6%E7%88%AD/</link>
+    <description>Recent content in AI競爭 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 24 Dec 2025 12:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai%E7%AB%B6%E7%88%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>開源 AI 的隱憂——為什麼黃仁勳說中國「遙遙領先」</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-jensen-huang-open-source-ai-concerns/</link>
+      <pubDate>Wed, 24 Dec 2025 12:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-jensen-huang-open-source-ai-concerns/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自黃仁勳（Jensen Huang）於 2024 年 12 月在華府的公開對談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/jpZ0dPsnIWw&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;提到 AI 模型，多數人想到的是 ChatGPT、Claude、Gemini 這些明星產品。它們確實代表了當前 AI 能力的最高水準。但黃仁勳在華府對談中丟出了一個讓人停下來思考的數字：全世界有 150 萬個 AI 模型。&lt;/p&gt;&#xA;&lt;p&gt;150 萬。ChatGPT、Claude、Gemini、Grok——這四個加起來，只是其中的 150 萬分之四。&lt;/p&gt;&#xA;&lt;p&gt;更重要的是，這 150 萬個模型中，絕大多數是開源的。而在開源 AI 這個領域，中國「遙遙領先」。這是黃仁勳的原話。&lt;/p&gt;&#xA;&lt;p&gt;這為什麼重要？因為開源不只是一種授權方式，它是整個 AI 產業能夠蓬勃發展的基礎。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;為什麼開源對-ai-這麼重要&#34;&gt;為什麼開源對 AI 這麼重要？&lt;/h2&gt;&#xA;&lt;p&gt;黃仁勳解釋得很直接：沒有開源，新創公司無法起步。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

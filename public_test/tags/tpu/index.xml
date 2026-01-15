@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TPU on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/tpu/</link>
+    <description>Recent content in TPU on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 23 Dec 2025 00:57:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/tpu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jeff Dean 的 35 年 AI 旅程——從大學論文到 Gemini</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251223-jeff-dean-35-years-ai-journey/</link>
+      <pubDate>Tue, 23 Dec 2025 00:57:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251223-jeff-dean-35-years-ai-journey/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Stanford AI Club 邀請 Jeff Dean 的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/AnTw_t21ayE&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1990-年一個大學生以為-32-核就能改變世界&#34;&gt;1990 年，一個大學生以為 32 核就能改變世界&lt;/h2&gt;&#xA;&lt;p&gt;1990 年，Jeff Dean 在大學畢業前寫了一篇關於神經網路的論文。當時他剛接觸到這個領域，立刻被迷住了。「這是一個很棒的抽象概念，」他回憶，「我們可以用它來建構模式辨識系統，解決各種問題。」於是他決定做一個野心勃勃的畢業專題：用系上那台 32 核處理器的電腦來並行訓練神經網路。&lt;/p&gt;&#xA;&lt;p&gt;他實作了兩種現在我們稱之為「資料平行」(data parallelism) 和「模型平行」(model parallelism) 的訓練方式，研究當處理器數量增加時，訓練速度如何提升。結果呢？「我完全錯了，」Jeff Dean 笑著說，「要訓練出真正好用的神經網路，需要的不是 32 倍的運算力，而是一百萬倍。」&lt;/p&gt;&#xA;&lt;p&gt;這個「錯誤」說明了一件事：神經網路的潛力比當時任何人想像的都大，但實現這個潛力需要的運算規模，也遠超過 1990 年代的技術能提供的。Jeff Dean 畢業後去做了其他事，但他一直惦記著這個想法。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>Scaling law 的下一章：讓 ai 自己做實驗 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="Scaling Law 的下一章：讓 AI 自己做實驗">
+<meta property="og:description" content="
+本文整理自《NEJM AI Grand Rounds》2025 年 7 月播出的單集。
+
+
+  ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251226-new-scaling-law-ai-experiments-lila/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251226-new-scaling-law-ai-experiments-lila/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>26. December 2025</p>
+      <h1 class="post_title">Scaling Law 的下一章：讓 AI 自己做實驗</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自《NEJM AI Grand Rounds》2025 年 7 月播出的單集。</p>
+</blockquote>
+<div class="media-embed">
+  <iframe 
+    allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" 
+    frameborder="0" 
+    height="175" 
+    width="100%"
+    style="border-radius: 12px; overflow: hidden;" 
+    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" 
+    src="https://embed.podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879"
+    loading="lazy"
+  ></iframe>
+</div>
+
+<hr>
+<p>大型語言模型能通過美國醫師執照考試。這件事在 2020 年還是科幻小說，到了 2024 年已經沒有人會驚訝。但這裡有一個問題：通過考試是一回事，發現新藥是另一回事。</p>
+<p>LLM 能告訴你教科書裡寫了什麼，但它不能告訴你教科書還沒寫的東西。它能從現有文獻中找出最合理的假說，但它不能告訴你哪個假說是對的。要知道答案，你還是得做實驗。</p>
+<p>這是 Lila Sciences 技術長 Andy Beam 正在解決的問題。他的團隊正在打造一套系統，讓 AI 不只是讀論文，而是能自己設計實驗、自己執行、自己學習。這是他所謂的「新 Scaling Law」——當 pre-training 的邊際效益越來越低，下一個突破可能來自讓模型生成自己的訓練資料。</p>
+<h2 id="pre-training-的極限">Pre-training 的極限</h2>
+<p>先退一步，理解現在 AI 發展的瓶頸在哪。</p>
+<p>過去幾年 AI 的爆發式成長，靠的是一個經驗觀察：當你增加模型參數、訓練資料、和運算量，模型表現會以可預測的方式提升。這就是 Pre-training Scaling Law。OpenAI、Google、Anthropic 投入數十億美元建造超大規模運算叢集，都是基於這個定律會繼續成立的假設。</p>
+<p>但這個定律是 Power Law，指數關係。這意味著每一代要獲得同樣的進步，你需要把算力再擴大一個數量級——從一萬張 GPU 到十萬張，從十萬張到一百萬張。Meta 預計 2025 年底要部署 130 萬張 GPU，但即使如此，進步幅度可能也不會比以前更大。</p>
+<p>更麻煩的是，我們其實不知道這個定律為什麼會成立。Beam 用一個比喻來形容這種認知狀態：古埃及人能精確測量太陽的運行軌跡，精確到能把金字塔的東西軸對準春分點。但他們不懂軌道力學，不知道地球繞著太陽轉。我們對 Scaling Law 的理解，就處在類似的階段——精確測量，但缺乏根本性理解。</p>
+<p>既然不知道它為什麼成立，我們也無法確定它什麼時候會失效。</p>
+<h2 id="推理模型只是過渡">推理模型只是過渡</h2>
+<p>業界已經開始找新的 Scaling 方向。最明顯的嘗試是推理模型——OpenAI 的 O 系列、Google 的 Gemini Thinking、Anthropic 的 Claude 3.5 with extended thinking。這些模型不只是預測下一個 token，而是在回答問題時會「想很久」，產生更多中間推理步驟。</p>
+<p>推理模型的訓練方式不同於 pre-training。Pre-training 是預測「平均」的回應，推理模型是訓練出「正確」的回應。它需要驗證器來判斷答案對不對，然後用強化學習來優化。這就是所謂的 test-time compute：你把更多算力花在推理階段，而不只是訓練階段。</p>
+<p>這確實有效。在數學、程式設計這類有明確正確答案的任務上，推理模型大幅超越純 pre-training 的模型。</p>
+<p>但這裡有個關鍵限制：你需要驗證器。對數學題來說，驗證很簡單——答案對就是對，錯就是錯。對程式來說，跑過測試案例就知道。但對科學問題呢？當你問「這個分子能不能治療癌症」，沒有任何現有的驗證器能回答這個問題。</p>
+<p>唯一的驗證器是大自然本身。你必須做實驗。</p>
+<h2 id="llm-是人類知識的索引">LLM 是人類知識的索引</h2>
+<p>讓我們從更根本的層面來看 LLM 的限制。</p>
+<p>LLM 本質上是人類知識的絕佳索引。它讀過幾乎所有公開發表的文字，能用一種模糊但有效的方式檢索這些知識。你問它任何問題，它都能從訓練資料中找出最相關的模式，組合成一個聽起來合理的答案。</p>
+<p>但這也是它的天花板。它只能輸出訓練資料的某種組合，不能產生訓練資料中沒有的東西。</p>
+<p>從因果推論的角度來看，LLM 學到的是觀察性資料。觀察性資料的問題在於：它只能告訴你相關性，不能告訴你因果關係。你可以從資料中看出「A 和 B 同時出現」，但你無法確定是 A 導致 B、B 導致 A、還是有個 C 同時導致了 A 和 B。</p>
+<p>要從相關性推到因果，你只有兩條路：一是做很強的假設（這是傳統因果推論方法學在做的事），二是做實驗（隨機分組、控制變因、觀察結果）。LLM 無法自己做實驗，所以它永遠停留在「哪些假說和現有資料相容」這個層次，無法進一步分辨哪個假說是對的。</p>
+<p>科學文獻本身也有問題。它不是事實的記錄，而是一場辯論的紀錄。研究者有動機發表對自己假說最有利的版本，有動機淡化不一致的發現。A 發了一篇論文說某個效果存在，B 發一篇說不存在，C 又發一篇說在某些條件下存在。LLM 讀完這些論文，能告訴你這場辯論的現狀，但它沒辦法告訴你誰是對的。</p>
+<p>你不可能光靠讀論文就推導出 2050 年的科學長什麼樣子。你需要一步一步做實驗——驗證、推翻、修正、再驗證。</p>
+<h2 id="lila-的解法實驗叢集">Lila 的解法：實驗叢集</h2>
+<p>這就是 Lila Sciences 在做的事：打造一個讓 AI 能自己做實驗的系統。</p>
+<p>公司有兩大部門，一半專注於可規模化的實驗平台，另一半專注於 AI 模型。Beam 把實驗平台比喻成「新型電腦」。核心是一套自動化系統：96 孔或 384 孔的實驗板透過磁懸浮，在一條軌道上高速移動。軌道旁邊是各種實驗設備——培養箱、分析儀、定序機——機器手臂負責把板子從軌道拿起來、放進設備、做完實驗再放回去。</p>
+<p>那條軌道就像電腦裡的 PCI 匯流排。你可以在上面「插」各種實驗設備，就像在 PCI 匯流排上插顯示卡、網卡一樣。設備之間的資料傳遞，就像電腦內部的資料傳輸。</p>
+<p>關鍵是規模。Lila 不是要建幾個這樣的工作站，而是要建整棟大樓的工作站。當你有成千上萬個自動化實驗站，它們全部連上網路、由 AI 控制，你就得到了一個「實驗叢集」——就像你有 GPU 叢集一樣。</p>
+<p>把實驗叢集和 GPU 叢集配對，你就得到了一種全新的運算範式。GPU 叢集負責訓練模型、生成假說；實驗叢集負責驗證假說、產生新資料；新資料再回饋給 GPU 叢集，訓練出更好的模型。這是一個閉環，AI 可以自己生成自己需要的訓練資料。</p>
+<p>這就是 Beam 說的「新 Scaling Law」。Pre-training 靠的是人類產生的資料——書、論文、網頁。這些資料有上限，總有讀完的一天。但如果 AI 能自己做實驗、自己生成資料，那上限就不存在了。</p>
+<h2 id="真實世界的困難">真實世界的困難</h2>
+<p>當然，這聽起來比做起來容易多了。</p>
+<p>真實世界的實驗不像數位世界那樣乾淨。那些實驗板裡面有液體，液體會晃動。晃動會讓板子的位置產生偏移，機器手臂要拿的時候，它可能不在預期的地方。像這樣的邊緣案例有成千上萬個，每個都要解決。</p>
+<p>更根本的問題是：現有的所有實驗室自動化設備，都是為人類設計的。實驗台為什麼在那個高度？因為人要站著操作。設備之間為什麼有走道？因為人要走過去。試劑瓶為什麼那個形狀？因為人的手要能握。</p>
+<p>當你想打造一個完全由 AI 控制、沒有人類參與的實驗室，這些設計假設全部要重新思考。這是一個沒有人做過的工程問題。</p>
+<p>Beam 坦言，這是他現在最大的挑戰。AI 的部分他有信心——大規模訓練很難，但那是已知的困難，有成熟的方法論。實驗平台的部分是未知的困難，因為從來沒有人設計過「為 AI 優化的實驗室」。</p>
+<h2 id="科學也服從-bitter-lesson">科學也服從 Bitter Lesson</h2>
+<p>AI 領域有一個著名的觀察叫 Bitter Lesson（苦澀的教訓），來自強化學習之父 Rich Sutton。它的意思是：長期來看，利用算力的通用方法，總是打敗利用人類知識的特定方法。</p>
+<p>下棋就是最好的例子。早期的電腦下棋程式，靠的是讓專家把棋理寫成規則，手動編碼各種策略。這種方法有用，但進步緩慢。後來出現了純粹靠搜尋和學習的方法——給電腦夠多算力，讓它自己跟自己下，它就能發現人類從沒想過的下法。AlphaGo 和 AlphaZero 證明了這條路能走多遠。</p>
+<p>Beam 認為科學也服從 Bitter Lesson。問題是，科學的「算力」是什麼？</p>
+<p>對訓練模型來說，算力就是 GPU。但對科學來說，算力還包括做實驗的能力。GPU 叢集讓你能跑更多計算，實驗叢集讓你能跑更多實驗。兩者結合，才是科學版的「規模化」。</p>
+<p>這就是 Lila 在賭的東西：科學研究的下一個 Scaling Law，來自讓 AI 能夠大規模地與真實世界互動。</p>
+<h2 id="這會改變什麼">這會改變什麼</h2>
+<p>如果 Lila 的願景成真，影響會遠超過科學研究本身。</p>
+<p>首先是藥物研發。現在開發一種新藥平均需要 10-15 年、20-30 億美元，成功率不到 10%。大部分時間和金錢都花在試錯——測試各種分子組合，看哪個有效。如果 AI 能自己做實驗、自己學習，這個週期可能大幅縮短。</p>
+<p>然後是材料科學。電池、半導體、太陽能板——這些領域的進步都受限於材料的發現速度。如果你有一個能 24 小時自動做實驗的系統，材料的探索空間會爆炸性擴大。</p>
+<p>再來是基礎科學。很多科學問題之所以難，是因為需要做太多實驗，人類的時間和精力不夠。有了自動化實驗平台，你可以探索以前沒辦法探索的參數空間。</p>
+<p>當然，這些都還是願景。Lila 成立沒幾年，還在早期階段。但願景本身就很有意思：它代表了對 AI 發展方向的一種全新思考——不只是讓模型更大、讀更多資料，而是讓模型能夠與世界互動、從互動中學習。</p>
+<hr>
+<p>Beam 在訪談中說了一句話：「我們對 Scaling Law 的理解，就像古埃及人對太陽的理解。」</p>
+<p>古埃及人不懂軌道力學，但這不妨礙他們建造金字塔。我們不懂 Scaling Law 為什麼有效，但這不妨礙我們繼續利用它。真正的問題是：當現有的路走到盡頭，下一步往哪走？</p>
+<p>Lila 的賭注是：讓 AI 自己做實驗。這可能是對的，也可能是錯的。但至少它是一個清晰的方向，而且是一個需要同時解決硬體和軟體問題的方向。</p>
+<p>在一個所有人都在比拼 GPU 數量的時代，有人開始思考「GPU 之外還需要什麼」，這本身就是一件有意思的事。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

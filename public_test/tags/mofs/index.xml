@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MOFs on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/mofs/</link>
+    <description>Recent content in MOFs on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 24 Dec 2025 01:56:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/mofs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「清除 CO2 的科學問題，已經解決了」—— 化學諾貝爾獎得主的大膽宣言</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-nobel-minds-co2-capture-solved/</link>
+      <pubDate>Wed, 24 Dec 2025 01:56:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-nobel-minds-co2-capture-solved/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Nobel Minds 2025 座談會，2024 年 12 月於斯德哥爾摩皇家宮殿錄製。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/e0yqY_bPIU0&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「從大氣中清除多餘 CO2 的科學挑戰，我敢說，已經完成了。」&lt;/p&gt;&#xA;&lt;p&gt;這句話出自今年化學諾貝爾獎得主 Omar Yaghi 之口。在斯德哥爾摩皇家宮殿的座談會上，他說得斬釘截鐵。&lt;/p&gt;&#xA;&lt;p&gt;如果這是真的，那是一個足以改變世界的宣言。如果不是，那是一個科學家的過度樂觀。我想搞清楚他說的到底是什麼意思。&lt;/p&gt;&#xA;&lt;h2 id=&#34;什麼是-mofs分子建築學的革命&#34;&gt;什麼是 MOFs？分子建築學的革命&lt;/h2&gt;&#xA;&lt;p&gt;Yaghi 和另一位得主北川進（Susumu Kitagawa）因為「金屬有機框架」（Metal-Organic Frameworks, MOFs）的研究獲獎。諾貝爾委員會稱之為「分子建築學」。&lt;/p&gt;&#xA;&lt;p&gt;這個比喻很精準。想像你是一個建築師，但你建造的不是房子，而是分子層級的結構。MOFs 就是用金屬離子當「節點」，用有機分子當「樑柱」，搭建出一個立體的骨架。這個骨架有一個特殊的性質：它充滿了孔洞。&lt;/p&gt;&#xA;&lt;p&gt;這些孔洞不是隨機的空隙，而是經過精密設計、大小一致的空間。你可以想像成一棟有無數房間的大樓，每個房間的大小、形狀都一模一樣，而且你可以決定房間裡要放什麼樣的「傢俱」——不同的化學官能基。&lt;/p&gt;&#xA;&lt;p&gt;這意味著什麼？你可以設計出只讓特定分子進入的材料。就像一個超級挑剔的門房，只放 CO2 進去，把其他氣體擋在外面。或者只讓水分子進去，把沙漠空氣中的濕氣收集起來。&lt;/p&gt;&#xA;&lt;p&gt;Yaghi 在座談會上說：「我們不只是創造了多孔的骨架，更重要的是，我們能夠在原子和分子的層級上精確設計、客製化這些孔洞的內部。」&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

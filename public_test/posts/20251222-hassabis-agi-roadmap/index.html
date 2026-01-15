@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>Demis hassabis 的 agi 路線圖：世界模型才是關鍵拼圖 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="Demis Hassabis 的 AGI 路線圖：世界模型才是關鍵拼圖">
+<meta property="og:description" content="
+本文整理自 Google DeepMind Podcast 2024 年 12 月播出的單集，由 Hannah Fry 主持，專訪 DeepMind 共同創辦人兼 CEO Demis Hassabis。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-agi-roadmap/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-agi-roadmap/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>22. December 2025</p>
+      <h1 class="post_title">Demis Hassabis 的 AGI 路線圖：世界模型才是關鍵拼圖</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 Google DeepMind Podcast 2024 年 12 月播出的單集，由 Hannah Fry 主持，專訪 DeepMind 共同創辦人兼 CEO Demis Hassabis。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/PqVbypvxDto" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>Gemini 2.0 剛發布，外界都在討論這個模型的能力提升。但在這集訪談中，Demis Hassabis 談得最興奮的，其實不是 Gemini 本身。他花了更多時間講「世界模型」——一種能理解物理世界運作方式的 AI 系統。在他看來，這才是通往 AGI 的關鍵拼圖。</p>
+<p>這集訪談揭示了 DeepMind 內部怎麼看 AI 發展的路徑。不是單純的「把模型做大」，而是一條更複雜、需要多種技術匯流的道路。</p>
+<hr>
+<h2 id="scaling-沒有撞牆但報酬確實在遞減">Scaling 沒有撞牆，但報酬確實在遞減</h2>
+<p>2024 年底，業界流傳著「Scaling Laws 撞牆」的說法。有人認為，單純增加模型參數和訓練資料的效果正在減弱，AI 進步會因此放緩。Hassabis 不同意這個判斷，但他的反駁也不是盲目樂觀。</p>
+<p>「我們沒有看到任何牆，」他說，「但確實有報酬遞減。」這兩件事聽起來矛盾，其實不然。報酬遞減不等於報酬歸零。早期每次模型升級可能帶來雙倍的效能提升，現在提升幅度變小了，但依然是「值得投資的顯著改進」。Gemini 2.0 在多項基準測試上的表現，證明持續投入資源仍然有效。</p>
+<p>DeepMind 的策略是「50/50」：一半資源投入 Scaling（做大），一半投入 Innovation（做新）。Hassabis 認為，光靠其中任何一邊都無法抵達 AGI。你需要把模型做大，同時也需要研究突破。這個判斷背後有一個關鍵假設：當 Scaling 的效果逐漸遞減，研究創新的相對價值就會上升。而 DeepMind 的優勢一直是研究。過去十年的重大突破——Transformer、AlphaGo、AlphaFold——都是從 Google 或 DeepMind 出來的。</p>
+<p>合成數據是他們應對「數據不夠」的方法之一。在數學和程式這類可以驗證答案的領域，AI 系統已經夠好，可以自己生成訓練資料。「理論上可以產生無限的數據，」Hassabis 說。這不是天方夜譚——當你的模型能寫出正確的程式碼，你就能讓它寫更多程式碼來訓練下一代模型。</p>
+<hr>
+<h2 id="鋸齒狀智慧博士程度與高中程度並存">鋸齒狀智慧：博士程度與高中程度並存</h2>
+<p>當前 AI 系統有一個令人困惑的特性：它們能在國際數學奧林匹亞拿金牌，卻會在簡單的邏輯問題上犯錯；能寫出複雜的程式，卻數不清一個單字裡有幾個字母。Hassabis 用「Jagged Intelligence」（鋸齒狀智慧）來描述這個現象。</p>
+<p>「它們在某些維度上達到博士水準，在另一些維度上連高中都不如，」他解釋。這種不一致性正是目前 AI 尚未達到 AGI 的關鍵原因。一個真正的通用智慧，應該在各種任務上都維持穩定的表現水準，不會在簡單問題上翻車。</p>
+<p>為什麼會這樣？原因很多，而且因情況而異。有時候是 tokenization 的問題——模型處理文字的方式讓它「看不到」每個字母，所以數字母會出錯。有時候是訓練資料的偏差——某些類型的問題在訓練資料中很少見，模型就學不好。有時候是推理深度不足——模型傾向於快速給出答案，而不是停下來仔細檢查。</p>
+<p>Hassabis 認為「Thinking」（思考）系統是解方之一。這類系統在回答問題前會花更多時間「思考」，產生中間推理步驟。但目前的實作還不夠可靠。「它會花時間思考，但不一定把思考時間用在有用的地方，」他說。理想狀態是系統能自己判斷什麼時候需要深思熟慮、什麼時候可以快速回答，並且會用工具去驗證自己的輸出。</p>
+<p>另一個缺失是「知道自己不知道什麼」的能力。AlphaFold 預測蛋白質結構時會附上信心分數，告訴你它對這個預測有多確定。但目前的語言模型沒有這個機制。它們會「硬著頭皮回答」不確定的問題，而不是說「我不知道」。Hassabis 認為，隨著模型變得更強，它們會更了解自己知識的邊界，這個問題有機會改善。</p>
+<hr>
+<h2 id="世界模型語言之外的理解">世界模型：語言之外的理解</h2>
+<p>語言模型能從文字中學到很多關於世界的知識，這點超出了多數人的預期。但 Hassabis 認為，光靠語言還是不夠。有些東西很難用文字描述——物體怎麼移動、液體怎麼流動、手指觸碰桌面的感覺。這些「身體性」的知識，需要另一種學習方式。</p>
+<p>「世界模型」是 DeepMind 對這個問題的回答。這是一種能理解物理世界因果關係的 AI 系統——不只是「看起來像」真實世界，而是真正理解重力、慣性、物體碰撞這些基本原理。測試方法之一是讓系統生成影像或影片。如果它能生成物理上合理的場景，某種程度上就證明它「懂」這些規則。</p>
+<p>VEO 是 DeepMind 的影片生成模型，Genie 則是可互動的世界模型。Hassabis 對 VEO 處理反射和液體的能力印象深刻——「用肉眼看已經非常真實」。但他也承認，這還不夠精確。如果你用物理學的標準去檢驗，會發現模型是「近似」而非「精確」地遵循物理定律。</p>
+<p>他們正在建立「物理基準測試」來量化這個問題。用遊戲引擎生成精確的物理模擬——球滾下斜坡、單擺擺動、物體碰撞——然後測試 AI 模型能否準確預測結果。「就像高中物理實驗，」Hassabis 形容。目前的模型還做不到 100% 準確，這是通往機器人應用的障礙。一個控制機械手臂的 AI，不能只是「大概」懂物理。</p>
+<hr>
+<h2 id="genie--sima兩個-ai-的共舞">Genie + SIMA：兩個 AI 的共舞</h2>
+<p>DeepMind 做了一個有趣的實驗：把兩個 AI 系統連在一起。Genie 負責生成互動式的虛擬世界，SIMA 是一個能在虛擬世界中執行任務的 AI 代理。當你把 SIMA 放進 Genie 生成的世界裡，就形成了一個自我強化的訓練循環。</p>
+<p>SIMA 在世界中探索、嘗試完成任務。Genie 則根據 SIMA 的行動，即時生成對應的環境變化。對 Genie 來說，SIMA 只是一個「玩家」，它不在乎這個玩家是人還是另一個 AI。對 SIMA 來說，Genie 生成的世界就是它的訓練場。這個設計的精妙之處在於：你可以讓 Genie 自動生成無限多的訓練場景，難度逐漸升級，SIMA 就能持續學習新能力。</p>
+<p>「想像一下，」Hassabis 說，「自動設定並解決數百萬個任務，難度不斷提升。」這種方法繞過了人工標註訓練資料的瓶頸。傳統的 AI 訓練需要大量人類標註的資料，成本高昂且難以擴展。但如果 AI 能在自己生成的世界裡訓練自己，擴展性就完全不同了。</p>
+<p>這個研究方向有多重應用可能。遊戲產業可以用它打造更聰明的 NPC——不是照劇本行動的木頭人，而是能真正理解環境、做出合理反應的角色。機器人領域可以用它預訓練控制系統——先在虛擬世界裡學會操作，再遷移到真實機器人上。Hassabis 還提到，他想把這項技術用回遊戲開發，「這可能一直是我潛意識裡的計畫」。他早年是遊戲設計師出身。</p>
+<hr>
+<h2 id="物理幻覺模擬的下一道關卡">物理幻覺：模擬的下一道關卡</h2>
+<p>但這裡有一個問題：如果 Genie 生成的世界物理規則不準確，SIMA 學到的東西就沒辦法用在真實世界。這就是「物理幻覺」——模擬看起來合理，但實際上是錯的。</p>
+<p>某種程度上，幻覺不全然是壞事。如果你想要創意、想要新奇的內容，一點「幻覺」反而是優勢。但如果你要訓練一個會操作真實機械手臂的 AI，精確度就是生死攸關的事。Hassabis 的解決方向是：用遊戲引擎生成大量「物理正確」的訓練資料，讓模型學會真正的牛頓力學，而不只是「看起來像」牛頓力學。</p>
+<p>這項工作還在進行中。當 VEO 和 Genie 能通過高中物理等級的測試時，它們就能成為可靠的機器人訓練環境。在那之前，這些世界模型主要用於內容生成和研究探索。</p>
+<hr>
+<h2 id="proto-agi當所有模型匯流">Proto-AGI：當所有模型匯流</h2>
+<p>Hassabis 描繪的願景是：把 Gemini（語言理解）、VEO（影片生成）、Genie（互動世界）、SIMA（任務執行）這些目前分開的專案，整合成一個統一的系統。「某個時候我們需要把這些不同的專案收斂成一個大模型，」他說，「那可能就是 Proto-AGI 的候選者。」</p>
+<p>這個整合不只是技術上的拼裝，而是讓系統同時具備：理解語言的能力、理解視覺的能力、理解物理世界的能力、在環境中行動的能力。一個真正的通用智慧，應該要能處理所有這些面向，而不是只擅長其中一項。</p>
+<p>他們也同時在推進其他「根節點問題」：與 Commonwealth Fusion 合作研究核融合、協助 Google 量子團隊做錯誤校正、探索室溫超導體和新型電池材料。這些聽起來跟 AI 沒有直接關係，但 Hassabis 的邏輯是：AI 可以加速這些基礎科學的突破，而這些突破又會反過來推動更強的 AI。AlphaFold 證明了這條路是可行的。</p>
+<p>五到十年。這是 Hassabis 給出的 AGI 時間線。不是最激進的預測，但也不算保守。他似乎很確定方向是對的，剩下的只是執行和時間的問題。</p>
+<hr>
+<p><em>本文為 Demis Hassabis 訪談系列的第一篇。下一篇將探討 AI 對社會經濟的衝擊——為什麼 Hassabis 認為這場變革會比工業革命快十倍。</em></p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

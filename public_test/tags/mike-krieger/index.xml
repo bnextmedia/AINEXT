@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mike Krieger on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/mike-krieger/</link>
+    <description>Recent content in Mike Krieger on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 24 Dec 2025 01:46:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/mike-krieger/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MCP、Projects、Artifacts：Anthropic 正在建造什麼樣的 AI 產品生態系？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-mike-krieger-mcp-anthropic-ecosystem/</link>
+      <pubDate>Wed, 24 Dec 2025 01:46:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-mike-krieger-mcp-anthropic-ecosystem/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/_-V5objmQ00&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;本文整理自 Lightspeed Venture Partners 的 Podcast《Generative Now》訪談內容。&lt;/p&gt;&#xA;&lt;p&gt;「我有一個 Project 專門放我所有的健康紀錄。」&lt;/p&gt;&#xA;&lt;p&gt;Mike Krieger 在訪談中分享了這個使用習慣。作為 Anthropic 的首席產品長，他自己也是 Claude 的重度使用者。每次有新的血液檢查報告，他就丟進那個 Project 裡，然後問 Claude：跟上次比有什麼變化？這段時間我血壓偏低，有什麼建議？&lt;/p&gt;&#xA;&lt;p&gt;Projects 這個功能本身並不複雜——它就是一個讓使用者可以集中管理相關對話和文件的容器。技術上來說，使用者完全可以用普通對話達成類似效果，只要每次都把相關檔案重新上傳就好。但有了這個容器，行為就改變了。人們開始建立「健康 Project」、「工作 Project」、「學習 Project」，把 Claude 當成不同生活領域的長期夥伴，而不只是一次性的問答機器。&lt;/p&gt;&#xA;&lt;p&gt;這種「產品原語」（product primitive）的設計思維，是 Krieger 帶領的產品團隊一直在追求的：找到那些能解鎖新行為的基本元素。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>從 Artifact 失敗到 Claude 產品策略：Mike Krieger 的 AI 產品實戰教訓</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-mike-krieger-artifact-failure/</link>
+      <pubDate>Wed, 24 Dec 2025 01:45:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-mike-krieger-artifact-failure/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/_-V5objmQ00&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;本文整理自 Lightspeed Venture Partners 的 Podcast《Generative Now》訪談內容。&lt;/p&gt;&#xA;&lt;p&gt;Artifact 是一款做得很好的產品，但它沒有成功。&lt;/p&gt;&#xA;&lt;p&gt;這是 Mike Krieger 在離開 Instagram 後的第二次創業，一款 AI 驅動的新聞推薦應用程式。團隊最多時只有 13 個人，最終賣給了 Yahoo。為什麼沒有達到產品市場契合？這位現任 Anthropic 首席產品長給出了一個出人意料的診斷：問題不在 AI，而在行動網頁本身已經壞掉了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;點擊之後的災難&#34;&gt;點擊之後的災難&lt;/h2&gt;&#xA;&lt;p&gt;Artifact 團隊可以把應用程式內的 Feed 體驗做得非常流暢——精準的推薦、乾淨的介面、愉快的瀏覽感受。但使用者點進一篇文章之後會發生什麼事？&lt;/p&gt;&#xA;&lt;p&gt;全螢幕影片廣告彈出。訂閱電子報的彈窗覆蓋半個畫面。內容被廣告切割得支離破碎。這不是個別網站的問題，而是整個行動網頁生態系的結構性困境。&lt;/p&gt;&#xA;&lt;p&gt;Krieger 強調，這不能怪任何單一發行商。地方新聞媒體的營運者不是每天早上醒來想著「今天要塞多少廣告」，他們是在掙扎求存。廣告收入持續下滑，新聞編輯室不斷縮編，為了維持基本營運只能塞進更多廣告。這是一個系統性的惡性循環，而 Artifact 作為一個第三方應用程式，無法改變這個現實。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>當模型差異越來越小，AI 產品靠什麼贏？Anthropic 首席產品長的「Vibe 理論」</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-mike-krieger-vibe-theory/</link>
+      <pubDate>Wed, 24 Dec 2025 01:44:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-mike-krieger-vibe-theory/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/_-V5objmQ00&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;本文整理自 Lightspeed Venture Partners 的 Podcast《Generative Now》訪談內容。&lt;/p&gt;&#xA;&lt;p&gt;DeepSeek 的出現讓整個科技圈重新思考一個問題：當模型能力越來越接近，AI 產品的差異化要靠什麼？&lt;/p&gt;&#xA;&lt;p&gt;Mike Krieger 的妻子也傳訊息問他這件事。當連「不在科技圈」的人都在討論一個中國 AI 模型，你知道這已經成為文化現象。作為 Anthropic 的首席產品長，同時也是 Instagram 的共同創辦人，Krieger 對這個問題有獨特的觀察視角。他的答案出人意料地簡單：Vibe。&lt;/p&gt;&#xA;&lt;h2 id=&#34;一個非數學公式格式受眾vibe&#34;&gt;一個非數學公式：格式、受眾、Vibe&lt;/h2&gt;&#xA;&lt;p&gt;在 Instagram 與 Snapchat 競爭最激烈的時期，Krieger 發展出一套理解社群網路的框架。他在 Lightspeed 的訪談中稱之為「非數學公式」，因為他不是研究員，沒辦法寫出嚴謹的方程式，但這個框架在實務上非常有用。&lt;/p&gt;&#xA;&lt;p&gt;社群網路由三個要素構成：格式（Formats）、受眾（Audience）、以及 Vibe。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Instagram 共同創辦人如何思考 AI 產品：Anthropic 首席產品長的第一年心得</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-mike-krieger-instagram-to-anthropic/</link>
+      <pubDate>Wed, 24 Dec 2025 01:43:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-mike-krieger-instagram-to-anthropic/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/_-V5objmQ00&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;本文整理自 Lightspeed Venture Partners 的 Podcast《Generative Now》訪談內容。&lt;/p&gt;&#xA;&lt;p&gt;Mike Krieger 只用了兩個月就結束了他的「半退休」狀態。&lt;/p&gt;&#xA;&lt;p&gt;這位 Instagram 共同創辦人暨前技術長，才剛結束他的第二次創業——AI 新聞應用程式 Artifact，將公司賣給 Yahoo。相較於離開 Instagram 後休息了一年半，這次他幾乎是迫不及待地想要回到戰場。差別在於，Instagram 是一段完整的旅程，八年的高強度運作後他需要休息；但 Artifact 雖然產品做得不錯，卻沒有達到產品市場契合，這讓他「躍躍欲試，想要再揮一次棒」。&lt;/p&gt;&#xA;&lt;p&gt;當 Anthropic 向他遞出橄欖枝時，一切水到渠成。這家以 AI 安全研究聞名的公司，擁有世界級的研究團隊，但產品端仍處於早期階段——正好是 Krieger 最擅長的領域。他在 Lightspeed 的訪談中坦言，自己一直在尋找一個特殊的機會：既能做從零到一的產品建設，又能在一個已有規模和動能的團隊中工作。Anthropic 完美地符合這個條件。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

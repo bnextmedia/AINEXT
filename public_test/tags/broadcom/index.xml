@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Broadcom on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/broadcom/</link>
+    <description>Recent content in Broadcom on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 06 Jan 2026 10:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/broadcom/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>客製化晶片來了，Nvidia 的好日子要結束了嗎？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260106-custom-silicon-nvidia-groq/</link>
+      <pubDate>Tue, 06 Jan 2026 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260106-custom-silicon-nvidia-groq/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Deepwater Asset Management 旗下《DeepTech》Podcast 2025 年 9 月播出的單集。&#xA;🎬 YouTube：&lt;a href=&#34;https://www.youtube.com/watch?v=NsQozkZmrXA&#34;&gt;收看連結&lt;/a&gt;&#xA;🎧 Spotify：&lt;a href=&#34;https://open.spotify.com/episode/54P6sV9SekO2nPjtHiiJIN&#34;&gt;收聽連結&lt;/a&gt;&#xA;🎧 Apple Podcast：&lt;a href=&#34;https://podcasts.apple.com/us/podcast/deeptech-ep5-upon-further-review-were-still-early-in-ai/id1721973292?i=1000726489600&#34;&gt;收聽連結&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;OpenAI 和晶片設計公司 Broadcom 簽下了一份價值超過 100 億美元的合約，要開發專為 OpenAI 設計的客製化 AI 晶片。幾乎在同一時間，Nvidia 宣布以 200 億美元收購 AI 推論晶片新創公司 Groq 的技術和團隊。&lt;/p&gt;&#xA;&lt;p&gt;這兩則新聞放在一起看，透露出一個重要訊號：AI 晶片市場正在發生結構性的變化。&lt;/p&gt;&#xA;&lt;p&gt;投資管理公司 Deepwater Asset Management 的合夥人 Doug Clinton 在《DeepTech》Podcast 中提出了一個大膽的判斷：AI 產業的敘事正在從「GPU 需求」轉向「客製化晶片需求」。這個轉變對 Nvidia 來說，可能是好消息，也可能是壞消息——取決於你用什麼時間尺度來看。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼市值超過-1000-億美元的-ai-公司都想自己做晶片&#34;&gt;為什麼市值超過 1000 億美元的 AI 公司都想自己做晶片？&lt;/h2&gt;&#xA;&lt;p&gt;Doug Clinton 在節目中提出了一個明確的判斷：任何市值超過 1000 億美元的 AI 公司，最終都必須發展自己的客製化晶片。這不是選擇題，而是生存問題。&lt;/p&gt;&#xA;&lt;p&gt;理由很直接：成本和效率。&lt;/p&gt;&#xA;&lt;p&gt;Nvidia 的 GPU 是「通用型」晶片，設計目標是能夠處理各種不同的運算任務。這種通用性是它的優勢，讓 Nvidia 可以賣給各種不同的客戶。但通用性也意味著妥協——對於任何單一特定任務，通用型晶片都不會是「最佳化」的選擇。&lt;/p&gt;&#xA;&lt;p&gt;客製化晶片（Broadcom 稱之為 XPU）則不同。它是專門為特定模型、特定用途設計的。當你知道這顆晶片只需要跑某一種模型時，你可以把所有不需要的功能都拿掉，把所有資源都集中在你需要的功能上。結果就是：更低的功耗、更高的效率、更低的單位運算成本。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

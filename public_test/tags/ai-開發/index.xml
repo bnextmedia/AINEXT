@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 開發 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E9%96%8B%E7%99%BC/</link>
+    <description>Recent content in AI 開發 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>別再造 Agent 了！Anthropic 說：2026 年是 Skills 的天下</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-anthropic-skills-new-agents/</link>
+      <pubDate>Thu, 25 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-anthropic-skills-new-agents/</guid>
+      <description>&lt;p&gt;2025 年被稱為「Agent 之年」，這點大家都同意。從年初開始，各大 AI 公司紛紛推出自己的 AI 代理人框架，讓 AI 能自主完成複雜任務。但就在年底，Anthropic 丟出一個新概念：Skills（技能）。他們甚至在 AI Engineer 頻道發布了一支標題很聳動的影片——「Don&amp;rsquo;t Build Agents, Build Skills Instead」（別建 Agent，建 Skills）。這是什麼意思？Agent 時代這麼快就要過去了嗎？&lt;/p&gt;&#xA;&lt;p&gt;在最近一集 Break Even Brothers Podcast 中，兩位主持人深入討論了 Skills 這個新趨勢。其中一位提到，Skills 幾個月前就已經在 Claude 中推出，但當時沒引起太大關注。「老實說，它當初推出時完全不在我的雷達上，」他坦言，「沒看到太多人使用，一開始的支援也有點粗糙——有點像 MCP Server 剛推出時的狀況。」但經過幾個月的打磨，Skills 開始展現真正的潛力，而且 OpenAI 也悄悄地在 ChatGPT 中加入了類似功能。&lt;/p&gt;&#xA;&lt;h2 id=&#34;什麼是-skills用白話解釋這個概念&#34;&gt;什麼是 Skills？用白話解釋這個概念&lt;/h2&gt;&#xA;&lt;p&gt;根據 Anthropic 官方的定義，Skills 是「描述如何執行特定任務的資料夾，包含說明文件、腳本和資源」。聽起來有點抽象，但 Podcast 主持人用了一個很好的比喻來解釋。想像你要報稅，你會選擇請一個非常聰明的數學家來幫你，還是請一個專業的會計師（CPA）？數學家可能數學能力超強，但他不懂稅法、不知道哪些項目可以抵扣、不清楚最新的報稅規定。會計師就不一樣了，他有領域專業知識（domain knowledge）。&lt;/p&gt;&#xA;&lt;p&gt;Skills 就是用來填補這個落差的。現在的 AI 模型已經非常聰明，但它們缺乏特定領域的專業知識和流程。Skills 本質上是一個 Markdown 文字檔，用來描述 AI 應該如何執行某個特定任務。這個檔案可以包含步驟說明、需要使用的工具、要存取的 URL，甚至可以嵌入可執行的程式碼。當 Claude 判斷需要某個技能時，它會載入這個檔案，按照裡面的指示來完成任務。&lt;/p&gt;&#xA;&lt;p&gt;這跟以往的 prompt engineering 有什麼不同？差別在於 Skills 是可以被分享、被版本控制、被市場化的標準化格式。你寫好一個報稅的 Skill，可以分享給同事；企業可以建立自己的 Skills 庫；未來甚至可能出現 Skills Marketplace，讓人們買賣專業技能檔案。Anthropic 在 2025 年 10 月推出 Skills，到了 12 月已經宣布支援組織級管理和合作夥伴目錄，發展相當快速。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI 寫程式超快，但你跟得上嗎？Netflix 的三階段解法</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-netflix-ai-software-crisis/</link>
+      <pubDate>Mon, 22 Dec 2025 22:33:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-netflix-ai-software-crisis/</guid>
+      <description>&lt;p&gt;「我部署過我不完全理解的程式碼。我生成了它、測試了它、部署了它。但我無法解釋它是怎麼運作的。」&lt;/p&gt;&#xA;&lt;p&gt;這是 Netflix 工程師 Jake Nations 在一場技術演講中的開場白。台下一片安靜，接著他補了一句：「我願意打賭，你們每一個人也都做過。」掌聲響起。&lt;/p&gt;&#xA;&lt;p&gt;Jake 過去幾年在 Netflix 負責推動 AI 工具的採用。他親眼見證 AI 帶來的加速——過去需要好幾天才能完成的工作，現在幾小時就能搞定；擱置多年的大型程式碼重構，終於有人手去執行。但他也注意到一件令人不安的事：程式碼生成的速度，已經超過工程師理解的速度。&lt;/p&gt;&#xA;&lt;p&gt;大型系統總是會在意想不到的地方掛掉。當那一刻來臨，你最好搞得懂自己正在除錯的程式碼。問題是，AI 一秒鐘能產出上千行程式碼，我們的理解力根本追不上。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/embed/eIoohUmYpGI&#34;&gt;嵌入影片&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;軟體危機簡史這不是第一次&#34;&gt;軟體危機簡史：這不是第一次&lt;/h2&gt;&#xA;&lt;p&gt;Jake 說，這種「複雜性超出管理能力」的困境，其實不是什麼新鮮事。每一代軟體工程師都碰過這堵牆。&lt;/p&gt;&#xA;&lt;p&gt;1960 年代末，一群聰明的電腦科學家聚在一起，發現了一個問題：社會對軟體的需求暴增，但軟體開發的速度根本跟不上。專案延遲、成本超支、品質低落。他們把這個現象稱為「軟體危機」。&lt;/p&gt;&#xA;&lt;p&gt;荷蘭電腦科學家 Edsger Dijkstra 當時說過一句話：「當我們只有幾台弱小的電腦時，程式設計只是個小問題；現在我們有了巨大的電腦，程式設計也變成了巨大的問題。」他的觀察是：硬體能力每成長一千倍，社會對軟體的期待也會跟著漲一千倍，留給工程師的只有如何在「想要」和「做得到」之間找到平衡。&lt;/p&gt;&#xA;&lt;p&gt;這種循環不斷重演。1970 年代有了 C 語言，可以寫更大的系統。1980 年代個人電腦普及，人人都能寫程式。1990 年代物件導向程式設計流行，帶來了複雜到讓人頭痛的繼承結構。2000 年代敏捷開發興起。2010 年代雲端、行動裝置、DevOps 全面爆發，軟體真的「吃掉了世界」。&lt;/p&gt;&#xA;&lt;p&gt;而現在，我們有了 AI。Copilot、Cursor、Claude、Codex、Gemini——我們可以用描述的速度生成程式碼。模式依然在重複，但這次的規模是「無限」的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;easy-vs-simpleai-時代最危險的混淆&#34;&gt;Easy vs Simple：AI 時代最危險的混淆&lt;/h2&gt;&#xA;&lt;p&gt;「我們陷入了一個陷阱，」Jake 說，「我們混淆了『容易』和『簡單』。」&lt;/p&gt;&#xA;&lt;p&gt;這兩個詞聽起來很像，但它們指向完全不同的東西。Clojure 程式語言的創造者 Rich Hickey 在 2011 年有一場著名的演講叫做「Simple Made Easy」，對這兩個概念做了精確的區分。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Simple（簡單）&lt;/strong&gt; 的字源來自拉丁文，意思是「一個折疊、一個編織」，也就是沒有糾纏。一個簡單的系統，每個部件各司其職，彼此不會糾纏在一起。你改動一個地方，不會牽動其他十個地方。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Easy（容易）&lt;/strong&gt; 的字源則是「鄰近」。什麼東西離你近、伸手就能拿到，那就是容易的。安裝一個套件、從 Stack Overflow 複製一段程式碼、讓 AI 生成一個功能——這些都是「容易」的事。&lt;/p&gt;&#xA;&lt;p&gt;重點來了：&lt;strong&gt;你沒辦法靠許願讓事情變簡單&lt;/strong&gt;。簡單需要思考、需要設計、需要花力氣把糾纏的東西理清楚。但你隨時都可以讓事情變得更容易——只要把它放得更近就好。&lt;/p&gt;&#xA;&lt;p&gt;人類天生會走阻力最小的路，這是生存本能，沒什麼好怪的。在 AI 出現之前，這種取捨還算可控——複雜性在程式碼庫中累積的速度夠慢，工程師有時間重構、重新思考、必要時砍掉重練。&lt;/p&gt;&#xA;&lt;p&gt;但 Jake 認為 AI 打破了這個平衡。AI 是終極的「容易製造機」，讓容易的路變得毫無阻力，以至於我們根本不再考慮簡單的那條路。程式碼瞬間就能出現，誰還會停下來想架構？&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

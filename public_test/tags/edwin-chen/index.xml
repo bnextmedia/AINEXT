@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Edwin Chen on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/edwin-chen/</link>
+    <description>Recent content in Edwin Chen on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/edwin-chen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從資料標註到「養育人類的孩子」——AI 訓練的真相</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-surge-ai-raising-humanitys-children/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-surge-ai-raising-humanitys-children/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Lenny&amp;rsquo;s Podcast 與 Surge AI 創辦人 Edwin Chen 的訪談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/dduQeaqmpnI&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;說到 AI 訓練，很多人腦中浮現的畫面是：一群人坐在電腦前，在貓的照片上標註「這是貓」，在狗的照片周圍畫框框。這種工作聽起來很無聊、很機械、很容易被取代。&lt;/p&gt;&#xA;&lt;p&gt;Edwin Chen 是 Surge AI 的創辦人，這家公司為所有主要 AI 實驗室提供訓練資料。他討厭「資料標註」這個詞。&lt;/p&gt;&#xA;&lt;p&gt;「資料標註讓人想到這種簡單工作——標註貓的照片、畫 bounding box。我們做的完全不同。」他說。「我覺得我們做的事情更像是養育孩子。養小孩不只是餵他吃東西。你在教他價值觀、創造力、什麼是美、無數關於什麼讓一個人變好的微妙事情。我們對 AI 做的就是這件事。」&lt;/p&gt;&#xA;&lt;p&gt;這個比喻不是誇張。如果你仔細理解現代 AI 是怎麼訓練出來的，你會發現這確實比「標註」複雜得多。&lt;/p&gt;&#xA;&lt;h2 id=&#34;不只是教會模型答案&#34;&gt;不只是「教會模型答案」&lt;/h2&gt;&#xA;&lt;p&gt;每一個你用過的大型語言模型——ChatGPT、Claude、Gemini——都經歷過一個叫「後訓練」（post-training）的階段。這個階段發生在模型已經從網路上學會大量文字知識之後。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>訓練 ChatGPT 的公司，給 AI 時代創業者的一堂課</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-surge-ai-startup-lesson/</link>
+      <pubDate>Wed, 24 Dec 2025 01:49:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-surge-ai-startup-lesson/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Lenny&amp;rsquo;s Podcast 與 Surge AI 創辦人 Edwin Chen 的訪談。&#xA;收聽連結：&lt;a href=&#34;https://www.youtube.com/watch?v=dduQeaqmpnI&#34;&gt;YouTube&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;4 年內營收突破 10 億美元。員工不到 100 人。從第一天就獲利。更重要的是——他們一毛錢的創投資金都沒拿過。&lt;/p&gt;&#xA;&lt;p&gt;這組數字放在任何產業都很驚人，放在矽谷更是近乎異端。當整個科技圈都在談「閃電擴張」、追逐獨角獸估值、用大量資金換取成長時，Surge AI 創辦人 Edwin Chen 選擇了一條完全相反的路。他不募資、不做公關、不追風口，只專注做一件事：提供訓練 AI 模型所需的高品質資料。&lt;/p&gt;&#xA;&lt;p&gt;結果是，他們成了史上最快達到 10 億美元營收的公司之一——而且你可能到最近才聽過這家公司的名字。&lt;/p&gt;&#xA;&lt;h2 id=&#34;他們到底在做什麼&#34;&gt;他們到底在做什麼&lt;/h2&gt;&#xA;&lt;p&gt;Surge AI 做的事情，用一句話說就是：「教 AI 什麼是好、什麼是壞。」&lt;/p&gt;&#xA;&lt;p&gt;每一個你用過的大型語言模型——ChatGPT、Claude、Gemini——都經過一個叫做「後訓練」（post-training）的過程。模型先從網路上學習大量文字，但這只讓它學會「預測下一個字」，不代表它知道什麼樣的回答才是好的。後訓練就是教會模型分辨品質的過程，包括 SFT（監督微調）、RLHF（人類回饋強化學習）、設計評估標準等等。&lt;/p&gt;&#xA;&lt;p&gt;Surge AI 就是這個後訓練環節的關鍵供應商。他們招募各領域的專家——物理學家、詩人、軟體工程師——讓這些人與 AI 模型互動，評估模型的回答，提供高品質的訓練資料。所有主要的 AI 實驗室都是他們的客戶。&lt;/p&gt;&#xA;&lt;p&gt;這聽起來像是「資料標註」，但 Edwin 很討厭這個詞。「資料標註讓人想到標註貓的照片、在汽車周圍畫框框這種簡單工作。但我們做的完全不同——我們是在養育人類的孩子。」他這樣形容。養小孩不只是餵他吃東西，而是教他價值觀、創造力、什麼是美。訓練 AI 也是一樣。&lt;/p&gt;&#xA;&lt;h2 id=&#34;品質的定義決定了一切&#34;&gt;品質的定義，決定了一切&lt;/h2&gt;&#xA;&lt;p&gt;Edwin 認為 Surge 成功的核心原因是：他們對「品質」的定義，跟其他人完全不一樣。&lt;/p&gt;&#xA;&lt;p&gt;「大部分人不理解品質在這個領域是什麼意思。他們以為可以用人海戰術，丟一堆人去做就能得到好資料。這完全錯了。」他舉了一個例子：假設你要訓練模型寫一首關於月亮的八行詩，什麼叫「好」？如果你不深入思考品質，你會這樣檢查——這是一首詩嗎？有八行嗎？有提到月亮嗎？都符合，那就是好詩。&lt;/p&gt;&#xA;&lt;p&gt;但這不是 Surge 追求的。「我們要的是諾貝爾獎等級的詩。這首詩獨特嗎？有細膩的意象嗎？會讓你驚喜、觸動你的心嗎？會教你一些關於月光本質的事情嗎？會玩弄你的情緒、讓你思考嗎？」這種品質很難測量，非常主觀，而且標準極高。但 Edwin 認為，這才是我們真正希望 AI 能做到的事情。&lt;/p&gt;&#xA;&lt;p&gt;為了測量這種品質，Surge 建立了複雜的系統，收集每個工作者的數千個信號——他們的背景、專業領域、打字速度、回答方式，以及最重要的：他們產出的資料是否真的讓模型變得更好。「我們最終會知道你擅長寫詩、還是擅長寫論文、還是擅長寫技術文件。」Edwin 說。這就像 Google 搜尋用無數信號來判斷網頁品質一樣——不只是過濾垃圾，更要找出最頂尖的內容。&lt;/p&gt;&#xA;&lt;h2 id=&#34;反矽谷的創業哲學&#34;&gt;反矽谷的創業哲學&lt;/h2&gt;&#xA;&lt;p&gt;「我一直很討厭矽谷的那套說法。」Edwin 說得很直接。&lt;/p&gt;&#xA;&lt;p&gt;標準的創業劇本是：快速找到產品市場契合度，可能每兩週就要 pivot 一次；用各種手段追求成長和互動；用閃電擴張的方式盡快招人。Edwin 完全不同意這些。他的建議是：不要 pivot，不要閃電擴張，不要請那些只想在履歷上加一家熱門公司的史丹佛畢業生。「就專心做一件只有你能做的事——一件沒有你的洞見和專業就不會存在的事。」&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

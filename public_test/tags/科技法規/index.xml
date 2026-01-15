@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>科技法規 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E7%A7%91%E6%8A%80%E6%B3%95%E8%A6%8F/</link>
+    <description>Recent content in 科技法規 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E7%A7%91%E6%8A%80%E6%B3%95%E8%A6%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple 日本開放第三方 App 商店，這對全球 iOS 生態系意味著什麼？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-apple-japan-msca-impact/</link>
+      <pubDate>Fri, 26 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-apple-japan-msca-impact/</guid>
+      <description>&lt;p&gt;Apple 又被迫開門了。&lt;/p&gt;&#xA;&lt;p&gt;2025 年 12 月 17 日，Apple 宣布將在日本實施一系列 iOS 變更，以配合日本的《行動軟體競爭法》（Mobile Software Competition Act，簡稱 MSCA）。這意味著日本成為繼歐盟之後，第二個成功迫使 Apple 打開 iOS 封閉生態系的主要市場。&lt;/p&gt;&#xA;&lt;p&gt;對臺灣讀者來說，這件事的意義不只是「日本使用者多了選擇」這麼簡單。當越來越多國家開始立法要求科技巨頭開放平台，全球 iOS 生態系的遊戲規則正在被重新定義。&lt;/p&gt;&#xA;&lt;h2 id=&#34;日本-msca-到底要求什麼&#34;&gt;日本 MSCA 到底要求什麼？&lt;/h2&gt;&#xA;&lt;p&gt;MSCA 的核心邏輯其實不難理解：打破 App Store 的獨佔地位。&lt;/p&gt;&#xA;&lt;p&gt;日本政府認為，Apple 和 Google 在行動軟體市場佔據了「守門人」的位置。所有想在 iPhone 上提供服務的開發者，都必須透過 App Store，並且被迫接受 Apple 的規則和抽成。這種結構性的不對等，讓日本政府決定出手介入。&lt;/p&gt;&#xA;&lt;p&gt;MSCA 的三大核心要求：&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;第一，開放第三方 App 商店。&lt;/strong&gt; 開發者可以選擇在 App Store 以外的管道發行 App。這些替代商店需要經過 Apple 授權，但使用者確實有了新選擇。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;第二，開放第三方支付。&lt;/strong&gt; 開發者可以在 App 內使用自己的支付系統，或者引導使用者到外部網站完成交易。這直接挑戰了 Apple 最賺錢的「蘋果稅」。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;第三，開放瀏覽器引擎。&lt;/strong&gt; 開發者可以使用 WebKit 以外的瀏覽器引擎，這對 Firefox、Chrome 等瀏覽器開發商是重大利多。&lt;/p&gt;&#xA;&lt;p&gt;這套法規將從 iOS 26.2 開始生效。&lt;/p&gt;&#xA;&lt;h2 id=&#34;apple-的因應策略配合但設防線&#34;&gt;Apple 的因應策略：配合但設防線&lt;/h2&gt;&#xA;&lt;p&gt;Apple 的回應方式，展現了大型科技公司面對監管時的典型策略：表面配合，實際設下重重關卡。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

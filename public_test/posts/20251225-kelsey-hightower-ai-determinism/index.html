@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>Kelsey hightower 談 ai：為什麼預測？明明可以確定 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="Kelsey Hightower 談 AI：為什麼預測？明明可以確定">
+<meta property="og:description" content="
+本文整理自 JetBrains 2024 年 12 月發布的訪談。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-ai-determinism/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-ai-determinism/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">Kelsey Hightower 談 AI：為什麼預測？明明可以確定</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 JetBrains 2024 年 12 月發布的訪談。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/HdUbTyvrfKo" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>「為什麼要預測？明明可以確定。」</p>
+<p>這是 Kelsey Hightower 在談到 AI 時拋出的問題。這句話看起來像是在唱衰 AI，但實際上是一個老練工程師對技術本質的深刻反思。Hightower 在 Google Cloud 擔任開發者大使超過八年，是 Kubernetes 社群最具影響力的布道者，也是 KubeCon 的共同創辦人。當整個科技圈都在為 AI 瘋狂時，他選擇退一步，問一個根本性的問題：我們真的知道自己在做什麼嗎？</p>
+<h2 id="整個職涯都在讓系統可預測現在卻擁抱不確定">整個職涯都在讓系統可預測，現在卻擁抱不確定？</h2>
+<p>Hightower 的觀點來自一個簡單的觀察：軟體工程師這個職業，本質上就是在把不確定的東西變成可預測的東西。當系統表現得不可預測時，我們叫它 bug。當系統做了預期之外的事，我們叫它安全漏洞。我們寫單元測試、整合測試、端對端測試，就是為了確保系統「只按照預期運作，而且只能按照預期運作」。</p>
+<p>然後 AI 來了。</p>
+<p>這些大型語言模型的核心特性，恰恰是不可預測性。你給它同樣的 prompt，可能會得到不同的結果。這不是 bug，這是 feature。Hightower 觀察到一個有趣的現象：業界開始用一些新詞彙來描述那些本來就存在的概念——「guardrails」（護欄）、「alignment」（對齊）、「tuning」（調校）。但如果你仔細想想，這些詞彙本質上都在說同一件事：我們要怎麼讓這個不可預測的系統變得可預測？</p>
+<p>「我們最終還是會回到同一個目標，」他說，「建立一個可靠的系統，按照預期運作，而且只能按照預期運作。」</p>
+<h2 id="但-ai-不是沒有價值意圖導向-api-是真正的潛力">但 AI 不是沒有價值——意圖導向 API 是真正的潛力</h2>
+<p>Hightower 不是在反對 AI。他看到的是一個真正的機會：意圖導向的 API。</p>
+<p>想像一下現在的基礎設施工具鏈：你有 HCL、Kubernetes API、Helm charts、SQL 語句、各種 TOML、JSON、XML 配置檔。如果你是 Java 開發者，還有那長達一英里的 pom.xml。這些系統之間沒有一致性，要讓它們協同運作需要大量的膠合程式碼，而且這些膠合程式碼極其脆弱。</p>
+<p>LLM 提供了一個新的可能性：用自然語言表達意圖。你說「把這個應用部署到這個區域，並開放流量」，然後由某個中間層去處理所有底層的複雜性。這是 Hightower 認為 AI 真正有價值的地方——不是取代工程師，而是提供一個更高層次的抽象介面。</p>
+<p>但他也很清醒地指出：底層的東西一樣都沒變。你還是要呼叫雲端供應商的 API，你的應用還是跑在同樣的 kernel 上，還是要分配記憶體、寫 log。「除非這些都改變了，」他說，「否則我們真正談論的，只是一個新的 API 來做我們過去三十年一直在做的事。」</p>
+<h2 id="prompt-engineering你們可能創造了另一種程式語言">Prompt Engineering：你們可能創造了另一種程式語言</h2>
+<p>這是訪談中最精彩的部分之一。</p>
+<p>Hightower 說，當他問那些熱衷於 AI 開發的人「給我看看你們的 prompts」時，他看到的是：500 個 markdown 檔案，一堆精心設計的 prompts。「你們怎麼管理這些 markdown 檔案？」他問。「我們 check in 到版本控制。」對方回答。「你們會做版本控制嗎？」「當然，我們有版本控制。」「那測試呢？」「我們也開始寫測試了。」</p>
+<p>Hightower 停頓了一下，然後說：「我覺得你們可能創造了另一種程式語言。」</p>
+<p>對方愣住了。</p>
+<p>這個觀察非常精準。我們還是在嘗試用某種方式把人類的意圖傳達給機器。只是這次的格式從程式碼變成了 markdown 和自然語言。但本質沒變：你需要版本控制、你需要測試、你需要確保一致性和可重現性。那些讓傳統程式語言變得「boring」（無聊但可靠）的紀律，在 prompt engineering 中一樣需要。</p>
+<p>「我們還是在試圖以一種可以從人類傳遞給機器的方式來捕捉意圖，」他總結，「至於這是不是我們想要的新方言，時間會證明。」</p>
+<h2 id="意外收穫mcp-和文件化浪潮">意外收穫：MCP 和文件化浪潮</h2>
+<p>Hightower 提出了一個很少有人注意到的觀點：AI 熱潮帶來的最大副產品，可能是我們終於開始認真寫文件了。</p>
+<p>他說，多年來他試圖讓開發者描述他們建立的系統，簡直像在拔牙。但現在，為了讓機器理解系統、為了讓 AI agent 能夠操作各種工具，人們不得不寫出詳細的文件和 API 規格。MCP（Model Context Protocol）的出現更是激勵了一波 API 化的浪潮——那些傳統的 SaaS 供應商，以前只給你一個黑盒子和一個網頁介面，現在終於開始提供真正的 API 了。</p>
+<p>「如果你有一個結構良好的 API 來操作 Google Calendar、Google Docs、Salesforce，」他說，「你可能只需要 bash 和 curl 就能建構任何你想要的 pipeline。但因為我們沒有這些 API，這些系統對我們來說就是黑盒子，我們只能在那邊做 screen scraping。」</p>
+<p>這是一個諷刺的觀察：我們為人工智慧做的這些工作——寫文件、建立 API、提供結構化的操作介面——其實早就應該為真正的智慧（也就是人類）做好了。如果 AI 熱潮最後什麼都沒留下，至少我們會有一堆以前從來沒有的 API 和文件。那也不算白費了。</p>
+<h2 id="回歸工程師的基本功">回歸工程師的基本功</h2>
+<p>Hightower 對 AI 的態度可以這樣總結：他不是悲觀派，也不是樂觀派，他是務實派。</p>
+<p>他看到了 AI 作為意圖導向 API 的潛力，也看到了它可能帶來的文件化和 API 標準化浪潮。但他同時也提醒：不要忘記工程師的基本功。我們的工作從來都是把不確定性變成確定性，把複雜性封裝成簡單的介面，把專業知識轉化成可重複使用的工具。</p>
+<p>無論用什麼技術，這些原則不會改變。Kubernetes 是這樣，AI 也是這樣。</p>
+<p>「那些理解基礎和根本的人，」他說，「可能會從中獲得一些創意靈感，讓我們改善現有的工具，讓它們更有一致性，有更多意圖導向的 API，而不是那些需要一再重複組裝的模組化 API。」</p>
+<p>這大概是對 AI 最務實的期待：不是取代工程師，而是讓我們終於有動力把該做的事做好。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

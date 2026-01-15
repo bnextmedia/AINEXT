@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>企業採用 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E4%BC%81%E6%A5%AD%E6%8E%A1%E7%94%A8/</link>
+    <description>Recent content in 企業採用 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 23 Dec 2025 00:59:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E4%BC%81%E6%A5%AD%E6%8E%A1%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPT-5.2 的能力過剩：模型這麼強，為什麼企業還是用不好？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251223-sam-altman-capability-overhang/</link>
+      <pubDate>Tue, 23 Dec 2025 00:59:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251223-sam-altman-capability-overhang/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《Big Technology Podcast》2024 年 12 月 18 日播出的單集，主持人 Alex Kantrowitz 專訪 OpenAI CEO Sam Altman。&#xA;收聽連結：&lt;a href=&#34;https://podcasts.apple.com/in/podcast/sam-altman-how-openai-wins-ai-buildout-logic-ipo-in-2026/id1522960417?i=1000741901091&#34;&gt;Apple Podcast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;七成知識工作ai-做得比人好&#34;&gt;七成知識工作，AI 做得比人好&lt;/h2&gt;&#xA;&lt;p&gt;OpenAI 有一個內部評估指標叫做「GDPVal」。這不是一個對外公開的標準測試，而是 OpenAI 用來衡量模型在「對 GDP 有貢獻的工作任務」上表現的內部評量。這個評估涵蓋大約四十幾種不同的商業任務類型：做簡報、寫法律分析、開發小型網頁應用、撰寫報告、處理數據——基本上是一間公司運作會需要的各種知識工作。&lt;/p&gt;&#xA;&lt;p&gt;評估的方式是這樣的：讓專家來判斷，對於這些任務，他們更喜歡 AI 的產出，還是其他人類專家的產出。這是一個「盲測」的設計，評估者不知道哪個是 AI 做的、哪個是人做的。&lt;/p&gt;&#xA;&lt;p&gt;根據 OpenAI 的數據，GPT-5 Thinking（今年夏天發布的版本）在 38.8% 的任務上「表現相當或更好」。而最新的 GPT-5.2，這個數字跳到了 70.9%。如果用更貴的 GPT-5.2 Pro，數字是 74.1%。更重要的是，GPT-5.2 Pro 在「專家級」任務上的表現也跨過了門檻——大約 60% 的專家級任務，它的表現可以達到與人類專家相當的水準。&lt;/p&gt;&#xA;&lt;p&gt;這些數字應該很驚人。三年前 ChatGPT 剛推出時，沒有人敢預測三年後會達到這個水準。如果你有一個「同事」，把一小時的任務交給他，七成的機率你會對結果滿意或更滿意——那是一個相當可靠的同事。而這個「同事」的時薪遠低於人類。&lt;/p&gt;&#xA;&lt;p&gt;但問題來了：如果 AI 這麼強，為什麼這麼多企業說他們「沒有看到投資報酬率」？&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;兩個互相矛盾的說法&#34;&gt;兩個互相矛盾的說法&lt;/h2&gt;&#xA;&lt;p&gt;Alex Kantrowitz 在訪談中提出了一個尖銳的觀察。一方面，OpenAI 的 GDPVal 數據顯示 AI 在七成知識工作上表現優於人類。另一方面，MIT 的調查和很多企業訪談都指出，許多公司在導入 AI 後，沒有得到他們期待的效益。這兩個說法怎麼同時成立？&lt;/p&gt;&#xA;&lt;p&gt;Altman 對這個問題的第一反應是：「我不太確定怎麼理解那些調查。」他說 OpenAI 聽到的企業反饋完全相反——有公司說如果 GPT-5.2 的價格漲十倍，他們還是會付。有人說 OpenAI 嚴重低估了自己產品的價值。寫程式的人更誇張，有人說他願意付一百倍的價格。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

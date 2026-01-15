@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mirror Life on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/mirror-life/</link>
+    <description>Recent content in Mirror Life on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 05 Jan 2026 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/mirror-life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>專訪 AI 教父：5 大滅絕風險與一線希望</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260105-bengio-five-existential-risks/</link>
+      <pubDate>Mon, 05 Jan 2026 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260105-bengio-five-existential-risks/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《The Diary Of A CEO with Steven Bartlett》2025 年 12 月 18 日播出的單集。&#xA;🎬 YouTube：&lt;a href=&#34;https://www.youtube.com/watch?v=zQ1POHiR8m8&#34;&gt;連結&lt;/a&gt;&#xA;🎧 Spotify：&lt;a href=&#34;https://open.spotify.com/episode/3IWYsx5XV9hOFJdtFOKbU8&#34;&gt;連結&lt;/a&gt;&#xA;🎧 Apple Podcast：&lt;a href=&#34;https://podcasts.apple.com/mo/podcast/creator-of-ai-we-have-2-years-before-everything/id1291423644?i=1000741795419&#34;&gt;連結&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;當一位科學家說「即使只有 1% 的機率，也是無法接受的」，我們應該認真聽聽他在說什麼。尤其當這位科學家是 Yoshua Bengio——深度學習的奠基者之一、2018 年圖靈獎得主、全球被引用次數最多的學者。&lt;/p&gt;&#xA;&lt;p&gt;在這場長達 90 分鐘的 Podcast 訪談中，Bengio 系統性地闘述了 AI 可能帶來的五大存亡風險，同時也提出了他認為可行的解決路徑。這不是抽象的學術討論，而是來自「建造這項技術的人」最坦誠的警告。&lt;/p&gt;&#xA;&lt;h2 id=&#34;風險-1cbrn-武器知識的民主化&#34;&gt;風險 1：CBRN 武器知識的民主化&lt;/h2&gt;&#xA;&lt;p&gt;CBRN 是化學（Chemical）、生物（Biological）、放射性（Radiological）、核子（Nuclear）武器的縮寫。這四類武器之所以沒有被廣泛使用，一個重要原因是製造它們需要高度專業的知識。這些知識長期被控制在少數人手中。&lt;/p&gt;&#xA;&lt;p&gt;AI 正在改變這個局面。&lt;/p&gt;&#xA;&lt;p&gt;「我們已經知道如何製造化學武器，有國際協議禁止這樣做，」Bengio 解釋，「但過去需要非常專業的知識才能製造。現在 AI 已經足夠聰明，可以幫助沒有專業知識的人做到這件事。」&lt;/p&gt;&#xA;&lt;p&gt;同樣的邏輯適用於生物武器。一個危險的病毒可能已經存在於自然界，但操作它需要專門的實驗室技術。AI 正在降低這個門檻。更遠的未來，放射性物質的處理、甚至核彈的配方，都可能透過 AI 被「解鎖」。&lt;/p&gt;&#xA;&lt;p&gt;這不是說 AI 會直接製造這些武器。而是說，原本需要多年專業訓練才能獲得的危險知識，現在任何人只要能繞過 AI 的安全限制，就可能取得。而經驗告訴我們，這些安全限制總是會被繞過。&lt;/p&gt;&#xA;&lt;h2 id=&#34;風險-2權力的極端集中&#34;&gt;風險 2：權力的極端集中&lt;/h2&gt;&#xA;&lt;p&gt;這是 Bengio 認為「討論最不夠」但「可能最快發生」的風險。&lt;/p&gt;&#xA;&lt;p&gt;想像一家公司，因為擁有最先進的 AI 技術，在經濟上主宰了全世界。或者想像一個國家，因為 AI 軍事能力遙遙領先，在政治和軍事上控制了全球。當權力集中在少數人手中，結果取決於這些人是否善良。&lt;/p&gt;&#xA;&lt;p&gt;「如果掌權的人是仁慈的，那很好，」Bengio 說，「但如果他們只想維持自己的權力——這正是民主的反面——那我們所有人都會陷入困境。」&lt;/p&gt;&#xA;&lt;p&gt;這個風險的時間軸比其他風險更近。財富的集中是權力集中的第一步。當你極度富有，你就能對政治產生極大的影響力，然後這會形成自我強化的循環。我們已經可以在科技產業看到這個趨勢的雛形。&lt;/p&gt;&#xA;&lt;h2 id=&#34;風險-3mirror-life免疫系統無法識別的生命&#34;&gt;風險 3：Mirror Life——免疫系統無法識別的生命&lt;/h2&gt;&#xA;&lt;p&gt;這可能是訪談中最令人不安的部分。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

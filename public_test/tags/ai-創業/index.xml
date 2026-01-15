@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 創業 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E5%89%B5%E6%A5%AD/</link>
+    <description>Recent content in AI 創業 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E5%89%B5%E6%A5%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neolab 爭議：沒有百億美元，AI 新創還能怎麼贏？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-neolab-ai-startup-without-scale/</link>
+      <pubDate>Fri, 26 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-neolab-ai-startup-without-scale/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 TBPN Podcast 2025 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/DRZatti6mVM&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    src=&#34;https://open.spotify.com/embed/episode/6IaZ6BSNKkQQy6y4mmGQVN&#34; &#xA;    width=&#34;100%&#34; &#xA;    height=&#34;152&#34; &#xA;    frameBorder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; &#xA;    loading=&#34;lazy&#34;&#xA;    style=&#34;border-radius: 12px;&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/us/podcast/amazon-x-openai-fords-ev-reality-check-kushner-drops/id1772360235?i=1000741755977&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「Scale is all you need。」這句話在 AI 圈幾乎成了信條。OpenAI、Anthropic、Google DeepMind 這些頂尖實驗室，都在瘋狂擴大運算規模，動輒燒掉數十億甚至上百億美元。Scaling Laws 的信仰者認為，只要持續加大模型參數、增加訓練資料、堆疊更多運算，AI 的能力就會持續提升。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yann LeCun 65歲創業宣言——為什麼他要與整個矽谷對賭？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-65-startup-world-model/</link>
+      <pubDate>Mon, 22 Dec 2025 22:10:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-65-startup-world-model/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/7u-DXVADyhc&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Yann LeCun 65 歲了。圖靈獎得主、卷積神經網路發明者、Meta FAIR 創辦人。按理說，這個年紀可以退休了。他太太也這麼希望。&lt;/p&gt;&#xA;&lt;p&gt;但他選擇創業。&lt;/p&gt;&#xA;&lt;p&gt;離開待了 12 年的 Meta，創辦一家叫 Advanced Machine Intelligence（AMI）的新公司，專注於 World Model——一個與當前 LLM 路線完全不同的技術方向。當所有人都在追逐更大的語言模型時，他決定走另一條路。這個想法他想了將近十年，現在終於要動手做了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼離開-meta&#34;&gt;為什麼離開 Meta？&lt;/h2&gt;&#xA;&lt;p&gt;LeCun 創辦 FAIR（Facebook AI Research）超過十年了。這個實驗室影響力很大——PyTorch 是從這裡出來的，更重要的是，它建立了一種「什麼都發表」的文化。FAIR 帶頭開放，逼得 Google 這種本來很封閉的公司也開始發論文。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

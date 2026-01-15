@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 陪伴 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E9%99%AA%E4%BC%B4/</link>
+    <description>Recent content in AI 陪伴 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 23 Dec 2025 01:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E9%99%AA%E4%BC%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你的 AI 會比你更懂你：Sam Altman 談 ChatGPT 記憶功能的終極願景</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251223-sam-altman-memory-future/</link>
+      <pubDate>Tue, 23 Dec 2025 01:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251223-sam-altman-memory-future/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《Big Technology Podcast》2024 年 12 月 18 日播出的單集，主持人 Alex Kantrowitz 專訪 OpenAI CEO Sam Altman。&#xA;收聽連結：&lt;a href=&#34;https://podcasts.apple.com/in/podcast/sam-altman-how-openai-wins-ai-buildout-logic-ipo-in-2026/id1522960417?i=1000741901091&#34;&gt;Apple Podcast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一趟旅行一個-ai-助理&#34;&gt;一趟旅行，一個 AI 助理&lt;/h2&gt;&#xA;&lt;p&gt;主持人 Alex Kantrowitz 在訪談中分享了一個自己使用 ChatGPT 的經驗。他正在規劃一趟旅行，這趟旅行的細節很多——住宿、交通、景點、行程安排。過去幾週，他斷斷續續地跟 ChatGPT 討論這趟旅行的各種面向。每次打開新的對話視窗，他不需要從頭解釋「我要去哪裡」「我要跟誰去」「我的偏好是什麼」，只要說一句「我們繼續聊那趟旅行」，ChatGPT 就能接上脈絡。&lt;/p&gt;&#xA;&lt;p&gt;它記得他要去哪裡，記得他選了哪個導遊，記得他這幾週做了什麼體能訓練來為這趟旅程做準備。這些片段原本散落在十幾個不同的對話中，但 ChatGPT 的記憶功能把它們串起來了。對 Alex 來說，這已經不只是一個「問答工具」，而是一個真正在協助他規劃生活的助理。&lt;/p&gt;&#xA;&lt;p&gt;這個經驗引出了一個很大的問題：AI 的記憶功能可以發展到什麼程度？&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;我們還在記憶功能的-gpt-2-時代&#34;&gt;「我們還在記憶功能的 GPT-2 時代」&lt;/h2&gt;&#xA;&lt;p&gt;Sam Altman 對目前記憶功能的評價出奇地謙遜。他說：「我們現在還在記憶功能的 GPT-2 時代。」&lt;/p&gt;&#xA;&lt;p&gt;這句話的意思是：現在的記憶功能，就像 2019 年的語言模型一樣原始。可以用，有點用，但離真正的潛力還差得很遠。&lt;/p&gt;&#xA;&lt;p&gt;要理解 Altman 描述的終極願景，得先想像一個不存在的人類助理。假設你有全世界最好的個人助理，這個人跟了你二十年，對你瞭若指掌。但即使是這樣的助理，也做不到以下這些事情：記得你這輩子說過的每一句話；讀過你寫過的每一封 email；看過你產出的每一份文件；每天觀察你的所有工作，記住每一個小細節；以這種深度參與你的生活。&lt;/p&gt;&#xA;&lt;p&gt;人類的記憶有極限。不管多用心的助理，都會漏掉東西、會忘記、會誤解。這是人腦的生理限制。但 AI 沒有這個限制。它可以記住「無限」的資訊，而且是完美地記住，不會扭曲、不會遺漏。&lt;/p&gt;&#xA;&lt;p&gt;Altman 描繪的未來是這樣的：AI 記住你生命中的每一個細節。不只是你明確告訴它的事實，還包括你可能自己都沒意識到的小偏好——你喜歡的表達方式、你做決策時的傾向、你對某些話題的反應模式。它從你的無數互動中學習這些細微之處，然後用這些理解來更好地服務你。&lt;/p&gt;&#xA;&lt;p&gt;這不是五年後的事情，也不是十年後的事情。Altman 說，這是 OpenAI 最興奮的發展方向之一，雖然可能不是 2026 年就能完全實現，但這是他們正在積極推進的方向。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;個人化的黏著力&#34;&gt;個人化的黏著力&lt;/h2&gt;&#xA;&lt;p&gt;為什麼 Altman 這麼看重記憶功能？因為這是 OpenAI 產品策略的核心之一。&lt;/p&gt;&#xA;&lt;p&gt;他在訪談中提到一個研究發現：多數人一輩子只會選一次牙膏品牌，然後就一直用下去。這聽起來像是無聊的消費行為研究，但 Altman 用它來解釋 AI 產品的黏著邏輯。使用者不會每天重新評估自己該用哪個 AI 服務。他們會經歷一個「決定性時刻」，從那之後就定下來了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

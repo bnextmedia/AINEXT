@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>世界模型 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B/</link>
+    <description>Recent content in 世界模型 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 07 Jan 2026 14:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yann LeCun：LLM 永遠無法達到人類智慧，世界模型才是正途</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260107-yann-lecun-world-models-ami/</link>
+      <pubDate>Wed, 07 Jan 2026 14:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260107-yann-lecun-world-models-ami/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 The Information Bottleneck Podcast 2025 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/7u-DXVADyhc&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;65-歲創業為什麼離開-meta&#34;&gt;65 歲創業：為什麼離開 Meta？&lt;/h2&gt;&#xA;&lt;p&gt;Yann LeCun 在 Meta 待了 12 年，一手創建了 FAIR（Fundamental AI Research Lab），推動開放研究文化，讓 PyTorch 成為業界標準。然而，他觀察到產業風向正在改變——不只是 OpenAI，連 Google 和 Meta 都開始變得封閉，減少發表論文。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demis Hassabis 的 AGI 路線圖：世界模型才是關鍵拼圖</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-agi-roadmap/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-agi-roadmap/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Google DeepMind Podcast 2024 年 12 月播出的單集，由 Hannah Fry 主持，專訪 DeepMind 共同創辦人兼 CEO Demis Hassabis。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/PqVbypvxDto&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Gemini 2.0 剛發布，外界都在討論這個模型的能力提升。但在這集訪談中，Demis Hassabis 談得最興奮的，其實不是 Gemini 本身。他花了更多時間講「世界模型」——一種能理解物理世界運作方式的 AI 系統。在他看來，這才是通往 AGI 的關鍵拼圖。&lt;/p&gt;&#xA;&lt;p&gt;這集訪談揭示了 DeepMind 內部怎麼看 AI 發展的路徑。不是單純的「把模型做大」，而是一條更複雜、需要多種技術匯流的道路。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

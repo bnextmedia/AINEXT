@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>Amp code 的「反常識」設計哲學：為什麼不讓使用者選模型 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="Amp Code 的「反常識」設計哲學：為什麼不讓使用者選模型">
+<meta property="og:description" content="
+本文整理自 Beyang Liu 在 AI Engineer World&rsquo;s Fair 的演講。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-amp-code-contrarian-design/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-amp-code-contrarian-design/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">Amp Code 的「反常識」設計哲學：為什麼不讓使用者選模型</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 Beyang Liu 在 AI Engineer World&rsquo;s Fair 的演講。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/gvIAkmZUEZY" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>市場上的 coding agent 已經多到讓人眼花撩亂。Cursor、Windsurf、GitHub Copilot、Claude Code——每隔幾週就有新的選手加入戰局。在這個擁擠的市場裡，Amp Code 的創辦人 Beyang Liu 選擇了一條不同的路：他不打算說服你 Amp 是「最好的」，而是要告訴你，他們的思考方式有多麼不一樣。</p>
+<p>這種「不一樣」體現在幾個核心設計決策上，而這些決策乍看之下都有點反常識。</p>
+<h2 id="為什麼不做模型選擇器">為什麼不做模型選擇器</h2>
+<p>打開任何一款主流 coding agent，你幾乎都會看到一個模型選擇器——讓你在 GPT-4、Claude、Gemini 之間切換。開發者喜歡選擇，或者至少喜歡「有選擇的感覺」。但 Amp 團隊認為，這種設計其實是一個架構陷阱。</p>
+<p>問題在於，當你支援 N 種模型時，你的 agent 框架只能做「輕度客製化」。每個模型都有不同的特性、不同的最佳 prompt 方式、不同的工具呼叫格式。如果你試圖讓同一套框架適配所有模型，結果就是你無法針對任何一個模型做深度最佳化。這就像設計一雙「適合所有人」的鞋子——最後誰穿都不合腳。</p>
+<p>Amp 的做法是只維護兩個頂層 agent：Smart 和 Rush。Smart agent 配備了所有進階功能——sub-agent、深度推理、大規模重構能力——適合那種「交給它去跑，回來看結果」的任務。Rush agent 則是為了快速迭代設計的，當你想緊貼在 agent 旁邊、一步步微調程式碼時使用。</p>
+<p>這種設計反映了一個更深層的觀察：開發者使用 agent 其實只有兩種模式。一種是非同步模式——你把任務丟給 agent，然後去做別的事，等它完成後再來審核程式碼。另一種是同步模式——你就坐在那裡，看著 agent 一步步改程式碼，隨時準備介入。與其給你 20 種模型選項讓你自己去摸索，不如直接針對這兩種使用情境做最佳化。</p>
+<h2 id="自訂工具優先mcp-其次">自訂工具優先，MCP 其次</h2>
+<p>MCP（Model Context Protocol）是 Anthropic 推出的協定，讓各種工具可以標準化地為 AI agent 提供上下文。這個協定引發了整個生態系的熱潮，大家都在寫 MCP server。但 Amp 團隊決定把主要精力放在自訂工具上，而不是追逐 MCP 整合。</p>
+<p>這個決定背後有兩個考量。首先是「回饋迴路」的概念。當你深入使用 coding agent，你會發現最重要的事情是幫助 agent 找到正確的回饋迴路——寫程式碼、執行測試、看到錯誤、修正、再試。要讓這個迴路順暢運轉，你需要精心設計的工具，這些工具的描述、參數、回傳格式都要針對你的 agent 行為做最佳化。</p>
+<p>MCP server 的問題在於，它的開發者不知道你的 agent 在做什麼。他們寫的工具描述是通用的，不會針對你 agent 的特定需求做調整。結果就是，你的 agent 可能會用錯工具、用錯參數、誤解回傳結果。</p>
+<p>第二個問題是「上下文混亂」。當你把太多工具塞進 context window，agent 就要在一大堆選項中做選擇。如果這些工具跟當前任務不太相關，agent 反而會被搞糊塗。Amp 團隊寧願維護一組精簡、高度客製化的核心工具，而不是讓使用者自己去接一堆 MCP server。</p>
+<h2 id="sub-agent-才是擴展能力的正確方式">Sub-agent 才是擴展能力的正確方式</h2>
+<p>幾乎每個使用過 coding agent 的人都遇過「context exhaustion」——agent 在找資料、讀程式碼的過程中用掉了大部分 context window，等到要開始改程式碼時已經沒剩多少空間了。天真的解法是叫 agent 少讀一點資料，但這會導致另一個問題：agent 沒搜集到足夠的上下文，於是一直嘗試同樣的錯誤解法，陷入「doom loop」。</p>
+<p>Amp 的解法是大量使用 sub-agent。這就像程式語言裡的 subroutine——你把一個子任務交給 sub-agent，它在自己的 context window 裡做完所有事情，最後只把精華結果回傳給主 agent。這樣主 agent 的 context 就不會被中間過程塞滿。</p>
+<p>但 Amp 的 sub-agent 不是那種「稍微改一下 system prompt、稍微調整一下工具」的通用型 sub-agent。他們為不同任務設計了專門的 sub-agent：Finder 用小而快的模型搭配精簡工具集來搜尋程式碼庫；Oracle 是專門的推理 sub-agent，當主 agent 卡住時可以呼叫它來「深度思考」；Librarian 負責從外部函式庫和框架文件中擷取資訊；Kraken 則專門寫 codemod 來處理大規模重構。</p>
+<p>這種設計的好處是，你可以保持主 agent 的「輕快」——它能快速回應、流暢使用各種工具——同時在需要的時候調用專門的能力。比如說，當遇到一個很難 debug 的問題，與其讓主 agent 一直轉圈圈，不如把問題丟給 Oracle 讓它花幾分鐘認真想一想。Liu 說他大概有八成的機率靠 Oracle 解決那些他本來要花一兩個小時才能搞定的問題。</p>
+<h2 id="對產品設計者的啟示">對產品設計者的啟示</h2>
+<p>Amp 團隊的這些決策，反映了一種特定的產品哲學：寧願做「有觀點的」（opinionated）產品，也不要做「什麼都可以」的萬用工具。他們明確表示，Amp 不是為所有人設計的——他們瞄準的是那一小群「想活在未來一年」的開發者。</p>
+<p>這種取捨在 AI 產品設計中特別重要。因為 AI 的能力還在快速變化，沒有人真正知道最佳實踐是什麼。在這種情況下，你可以選擇給使用者最大彈性，讓他們自己去探索；或者你可以根據自己的判斷做出選擇，然後把這個選擇做到極致。Amp 選擇了後者。</p>
+<p>這不代表他們一定是對的，但至少這是一個清楚的賭注。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 半導體 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E5%8D%8A%E5%B0%8E%E9%AB%94/</link>
+    <description>Recent content in AI 半導體 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 11:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E5%8D%8A%E5%B0%8E%E9%AB%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>十年後，HBF 會比 HBM 更重要：一場可能改變半導體版圖的技術革命</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-hbf-bigger-than-hbm-decade/</link>
+      <pubDate>Fri, 26 Dec 2025 11:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-hbf-bigger-than-hbm-decade/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/uJWZQb9rWUk&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「HBM 這個詞，大家大概是一年前才開始聽到的。但這項技術從 2010 年就開始研發了，花了 15 年才變成今天的熱門話題。」&lt;/p&gt;&#xA;&lt;p&gt;KAIST 電子及電機工程學部的金正鎬（Kim Jung-ho）教授在韓國財經節目中這樣說。作為 HBM 技術發展的早期參與者，他現在把目光投向了下一個十年：HBF（High Bandwidth Flash，高頻寬快閃記憶體）。&lt;/p&gt;&#xA;&lt;p&gt;他的預測很明確：大約三年後，HBF 產品會開始量產；十年後，HBF 的市場規模會超過 HBM。到時候，這個你現在可能還沒聽過的名詞，會像今天的 HBM 一樣，成為半導體產業最熱門的關鍵字。&lt;/p&gt;&#xA;&lt;h2 id=&#34;從-hbm-到-hbf記憶體的下一個進化&#34;&gt;從 HBM 到 HBF：記憶體的下一個進化&lt;/h2&gt;&#xA;&lt;p&gt;要理解 HBF，首先要理解 HBM 解決了什麼問題。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GPU 有 70% 時間在「等記憶體」：AI 半導體的真正瓶頸在哪？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-gpu-waiting-for-memory/</link>
+      <pubDate>Fri, 26 Dec 2025 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-gpu-waiting-for-memory/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/uJWZQb9rWUk&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;你以為 AI 運算的瓶頸是 GPU 不夠強？這個假設可能從根本上就錯了。&lt;/p&gt;&#xA;&lt;p&gt;KAIST 電子及電機工程學部的金正鎬（Kim Jung-ho）教授在韓國財經節目中揭示了一個反直覺的事實：目前的 AI 晶片，包括 NVIDIA 最先進的 GPU，有大約 60% 到 70% 的時間處於閒置狀態。它們不是在計算，而是在等待。等什麼？等記憶體把資料送過來。&lt;/p&gt;&#xA;&lt;p&gt;這就像一條高速公路上有一輛超級跑車，引擎馬力驚人，但前面塞車了。跑車的性能再好，也只能停在那裡空轉。在 AI 運算的世界裡，GPU 就是那輛跑車，而記憶體的頻寬就是那條塞車的公路。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼-gpu-會餓肚子&#34;&gt;為什麼 GPU 會「餓肚子」？&lt;/h2&gt;&#xA;&lt;p&gt;要理解這個現象，得先理解 AI 模型是怎麼運作的。當你問 ChatGPT 一個問題時，它不是一次把整個答案想好再說出來，而是一個字、一個字地「吐」出來。每吐一個字，模型都需要回去查一本巨大的「參考書」——這本參考書儲存了它學過的所有知識，技術上叫做模型參數和 KV Cache。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>公共政策 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E5%85%AC%E5%85%B1%E6%94%BF%E7%AD%96/</link>
+    <description>Recent content in 公共政策 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E5%85%AC%E5%85%B1%E6%94%BF%E7%AD%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 改變公共政策的真實案例：從印度 WhatsApp 到美國 SNAP</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-ai-public-policy-challenges/</link>
+      <pubDate>Fri, 26 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-ai-public-policy-challenges/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《The Pie》2025 年 6 月播出的單集「AI, the Economy, and Public Policy」。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    src=&#34;https://open.spotify.com/embed/us/podcast/pandemic-economics/id1509074261&#34; &#xA;    width=&#34;100%&#34; &#xA;    height=&#34;152&#34; &#xA;    frameBorder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; &#xA;    loading=&#34;lazy&#34;&#xA;    style=&#34;border-radius: 12px;&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/us/podcast/pandemic-economics/id1509074261&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;研究人員發現了一個能讓更多人獲得糧食援助的方法，數據清楚顯示效果顯著。政策制定者也認同這個發現很有價值。然後呢？什麼都沒發生。&lt;/p&gt;&#xA;&lt;p&gt;這個故事聽起來令人沮喪，但它精準描述了 AI 研究如何在公共政策領域遭遇現實的挑戰。在芝加哥大學 Becker Friedman Institute 的一場論壇上，Booth 商學院行銷學教授、同時也是 Center for Applied AI 學術主任的米斯拉（Sanjog Misra）分享了這個案例，以及他對 AI 如何能（與不能）改變公共政策的觀察。&lt;/p&gt;&#xA;&lt;p&gt;他的結論既務實又帶著一絲樂觀：在富裕國家，基礎設施和政治障礙讓 AI 政策應用困難重重；但在發展中國家，一些意想不到的條件反而創造了 AI 落地的機會。&lt;/p&gt;&#xA;&lt;h2 id=&#34;snap-案例研究說有效為什麼沒人採用&#34;&gt;SNAP 案例：研究說有效，為什麼沒人採用？&lt;/h2&gt;&#xA;&lt;p&gt;SNAP（Supplemental Nutrition Assistance Program，補充營養援助計畫）是美國最大的糧食援助計畫，每年幫助數千萬低收入家庭獲得食物。米斯拉和他的研究團隊發現，透過 AI 優化計畫的資訊傳遞和申請流程，可以顯著提高援助的觸及率。換句話說，更多有資格的人會實際獲得他們應得的援助。&lt;/p&gt;&#xA;&lt;p&gt;這聽起來應該是雙贏的局面：需要幫助的人得到幫助，政府的錢花得更有效率。研究結果也很漂亮，如果全面推廣，影響將會相當可觀。但當米斯拉在論壇上展示這些發現時，他也不得不承認一個尷尬的事實：這個方法並沒有被廣泛採用。&lt;/p&gt;&#xA;&lt;p&gt;為什麼？第一個問題是 SNAP 的行政結構。這個計畫不是由聯邦政府或各州政府統一管理，而是下放到縣（county）層級。美國有超過三千個縣，每個縣都有自己的行政體系、預算限制、技術能力。這意味著，就算某個縣願意採用這個 AI 優化方案，這個決定和其他縣完全無關。要達到全國性的改變，你理論上需要說服三千多個不同的決策者。&lt;/p&gt;&#xA;&lt;p&gt;更根本的問題是基礎設施的落差。米斯拉觀察到，舊金山縣或洛杉磯縣這樣的大都會區，有資源、有技術人才、有數位基礎設施來嘗試新方案。但如果你去加州中央谷地的小縣，情況就完全不同了。很多縣政府連基本的資料系統都不夠現代化，更別說導入 AI 工具。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>性別落差 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E6%80%A7%E5%88%A5%E8%90%BD%E5%B7%AE/</link>
+    <description>Recent content in 性別落差 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E6%80%A7%E5%88%A5%E8%90%BD%E5%B7%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 採用的性別落差：同一間公司、同一份工作，女性使用率少 10%</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-ai-adoption-gender-gap/</link>
+      <pubDate>Fri, 26 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-ai-adoption-gender-gap/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《The Pie》2025 年 6 月播出的單集「AI, the Economy, and Public Policy」。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    src=&#34;https://open.spotify.com/embed/us/podcast/pandemic-economics/id1509074261&#34; &#xA;    width=&#34;100%&#34; &#xA;    height=&#34;152&#34; &#xA;    frameBorder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; &#xA;    loading=&#34;lazy&#34;&#xA;    style=&#34;border-radius: 12px;&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/us/podcast/pandemic-economics/id1509074261&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;想像兩個在同一間法律事務所工作的助理律師。他們處理同樣類型的案件，面對同樣的工作要求，擁有類似的教育背景。唯一的差別是，一個是男性，一個是女性。你可能會猜測，他們使用 AI 工具的比例應該差不多吧？&lt;/p&gt;&#xA;&lt;p&gt;芝加哥大學 Booth 商學院的經濟學助理教授哈默（Anders Humlum）原本也這麼想。但當他和研究團隊分析實際數據時，結果讓他們大吃一驚：女性助理律師採用 AI 工具的比例，比她們的男性同事低了超過 10 個百分點。這個落差不是發生在不同公司之間，也不是發生在不同工作類型之間，而是在同一間公司、同樣的工作崗位上。&lt;/p&gt;&#xA;&lt;p&gt;這個發現揭示了 AI 革命中一個令人不安的現象：號稱能「民主化」知識和技能的新技術，其紅利可能正在以我們沒有預期的方式被分配。&lt;/p&gt;&#xA;&lt;h2 id=&#34;一個讓研究者震驚的數字&#34;&gt;一個讓研究者震驚的數字&lt;/h2&gt;&#xA;&lt;p&gt;哈默在芝加哥大學 Becker Friedman Institute 舉辦的論壇上分享這個發現時，坦言這是他研究中「最令人驚訝」的結果。他原本預期會看到一些採用率的差異，但沒想到差距會這麼大，也沒想到會這麼系統性。&lt;/p&gt;&#xA;&lt;p&gt;這個研究的設計非常嚴謹。研究團隊不是簡單地比較所有男性和女性員工的 AI 使用率，而是特別控制了可能造成混淆的因素。他們比較的是在同一間法律事務所工作、處理同樣類型法律任務的員工。這意味著工作環境、任務性質、公司文化這些外部因素都被排除了，剩下的差異更有可能反映個人層面的因素。&lt;/p&gt;&#xA;&lt;p&gt;超過 10 個百分點的落差意味著什麼？假設一間事務所有 100 名男性助理律師和 100 名女性助理律師，如果男性中有 60 人在使用 ChatGPT 或類似工具來輔助工作，女性中可能只有不到 50 人在使用。這不是微小的統計差異，而是非常顯著的行為分化。&lt;/p&gt;&#xA;&lt;p&gt;更值得注意的是，這個性別落差出現在一個理論上應該很容易「跨越」的門檻。使用 ChatGPT 不需要特殊的技術背景，不需要昂貴的設備，也不需要主管的批准——你只要開一個網頁，就可以開始嘗試。如果連這麼低的採用門檻都出現如此大的性別差異，我們不禁要問：是什麼造成了這個落差？&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

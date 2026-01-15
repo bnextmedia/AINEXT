@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="">
+<meta property="og:description" content="AGI 還要等十年！為什麼 OpenAI 創辦人 Karpathy 說現在的 AI 都是些花拳繡腿？
+
+當整個矽谷都在高喊「AGI 明年就來」，這位在 AI 領域耕耘 15 年的老兵，卻冷靜地說：還要等十年。他不是悲觀，而是看過太多次預測落空。
+
+YouTube 來源">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/karpathy-agi-still-a-decade-away-draft/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/karpathy-agi-still-a-decade-away-draft/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>01. January 0001</p>
+      <h1 class="post_title"></h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <h1 id="agi-還要等十年為什麼-openai-創辦人-karpathy-說現在的-ai-都是些花拳繡腿">AGI 還要等十年！為什麼 OpenAI 創辦人 Karpathy 說現在的 AI 都是些花拳繡腿？</h1>
+<blockquote>
+<p>當整個矽谷都在高喊「AGI 明年就來」，這位在 AI 領域耕耘 15 年的老兵，卻冷靜地說：還要等十年。他不是悲觀，而是看過太多次預測落空。</p>
+</blockquote>
+<p>YouTube 來源：https://www.youtube.com/watch?v=c0-0gGdDJyE</p>
+<hr>
+<h2 id="一位-ai-老兵的逆風發言">一位 AI 老兵的逆風發言</h2>
+<p>2024 年底，Andrej Karpathy 在一場深度訪談中說出了許多業界人士不敢說的話。</p>
+<p>「現在的模型都是 slop。」他直言。「整個業界假裝這些東西很厲害，但其實不是。」</p>
+<p>Slop，這個詞在英文網路圈專指「AI 生成的粗製濫造內容」——說穿了就是「看起來很厲害但其實不行」的東西。從 OpenAI 共同創辦人、Tesla AI 前總監口中說出這句話，份量不輕。</p>
+<p>Karpathy 的履歷幾乎就是現代 AI 發展史的縮影：史丹佛博士、開設第一門深度學習課程 CS231n、加入 OpenAI 成為共同創辦人、被 Elon Musk 挖角到 Tesla 帶領自駕車 AI 團隊五年、回歸 OpenAI 又再度離開。現在，他創辦了一間教育公司 Eureka Labs，目標是打造「星際艦隊學院」。</p>
+<p>這樣一個人，為什麼要在 AI 最火熱的時候潑冷水？</p>
+<hr>
+<h2 id="這是-agent-的十年不是-agent-的一年">「這是 Agent 的十年，不是 Agent 的一年」</h2>
+<p>過去一年，「AI Agent」成為矽谷最熱門的關鍵字。從 OpenAI 到 Anthropic，從創投簡報到推特貼文，每個人都在談論 AI 如何即將自動完成各種任務、取代人類工作。</p>
+<p>Karpathy 的回應很直接：「這是 Agent 的十年，不是 Agent 的一年。」</p>
+<p>他承認現有的 agent——無論是 Claude Code 還是 OpenAI 的 Codex——都令人印象深刻。但「印象深刻」和「真正能用」之間，還有巨大的鴻溝。</p>
+<p>「我們還有大量工作要做。」他列舉了幾個關鍵瓶頸：</p>
+<p><strong>智慧程度仍然不足</strong>：雖然這些模型可以通過博士等級的測驗，但在實際應用中仍然會犯下「幼稚園學生」等級的錯誤。Karpathy 形容它們是「學者症候群式的孩子」——擁有驚人的記憶力，但缺乏真正的認知能力。</p>
+<p><strong>多模態能力不夠</strong>：真正有用的 AI 需要同時處理文字、圖像、音訊、影片，但目前的整合仍然粗糙。</p>
+<p><strong>缺乏持續學習</strong>：人類會在睡眠中整理記憶、強化學習，但現有的 LLM 沒有這種機制。每次對話結束，它學到的東西就消失了。</p>
+<p><strong>各種認知缺陷</strong>：從基本的算術錯誤到幻覺問題，這些都還沒有根本性的解決方案。</p>
+<hr>
+<h2 id="自駕車教會他的事每個9都是等量的工作">自駕車教會他的事：每個「9」都是等量的工作</h2>
+<p>Karpathy 在 Tesla 帶領自駕車團隊五年，這段經歷深刻影響了他對 AI 進展的判斷。</p>
+<p>「自駕車的 demo 在 1986 年就有了。」他說。「我在 2014 年搭過 Waymo 的原型車，那次體驗幾乎完美。我當時以為自駕車很快就會實現。」</p>
+<p>但十年過去了，自駕車仍然沒有真正普及。為什麼？</p>
+<p>「這是一個 demo 到產品之間的巨大鴻溝。」Karpathy 解釋。「當失敗的代價很高時，這個鴻溝會特別大。」</p>
+<p>他提出一個精闢的框架：<strong>每增加一個 9，需要相同的工作量</strong>。</p>
+<p>什麼意思？當一個系統的成功率從 90% 提升到 99%，和從 99% 提升到 99.9%，需要的工作量是相同的。看起來只差 0.9%，但實際上是同樣巨大的工程挑戰。</p>
+<p>「當你看到一個 demo，東西 90% 的時間都能正常運作，那只是第一個 9。」他說。「你還需要第二個 9、第三個 9、第四個 9。我在 Tesla 五年，大概只推進了兩到三個 9。」</p>
+<p>這個框架也適用於 AI coding agent。當你看到一個 AI 能夠自動寫出看起來正確的程式碼，你只看到了第一個 9。但軟體工程和自駕車一樣，是一個失敗代價很高的領域——一個安全漏洞可能導致數百萬人的個資外洩。</p>
+<p>「所以當我看到任何 demo 時，我都非常不為所動。」Karpathy 說。「Demo 只代表這東西可能可行，但離真正能用還很遠。」</p>
+<hr>
+<h2 id="為什麼他說現在的-ai-都是花拳繡腿">為什麼他說現在的 AI 都是花拳繡腿？</h2>
+<p>這不是 Karpathy 隨口說說。他有親身經歷為證。</p>
+<p>為了他的新教育計畫，Karpathy 開發了一個叫 nanochat 的專案——一個極簡版的 ChatGPT 全端應用，大約 8000 行程式碼。這個專案的設計理念是「能刪就刪」，只保留最核心的功能，讓學生能夠真正理解整個系統是如何運作的。</p>
+<p>「在建構 nanochat 的過程中，LLM 幾乎幫不上忙。」他坦言。</p>
+<p>為什麼？</p>
+<p><strong>模型太依賴記憶，缺乏創意</strong>：現有的 LLM 訓練在大量程式碼上，它們傾向於用「標準做法」來解決問題。但 nanochat 的目標恰恰是要偏離標準做法，創造一個極簡的教學版本。「模型一直想加入它在訓練時看過的那些標準模式，但那不是我要的。」</p>
+<p><strong>使用過時的 API</strong>：這個問題任何用過 AI 寫程式的人都遇過。模型可能會建議你使用已經被棄用的函式庫版本，因為它的訓練資料有時間差。</p>
+<p><strong>加入不必要的防禦性程式碼</strong>：「模型會加入各種我根本不需要的檢查和處理邏輯，因為它在訓練資料中看過太多這類程式碼。」</p>
+<p><strong>不理解真正的需求</strong>：Karpathy 舉了一個例子。他請 AI 幫他生成 spaced repetition（間隔重複）的學習提示，結果 AI 產出的東西完全不能用。「我給它一個 YouTube 影片的逐字稿，請它為我產生抽認卡。結果 AI 只是把影片內容換句話說，根本沒有抓到重點。」</p>
+<p>真正有效的抽認卡應該測試「這段內容最核心的知識點是什麼」，但這需要對主題的深度理解——而這正是目前 LLM 欠缺的。</p>
+<p>「這些產出都是花拳繡腿。」Karpathy 總結。「業界假裝它們很厲害，但當你真的要拿來做事時，就會發現不是那麼回事。」</p>
+<hr>
+<h2 id="不過程式設計確實是-ai-最先落地的領域">不過，程式設計確實是 AI 最先落地的領域</h2>
+<p>話雖如此，Karpathy 仍然承認程式設計是 AI 能夠真正發揮作用的少數領域之一。為什麼？</p>
+<p><strong>文字原生</strong>：程式碼本來就是文字，不需要額外的模態轉換。LLM 處理文字最在行。</p>
+<p><strong>基礎建設完善</strong>：軟體工程已經有成熟的工具鏈——IDE、diff 工具、版本控制、自動測試。AI 可以直接整合進這些工具。</p>
+<p><strong>驗證相對容易</strong>：程式碼可以執行，可以測試，可以看到結果對不對。相比之下，要驗證一份商業簡報的品質，就困難得多。</p>
+<p>Karpathy 也分享了 AI 在哪些情況下對他最有幫助：</p>
+<ul>
+<li><strong>Boilerplate 程式碼</strong>：那些重複性高、需要大量樣板的程式碼，AI 確實能加速。</li>
+<li><strong>不熟悉的語言</strong>：當他需要寫 Rust（一個他不太熟悉的語言）時，AI 可以幫助他快速掌握語法和慣用法。</li>
+<li><strong>探索和學習</strong>：把 AI 當成一個隨時可以問問題的技術同事。</li>
+</ul>
+<p>「但當我要做真正有創意的事情時，」他說，「我還是得自己來。」</p>
+<hr>
+<h2 id="我們不是在建造動物是在召喚幽靈">「我們不是在建造動物，是在召喚幽靈」</h2>
+<p>訪談中最引人深思的，或許是 Karpathy 對 AI 本質的哲學思考。</p>
+<p>「我們不是在建造動物，」他說，「我們是在召喚幽靈。」</p>
+<p>這是什麼意思？</p>
+<p>動物是經過數十億年演化的產物。一隻斑馬出生後幾分鐘就能站起來奔跑，因為大量的「程式」已經被演化硬編碼到它的基因裡。動物有身體、有本能、有經過時間考驗的生存策略。</p>
+<p>但 LLM 不是這樣。LLM 是透過模仿網路上的文字資料訓練出來的。它們沒有身體經驗，沒有演化歷史，沒有真正與物理世界互動過。</p>
+<p>「LLM 更像是幽靈。」Karpathy 說。「它們是透過閱讀人類留下的文字痕跡，試圖模仿人類思維的靈體。」</p>
+<p>這個比喻有深刻的含意。幽靈可以模仿人類說話，但它不真正理解「餓」是什麼感覺、「痛」是什麼意思。LLM 可以寫出關於悲傷的詩，但它沒有真正體驗過悲傷。</p>
+<p>「預訓練（pre-training）有點像粗糙版的演化，」Karpathy 解釋，「但它缺少了很多演化給予生物的東西——對世界的物理直覺、求生本能、真正的具身經驗（embodied experience）。」</p>
+<hr>
+<h2 id="認知核心-vs-記憶為什麼記太多反而是問題">認知核心 vs 記憶：為什麼記太多反而是問題</h2>
+<p>這帶出了 Karpathy 另一個反直覺的觀點：<strong>現有模型記憶太多，反而是問題</strong>。</p>
+<p>「人類的記憶力其實很差，」他說，「但這是功能，不是缺陷。」</p>
+<p>怎麼說？</p>
+<p>因為記憶力差，人類被迫尋找「可泛化的模式」。我們不能記住每一道見過的數學題，所以我們必須學會解題的方法。我們不能記住每一張見過的臉，所以我們發展出辨識臉孔特徵的能力。</p>
+<p>「小孩是最好的學習者，但他們的記憶力很差。」Karpathy 指出。「這不是巧合。正是因為記不住，他們才被迫發展出真正的理解能力。」</p>
+<p>相比之下，LLM 的「記憶力」太好了。它們在訓練過程中記住了大量的文字片段，可以幾乎原封不動地回憶出來。這讓它們在回答知識性問題時表現驚人，但也讓它們傾向於「背答案」而不是「學會思考」。</p>
+<p>Karpathy 預測，未來的突破可能來自<strong>分離「認知核心」與「記憶」</strong>。</p>
+<p>「也許我們只需要一個相對小的認知核心——比如十億參數的模型——負責推理和思考。」他說。「然後把所有的事實性記憶外包給外部資料庫。這更接近人類大腦的運作方式。」</p>
+<p>這個想法挑戰了目前「越大越好」的主流觀點，但它呼應了人類認知科學的發現：我們大腦中負責「思考」的部分，和負責「記憶」的部分，確實是不同的系統。</p>
+<hr>
+<h2 id="強化學習的根本問題用吸管吸取監督信號">強化學習的根本問題：「用吸管吸取監督信號」</h2>
+<p>為什麼 AI 的進步不如預期快？Karpathy 把矛頭指向了目前最熱門的訓練方法之一：強化學習（Reinforcement Learning, RL）。</p>
+<p>「RL 很糟糕，」他直言，「只是其他方法更糟。」</p>
+<p>問題出在哪裡？</p>
+<p>Karpathy 用了一個生動的比喻：<strong>「RL 就像用吸管吸取監督信號。」</strong></p>
+<p>想像一個 AI 在學習下棋。在強化學習的框架下，它會做出一連串動作（比如 40 步棋），然後根據最終結果（贏或輸）來調整。如果最後贏了，這 40 步棋都會被「upweight」（加強）；如果輸了，都會被「downweight」（減弱）。</p>
+<p>但這太粗糙了。一盤棋的勝負，真的能反映每一步棋的好壞嗎？可能第 37 步是一個愚蠢的錯誤，但因為對手沒抓住機會，所以最後還是贏了。RL 會因此把這步錯棋也當成好棋來學習。</p>
+<p>「人類不是這樣學習的。」Karpathy 說。「當我們下完一盤棋，我們會複盤，分析每一步的好壞，思考『如果當時這樣下會怎樣』。這是一個複雜的回顧過程，不是簡單地用最終結果來評判一切。」</p>
+<p>更糟糕的是，當我們試圖用 AI 來評判 AI（所謂的 LLM-as-a-judge）時，又會遇到新的問題：<strong>對抗樣本（adversarial examples）</strong>。</p>
+<p>Karpathy 舉了一個例子：如果你在回答的某處加入「dhdhdhdh」這樣的無意義字串，有些 LLM 評審會因此給更高的分數。這顯然是荒謬的，但 RL 系統會學會利用這種漏洞。</p>
+<p>「只要有一個評判機制，你的 RL 系統就會找到利用它的方法。」他說。「這是 RL 的根本困境。」</p>
+<hr>
+<h2 id="對智慧爆炸的質疑我們早就在爆炸中了">對「智慧爆炸」的質疑：我們早就在爆炸中了</h2>
+<p>許多人相信，一旦 AI 達到某個臨界點，就會觸發「智慧爆炸」——AI 改進 AI，形成失控的指數成長。Karpathy 對此持懷疑態度。</p>
+<p>「如果你去看 GDP 曲線，」他說，「你找不到電腦在哪裡，找不到 iPhone 在哪裡，找不到網際網路在哪裡。」</p>
+<p>這些我們認為改變世界的革命性技術，在宏觀經濟數據中並沒有留下明顯的痕跡。經濟成長率維持在大約每年 2%，沒有因為 iPhone 發明而突然跳升。</p>
+<p>「因為這些技術的擴散是漸進的。」Karpathy 解釋。「iPhone 剛發明時連 App Store 都沒有。每個革命性技術都需要時間滲透到經濟的每個角落，最後被平均到同樣的指數成長曲線裡。」</p>
+<p>AI 也會是一樣的。</p>
+<p>「我們其實早就在智慧爆炸中了，」他說，「而且已經持續了幾百年。工業革命是一種自動化，電腦是一種自動化，編譯器是一種自動化。我們一直在遞迴地自我改進。」</p>
+<p>這不代表 AI 不重要。但它確實意味著，期待「某一天早上醒來世界就完全不同」的想法，可能過於天真。</p>
+<p>「不會有『盒子裡的神』突然出現，解決人類的一切問題。」Karpathy 說。「會有的是漸進的進步、漸進的部署、漸進的整合到社會中。這和過去每一次技術革命是一樣的。」</p>
+<hr>
+<h2 id="真正讓他擔心的事人類的失能">真正讓他擔心的事：人類的失能</h2>
+<p>如果 Karpathy 不擔心 AI 突然變得太強大，那他擔心什麼？</p>
+<p>「我最怕的是人類的失能。」他說。「不是 AI 控制人類，而是人類在 AI 的環境中逐漸失去能力、失去理解、失去主體性。」</p>
+<p>他引用了兩部電影作為這種未來的警示：《乞乞》（WALL-E）和《乞乞》（Idiocracy）——人類變得肥胖、懶惰、愚蠢，一切都依賴機器，卻不再理解機器是如何運作的。</p>
+<p>「這是最可能發生的情境，」他說，「不是某個 AI 突然叛變，而是我們逐漸把所有事情都交給 AI 處理，然後漸漸失去了自己處理事情的能力。」</p>
+<p>這也是他離開 OpenAI、創辦教育公司的原因。</p>
+<hr>
+<h2 id="從-openai-到星際艦隊學院">從 OpenAI 到星際艦隊學院</h2>
+<p>當被問到為什麼不繼續做 AI 研究時，Karpathy 的回答出乎意料：</p>
+<p>「我覺得 AI 研究有一種確定性。」他說。「不管有沒有我，這些進展都會發生。我可以在那裡貢獻一份力，但我不會 uniquely 改變什麼。」</p>
+<p>但教育不一樣。</p>
+<p>「我真正擔心的是人類這一邊。」他說。「AI 會繼續進步，但誰在確保人類也跟著進步？誰在確保人類在這個新世界裡不會被邊緣化？」</p>
+<p>這就是 Eureka Labs 的使命：建造「星際艦隊學院」——一個專注於前沿技術教育的機構。</p>
+<p>Karpathy 分享了一個影響他深刻的經歷：學韓文。</p>
+<p>「我試過自學，試過上團體課，最後找了一對一家教。」他說。「那個家教太厲害了。她在幾分鐘內就完全掌握了我的程度，知道我哪裡會、哪裡不會。她給我的每一個練習都恰到好處——不會太難讓我挫折，也不會太簡單讓我無聊。」</p>
+<p>「跟她學習時，我感覺自己是唯一的限制。」他說。「不是教材的問題，不是教法的問題，就是我自己學習速度的問題。這感覺太好了。」</p>
+<p>這就是他想為所有人打造的體驗。</p>
+<p>但他也承認，以目前 AI 的能力，還做不到真正的「AI 家教」。</p>
+<p>「很多人會說，讓 ChatGPT 教你就好了。」他說。「但如果你真的試過，你就知道那還差得遠。ChatGPT 不會真正理解你在哪裡卡關，不會給你恰到好處的挑戰，不會像一個真正的好老師那樣引導你。」</p>
+<p>所以 Eureka Labs 目前的策略是「AI 輔助，但人類主導」——用 AI 工具來加速課程開發、提供基本的學生支援，但核心的教學設計和指導仍然由人類專家負責。</p>
+<p>「等 AI 能力真正到位時，再全面導入。」他說。「這是我當 AI 顧問時學到的：有時候最好的建議是『現在先不要用 AI』。」</p>
+<hr>
+<h2 id="教育的未來像上健身房一樣去學習">教育的未來：像上健身房一樣去學習</h2>
+<p>Karpathy 對教育有一個有趣的願景：</p>
+<p>「在 AGI 之前，教育是有用的——它幫助你在職場上競爭。」他說。「在 AGI 之後，教育是有趣的——它成為一種自我實現的活動，就像上健身房一樣。」</p>
+<p>這是一個精妙的類比。</p>
+<p>一百年前，體力勞動是生存必需。今天，我們有機器做這些事。但人們仍然去健身房。為什麼？因為維持身體健康讓人感覺良好，因為看起來健美是有吸引力的，因為挑戰身體極限本身就是一種樂趣。</p>
+<p>「學習也會變成這樣。」Karpathy 說。「當 AI 可以做所有認知工作時，人類為什麼還要學習？因為學習讓人感覺良好，因為知識淵博是有魅力的，因為挑戰心智極限本身就是一種樂趣。」</p>
+<p>「而且，當學習變得真正容易時——當你有一個完美的 AI 家教，永遠給你恰到好處的挑戰——人們會學得比今天多得多。」</p>
+<p>他舉例：「為什麼不順便學五種語言呢？反正那麼容易。為什麼不把大學基礎課程都學一遍呢？反正那麼有趣。」</p>
+<p>這呼應了歷史的先例。在古希臘或文藝復興時期，那些不需要為生存勞動的貴族階層，把大量時間花在學習、藝術、哲學上。Karpathy 認為，AGI 之後，這種「貴族式」的生活方式可以普及到所有人。</p>
+<p>「如果我錯了，如果人類最後選擇躺平、什麼都不學，」他說，「那才是真正的災難。」</p>
+<hr>
+<h2 id="寫在最後冷靜不是悲觀">寫在最後：冷靜不是悲觀</h2>
+<p>聽完這場訪談，最大的感受是：Karpathy 的冷靜，不是對 AI 的悲觀，而是對炒作的抵抗。</p>
+<p>他相信 AGI 會來，只是不是明年。
+他相信 AI 會改變一切，只是不是一夜之間。
+他相信技術進步是好事，只是擔心人類沒有跟上。</p>
+<p>對於商業決策者，他的訊息很明確：<strong>別被行銷話術騙了。</strong> 那些華麗的 demo 只代表第一個 9，你還需要付出巨大努力才能把它變成真正可用的產品。在高風險領域（任何失敗代價高的地方），這個鴻溝尤其巨大。</p>
+<p>對於技術人，他指出了一份需要解決的問題清單：持續學習、多模態整合、更好的訓練方法、認知核心與記憶的分離。這些都是真正的研究前沿，不是用更多算力就能解決的。</p>
+<p>對於所有人，他的呼籲是：<strong>不要停止學習。</strong> 無論 AI 多強大，保持自己的理解能力和主體性，是人類在這個新世界裡最重要的事。</p>
+<p>「我不是在預測末日，」Karpathy 說，「我只是在呼籲校準——對技術現實的校準，對時程預期的校準，對人類角色的校準。」</p>
+<p>在這個所有人都想衝刺的時刻，也許我們需要有人踩煞車，問一聲：我們真的知道自己在往哪裡去嗎？</p>
+<hr>
+<p><em>本文整理自 Andrej Karpathy 於 2024 年底接受的深度訪談。完整影片請見 YouTube。</em></p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

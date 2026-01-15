@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>軟技能 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E8%BB%9F%E6%8A%80%E8%83%BD/</link>
+    <description>Recent content in 軟技能 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 18:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E8%BB%9F%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>資深工程師，初階人類——Kelsey Hightower 談技術人的軟技能</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-senior-engineer-junior-human/</link>
+      <pubDate>Thu, 25 Dec 2025 18:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-senior-engineer-junior-human/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 JetBrains 2024 年 12 月發布的訪談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/HdUbTyvrfKo&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「我看過很多資深工程師，同時也是初階人類。」&lt;/p&gt;&#xA;&lt;p&gt;Kelsey Hightower 說這句話的時候，語氣很平靜，但這句話刺得很深。他是 Kubernetes 社群最具影響力的布道者、前 Google Cloud 開發者大使，也是 KubeCon 的共同創辦人。在這場超過一小時的訪談中，他花了相當多的時間談論一個技術人員很少願意面對的話題：我們在技術上的精進，是否讓我們在人性上退化了？&lt;/p&gt;&#xA;&lt;h2 id=&#34;他們分不清因為把工作環境看得比現實重要&#34;&gt;他們分不清，因為把工作環境看得比現實重要&lt;/h2&gt;&#xA;&lt;p&gt;Hightower 觀察到一個現象：很多資深工程師，技術能力無可挑剔，但和人相處的能力停留在起點。「他們分不清楚，因為他們把工作環境看得比現實重要。」這句話點出了問題的核心：我們太習慣用技術能力來定義自己，以至於忘記了自己首先是一個人。&lt;/p&gt;&#xA;&lt;p&gt;在工作環境裡，一切都有明確的評估機制。你有 one-on-one、有 OKR、有績效考核、有升遷流程。編譯器會告訴你程式碼哪裡錯了。測試會告訴你功能壞了。這些反饋都是即時的、明確的、不帶情緒的。你修好問題，繼續前進，不需要「感受」什麼。&lt;/p&gt;&#xA;&lt;p&gt;但人際關係沒有編譯器。當別人給你真實的反饋——關於你是誰、而不是你寫的程式碼——那需要真正的功夫去處理。承認自己有需要改進的地方，對很多人來說是一件非常不舒服的事。所以他們乾脆不處理。他們把所有的精力都放在可以量化、可以衡量、可以升級的技術能力上，然後對人際關係的那部分視而不見。&lt;/p&gt;&#xA;&lt;p&gt;Hightower 說，職稱是這個問題的幫兇。「有些人有 20 年的一年經驗。」他們被雇用為系統管理員，就永遠把自己定義成系統管理員。當有人問「你怎麼不懂資料庫？」他們會回答「因為我是系統管理員。」但沒有任何東西阻止一個系統管理員學習資料庫。是他們自己用職稱限制了自己。同樣的邏輯也適用於「人」這個角色：沒有任何東西阻止一個工程師學習如何成為更好的人。只是很少有人願意投入時間。&lt;/p&gt;&#xA;&lt;h2 id=&#34;靈感來自你闔上筆電之後&#34;&gt;靈感來自你闔上筆電之後&lt;/h2&gt;&#xA;&lt;p&gt;訪談中有人問 Hightower：如果想在「人」這方面進步，應該怎麼做？他的回答出乎意料：「不一定要加入開源專案。當我們說『人』的時候，指的是你闔上筆電之後做的事。」&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Helios on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/helios/</link>
+    <description>Recent content in Helios on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 07 Jan 2026 22:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/helios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AMD 的佑級野心：蘇姿丰如何用一場演講宣示挑戰 NVIDIA</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260107-amd-yotta-ambition-ces-2026/</link>
+      <pubDate>Wed, 07 Jan 2026 22:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260107-amd-yotta-ambition-ces-2026/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 AMD 於 CES 2026（2026 年 1 月 6 日）發表的主題演講。&#xA;🎬 收看連結：&lt;a href=&#34;https://www.youtube.com/watch?v=TvBNWbFK2lY&#34;&gt;YouTube&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;一座重達 3,175 公斤的龐然大物被推上了 CES 2026 的舞台。這不是什麼概念車或機器人，而是一座 AI 運算機櫃。AMD 執行長蘇姿丰站在這座名為「Helios」的機櫃旁，用一句話定義了它的身份：「世界上最好的 AI 機櫃。」這句話是對 NVIDIA 的直接挑釁。過去幾年，NVIDIA 的 DGX 系統幾乎壟斷了 AI 資料中心的高階運算市場。但蘇姿丰顯然不打算繼續當追趕者。她用長達兩小時的主題演講，鋪陳了 AMD 的完整戰略藍圖——從雲端到邊緣、從資料中心到個人電腦、從醫療到太空，AMD 要讓 AI 無所不在。&lt;/p&gt;&#xA;&lt;p&gt;這場演講的核心訊息可以用三個字總結：Yotta scale（佑級規模）。這個單位對多數人來說很陌生，但它代表的數字令人震撼。一個 Yottaflop 是 10 的 24 次方——也就是 1 後面跟著 24 個零。相較於我們熟悉的「Peta」（拍，10 的 15 次方），Yotta 大了十億倍；相較於目前全球超級電腦的頂尖水準「Exa」（艾，10 的 18 次方），Yotta 大了一百萬倍。如果用一支 iPhone 16 的運算能力來比較，一個 Yottaflop 大約相當於一千億支 iPhone 同時全力運算。蘇姿丰預測，未來五年內，全球 AI 運算需求將達到 10 Yottaflops 以上，這是 2022 年水準的一萬倍。這個數字聽起來瘋狂，但她的論據很清楚：AI 使用者已經從一百萬人成長到十億人，而這只是開始。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

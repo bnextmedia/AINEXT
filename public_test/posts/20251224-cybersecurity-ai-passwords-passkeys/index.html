@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>密碼要消失了嗎？從 passkeys 到 ai 驅動的身份驗證 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="密碼要消失了嗎？從 Passkeys 到 AI 驅動的身份驗證">
+<meta property="og:description" content="
+本文整理自 Google DeepMind Podcast 2024 年 12 月播出的兩集特別節目，由主持人 Hannah Fry 專訪 Google DeepMind 安全副總裁 Four Flynn。
+📺 收聽連結：Part 1 / Part 2
+
+
+我們都知道密碼很爛">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251224-cybersecurity-ai-passwords-passkeys/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251224-cybersecurity-ai-passwords-passkeys/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>24. December 2025</p>
+      <h1 class="post_title">密碼要消失了嗎？從 Passkeys 到 AI 驅動的身份驗證</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 Google DeepMind Podcast 2024 年 12 月播出的兩集特別節目，由主持人 Hannah Fry 專訪 Google DeepMind 安全副總裁 Four Flynn。
+📺 收聽連結：<a href="https://youtube.com/watch?v=1gO2bC5xLlo">Part 1</a> / <a href="https://www.youtube.com/watch?v=kv-b6RFRbfI">Part 2</a></p>
+</blockquote>
+<hr>
+<h2 id="我們都知道密碼很爛">我們都知道密碼很爛</h2>
+<p>「123456」、「password」、「qwerty」——每年公布的最常用密碼榜單，總是讓資安專家感到絕望。但問題真的出在使用者懶惰嗎？Google DeepMind 安全副總裁 Four Flynn 有不同的看法：「人類的大腦根本就和密碼不相容。」</p>
+<p>這句話聽起來簡單，但它觸及了一個根本性的設計缺陷。密碼系統要求使用者記住一串隨機字元，而且每個服務最好都用不同的密碼。但人類的工作記憶容量有限，我們擅長記住有意義的模式和故事，不擅長記住隨機字串。讓使用者「選一個安全的密碼」，本質上就是要求他們做一件違反認知天性的事。</p>
+<p>結果就是我們看到的現狀：人們要嘛用極其簡單的密碼，要嘛在所有服務上重複使用同一個密碼，要嘛把密碼寫在便利貼上貼在螢幕旁邊。這不是道德問題，這是系統設計問題。當一個安全機制需要使用者做出違反人性的行為才能發揮效果，這個機制就註定會失敗。</p>
+<p>Flynn 指出，多因素驗證（Multi-Factor Authentication, MFA）的普及是一大進步，但這花了整整 15 年。從 2009 年極光行動後 Google 開始大力推動，到 2024 年多因素驗證才真正成為企業的標準配置。而在消費端，雖然許多服務都支援多因素驗證作為選項，大多數使用者並沒有主動啟用。「消費者資安真正推動改變的，不是要求消費者改變行為，」Flynn 觀察，「而是改變預設值。讓預設更安全，才是讓日常生活更安全的真正推手。」</p>
+<hr>
+<h2 id="passkeys不用記住任何東西的登入方式">Passkeys：不用記住任何東西的登入方式</h2>
+<p>好消息是，我們正在接近「後密碼時代」。Flynn 在訪談中特別提到了 Passkeys 這項技術，並稱之為「一個即將來到你附近登入頁面的真正令人振奮的創新」。</p>
+<p>Passkeys 的運作方式是這樣的：當你在一個網站註冊或登入時，不需要輸入密碼。取而代之的是，你的手機會生成一對加密金鑰——一個私鑰儲存在你的手機裡，一個公鑰交給網站。當你下次登入時，網站會發送一個驗證請求，你的手機用私鑰簽署這個請求，網站用公鑰驗證。整個過程對使用者來說可能就是看到螢幕上的 QR code，用手機掃一下，搞定。</p>
+<p>這個設計有幾個關鍵優勢。首先，沒有「密碼」可以被偷或被猜。攻擊者拿不到你的私鑰（它被安全地儲存在你的設備上，通常還受到生物辨識保護），也拿不到任何可以重播的認證憑證。其次，釣魚攻擊變得無效。傳統釣魚攻擊的核心是誘騙你在假網站上輸入密碼，但 Passkeys 的驗證過程綁定到特定網域——假網站無法觸發對真正網站的驗證請求。</p>
+<p>Flynn 解釋了 Google 早期在這個領域的創新：Titan Security Key。這是一個實體的硬體金鑰，透過 USB 或 NFC 連接到你的設備，提供「不可釣魚」（unphishable）的多因素認證。這個概念後來演變成今天的 Passkeys，把同樣的安全性整合到每個人已經擁有的設備——智慧型手機——裡面。「我是 Passkeys 的超級粉絲，」Flynn 說，「因為如果你只要有一支手機，拍一張螢幕的照片之類的，你就登入了。這更簡單，也更安全。」</p>
+<hr>
+<h2 id="當-deepfake-讓眼見為憑不再可靠">當 Deepfake 讓「眼見為憑」不再可靠</h2>
+<p>然而，身份驗證的挑戰不僅僅在於「證明你知道密碼」。在某些情境下，我們需要驗證的是「你是你」，而這在 AI 時代變得格外棘手。</p>
+<p>Flynn 描述了已經發生的攻擊案例：攻擊者使用 AI 技術創造公司財務長的 deepfake——臉孔、聲音、說話方式都惟妙惟肖——然後透過視訊會議說服員工進行匯款。這類攻擊之所以有效，是因為我們天生傾向於信任自己的感官。我們被教育「眼見為憑」，但當 AI 可以完美偽造視覺和聽覺，這個古老的原則就失效了。</p>
+<p>更令人擔憂的是消費端的案例。攻擊者克隆受害者家人的聲音，打電話製造緊急情境——「我被綁架了」「我出車禍需要錢」——利用情緒壓力讓受害者來不及冷靜思考就匯出款項。當你聽到的是你認識了幾十年的女兒的聲音，在哭泣著向你求救，要保持懷疑需要極大的心理素質。</p>
+<p>這就是為什麼「驗證身份」不能只依賴單一因素，無論那個因素看起來多麼可靠。Flynn 提到的一個解決方向是「風險基礎驗證」（risk-based authentication）——系統不只驗證一個因素，而是綜合評估多種信號來判斷「這個人真的是他說的那個人嗎」。</p>
+<hr>
+<h2 id="ai-如何識別真正的你">AI 如何識別真正的你</h2>
+<p>風險基礎驗證的概念在金融服務領域已經存在一段時間了，但 AI 正在讓它變得更加精密。</p>
+<p>Flynn 解釋了這個系統的運作方式：當你連接到一個敏感服務（如銀行），系統會收集大量關於你行為的信號。你的滑鼠怎麼移動？你的打字節奏是什麼？你從哪個 IP 位址連線？你使用的設備指紋是什麼？這些都是你可能沒有意識到的數據點，但它們構成了你的「行為特徵」。</p>
+<p>系統會為每個使用者建立行為基準，然後在每次登入時比對當前行為和這個基準。如果一切正常——你從平常的電腦、平常的位置登入，打字和滑鼠動作符合你的習慣——系統可能只需要簡單的驗證。但如果出現異常——也許你的滑鼠移動方式不太對，或者你從一個從未見過的地點登入——系統就會提高警覺，要求額外的驗證步驟。</p>
+<p>「基本上就是一個信任分數，」Flynn 說，「根據大量你沒有意識到的不同信號來計算。」你可能以為你只是在輸入密碼，但背後的系統正在分析你打字的速度、節奏、甚至你是否在使用滑鼠時有點猶豫。這些微妙的行為模式構成了一個「行為指紋」，比任何密碼都更難偽造。</p>
+<p>這種技術的優勢在於它對使用者是無感的。你不需要額外做任何事情，系統就在背景中持續評估風險。只有當風險超過閾值時，你才會被要求進行額外驗證。這實現了一個資安中長期追求的目標：在安全性和便利性之間找到更好的平衡。</p>
+<hr>
+<h2 id="當代理開始代替你登入">當代理開始代替你登入</h2>
+<p>如果說 Passkeys 和風險基礎驗證解決了「證明你是你」的問題，AI 代理的興起則帶來了一個全新的挑戰：「代理如何證明它代表你？」</p>
+<p>Flynn 指出了這個問題的複雜性：「過去，我們有一個相當簡單的概念——不是人就是機器人。現在我們有了第三種東西：代替人行動的機器人，我們稱之為代理。」</p>
+<p>當你讓 AI 代理幫你處理電子郵件、管理行事曆、甚至進行金融交易時，這個代理需要某種形式的身份和授權。但這個授權應該是什麼樣的？它應該和你的身份完全相同嗎？還是應該有更嚴格的限制？如果代理被惡意控制，這個授權會帶來多大的損害？</p>
+<p>「這個代理綁定到哪個身份？也就是說，它代表誰在行動？我們如何信任這一點？」Flynn 列出了需要回答的問題。他坦言，「讓網路深入到其基礎層面真正理解這一點的管道，我認為還有待建設。」</p>
+<p>這不僅是技術問題，也涉及身份和授權的哲學。當一個 AI 代理以你的名義行動時，它在多大程度上「是」你？如果它做出了你不想要的決定，責任歸誰？這些問題在我們讓代理擁有越來越多權限時，變得越來越迫切。</p>
+<hr>
+<h2 id="無密碼的未來真的會來嗎">無密碼的未來真的會來嗎？</h2>
+<p>Flynn 對此持樂觀態度：「我認為我們正在接近後密碼時代，這是好事。」</p>
+<p>但他也務實地指出，這個轉變不會一夜之間發生。推動這種改變需要幾個條件同時滿足：技術必須成熟且易於使用（Passkeys 正在達成這一點）；主要平台必須支援（Apple、Google、Microsoft 都已全面支援 Passkeys）；最重要的是，預設值必須改變。</p>
+<p>回顧 2014 年的「Celebgate」事件——大量名人的私密照片從 iCloud 外洩——Flynn 指出問題的核心：當時 Apple 其實已經支援多因素驗證，但它是選擇性的功能，大多數使用者並沒有啟用。「消費者資安真正推動改變的，不是要求消費者改變行為，而是改變預設值。」</p>
+<p>這個原則同樣適用於 Passkeys。只要它還是一個「選項」，多數人就會繼續使用熟悉的密碼。真正的轉折點會是當 Passkeys 成為預設——當新創建的帳號預設使用 Passkeys，當密碼登入變成「進階選項」。Flynn 觀察到 Android、ChromeOS、Chrome 瀏覽器以及 Apple 生態系統在這方面已經取得了顯著進展，消費設備的預設安全水準比十年前高出許多。</p>
+<p>無密碼的未來或許不會在明天到來，但它正在路上。而在這個過渡期，至少有一件事是確定的：那些仍在使用「123456」作為密碼的人，遲早會被時代淘汰——不是因為他們懶惰，而是因為更好的替代方案終於出現了。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

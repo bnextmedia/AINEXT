@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 裝置 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E8%A3%9D%E7%BD%AE/</link>
+    <description>Recent content in AI 裝置 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 23 Dec 2025 00:58:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E8%A3%9D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI 的 2026：裝置、雲端、科學發現，以及超級智慧的新定義</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251223-sam-altman-2026-vision/</link>
+      <pubDate>Tue, 23 Dec 2025 00:58:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251223-sam-altman-2026-vision/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《Big Technology Podcast》2024 年 12 月 18 日播出的單集，主持人 Alex Kantrowitz 專訪 OpenAI CEO Sam Altman。&#xA;收聽連結：&lt;a href=&#34;https://podcasts.apple.com/in/podcast/sam-altman-how-openai-wins-ai-buildout-logic-ipo-in-2026/id1522960417?i=1000741901091&#34;&gt;Apple Podcast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;不只是沒有螢幕的手機&#34;&gt;不只是沒有螢幕的手機&lt;/h2&gt;&#xA;&lt;p&gt;關於 OpenAI 正在開發的 AI 裝置，外界流傳最多的描述是「手機大小、沒有螢幕」。這個描述讓很多人困惑：如果只是這樣，為什麼不做成 app 就好？&lt;/p&gt;&#xA;&lt;p&gt;Sam Altman 在訪談中澄清了幾件事。首先，OpenAI 不會只出一個裝置，而是一個「小型裝置家族」。這表示他們對於「AI 時代的個人運算」想的不是一個產品，而是一套解決方案。&lt;/p&gt;&#xA;&lt;p&gt;更重要的是 Altman 對這些裝置的願景。他認為人類使用電腦的方式正在經歷根本性的轉變——從「呆板、被動」轉向「聰明、主動」。未來的運算裝置應該要理解你的整個生活、你的脈絡、你周遭發生的一切，而且非常清楚你附近的人，不管是實體接近的人，還是透過通訊與你互動的人。&lt;/p&gt;&#xA;&lt;p&gt;現有的裝置不是為這種使用方式設計的。iPhone 是 2007 年的產品概念，它的基本互動模式——你點螢幕、它給反應——跟 AI 時代需要的互動根本是兩回事。Altman 舉了一個例子：假設你在進行一場重要的會議，你希望你的 AI 助理「專注在這場會議上，但保持封閉狀態，如果我忘了問某個重要問題就悄悄提醒我」。現有的裝置形態很難支援這種模式。不管是打開或關閉，它只有二元狀態；它不能同時「聽著但不打擾」然後在必要時刻介入。&lt;/p&gt;&#xA;&lt;p&gt;Altman 說他深信一個道理：「我們的工作方式受限於我們的裝置。」當一種新的能力（AI）出現時，最能發揮這個能力的，不太可能是為前一個時代設計的工具。這不代表手機會消失，但它意味著會有新的裝置類別出現，而這些裝置會針對 AI 互動來最佳化。鍵盤當初是設計來「減慢」打字速度的（以避免打字機卡住），我們卻沿用到今天；圖形使用者介面幾十年來基本沒變過。這些「未經質疑的假設」可能都需要被重新思考。&lt;/p&gt;&#xA;&lt;p&gt;OpenAI 的裝置計畫還在早期，Altman 沒有透露具體的產品規格或上市時間。但從他描述的方向來看，這不會是一個「把 ChatGPT 裝進硬體」的簡單延伸，而是嘗試回答「AI 時代的個人電腦應該長什麼樣」這個根本問題。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一種不同的雲端&#34;&gt;一種不同的雲端&lt;/h2&gt;&#xA;&lt;p&gt;有聽眾寫信給節目說：「我們公司正在從 Azure 遷出，直接跟 OpenAI 整合。我們要處理的是數兆個 token，全部用來支撐產品裡的 AI 功能。」&lt;/p&gt;&#xA;&lt;p&gt;這封信反映了一個趨勢：越來越多企業不只是呼叫 OpenAI 的 API，而是把整個 AI 運算需求都建立在 OpenAI 的基礎設施上。這讓 Alex 問了一個直接的問題：OpenAI 是不是要跟 AWS、Azure 這些雲端巨頭競爭？&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

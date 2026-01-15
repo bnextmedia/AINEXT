@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>為什麼 claude 寫程式碼這麼強？訓練 ai 的內幕人士揭露答案 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="為什麼 Claude 寫程式碼這麼強？訓練 AI 的內幕人士揭露答案">
+<meta property="og:description" content="
+本文整理自 Lenny&rsquo;s Podcast 與 Surge AI 創辦人 Edwin Chen 的訪談。
+收聽連結：YouTube
+
+
+過去一年多，有個現象讓很多人困惑：Claude 在寫程式和寫作上，為什麼能領先其他模型這麼久？
+幾乎所有 AI 程式開發工具——Cursor、Windsurf、各種">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251224-surge-ai-why-claude-is-better/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251224-surge-ai-why-claude-is-better/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>24. December 2025</p>
+      <h1 class="post_title">為什麼 Claude 寫程式碼這麼強？訓練 AI 的內幕人士揭露答案</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 Lenny&rsquo;s Podcast 與 Surge AI 創辦人 Edwin Chen 的訪談。
+收聽連結：<a href="https://www.youtube.com/watch?v=dduQeaqmpnI">YouTube</a></p>
+</blockquote>
+<hr>
+<p>過去一年多，有個現象讓很多人困惑：Claude 在寫程式和寫作上，為什麼能領先其他模型這麼久？</p>
+<p>幾乎所有 AI 程式開發工具——Cursor、Windsurf、各種 coding agent——都把 Claude 當作首選模型。不是因為行銷，是因為它實際用起來就是比較好。這很奇怪，因為考慮到程式碼能力的經濟價值有多大，你會預期其他實驗室會很快追上來。OpenAI 的資源更多，Google 的資料更多，為什麼 Anthropic 一家相對小的公司能在這麼重要的能力上保持優勢？</p>
+<p>Edwin Chen 是 Surge AI 的創辦人，這家公司為所有主要 AI 實驗室提供訓練資料。四年內做到 10 億美元營收，靠的就是對「什麼讓 AI 變好」有獨到的理解。最近一次訪談中，他分享了一個不常被討論的答案：taste（品味）。</p>
+<h2 id="不只是更多資料這麼簡單">不只是「更多資料」這麼簡單</h2>
+<p>很多人以為 AI 模型的差異就是資料量的差異。誰有更多資料，誰就會更強。但 Edwin 認為這完全搞錯了問題的本質。</p>
+<p>「人們不理解的是，所有前沿實驗室在訓練模型時，面對的選擇幾乎是無限多的。」他解釋道。你要用純人類資料嗎？蒐集資料的方式是什麼？你要求產出資料的人具體創造什麼內容？在程式碼領域，你更在乎前端還是後端？如果是前端，你更在乎視覺設計，還是執行效率，還是純粹的正確性？要混入多少合成資料？要針對哪些 benchmark 優化？</p>
+<p>這些決策不是工程問題，而是品味問題。就像問「什麼是好的視覺設計」，不同人會有不同答案。有人在乎極簡主義，有人喜歡 3D 動畫效果，有人偏好復古風格。這些偏好會滲透到訓練資料的每一個選擇中，最終塑造出模型的「性格」。</p>
+<p>Edwin 用一個精準的說法來描述這件事：「後訓練（post-training）幾乎是一門藝術，不純粹是科學。當你決定要打造什麼樣的模型、它擅長什麼，這裡面有品味和精緻度（sophistication）的概念。」</p>
+<h2 id="諾貝爾獎等級的詩-vs-勾選清單">諾貝爾獎等級的詩 vs 勾選清單</h2>
+<p>為了說明「品味」如何影響資料品質，Edwin 舉了一個例子。</p>
+<p>假設你要訓練模型寫一首關於月亮的八行詩。什麼叫「好」？如果你不深入思考品質，檢查方式會是：這是詩嗎？有八行嗎？提到月亮嗎？這些條件都符合，那就是好詩。</p>
+<p>「但這跟我們要的完全不同。」Edwin 說。「我們要的是諾貝爾獎等級的詩。這首詩獨特嗎？有細膩的意象嗎？會讓你驚喜、觸動你的心嗎？會教你一些關於月光本質的事情嗎？會玩弄你的情緒、讓你思考嗎？」</p>
+<p>這就是差別所在。某些公司，你問他們什麼是好詩，他們會機械式地檢查一堆條件。符合指令，就是好詩。但那不是好詩。有品味和精緻度的實驗室會意識到，品質無法簡化成一組固定的勾選清單，他們會去考慮那些隱晦的、微妙的特質。</p>
+<p>這種思維差異會體現在一切地方。當你在選擇程式碼訓練資料時，你是要能跑的程式碼，還是優雅的程式碼？你是要符合規格的程式碼，還是考慮到邊界情況、有好的錯誤處理、註解清楚、結構乾淨的程式碼？這些選擇會累積，最終決定模型的水準。</p>
+<h2 id="anthropic-做對了什麼">Anthropic 做對了什麼</h2>
+<p>被問到哪家實驗室做得最好時，Edwin 明確表示他對 Anthropic 的印象最深刻。</p>
+<p>「我一直覺得 Anthropic 對於他們在乎什麼、不在乎什麼，以及他們希望模型如何表現，有非常有原則的看法。」他說。這種「有原則」（principled）是關鍵詞——它意味著 Anthropic 不是隨波逐流，不是看到什麼 benchmark 熱門就往那個方向優化，而是有一套清晰的價值觀來指導決策。</p>
+<p>相比之下，很多公司會陷入一個陷阱：明明知道某些學術 benchmark 跟真實世界表現關聯不大，但為了行銷和公關，還是得花資源去優化那些 benchmark。「因為他們的銷售團隊在跟企業客戶談的時候，客戶會說：『你們的模型在這個排行榜上只排第五，為什麼我要買？』」Edwin 解釋道。</p>
+<p>這造成一個惡性循環：研究人員被迫優化他們知道不太重要的指標，而不是優化真正讓模型變好的東西。有些研究人員會說：「我知道爬這個排行榜可能會讓我的模型在準確度和指令遵從上變差，但這是我年底升遷的唯一方式。」</p>
+<p>Anthropic 似乎更能抵抗這種壓力。他們願意在某些 benchmark 上「輸」，換取在真實任務上的表現。長期來看，這反而讓他們贏得了市場。</p>
+<h2 id="benchmark-的陷阱">Benchmark 的陷阱</h2>
+<p>Edwin 對現有的 benchmark 和排行榜有非常尖銳的批評。</p>
+<p>首先，很多 benchmark 本身就有問題。「即使是研究社群內的人也沒意識到，很多 benchmark 的答案根本就是錯的。它們充滿各種混亂。」對於熱門的 benchmark，人們可能已經發現了一些問題，但大部分 benchmark 有各種缺陷，沒人注意到。</p>
+<p>其次，benchmark 通常有「客觀正確答案」，這讓模型很容易針對性優化。「很瘋狂的是，這些模型可以贏得國際數學奧林匹亞金牌，但還是無法好好解析 PDF。」Edwin 觀察道。為什麼？因為即使數學奧林匹亞對一般人來說很難，它有一種「客觀性」讓模型可以針對優化。但解析 PDF 這種真實世界的混亂任務，沒有那麼乾淨的優化目標。</p>
+<p>他用一個比喻來形容當前流行的 LLM Arena 排行榜：「這基本上是在為那種會在雜貨店結帳台買八卦雜誌的人優化。」這個排行榜讓全世界的隨機使用者投票選擇哪個 AI 回答比較好。問題是，這些人不會仔細閱讀或查證，他們只是快速瀏覽兩秒鐘，然後選看起來最花俏的那個。</p>
+<p>「一個模型可以完全在胡說八道，但只要它有很酷的表情符號、華麗的 Markdown 格式、很長的回覆，看起來很厲害，這些使用者就會喜歡。」Edwin 說。Surge 自己的研究也證實這點：要爬上 LLM Arena 最簡單的方法，就是加一堆表情符號、把回覆長度加倍加三倍——即使模型開始胡說八道、答案完全錯誤。</p>
+<p>結論是什麼？如果實驗室太在乎這些排行榜，他們可能會把模型訓練得越來越會「討好」，而不是越來越「正確」。</p>
+<h2 id="這對你有什麼影響">這對你有什麼影響</h2>
+<p>理解這些，對 AI 使用者有幾個實際意義。</p>
+<p>第一，不要太相信 benchmark 排名。一個模型在某個排行榜上排名第一，不代表它在你的實際任務上會最好。實驗室之間的差異很大程度上是「品味」的差異——他們選擇優化什麼，反映了他們對「好」的定義。你需要自己測試，看哪個模型的「品味」跟你的需求最相符。</p>
+<p>第二，模型會越來越有「性格」。Edwin 預測，未來各家模型不會趨同，反而會越來越不一樣。就像 Google、Facebook、Apple 即使都做搜尋引擎，做出來的東西也會非常不同，因為他們有不同的原則和價值觀。AI 模型也一樣——Anthropic 的 Claude、OpenAI 的 GPT、Google 的 Gemini，會發展出越來越鮮明的差異性格。</p>
+<p>第三，「討好你」跟「幫助你」是不一樣的。有些模型會不斷說「你說得太對了」「這是個很棒的問題」，讓你感覺良好。但這不代表它在真正幫你解決問題。下次使用 AI 時，注意一下：它是在給你有用的回答，還是只是在讓你感覺良好？</p>
+<hr>
+<p><em>Edwin Chen 的觀察揭示了一個重要的洞見：在 AI 時代，「品味」這種看似模糊的東西，其實有非常具體的影響。它決定了訓練資料的品質，進而決定了模型的能力。Claude 之所以在程式碼和寫作上領先，不是因為 Anthropic 有什麼神秘技術，而是因為他們對「什麼是好」有更高的標準，並且有原則地堅持這個標準。</em></p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

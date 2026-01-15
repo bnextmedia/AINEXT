@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HBM on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/hbm/</link>
+    <description>Recent content in HBM on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 11:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/hbm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>十年後，HBF 會比 HBM 更重要：一場可能改變半導體版圖的技術革命</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-hbf-bigger-than-hbm-decade/</link>
+      <pubDate>Fri, 26 Dec 2025 11:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-hbf-bigger-than-hbm-decade/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/uJWZQb9rWUk&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「HBM 這個詞，大家大概是一年前才開始聽到的。但這項技術從 2010 年就開始研發了，花了 15 年才變成今天的熱門話題。」&lt;/p&gt;&#xA;&lt;p&gt;KAIST 電子及電機工程學部的金正鎬（Kim Jung-ho）教授在韓國財經節目中這樣說。作為 HBM 技術發展的早期參與者，他現在把目光投向了下一個十年：HBF（High Bandwidth Flash，高頻寬快閃記憶體）。&lt;/p&gt;&#xA;&lt;p&gt;他的預測很明確：大約三年後，HBF 產品會開始量產；十年後，HBF 的市場規模會超過 HBM。到時候，這個你現在可能還沒聽過的名詞，會像今天的 HBM 一樣，成為半導體產業最熱門的關鍵字。&lt;/p&gt;&#xA;&lt;h2 id=&#34;從-hbm-到-hbf記憶體的下一個進化&#34;&gt;從 HBM 到 HBF：記憶體的下一個進化&lt;/h2&gt;&#xA;&lt;p&gt;要理解 HBF，首先要理解 HBM 解決了什麼問題。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI 的「密碼本」越大越聰明：一位 KAIST 教授的記憶體比喻</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-ai-codebook-memory-analogy/</link>
+      <pubDate>Fri, 26 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-ai-codebook-memory-analogy/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/uJWZQb9rWUk&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;如果要用一句話解釋 AI 是怎麼回答你的問題的，KAIST 電子及電機工程學部的金正鎬（Kim Jung-ho）教授會這樣說：「它在翻一本巨大的密碼本。」&lt;/p&gt;&#xA;&lt;p&gt;這位韓國頂尖的半導體專家，是 HBM 技術發展的重要推手之一。在韓國財經節目《삼프로TV 언더스탠딩》中，他用了一個精妙的比喻，把複雜的 AI 技術原理講得讓一般人都能理解。而這個比喻的核心訊息是：AI 的能力，很大程度上取決於它的「密碼本」有多大——而那本密碼本，就儲存在記憶體裡。&lt;/p&gt;&#xA;&lt;h2 id=&#34;encoder-和-decoder翻譯人類語言的密碼機&#34;&gt;Encoder 和 Decoder：翻譯人類語言的密碼機&lt;/h2&gt;&#xA;&lt;p&gt;當你問 ChatGPT 一個問題時，背後其實發生了兩件事。&lt;/p&gt;&#xA;&lt;p&gt;首先，你的問題會被送進一個叫做 Encoder（編碼器）的系統。這個系統的工作是把人類的語言——無論是英文、中文還是韓文——轉換成一種「機器能理解的語言」。金教授把這種語言稱為「密碼」，更詩意一點的說法是「神的語言」或「外星人的語言」。總之，這是一套人類無法直接閱讀的符號系統。&lt;/p&gt;&#xA;&lt;p&gt;這套密碼會被記錄在一本「密碼本」裡。技術上，這本密碼本叫做 Prior（先驗知識）或 KV Cache。它記錄了所有詞彙之間的關係、每個概念的重要性、以及各種知識的連結方式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GPU 有 70% 時間在「等記憶體」：AI 半導體的真正瓶頸在哪？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-gpu-waiting-for-memory/</link>
+      <pubDate>Fri, 26 Dec 2025 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-gpu-waiting-for-memory/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/uJWZQb9rWUk&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;你以為 AI 運算的瓶頸是 GPU 不夠強？這個假設可能從根本上就錯了。&lt;/p&gt;&#xA;&lt;p&gt;KAIST 電子及電機工程學部的金正鎬（Kim Jung-ho）教授在韓國財經節目中揭示了一個反直覺的事實：目前的 AI 晶片，包括 NVIDIA 最先進的 GPU，有大約 60% 到 70% 的時間處於閒置狀態。它們不是在計算，而是在等待。等什麼？等記憶體把資料送過來。&lt;/p&gt;&#xA;&lt;p&gt;這就像一條高速公路上有一輛超級跑車，引擎馬力驚人，但前面塞車了。跑車的性能再好，也只能停在那裡空轉。在 AI 運算的世界裡，GPU 就是那輛跑車，而記憶體的頻寬就是那條塞車的公路。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼-gpu-會餓肚子&#34;&gt;為什麼 GPU 會「餓肚子」？&lt;/h2&gt;&#xA;&lt;p&gt;要理解這個現象，得先理解 AI 模型是怎麼運作的。當你問 ChatGPT 一個問題時，它不是一次把整個答案想好再說出來，而是一個字、一個字地「吐」出來。每吐一個字，模型都需要回去查一本巨大的「參考書」——這本參考書儲存了它學過的所有知識，技術上叫做模型參數和 KV Cache。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NVIDIA 可能收購記憶體公司？KAIST 教授的驚人預測與背後邏輯</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-nvidia-may-acquire-memory-company/</link>
+      <pubDate>Fri, 26 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-nvidia-may-acquire-memory-company/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/uJWZQb9rWUk&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「我的夢想是，NVIDIA 為了維持主導地位，最終會收購記憶體公司。」&lt;/p&gt;&#xA;&lt;p&gt;這句話出自 KAIST（韓國科學技術院）電子及電機工程學部的金正鎬（Kim Jung-ho）教授。他在韓國財經節目《삼프로TV 언더스탠딩》中，拋出了一個可能改變半導體產業版圖的預測：當記憶體變得比 GPU 更重要時，NVIDIA 的選擇可能不是繼續依賴外部供應商，而是直接把記憶體公司買下來。&lt;/p&gt;&#xA;&lt;p&gt;這不是空穴來風的臆測。金教授是 HBM（High Bandwidth Memory，高頻寬記憶體）技術發展的重要推手之一，早在 2010 年代就參與了這項技術的早期研究。他對半導體產業的判斷，往往比市場共識早上好幾年。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼-nvidia-需要擁有自己的記憶體&#34;&gt;為什麼 NVIDIA 需要擁有自己的記憶體？&lt;/h2&gt;&#xA;&lt;p&gt;要理解這個預測的邏輯，首先要理解一個反直覺的事實：在 AI 運算中，GPU 有相當大比例的時間其實是在「等待」。等什麼？等記憶體把資料送過來。金教授估計，目前的 AI 晶片有 60% 到 70% 的時間處於閒置狀態，因為記憶體的頻寬和容量跟不上 GPU 的運算速度。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

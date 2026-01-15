@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 策略 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E7%AD%96%E7%95%A5/</link>
+    <description>Recent content in AI 策略 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E7%AD%96%E7%95%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenAI 的三板斧：Sam Altman 親解如何在 AI 戰場勝出</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251223-sam-altman-openai-strategy/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251223-sam-altman-openai-strategy/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《Big Technology Podcast》2024 年 12 月 18 日播出的單集，主持人 Alex Kantrowitz 專訪 OpenAI CEO Sam Altman。&#xA;收聽連結：&lt;a href=&#34;https://podcasts.apple.com/in/podcast/sam-altman-how-openai-wins-ai-buildout-logic-ipo-in-2026/id1522960417?i=1000741901091&#34;&gt;Apple Podcast&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;code-red-的真相openai-怎麼看待競爭&#34;&gt;Code Red 的真相：OpenAI 怎麼看待競爭&lt;/h2&gt;&#xA;&lt;p&gt;OpenAI 總部最近進入了「Code Red」狀態。這個消息傳出後，外界紛紛解讀為 OpenAI 陷入了生存危機——Gemini 3 來勢洶洶，DeepSeek 也在攻城掠地，ChatGPT 的領先地位看起來岌岌可危。&lt;/p&gt;&#xA;&lt;p&gt;但 Sam Altman 在訪談中給了一個完全不同的詮釋。在他眼中，Code Red 是一個「相對低風險、會經常發生的事情」。這不是恐慌，而是一套標準作業程序：當潛在的競爭威脅出現時，快速行動、保持警覺。他用了一個傳染病防治的比喻來解釋這套邏輯——疫情剛開始時採取的每一個行動，效益都遠大於之後的補救措施。多數人在初期不夠積極，到後期才開始恐慌。OpenAI 的策略正好相反：在威脅還只是「潛在」的時候就當真，而不是等它成為「確定」的問題。&lt;/p&gt;&#xA;&lt;p&gt;這次由 Gemini 3 觸發的 Code Red，到目前為止並沒有造成 Altman 擔心的那種衝擊。但這個過程並非毫無收穫——它迫使 OpenAI 審視自己產品策略中的弱點，並且快速補強。在 Code Red 期間，OpenAI 發布了全新的圖像生成模型（這是消費者長期想要的功能），也推出了 GPT-5.2，這個模型的市場反應極好，成長速度飛快。Altman 預估這個 Code Red 狀態大約會持續六到八週，之後會回歸正常節奏。但他預期未來每年可能會有一到兩次類似的警戒狀態，這已經變成 OpenAI 確保自己保持競爭力的常規機制。&lt;/p&gt;&#xA;&lt;p&gt;這種心態其實值得細想。在多數企業的文化中，「Code Red」是要盡量避免的災難。但 Altman 把它重新定義成一種「戰略性的偏執」——不是因為真的在輸，而是為了確保自己不會開始輸。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;策略一模型不會完全商品化前沿仍有巨大價值&#34;&gt;策略一：模型不會完全商品化，前沿仍有巨大價值&lt;/h2&gt;&#xA;&lt;p&gt;當被問到 AI 模型是否會走向「商品化」——也就是說，當各家模型對一般使用者來說感覺差不多時，OpenAI 的優勢是否會消失？Altman 給了一個有點出乎意料的回答：商品化「不太是正確的思考框架」。&lt;/p&gt;&#xA;&lt;p&gt;他的論點是這樣的：沒錯，對於日常的聊天使用，未來可能會有很多模型都能達到夠好的水準。但 AI 的經濟價值並不平均分佈在所有使用場景上。真正創造最大價值的，是那些位於「前沿」的模型——能夠做到其他模型做不到的事情的那一個。比如科學發現、比如解決企業最棘手的技術問題、比如協助複雜的研究工作。這些任務對模型能力的要求極高，而這正是 OpenAI 押注的領域。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

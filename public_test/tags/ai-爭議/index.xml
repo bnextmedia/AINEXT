@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 爭議 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E7%88%AD%E8%AD%B0/</link>
+    <description>Recent content in AI 爭議 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E7%88%AD%E8%AD%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anthropic 被控「偷降 Opus」？AI 公司的信任危機</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-anthropic-opus-downgrade-controversy/</link>
+      <pubDate>Thu, 25 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-anthropic-opus-downgrade-controversy/</guid>
+      <description>&lt;p&gt;如果你有在關注 AI 社群的討論，最近應該看過不少關於 Opus 4.5 的抱怨。「Opus 變笨了」「模型被降級了」「Anthropic 在偷工減料」——這類貼文在 Twitter 和 Reddit 上此起彼落。Opus 4.5 明明在推出時獲得一片好評，怎麼突然變成眾矢之的？在最近一集 Break Even Brothers Podcast 中，兩位主持人深入討論了這場爭議的來龍去脈。&lt;/p&gt;&#xA;&lt;p&gt;「如果你的 Twitter 動態跟我的差不多——我想我們追蹤的人應該有不少重疊——你應該有看到關於 Opus 4.5 的爭議，」一位主持人開場就說。他提到有一則爆紅的推文聲稱 Opus 4.5 被降級了，用起來「超級笨」。但有趣的是，在這則推文下方，一位 Anthropic 員工直接回覆，要求原 po 提供證據。&lt;/p&gt;&#xA;&lt;h2 id=&#34;降級陰謀論的由來&#34;&gt;「降級陰謀論」的由來&lt;/h2&gt;&#xA;&lt;p&gt;這不是 Anthropic 第一次面對類似指控。Podcast 主持人回顧，之前就有過一輪關於 Opus 模型被「暗中降級」的風波。當時的陰謀論是這樣的：AI 公司先推出一個非常強大的模型，讓使用者「上癮」；等大家都離不開這個模型後，就偷偷降低模型的品質來節省運算成本。反正使用者已經付費了，他們也沒有太多選擇。&lt;/p&gt;&#xA;&lt;p&gt;從商業邏輯來看，這個理論確實說得通。訓練和運行大型語言模型的成本極高，如果能在不被發現的情況下稍微降低輸出品質、減少運算量，公司可以省下大筆開銷。問題是：Anthropic 真的這樣做了嗎？&lt;/p&gt;&#xA;&lt;p&gt;上一次爭議時，Anthropic 出面澄清，他們在部署模型到 Google 等雲端服務商時確實遇到了兩三個小 bug，這些 bug 影響了大約 15-20% 使用者的體驗。但公司強調，這些都是無心之過，他們並沒有故意降級模型。這次的爭議似乎是舊事重提，但 Anthropic 的回應態度比以前更積極。&lt;/p&gt;&#xA;&lt;h2 id=&#34;anthropic-的回應給我證據&#34;&gt;Anthropic 的回應：「給我證據」&lt;/h2&gt;&#xA;&lt;p&gt;在那則爆紅的抱怨推文下方，一位 Anthropic 員工直接留言：「嘿，你可以用 /feedback 或 /export 指令把你的對話記錄分享給我們看嗎？」這個回應相當直接——你說模型變笨了，那就拿出證據來。&lt;/p&gt;&#xA;&lt;p&gt;原 po 回覆說那是之前的對話，沒辦法匯出。但 Anthropic 員工又追了一句：「你可以在 Claude Code 裡面恢復（resume）那個舊對話，然後再執行 /feedback 指令。」換句話說，Anthropic 把球丟回給批評者：你說有問題，那就讓我們看看到底發生了什麼事。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

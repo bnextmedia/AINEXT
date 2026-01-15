@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>程式設計 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/</link>
+    <description>Recent content in 程式設計 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sergey Brin 給焦慮學生的建議：別因為 AI 會寫程式就轉去念比較文學</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-sergey-brin-dont-quit-cs-for-ai/</link>
+      <pubDate>Thu, 25 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-sergey-brin-dont-quit-cs-for-ai/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自史丹佛工程學院百年校慶活動，2025 年 12 月播出。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/0nlNX94FcUE&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「我該不該繼續念電腦科學？」&lt;/p&gt;&#xA;&lt;p&gt;這個問題來自台下一位史丹佛大一新生。在場的是 Google 共同創辦人 Sergey Brin、史丹佛校長 Jonathan Levin，以及工程學院院長 Jennifer Widom。在 AI 似乎能做越來越多事情的今天，這個問題代表了無數學生的焦慮。&lt;/p&gt;&#xA;&lt;p&gt;Brin 的回答出人意料：「不要因為 AI 會寫程式就轉去念比較文學。老實說，AI 寫比較文學可能寫得更好。」&lt;/p&gt;&#xA;&lt;h2 id=&#34;一個反直覺的論點&#34;&gt;一個反直覺的論點&lt;/h2&gt;&#xA;&lt;p&gt;這個回答乍聽之下像是在開玩笑，但 Brin 認真地解釋了他的邏輯。&lt;/p&gt;&#xA;&lt;p&gt;AI 寫程式確實已經相當不錯，但程式碼有一個特性：錯誤會被立即發現。程式要嘛能跑，要嘛不能跑；要嘛通過測試，要嘛不通過。這意味著 AI 生成的程式碼需要人類持續監督和修正。「老實說，AI 有時候還是會犯蠻顯著的錯誤，」Brin 說，「所以你總是需要監督它。」&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI 寫程式超快，但你跟得上嗎？Netflix 的三階段解法</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-netflix-ai-software-crisis/</link>
+      <pubDate>Mon, 22 Dec 2025 22:33:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-netflix-ai-software-crisis/</guid>
+      <description>&lt;p&gt;「我部署過我不完全理解的程式碼。我生成了它、測試了它、部署了它。但我無法解釋它是怎麼運作的。」&lt;/p&gt;&#xA;&lt;p&gt;這是 Netflix 工程師 Jake Nations 在一場技術演講中的開場白。台下一片安靜，接著他補了一句：「我願意打賭，你們每一個人也都做過。」掌聲響起。&lt;/p&gt;&#xA;&lt;p&gt;Jake 過去幾年在 Netflix 負責推動 AI 工具的採用。他親眼見證 AI 帶來的加速——過去需要好幾天才能完成的工作，現在幾小時就能搞定；擱置多年的大型程式碼重構，終於有人手去執行。但他也注意到一件令人不安的事：程式碼生成的速度，已經超過工程師理解的速度。&lt;/p&gt;&#xA;&lt;p&gt;大型系統總是會在意想不到的地方掛掉。當那一刻來臨，你最好搞得懂自己正在除錯的程式碼。問題是，AI 一秒鐘能產出上千行程式碼，我們的理解力根本追不上。&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/embed/eIoohUmYpGI&#34;&gt;嵌入影片&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;軟體危機簡史這不是第一次&#34;&gt;軟體危機簡史：這不是第一次&lt;/h2&gt;&#xA;&lt;p&gt;Jake 說，這種「複雜性超出管理能力」的困境，其實不是什麼新鮮事。每一代軟體工程師都碰過這堵牆。&lt;/p&gt;&#xA;&lt;p&gt;1960 年代末，一群聰明的電腦科學家聚在一起，發現了一個問題：社會對軟體的需求暴增，但軟體開發的速度根本跟不上。專案延遲、成本超支、品質低落。他們把這個現象稱為「軟體危機」。&lt;/p&gt;&#xA;&lt;p&gt;荷蘭電腦科學家 Edsger Dijkstra 當時說過一句話：「當我們只有幾台弱小的電腦時，程式設計只是個小問題；現在我們有了巨大的電腦，程式設計也變成了巨大的問題。」他的觀察是：硬體能力每成長一千倍，社會對軟體的期待也會跟著漲一千倍，留給工程師的只有如何在「想要」和「做得到」之間找到平衡。&lt;/p&gt;&#xA;&lt;p&gt;這種循環不斷重演。1970 年代有了 C 語言，可以寫更大的系統。1980 年代個人電腦普及，人人都能寫程式。1990 年代物件導向程式設計流行，帶來了複雜到讓人頭痛的繼承結構。2000 年代敏捷開發興起。2010 年代雲端、行動裝置、DevOps 全面爆發，軟體真的「吃掉了世界」。&lt;/p&gt;&#xA;&lt;p&gt;而現在，我們有了 AI。Copilot、Cursor、Claude、Codex、Gemini——我們可以用描述的速度生成程式碼。模式依然在重複，但這次的規模是「無限」的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;easy-vs-simpleai-時代最危險的混淆&#34;&gt;Easy vs Simple：AI 時代最危險的混淆&lt;/h2&gt;&#xA;&lt;p&gt;「我們陷入了一個陷阱，」Jake 說，「我們混淆了『容易』和『簡單』。」&lt;/p&gt;&#xA;&lt;p&gt;這兩個詞聽起來很像，但它們指向完全不同的東西。Clojure 程式語言的創造者 Rich Hickey 在 2011 年有一場著名的演講叫做「Simple Made Easy」，對這兩個概念做了精確的區分。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Simple（簡單）&lt;/strong&gt; 的字源來自拉丁文，意思是「一個折疊、一個編織」，也就是沒有糾纏。一個簡單的系統，每個部件各司其職，彼此不會糾纏在一起。你改動一個地方，不會牽動其他十個地方。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Easy（容易）&lt;/strong&gt; 的字源則是「鄰近」。什麼東西離你近、伸手就能拿到，那就是容易的。安裝一個套件、從 Stack Overflow 複製一段程式碼、讓 AI 生成一個功能——這些都是「容易」的事。&lt;/p&gt;&#xA;&lt;p&gt;重點來了：&lt;strong&gt;你沒辦法靠許願讓事情變簡單&lt;/strong&gt;。簡單需要思考、需要設計、需要花力氣把糾纏的東西理清楚。但你隨時都可以讓事情變得更容易——只要把它放得更近就好。&lt;/p&gt;&#xA;&lt;p&gt;人類天生會走阻力最小的路，這是生存本能，沒什麼好怪的。在 AI 出現之前，這種取捨還算可控——複雜性在程式碼庫中累積的速度夠慢，工程師有時間重構、重新思考、必要時砍掉重練。&lt;/p&gt;&#xA;&lt;p&gt;但 Jake 認為 AI 打破了這個平衡。AI 是終極的「容易製造機」，讓容易的路變得毫無阻力，以至於我們根本不再考慮簡單的那條路。程式碼瞬間就能出現，誰還會停下來想架構？&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

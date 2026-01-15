@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>12 factor agents：當 agent 開發遇上軟體工程的老派智慧 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="12-Factor Agents：當 Agent 開發遇上軟體工程的老派智慧">
+<meta property="og:description" content="
+本文整理自 Dex Horthy 在 AI Engineer 大會的演講。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-12-factor-agents-software-engineering/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-12-factor-agents-software-engineering/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">12-Factor Agents：當 Agent 開發遇上軟體工程的老派智慧</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 Dex Horthy 在 AI Engineer 大會的演講。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/8kMaTybvDUw" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>「你用框架很快做出一個 Agent，讓老闆很興奮，團隊加了六個人。但接下來你發現，70-80% 的完成度不夠用。想要突破這個天花板，你得鑽進七層深的呼叫堆疊，逆向工程這個 Prompt 到底是怎麼組出來的。」Dex Horthy 在台上描述的這個場景，讓現場不少人舉起了手——他們都經歷過。</p>
+<p>Dex 是 HumanLayer 的創辦人。過去一年，他訪談了超過 100 位正在建構 AI Agent 的開發者、創辦人、工程師。他發現一個有趣的現象：真正在生產環境運作良好的 Agent，其實沒有那麼「agentic」。它們大多數是軟體，只是在關鍵節點用了 LLM。這些團隊都在做類似的事情，只是這些做法還沒有名字、還沒有被定義。於是 Dex 決定把這些模式整理出來，寫成了「12-Factor Agents」——致敬 Heroku 十年前定義雲端原生應用的那份經典文件。</p>
+<h2 id="llm-是純函數tool-use-沒那麼神秘">LLM 是純函數，Tool Use 沒那麼神秘</h2>
+<p>Dex 開場就丟出一個觀點：LLM 最神奇的能力，跟迴圈、switch 語句、工具調用都沒關係。它最神奇的事情，就是把一句自然語言變成一段結構化的 JSON。這聽起來很簡單，但這正是整個 Agent 運作的核心。你不需要把它想得很玄，它就是一個函數：輸入 token，輸出 token。</p>
+<p>這個觀點直接挑戰了「Tool Use」這個被神秘化的概念。Dex 引用了程式語言歷史上著名的「Go To Considered Harmful」論文，半開玩笑地說：「Tool Use 也是 harmful。」他不是說不該讓 Agent 跟外部世界互動，而是說我們不該把這件事想成某個神秘的外星實體在跟環境互動。實際發生的事情很單純：LLM 輸出一段 JSON，我們用確定性的程式碼去執行它，然後可能把結果餵回去。就這樣。</p>
+<p>如果你有一個結構定義，讓 LLM 輸出符合這個結構的 JSON，你就可以把它丟進一個 switch 語句或迴圈裡處理。工具調用沒有什麼特別的，它就是 JSON 加程式碼。當你這樣理解之後，很多事情就變簡單了。你不需要依賴框架提供的魔法，你自己就能掌控整個流程。</p>
+<h2 id="掌控你的-promptcontrol-flow-和-context-window">掌控你的 Prompt、Control Flow 和 Context Window</h2>
+<p>12-Factor Agents 的核心精神是「擁有權」。你要擁有你的 Prompt，擁有你的控制流程，擁有你的 Context Window。這不是說框架不能用，而是說你最終得能看到、能修改、能最佳化每一個環節。</p>
+<p>Dex 說，有些框架可以幫你快速產生一個很棒的 Prompt，那種你可能要上三個月 Prompt 學校才寫得出來的品質。但如果你想突破某個品質門檻，你最終會需要自己手寫每一個 token。因為 LLM 是純函數，決定輸出品質的唯一因素就是你輸入了什麼。除非你要自己重新訓練模型，不然你能控制的就是輸入的 token。</p>
+<p>控制流程也是一樣。很多 Agent 框架會幫你管理迴圈、狀態、重試邏輯。這在初期很方便，但當你需要做更細緻的控制——比如在某個條件下中斷、切換策略、摘要歷史訊息——你會發現框架綁住了你的手腳。Dex 建議的做法是：把 Agent 想成一個簡單的迴圈。你有一個 Prompt 告訴 LLM 怎麼選擇下一步，有一個 switch 語句處理輸出的 JSON，有一個方式累積 Context Window，有一個條件決定什麼時候退出。就這樣。當你擁有這個迴圈，你就能做各種有趣的事：中斷、恢復、摘要、讓另一個 LLM 來判斷品質。</p>
+<p>Context Window 的管理特別重要。Dex 觀察到一個常見的錯誤：當 Agent 呼叫 API 失敗，開發者會把錯誤訊息直接加到 Context 裡讓它重試。這聽起來合理，但很容易讓 Agent 陷入混亂——它看到一堆錯誤訊息，失去了方向。正確的做法是主動管理 Context：如果連續失敗後終於成功了，就清掉那些錯誤訊息；不要把整個 stack trace 丟進去，摘要成有用的資訊就好。你要思考的是：我想讓模型看到什麼，才能得到最好的結果？</p>
+<h2 id="micro-agents小而專注勝過大而全">Micro Agents：小而專注勝過大而全</h2>
+<p>Dex 分享了一個重要的發現：那個「給 LLM 一個目標，讓它自己找路」的夢想，在長流程中其實行不通。就算你用 Gemini 塞進兩百萬個 token，API 會回傳東西給你，但沒有人會說這樣得到的結果比精心控制的 Context 更可靠。Context 越長，模型越容易迷失。</p>
+<p>真正運作良好的模式是 Micro Agents：你的主流程還是大部分確定性的 DAG（有向無環圖），只在特定節點放入小型的 Agent 迴圈，每個迴圈只處理 3-10 個步驟。HumanLayer 內部的部署機器人就是這樣運作的。大部分的 CI/CD 流程是確定性的程式碼，但當 PR 合併、測試通過後，會交給一個 Agent 來處理部署。這個 Agent 會提議「先部署前端」，人類可以說「不，先部署後端」，Agent 就調整計畫。一旦部署完成，控制權就回到確定性的程式碼，跑端對端測試。</p>
+<p>這種設計的好處是：Context 可控、職責清楚、每個 Agent 只需要處理它擅長的事。Dex 引用了 NotebookLM 團隊的說法：找到模型能力的邊界——那個它不是每次都能做對的事——然後用工程手段讓它變得可靠。如果你能做到這點，你就創造了別人做不到的東西。</p>
+<h2 id="回歸軟體工程的本質">回歸軟體工程的本質</h2>
+<p>Dex 在結尾問了一個問題：「有人寫過 switch 語句嗎？寫過 while 迴圈嗎？」全場舉手。這就是他的重點：建構可靠的 Agent 不需要什麼神秘的 AI 背景，這就是軟體工程。LLM 是無狀態的函數，你管理狀態；控制流程是你的，不是框架的；Context Engineering——怎麼把對的資訊用對的方式送進模型——才是核心能力。</p>
+<p>12-Factor Agents 在 GitHub 上發布後，一天內登上 Hacker News 首頁，兩個月內拿到四千多顆星。這說明很多開發者都有同樣的痛。他們不需要更多的框架魔法，他們需要的是清楚的原則、可控的架構、以及回歸工程本質的思維方式。</p>
+<p>Agent 就是軟體。軟體工程的智慧——模組化、可測試、可觀察、掌控狀態——在這個新領域依然適用。差別只是，現在你的程式碼裡多了一個會輸出 JSON 的純函數，而你的工作是確保它看到對的東西、做對的事。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

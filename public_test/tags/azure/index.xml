@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/azure/</link>
+    <description>Recent content in Azure on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 10:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Microsoft 為何主動放棄數十億美元的資料中心計畫？Satya Nadella 解釋背後邏輯</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-satya-nadella-infrastructure-pause/</link>
+      <pubDate>Fri, 26 Dec 2025 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-satya-nadella-infrastructure-pause/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/8-boBsWcr5A&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Patel Podcast 2024 年 12 月播出的單集，由 Dwarkesh Patel 與 SemiAnalysis 創辦人 Dylan Patel 共同訪問 Microsoft CEO Satya Nadella。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;2024 年下半年，一件令業界困惑的事情發生了。&lt;/p&gt;&#xA;&lt;p&gt;Microsoft 原本在 AI 基礎設施競賽中遙遙領先。根據 SemiAnalysis 的追蹤數據，他們本來有望在 2026 或 2027 年超越 Amazon，成為全球最大的 AI 基礎設施供應商。但突然間，Microsoft 開始放棄已經談好的資料中心租賃案，這些站點隨後被 Google、Meta、Amazon、Oracle 搶走。到了 2028 年的預估容量，Microsoft 從原本可能達到的 12-13 gigawatts，下修到約 9.5 gigawatts。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

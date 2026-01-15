@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>80 年來首次，有人想重寫計算的底層架構 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="80 年來首次，有人想重寫計算的底層架構">
+<meta property="og:description" content="
+本文整理自 NeurIPS 2024 期間的訪談。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-unconventional-ai-analog-computing/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-unconventional-ai-analog-computing/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">80 年來首次，有人想重寫計算的底層架構</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 NeurIPS 2024 期間的訪談。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/wZ4DT20OHXE" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>1945 年，ENIAC 在賓州大學點亮。這台 30 噸重、佔據整個房間的機器，是現代數位計算的起點。從那之後的 80 年，我們基本上都在做同一件事：用 0 和 1 來表示一切，用邏輯閘來處理一切。處理器變快了、變小了、變省電了，但底層架構沒有根本性的改變。</p>
+<p>現在有人想改變這件事。</p>
+<hr>
+<h2 id="數位計算的勝利與代價">數位計算的勝利與代價</h2>
+<p>要理解 Naveen Rao 在做的事，得先理解數位計算為什麼會贏。</p>
+<p>1940 年代其實有兩種計算機在競爭。類比計算機用連續的物理量來代表數字——電壓、電流、旋轉角度。數位計算機則把一切離散化成 0 和 1。類比機器更直觀、更高效，但有一個致命傷：它無法規模化。</p>
+<p>問題出在製造精度。當時的真空管特性會隨著溫度變化、隨著老化改變。如果你的計算依賴於電壓的精確值，這些微小的變異就會累積成嚴重的誤差。系統越大，誤差越難控制。數位計算繞過了這個問題：只要能可靠地區分「高」和「低」，中間的變異就不重要了。「我沒辦法精確描述中間的狀態，」Rao 解釋當年的困境，「但我可以說它是高還是低。」</p>
+<p>這個選擇讓 ENIAC 得以用 18,000 個真空管構建出可用的計算機。之後的每一代技術——電晶體、積體電路、微處理器——都沿著同一條路前進。數位抽象成為計算的基礎語言，精確的數字運算成為一切應用的底層。這條路走了 80 年，從未被真正挑戰過。</p>
+<hr>
+<h2 id="類比不是落後是不同">「類比」不是落後，是不同</h2>
+<p>「類比」這個詞常被誤解成「落後」或「粗糙」。但它的本意是「類似於」——用一個物理系統來類比另一個物理系統。</p>
+<p>風洞是經典的例子。如果你想知道空氣怎麼流過一架飛機，可以寫方程式、跑模擬、用超級電腦算流體力學。這是數位的方法。但工程師至今還是會造風洞，把縮小版的飛機模型放進去吹。讓真正的空氣流過真正的形狀，然後測量結果。為什麼？因為計算流體力學極其困難，數值解永遠有誤差，而且某些細節很難建模。真正的空氣「知道」自己該怎麼流動，你只需要問它。</p>
+<p>這就是類比計算的本質：找到一個物理系統，讓它的行為「類似於」你想要計算的東西，然後讓物理自己給你答案。不是用數字去模擬現實，而是用現實來計算現實。</p>
+<p>大腦是另一個存在證明。人腦的功耗約 20 瓦，貓腦只要 0.1 瓦。這些神經網路不是在「模擬」智慧，它們的物理結構本身就是智慧。神經元放電、化學物質擴散、突觸連結變化——這些物理過程直接構成了計算，沒有中間的抽象層。沒有記憶體和 CPU 之間的資料搬運，沒有數字表示法的精度損失，沒有 0 和 1 的編解碼開銷。</p>
+<hr>
+<h2 id="為什麼-ai-是類比的機會">為什麼 AI 是類比的機會</h2>
+<p>Rao 的核心論點是：AI 可能是類比計算重新崛起的契機。</p>
+<p>傳統的數位計算適合需要「精確」和「確定性」的任務。發射火箭需要精確計算軌道，金融系統需要精確追蹤每一分錢，密碼學需要確定性的演算法。這些場景，數位計算無可取代。</p>
+<p>但神經網路不一樣。「神經網路本質上是一種隨機機器，」Rao 說。它不需要精確到小數點後第 16 位，它需要的是大量的平行運算和模式識別。訓練過程本身就充滿隨機性——隨機初始化、隨機抽樣、dropout。模型的「正確答案」從來就不是唯一的，而是一個機率分布。這種「天生模糊」的特性，恰好是類比電路擅長處理的。</p>
+<p>更深層的問題是「時間」。數位計算沒有真正的時間概念——你用數字去「模擬」時間，把它當成一個變數來處理。但真實世界的時間是連續的、不可逆的、有因果性的。大腦的物理結構天生就嵌入了時間：訊號傳遞需要時間、突觸強化需要時間累積、記憶形成需要睡眠週期。這種「動態系統」的特性，可能無法被純粹的數字運算完全捕捉。</p>
+<p>「動態系統意味著時間，」Rao 解釋。「在數位世界，我們沒有這個概念。我們用數字去模擬時間。」但如果你用物理過程本身來計算，時間就是內建的——電流流動需要時間、電容充放電需要時間、訊號在電路中傳播需要時間。這種「物理時間」可能比「模擬時間」更適合處理因果關係。</p>
+<hr>
+<h2 id="unconventional-的方法論">Unconventional 的方法論</h2>
+<p>Rao 強調他們不是「晶片公司」，至少不是傳統意義上的。Unconventional 的前期工作更像是研究機構：搞清楚理論、建立數學框架、證明概念可行。</p>
+<p>他們的起點是目前已知有效的 AI 架構。Transformer、擴散模型、流模型——這些東西已經證明能用，不該丟掉。但它們可以用不同的基板來實現。擴散模型和能量基礎模型特別有趣，因為它們本身就是用常微分方程來描述的，天生就有「動態」的特性。能不能找到一種物理系統，它的演化規律正好對應到這些方程式？如果可以，就能用物理本身來執行這些模型，而不是用數位電路去逐步計算。</p>
+<p>「我們在尋找一種同構關係，」Rao 說，「在電路中找到能夠服務智慧的正確映射。」這不是把神經網路「翻譯」成電路圖那麼簡單，而是要找到物理和演算法之間更深層的對應。</p>
+<p>實際建造會是混合訊號設計——既有類比也有數位。純類比系統太難控制，純數位系統又失去了效率優勢。他們需要的是在對的地方用對的技術。目標是五年內拿出可製造的原型，然後證明它能規模化。Rao 提到，他們的第一顆晶片可能會是「有史以來最大的類比晶片」——這本身就是一個工程挑戰。</p>
+<hr>
+<h2 id="40-年學術研究的收割期">40 年學術研究的收割期</h2>
+<p>類比 AI 晶片不是新概念。學術界研究這個方向超過 40 年了，為什麼現在才有機會商業化？</p>
+<p>Rao 認為有三個關鍵變化。第一是製程技術。現代的 TSMC 能做到的精度，是 40 年前完全無法想像的。當年類比計算失敗的根本原因——製造變異導致的誤差——在奈米級製程下已經大幅改善。不是完全解決，但改善到可以應對。</p>
+<p>第二是 AI 本身改變了賽局。過去沒有明確的「殺手應用」能夠撐起類比計算的商業價值。現在有了。AI 的算力需求如此龐大，能源成本如此高昂，任何能夠顯著提升效率的技術都有市場。這不是「也許有用」，而是「如果能用就是數十億美元的價值」。</p>
+<p>第三是理論進展。過去四十年的學術研究累積了大量的存在證明：某些類比電路確實能執行神經網路運算、某些動態系統確實能實現學習、某些物理過程確實能模擬推理。這些零散的證據，現在需要被整合成可製造的產品。「偉大的工程就是利用別人造好的東西去做新的事，」Rao 說。學術界已經造好了很多零件，現在是組裝的時候。</p>
+<hr>
+<h2 id="如果成功會怎樣">如果成功會怎樣</h2>
+<p>如果 Unconventional 成功，影響遠超「省電」這個表面好處。</p>
+<p>首先是 AI 的普及化。現在只有少數公司負擔得起訓練大型模型的電費。如果能效提升 10 倍、100 倍，AI 的進入門檻會大幅降低。更多玩家、更多實驗、更多創新——這是整個產業的加速。</p>
+<p>其次是邊緣運算的突破。手機、汽車、機器人——這些設備無法接電線，電池容量有限。如果能在毫瓦級功耗下執行複雜的 AI 模型，應用場景會徹底改變。不是「雲端推論結果傳回來」，而是「在設備上即時處理」。</p>
+<p>最後是對「計算」本身的重新定義。80 年來，我們把計算等同於數位計算。如果類比架構證明可行，可能會開啟一個新的範式——不同類型的問題用不同類型的基板來處理。數位處理精確計算，類比處理模式識別。就像人腦有不同區域負責不同功能，未來的計算系統可能也會是異質的。</p>
+<p>「如果我們成功，世界不會忘記這件事，」Rao 說。「這會被寫進歷史書裡。」</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

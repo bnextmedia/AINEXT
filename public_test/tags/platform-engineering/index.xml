@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Platform Engineering on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/platform-engineering/</link>
+    <description>Recent content in Platform Engineering on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 18:20:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/platform-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps 死了嗎？Kubernetes 傳奇 Kelsey Hightower 的 2025 答案</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-devops-2025/</link>
+      <pubDate>Thu, 25 Dec 2025 18:20:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-devops-2025/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 JetBrains 2024 年 12 月發布的訪談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/HdUbTyvrfKo&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;DevOps 死了嗎？&lt;/p&gt;&#xA;&lt;p&gt;這個問題在 2024 年被問了無數次。有人說 DevOps 已經過時，被平台工程取代了。有人說 DevOps 從來沒有真正實現過它的承諾。還有人說 AI 會讓整個討論變得無關緊要。&lt;/p&gt;&#xA;&lt;p&gt;Kelsey Hightower 的答案比這些都複雜，也比這些都務實。他是 Kubernetes 社群最具影響力的布道者，在 Google Cloud 擔任開發者大使超過八年，也是 KubeCon 的共同創辦人。當他談論 DevOps、平台工程、雲端、AI 時，他不是在販賣願景——他是在分享二十多年的一線經驗。&lt;/p&gt;&#xA;&lt;h2 id=&#34;devops-沒死但很多人只是換了-t-shirt&#34;&gt;DevOps 沒死，但很多人只是換了 T-shirt&lt;/h2&gt;&#xA;&lt;p&gt;Hightower 對 DevOps 現況的診斷非常直接：問題不是 DevOps 這個概念，而是很多公司只是假裝在做 DevOps。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>「我喜歡穀倉」——Kelsey Hightower 的反直覺團隊協作論</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-i-like-silos/</link>
+      <pubDate>Thu, 25 Dec 2025 18:10:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-i-like-silos/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 JetBrains 2024 年 12 月發布的訪談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/HdUbTyvrfKo&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「我喜歡穀倉。」&lt;/p&gt;&#xA;&lt;p&gt;當 Kelsey Hightower 說出這句話時，訪談者明顯愣了一下。這是 Kubernetes 社群最具影響力的布道者、前 Google Cloud 開發者大使、KubeCon 共同創辦人——一個 DevOps 運動的標誌性人物——公開挑戰「打破穀倉」這個行業共識。在過去十五年裡，「穀倉」（silos）一直是軟體產業的髒話，代表著官僚、低效、各自為政。每一本談 DevOps 的書、每一場談敏捷的演講，都在告訴你：穀倉是敵人，必須摧毀。&lt;/p&gt;&#xA;&lt;p&gt;然後 Hightower 說：不，你們搞錯了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;機場比喻我不需要知道怎麼開飛機&#34;&gt;機場比喻：我不需要知道怎麼開飛機&lt;/h2&gt;&#xA;&lt;p&gt;Hightower 用了一個精妙的比喻來解釋他的立場。&lt;/p&gt;&#xA;&lt;p&gt;「當我去機場時，」他說，「我不知道怎麼開飛機。我不知道怎麼經營一家航空公司。我買我的機票——這是一個非常棒的 API。我購買機票，我出現在機場，我坐到指定的座位上，我閉上眼睛，醒來時我已經在另一個國家了，然後我離開。」&lt;/p&gt;&#xA;&lt;p&gt;他停頓了一下。「我可能會跟機長說聲謝謝。但除此之外，我不需要任何其他的互動就能完成一件像飛到另一個地方這樣平常的事。」&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kelsey Hightower 談 AI：為什麼預測？明明可以確定</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-ai-determinism/</link>
+      <pubDate>Thu, 25 Dec 2025 18:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-ai-determinism/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 JetBrains 2024 年 12 月發布的訪談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/HdUbTyvrfKo&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「為什麼要預測？明明可以確定。」&lt;/p&gt;&#xA;&lt;p&gt;這是 Kelsey Hightower 在談到 AI 時拋出的問題。這句話看起來像是在唱衰 AI，但實際上是一個老練工程師對技術本質的深刻反思。Hightower 在 Google Cloud 擔任開發者大使超過八年，是 Kubernetes 社群最具影響力的布道者，也是 KubeCon 的共同創辦人。當整個科技圈都在為 AI 瘋狂時，他選擇退一步，問一個根本性的問題：我們真的知道自己在做什麼嗎？&lt;/p&gt;&#xA;&lt;h2 id=&#34;整個職涯都在讓系統可預測現在卻擁抱不確定&#34;&gt;整個職涯都在讓系統可預測，現在卻擁抱不確定？&lt;/h2&gt;&#xA;&lt;p&gt;Hightower 的觀點來自一個簡單的觀察：軟體工程師這個職業，本質上就是在把不確定的東西變成可預測的東西。當系統表現得不可預測時，我們叫它 bug。當系統做了預期之外的事，我們叫它安全漏洞。我們寫單元測試、整合測試、端對端測試，就是為了確保系統「只按照預期運作，而且只能按照預期運作」。&lt;/p&gt;&#xA;&lt;p&gt;然後 AI 來了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

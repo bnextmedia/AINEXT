@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demis Hassabis on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/demis-hassabis/</link>
+    <description>Recent content in Demis Hassabis on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/demis-hassabis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>諾貝爾獎得主 Demis Hassabis：「5 到 10 年內，AGI 將改變一切」</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-hassabis-agi-five-to-ten-years/</link>
+      <pubDate>Thu, 25 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-hassabis-agi-five-to-ten-years/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 CBS《60 Minutes》2025 年播出的 AI 專題報導。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/KpOcUrPdx-4&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Demis Hassabis 去年贏得諾貝爾獎的那天晚上，他的慶祝方式是和一位西洋棋世界冠軍打撲克牌。&lt;/p&gt;&#xA;&lt;p&gt;這個細節很能說明這個人：他熱愛遊戲，而正是這份熱愛讓他成為人工智慧的先驅。這位 49 歲的英國科學家是 Google DeepMind 的共同創辦人兼 CEO，也是目前 AI 領域最具影響力的人物之一。&lt;/p&gt;&#xA;&lt;p&gt;60 Minutes 兩年前曾專訪他，當時聊天機器人剛宣告新時代來臨。這次，他們再度造訪倫敦，想知道：AGI 還有多遠？&lt;/p&gt;&#xA;&lt;p&gt;Hassabis 的答案是：5 到 10 年。&lt;/p&gt;&#xA;&lt;h2 id=&#34;指數曲線直直往上&#34;&gt;「指數曲線，直直往上」&lt;/h2&gt;&#xA;&lt;p&gt;「AI 發展的速度比你兩年前預期的還快嗎？」記者問。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DeepMind CEO 的不眠之夜：站在 AGI 門檻上的人</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-sleepless-nights/</link>
+      <pubDate>Mon, 22 Dec 2025 22:05:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-sleepless-nights/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Google DeepMind Podcast 2024 年 12 月播出的單集，由 Hannah Fry 主持，專訪 DeepMind 共同創辦人兼 CEO Demis Hassabis。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/PqVbypvxDto&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「我睡得很少。」&lt;/p&gt;&#xA;&lt;p&gt;Demis Hassabis 在訪談中坦承這件事，語氣平淡，像是在說一個早已習慣的事實。不是因為工作太多——雖然工作確實多——而是因為睡不著。「這是一種非常複雜的情緒，」他說。&lt;/p&gt;&#xA;&lt;p&gt;一方面，他正在做自己夢想了一輩子的事。另一方面，他比任何人都清楚這件事的重量。當主持人 Hannah Fry 問他「站在 AI 前沿是什麼感覺」時，他沒有給出勵志演說式的答案。他說：孤獨、興奮、焦慮，同時存在。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;從西洋棋到-deepmind三十年的準備&#34;&gt;從西洋棋到 DeepMind：三十年的準備&lt;/h2&gt;&#xA;&lt;p&gt;Hassabis 四歲開始下西洋棋，十三歲成為當時世界上排名第二的同齡棋手。西洋棋教會他的不只是計算和策略，更是一種面對競爭的心態。「我為競爭而生，」他說，「這是我從棋盤上學到的。」&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI 革命會比工業革命快 10 倍——Demis Hassabis 的社會預言</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-industrial-revolution/</link>
+      <pubDate>Mon, 22 Dec 2025 22:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-industrial-revolution/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Google DeepMind Podcast 2024 年 12 月播出的單集，由 Hannah Fry 主持，專訪 DeepMind 共同創辦人兼 CEO Demis Hassabis。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/PqVbypvxDto&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「十倍規模，十倍速度。」&lt;/p&gt;&#xA;&lt;p&gt;Demis Hassabis 用這八個字形容 AI 革命與工業革命的差異。工業革命花了大約一個世紀讓社會適應；AI 革命可能只給我們一個十年。這不是科幻小說的設定，而是一位正在打造 AGI 的人，對未來十年的實際判斷。&lt;/p&gt;&#xA;&lt;p&gt;在 Google DeepMind Podcast 的訪談中，Hassabis 花了相當篇幅談社會影響。他不只是在做技術預測，更像是在發出預警：我們準備好了嗎？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Demis Hassabis 的 AGI 路線圖：世界模型才是關鍵拼圖</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-agi-roadmap/</link>
+      <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-hassabis-agi-roadmap/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Google DeepMind Podcast 2024 年 12 月播出的單集，由 Hannah Fry 主持，專訪 DeepMind 共同創辦人兼 CEO Demis Hassabis。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/PqVbypvxDto&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Gemini 2.0 剛發布，外界都在討論這個模型的能力提升。但在這集訪談中，Demis Hassabis 談得最興奮的，其實不是 Gemini 本身。他花了更多時間講「世界模型」——一種能理解物理世界運作方式的 AI 系統。在他看來，這才是通往 AGI 的關鍵拼圖。&lt;/p&gt;&#xA;&lt;p&gt;這集訪談揭示了 DeepMind 內部怎麼看 AI 發展的路徑。不是單純的「把模型做大」，而是一條更複雜、需要多種技術匯流的道路。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

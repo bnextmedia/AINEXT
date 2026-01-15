@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI框架 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai%E6%A1%86%E6%9E%B6/</link>
+    <description>Recent content in AI框架 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 24 Dec 2025 12:35:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai%E6%A1%86%E6%9E%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>黃仁勳的「AI 五層蛋糕」——為什麼理解這個框架比追 ChatGPT 更重要</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-jensen-huang-ai-five-layers/</link>
+      <pubDate>Wed, 24 Dec 2025 12:35:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-jensen-huang-ai-five-layers/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自黃仁勳（Jensen Huang）於 2024 年 12 月在華府的公開對談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/jpZ0dPsnIWw&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;多數人談 AI，談的是 ChatGPT。更進階一點的，可能還會聊 Claude、Gemini、Grok。但黃仁勳在華府的這場對談中，開頭就丟出一個數字：全世界有 150 萬個 AI 模型。ChatGPT、Claude、Gemini、Grok？這四個加起來，只是 150 萬分之四。&lt;/p&gt;&#xA;&lt;p&gt;這不是在炫耀數字。黃仁勳想說的是：如果你只盯著這幾個「明星模型」看 AI 產業，你根本沒看到全貌。他用了一個簡單但有力的框架來解釋整個 AI 產業的結構——他稱之為「五層蛋糕」。理解這個框架，比追著看哪個 AI 又更新了更重要。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第一層能源&#34;&gt;第一層：能源&lt;/h2&gt;&#xA;&lt;p&gt;蛋糕的最底層是能源。這聽起來很基礎，但黃仁勳認為這是川普政府上任後做對的第一件事。&lt;/p&gt;&#xA;&lt;p&gt;「如果沒有能源，我們怎麼建晶片廠？怎麼建電腦系統廠？怎麼建那些我們稱之為 AI 工廠的資料中心？」黃仁勳直接點出問題。美國現在同時在建三種工廠：晶片工廠、超級電腦工廠、AI 工廠。每一種都需要大量能源。但問題是，中國的能源產能是美國的兩倍，而且還在快速成長。美國？基本持平。&lt;/p&gt;&#xA;&lt;p&gt;這個數字讓人不安。美國的經濟規模比中國大，能源產能卻只有人家一半。更麻煩的是，過去幾年美國社會對能源產業的態度偏向敵視。黃仁勳認為，川普政府願意公開支持能源產業發展，是「上任後做的最重要的事情之一」。沒有能源，後面四層都是空談。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

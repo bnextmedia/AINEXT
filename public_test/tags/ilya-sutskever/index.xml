@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ilya Sutskever on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ilya-sutskever/</link>
+    <description>Recent content in Ilya Sutskever on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 11:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ilya-sutskever/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ilya Sutskever 離開 OpenAI 後首次深度訪談：10 個關鍵洞見</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-ilya-sutskever-ten-insights/</link>
+      <pubDate>Thu, 25 Dec 2025 11:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-ilya-sutskever-ten-insights/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2024 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/aR20FWCCjAs&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Ilya Sutskever 是深度學習革命的核心人物。從 2012 年的 AlexNet 到 GPT 系列，他參與了過去十年幾乎所有重要的 AI 突破。2024 年，他離開 OpenAI，創辦了專注於超級智慧的公司 SSI（Safe Superintelligence Inc.）。&lt;/p&gt;&#xA;&lt;p&gt;這是他離開後首次接受深度訪談，時長超過一個半小時。以下是十個最重要的洞見。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-我們正從-scaling-時代回到研究時代&#34;&gt;1. 我們正從 Scaling 時代回到研究時代&lt;/h2&gt;&#xA;&lt;p&gt;「2012 到 2020 年是研究時代。2020 到 2025 年是 Scaling 時代。現在，我們又回到研究時代了——只是電腦變大了。」&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ilya Sutskever：人類的學習能力遠超 AI，而且原因不是你想的那樣</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-ilya-sutskever-human-learning-superiority/</link>
+      <pubDate>Thu, 25 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-ilya-sutskever-human-learning-superiority/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2024 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/aR20FWCCjAs&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Yann LeCun 曾說過，人類青少年只需要大約十小時的練習就能學會開車。&lt;/p&gt;&#xA;&lt;p&gt;Ilya Sutskever 在訪談中回應這個觀察：「這是真的，但我們的視覺能力太強了。我記得我五歲的時候對車很著迷，我很確定當時我的車輛辨識能力就已經足夠用於自動駕駛了。」&lt;/p&gt;&#xA;&lt;p&gt;一個五歲小孩，大部分時間待在家裡，看到的車輛資料極其有限，卻能發展出足以支撐複雜駕駛任務的視覺能力。這怎麼可能？&lt;/p&gt;&#xA;&lt;h2 id=&#34;人類學習的三個驚人特點&#34;&gt;人類學習的三個驚人特點&lt;/h2&gt;&#xA;&lt;p&gt;Ilya 指出，人類的學習能力有幾個讓 AI 研究者羨慕的特點。&lt;/p&gt;&#xA;&lt;p&gt;第一，樣本效率高得離譜。模型需要看過幾乎整個網路的資料才能有今天的能力，人類十五年就能用極少量資料學會很多事情。我們知道的東西可能比模型少，但「知道的深度」不一樣。五歲小孩不會犯 AI 會犯的那種低級錯誤。&lt;/p&gt;&#xA;&lt;p&gt;第二，不需要可驗證的獎勵。訓練 AI 需要明確的對錯信號，但人類學習不是這樣。一個年輕研究員跟著資深研究員工作，看他怎麼思考、怎麼寫程式，就能吸收他的思維方式。不需要有人設計課程、設計獎勵函數。「這不是什麼『好，這是你課程的下一部分，然後這是下一部分，然後訓練不穩定了我們得調整&amp;hellip;』那種繁瑣的過程。」&lt;/p&gt;&#xA;&lt;p&gt;第三，極度穩健。人類的能力很少會在奇怪的邊界情況下崩潰。我們可能不是最強的，但我們是穩定的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;這不只是進化給的先驗知識&#34;&gt;這不只是進化給的先驗知識&lt;/h2&gt;&#xA;&lt;p&gt;有人可能會說：這是進化給我們的優勢。幾百萬年的演化讓我們的大腦有了某些「先天設定」，所以學得快。&lt;/p&gt;&#xA;&lt;p&gt;Ilya 不完全同意。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ilya Sutskever：為什麼 AI 模型在測驗上很強，實際使用卻讓人抓狂？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-ilya-sutskever-eval-vs-real-world/</link>
+      <pubDate>Thu, 25 Dec 2025 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-ilya-sutskever-eval-vs-real-world/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2024 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/aR20FWCCjAs&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;你有沒有遇過這種情況？&lt;/p&gt;&#xA;&lt;p&gt;你用 AI 寫程式，它很快生出一版。跑起來有 bug，你告訴它。它說：「天哪你說得對！讓我修一下。」然後製造了第二個 bug。你再告訴它，它又說：「天哪我怎麼會犯這種錯！」然後把第一個 bug 帶回來。你可以在這兩個 bug 之間無限循環。&lt;/p&gt;&#xA;&lt;p&gt;Ilya Sutskever 在訪談中描述了這個場景，然後問了一個尖銳的問題：「這怎麼可能？」&lt;/p&gt;&#xA;&lt;p&gt;一個模型能在各種困難的評測上拿高分，能解競程題目、能寫複雜程式，怎麼會在這種基本情境中卡住？&lt;/p&gt;&#xA;&lt;h2 id=&#34;這個矛盾有多嚴重&#34;&gt;這個矛盾有多嚴重？&lt;/h2&gt;&#xA;&lt;p&gt;Ilya 說，這是目前 AI 最讓人困惑的現象之一。&lt;/p&gt;&#xA;&lt;p&gt;「模型在評測上表現太好了。你看那些評測，會覺得『這真的很難耶』。但經濟影響卻遠遠落後。」&lt;/p&gt;&#xA;&lt;p&gt;他指的是，如果按照評測分數來看，這些模型應該已經能大幅提升生產力、改變工作方式。但實際上呢？大家確實在用，但還沒有看到那種「整個產業被翻轉」的效果。&lt;/p&gt;&#xA;&lt;p&gt;這個落差怎麼解釋？&lt;/p&gt;&#xA;&lt;h2 id=&#34;第一個解釋rl-訓練讓模型變成考試機器&#34;&gt;第一個解釋：RL 訓練讓模型變成考試機器&lt;/h2&gt;&#xA;&lt;p&gt;Ilya 提出的第一個解釋有點諷刺。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ilya Sutskever：我們正從 Scaling 時代，進入研究時代</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-ilya-sutskever-age-of-research/</link>
+      <pubDate>Thu, 25 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-ilya-sutskever-age-of-research/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2024 年 12 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/aR20FWCCjAs&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「2012 到 2020 年，是研究時代。2020 到 2025 年，是 Scaling 時代。現在，我們又回到研究時代了——只是電腦變大了。」&lt;/p&gt;&#xA;&lt;p&gt;這是 Ilya Sutskever 在離開 OpenAI 後首次深度訪談中說的話。Ilya 是深度學習革命的核心人物之一，從 AlexNet 到 GPT-3，他參與了幾乎所有重要的突破。他現在創辦了 SSI（Safe Superintelligence Inc.），專注於超級智慧的研究。&lt;/p&gt;&#xA;&lt;p&gt;當這樣一個人說「Scaling 時代結束了」，值得認真聽。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

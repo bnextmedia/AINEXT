@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLM 教學 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/llm-%E6%95%99%E5%AD%B8/</link>
+    <description>Recent content in LLM 教學 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 11:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/llm-%E6%95%99%E5%AD%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Karpathy 的教育願景：打造 AI 時代的星際艦隊學院</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-eureka-starfleet-academy/</link>
+      <pubDate>Fri, 26 Dec 2025 11:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-eureka-starfleet-academy/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2025 年 10 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/lXUZvyajciY&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Andrej Karpathy 可以選擇開一家 AI 公司。以他的經歷和人脈，募資不會是問題。但他選擇了教育。這個選擇背後的邏輯，比表面看起來更深刻——它關乎他對 AI 時代人類角色的根本擔憂。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼不開-ai-公司&#34;&gt;為什麼不開 AI 公司？&lt;/h2&gt;&#xA;&lt;p&gt;Karpathy 的解釋很直接：他覺得 AI 實驗室正在做的事情有一種「確定性」。意思是，就算沒有他，那些事情也會發生。他可以在那裡幫忙，但不會「獨特地」改善什麼。&lt;/p&gt;&#xA;&lt;p&gt;他真正擔心的是另一件事：人類會被邊緣化。他最怕的場景不是 AI 建不出戴森球，而是 AI 建出了戴森球，但人類變成了《瓦力》或 Idiocracy 裡那種廢人——坐在飄浮椅上，一切都被自動化處理，人類什麼都不用做，也什麼都不會做。如果那是未來，他根本不在乎有沒有戴森球。&lt;/p&gt;&#xA;&lt;p&gt;所以他選擇教育。他認為這是他能「獨特地」增加價值的地方。讓人類在 AI 時代保持強大、保持有能力，這件事不會自動發生，需要有人去做。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

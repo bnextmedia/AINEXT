@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>「研究品味」比天才更重要—— google deep mind 如何打造頂尖 ai 研究團隊 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="「研究品味」比天才更重要——Google DeepMind 如何打造頂尖 AI 研究團隊">
+<meta property="og:description" content="
+本文整理自《The MAD Podcast with Matt Turck》2025 年 12 月 18 日播出的單集，訪談來賓為 Google DeepMind Gemini 3 預訓練負責人 Sebastian Bourgeaud。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251223-gemini3-research-taste/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251223-gemini3-research-taste/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>23. December 2025</p>
+      <h1 class="post_title">「研究品味」比天才更重要——Google DeepMind 如何打造頂尖 AI 研究團隊</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自《The MAD Podcast with Matt Turck》2025 年 12 月 18 日播出的單集，訪談來賓為 Google DeepMind Gemini 3 預訓練負責人 Sebastian Bourgeaud。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/cNGDAqFXvew" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<h2 id="150-人的團隊如何協作">150 人的團隊如何協作</h2>
+<p>Sebastian Bourgeaud 是 Google DeepMind 負責 Gemini 3 預訓練的核心負責人。當主持人問他這個職位具體做什麼時，他的回答出乎意料地強調了「協調」。</p>
+<p>「這個角色是很多不同事情的混合。一部分是真正的研究——試著讓模型變得更好。但現在比較少自己跑實驗，更多的是幫忙設計實驗、然後和團隊成員一起檢視結果。」他說。「第二部分，而且是很有趣的一部分，是協調和整合。這是一個相當大的團隊——大概 150 到 200 人——在預訓練的各個面向工作，包括數據、模型、基礎設施、評估。把所有這些人的工作協調成我們可以一起建造的東西，其實非常複雜，需要花很多時間，尤其是要做好的話。」</p>
+<p>這段話透露了一個常被忽略的事實：當代前沿 AI 研究的瓶頸，往往不是某個天才研究者的靈感，而是如何讓一個龐大團隊的工作有效整合。Bourgeaud 明確表示：「對我來說，能讓每個人都產出成果，才是我們取得最大進展的方式，而不是讓一兩個人或一小群十個人跑在所有人前面。」</p>
+<hr>
+<h2 id="對複雜性過敏研究品味的核心">「對複雜性過敏」——研究品味的核心</h2>
+<p>訪談中，Bourgeaud 用了一個有趣的詞：「研究品味」（research taste）。主持人追問這是什麼意思，他給了一個讓人印象深刻的回答。</p>
+<p>「這很難量化，但有幾件事很重要。第一，你的研究不是孤立的，這是我之前提到的——你的研究必須和其他人的研究配合得好，必須能整合。」他解釋。「假設我有一個改進模型的方法，但它讓模型對其他人來說難用了 5%。這可能不是一個好的權衡，因為你會拖慢其他人的研究，而這累積起來會拖慢持久的研究進展。」</p>
+<p>第二個面向更有趣：「對複雜性過敏」（being allergic to complexity）。</p>
+<p>Bourgeaud 承認「複雜性」本身是主觀的，取決於人們熟悉什麼。但他認為團隊有一個隱性的「複雜性預算」，當這個預算花光，事情就會開始出問題。因此，管理這個預算至關重要。</p>
+<p>「很多時候，我們不一定想用某個研究想法的最佳性能版本，而是寧願犧牲一些性能，換取一個複雜度稍低的版本，因為我們認為這會讓我們在未來能取得更多進展。」這是一個違反直覺的選擇——為什麼不要最好的版本？但在一個複雜系統中，局部最優往往不是全局最優。一個「完美」但難以維護的解決方案，可能會阻礙團隊在這個基礎上繼續改進。</p>
+<hr>
+<h2 id="負面結果不代表失敗">負面結果不代表失敗</h2>
+<p>另一個關於「研究品味」的觀察，與如何詮釋負面結果有關。</p>
+<p>在傳統科學中，負面結果——也就是「這個假設不成立」的發現——本身就是有價值的知識。但在深度學習研究中，情況更微妙。Bourgeaud 說：「在深度學習中，負面結果不代表某件事不可行。它通常意味著你還沒有讓它可行。」</p>
+<p>這個觀察來自大量的實戰經驗。一個研究想法在小規模實驗中失敗，可能只是因為超參數沒調對、訓練時間不夠長、或是數據預處理有問題。同一個想法換一組設定可能就會成功。因此，判斷什麼時候該放棄一個方向、什麼時候該繼續嘗試，是一種需要經驗才能培養的直覺。</p>
+<p>這也解釋了為什麼「研究品味」如此難以量化。它不是知道某個具體的技術細節，而是一種整體性的判斷力——知道什麼問題值得追、什麼時候該轉向、什麼樣的解決方案會在長期帶來麻煩。</p>
+<hr>
+<h2 id="短期修復-vs-長期探索動態的平衡">短期修復 vs 長期探索：動態的平衡</h2>
+<p>任何研究團隊都面臨一個永恆的難題：該把資源投入短期可見的改進，還是長期但不確定的探索？Bourgeaud 承認他沒有一個明確的答案，這個比例是動態調整的。</p>
+<p>「總是有一些 critical path 上的事情要做，或是模型的某個部分需要改進，我們知道某個部分不太理想。所以我們在修復這些立即的問題上投入相當多的資源。」他說。這種選擇有兩個理由：首先，這是相對確定會讓模型變好的投資；其次，那些看起來不太完美的地方，往往會在規模擴大或模型能力增強時爆發出問題。</p>
+<p>「但第二部分是更探索性的研究——那些可能會在下一個版本或再下一個版本的 Gemini 中落地的想法，它們對模型性能可能有更大的影響，但還沒有完全驗證。」</p>
+<p>Bourgeaud 提到一個有趣的時間節奏：當團隊正在進行一次大規模訓練時，因為當下沒有什麼緊迫需要修復的問題，反而有更多餘裕進行探索性研究。這種週期性讓團隊在執行和探索之間保持平衡。</p>
+<hr>
+<h2 id="研究與工程的界線消失了">研究與工程的界線消失了</h2>
+<p>另一個值得注意的觀察：在當代大型模型研究中，「研究」和「工程」的邊界已經高度模糊。</p>
+<p>「研究 vs 工程這個對比很有趣。我認為隨著時間推移，這個邊界變得非常模糊，因為我們現在在處理這些非常大的系統。研究真的很像工程，反過來也是。」Bourgeaud 說。「我認為這是一種心態上的轉變，在 DeepMind 尤其明顯——過去可能更偏向傳統的研究心態，現在有了 Gemini，真的更像是研究工程（research engineering）。」</p>
+<p>這意味著，光有好的研究想法是不夠的。你必須能在一個極其複雜的系統中實現這個想法、驗證它、並且讓它和系統的其他部分協作。同時，光是優秀的工程能力也不夠——你需要理解這些系統背後的原理，才能知道什麼改動會有效、什麼改動可能造成意想不到的問題。</p>
+<p>Bourgeaud 特別強調了垂直整合的重要性：「能理解整個堆疊如何運作，從 TPU 一路到研究，是一種超能力。因為這讓你能看到不同層之間的縫隙——別人可能看不到的縫隙——也能推演出你的研究想法一路下到 TPU 堆疊會有什麼影響。」</p>
+<hr>
+<h2 id="能讓-150-人都產出成果比讓-10-人跑得快更重要">能讓 150 人都產出成果，比讓 10 人跑得快更重要</h2>
+<p>回到最初的問題：如何打造一個頂尖的 AI 研究團隊？</p>
+<p>Bourgeaud 的答案沒有什麼戲劇性的元素。沒有天才的靈光一現，沒有「一個大發現改變一切」的英雄敘事。相反，他強調的是整合、協調、對複雜性的敏感度、以及讓每個團隊成員都能有效貢獻的能力。</p>
+<p>「真正讓 Gemini 3 比前幾代好這麼多的，是來自一個非常大的團隊的許許多多改進，加在一起。」他總結。這不是謙虛的說詞，而是對當代 AI 研究本質的準確描述。當模型規模達到數百億參數、訓練數據達到數兆 token、訓練時間以月計算、團隊規模達到數百人時，任何單點的突破都會被系統複雜性稀釋。真正的槓桿點，是讓這個龐大的系統能夠順暢運轉。</p>
+<p>這對於任何試圖在 AI 領域競爭的組織都是重要的啟示。擁有幾個明星研究者當然有幫助，但更重要的可能是：你能不能建立一個讓一百多人有效協作的系統？你的組織文化是否「對複雜性過敏」？你的研究成果能不能順利整合進一個比任何單一研究都更複雜的系統？</p>
+<p>這些問題的答案，可能比任何單一的技術突破更能決定誰會在這場競賽中勝出。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blackwell on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/blackwell/</link>
+    <description>Recent content in Blackwell on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 22 Dec 2025 21:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/blackwell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reasoning 如何拯救 AI：一場你不知道的 18 個月危機</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-reasoning-saved-ai-scaling-laws/</link>
+      <pubDate>Mon, 22 Dec 2025 21:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-reasoning-saved-ai-scaling-laws/</guid>
+      <description>&lt;p&gt;如果不是 Reasoning 模型的出現，AI 的進展可能在 2024 年就停滯了。這個說法聽起來驚人，但背後有著嚴謹的技術邏輯——而且這個故事鮮為人知。&lt;/p&gt;&#xA;&lt;p&gt;Gavin Baker 是 Atreides 投資公司創辦人，曾任 Fidelity 科技基金經理人，長期追蹤 AI 與半導體產業。2024 年 12 月，他接受知名投資 Podcast《Invest Like the Best》主持人 Patrick O&amp;rsquo;Shaughnessy 專訪，深入剖析了 AI 產業的競爭格局、技術演進與投資邏輯。在這場近兩小時的對談中，他揭露了一個公開市場投資人普遍忽略的事實：基於預訓練規模定律的邏輯，2024 和 2025 年的 AI 進展「理論上不應該發生」。這個看似矛盾的陳述，需要從 Scaling Laws 的本質說起。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;scaling-laws我們精確測量卻不理解的神秘法則&#34;&gt;Scaling Laws：我們精確測量卻不理解的神秘法則&lt;/h2&gt;&#xA;&lt;p&gt;要理解 Reasoning 為什麼「拯救」了 AI，首先要理解什麼是 Scaling Laws（規模定律）。這個概念是當前 AI 發展的核心驅動力，但它的本質卻帶有一種令人不安的神秘性。&lt;/p&gt;&#xA;&lt;p&gt;Pre-training Scaling Laws（預訓練規模定律）並非像牛頓力學那樣的物理定律，而是一個「經驗觀察」。研究人員發現，當你增加模型的參數量、訓練資料量、以及運算量時，模型的表現會以一種可預測的方式提升。這個觀察已經被精確測量並持續驗證了很長時間，成為各大 AI 實驗室投入數十億美元建設超大規模運算叢集的理論基礎。然而，沒有人真正知道這個定律為什麼會成立。&lt;/p&gt;&#xA;&lt;p&gt;Baker 用了一個精妙的比喻來描述這種認知落差。古埃及人可以精確測量太陽的運行軌跡，精確到能夠把金字塔的東西軸完美對準春分點，巨石陣的建造者同樣展現了對太陽週期的精確掌握。但他們完全不懂軌道力學，不知道地球繞著太陽轉，不知道為什麼太陽會東升西落、為什麼會有四季變化。他們的神話中，太陽是由神駕著戰車拉過天空。當代 AI 研究者對 Scaling Laws 的理解，與古人對太陽的理解處於類似的階段：精確測量，但缺乏根本性的理解。&lt;/p&gt;&#xA;&lt;p&gt;這種認知狀態帶來了一個實際問題：既然我們不知道 Scaling Laws 為什麼會成立，我們也無法確定它什麼時候會停止成立。每一次新模型的訓練，都是對這個經驗定律的又一次驗證。這就是為什麼 2024 年底 Google 發布 Gemini 3 時，業界如此關注——它證明了預訓練規模定律在又一個數量級上依然有效。這個確認對於整個產業的信心至關重要，因為目前所有的大規模資本支出，都是基於這個定律會繼續成立的假設。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;blackwell-延遲科技史上最複雜的產品轉換&#34;&gt;Blackwell 延遲：科技史上最複雜的產品轉換&lt;/h2&gt;&#xA;&lt;p&gt;2024 年，Nvidia 的新一代晶片 Blackwell 遭遇了嚴重的產品延遲。這不是普通的供應鏈問題或良率挑戰，而是科技史上「最複雜的產品轉換」之一。理解這次延遲的嚴重性，需要先理解從 Hopper 到 Blackwell 究竟改變了什麼。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

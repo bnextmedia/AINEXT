@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 模型 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E6%A8%A1%E5%9E%8B/</link>
+    <description>Recent content in AI 模型 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Model Wars 年終回顧：從 GPT-5 到 Gemini 3 的瘋狂四個月</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-model-wars-2025-year-in-review/</link>
+      <pubDate>Fri, 26 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-model-wars-2025-year-in-review/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 TBPN 2025 年 12 月 18 日播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    src=&#34;https://open.spotify.com/embed/episode/1v3nZ2FuZ1HFivr79nWjid&#34; &#xA;    width=&#34;100%&#34; &#xA;    height=&#34;152&#34; &#xA;    frameBorder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; &#xA;    loading=&#34;lazy&#34;&#xA;    style=&#34;border-radius: 12px;&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「Gemini 3 的發布才一個月前，感覺已經像是很久以前的事了。」TBPN 主持人在 12 月中的節目上這樣感嘆。這句話精準捕捉了 2025 年下半年 AI 產業的節奏——模型發布的速度之快，讓人幾乎來不及消化。從 8 月到 12 月，各大 AI 實驗室密集推出了超過十個重要模型，每一次發布都引發新一輪的排名洗牌和敘事轉變。這是一場史無前例的模型軍備競賽，而我們正身處其中。&lt;/p&gt;&#xA;&lt;h2 id=&#34;瘋狂四個月模型發布時間軸&#34;&gt;瘋狂四個月：模型發布時間軸&lt;/h2&gt;&#xA;&lt;p&gt;讓我們先回顧這段時間發生了什麼。8 月 7 日，OpenAI 發布 GPT-5，這是繼 GPT-4 之後睽違超過一年的重大版本更新。9 月 29 日，Anthropic 發布 Claude Sonnet 4.5，緊接著隔天，OpenAI 發布了影片生成模型 Sora 2，同一天 Meta 也發布了 Ray-Bans 顯示器整合。&lt;/p&gt;&#xA;&lt;p&gt;11 月是最瘋狂的月份。11 月 3 日，OpenAI 和 Amazon 宣布價值 380 億美元的合作案。11 月 12 日，GPT-5.1 發布。11 月 17 日，Elon Musk 的 xAI 發布 Grok 4.1。11 月 18 日，Google 發布 Gemini 3——這個發布在當時引發了巨大迴響，被視為 Google 在 AI 競賽中重新站穩腳步的標誌。11 月 20 日，NanoBananaPro（一個影像生成模型）問世。11 月 24 日，Anthropic 發布 Claude Opus 4.5。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

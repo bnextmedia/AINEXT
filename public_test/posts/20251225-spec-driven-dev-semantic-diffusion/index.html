@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>從 spec driven dev 到 context engineering—— ai 編程方法論的語意漂移 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="從 Spec-Driven Dev 到 Context Engineering——AI 編程方法論的語意漂移">
+<meta property="og:description" content="
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-spec-driven-dev-semantic-diffusion/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-spec-driven-dev-semantic-diffusion/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">從 Spec-Driven Dev 到 Context Engineering——AI 編程方法論的語意漂移</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/rmvDxxNubIg" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<blockquote>
+<p>本文整理自 AI Engineer World&rsquo;s Fair 2025 的演講「No Vibes Allowed: Solving Hard Problems in Complex Codebases」。</p>
+</blockquote>
+<p>有人問 Dex Horthy：「你講的這套不就是 Spec-Driven Development 嗎？」</p>
+<p>他的回答很直接：「不是。Spec-Driven Development 壞掉了。」</p>
+<p>不是這個概念壞掉了，是這個詞壞掉了。</p>
+<h2 id="semantic-diffusion一個-2006-年的老問題">Semantic Diffusion：一個 2006 年的老問題</h2>
+<p>Dex 在演講中放了一張照片，問台下有沒有人認得。沒幾個人舉手——那是 Martin Fowler，軟體工程界的教父級人物之一。</p>
+<p>Fowler 在 2006 年提出一個概念叫「Semantic Diffusion」（語意擴散）。他的觀察是這樣的：</p>
+<ol>
+<li>有人提出一個好術語，有清楚的定義</li>
+<li>大家都很興奮，開始使用這個詞</li>
+<li>每個人開始用它來指稱稍微不同的東西</li>
+<li>最後這個詞對一百個人有一百種意思</li>
+<li>詞彙失去意義，變得沒用</li>
+</ol>
+<p>「Agent」這個詞就是典型的例子。它曾經指：</p>
+<ul>
+<li>人類代理人</li>
+<li>微服務</li>
+<li>聊天機器人</li>
+<li>自動化工作流程</li>
+<li>帶有工具的 LLM</li>
+</ul>
+<p>這個詞被用到爛掉了，以至於 Simon Willison 必須出來重新定義：「Agent 就是工具加迴圈。」回到最簡單的定義，因為其他所有的引申義都已經讓這個詞失去溝通功能。</p>
+<p>Dex 說，這就是為什麼「永遠不會有 Agent 元年」。不是因為技術做不到，而是因為這個詞已經被語意擴散到沒有人知道它到底指什麼了。</p>
+<h2 id="spec-driven-development-的一百種意思">Spec-Driven Development 的一百種意思</h2>
+<p>同樣的事情正在發生在「Spec-Driven Development」身上。</p>
+<p>Dex 說他本來在演講的開頭放了 Sean Wang 的那張著名 slide——「忘掉程式碼，它現在就像 assembly，你只要管 Markdown 就好。」很酷的想法，但他發現這讓聽眾把注意力放在錯的地方。</p>
+<p>因為「Spec-Driven Dev」對不同人有完全不同的意思：</p>
+<p><strong>對有些人來說</strong>，spec 就是「更詳細的 prompt」。你本來只寫「幫我做一個登入頁面」，現在你寫一整頁的需求描述。這叫 spec-driven。</p>
+<p><strong>對另一些人來說</strong>，spec 是正式的產品需求文件（PRD）。你有產品經理寫的規格書，你把它餵給 AI。</p>
+<p><strong>對技術派來說</strong>，spec-driven 意味著可驗證的回饋迴圈——你有測試案例，AI 寫 code，跑測試，失敗就重來，直到測試通過。</p>
+<p><strong>對 Sean Wang 來說</strong>，spec-driven 是把程式碼當 assembly，你只管理高層級的 markdown 規格文件，AI 負責實作細節。</p>
+<p><strong>對大多數人來說</strong>，spec-driven 只是「寫程式的時候旁邊放一堆 markdown 檔案」。</p>
+<p>Dex 說他上週還看到有人用「spec」來指「開源函式庫的文件」。</p>
+<p>這個詞已經擴散到沒有意義了。</p>
+<h2 id="四件真正有效的事">四件真正有效的事</h2>
+<p>既然流行術語沒用，Dex 決定講四件「實際上 work」的事情。不是什麼 hype-y 的方法論，就是他們團隊和使用者實測有效的做法。</p>
+<h3 id="1-即時研究壓縮真相">1. 即時研究，壓縮真相</h3>
+<p>第一件事是「研究」。在開始寫任何 code 之前，先搞清楚系統怎麼運作。</p>
+<p>這不是說你要預先維護一份龐大的「codebase 文件」——那種東西一定會過時，過時的文件比沒有文件更糟。Dex 放了一張圖表，問觀眾 Y 軸是什麼：「在程式碼庫的不同層級裡，你能找到多少謊言？」答案是：文件 &gt; 註解 &gt; 函式名稱 &gt; 實際程式碼。越抽象的層級，謊言越多。</p>
+<p>他們的做法是「on-demand compressed context」——按需產生壓縮過的 context。當你要做一個功能，你給 AI 一點方向指引（「我們要動的是這塊」），然後讓它派 sub-agents 去讀相關的程式碼，最後產出一份研究文件。</p>
+<p>這份文件是對「現在的程式碼實際上怎麼運作」的快照。不是過時的文件，是從真實程式碼壓縮出來的真相。</p>
+<h3 id="2-計畫是意圖的壓縮">2. 計畫是意圖的壓縮</h3>
+<p>第二件事是「計畫」。拿著研究結果，列出具體的執行步驟：改哪些檔案、改哪幾行、改成什麼、每改一步怎麼測試。</p>
+<p>計畫文件越詳細，執行的可靠度越高。他們的計畫會包含實際的程式碼片段——不是模糊的描述，而是具體的 before/after。</p>
+<p>但這裡有個取捨：計畫越詳細，可靠度越高，但可讀性越低。你得花時間讀。所以要找一個甜蜜點，對你的團隊和你的 codebase 而言。</p>
+<h3 id="3-mental-alignment">3. Mental Alignment</h3>
+<p>第三件事是「心智對齊」。Code review 的真正目的不只是找 bug，是讓團隊所有人對「程式碼庫正在怎麼變化」保持一致的理解。</p>
+<p>當你用 AI 把產出速度提升兩三倍，你不可能還用同樣的方式做 code review。Dex 說他一週「可以」讀一千行 Golang，但他「不想」。</p>
+<p>他們的解法是讓 Plan 文件成為 review 的一部分。技術領導者讀 Plan 就能保持對專案的掌握，不需要讀每一行 code。Mitchell Hashimoto 也開始在 PR 裡附上 AI 對話紀錄，讓 reviewer 能看到整個思考過程。</p>
+<h3 id="4-不要外包思考">4. 不要外包思考</h3>
+<p>第四件事，也是最重要的：不要外包思考。</p>
+<p>AI 不能取代思考，它只能放大思考。如果你想清楚了問題和解法，AI 幫你加速執行。如果你沒想清楚，AI 幫你用十倍速度把專案搞砸。</p>
+<p>這就是為什麼 Research 和 Plan 這兩個步驟這麼重要——它們強迫你在 AI 開始寫 code 之前就先想清楚。而且你必須讀那些文件，驗證它們是對的。</p>
+<p>沒有完美的 prompt。沒有 silver bullet。你要做的事情沒有變少，只是變成不同的事情。</p>
+<h2 id="如果你一定要一個-hype-y-的詞">如果你一定要一個 Hype-y 的詞</h2>
+<p>Dex 說，如果你真的很需要一個流行詞來講這件事，可以用「Context Engineering」或「Harness Engineering」。</p>
+<p>Context Engineering 是管理 context window 的藝術——讓 AI 在有限的工作記憶裡拿到正確的資訊，做出正確的決定。</p>
+<p>Harness Engineering 是如何利用 Claude、Codex、Cursor 這些工具的整合點（hooks、slash commands、.claude 檔案等）來客製化你的開發流程。</p>
+<p>但他自己說，他不是很喜歡縮寫和流行語。他們團隊的方法已經被社群叫做「RPI」（Research-Plan-Implement），他說他沒辦法阻止這件事，但也提醒：這不是什麼神奇的框架，重點是背後的原則——管理 context，壓縮資訊，不要外包思考。</p>
+<h2 id="這件事會被商品化">這件事會被商品化</h2>
+<p>演講最後，Dex 做了一個預測：coding agent 本身會逐漸商品化。怎麼用這些工具、怎麼寫好的 prompt、怎麼管理 context，這些技能會變成基本功，大家都會。</p>
+<p>真正的挑戰是：你的團隊和工作流程怎麼適應一個「99% 的程式碼由 AI 產生」的世界？</p>
+<p>這需要的不是一個新的流行術語，是實際的文化改變。而文化改變很難，需要從上層推動。</p>
+<p>所以如果你是技術領導者，別追流行語了。挑一個工具，累積經驗，搞清楚什麼對你的團隊有效，然後推廣下去。</p>
+<p>這比學會最新的術語重要一百倍。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

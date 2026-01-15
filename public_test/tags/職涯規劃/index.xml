@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>職涯規劃 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E8%81%B7%E6%B6%AF%E8%A6%8F%E5%8A%83/</link>
+    <description>Recent content in 職涯規劃 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sun, 04 Jan 2026 13:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E8%81%B7%E6%B6%AF%E8%A6%8F%E5%8A%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 泡沫要來了嗎？從 .com 時代學到的生存法則</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260104-stanford-cs230-ai-bubble-survival/</link>
+      <pubDate>Sun, 04 Jan 2026 13:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260104-stanford-cs230-ai-bubble-survival/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/AuZoDsNmG_s&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;在史丹佛 CS230 的課堂上，業界專家 Laurence Moroney 放了一張投影片，上面畫著一個三角形金字塔，最上層寫著「炒作」，最下層寫著「真實價值」。他指著這張圖說：「這就是泡沫的解剖學。AI 的泡沫，很可能正在形成。」&lt;/p&gt;&#xA;&lt;p&gt;這句話從別人嘴裡說出來可能只是危言聳聽，但 Moroney 不是普通人。他在 Google 擔任 AI 倡導者多年，親手推動 TensorFlow 的全球推廣，現在在晶片公司 Arm 負責 AI 業務。他不是那種喜歡製造恐慌的人，而是長年在產業第一線觀察錢往哪裡流、哪些專案成功哪些失敗的人。&lt;/p&gt;&#xA;&lt;p&gt;當他說泡沫要來了，值得認真聽。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼這堂課重要&#34;&gt;為什麼這堂課重要？&lt;/h2&gt;&#xA;&lt;p&gt;先說說這堂課的背景。地點是史丹佛大學，矽谷 AI 圈的核心基地。ImageNet 創始人李飛飛、前 Tesla AI 總監 Andrej Karpathy 都和史丹佛有深厚淵源，Google、OpenAI、Anthropic 的核心團隊裡史丹佛人比比皆是。這裡是 AI 產業的神經中樞，很多還沒公開的資訊都會先在這個圈子裡流通。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>為什麼 AI 會先取代工程師，卻不會取代理髮師？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-jagged-edge-of-intelligence/</link>
+      <pubDate>Thu, 25 Dec 2025 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-jagged-edge-of-intelligence/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/b6Doq2fz81U&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Stanford AI Club 2025 年的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;你可能聽過一種說法：一旦 AI 突破某個臨界點，就會在短短幾年內遠遠超越人類，接管一切。這個「快速起飛」的論述聽起來很嚇人，但 Jason Wei 不這樣看。&lt;/p&gt;&#xA;&lt;p&gt;Jason Wei 是 OpenAI o1 和 Deep Research 的共同創作者，曾在 Google Brain 推廣 Chain-of-Thought Prompting，學術引用超過 9 萬次。他在 Stanford AI Club 的演講中提出了一個不同的框架：&lt;strong&gt;智慧的鋸齒狀邊緣&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>企業法務 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E4%BC%81%E6%A5%AD%E6%B3%95%E5%8B%99/</link>
+    <description>Recent content in 企業法務 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 29 Dec 2025 14:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E4%BC%81%E6%A5%AD%E6%B3%95%E5%8B%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>從「避險」到「策略夥伴」——企業法務的 AI 轉型之路</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251229-inhouse-counsel-ai-transformation/</link>
+      <pubDate>Mon, 29 Dec 2025 14:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251229-inhouse-counsel-ai-transformation/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Legaltech Lounge Podcast 2025 年 3 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    src=&#34;https://open.spotify.com/embed/episode/6TcTTIeMjbZ6ksljumcM1N&#34; &#xA;    width=&#34;100%&#34; &#xA;    height=&#34;152&#34; &#xA;    frameBorder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; &#xA;    loading=&#34;lazy&#34;&#xA;    style=&#34;border-radius: 12px;&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/us/podcast/s02e05-navigating-digital-transformation-in-house-counsel/id1725709717?i=1000699635807&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「你不是公司的金雞母。」&lt;/p&gt;&#xA;&lt;p&gt;這句話出自迦納金融科技公司的法務主管，在一場 LawTech 聚會上。聽起來刺耳，但他說的是實話。在多數企業裡，法務部門被歸類為「支援單位」，不像業務部門能直接創造營收。這個定位，決定了法務在推動科技轉型時會遇到的所有挑戰。&lt;/p&gt;&#xA;&lt;p&gt;但這不代表法務部門只能被動等待。在迦納首都阿克拉舉辦的 Accra Law Tech Hangout 上，四位法務專家分享了他們如何在資源有限的情況下，從「風險把關者」轉型為「策略夥伴」。他們的經驗，對於任何正在思考數位轉型的企業法務來說，都值得參考。&lt;/p&gt;&#xA;&lt;h2 id=&#34;法務部門的尷尬處境&#34;&gt;法務部門的尷尬處境&lt;/h2&gt;&#xA;&lt;p&gt;Hubtel 法務與公司事務主管 Cornelis Rouloph Otoo 用一句話點出了企業法務的現實：「律師只有在法律事務所裡才是主角。」一旦進入企業，你就是配角。業務單位的人走進你的辦公室，問的只有一句話：「這件事我可以做嗎？」如果答案是可以，他們轉身就走；如果答案是不行，他們會評估風險有多大，然後決定是否照做。&lt;/p&gt;&#xA;&lt;p&gt;這種處境，讓很多法務人員感到挫折。但 Otoo 認為，這正是法務需要轉型的原因。當你不再是決策的核心，你就必須用其他方式證明自己的價值。而科技工具，正是一個切入點。問題是，法務部門不像研發或業務，很難說服管理層投資昂貴的軟體。Shefi Nelson 是 Ashesi 大學的法律講師，同時也擔任企業法律顧問。她的建議很直接：「你不是在賺錢，預算申請時要有這個自覺。」這不是妄自菲薄，而是務實。&lt;/p&gt;&#xA;&lt;p&gt;當你明白這個前提，就會理解為什麼多數企業法務的數位轉型，不是從昂貴的合約管理系統開始，而是從 Excel 開始。&lt;/p&gt;&#xA;&lt;h2 id=&#34;心態才是最大的障礙&#34;&gt;心態，才是最大的障礙&lt;/h2&gt;&#xA;&lt;p&gt;FarmerLine 法務長 Frederick Abu-Bonsrah 的經歷很有代表性。FarmerLine 是一家農業科技公司，團隊成員多是工程師和產品經理，對科技工具的接受度很高。但 Abu-Bonsrah 坦承，他自己反而是團隊裡最慢擁抱科技的人。&lt;/p&gt;&#xA;&lt;p&gt;原因？心態。他花了好幾年在法學院學習，對自己的專業能力有信心。當有人建議用 ChatGPT 來輔助合約草擬時，他的第一反應是抗拒。「我寧願自己從頭打完整份合約，也不想花時間修改 AI 生成的內容。」他說。這種心態，在法律圈非常普遍。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>客製化晶片來了， nvidia 的好日子要結束了嗎？ | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="客製化晶片來了，Nvidia 的好日子要結束了嗎？">
+<meta property="og:description" content="
+本文整理自 Deepwater Asset Management 旗下《DeepTech》Podcast 2025 年 9 月播出的單集。
+🎬 YouTube：收看連結
+🎧 Spotify：收聽連結
+🎧 Apple Podcast：收聽連結
+
+OpenAI 和晶片設計公司 Broadcom 簽下了一份價值超過 100">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20260106-custom-silicon-nvidia-groq/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20260106-custom-silicon-nvidia-groq/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>06. January 2026</p>
+      <h1 class="post_title">客製化晶片來了，Nvidia 的好日子要結束了嗎？</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 Deepwater Asset Management 旗下《DeepTech》Podcast 2025 年 9 月播出的單集。
+🎬 YouTube：<a href="https://www.youtube.com/watch?v=NsQozkZmrXA">收看連結</a>
+🎧 Spotify：<a href="https://open.spotify.com/episode/54P6sV9SekO2nPjtHiiJIN">收聽連結</a>
+🎧 Apple Podcast：<a href="https://podcasts.apple.com/us/podcast/deeptech-ep5-upon-further-review-were-still-early-in-ai/id1721973292?i=1000726489600">收聽連結</a></p>
+</blockquote>
+<p>OpenAI 和晶片設計公司 Broadcom 簽下了一份價值超過 100 億美元的合約，要開發專為 OpenAI 設計的客製化 AI 晶片。幾乎在同一時間，Nvidia 宣布以 200 億美元收購 AI 推論晶片新創公司 Groq 的技術和團隊。</p>
+<p>這兩則新聞放在一起看，透露出一個重要訊號：AI 晶片市場正在發生結構性的變化。</p>
+<p>投資管理公司 Deepwater Asset Management 的合夥人 Doug Clinton 在《DeepTech》Podcast 中提出了一個大膽的判斷：AI 產業的敘事正在從「GPU 需求」轉向「客製化晶片需求」。這個轉變對 Nvidia 來說，可能是好消息，也可能是壞消息——取決於你用什麼時間尺度來看。</p>
+<h2 id="為什麼市值超過-1000-億美元的-ai-公司都想自己做晶片">為什麼市值超過 1000 億美元的 AI 公司都想自己做晶片？</h2>
+<p>Doug Clinton 在節目中提出了一個明確的判斷：任何市值超過 1000 億美元的 AI 公司，最終都必須發展自己的客製化晶片。這不是選擇題，而是生存問題。</p>
+<p>理由很直接：成本和效率。</p>
+<p>Nvidia 的 GPU 是「通用型」晶片，設計目標是能夠處理各種不同的運算任務。這種通用性是它的優勢，讓 Nvidia 可以賣給各種不同的客戶。但通用性也意味著妥協——對於任何單一特定任務，通用型晶片都不會是「最佳化」的選擇。</p>
+<p>客製化晶片（Broadcom 稱之為 XPU）則不同。它是專門為特定模型、特定用途設計的。當你知道這顆晶片只需要跑某一種模型時，你可以把所有不需要的功能都拿掉，把所有資源都集中在你需要的功能上。結果就是：更低的功耗、更高的效率、更低的單位運算成本。</p>
+<p>Google 是這條路的先驅。早在 AI 熱潮之前，Google 就開發了自己的 TPU（Tensor Processing Unit），專門用來加速機器學習運算。Google 的 TPU 已經迭代了好幾代，目前在 Google 內部的 AI 工作負載中扮演關鍵角色。</p>
+<p>Amazon 也走上了同樣的路。它的 Trainium 晶片用於訓練，Inferentia 晶片用於推論。這些晶片讓 Amazon 可以在自家的 AWS 平台上提供更有競爭力的 AI 運算服務。</p>
+<p>現在，OpenAI 也加入了這個行列。它選擇和 Broadcom 合作，而不是自己從頭建立晶片設計團隊。這是一個務實的選擇——Broadcom 有豐富的客製化晶片設計經驗，而 OpenAI 的核心能力在模型開發，不在晶片設計。</p>
+<h2 id="nvidia-的-gpu-和客製化晶片不是取代而是並存">Nvidia 的 GPU 和客製化晶片：不是取代，而是並存</h2>
+<p>這裡要釐清一個常見的誤解：客製化晶片的崛起，並不意味著 Nvidia 的 GPU 會被淘汰。</p>
+<p>Gene Munster 在節目中強調，這兩種晶片服務的是不同的需求。如果你是一家雲端服務商，需要提供「什麼都能跑」的通用運算服務，你必須用 Nvidia 的 GPU。因為你的客戶會帶著各種不同的模型、不同的工作負載來找你，你沒辦法預測他們需要什麼，只能提供最通用的解決方案。</p>
+<p>但如果你是 OpenAI，你很清楚自己要跑什麼模型。你的 GPT 系列模型有明確的架構，你知道它需要什麼樣的運算能力。在這種情況下，用一顆專門為 GPT 設計的晶片，會比用通用 GPU 更有效率。</p>
+<p>這就是為什麼 Doug Clinton 說，客製化晶片和 Nvidia GPU 的關係是「並行發展」而非「取代」。大公司會同時增加兩種晶片的採購——用 GPU 來應對通用需求和新模型開發，用客製化晶片來優化已經穩定運行的核心工作負載。</p>
+<p>從 Nvidia 的財報數據可以看出這個趨勢。Nvidia 2025 年 7 月季度的前六大客戶，佔了總營收的 63%。其中 Meta 佔比最高，約 23%；Google、Amazon、Microsoft 各佔 10% 到 15%。這些公司都在發展自己的客製化晶片，但同時也在持續增加對 Nvidia 的採購。</p>
+<h2 id="nvidia-收購-groq一場-200-億美元的防禦戰">Nvidia 收購 Groq：一場 200 億美元的防禦戰</h2>
+<p>就在各家公司紛紛投入客製化晶片開發的同時，Nvidia 也沒有坐以待斃。2025 年 12 月，Nvidia 宣布以 200 億美元的代價，取得 AI 晶片新創公司 Groq 的技術授權和核心團隊。</p>
+<p>這筆交易的結構很特別。Nvidia 並沒有「收購」Groq 這家公司本身。執行長黃仁勳在給員工的信中明確表示：「我們沒有收購 Groq 這家公司。」Groq 作為獨立公司仍然存在，它的雲端服務 GroqCloud 也會繼續運營。但 Groq 的創辦人 Jonathan Ross 和核心工程團隊，會加入 Nvidia。</p>
+<p>為什麼要用這種複雜的結構？答案是反壟斷審查。Nvidia 目前在 AI 晶片市場的市佔率極高，如果直接收購它最大的「技術挑戰者」，幾乎肯定會觸發美國 FTC 和歐盟的嚴格審查，交易可能會拖上好幾年。透過「技術授權加人才聘僱」的方式，Nvidia 可以取得它想要的東西，同時避開最麻煩的監管障礙。</p>
+<p>這筆交易之所以值得關注，是因為 Groq 代表的技術路線。Groq 的創辦人 Jonathan Ross 曾經在 Google 參與 TPU 的早期開發，他離開 Google 後創立 Groq，主打的是一種叫做 LPU（Language Processing Unit）的架構，專門針對 AI 推論（inference）進行最佳化。推論和訓練不同——訓練是讓 AI 模型「學習」，推論是讓已經學好的模型「工作」。目前大部分的 AI 運算成本都花在訓練上，但隨著 AI 應用越來越普及，推論的比重會越來越高。</p>
+<p>Nvidia 願意花 200 億美元——這是它史上最大的一筆交易，比 2019 年以 70 億美元收購 Mellanox 還高出近三倍——來取得 Groq 的技術和人才，說明它對推論市場的重視。這是一場防禦戰：與其讓 Groq 成長為真正的威脅，不如現在就把它納入麾下。</p>
+<h2 id="對-nvidia-的影響短期無虞長期存疑">對 Nvidia 的影響：短期無虞，長期存疑</h2>
+<p>回到最初的問題：客製化晶片的崛起，會不會終結 Nvidia 的好日子？</p>
+<p>Gene Munster 和 Doug Clinton 的看法是：短期內不會，但長期存在不確定性。</p>
+<p>短期來看，AI 運算的需求成長速度實在太快了。即使 Google、Amazon、OpenAI 都在發展自己的晶片，他們對 Nvidia GPU 的需求仍然在增加。這不是零和遊戲——整個市場的餅在快速變大，大到足以讓所有玩家都有成長空間。</p>
+<p>Doug Clinton 在節目中做了一個簡單的計算。如果用主要客戶的資本支出成長率來推估 Nvidia 的營收成長，得出的數字大約在 30% 到 45% 之間。這和華爾街分析師的共識預估差不多。這個成長率對一家已經這麼大的公司來說，仍然非常驚人。</p>
+<p>但長期來看，敘事可能比數字更重要。股票市場反映的不只是當前的業績，還有對未來的預期。當「客製化晶片」這個敘事越來越強，即使 Nvidia 的實際營收沒有受到影響，投資人的情緒也可能改變。這可能是 Nvidia 股價在過去幾個月相對疲軟的原因之一——Oracle 財報大漲 35% 那天，Nvidia 只漲了 3%。</p>
+<p>更根本的問題是：AI 運算需求的成長曲線會是什麼形狀？如果成長持續加速，Nvidia 和客製化晶片可以共存共榮。但如果成長開始放緩，市場就會變成零和遊戲，客製化晶片吃掉的份額，就是從 Nvidia 口袋裡挖走的錢。</p>
+<h2 id="這對投資人意味著什麼">這對投資人意味著什麼？</h2>
+<p>對於關注科技股的投資人來說，這個趨勢提供了幾個思考方向。</p>
+<p>第一，不要只盯著 Nvidia。AI 晶片市場正在多元化，Broadcom 這種提供客製化晶片設計服務的公司，可能是值得關注的標的。台積電作為所有這些晶片的製造商，也是一個「不管誰贏都會受益」的選擇。</p>
+<p>第二，關注推論市場。目前大部分的關注都在 AI 訓練，但推論才是 AI 真正「賺錢」的地方。每一次你用 ChatGPT、每一次 Google 搜尋用 AI 生成摘要、每一次 Netflix 用 AI 推薦影片，背後都是推論運算。隨著 AI 應用越來越普及，推論的市場規模可能會超過訓練。Nvidia 收購 Groq，就是在為這個趨勢做準備。</p>
+<p>第三，時間尺度很重要。如果你是短期交易者，Nvidia 仍然是 AI 主題最直接的受益者。如果你是長期投資者，需要思考五年、十年後的市場格局會是什麼樣子。客製化晶片的比重會持續上升，這幾乎是確定的。問題只是上升的速度有多快，以及 Nvidia 能不能成功轉型來應對這個變化。</p>
+<hr>
+<p>AI 晶片市場正在經歷一場靜悄悄的革命。表面上看，Nvidia 仍然是無可爭議的霸主。但在表面之下，每一家大型 AI 公司都在為「後 Nvidia 時代」做準備。這不是因為 Nvidia 的產品不好——恰恰相反，正是因為 AI 運算太重要了，重要到這些公司不願意把命運完全交到別人手上。</p>
+<p>這場革命的結局還不確定。但可以確定的是，五年後的 AI 晶片市場，會和今天看起來非常不同。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

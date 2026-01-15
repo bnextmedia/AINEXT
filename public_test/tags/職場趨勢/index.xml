@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>職場趨勢 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E8%81%B7%E5%A0%B4%E8%B6%A8%E5%8B%A2/</link>
+    <description>Recent content in 職場趨勢 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sun, 04 Jan 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E8%81%B7%E5%A0%B4%E8%B6%A8%E5%8B%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 職涯的「三大支柱」：從史丹佛講座看科技業的人才新標準</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260104-stanford-cs230-ai-career-three-pillars/</link>
+      <pubDate>Sun, 04 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260104-stanford-cs230-ai-career-three-pillars/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/AuZoDsNmG_s&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;2025 年底，史丹佛大學的 CS230 深度學習課程進入了第九講，主題不是神經網路架構，不是最新的模型優化技術，而是一堂「AI 職涯建議」。這堂課之所以重要，不只因為授課者的份量，更因為它反映了整個 AI 產業正在經歷的人才觀念轉變。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼這堂課值得關注&#34;&gt;為什麼這堂課值得關注？&lt;/h2&gt;&#xA;&lt;p&gt;這堂課的主講者是吳恩達（Andrew Ng），Google Brain 創辦人、Coursera 共同創辦人，也是 DeepLearning.AI 的創辦人。DeepLearning.AI 目前在臺灣也有運作，他創立的 AI Fund 同樣在臺灣設有據點。在全球 AI 教育領域，很少有人比吳恩達更具影響力——他的線上課程培養了數百萬名 AI 從業者，而他對產業趨勢的判斷，往往能準確預見未來幾年的發展方向。&lt;/p&gt;&#xA;&lt;p&gt;這堂課他邀請了老友 Laurence Moroney 來分享。Moroney 在 Google 擔任 AI 倡導者（Lead AI Advocate）多年，負責 TensorFlow 的全球推廣與教育，現在則在晶片設計公司 Arm 負責 AI 相關業務。他不是學術象牙塔裡的研究者，而是長年在產業第一線觀察人才需求變化的人。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

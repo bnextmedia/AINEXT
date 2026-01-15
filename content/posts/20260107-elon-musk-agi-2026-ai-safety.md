@@ -13,9 +13,9 @@ draft: false
 
 {{< youtube RSNuB9pj9P8 >}}
 
-{{< spotify "episode/6LeYeJbwutFrQBNLJwcE6n" >}}
+{{< spotify episode/6LeYeJbwutFrQBNLJwcE6n >}}
 
-{{< apple-podcast "tw/podcast/elon-musk-on-agi-timeline-us-vs-china-job-markets-clean/id1648228034?i=1000743987690" >}}
+{{< apple-podcast tw/podcast/elon-musk-on-agi-timeline-us-vs-china-job-markets-clean/id1648228034?i=1000743987690 >}}
 
 ---
 

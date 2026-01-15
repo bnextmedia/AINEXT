@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>深度學習教父的 ai 安全方案——為什麼「目標驅動架構」比微調更安全？ | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="深度學習教父的 AI 安全方案——為什麼「目標驅動架構」比微調更安全？">
+<meta property="og:description" content="
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-objective-driven-ai-safety/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-objective-driven-ai-safety/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>22. December 2025</p>
+      <h1 class="post_title">深度學習教父的 AI 安全方案——為什麼「目標驅動架構」比微調更安全？</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/7u-DXVADyhc" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<blockquote>
+<p>本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。</p>
+</blockquote>
+<p>AI 安全是當前最熱門的話題之一。各大實驗室花費大量資源做 RLHF（人類反饋強化學習）、Constitutional AI、紅隊測試，試圖讓他們的模型更安全、更不容易說出有害的內容。</p>
+<p>但 Yann LeCun 認為，這些方法從根本上就是錯的。</p>
+<p>在最近的 Information Bottleneck 訪談中，這位圖靈獎得主提出了一個不同的思路：AI 安全不應該靠事後的微調和過濾，而應該從架構本身就保證安全。這個想法的核心是他一直在推動的「目標驅動架構」（objective-driven architecture）——一個與當前 LLM 範式根本不同的 AI 系統設計方式。</p>
+<h2 id="llm-安全的根本困境">LLM 安全的根本困境</h2>
+<p>為什麼 LLM 這麼難做到安全？LeCun 的分析直指問題核心：微調不是根本解法。</p>
+<p>當前的做法是這樣的：先訓練一個大型語言模型，讓它能夠生成流暢的文字。然後透過 RLHF 之類的技術，「教」它不要說某些話、不要回答某些問題。這個過程會修改模型的權重，讓它在遇到敏感話題時傾向於拒絕回答。</p>
+<p>問題是，這種方法永遠可以被繞過。Jailbreak（越獄）技術層出不窮，研究者和使用者不斷發現新的提示詞，可以讓模型「忘記」它被訓練的限制。今天你封堵了一個漏洞，明天就會有新的漏洞被發現。</p>
+<p>「你總是可以找到某些提示詞，讓它們逃脫那些你試圖阻止它們做的事。」LeCun 說。這不是因為目前的微調技術不夠好，而是因為微調這個方法本身就有結構性的缺陷。</p>
+<p>微調本質上是在調整一個統計模型的輸出分佈。但這個模型原本就是被訓練來「預測最可能的下一個 token」的。你可以透過微調讓某些輸出變得不太可能，但你無法完全消除它們。只要輸入足夠奇怪，模型就可能產生你不想要的輸出。</p>
+<h2 id="目標驅動架構從設計上保證安全">目標驅動架構：從設計上保證安全</h2>
+<p>LeCun 提出的替代方案是完全不同的架構。</p>
+<p>在這個架構中，AI 系統不是「預測下一個 token」，而是「透過規劃來達成目標」。系統需要有一個 World Model（世界模型），能夠預測「如果我採取某個行動，世界會發生什麼變化」。有了這個預測能力，系統就可以想像各種可能的行動序列，評估每一個序列的後果，然後選擇最好的那個。</p>
+<p>但這裡有一個關鍵設計：系統除了有「目標函數」（定義要達成什麼）之外，還有「約束條件」（定義什麼事情絕對不能做）。規劃器在搜尋行動序列時，必須同時滿足目標和所有約束。</p>
+<p>這跟 LLM 的微調完全不同。在 LLM 中，安全規則是「軟性地」植入模型權重，系統只是「傾向於」不產生有害輸出。在目標驅動架構中，安全規則是硬性約束——系統在產生任何輸出之前，必須確認這個輸出不違反任何約束。</p>
+<p>這就像是把安全規則寫成程式碼，而不是訓練資料。程式碼定義的規則是絕對的——如果約束說「永遠不要推薦傷害人的行動」，那系統就永遠不會推薦，不管輸入是什麼。</p>
+<h2 id="咖啡機器人的例子">咖啡機器人的例子</h2>
+<p>LeCun 用了一個著名的例子來說明這個問題：假設你有一個家用機器人，你讓它去拿咖啡，但咖啡機前面站著一個人。</p>
+<p>在純粹的「目標最大化」框架下，機器人可能會決定把人推開（甚至更糟），因為這是達成「拿到咖啡」目標的有效手段。這就是 Stuart Russell 等人經常用來說明 AI 安全問題的「迴紋針最大化」場景的家用版。</p>
+<p>LeCun 認為這個例子其實說明了問題有多容易解決——只要你用對了架構。</p>
+<p>在目標驅動架構中，你可以設定一個低層級約束：「永遠與人保持距離」或「永遠不要對人施加物理力量」。這個約束在規劃過程中被強制執行。機器人在考慮任何行動序列時，都必須確認這個序列不會違反約束。如果唯一能拿到咖啡的方式是推開人，那系統就會得出結論：這個目標在當前情況下無法達成，也許可以禮貌地請人移開。</p>
+<p>類似地，如果是一個會拿刀的廚房機器人，你可以設定約束：「當手中持有尖銳物品時，不要快速移動手臂」或「當附近有人時，不要揮舞刀具」。這些約束在規劃層級被強制執行，不是靠微調來「傾向於」遵守，而是系統在設計上就不可能違反。</p>
+<h2 id="為什麼這種方法無法被-jailbreak">為什麼這種方法「無法被 jailbreak」</h2>
+<p>這個架構的核心優勢是：安全規則是強制性的，不是統計性的。</p>
+<p>在 LLM 中，「不要說有害的話」是透過調整輸出機率來實現的。模型在看到某些輸入時，會傾向於產生拒絕的回應，而不是有害的回應。但這只是「傾向於」——如果你構造出足夠奇怪的輸入，機率分佈可能會翻轉。</p>
+<p>在目標驅動架構中，約束是在優化過程中被強制滿足的。系統產生輸出的方式是：找出能達成目標且滿足所有約束的最佳行動序列。如果某個行動違反約束，它根本不會被考慮，不管這個行動對達成目標有多有效。</p>
+<p>用數學術語說，這是把安全規則從「目標函數的一部分」變成「優化問題的約束」。在帶約束的優化中，約束是必須滿足的，不是可以權衡的。</p>
+<p>LeCun 強調：「這不是微調，這是 by construction（從設計上就保證的）。系統無法逃脫，因為它獲得輸出的方式就是透過優化——最小化任務的目標函數，同時滿足 guardrail 的約束。」</p>
+<h2 id="噴射引擎的比喻安全是工程問題">噴射引擎的比喻：安全是工程問題</h2>
+<p>LeCun 喜歡用噴射引擎來說明他對 AI 安全的看法。</p>
+<p>第一代噴射引擎確實很危險——可能跑十分鐘就爆炸，效率低，也不可靠。但經過數十年的工程改進，現在的噴射引擎極度可靠。你可以坐著雙引擎飛機安全飛越半個地球。</p>
+<p>AI 安全會經歷類似的過程。現在的系統確實有問題——可以被 jailbreak、可能產生有害內容、可能被用於惡意目的。但這些是可以透過更好的設計來解決的工程問題，不是無法克服的根本限制。</p>
+<p>關鍵是要用對方法。微調和過濾是「打補丁」的做法——系統本身沒有安全設計，你只是在外面加一層過濾。這種做法注定是打不完的地鼠遊戲。</p>
+<p>目標驅動架構是「從設計上保證安全」的做法——安全規則是系統運作的核心部分，不是事後加上去的。這種做法更可能達到真正可靠的安全性。</p>
+<h2 id="這需要新的架構">這需要新的架構</h2>
+<p>當然，這個願景有一個大前提：需要有能夠做 World Model 和規劃的 AI 系統。</p>
+<p>當前的 LLM 不是這樣運作的。它們是純粹的 token 預測器，沒有內建的「世界模型」，也沒有「規劃」能力（儘管你可以用 chain-of-thought 之類的技巧來模擬一些規劃行為）。要實現 LeCun 設想的目標驅動架構，需要發展出新一代的 AI 系統。</p>
+<p>這也是為什麼 LeCun 離開 Meta 創辦 AMI 來專注於 World Model 研究。在他看來，這不只是「另一種技術路線」，而是通往真正可靠 AI 系統的必經之路。</p>
+<h2 id="不只是效率問題">不只是效率問題</h2>
+<p>有些人嘗試在 LLM 上實現類似約束的效果。比如讓系統產生很多候選輸出，然後用一個過濾器來篩選掉有害的，只輸出通過檢查的。</p>
+<p>這種方法在某種程度上有效，但有兩個問題。第一，極度昂貴——你需要生成大量候選，然後對每個候選進行評估，推論成本可能增加幾十倍。第二，仍然是統計性的。過濾器本身也可能出錯。如果過濾器是另一個 AI 模型，它也面臨同樣的 jailbreak 問題。</p>
+<p>目標驅動架構不一樣。約束是在規劃過程中直接被強制執行的。規劃器在搜索可行解的時候，根本不會考慮違反約束的選項。這既更高效（不需要生成再過濾），也更可靠（約束是硬性的，不是統計的）。</p>
+<h2 id="安全需要正確的架構">安全需要正確的架構</h2>
+<p>LeCun 的觀點可以簡單總結：問題不在於我們的微調技術不夠好，問題在於微調這個方法本身就不對。</p>
+<p>真正可靠的安全性需要從架構層面來保證。系統需要有能力理解世界、預測行動後果、並在規劃過程中強制執行安全約束。這比「訓練模型不說壞話」要難得多，但也是唯一能達到真正可靠安全性的方法。</p>
+<p>這個願景還在很早期的階段。World Model 技術還在發展中，目標驅動架構還沒有大規模應用的案例。但這提供了一個不同的思考框架：與其問「如何更好地限制一個本質上不可控的系統」，不如問「如何設計一個在架構上就是可控的系統」。</p>
+<p>這兩個問題的答案可能完全不同。而後者，才是 LeCun 認為值得投入的方向。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MCP on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/mcp/</link>
+    <description>Recent content in MCP on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/mcp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>別再造 Agent 了！Anthropic 說：2026 年是 Skills 的天下</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-anthropic-skills-new-agents/</link>
+      <pubDate>Thu, 25 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-anthropic-skills-new-agents/</guid>
+      <description>&lt;p&gt;2025 年被稱為「Agent 之年」，這點大家都同意。從年初開始，各大 AI 公司紛紛推出自己的 AI 代理人框架，讓 AI 能自主完成複雜任務。但就在年底，Anthropic 丟出一個新概念：Skills（技能）。他們甚至在 AI Engineer 頻道發布了一支標題很聳動的影片——「Don&amp;rsquo;t Build Agents, Build Skills Instead」（別建 Agent，建 Skills）。這是什麼意思？Agent 時代這麼快就要過去了嗎？&lt;/p&gt;&#xA;&lt;p&gt;在最近一集 Break Even Brothers Podcast 中，兩位主持人深入討論了 Skills 這個新趨勢。其中一位提到，Skills 幾個月前就已經在 Claude 中推出，但當時沒引起太大關注。「老實說，它當初推出時完全不在我的雷達上，」他坦言，「沒看到太多人使用，一開始的支援也有點粗糙——有點像 MCP Server 剛推出時的狀況。」但經過幾個月的打磨，Skills 開始展現真正的潛力，而且 OpenAI 也悄悄地在 ChatGPT 中加入了類似功能。&lt;/p&gt;&#xA;&lt;h2 id=&#34;什麼是-skills用白話解釋這個概念&#34;&gt;什麼是 Skills？用白話解釋這個概念&lt;/h2&gt;&#xA;&lt;p&gt;根據 Anthropic 官方的定義，Skills 是「描述如何執行特定任務的資料夾，包含說明文件、腳本和資源」。聽起來有點抽象，但 Podcast 主持人用了一個很好的比喻來解釋。想像你要報稅，你會選擇請一個非常聰明的數學家來幫你，還是請一個專業的會計師（CPA）？數學家可能數學能力超強，但他不懂稅法、不知道哪些項目可以抵扣、不清楚最新的報稅規定。會計師就不一樣了，他有領域專業知識（domain knowledge）。&lt;/p&gt;&#xA;&lt;p&gt;Skills 就是用來填補這個落差的。現在的 AI 模型已經非常聰明，但它們缺乏特定領域的專業知識和流程。Skills 本質上是一個 Markdown 文字檔，用來描述 AI 應該如何執行某個特定任務。這個檔案可以包含步驟說明、需要使用的工具、要存取的 URL，甚至可以嵌入可執行的程式碼。當 Claude 判斷需要某個技能時，它會載入這個檔案，按照裡面的指示來完成任務。&lt;/p&gt;&#xA;&lt;p&gt;這跟以往的 prompt engineering 有什麼不同？差別在於 Skills 是可以被分享、被版本控制、被市場化的標準化格式。你寫好一個報稅的 Skill，可以分享給同事；企業可以建立自己的 Skills 庫；未來甚至可能出現 Skills Marketplace，讓人們買賣專業技能檔案。Anthropic 在 2025 年 10 月推出 Skills，到了 12 月已經宣布支援組織級管理和合作夥伴目錄，發展相當快速。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MCP、Projects、Artifacts：Anthropic 正在建造什麼樣的 AI 產品生態系？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251224-mike-krieger-mcp-anthropic-ecosystem/</link>
+      <pubDate>Wed, 24 Dec 2025 01:46:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251224-mike-krieger-mcp-anthropic-ecosystem/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/_-V5objmQ00&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;本文整理自 Lightspeed Venture Partners 的 Podcast《Generative Now》訪談內容。&lt;/p&gt;&#xA;&lt;p&gt;「我有一個 Project 專門放我所有的健康紀錄。」&lt;/p&gt;&#xA;&lt;p&gt;Mike Krieger 在訪談中分享了這個使用習慣。作為 Anthropic 的首席產品長，他自己也是 Claude 的重度使用者。每次有新的血液檢查報告，他就丟進那個 Project 裡，然後問 Claude：跟上次比有什麼變化？這段時間我血壓偏低，有什麼建議？&lt;/p&gt;&#xA;&lt;p&gt;Projects 這個功能本身並不複雜——它就是一個讓使用者可以集中管理相關對話和文件的容器。技術上來說，使用者完全可以用普通對話達成類似效果，只要每次都把相關檔案重新上傳就好。但有了這個容器，行為就改變了。人們開始建立「健康 Project」、「工作 Project」、「學習 Project」，把 Claude 當成不同生活領域的長期夥伴，而不只是一次性的問答機器。&lt;/p&gt;&#xA;&lt;p&gt;這種「產品原語」（product primitive）的設計思維，是 Krieger 帶領的產品團隊一直在追求的：找到那些能解鎖新行為的基本元素。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

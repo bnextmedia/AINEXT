@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>Gpu 有 70% 時間在「等記憶體」： ai 半導體的真正瓶頸在哪？ | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="GPU 有 70% 時間在「等記憶體」：AI 半導體的真正瓶頸在哪？">
+<meta property="og:description" content="
+本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251226-gpu-waiting-for-memory/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251226-gpu-waiting-for-memory/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>26. December 2025</p>
+      <h1 class="post_title">GPU 有 70% 時間在「等記憶體」：AI 半導體的真正瓶頸在哪？</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自韓國財經節目《삼프로TV 언더스탠딩》2025 年 11 月播出的單集，來賓為 KAIST 電子及電機工程學部金正鎬教授。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/uJWZQb9rWUk" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>你以為 AI 運算的瓶頸是 GPU 不夠強？這個假設可能從根本上就錯了。</p>
+<p>KAIST 電子及電機工程學部的金正鎬（Kim Jung-ho）教授在韓國財經節目中揭示了一個反直覺的事實：目前的 AI 晶片，包括 NVIDIA 最先進的 GPU，有大約 60% 到 70% 的時間處於閒置狀態。它們不是在計算，而是在等待。等什麼？等記憶體把資料送過來。</p>
+<p>這就像一條高速公路上有一輛超級跑車，引擎馬力驚人，但前面塞車了。跑車的性能再好，也只能停在那裡空轉。在 AI 運算的世界裡，GPU 就是那輛跑車，而記憶體的頻寬就是那條塞車的公路。</p>
+<h2 id="為什麼-gpu-會餓肚子">為什麼 GPU 會「餓肚子」？</h2>
+<p>要理解這個現象，得先理解 AI 模型是怎麼運作的。當你問 ChatGPT 一個問題時，它不是一次把整個答案想好再說出來，而是一個字、一個字地「吐」出來。每吐一個字，模型都需要回去查一本巨大的「參考書」——這本參考書儲存了它學過的所有知識，技術上叫做模型參數和 KV Cache。</p>
+<p>問題是，這本參考書實在太大了。以目前最先進的大型語言模型來說，參數量動輒數千億，換算成儲存空間就是數百 GB 甚至數 TB。每說一個字都要查這本書，查完還要把結果送回給 GPU 處理。這個「查書、送資料」的過程，就是瓶頸所在。</p>
+<p>金教授用了一個更生活化的比喻：想像你是一個學霸，要回答各種考試題目。你的腦袋轉得很快（這是 GPU），但你的參考書太多了，擺滿了整個房間。每次回答問題，你都要從書架上找書、翻到對的頁面、讀完再回來寫答案。你花在「找書、翻書」的時間，遠比真正「思考」的時間多得多。</p>
+<h2 id="記憶體階層書桌書庫大圖書館">記憶體階層：書桌、書庫、大圖書館</h2>
+<p>為了解決這個問題，現代 AI 晶片採用了「記憶體階層」的架構。金教授用書桌和圖書館的比喻來解釋這個概念：</p>
+<p>最靠近 GPU 的是 SRAM，這就像你書桌上直接攤開的那幾本書。容量很小（通常不到 100MB），但存取速度極快。接下來是 HBM（高頻寬記憶體），這就像書桌旁邊的小書架。容量大一些（目前最高約 192GB），速度也不錯，但還是有限。</p>
+<p>再往外是 SSD 儲存，這就像地下室的倉庫。容量很大，但每次要用的時候，得走一趟地下室把書搬上來，很花時間。最外層是資料中心的大型儲存系統，這就像城市裡的公共圖書館——什麼書都有，但你得開車去借，來回可能要花好幾個小時。</p>
+<p>目前 AI 運算的痛點在於：模型越來越大，連 HBM 這個「書桌旁的小書架」都放不下了。越來越多資料得從「地下室倉庫」甚至「公共圖書館」調過來，這大幅拖慢了整體速度。</p>
+<h2 id="hbf在書桌旁邊多放一個大書櫃">HBF：在書桌旁邊多放一個大書櫃</h2>
+<p>金教授提出的解決方案是 HBF（High Bandwidth Flash）——用 NAND Flash 記憶體堆疊起來，放在 GPU 旁邊，當作一個「超大容量的書櫃」。</p>
+<p>為什麼是 NAND Flash？因為它的儲存密度比 DRAM（HBM 的基底材料）高得多。用同樣的堆疊層數，HBF 的容量可以達到 HBM 的十倍左右。這意味著，原本放不進「小書架」的那些資料，現在可以放進「大書櫃」了。雖然 HBF 的存取速度比 HBM 慢一些，但比起從「地下室倉庫」調資料，還是快太多了。</p>
+<p>更重要的是，這不是全新的技術冒險。韓國的三星和 SK 海力士都已經在量產 3D NAND Flash，也就是把記憶體晶片一層一層堆疊起來。目前最先進的產品已經堆到 200 多層。把這個技術應用到 AI 晶片上，技術門檻相對可控。</p>
+<p>金教授預估，HBF 產品可能在 2027 年左右問世。屆時，AI 晶片的架構會從「GPU + HBM」變成「GPU + HBM + HBF」，記憶體的重要性將進一步提升。</p>
+<h2 id="這對-nvidia-意味著什麼">這對 NVIDIA 意味著什麼？</h2>
+<p>如果記憶體真的變成 AI 效能的決定性因素，NVIDIA 的處境就尷尬了。目前，NVIDIA 在 GPU 設計和軟體生態系（CUDA）上有絕對優勢，但記憶體完全依賴外部供應商——主要是三星和 SK 海力士。</p>
+<p>金教授觀察到一個微妙的變化：NVIDIA 最近的產品迭代，GPU 數量增加的幅度開始放緩，但 HBM 的數量卻在快速增加。從一顆 GPU 配 4 顆 HBM，到 8 顆，未來可能更多。這說明 NVIDIA 自己也意識到，「餵飽 GPU」比「讓 GPU 更快」更重要。</p>
+<p>當記憶體成為瓶頸，誰掌握記憶體技術，誰就掌握了 AI 的命脈。這就是為什麼金教授認為，NVIDIA 終究會設法在記憶體領域取得更多控制權——無論是透過收購、深度合作，還是其他方式。</p>
+<hr>
+<p>對於一般人來說，這個技術趨勢最直接的影響可能是：別只盯著 NVIDIA 的股價看。三星、SK 海力士、甚至 SanDisk 這些記憶體公司，可能才是 AI 浪潮中真正的「賣鏟子的人」。當所有人都在挖金礦時，賣鏟子的往往賺得最穩。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 取代工作 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E5%8F%96%E4%BB%A3%E5%B7%A5%E4%BD%9C/</link>
+    <description>Recent content in AI 取代工作 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 10:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E5%8F%96%E4%BB%A3%E5%B7%A5%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>為什麼 AI 會先取代工程師，卻不會取代理髮師？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-jagged-edge-of-intelligence/</link>
+      <pubDate>Thu, 25 Dec 2025 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-jason-wei-jagged-edge-of-intelligence/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/b6Doq2fz81U&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Stanford AI Club 2025 年的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;你可能聽過一種說法：一旦 AI 突破某個臨界點，就會在短短幾年內遠遠超越人類，接管一切。這個「快速起飛」的論述聽起來很嚇人，但 Jason Wei 不這樣看。&lt;/p&gt;&#xA;&lt;p&gt;Jason Wei 是 OpenAI o1 和 Deep Research 的共同創作者，曾在 Google Brain 推廣 Chain-of-Thought Prompting，學術引用超過 9 萬次。他在 Stanford AI Club 的演講中提出了一個不同的框架：&lt;strong&gt;智慧的鋸齒狀邊緣&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

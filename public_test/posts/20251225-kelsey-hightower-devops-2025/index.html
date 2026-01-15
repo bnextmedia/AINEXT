@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>Dev ops 死了嗎？ kubernetes 傳奇 kelsey hightower 的 2025 答案 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="DevOps 死了嗎？Kubernetes 傳奇 Kelsey Hightower 的 2025 答案">
+<meta property="og:description" content="
+本文整理自 JetBrains 2024 年 12 月發布的訪談。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-devops-2025/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-devops-2025/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">DevOps 死了嗎？Kubernetes 傳奇 Kelsey Hightower 的 2025 答案</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 JetBrains 2024 年 12 月發布的訪談。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/HdUbTyvrfKo" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>DevOps 死了嗎？</p>
+<p>這個問題在 2024 年被問了無數次。有人說 DevOps 已經過時，被平台工程取代了。有人說 DevOps 從來沒有真正實現過它的承諾。還有人說 AI 會讓整個討論變得無關緊要。</p>
+<p>Kelsey Hightower 的答案比這些都複雜，也比這些都務實。他是 Kubernetes 社群最具影響力的布道者，在 Google Cloud 擔任開發者大使超過八年，也是 KubeCon 的共同創辦人。當他談論 DevOps、平台工程、雲端、AI 時，他不是在販賣願景——他是在分享二十多年的一線經驗。</p>
+<h2 id="devops-沒死但很多人只是換了-t-shirt">DevOps 沒死，但很多人只是換了 T-shirt</h2>
+<p>Hightower 對 DevOps 現況的診斷非常直接：問題不是 DevOps 這個概念，而是很多公司只是假裝在做 DevOps。</p>
+<p>「有些公司選擇了簡單的路線，」他說。「『嘿，大家，你們不再是系統管理員了。你們現在是 DevOps 工程師。』就好像，『哇，我有新的 T-shirt 嗎？』然後有些人就只是穿上了 T-shirt，其他什麼都沒改。」</p>
+<p>這種現象持續了五年、十年。當這些公司回頭看結果時，他們發現什麼都沒變。Hightower 用了一個更狠的說法來描述這種情況：「有些人有 20 年的一年經驗。」他們重複做同樣的事二十年，從「系統管理員」升到「資深系統管理員」，再變成「DevOps 工程師」。他們處理 on-call 的速度可能變快了，但他們從來沒有把學到的東西轉化成工具、流程、或自動化。</p>
+<p>真正的 DevOps 需要持續學習、需要把經驗轉化成可重複使用的知識。DevOps 這個詞本身不包含紀律、不包含永遠學習的承諾、不包含遇到障礙時願意學新技能來解決問題的態度。這些東西必須自己加上去。大多數人選擇不加。</p>
+<h2 id="平台工程從自動化到-api-設計">平台工程：從自動化到 API 設計</h2>
+<p>這帶出了 DevOps 和平台工程的關鍵區別。</p>
+<p>Hightower 說，DevOps 時代的典型成就是這樣的：學會 Terraform、教全公司 HCL、把 Terraform 程式碼 check in、建一堆 DevOps pipeline。這樣你就可以在 LinkedIn 上放一個漂亮的 badge，說自己是 DevOps 工程師。</p>
+<p>但平台工程要求更多。「在雲端待了八年後，」他說，「你不能停在 HCL。那是一個不足以描述契約的 API。」</p>
+<p>然後他講了一個具體的例子。在一場會議上，有個工程師問他怎麼轉型成平台工程師。Hightower 讓他做了一個思想實驗：「如果你必須替整間公司做所有的部署，你會問開發團隊什麼問題？」</p>
+<p>那個工程師想了想：「版本號。記憶體和 CPU 需求。可能需要多少磁碟空間。要部署到哪個區域。」</p>
+<p>「就這些嗎？」</p>
+<p>「應該就這些。」</p>
+<p>「那就是你的 API。」</p>
+<p>這就是平台工程和 DevOps 的區別。DevOps 工程師專注在活動：學工具、寫自動化、建 pipeline。平台工程師專注在影響：設計 API、建構產品、讓其他團隊能夠自助服務。至於底層用 Kubernetes 還是 Terraform？那是實作細節，外部團隊不需要知道。</p>
+<p>那個工程師聽完後恍然大悟：「啊，我需要建構產品。」</p>
+<h2 id="kubernetes已經無聊六七年了">Kubernetes：已經無聊六七年了</h2>
+<p>談到 Kubernetes，Hightower 的回答可能會讓很多人意外。</p>
+<p>「如果你有一個無狀態的 web app，」他說，「Kubernetes 已經無聊六七年了。」</p>
+<p>這不是在貶低 Kubernetes。在科技領域，「無聊」是最高的讚美。無聊意味著可靠、可預測、不會讓你半夜被 page 起來。Go 語言現在也「無聊」了——它就是能用，不需要思考。這正是基礎設施應該追求的狀態。</p>
+<p>讓事情變得「刺激」的，是人們試圖用 Kubernetes 做一些它原本設計之外的事。想用 Kubernetes 管理資料庫？想在上面跑 PostgreSQL 或 MySQL？那你得自己建構那個 control loop。大多數人不知道怎麼做。試過的人偶爾會丟資料。這種「刺激」不是你想要的那種。</p>
+<p>Hightower 提供了一個有用的框架：基礎設施只有在你注意到它的時候才會變得刺激。飛機只有在出問題的時候才刺激。正常情況下，你上飛機、睡著、醒來在另一個國家。你不會給機長鼓掌，因為沒什麼好鼓掌的。但如果遇到嚴重的亂流然後安全降落？所有人都在鼓掌。</p>
+<p>「當基礎設施擋住你的路時，」他說，「我們通常不會用『刺激』來形容。我們用的是『摩擦』和『挫折』。」</p>
+<h2 id="雲端回遷不是雲不好是你沒改變操作模式">雲端回遷：不是雲不好，是你沒改變操作模式</h2>
+<p>關於企業離開雲端回到自建機房的趨勢，Hightower 有一個非常清醒的觀察。</p>
+<p>他以 37signals（Ruby on Rails 背後的公司）為例。這是一個非常強的工程團隊，強到能夠把他們建構 web 應用的方式編碼成一個框架，讓十五、二十年前的無數人用來建構三層架構。這個團隊試過了每一個主要的雲端供應商：GCP、AWS、Azure。最後他們決定回到自建機房。</p>
+<p>但 Hightower 指出，大多數公司不是 37signals。他們選擇離開雲端的原因，不是因為他們太厲害了不需要雲端，而是因為他們從來沒有真正利用雲端的好處。</p>
+<p>「很多人掙扎的原因，」他說，「是他們相信可以『把雲塗在你的混亂上』，然後事情就會變好。」</p>
+<p>這些公司做的是：把所有東西原封不動搬上雲端（lift and shift）、繼續開著太大的機器（因為沒人有工具或技能做真正的效能分析）、繼續用舊的操作模式。問題是，雲端有 2-3 倍的價格溢價。如果你不改變操作模式，你等於在為舊行為付出巨額罰款。</p>
+<p>五年後，這些公司抓著頭說：「我們不願意改變操作模式，我們也付不起這個稅。」所以他們回去了。</p>
+<p>但好消息是，硬體變快了、變便宜了，而且雲端也演進了。我們從 EC2 和 S3 這種專有系統，演進到 Kubernetes 和 Prometheus 這種開放服務。這意味著你終於可以在自建機房獲得類似雲端的 API 體驗。所以回遷也不是完全沒道理——只要你知道自己在做什麼。</p>
+<h2 id="serverless一個好概念被濫用了">Serverless：一個好概念被濫用了</h2>
+<p>Hightower 對 Serverless 的評價非常微妙。</p>
+<p>他說，Serverless 剛出現時的想法是對的：能不能把機器抽象掉，讓它看起來不存在？你只需要實作一個 handler，不用管底層的伺服器。這個願景很美好。</p>
+<p>問題是很多人太興奮了，開始「Serverless for everything」。他們把根本不適合 Serverless 的東西硬塞進去。而且，那個看起來很簡潔的 function signature，一旦你開始 import 資料庫、import 各種依賴，那個 HTTP handler 就變成了 function main，和其他任何東西一樣大。</p>
+<p>Hightower 把 Serverless 類比成 Ruby on Rails：它是一個 framework。如果你買單這個 framework 的假設，你可以從中獲得很多好處。但如果你需要跳出來，你就卡住了。</p>
+<p>最後他給出了一個務實的結論：容器 image 贏了。你把東西放進容器裡，如果你想要 Lambda 的契約，你用 Lambda shim；如果你想要 Linux kernel 的契約，你就綁定一個 port 等待流量。這個 image 讓你可以從 Heroku 跳到 VM 跳到 Kubernetes，在它們之間自由移動。這是一個好的中間地帶——平台獨立，選擇最適合你的。</p>
+<h2 id="ai意圖導向-api-的潛力但別忘了工程師的基本功">AI：意圖導向 API 的潛力，但別忘了工程師的基本功</h2>
+<p>Hightower 對 AI 的態度非常務實。</p>
+<p>他觀察到一個根本性的張力：軟體工程師這個職業，本質上就是在把不確定的東西變成可預測的東西。當系統不可預測時，我們叫它 bug；當它做了預期之外的事，我們叫它安全漏洞。然後 AI 來了，它的核心特性恰恰是不可預測性。</p>
+<p>「為什麼要預測？明明可以確定。」他這樣問。</p>
+<p>但他也看到了 AI 的真正價值：意圖導向的 API。現在的工具鏈太碎片化了——HCL、Kubernetes API、Helm charts、SQL、各種配置檔。如果 LLM 能讓人用自然語言表達意圖，然後由某個中間層處理底層的複雜性，那是有價值的。</p>
+<p>只是他也提醒：底層的東西一樣都沒變。你還是要呼叫雲端供應商的 API，你的應用還是跑在同樣的 kernel 上。「除非這些都改變了，」他說，「否則我們真正談論的，只是一個新的 API 來做我們過去三十年一直在做的事。」</p>
+<h2 id="回歸-unix-哲學">回歸 Unix 哲學</h2>
+<p>訪談的最後，Hightower 被問到未來會是什麼樣子。他的回答回到了一個古老但歷久彌新的原則：Unix 哲學。</p>
+<p>「做一件事，把它做好。」</p>
+<p>Kubernetes 之所以成功，部分原因是它沒有試圖解決所有問題。它提供了一個可擴展的系統，讓其他人可以在上面建構自己的解決方案。資料模型對了，介面對了，剩下的讓社群去做。這和 Unix 的精神是一致的。</p>
+<p>Hightower 說，在這波 AI 淘金熱中，很多人在重新發明輪子，重新發明 MCP 這樣的東西。但如果你理解基礎和根本，你就會發現這些原則從來沒有改變過。</p>
+<p>DevOps 沒死。它只是需要回歸本質：持續學習、把經驗轉化成工具、設計好的 API、做一件事並把它做好。這些聽起來不新，但能做到的人一直都很少。</p>
+<p>而這，可能才是最該解決的問題。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

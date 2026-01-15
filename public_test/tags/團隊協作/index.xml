@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>團隊協作 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E5%9C%98%E9%9A%8A%E5%8D%94%E4%BD%9C/</link>
+    <description>Recent content in 團隊協作 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 18:10:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E5%9C%98%E9%9A%8A%E5%8D%94%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>「我喜歡穀倉」——Kelsey Hightower 的反直覺團隊協作論</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-i-like-silos/</link>
+      <pubDate>Thu, 25 Dec 2025 18:10:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-i-like-silos/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 JetBrains 2024 年 12 月發布的訪談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/HdUbTyvrfKo&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「我喜歡穀倉。」&lt;/p&gt;&#xA;&lt;p&gt;當 Kelsey Hightower 說出這句話時，訪談者明顯愣了一下。這是 Kubernetes 社群最具影響力的布道者、前 Google Cloud 開發者大使、KubeCon 共同創辦人——一個 DevOps 運動的標誌性人物——公開挑戰「打破穀倉」這個行業共識。在過去十五年裡，「穀倉」（silos）一直是軟體產業的髒話，代表著官僚、低效、各自為政。每一本談 DevOps 的書、每一場談敏捷的演講，都在告訴你：穀倉是敵人，必須摧毀。&lt;/p&gt;&#xA;&lt;p&gt;然後 Hightower 說：不，你們搞錯了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;機場比喻我不需要知道怎麼開飛機&#34;&gt;機場比喻：我不需要知道怎麼開飛機&lt;/h2&gt;&#xA;&lt;p&gt;Hightower 用了一個精妙的比喻來解釋他的立場。&lt;/p&gt;&#xA;&lt;p&gt;「當我去機場時，」他說，「我不知道怎麼開飛機。我不知道怎麼經營一家航空公司。我買我的機票——這是一個非常棒的 API。我購買機票，我出現在機場，我坐到指定的座位上，我閉上眼睛，醒來時我已經在另一個國家了，然後我離開。」&lt;/p&gt;&#xA;&lt;p&gt;他停頓了一下。「我可能會跟機長說聲謝謝。但除此之外，我不需要任何其他的互動就能完成一件像飛到另一個地方這樣平常的事。」&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

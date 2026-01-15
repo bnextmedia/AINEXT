@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>電腦架構 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E9%9B%BB%E8%85%A6%E6%9E%B6%E6%A7%8B/</link>
+    <description>Recent content in 電腦架構 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 14:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E9%9B%BB%E8%85%A6%E6%9E%B6%E6%A7%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>80 年來首次，有人想重寫計算的底層架構</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-unconventional-ai-analog-computing/</link>
+      <pubDate>Thu, 25 Dec 2025 14:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-unconventional-ai-analog-computing/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 NeurIPS 2024 期間的訪談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/wZ4DT20OHXE&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;1945 年，ENIAC 在賓州大學點亮。這台 30 噸重、佔據整個房間的機器，是現代數位計算的起點。從那之後的 80 年，我們基本上都在做同一件事：用 0 和 1 來表示一切，用邏輯閘來處理一切。處理器變快了、變小了、變省電了，但底層架構沒有根本性的改變。&lt;/p&gt;&#xA;&lt;p&gt;現在有人想改變這件事。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;數位計算的勝利與代價&#34;&gt;數位計算的勝利與代價&lt;/h2&gt;&#xA;&lt;p&gt;要理解 Naveen Rao 在做的事，得先理解數位計算為什麼會贏。&lt;/p&gt;&#xA;&lt;p&gt;1940 年代其實有兩種計算機在競爭。類比計算機用連續的物理量來代表數字——電壓、電流、旋轉角度。數位計算機則把一切離散化成 0 和 1。類比機器更直觀、更高效，但有一個致命傷：它無法規模化。&lt;/p&gt;&#xA;&lt;p&gt;問題出在製造精度。當時的真空管特性會隨著溫度變化、隨著老化改變。如果你的計算依賴於電壓的精確值，這些微小的變異就會累積成嚴重的誤差。系統越大，誤差越難控制。數位計算繞過了這個問題：只要能可靠地區分「高」和「低」，中間的變異就不重要了。「我沒辦法精確描述中間的狀態，」Rao 解釋當年的困境，「但我可以說它是高還是低。」&lt;/p&gt;&#xA;&lt;p&gt;這個選擇讓 ENIAC 得以用 18,000 個真空管構建出可用的計算機。之後的每一代技術——電晶體、積體電路、微處理器——都沿著同一條路前進。數位抽象成為計算的基礎語言，精確的數字運算成為一切應用的底層。這條路走了 80 年，從未被真正挑戰過。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

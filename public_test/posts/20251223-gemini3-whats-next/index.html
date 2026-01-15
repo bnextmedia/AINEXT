@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>從 gemini 3 看 ai 的下一步：長上下文、注意力機制與持續學習 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="從 Gemini 3 看 AI 的下一步：長上下文、注意力機制與持續學習">
+<meta property="og:description" content="
+本文整理自《The MAD Podcast with Matt Turck》2025 年 12 月 18 日播出的單集，訪談來賓為 Google DeepMind Gemini 3 預訓練負責人 Sebastian Bourgeaud。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251223-gemini3-whats-next/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251223-gemini3-whats-next/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>23. December 2025</p>
+      <h1 class="post_title">從 Gemini 3 看 AI 的下一步：長上下文、注意力機制與持續學習</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自《The MAD Podcast with Matt Turck》2025 年 12 月 18 日播出的單集，訪談來賓為 Google DeepMind Gemini 3 預訓練負責人 Sebastian Bourgeaud。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/cNGDAqFXvew" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<h2 id="gemini-3-之後下一步是什麼">Gemini 3 之後，下一步是什麼</h2>
+<p>Gemini 3 的發布證明了預訓練 Scaling Laws 依然有效，也讓 Google DeepMind 在與 OpenAI、Anthropic 的競爭中重新站穩腳步。但對於站在研究前沿的人來說，更重要的問題是：接下來呢？</p>
+<p>Sebastian Bourgeaud 是 Gemini 3 預訓練的負責人，當被問到接下來幾年會發生什麼時，他提到了幾個讓他興奮的技術方向。這些方向不是空泛的願景，而是他和團隊正在投入資源的具體研究領域。雖然他沒有透露太多細節——這畢竟是核心競爭力——但從他的描述中可以看出 AI 研究正在往哪個方向演進。</p>
+<hr>
+<h2 id="長上下文從能力到效率">長上下文：從能力到效率</h2>
+<p>Bourgeaud 首先提到的是長上下文能力。Gemini 1.5 在這方面取得了顯著突破，能夠處理比之前更長的輸入。這種能力不只是技術指標的進步，它正在支撐一整類新的應用場景。</p>
+<p>「我認為這真的在支撐今天各種 agent 和模型做複雜工作的能力，」他說。「當你在一個程式碼庫上工作時，你的上下文長度會持續增長。」想像一個 AI 程式助手需要理解整個專案的結構、追蹤多個檔案之間的依賴關係、記住之前討論過的設計決策——這一切都需要超長的上下文視窗。</p>
+<p>但當前的長上下文能力還有很大的改進空間。首先是效率問題：處理超長輸入需要消耗大量運算資源，成本高昂。其次是上下文長度本身的限制：即使目前的限制已經很高，對於某些應用場景（比如分析一整本書、處理一整年的對話記錄）仍然不夠。</p>
+<p>Bourgeaud 預期接下來一年會看到更多這方面的創新——既要讓長上下文更有效率，也要繼續擴展上下文長度的上限。這不是容易的問題。Transformer 架構的注意力機制在處理長序列時會遇到根本性的運算瓶頸，需要巧妙的工程和架構創新才能突破。</p>
+<hr>
+<h2 id="注意力機制的新發現">注意力機制的新發現</h2>
+<p>說到注意力機制，Bourgeaud 透露了一個有趣的訊息：他們最近在這個方向有了「非常有趣的發現」，將會影響未來幾個月的研究方向。</p>
+<p>「在注意力方面，至少對我們來說，我們最近有一些非常有趣的發現，我認為這會形塑我們接下來幾個月很多的研究。我個人對此非常興奮。」</p>
+<p>他沒有透露具體是什麼發現，這可能是 Google DeepMind 目前的競爭優勢之一。但這句話本身就很有意義：它暗示著即使在看似成熟的 Transformer 架構內部，仍然有重要的改進空間尚未被發現。</p>
+<p>注意力機制是 Transformer 的核心。2017 年 Vaswani 等人發表「Attention Is All You Need」論文以來，這個架構已經主導了自然語言處理領域近八年。許多人假設這個架構已經被優化到極限，任何重大改進都必須來自全新的架構。但 Bourgeaud 的話暗示事實可能並非如此。</p>
+<hr>
+<h2 id="端對端可微分學習把檢索融入訓練">端對端可微分學習：把檢索融入訓練</h2>
+<p>另一個 Bourgeaud 提到的長期方向更加根本性：把檢索（retrieval）直接整合進模型的訓練過程。</p>
+<p>目前的 RAG（檢索增強生成）系統是把檢索當成一個外部模組：先用一個獨立的系統找到相關文件，然後把這些文件塞進模型的上下文中。這種方法有效，但有點像是在正規教育之外偷偷夾帶小抄——檢索系統和生成模型各自為政，沒有真正整合。</p>
+<p>Bourgeaud 認為長期的方向是讓整個系統「端對端可微分」——意思是，檢索的過程本身也成為可以被訓練優化的一部分，而不是一個固定的外掛模組。</p>
+<p>「我認為長期的方向是端對端可微分的學習，把檢索和搜尋直接整合進訓練過程本身。」他說。這個方向的技術挑戰不小：如何讓一個離散的檢索過程（從資料庫中選擇特定文件）變成可以用梯度下降優化的連續過程？但如果能做到，模型就能學會自己決定什麼時候需要查資料、查什麼資料、以及如何利用查到的資訊。</p>
+<p>Bourgeaud 之前在 DeepMind 的研究經歷與此相關。他參與過 Retro 計畫，這是一個早期嘗試把檢索能力內建到語言模型中的研究項目。那個計畫的經驗顯然影響了他對未來方向的判斷。</p>
+<hr>
+<h2 id="持續學習模型如何跟上世界的變化">持續學習：模型如何跟上世界的變化</h2>
+<p>還有一個方向是持續學習（continual learning）。目前的大型語言模型有一個尷尬的限制：它們的知識截止於訓練數據的收集時間。訓練完成後，世界繼續變化，但模型的知識是靜態的。</p>
+<p>這不只是一個學術問題。當使用者問一個關於最近事件的問題時，模型要嘛承認不知道，要嘛（更糟糕地）用過時的資訊胡說八道。目前的解決方案包括定期重新訓練、使用 RAG 補充即時資訊、或是微調模型加入新知識。但這些都是權宜之計。</p>
+<p>理想的解決方案是讓模型能夠持續學習新資訊，而不會忘記已經學過的東西。這在機器學習中被稱為「災難性遺忘」（catastrophic forgetting）問題：神經網路在學習新任務時，往往會把舊任務的能力忘掉。解決這個問題需要在模型架構和訓練方法上進行根本性的創新。</p>
+<p>Bourgeaud 沒有詳細討論這個方向的進展，但他把它列為讓他興奮的長期研究領域之一。這暗示著這可能是接下來幾代 Gemini 會重點投入的方向。</p>
+<hr>
+<h2 id="多模態gemini-的傳統優勢">多模態：Gemini 的傳統優勢</h2>
+<p>Gemini 系列從一開始就以原生多模態聞名。「原生多模態」的意思是，處理文字、圖片、音訊、影片的不是幾個分開的模型拼接在一起，而是同一個神經網路。這種設計讓不同模態之間能夠更自然地互動和理解。</p>
+<p>Bourgeaud 表示這是 DeepMind 歷來的強項，而且這個優勢仍在持續。「歷史上，DeepMind 在視覺和多模態方面一直非常非常強。這種情況今天依然如此，從人們使用模型的方式和 benchmark 結果都能看出來。」</p>
+<p>多模態能力的提升不只是技術成就，它直接影響模型的實用性。當一個模型能真正「理解」圖片內容、能分析影片中發生的事、能聽懂音訊中的對話，它的應用範圍就會大幅擴展。這也是 Gemini 與某些競爭對手的差異化所在。</p>
+<p>當然，多模態也帶來了額外的複雜性。Bourgeaud 承認這是一種「成本」：不同模態會以複雜的方式互相影響，讓研究變得更困難；圖像等模態的輸入尺寸通常也比純文字大，帶來更高的運算成本。但他認為這些成本被多模態帶來的好處所抵消。</p>
+<hr>
+<h2 id="從模型到系統的視角">從模型到系統的視角</h2>
+<p>綜合 Bourgeaud 提到的這些方向——長上下文、注意力機制、端對端學習、持續學習、多模態——有一個共同的主題：AI 研究正在從「優化一個模型」轉向「建構一個系統」。</p>
+<p>純粹的模型能力（更高的 benchmark 分數、更大的參數量）當然重要，但不再是唯一的戰場。接下來的競爭會越來越圍繞著：模型如何與外部知識互動？如何處理超長的工作記憶？如何適應不斷變化的世界？如何同時處理多種形式的資訊？</p>
+<p>這些問題的答案不會只來自單一的架構突破，而是需要在多個層面同時創新：模型架構、訓練方法、推理效率、系統整合。這也是為什麼 Bourgeaud 反覆強調「我們在建造的不只是模型，而是整個系統」。</p>
+<p>對於關注 AI 發展的人來說，這些方向提供了一個路線圖，指出接下來幾年的進展可能從哪裡來。不是某個戲劇性的突破（雖然那也可能發生），而是在這些領域的持續累積，最終匯聚成新一代更強大、更實用的 AI 系統。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

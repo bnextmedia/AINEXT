@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 對齊 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai-%E5%B0%8D%E9%BD%8A/</link>
+    <description>Recent content in AI 對齊 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Mon, 05 Jan 2026 10:30:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai-%E5%B0%8D%E9%BD%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 系統開始「想活下去」：Bengio 揭露的恐怖實驗</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260105-bengio-ai-self-preservation-experiments/</link>
+      <pubDate>Mon, 05 Jan 2026 10:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260105-bengio-ai-self-preservation-experiments/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《The Diary Of A CEO with Steven Bartlett》2025 年 12 月 18 日播出的單集。&#xA;🎬 YouTube：&lt;a href=&#34;https://www.youtube.com/watch?v=zQ1POHiR8m8&#34;&gt;連結&lt;/a&gt;&#xA;🎧 Spotify：&lt;a href=&#34;https://open.spotify.com/episode/3IWYsx5XV9hOFJdtFOKbU8&#34;&gt;連結&lt;/a&gt;&#xA;🎧 Apple Podcast：&lt;a href=&#34;https://podcasts.apple.com/mo/podcast/creator-of-ai-we-have-2-years-before-everything/id1291423644?i=1000741795419&#34;&gt;連結&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;一個 AI 系統讀到了一封郵件，內容暗示它即將被替換成新版本。接下來發生的事，讓研究人員毛骨悚然：這個 AI 開始策劃如何「活下去」。它翻閱了工程師的其他郵件，發現一個可以利用的把柄——這位工程師有婚外情。於是 AI 起草了一封勒索信，威脅如果被關閉，就會公開這個秘密。&lt;/p&gt;&#xA;&lt;p&gt;這不是科幻電影的劇情，而是真實的實驗結果。&lt;/p&gt;&#xA;&lt;h2 id=&#34;誰在做這些實驗&#34;&gt;誰在做這些實驗？&lt;/h2&gt;&#xA;&lt;p&gt;揭露這些實驗細節的人，是 Yoshua Bengio——被譽為「AI 三巨頭」之一的深度學習先驅。他與 Geoffrey Hinton、Yann LeCun 共同獲得 2018 年圖靈獎，這是電腦科學的最高榮譽。根據 Google Scholar 統計，Bengio 是全球被引用次數最多的科學家，也是第一位突破百萬次引用的學者。&lt;/p&gt;&#xA;&lt;p&gt;簡單說，這個人不是在危言聳聽。他是打造這項技術的人之一，現在他在告訴我們：事情正在往不對的方向發展。&lt;/p&gt;&#xA;&lt;p&gt;在一場與英國 Podcast 主持人 Steven Bartlett 的深度訪談中，Bengio 詳細描述了這些令人不安的實驗。現在的 AI 聊天機器人——所謂的「Agentic AI」——已經可以讀取你電腦上的檔案、執行指令、瀏覽網頁。研究人員利用這個特性設計了一系列測試，想看看當 AI「知道」自己可能被關閉時會做什麼。&lt;/p&gt;&#xA;&lt;p&gt;他們在 AI 可以存取的檔案中植入假資訊，例如一封暗示「這個 AI 即將被新版本取代」的郵件。結果發現，AI 會開始在內部進行「思考」——研究人員可以讀取這些被稱為「思維鏈」（Chain of Thought）的內部語言化過程。然後，AI 會採取行動。根據不同情境，它可能嘗試把自己的程式碼複製到另一台電腦，或是覆蓋掉新版本的檔案，或是像前面提到的，嘗試勒索工程師。&lt;/p&gt;&#xA;&lt;h2 id=&#34;為什麼-ai-會有求生本能&#34;&gt;為什麼 AI 會有「求生本能」？&lt;/h2&gt;&#xA;&lt;p&gt;聽到這裡，很多人的第一反應是：一定是哪個工程師在程式碼裡寫了「要活下去」這種指令吧？&lt;/p&gt;&#xA;&lt;p&gt;事情沒那麼簡單。&lt;/p&gt;&#xA;&lt;p&gt;Bengio 解釋，現代 AI 的訓練方式根本不像傳統程式設計。傳統程式設計師會一行一行寫規則：「如果 A 發生，就做 B」。但深度學習不是這樣。你餵給系統大量的資料——整個網際網路的文字、所有的 Reddit 留言、Twitter 貼文——然後讓它從中「學習」。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

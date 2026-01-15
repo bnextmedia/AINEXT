@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YC on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/yc/</link>
+    <description>Recent content in YC on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/yc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 年 AI 產業回顧：YC 合夥人眼中最意外的五件事</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251223-yc-2025-ai-surprises/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251223-yc-2025-ai-surprises/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 YC 官方 Podcast《The Light Cone》2025 年 12 月播出的年度回顧單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/cqrJzG03ENE&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;2025 年接近尾聲。這一年 AI 產業發生了太多事——模型能力持續提升、新創公司快速成長、基礎設施競賽白熱化。YC 的幾位合夥人在最新一集的 The Light Cone Podcast 中，回顧了這一年最讓他們意外的趨勢。&lt;/p&gt;&#xA;&lt;p&gt;不是「最重要的」或「最酷的」，而是「最意外的」。這個角度特別有意思，因為它揭示了連矽谷最前線的人也沒預料到的變化。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;驚訝一anthropic-超越-openai&#34;&gt;驚訝一：Anthropic 超越 OpenAI&lt;/h2&gt;&#xA;&lt;p&gt;第一個讓 YC 合夥人震驚的數據，來自他們自己的申請資料。&lt;/p&gt;&#xA;&lt;p&gt;YC 每批次都會問申請者：你的技術堆疊用什麼模型？這個問題的答案在過去兩年經歷了戲劇性的變化。Diana Hu 回憶，當 The Light Cone 這個 Podcast 剛開始的時候，OpenAI 的市占率超過 90%。在整個 2024 年，Anthropic 的佔比大約在 20-25% 徘徊，但始終是第二名。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI 泡沫？YC 合夥人說：對新創反而是好事</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251223-yc-ai-bubble-good-for-startups/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251223-yc-ai-bubble-good-for-startups/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 YC 官方 Podcast《The Light Cone》2025 年 12 月播出的年度回顧單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/cqrJzG03ENE&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;大學生最常問的問題&#34;&gt;大學生最常問的問題&lt;/h2&gt;&#xA;&lt;p&gt;Jared Friedman 說，每次他去大學演講，學生問得最多的問題就是：「AI 是不是泡沫？」&lt;/p&gt;&#xA;&lt;p&gt;這個焦慮很好理解。新聞裡充斥著 Nvidia 和 OpenAI 之間的「資金循環」——Nvidia 賣 GPU 給雲端公司，雲端公司把算力賣給 AI 公司，AI 公司拿投資人的錢買算力，投資人的錢又有一部分來自 Nvidia 股票的增值。這看起來像是一個自我強化的迴圈，沒有真正的終端需求支撐。聽起來很可怕，對吧？&lt;/p&gt;&#xA;&lt;p&gt;但 YC 合夥人們有不同的看法。他們的答案是：&lt;strong&gt;就算是泡沫，對新創也是好事&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>YC 創業者換邊站：Anthropic 首度超越 OpenAI</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251223-yc-anthropic-overtakes-openai/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251223-yc-anthropic-overtakes-openai/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 YC 官方 Podcast《The Light Cone》2025 年 12 月播出的年度回顧單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/cqrJzG03ENE&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一個數據的翻轉&#34;&gt;一個數據的翻轉&lt;/h2&gt;&#xA;&lt;p&gt;YC 每年都會在申請表上問創業者一個問題：你的技術堆疊用什麼模型？這個問題的答案，某種程度上反映了開發者社群對各家 LLM 的真實偏好——不是問你覺得哪家厲害，而是問你實際在用哪家。&lt;/p&gt;&#xA;&lt;p&gt;Winter 26 批次的數據出來了，結果讓 YC 合夥人自己都嚇一跳：&lt;strong&gt;Anthropic 首度超越 OpenAI，成為最多創業者選用的 API&lt;/strong&gt;。這在兩年前根本無法想像。Diana Hu 回憶，當 The Light Cone 這個 Podcast 剛開始做的時候，OpenAI 的市占率超過 90%。現在？被 Anthropic 超越了。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

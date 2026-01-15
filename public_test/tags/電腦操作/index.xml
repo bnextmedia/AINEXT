@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>電腦操作 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E9%9B%BB%E8%85%A6%E6%93%8D%E4%BD%9C/</link>
+    <description>Recent content in 電腦操作 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 13:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E9%9B%BB%E8%85%A6%E6%93%8D%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>醫療 AI 的未來：一位從業者的預測</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-medical-ai-predictions-andy-beam/</link>
+      <pubDate>Fri, 26 Dec 2025 13:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-medical-ai-predictions-andy-beam/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自《NEJM AI Grand Rounds》2025 年 7 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Andy Beam 小時候得了百日咳，被小兒科醫師誤診為鼻竇炎。這件事讓他看見醫療診斷的認知盲點，從此立志用電腦解決這個問題。他花了二十年研究醫療 AI，從訓練神經網路通過美國醫師執照考試開始，一路做到哈佛教授，現在是 Lila Sciences 的技術長。&lt;/p&gt;&#xA;&lt;p&gt;在一場訪談中，他分享了對醫療 AI 未來的預測。這些預測來自一個親身經歷過這個領域演變的人，有參考價值。&lt;/p&gt;&#xA;&lt;h2 id=&#34;診斷問題已經解決&#34;&gt;診斷問題已經解決&lt;/h2&gt;&#xA;&lt;p&gt;Beam 的第一個判斷聽起來很大膽：診斷問題已經解決了。&lt;/p&gt;&#xA;&lt;p&gt;他說的「診斷問題」是指什麼？就是他童年那次誤診想要解決的事：給定病人的症狀，正確估計各種疾病的機率。這是一個模式識別問題——病人說他咳得像狗叫、咳到嘔吐，系統應該要能把百日咳放在鑑別診斷的前面。&lt;/p&gt;&#xA;&lt;p&gt;這件事 LLM 已經做得很好了。事實上，Beam 在博士後期間用 LSTM 訓練的早期模型就能做到。那些模型能答對大約 40% 的醫師執照考試題目，而且會展示「逐字推理」的過程：當你輸入「1 歲病人、發燒四天、草莓舌」，模型對川崎症的信心值會在「草莓舌」出現的瞬間飆高。百日咳更是從來沒有難倒過任何版本的模型。&lt;/p&gt;&#xA;&lt;p&gt;現在的 LLM 通過醫師執照考試早就不是新聞了。GPT-4 可以、Claude 可以、Gemini 可以。甚至有些專科考試，LLM 的表現已經超過人類平均。如果你把「診斷」定義成「從症狀推論最可能的疾病」，這個問題從技術上來說已經被解決了。&lt;/p&gt;&#xA;&lt;p&gt;當然，能推論和能實際執行是兩回事。LLM 可以告訴你應該驗什麼、開什麼藥，但它沒辦法真的去做這些事。它沒辦法打開電子病歷系統、沒辦法開醫囑、沒辦法打電話給病人、沒辦法回覆會診。&lt;/p&gt;&#xA;&lt;p&gt;這就是 Beam 認為下一個突破的地方。&lt;/p&gt;&#xA;&lt;h2 id=&#34;下一步通用電腦操作&#34;&gt;下一步：通用電腦操作&lt;/h2&gt;&#xA;&lt;p&gt;Beam 預測，未來 1-3 年醫療 AI 最大的突破會是「通用電腦操作」——讓 AI 能可靠地使用滑鼠和鍵盤。&lt;/p&gt;&#xA;&lt;p&gt;這聽起來很基本，但想想看：如果 AI 能坐在工作站前、操作 Epic 或其他電子病歷系統、輸入醫囑、回覆訊息、安排檢查，它就能做大部分醫護人員的行政工作。不需要系統整合、不需要 API 串接，它就像一個遠端工作的員工，用現有的介面做事。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

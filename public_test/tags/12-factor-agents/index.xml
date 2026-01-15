@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>12-Factor Agents on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/12-factor-agents/</link>
+    <description>Recent content in 12-Factor Agents on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 17:40:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/12-factor-agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context Engineering：AI Agent 開發的新核心能力</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-context-engineering-agent-core-skill/</link>
+      <pubDate>Thu, 25 Dec 2025 17:40:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-context-engineering-agent-core-skill/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dex Horthy 在 AI Engineer 大會的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/8kMaTybvDUw&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「LLM 是純函數，token 進、token 出。」Dex Horthy 在 AI Engineer 大會上說出這句話時，台下安靜了一秒。這聽起來太簡單了，簡單到像是廢話。但 Dex 認為，正是這個被忽略的基本事實，解釋了為什麼有些 Agent 可靠、有些不可靠。&lt;/p&gt;&#xA;&lt;p&gt;如果 LLM 是純函數，那決定輸出品質的唯一因素就是輸入。你的 Prompt、你的 Memory、你的 RAG、你的對話歷史——這些全都是同一個問題的不同面向：怎麼把對的 token 送進模型，讓它給你好的回應？Dex 把這個問題叫做 Context Engineering。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>為什麼你的 AI Agent 總是不夠可靠？這個開發者訪談了 100 人後找到答案</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-why-ai-agents-unreliable/</link>
+      <pubDate>Thu, 25 Dec 2025 17:35:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-why-ai-agents-unreliable/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dex Horthy 在 AI Engineer 大會的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/8kMaTybvDUw&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「誰建過 Agent？」台下一片手海。「誰建過十個以上的 Agent？」手少了一些。「誰建過一百個 Agent？」剩下幾隻手。Dex Horthy 站在 AI Engineer 大會的講台上，看著這些手，知道他們都經歷過同樣的事。&lt;/p&gt;&#xA;&lt;p&gt;他自己也經歷過。第一次嘗試做 DevOps Agent 時，他給了 Agent 一個 Makefile，說「你可以執行 make 指令，去把專案建起來」。結果 Agent 把順序全搞錯了。Dex 花了兩小時不斷修改 Prompt，加入越來越多細節，最後寫出了精確的執行步驟。然後他意識到：「我用 90 秒就能寫出這個 bash script。」不是每個問題都需要 Agent。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>12-Factor Agents：當 Agent 開發遇上軟體工程的老派智慧</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-12-factor-agents-software-engineering/</link>
+      <pubDate>Thu, 25 Dec 2025 17:30:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-12-factor-agents-software-engineering/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dex Horthy 在 AI Engineer 大會的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/8kMaTybvDUw&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「你用框架很快做出一個 Agent，讓老闆很興奮，團隊加了六個人。但接下來你發現，70-80% 的完成度不夠用。想要突破這個天花板，你得鑽進七層深的呼叫堆疊，逆向工程這個 Prompt 到底是怎麼組出來的。」Dex Horthy 在台上描述的這個場景，讓現場不少人舉起了手——他們都經歷過。&lt;/p&gt;&#xA;&lt;p&gt;Dex 是 HumanLayer 的創辦人。過去一年，他訪談了超過 100 位正在建構 AI Agent 的開發者、創辦人、工程師。他發現一個有趣的現象：真正在生產環境運作良好的 Agent，其實沒有那麼「agentic」。它們大多數是軟體，只是在關鍵節點用了 LLM。這些團隊都在做類似的事情，只是這些做法還沒有名字、還沒有被定義。於是 Dex 決定把這些模式整理出來，寫成了「12-Factor Agents」——致敬 Heroku 十年前定義雲端原生應用的那份經典文件。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

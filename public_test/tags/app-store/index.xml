@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>App Store on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/app-store/</link>
+    <description>Recent content in App Store on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/app-store/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apple 日本新規上路：開發者該知道的佣金變化與新商機</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-apple-japan-developer-fees/</link>
+      <pubDate>Fri, 26 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-apple-japan-developer-fees/</guid>
+      <description>&lt;p&gt;如果你是在日本市場有業務的 App 開發者，2025 年 12 月 17 日這天值得記下來。&lt;/p&gt;&#xA;&lt;p&gt;Apple 宣布了日本市場的新商業條款，配合當地的《行動軟體競爭法》（MSCA）。表面上看，佣金降了、選項多了。但實際算下來，事情沒有那麼簡單。&lt;/p&gt;&#xA;&lt;p&gt;這篇文章幫你把新費用結構拆解清楚，讓你評估要不要調整策略。&lt;/p&gt;&#xA;&lt;h2 id=&#34;新費用結構一覽&#34;&gt;新費用結構一覽&lt;/h2&gt;&#xA;&lt;p&gt;先看全貌。Apple 把原本的「30% 佣金吃到飽」拆成了多個收費項目：&lt;/p&gt;&#xA;&lt;h3 id=&#34;app-store-佣金commission&#34;&gt;App Store 佣金（Commission）&lt;/h3&gt;&#xA;&lt;p&gt;這是你繼續留在 App Store 上需要付的基本費用。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;大多數開發者&lt;/strong&gt;：10%&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;包括 Small Business Program 成員（年營收低於 100 萬美元）&lt;/li&gt;&#xA;&lt;li&gt;Video Partner Program 成員&lt;/li&gt;&#xA;&lt;li&gt;Mini Apps Partner Program 成員&lt;/li&gt;&#xA;&lt;li&gt;訂閱制第二年起&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;其他開發者&lt;/strong&gt;：21%&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;和以前的 30%/15% 相比，確實降了。但這只是故事的一部分。&lt;/p&gt;&#xA;&lt;h3 id=&#34;apple-支付處理費&#34;&gt;Apple 支付處理費&lt;/h3&gt;&#xA;&lt;p&gt;如果你選擇繼續用 Apple In-App Purchase（IAP）處理支付，要額外付 &lt;strong&gt;5%&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;所以如果你是一般開發者，用 App Store + Apple IAP，實際支付是：21% + 5% = &lt;strong&gt;26%&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;如果你是小型開發者，則是：10% + 5% = &lt;strong&gt;15%&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;h3 id=&#34;商店服務費store-services-commission&#34;&gt;商店服務費（Store Services Commission）&lt;/h3&gt;&#xA;&lt;p&gt;這是新增的類別。如果你在 App 裡放連結，引導使用者到外部網站完成購買，Apple 還是要收費：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apple 日本開放第三方 App 商店，這對全球 iOS 生態系意味著什麼？</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-apple-japan-msca-impact/</link>
+      <pubDate>Fri, 26 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-apple-japan-msca-impact/</guid>
+      <description>&lt;p&gt;Apple 又被迫開門了。&lt;/p&gt;&#xA;&lt;p&gt;2025 年 12 月 17 日，Apple 宣布將在日本實施一系列 iOS 變更，以配合日本的《行動軟體競爭法》（Mobile Software Competition Act，簡稱 MSCA）。這意味著日本成為繼歐盟之後，第二個成功迫使 Apple 打開 iOS 封閉生態系的主要市場。&lt;/p&gt;&#xA;&lt;p&gt;對臺灣讀者來說，這件事的意義不只是「日本使用者多了選擇」這麼簡單。當越來越多國家開始立法要求科技巨頭開放平台，全球 iOS 生態系的遊戲規則正在被重新定義。&lt;/p&gt;&#xA;&lt;h2 id=&#34;日本-msca-到底要求什麼&#34;&gt;日本 MSCA 到底要求什麼？&lt;/h2&gt;&#xA;&lt;p&gt;MSCA 的核心邏輯其實不難理解：打破 App Store 的獨佔地位。&lt;/p&gt;&#xA;&lt;p&gt;日本政府認為，Apple 和 Google 在行動軟體市場佔據了「守門人」的位置。所有想在 iPhone 上提供服務的開發者，都必須透過 App Store，並且被迫接受 Apple 的規則和抽成。這種結構性的不對等，讓日本政府決定出手介入。&lt;/p&gt;&#xA;&lt;p&gt;MSCA 的三大核心要求：&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;第一，開放第三方 App 商店。&lt;/strong&gt; 開發者可以選擇在 App Store 以外的管道發行 App。這些替代商店需要經過 Apple 授權，但使用者確實有了新選擇。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;第二，開放第三方支付。&lt;/strong&gt; 開發者可以在 App 內使用自己的支付系統，或者引導使用者到外部網站完成交易。這直接挑戰了 Apple 最賺錢的「蘋果稅」。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;第三，開放瀏覽器引擎。&lt;/strong&gt; 開發者可以使用 WebKit 以外的瀏覽器引擎，這對 Firefox、Chrome 等瀏覽器開發商是重大利多。&lt;/p&gt;&#xA;&lt;p&gt;這套法規將從 iOS 26.2 開始生效。&lt;/p&gt;&#xA;&lt;h2 id=&#34;apple-的因應策略配合但設防線&#34;&gt;Apple 的因應策略：配合但設防線&lt;/h2&gt;&#xA;&lt;p&gt;Apple 的回應方式，展現了大型科技公司面對監管時的典型策略：表面配合，實際設下重重關卡。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

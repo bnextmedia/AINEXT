@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/cloud/</link>
+    <description>Recent content in Cloud on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 18:20:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps 死了嗎？Kubernetes 傳奇 Kelsey Hightower 的 2025 答案</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-devops-2025/</link>
+      <pubDate>Thu, 25 Dec 2025 18:20:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-kelsey-hightower-devops-2025/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 JetBrains 2024 年 12 月發布的訪談。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/HdUbTyvrfKo&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;DevOps 死了嗎？&lt;/p&gt;&#xA;&lt;p&gt;這個問題在 2024 年被問了無數次。有人說 DevOps 已經過時，被平台工程取代了。有人說 DevOps 從來沒有真正實現過它的承諾。還有人說 AI 會讓整個討論變得無關緊要。&lt;/p&gt;&#xA;&lt;p&gt;Kelsey Hightower 的答案比這些都複雜，也比這些都務實。他是 Kubernetes 社群最具影響力的布道者，在 Google Cloud 擔任開發者大使超過八年，也是 KubeCon 的共同創辦人。當他談論 DevOps、平台工程、雲端、AI 時，他不是在販賣願景——他是在分享二十多年的一線經驗。&lt;/p&gt;&#xA;&lt;h2 id=&#34;devops-沒死但很多人只是換了-t-shirt&#34;&gt;DevOps 沒死，但很多人只是換了 T-shirt&lt;/h2&gt;&#xA;&lt;p&gt;Hightower 對 DevOps 現況的診斷非常直接：問題不是 DevOps 這個概念，而是很多公司只是假裝在做 DevOps。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

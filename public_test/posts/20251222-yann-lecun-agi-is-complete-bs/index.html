@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>「 agi 這個概念完全是鬼扯」—— le cun 如何拆解 ai 產業的集體妄想 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="「AGI 這個概念完全是鬼扯」——LeCun 如何拆解 AI 產業的集體妄想">
+<meta property="og:description" content="
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-agi-is-complete-bs/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-agi-is-complete-bs/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>22. December 2025</p>
+      <h1 class="post_title">「AGI 這個概念完全是鬼扯」——LeCun 如何拆解 AI 產業的集體妄想</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/7u-DXVADyhc" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<blockquote>
+<p>本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。</p>
+</blockquote>
+<p>Sam Altman 說 AGI 可能在 2025 年就會到來。一堆 AI 公司在融資簡報裡寫著「通往 AGI 的路徑」。Elon Musk 給他的 AI 公司取名叫 xAI，目標是「理解宇宙的真正本質」。</p>
+<p>Yann LeCun 對這一切的評價是：「complete BS」——徹頭徹尾的鬼扯。</p>
+<p>在最近的 Information Bottleneck 訪談中，這位圖靈獎得主直接拆解了「通用人工智慧」這個概念本身的問題，以及為什麼那些宣稱 AGI 即將到來的說法，大多是妄想。</p>
+<h2 id="通用智慧是一個不存在的東西">「通用智慧」是一個不存在的東西</h2>
+<p>LeCun 的第一個論點很直接：根本沒有「通用智慧」這種東西。這個概念看起來是在描述某種客觀的能力等級，但實際上，它只是用來指「像人類一樣聰明」。</p>
+<p>問題是，人類智慧一點都不「通用」。我們在某些事情上表現得很好：導航物理世界、理解社會互動、使用語言。這些能力是演化給我們的，因為它們對生存和繁衍有幫助。但在其他事情上，我們爛透了。</p>
+<p>下棋就是一個好例子。在 AlphaGo 出現之前，圍棋界普遍認為，人類頂尖棋手大概只比「理想的完美棋手」差兩三目（讓子）。這個估計基於人類對自己能力的直覺判斷。結果 AlphaGo 出來之後，大家才發現人類棋手需要八九目的讓子才能跟 AI 打平。我們對自己的能力判斷，錯得離譜。</p>
+<p>「我們覺得自己很通用，只是因為我們能想到的所有問題，都是我們能處理的問題。」LeCun 說。這是一個認知偏誤：我們無法想像那些我們根本無法處理的問題類型，所以我們以為自己什麼都能做。</p>
+<p>事實上，每一個生物的智慧都是高度特化的。蝙蝠用超聲波「看」世界，狗的嗅覺比人類強一萬倍，候鳥能感知地球磁場來導航。這些能力我們完全沒有。我們也有我們特化的能力，比如語言和抽象推理。但說這是「通用」智慧，就像說蝙蝠有「通用」的感知能力一樣荒謬。</p>
+<h2 id="時間表最樂觀-5-10-年達到狗的程度">時間表：最樂觀 5-10 年達到狗的程度</h2>
+<p>既然「AGI」這個詞沒有意義，那更有意義的問題是：什麼時候機器能在所有人類擅長的領域達到或超過人類？</p>
+<p>LeCun 給出了一個時間表估計，但他強調這是「最樂觀」的情況。</p>
+<p>「如果我們在接下來幾年，在 World Model、規劃、處理連續高維資料這些方向上取得重大進展，最樂觀的情況是，5-10 年內我們可能達到接近人類的智慧水準。」</p>
+<p>但他馬上補充：「或者可能是狗的智慧水準。」</p>
+<p>這個說法可能讓人困惑：狗比人笨很多，為什麼會跟人類水準放在一起說？LeCun 的解釋是：最困難的部分是達到狗的程度。</p>
+<p>「一旦你達到狗的程度，你基本上就有了大部分需要的元件。」他說。狗能夠在複雜的物理世界中導航，能夠理解社會互動，能夠學習新技能，能夠規劃行動來達成目標。這些能力是數百萬年演化的產物，要在機器上複製非常困難。</p>
+<p>從狗到人的差距，主要是語言能力和更強的抽象推理。但語言這一塊，LLM 已經做得不錯了。在 LeCun 的設想中，未來的 AI 系統可能會用 LLM 來處理語言（就像人腦的韋尼克區和布洛卡區），用 World Model 來處理對物理世界的理解和規劃（就像前額葉皮質）。</p>
+<p>所以真正的瓶頸是 World Model 這部分——也就是 LeCun 現在專注研究的方向。</p>
+<h2 id="moravec-悖論還在">Moravec 悖論還在</h2>
+<p>這個「狗比人難」的說法，其實呼應了一個 AI 領域的老觀察：Moravec 悖論。</p>
+<p>Hans Moravec 在 1988 年提出這個悖論：我們認為是「高等智慧」的任務（下棋、做數學、推理），對電腦來說相對容易；我們認為是「本能」的任務（走路、抓東西、認出朋友的臉），對電腦來說反而極難。</p>
+<p>四十多年後，這個悖論依然成立。我們有能戰勝世界冠軍的西洋棋程式，有能證明數學定理的系統，有能寫出流暢文章的語言模型。但我們還沒有一個機器人能像貓一樣靈活地在家具間跳躍，或像狗一樣可靠地識別主人的情緒。</p>
+<p>「現在有一堆人在大放厥詞，說 AGI 一兩年內就會到來。」LeCun 說。「這完全是妄想。」</p>
+<p>他的論點是：真實世界比文字世界複雜太多了。LLM 訓練在文字上，所以它們在處理文字時表現得很好。但文字只是人類知識的一小部分。一個四歲小孩看過的視覺資訊，就相當於整個網路上所有文字的資料量。而視覺只是感知的一種——還有聽覺、觸覺、本體感覺，以及對這些感知的整合和反應。</p>
+<p>「你不可能只靠 tokenize 世界、用 LLM 來達到人類水準。這就是不會發生的事。」</p>
+<h2 id="對末日論的反駁噴射引擎的比喻">對末日論的反駁：噴射引擎的比喻</h2>
+<p>訪談中也談到了 AI 安全和「末日論」（doomerism）。這裡 LeCun 跟他的圖靈獎共同得主——Geoffrey Hinton 和 Yoshua Bengio——立場完全不同。Hinton 近年來公開表達對 AI 風險的擔憂，甚至說他對自己的工作感到後悔。</p>
+<p>LeCun 的立場很不同。他用噴射引擎來做比喻。</p>
+<p>「我覺得這太神奇了：你可以坐一架雙引擎飛機，安全地飛越半個地球。真的，紐約到新加坡，17 個小時。」他說。</p>
+<p>「但當你看噴射引擎的內部，它應該是不可能運作的。沒有金屬能承受那種溫度。渦輪以瘋狂的速度旋轉，產生的離心力是數百噸。這東西應該會爆炸才對。」</p>
+<p>「但事實是，第一代噴射引擎確實會爆炸。它們可能跑十分鐘就壞了，也不省油，也不可靠。但經過數十年的工程改進、材料進步、設計優化，現在它們變得極度可靠。」</p>
+<p>這是他對 AI 安全問題的框架：這是一個工程問題，不是一個存在性威脅。就像噴射引擎、汽車安全帶、藥物審批一樣，我們可以透過技術和制度的改進，讓 AI 變得更安全。</p>
+<p>他舉了一個具體的例子：歐盟現在規定所有新車都要配備 AEBS（自動緊急煞車系統）。這是一個 AI 系統，用電腦視覺偵測前方障礙物，如果判斷駕駛無法及時反應，就自動煞車。數據顯示這減少了 40% 的正面碰撞事故。</p>
+<p>「這是 AI 在拯救生命，不是殺人。」</p>
+<h2 id="智慧不等於想要統治">「智慧」不等於「想要統治」</h2>
+<p>LeCun 對末日論的另一個反駁是：智慧和「想要統治世界」是完全不同的事情。</p>
+<p>很多末日場景假設：一旦 AI 變得足夠聰明，它就會想要獲取更多資源、擴大影響力、最終控制人類。這個假設的問題是，它把人類的某些特定動機投射到了「智慧」這個概念上。</p>
+<p>「不是最聰明的人類想要統治別人。」LeCun 說。「我們在國際政治舞台上每天都能看到這一點。」</p>
+<p>事實上，很多極度聰明的人完全不想跟社會打交道。他們只想專注於自己的問題。LeCun 舉了幾個例子：牛頓基本上不想見任何人，保羅·狄拉克據說幾乎是自閉的。這些人的智慧極高，但完全沒有「統治世界」的動機。</p>
+<p>所以為什麼我們假設 AI 一旦變聰明就會想要控制一切？這更像是科幻小說的敘事套路，而不是對智慧本質的嚴肅分析。</p>
+<h2 id="真正該擔心的問題">真正該擔心的問題</h2>
+<p>這不是說 AI 沒有風險。任何強大的技術都有正面和負面的效果。汽車會出車禍，藥物有副作用，社群媒體會被用來散佈假資訊。AI 也一樣。</p>
+<p>LeCun 認為真正該擔心的是這些：AI 被用於大規模監控、假資訊生成、自動化武器、就業市場的劇烈變化。這些都是真實的問題，需要認真對待。</p>
+<p>但重點是：這些問題不需要「暫停 AI 發展」或「禁止某些研究」來解決。它們需要的是具體的技術方案和政策框架，就像我們處理其他強大技術的方式一樣。</p>
+<p>他也提到了自己的一些經歷。有高中生寫信給他，說讀了末日論者的文章後感到極度沮喪，覺得未來沒有希望，甚至不想去學校了。LeCun 會回信告訴他們：不要相信那些說法，人類仍然會掌控這一切。</p>
+<h2 id="冷靜下來專注於真正的問題">冷靜下來，專注於真正的問題</h2>
+<p>LeCun 在訪談中的整體訊息是：AI 產業需要冷靜下來。</p>
+<p>AGI 不會在明年到來。Scaling 不會自動帶我們到超級智慧。更大的模型和更多的資料不是萬靈藥。真正的進展需要新的架構突破，特別是在理解物理世界這一塊。</p>
+<p>同時，也不需要恐慌。AI 不會突然變得有意識然後決定消滅人類。風險是真實的，但它們是可以管理的工程問題和政策問題，不是存在性威脅。</p>
+<p>這種態度在當前的 AI 討論中顯得格格不入。一邊是「AGI 即將到來，要趕快上車」的狂熱推銷，另一邊是「AI 會毀滅人類，要趕快停下」的恐慌警告。LeCun 站在中間說：都冷靜一點，這條路還很長，我們有足夠的時間把事情做對。</p>
+<p>他在這個領域工作了四十年，見證過多次「AI 冬天」。他看過太多次「這次不一樣」的說法，然後看著它們沒有成真。這可能是為什麼他對各種宏大敘事都抱持懷疑。</p>
+<p>「如果你不發表你的研究讓社群檢驗，你可能只是在自欺欺人。」這個原則不只適用於科學論文，也適用於關於 AI 未來的各種宣言。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

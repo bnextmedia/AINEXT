@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Goodfire on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/goodfire/</link>
+    <description>Recent content in Goodfire on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/goodfire/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>打開 AI 的黑盒子：Anthropic 與 Goodfire 談可解釋性為何刻不容緩</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-ai-interpretability-urgency/</link>
+      <pubDate>Thu, 25 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-ai-interpretability-urgency/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Lightspeed Venture Partners 的 Generative Now 活動。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/azoBSxpkv7Y&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「全世界語言模型輸出的 token 數量，很快就會超過地球上所有人類能閱讀的總量。」這是 Anthropic 研究員 Jack Lindsay 在一場可解釋性對談中拋出的警告。如果我們沒辦法逐一檢查模型寫的每一行程式碼、每一個數學證明，我們就需要某種方式來信任這些系統的思考過程本身——就像我們信任人類員工一樣。&lt;/p&gt;&#xA;&lt;p&gt;這場對談在 Lightspeed 舊金山辦公室舉行，邀請到兩位可解釋性領域的領軍人物：Anthropic 的 Jack Lindsay 與 Goodfire 共同創辦人暨首席科學家 Tom McGrath。Tom 之前在 Google DeepMind 共同創立了可解釋性團隊，研究過 AlphaZero 等模型的內部運作。這兩人的背景很有意思——一個在最前線做基礎研究，一個正嘗試把研究成果商業化。他們的對話，讓我對「可解釋性」這個聽起來很學術的領域有了更具體的理解。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

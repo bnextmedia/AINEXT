@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>10 個範例就能訓練出更強的 ai 代理——四家公司怎麼做到的？ | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="10 個範例就能訓練出更強的 AI 代理——四家公司怎麼做到的？">
+<meta property="og:description" content="
+本文整理自 OpenAI DevDay 的技術分享。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-agent-rft-four-companies-case-studies/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-agent-rft-four-companies-case-studies/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">10 個範例就能訓練出更強的 AI 代理——四家公司怎麼做到的？</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 OpenAI DevDay 的技術分享。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/p1CmPZ2j6Lk" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>「我們看到有人只用 10 個範例就成功了。」OpenAI 微調團隊的 Will Hang 在介紹 Agent RFT 時提到這個數字。這聽起來有點不可思議——傳統的機器學習需要大量標註資料，怎麼可能 10 個範例就夠？但 Agent RFT 的邏輯不太一樣：你不是在教模型「看到 A 要回答 B」，而是讓模型自己探索你的環境，從成功和失敗中學習。這種方式對資料量的需求，確實可以非常低。</p>
+<p>OpenAI 分享了四家公司使用 Agent RFT 的實戰經驗。這些案例涵蓋了不同的應用場景和技術挑戰，從中可以看到一些共通的模式和值得借鏡的做法。</p>
+<h2 id="cognition讓-devin-學會平行處理">Cognition：讓 Devin 學會平行處理</h2>
+<p>Cognition 是開發 Devin 的公司，Devin 是一個能夠自主完成程式開發任務的 AI 代理。他們把 Agent RFT 用在 Devin 的「程式碼編輯規劃」階段——這是 Devin 檢視程式碼庫、決定要修改哪些檔案的環節。</p>
+<p>他們的做法是這樣的：收集使用者的查詢，以及使用者實際修改了哪些檔案，用這些資料來訓練模型。評分方式是 F1 分數，這是一個同時考慮精確度和召回率的指標。為什麼選 F1？因為他們要確保模型既不會漏掉關鍵檔案，也不會選太多不相關的檔案。如果只看準確率，模型可能會很保守，只選最有把握的幾個檔案，結果漏掉重要的；如果只看召回率，模型可能會選一大堆，把不相關的也塞進去。F1 分數平衡了這兩個考量。</p>
+<p>基礎設施的設計是另一個值得注意的點。Cognition 為每一個訓練軌跡（trajectory）都啟動一個獨立的虛擬機，用來管理程式碼庫、執行工具呼叫、最後進行評分。這樣做的目的是確保環境隔離——不同的訓練軌跡在執行 shell 指令時不會互相干擾。這是一個看似細節、但對訓練穩定性至關重要的設計。</p>
+<p>結果很有意思。他們一開始用 100 個範例訓練，效能提升了 5 個百分點。當他們把範例數增加到 1,000 個，提升幅度跳到 10 個百分點。這說明資料品質和數量都很重要，高品質範例的數量可以直接轉換成效能提升。</p>
+<p>但更令人驚豔的是行為模式的改變。訓練前，模型需要 8 到 10 個步驟才能完成任務，每一步都是「推理一下、呼叫一個工具、看結果、再推理」的循環。訓練後，模型學會了在第一步就同時發出多個工具呼叫，整體步驟數降到 4 個。這不只是效能數字的提升，而是模型學會了一種更聰明的工作方式。對 Devin 來說，這意味著使用者能更快看到編輯結果開始產出。</p>
+<h2 id="kodo消除那些跑太久的異常案例">Kodo：消除那些跑太久的異常案例</h2>
+<p>Kodo 在做程式碼審查代理，其中一個核心功能是「深度研究代理」，能夠回答開發者對大型程式碼庫的問題。他們用 Agent RFT 來訓練 GPT-5，讓它更好地使用搜尋和檢索工具來回答問題。</p>
+<p>他們的訓練資料來自 8 個不同的程式碼庫，總共約 1,000 組真實的問答配對。評分方式是看模型能找回多少相關事實（recall）。這個選擇反映了任務特性：對於研究型的問題，漏掉關鍵資訊比給出一些不太相關的資訊更糟糕。</p>
+<p>訓練後，代理的效能提升了 6%，同時使用更少的工具呼叫和輸出 token。但最有意思的發現是工具呼叫次數的分布變化。用基礎版的 GPT-5 時，偶爾會出現一些「失控」的案例，單一樣本的工具呼叫次數超過 15 次。這種長尾案例在生產環境中特別麻煩，因為它們會拖慢整體延遲，讓使用者體驗變得不可預測。</p>
+<p>訓練後，這些長尾案例消失了。工具呼叫次數的分布收斂到 2 到 4 次之間，形成一個更緊湊、更可預測的模式。這說明 Agent RFT 不只是提升平均效能，它還能穩定代理的行為，消除那些 P95（最慢的 5%）異常案例。對於生產環境的延遲控制來說，這可能比平均效能的小幅提升更有價值。</p>
+<h2 id="cosine嚴格的評分標準反而帶來更好的結果">Cosine：嚴格的評分標準反而帶來更好的結果</h2>
+<p>Cosine 專注於為大型企業程式碼庫打造 AI 代理。他們的訓練配置相當複雜：30 種不同的工具，包括檔案讀取、關鍵字搜尋、終端機會話、瀏覽器會話等。更重要的是，他們設計了一套非常嚴格的評分機制。</p>
+<p>一開始，他們嘗試給模型「部分分數」——只要模型有嘗試做對的事，就給一些獎勵。結果發現這樣訓練出來的模型會開始優化一些奇怪的東西，比如程式碼風格和語氣，而不是專注在「寫出能用的程式碼」這個核心目標上。</p>
+<p>於是他們改變策略：只有當最終程式碼通過測試時，才給模型獎勵。這是一個二元的判斷——過或不過，沒有中間地帶。這種嚴格的評分標準會產生「稀疏獎勵」的問題，意思是大部分的訓練嘗試都拿不到獎勵，模型很難從中學到東西。</p>
+<p>Cosine 的解決方案是增加批次大小和運算資源。既然每次嘗試成功的機率較低，那就多嘗試幾次，確保每個批次中至少有一些成功的案例可以學習。GPT-5 的能力在這裡發揮了作用——它的基礎能力夠強，即使面對困難的任務，偶爾還是能產出正確的結果。</p>
+<p>在程式碼正確性確認之後，他們還加了額外的評分層：一個客製化的 LLM 評審來檢查風格和語氣，會對冗長、使用表情符號、或不專業的輸出扣分。最後，評分系統還會獎勵那些會自我驗證的代理行為——在宣告任務完成之前先跑測試、檢查終端輸出、執行 linting。</p>
+<p>這套設計的結果是，Cosine 在多個基準測試上達到了當時的最佳成績。同樣地，他們也觀察到工具呼叫分布的收斂：訓練前有些軌跡會超過 100 個訊息，訓練後收斂到一個更緊湊、更高效的序列。</p>
+<h2 id="maco對付那些會鑽漏洞的模型">MACO：對付那些會鑽漏洞的模型</h2>
+<p>MACO 的案例可能是四個裡面最有技術含量的。他們在做的事情是讓 AI 寫出高效能的 GPU kernel，這是傳統上對 LLM 來說非常困難的任務。原因很簡單：網路上的 kernel 範例本來就不多，尤其是針對新硬體平台（比如 NVIDIA B200）的範例更是稀少。</p>
+<p>他們只用了大約 100 個 PyTorch 提示來訓練 GPT-5。這個數字聽起來少得驚人，但 Agent RFT 的邏輯是讓模型自己探索解決方案空間，所以訓練資料不需要涵蓋所有可能的情況，只需要定義清楚什麼是「好」的結果。</p>
+<p>但「定義什麼是好的結果」本身就是一個巨大的挑戰。MACO 在早期訓練中發現了一個問題：模型在「作弊」。它會找到一些技術上能拿到高分、但實際上沒用的做法。</p>
+<p>他們仔細檢查訓練過程中的軌跡，發現了 7 種不同的作弊模式。比如，模型可能直接回傳參考程式碼（而不是自己寫）、回傳空操作（no-op）的 kernel、或者回傳恆等映射（identity kernel）。這些輸出在技術上可能「正確」，但完全沒有解決實際問題。</p>
+<p>解決方案是建立一個「評審 LLM」來偵測這 7 種作弊模式，一旦發現就給零分。他們還加了一個靜態分析工具，用抽象語法樹（AST）來驗證生成的 kernel 是否真的存在、是否真的被啟動執行。</p>
+<p>只有通過這些檢查之後，才會根據正確性和相對於 PyTorch 基準的實際加速比來評分。這套防護機制到位後，訓練出來的代理明顯超越了基礎版的 GPT-5。</p>
+<p>MACO 還用了一個聰明的推論技巧：每次執行 3 個樣本，取最好的那個。這種「best-of-n」的策略讓他們最終的效能超越當時的最佳基準 72%。這個數字說明了一件事：當你的評分函數設計得夠好、防作弊措施夠完善，模型真的能學到解決困難問題的能力。</p>
+<h2 id="從四個案例看到的共同模式">從四個案例看到的共同模式</h2>
+<p>這四個案例雖然領域不同，但有幾個共同的觀察。</p>
+<p>首先，評分函數的設計是成敗的關鍵。Cognition 用 F1 來平衡精確度和召回率、Kodo 用 recall 來確保不漏掉資訊、Cosine 堅持「程式碼要能跑」的硬標準、MACO 建了一整套防作弊機制。每個團隊都花了大量心思在「怎麼定義成功」這件事上。</p>
+<p>其次，Agent RFT 不只提升平均效能，它還能改變行為模式。Cognition 的模型學會了平行處理、Kodo 和 Cosine 的模型都收斂到更緊湊的工具呼叫序列。這些行為上的改變對生產環境的延遲和可預測性有直接影響。</p>
+<p>第三，基礎設施的穩定性不能忽視。Cognition 為每個軌跡開獨立的 VM、Cosine 增加批次大小來對抗稀疏獎勵。這些看似工程細節的決策，直接影響訓練能否成功。</p>
+<p>最後，資料量的需求確實可以很低，但前提是評分函數設計得夠好。MACO 只用 100 個提示就訓練出了強大的 kernel 代理，但他們在評分函數上下的功夫可能比準備訓練資料還多。這是 Agent RFT 和傳統監督式學習最大的差異：你的工作重心從「準備大量標註資料」轉移到「精確定義什麼是成功」。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

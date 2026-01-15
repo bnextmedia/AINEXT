@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI趨勢 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/ai%E8%B6%A8%E5%8B%A2/</link>
+    <description>Recent content in AI趨勢 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 06 Jan 2026 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/ai%E8%B6%A8%E5%8B%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI 硬體突圍與美國財政危機：All-In 年終關鍵回顧</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260106-all-in-podcast-recap-ai-fiscal-crisis/</link>
+      <pubDate>Tue, 06 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260106-all-in-podcast-recap-ai-fiscal-crisis/</guid>
+      <description>&lt;p&gt;如果說這一集的《All-In Podcast》是一部電影，那它肯定是一部充滿張力的雙線敘事片。&lt;/p&gt;&#xA;&lt;p&gt;上半場，是一部令人背脊發涼的政治驚悚片：獨立記者揭發明尼蘇達州數億美元的福利詐欺，資金疑似流向恐怖組織，而加州政府正試圖通過沒收富人資產來填補赤字黑洞。下半場，畫風一轉成為硬核科技大片：NVIDIA 與 Groq 的 200 億美元合作案，宣告了 AI 運算架構的全新時代來臨。&lt;/p&gt;&#xA;&lt;p&gt;這兩種截然不同的氛圍——政治上的腐敗與絕望，科技上的突破與希望——在同一集節目中激烈碰撞。這或許正是當前世界的縮影：舊秩序正在崩解，而新秩序正在程式碼與晶片中重生。&lt;/p&gt;&#xA;&lt;h2 id=&#34;崩壞的系統當詐欺變成工業&#34;&gt;崩壞的系統：當詐欺變成工業&lt;/h2&gt;&#xA;&lt;p&gt;故事從一位 23 歲的獨立記者 Nick Shirley 開始。他深入明尼蘇達州，揭發了一連串令人咋舌的福利詐欺案。&lt;/p&gt;&#xA;&lt;p&gt;其中最荒謬的是「Feeding Our Future」醜聞：一個名義上為了餵飽貧困兒童的計畫，被詐取了 2.5 億美元。Shirley 實地走訪那些領取鉅額補助的「托兒所」，發現大多是大門深鎖的空殼，有些甚至連招牌都拼錯字。更令人震驚的是，自閉症治療補助的申報額在短短五年間暴增了 130 倍，從 300 萬美元激增至 4 億美元。&lt;/p&gt;&#xA;&lt;p&gt;David Sacks 犀利地指出，這不是單純的管理疏失，而是民主黨建立的「贊助體系（Patronage System）」。透過放任詐欺，政府資金被輸送給特定族群（在此案中是索馬利亞移民社群），再透過政治獻金回流，形成一個完美的利益閉環。&lt;/p&gt;&#xA;&lt;p&gt;而在西岸的加州，面對 180 億美元的財政赤字，政客們提出的解方竟然是「資產沒收」。David Friedberg 分析了加州擬議中的「億萬富翁稅」，這項法案試圖對未實現的資產增值徵稅。這打破了「有收入才繳稅」的百年原則，本質上是對私有財產的掠奪。Chamath Palihapitiya 警告，這種竭澤而漁的政策將導致資本加速逃離美國，最終引發債券市場的崩盤。&lt;/p&gt;&#xA;&lt;p&gt;「如果我們認為這種規模的盜竊是可以接受的，」Chamath 語重心長地說，「那這就是美國帝國終結的開始。」&lt;/p&gt;&#xA;&lt;h2 id=&#34;科技的救贖groq-與-nvidia-的世紀聯手&#34;&gt;科技的救贖：Groq 與 NVIDIA 的世紀聯手&lt;/h2&gt;&#xA;&lt;p&gt;然而，就在對體制的絕望中，科技界傳來了令人振奮的消息。NVIDIA 宣佈與 AI 晶片新創 Groq 達成 200 億美元的戰略合作。&lt;/p&gt;&#xA;&lt;p&gt;作為 Groq 的早期投資人，Chamath 在節目中親自拆解了這場合作背後的技術邏輯。他解釋了 AI 推論（Inference）的兩個關鍵階段：&lt;strong&gt;Pre-fill（預填充）&lt;strong&gt;與&lt;/strong&gt;Decode（解碼）&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pre-fill（閱讀）&lt;/strong&gt;：這是模型讀取你輸入的 Prompt 的過程。這需要巨大的平行運算能力，是 NVIDIA GPU 的絕對主場。&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Decode（寫作）&lt;/strong&gt;：這是模型一個字一個字生成回答的過程。這時的瓶頸不再是算力，而是記憶體頻寬。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Chamath 用「搭電梯」來比喻：GPU 的架構就像是要不斷搭電梯上下樓搬運數據，對於需要頻繁存取的 Decode 階段來說，效率極低。而 Groq 的架構則是將記憶體（SRAM）直接做在晶片上，完全消除了外部傳輸的延遲。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

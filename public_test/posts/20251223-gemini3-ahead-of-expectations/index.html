@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>「我們走得比我預期的還要前面」—— gemini 3 預訓練負責人談 ai 真實進展 | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="「我們走得比我預期的還要前面」——Gemini 3 預訓練負責人談 AI 真實進展">
+<meta property="og:description" content="
+本文整理自《The MAD Podcast with Matt Turck》2025 年 12 月 18 日播出的單集，訪談來賓為 Google DeepMind Gemini 3 預訓練負責人 Sebastian Bourgeaud。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251223-gemini3-ahead-of-expectations/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251223-gemini3-ahead-of-expectations/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>23. December 2025</p>
+      <h1 class="post_title">「我們走得比我預期的還要前面」——Gemini 3 預訓練負責人談 AI 真實進展</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自《The MAD Podcast with Matt Turck》2025 年 12 月 18 日播出的單集，訪談來賓為 Google DeepMind Gemini 3 預訓練負責人 Sebastian Bourgeaud。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/cNGDAqFXvew" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<h2 id="一個圈內人的坦誠">一個圈內人的坦誠</h2>
+<p>Sebastian Bourgeaud 是 Google DeepMind 負責 Gemini 3 預訓練的核心研究者，帶領著一支約 150 到 200 人的團隊。當主持人 Matt Turck 問他，作為一個如此深入 AI 核心的研究者，對於當前的 AI 進展是否感到驚訝時，他給了一個坦誠的答案：「如果對自己誠實的話，我認為我們走得比我預期的還要前面。」</p>
+<p>這句話的份量，來自說話者的位置。Bourgeaud 從 2019 年開始投入大型語言模型的研究，當時的 Scaling Laws 雖然指向了令人興奮的方向，但他坦言自己不確定是否會押太多籌碼在那條路上。如今回頭看，模型的規模和能力都超出了他當年的想像。這不是行銷話術，而是一個每天與這些系統打交道的人的真實感受。</p>
+<hr>
+<h2 id="進展的真實指標不是跑分是內部使用量">進展的真實指標：不是跑分，是內部使用量</h2>
+<p>外界常透過各種 benchmark 來衡量 AI 模型的進展。Bourgeaud 承認這些評測確實在持續進步，而且題目的難度也在提高——有些問題即便對他這樣有電腦科學背景的人來說，也需要相當時間才能回答。但他認為真正能讓人確信模型變得更強的指標，其實是另一個更樸實的觀察。</p>
+<p>「我們內部使用模型來提升生產力的時間越來越多了。」Bourgeaud 說。每一代新模型出來，團隊成員都會發現它能做到前一代做不到的事，能在研究和日常工程工作中提供更多幫助。這種使用量的增長不是因為被要求使用，而是因為真的好用。當一群最挑剔、最了解這些模型侷限的 AI 研究者，都願意花更多時間用自家模型來加速工作，這比任何 benchmark 都更能說明問題。</p>
+<p>這個指標也點出了一個常被忽略的事實：AI 研究本身正在被 AI 加速。Bourgeaud 談到，日常研究工作中有相當大一部分時間是在跑實驗、監控實驗、分析數據、收集結果。真正有趣的部分——形成假設、設計新實驗——反而只佔一小部分。隨著模型能力的提升和更多 agentic workflow 的出現，前面那些繁瑣的工作可以被加速，讓研究者把更多時間花在真正需要人類判斷力的環節上。</p>
+<hr>
+<h2 id="沒有大秘密gemini-3-好在哪">「沒有大秘密」——Gemini 3 好在哪</h2>
+<p>當 Gemini 3 發布時，Google DeepMind 的研究副總裁 Oriol Vinyals 在推特上說，這個模型背後的秘密「remarkably simple」——就是更好的預訓練和更好的後訓練。這聽起來幾乎像在開玩笑，但 Bourgeaud 說這就是實情。</p>
+<p>「人們有時候會期待，從一個 Gemini 版本到下一個版本，會有什麼大改變、什麼大突破。」Bourgeaud 解釋。「但以我的經驗，也許有一兩件事情影響比較大，但真正讓 Gemini 3 比前幾代好這麼多的，是來自一個非常大的團隊的許許多多改進，加在一起。」</p>
+<p>這個回答聽起來平淡，但它透露了一個重要訊息：當前的 AI 進展不是來自某個天才的靈光一現，而是來自大規模的系統性工程。每天都有小改進被發現、被驗證、被整合進系統。這種進展模式沒有在減速的跡象。</p>
+<p>在架構層面，Gemini 3 依然是基於 Transformer 的混合專家模型（Mixture of Experts），如果你仔細看，還是能認出原始 Transformer 論文裡的許多元件。真正的差異在於那些「許許多多的改進」如何在一個複雜系統中協同運作。Bourgeaud 強調，他們現在建造的不只是一個模型，而是一個完整的系統——圍繞神經網路的整個基礎設施都是產品的一部分。</p>
+<hr>
+<h2 id="數據受限時代來臨範式正在轉變">數據受限時代來臨：範式正在轉變</h2>
+<p>2024 年底到 2025 年初，業界有許多關於「Scaling Laws 已死」的討論。Bourgeaud 對此感到困惑，因為這與他的日常經驗不符。在他看來，規模依然是讓模型變好的重要因素，而且效果相當可預測。但他也承認，過去人們可能高估了純規模的重要性。</p>
+<p>真正的變化是什麼？Bourgeaud 認為，AI 研究正在從一個「數據無限」的範式，轉向一個「數據受限」的範式。這個轉變改變了許多研究問題的性質。</p>
+<p>在數據無限的時代，你可以一直擴大模型、增加數據、增加算力，然後看著性能可預測地提升。但當高品質的訓練數據不再能無限取得，研究者就必須更聰明地使用手上的數據，這讓許多在 LLM 之前時代（比如 ImageNet 時代）發展出來的研究方法重新變得相關。</p>
+<p>這也是為什麼架構創新和數據創新在當前階段可能比純規模擴張更重要。Bourgeaud 明確表示：「這些可能對預訓練性能的影響比純規模還大。」規模仍然是重要的因素，但它不再是唯一的因素，可能也不是最重要的因素了。</p>
+<hr>
+<h2 id="接下來幾年會發生什麼">接下來幾年會發生什麼</h2>
+<p>當被問到短期內（兩到三年）的預期時，Bourgeaud 給了一個謹慎但有意思的回答：他認為 AI 將能夠在接下來幾年內協助達成一些重大科學發現。</p>
+<p>另一個讓他興奮的方向是長上下文能力。Gemini 1.5 在這方面有了顯著突破，這種能力正在支撐當前各種 agent 和程式碼助手的應用場景——當你在一個程式碼庫上工作時，上下文長度會持續增長。他預期接下來一年會有更多關於長上下文效率和長度擴展的創新。</p>
+<p>在注意力機制方面，Bourgeaud 透露他們最近有一些「非常有趣的發現」，將會影響未來幾個月的研究方向。雖然他沒有透露細節，但這暗示著即便在看似成熟的 Transformer 架構內部，仍有重要的改進空間。</p>
+<hr>
+<h2 id="從觀測到理解的差距">從「觀測」到「理解」的差距</h2>
+<p>Bourgeaud 在訪談中沒有過度樂觀，也沒有宣稱 AGI 即將到來。他承認的是：進展比預期快，但我們對於為什麼這些方法有效的理解仍然有限。</p>
+<p>這種狀態讓人想起他提到的一個比喻：古埃及人能夠精確測量太陽的運行，精確到能把金字塔的軸線對準春分點，但他們完全不懂軌道力學。當前的 AI 研究者對 Scaling Laws 的理解，可能處於類似的階段——我們精確地觀測到了這個現象，但還不真正理解它為什麼成立。</p>
+<p>這個認知落差意味著風險：既然不知道為什麼有效，就無法確定什麼時候會失效。但從另一個角度看，這也意味著機會——當我們終於理解這些現象背後的原理時，可能會解鎖全新的進展方式。</p>
+<p>對於持續關注 AI 發展的人來說，Bourgeaud 這次訪談提供了一個難得的視角：不是從發表會的舞台上，而是從日常研究的戰壕裡看 AI 的現狀。他的結論是謙遜的樂觀：我們確實走得比預期快，但我們也清楚知道自己還有多少不知道的事。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

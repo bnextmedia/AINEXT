@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>創新文化 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E5%89%B5%E6%96%B0%E6%96%87%E5%8C%96/</link>
+    <description>Recent content in 創新文化 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Thu, 25 Dec 2025 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E5%89%B5%E6%96%B0%E6%96%87%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sergey Brin 的史丹佛往事：從撬鎖、溜直排輪到創辦 Google</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-sergey-brin-stanford-lockpicking-story/</link>
+      <pubDate>Thu, 25 Dec 2025 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-sergey-brin-stanford-lockpicking-story/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自史丹佛工程學院百年校慶活動，2025 年 12 月播出。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/0nlNX94FcUE&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「追溯時效應該已經過了吧，我可以講這個故事了。」&lt;/p&gt;&#xA;&lt;p&gt;這是 Google 共同創辦人 Sergey Brin 在史丹佛工程學院百年校慶活動上說的話。台下是數百位學生和校友，台上還坐著史丹佛校長。接下來他講的故事，讓人很難相信這位身價千億美元的科技巨頭，當年是這麼度過他的博士生涯的。&lt;/p&gt;&#xA;&lt;h2 id=&#34;撬鎖爬鷹架入侵系統&#34;&gt;撬鎖、爬鷹架、入侵系統&lt;/h2&gt;&#xA;&lt;p&gt;Brin 1993 年進入史丹佛電腦科學博士班，起初被分配到 Margaret Jacks Hall——主校區內一棟老舊的建築，有著「吱吱作響的小房間和門」。在那裡，他學會了一項特殊技能：撬鎖。「感謝 MIT 的撬鎖指南，」他笑著說。&lt;/p&gt;&#xA;&lt;p&gt;這個技能在幾年後派上了用場。1996 年，電腦科學系搬進了全新的 Gates 大樓。這棟由比爾蓋茲資助興建的建築採用了電子門禁系統，每個人都有一張紅外線感應的電子門卡。Brin 意識到，他的撬鎖技術在這裡行不通了。&lt;/p&gt;&#xA;&lt;p&gt;但他發現了一個漏洞。&lt;/p&gt;&#xA;&lt;p&gt;當時大樓還在進行最後的裝修，外牆架著施工鷹架。而負責製作門禁卡的那台電腦，恰好放在一間有陽台的房間裡。那扇陽台門用的是傳統機械鎖，不是電子鎖。&lt;/p&gt;&#xA;&lt;p&gt;「我知道他們下週就要拆掉鷹架了，」Brin 回憶，「所以我必須行動。」&lt;/p&gt;&#xA;&lt;p&gt;他從自己辦公室的窗戶爬出去，沿著四樓的鷹架橫移，到達那個陽台，撬開機械鎖，進入房間。接著他複製了製卡電腦上的所有軟體，給自己做了一張萬能門禁卡，然後刪除痕跡。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

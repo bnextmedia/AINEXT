@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLM on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/llm/</link>
+    <description>Recent content in LLM on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Tue, 06 Jan 2026 12:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/llm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Groq 攜手 NVIDIA：Chamath 親解「Pre-fill 與 Decode」的架構之爭</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260106-groq-nvidia-prefill-decode/</link>
+      <pubDate>Tue, 06 Jan 2026 12:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260106-groq-nvidia-prefill-decode/</guid>
+      <description>&lt;p&gt;這可能是近期 AI 硬體圈最令人震驚的消息之一：NVIDIA 宣佈與 AI 晶片新創 Groq 達成戰略合作。&lt;/p&gt;&#xA;&lt;p&gt;這個消息之所以反直覺，是因為 Groq 長期以來都被視為 NVIDIA 的挑戰者。Groq 創辦人 Jonathan Ross 曾是 Google TPU 的發明者，這家公司主打的 LPU（Language Processing Unit）架構，正是為了打破 GPU 在大型語言模型（LLM）推論上的壟斷而生。然而，這場原本被視為「大衛對抗歌利亞」的戰爭，卻在 2025 年底演變成了一場價值 200 億美元的聯手。&lt;/p&gt;&#xA;&lt;p&gt;為什麼 NVIDIA 執行長黃仁勳（Jensen Huang）會願意「擁抱」競爭對手？All-In Podcast 主持人、同時也是 Groq 早期投資人的 Chamath Palihapitiya，在最新一集節目中揭露了這場合作背後的技術邏輯。這不僅是一次商業上的合縱連橫，更揭示了 LLM 運算架構正在經歷一場根本性的典範轉移——從單一架構通吃，走向「Pre-fill（預填充）」與「Decode（解碼）」的分工時代。&lt;/p&gt;&#xA;&lt;h2 id=&#34;llm-的兩張面孔閱讀與寫作&#34;&gt;LLM 的兩張面孔：閱讀與寫作&lt;/h2&gt;&#xA;&lt;p&gt;要理解這次合作的意義，首先得理解大型語言模型是如何思考的。Chamath 在節目中引用了一組關鍵概念：Pre-fill（預填充）與 Decode（解碼）。這兩個術語聽起來生硬，但它們精準地描述了 AI 處理任務的兩個截然不同的階段。&lt;/p&gt;&#xA;&lt;p&gt;所謂「Pre-fill」，就是模型的「閱讀階段」。當你把一長串 Prompt（提示詞）丟給 ChatGPT 時，模型必須一次性讀取所有的文字，計算字與字之間的關聯。這個過程是高度平行化的，需要巨大的算力來同時處理龐大的矩陣運算。這正是 NVIDIA GPU 的主場——GPU 的設計初衷就是為了處理這種大規模並行任務，它能像推土機一樣，暴力且高效地碾過這些數據。隨著 Context Window（上下文視窗）越來越大，Pre-fill 的運算需求也呈指數級上升，這讓 NVIDIA 的優勢更加不可撼動。&lt;/p&gt;&#xA;&lt;p&gt;然而，當模型讀完題目，開始「寫作」時，情況就變了。這就是「Decode」階段。在這個階段，模型必須一個字、一個字（token by token）地生成答案。每生成一個字，它都必須回頭看之前生成的所有內容，以確保上下文連貫。&lt;/p&gt;&#xA;&lt;p&gt;這時，運算的瓶頸不再是「算力」，而是「記憶體頻寬」。因為每生成一個字，資料就必須在晶片的運算單元（Logic）和記憶體（HBM）之間來回搬運一次。這就像是你每寫一個字，都得從書桌跑到圖書館查一次字典，然後再跑回來寫下一個字。無論你的寫字速度（算力）有多快，你的產出速度最終會被「跑圖書館」（記憶體傳輸）的時間給卡住。這就是為什麼我們有時會覺得 AI 回答時會「卡頓」或「像打字機一樣慢」的物理原因。&lt;/p&gt;&#xA;&lt;h2 id=&#34;蓋大樓的比喻為什麼-gpu-在-decode-階段效率低&#34;&gt;蓋大樓的比喻：為什麼 GPU 在 Decode 階段效率低？&lt;/h2&gt;&#xA;&lt;p&gt;Chamath 用了一個生動的建築比喻來解釋這個瓶頸。想像你在一棟摩天大樓裡，如果你要從 A 點移動到 B 點（完成一次運算），在 GPU 的架構下，你必須先搭電梯上到 10 樓，處理完後再搭電梯回到一樓，然後走到隔壁棟，再搭電梯上去。這個「搭電梯」的過程，就是資料在 HBM（高頻寬記憶體）與運算單元之間傳輸的過程。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Karpathy：「我們不是在建造動物，是在召喚幽靈」</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-summoning-ghosts-not-animals/</link>
+      <pubDate>Fri, 26 Dec 2025 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-karpathy-summoning-ghosts-not-animals/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dwarkesh Podcast 2025 年 10 月播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/lXUZvyajciY&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「我們不是在建造動物，我們是在召喚幽靈。」這句話出自 Andrej Karpathy 在一篇廣為流傳的部落格文章，也成為他在這集訪談中反覆闡述的核心概念。對於一個在 OpenAI 和 Tesla 都待過的人來說，這個比喻並非詩意的修辭，而是一個嚴肅的技術判斷——它關乎我們該如何理解 LLM 的本質，以及為什麼某些對 AI 發展的期待可能從根本上就搞錯了方向。&lt;/p&gt;&#xA;&lt;h2 id=&#34;動物是演化的產物llm-是模仿的產物&#34;&gt;動物是演化的產物，LLM 是模仿的產物&lt;/h2&gt;&#xA;&lt;p&gt;要理解「幽靈」這個比喻，得先理解 Karpathy 為什麼對「動物」類比如此謹慎。在 AI 領域，用動物或人類大腦來比喻神經網路是常見的做法。Richard Sutton 的框架就是典型的「建造動物」思維：我們應該追求一個單一的演算法，讓它像動物一樣被丟進世界，從零開始學會一切，不需要任何標籤或預先知識。&lt;/p&gt;&#xA;&lt;p&gt;Karpathy 認為這個願景很美好，但有一個根本問題：動物的智能來自演化，而演化是一個我們完全沒有在執行的過程。當一隻斑馬出生後幾分鐘就能站起來跟著母親跑，那不是強化學習的結果，那是數百萬年演化「烘焙」進 DNA 的能力。演化以某種我們完全不理解的方式，把神經網路的權重編碼進了 ATCG 的序列裡。這是一種極其複雜的壓縮機制，而我們根本不知道它怎麼運作。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Context Engineering：AI Agent 開發的新核心能力</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251225-context-engineering-agent-core-skill/</link>
+      <pubDate>Thu, 25 Dec 2025 17:40:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251225-context-engineering-agent-core-skill/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Dex Horthy 在 AI Engineer 大會的演講。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/8kMaTybvDUw&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;「LLM 是純函數，token 進、token 出。」Dex Horthy 在 AI Engineer 大會上說出這句話時，台下安靜了一秒。這聽起來太簡單了，簡單到像是廢話。但 Dex 認為，正是這個被忽略的基本事實，解釋了為什麼有些 Agent 可靠、有些不可靠。&lt;/p&gt;&#xA;&lt;p&gt;如果 LLM 是純函數，那決定輸出品質的唯一因素就是輸入。你的 Prompt、你的 Memory、你的 RAG、你的對話歷史——這些全都是同一個問題的不同面向：怎麼把對的 token 送進模型，讓它給你好的回應？Dex 把這個問題叫做 Context Engineering。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>YC 創業者換邊站：Anthropic 首度超越 OpenAI</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251223-yc-anthropic-overtakes-openai/</link>
+      <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251223-yc-anthropic-overtakes-openai/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 YC 官方 Podcast《The Light Cone》2025 年 12 月播出的年度回顧單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/cqrJzG03ENE&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一個數據的翻轉&#34;&gt;一個數據的翻轉&lt;/h2&gt;&#xA;&lt;p&gt;YC 每年都會在申請表上問創業者一個問題：你的技術堆疊用什麼模型？這個問題的答案，某種程度上反映了開發者社群對各家 LLM 的真實偏好——不是問你覺得哪家厲害，而是問你實際在用哪家。&lt;/p&gt;&#xA;&lt;p&gt;Winter 26 批次的數據出來了，結果讓 YC 合夥人自己都嚇一跳：&lt;strong&gt;Anthropic 首度超越 OpenAI，成為最多創業者選用的 API&lt;/strong&gt;。這在兩年前根本無法想像。Diana Hu 回憶，當 The Light Cone 這個 Podcast 剛開始做的時候，OpenAI 的市占率超過 90%。現在？被 Anthropic 超越了。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>「LLM 永遠無法達到人類智慧」——Yann LeCun 的技術宣戰</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-llm-cannot-reach-human-intelligence/</link>
+      <pubDate>Mon, 22 Dec 2025 22:20:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-yann-lecun-llm-cannot-reach-human-intelligence/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/7u-DXVADyhc&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Information Bottleneck Podcast EP20 對 Yann LeCun 的專訪。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Yann LeCun 與矽谷主流的分歧，不是「A 方法好還是 B 方法好」這種程度的爭論。他認為 LLM 這整條路線從根本上就走錯了。在最近的 Information Bottleneck 訪談中，這位圖靈獎得主花了將近兩個小時，詳細解釋為什麼他認為 LLM 是死胡同，以及他認為正確的方向是什麼。&lt;/p&gt;&#xA;&lt;p&gt;這不是學術象牙塔裡的辯論。LeCun 剛離開 Meta，創辦了一家專注於 World Model 的新公司 AMI。他把自己的信念付諸行動，用創業來押注這個與主流完全不同的技術路線。&lt;/p&gt;&#xA;&lt;h2 id=&#34;文字資料的資訊量少得可憐&#34;&gt;文字資料的資訊量，少得可憐&lt;/h2&gt;&#xA;&lt;p&gt;LeCun 的核心論點之一，是關於資料量的數學計算。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

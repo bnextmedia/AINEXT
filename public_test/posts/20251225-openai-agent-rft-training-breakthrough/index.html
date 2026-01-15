@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+  <title>Open ai 讓 ai 在訓練時操作真實世界—— agent rft 是什麼？ | AINEXT</title>
+  <meta charset='utf-8'>
+  <meta name="viewport" content ="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta name="keywords" content="AINEXT">
+<meta property="og:locale" content='en_US'>
+<meta property="og:type" content="article">
+<meta property="og:title" content="OpenAI 讓 AI 在訓練時操作真實世界——Agent RFT 是什麼？">
+<meta property="og:description" content="
+本文整理自 OpenAI DevDay 的技術分享。
+
+
+  
+    ">
+<meta property="og:url" content="https://bnextmedia.github.io/AINEXT/posts/20251225-openai-agent-rft-training-breakthrough/">
+<meta property="og:image" content="https://bnextmedia.github.io/AINEXT/images/images/logo.png">
+<link rel="canonical" href="https://bnextmedia.github.io/AINEXT/posts/20251225-openai-agent-rft-training-breakthrough/">
+
+<link rel="apple-touch-icon" sizes="180x180" href='https://bnextmedia.github.io/AINEXT/apple-touch-icon.png'>
+<link rel="icon" type="image/png" sizes="32x32" href='https://bnextmedia.github.io/AINEXT/favicon-32x32.png'>
+<link rel="icon" type="image/png" sizes='16x16' href='https://bnextmedia.github.io/AINEXT/favicon-16x16.png'>
+<link rel="manifest" href='https://bnextmedia.github.io/AINEXT/site.webmanifest'>
+
+<link rel="stylesheet" href="https://bnextmedia.github.io/AINEXT/css/styles.648e60c6d86809f863ae1346848574b9c685732794e7851c7d3e557de9ddd293bc1c209f963d5041785c2fd4268470bdfde453a99f550b655d1b4f825eed4682.css" integrity="sha512-ZI5gxthoCfhjrhNGhIV0ucaFcyeU54UcfT5Vfend0pO8HCCflj1QQXhcL9QmhHC9/eRTqZ9VC2VdG0&#43;CXu1Ggg==">
+</head>
+
+  <body>
+    <div class="nav-drop">
+  <div class="nav-body">
+      <a href="https://bnextmedia.github.io/AINEXT/" class="nav_item">首頁</a>
+      <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav_item">文章列表</a>
+    <div class="nav-close"></div><div class="color_mode">
+  <label for="mode">Toggle Dark Mode</label>
+  <input type="checkbox" class="color_choice" id="mode">
+</div>
+
+  </div>
+</div>
+<header class="nav">
+  <nav class="nav-menu">
+    <a href=https://bnextmedia.github.io/AINEXT/ class="nav-brand nav_item">
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo.png" alt="AINEXT " class="logo-light" width="130px" />
+        <img src="https://bnextmedia.github.io/AINEXT/images/logo-dark.png" alt="AINEXT " class="logo-dark" width="130px" /></a>
+    
+    
+    <div class="nav-links">
+        <a href="https://bnextmedia.github.io/AINEXT/" class="nav-link">首頁</a>
+        <a href="https://bnextmedia.github.io/AINEXT/archives/" class="nav-link">文章列表</a>
+    </div>
+    
+    <div class="nav_bar-wrap">
+      <div class="nav_bar"></div>
+    </div>
+  </nav>
+</header>
+
+<style>
+ 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--theme);
+}
+
+ 
+@media (min-width: 768px) {
+  .nav_bar-wrap {
+    display: none;
+  }
+}
+
+ 
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+  }
+  
+  .nav_bar-wrap {
+    display: grid;
+  }
+}
+
+ 
+.logo-dark {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-light {
+  display: none;
+}
+
+html[data-mode="dark"] .logo-dark {
+  display: block;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode="light"]) .logo-light {
+    display: none;
+  }
+  
+  html:not([data-mode="light"]) .logo-dark {
+    display: block;
+  }
+}
+
+ 
+.nav {
+  position: relative !important;
+  background: var(--bg);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.mt {
+  margin-top: 2rem !important;
+}
+
+ 
+.post {
+  padding-top: 1rem;
+}
+
+.post_date {
+  margin-top: 0;
+}
+
+ 
+.archive {
+  padding-top: 1rem;
+}
+
+.archive_title {
+  margin-top: 0;
+}
+</style>
+
+
+    <main>
+      
+  <div class="wrap mt post">
+    <div><p class=post_date>25. December 2025</p>
+      <h1 class="post_title">OpenAI 讓 AI 在訓練時操作真實世界——Agent RFT 是什麼？</h1>
+      <div class="post_body">
+        <div class="post_inner">
+        
+        
+          <blockquote>
+<p>本文整理自 OpenAI DevDay 的技術分享。</p>
+</blockquote>
+<div class="media-embed">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/p1CmPZ2j6Lk" 
+      allowfullscreen 
+      title="YouTube Video"
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
+<style>
+.media-embed {
+  max-width: 100%;
+  margin: 1rem 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 12px;
+}
+</style>
+
+<hr>
+<p>「這是我們第一次讓模型在訓練過程中與外部世界互動。」OpenAI 微調團隊的 Will Hang 在介紹 Agent RFT 時這樣說。這句話聽起來或許平淡，但它標誌著 AI 訓練範式的一個重要轉變：模型不再只是被動地學習靜態資料，而是在訓練過程中主動操作真實環境、接收真實反饋。</p>
+<h2 id="agent-與一般模型有什麼不同">Agent 與一般模型有什麼不同</h2>
+<p>要理解 Agent RFT 為什麼重要，首先得搞清楚什麼是 AI Agent。一般的語言模型像是一個知識淵博的顧問，你問它問題，它給你答案，但它無法替你「做事」。Agent 則不同，它能夠與外部世界互動，使用各種工具來完成任務，而且整個過程不需要你一步步指導。</p>
+<p>具體來說，一個 Agent 需要具備兩種能力的交織：工具呼叫和推理。想像你在使用一個程式碼 Agent，它不只是告訴你「應該這樣寫」，而是直接打開終端機、執行指令、讀取程式碼庫、甚至提交修改。在這個過程中，它的工具呼叫和思考過程是交錯進行的——呼叫一個工具、看到結果、思考下一步、再呼叫另一個工具。OpenAI 內部的 Codex 就是按照這個範式打造的，它能端對端地完成程式碼任務，從寫單元測試到提交大規模的程式碼變更。</p>
+<p>這種設計帶來了一個核心挑戰：如何讓 Agent 正確地使用你的工具？模型在 OpenAI 內部訓練時，接觸的是特定的環境和工具集。但你的業務環境可能完全不同，你的工具有不同的輸入格式、不同的回傳結構、不同的使用情境。這種「領域偏移」（domain shift）會導致 Agent 表現失常——它可能呼叫太多次工具、傳入錯誤的參數、或者完全搞錯工具的用途。</p>
+<h2 id="agent-rft-的運作原理">Agent RFT 的運作原理</h2>
+<p>Agent RFT（Agent Reinforcement Fine-Tuning）的核心想法是：讓模型在訓練過程中直接操作你的真實環境，透過強化學習來調整它的行為。這聽起來簡單，實際上是一個重大的系統工程突破。</p>
+<p>傳統的微調方式是給模型一堆「輸入-輸出」配對，告訴它「看到這個問題，應該這樣回答」。但 Agent 的任務本質上是多步驟的，你很難事先定義每一步該怎麼做。Agent RFT 的做法是：讓模型自己去探索各種可能的工具呼叫序列，然後根據你定義的獎勵函數來判斷哪些行為是好的、哪些是壞的。</p>
+<p>具體來說，OpenAI 新增了兩個關鍵功能。第一，模型現在可以在訓練過程中呼叫你架設在公開網路上的工具端點。這意味著模型真的會打 API 給你的系統、執行真實的操作、拿到真實的回應。第二，每次模型完成一個任務（稱為一次「rollout」），系統會呼叫你自訂的評分端點，讓你告訴模型這次表現如何。</p>
+<p>這套機制帶來了幾個直接的好處。模型會學會更好地使用你的工具，不只是知道「該用哪個工具」，還會學到更細緻的技巧，比如什麼時候該平行呼叫多個工具、什麼時候該等待上一個結果再繼續。更有意思的是，你可以透過獎勵函數來控制模型的行為模式。如果你想讓模型在固定的工具呼叫次數內完成任務，可以對超出預算的行為施加懲罰，模型會自己學會如何在限制內高效完成工作。</p>
+<h2 id="使用-agent-rft-的正確時機">使用 Agent RFT 的正確時機</h2>
+<p>OpenAI 的建議是，不要一開始就跳進 Agent RFT。這聽起來有點反直覺——既然這是最強的工具，為什麼不直接用？原因在於，微調是一個需要投入資源的過程，而且它的效果取決於你的基礎設定是否正確。</p>
+<p>正確的流程應該是這樣：首先，確保你的訓練資料集和評估資料集真的反映了生產環境的流量分布。如果訓練資料和實際使用情境有落差，微調出來的模型在生產環境可能反而表現更差。接著，用基礎模型跑一遍你的評估資料集，建立效能基準線，知道「不微調的話能到什麼程度」。</p>
+<p>然後，先嘗試不需要微調的最佳化手段：調整提示詞、簡化任務設計、增減工具、改善工具的輸入輸出格式。這些方法成本低、迭代快，往往能帶來可觀的改善。只有當你把這些方法都試過了，還是覺得「差那麼一點」，才是動用 Agent RFT 的時機。</p>
+<p>這個建議背後有一個務實的考量：Agent RFT 需要你建置一套穩定的基礎設施——能夠處理大量訓練請求的工具端點、可靠的評分系統、以及足夠多的高品質訓練樣本。如果你連基礎的提示詞都還沒調好，花時間建這套系統的投資報酬率不會太高。</p>
+<h2 id="這對開發者意味著什麼">這對開發者意味著什麼</h2>
+<p>Agent RFT 的推出，對於認真想打造 AI Agent 產品的團隊來說，是一個值得關注的訊號。它說明了一件事：打造好用的 Agent，光靠提示詞工程和任務設計是有天花板的，最終還是需要讓模型真正適應你的環境。</p>
+<p>從實務角度來看，這意味著你需要開始思考幾件事。你的工具設計是否足夠乾淨，能夠支援大量的訓練請求？你有沒有辦法定義出一個好的評分函數，準確反映「任務成功」的標準？你的訓練資料集是否真的代表了使用者會遇到的情境？</p>
+<p>這些問題在傳統的軟體開發中不太會被問到，但在 Agent 開發的脈絡下，它們變成了核心的工程挑戰。Agent RFT 提供了一個強大的工具，但它也對開發者的系統設計能力提出了更高的要求。</p>
+<p>從更宏觀的角度來看，Agent RFT 代表的是一種新的人機協作模式：人類定義目標和約束（透過獎勵函數），機器自己探索達成目標的方法。這種模式讓開發者可以把精力放在「定義什麼是好的結果」，而不是「規定每一步該怎麼做」。對於那些任務太複雜、無法事先規劃每個步驟的場景，這可能是唯一可行的開發方式。</p>
+
+        </div>
+        <div class="post_extra mb-2">
+          
+<div class="copy" data-before="分享故事" data-after="已複製">
+  <svg class="icon">
+    <use xlink:href="#copy"></use>
+  </svg>
+</div>
+        </div>
+        <div>
+        
+        </div>
+      </div>
+    </div>
+    <a href=https://bnextmedia.github.io/AINEXT/ class="post_nav"><span class="post_next">Latest Posts
+      <svg class="icon icon_scale">
+        <use xlink:href="#double-arrow"></use>
+      </svg>
+    </span></a>
+  </div>
+
+    </main>
+    <footer class="footer wrap pale">
+  <p>&copy;&nbsp;<span class="year"></span>&nbsp;AINEXT</p>
+  <p class="attribution upcase">由 <a href = 'https://bnextmedia.github.io/AINEXT/' target = '_blank' title = '領英個人檔案' rel = 'nonopener'>AINEXT</a> 設計</p>
+</footer>
+
+
+<script src="https://bnextmedia.github.io/AINEXT/js/index.min.0c2fb80a1ade817d7387f0de8ee061e7de6878a65a420dc61a6e0d0b3bb765c4c0394caefa7c40b16d39c7d74283b3cab364aa109f58cad99d149ec813f930c8.js"></script>
+
+    <svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 699.428 699.428" id="copy">
+    <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19L502.714 0zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612v306zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857h-65.572zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835 0 12.065 9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"></path>
+  </symbol>
+  <symbol viewBox="0 0 53 42" xmlns="http://www.w3.org/2000/svg" id="double-arrow">
+    <path d="M.595 39.653a1.318 1.318 0 0 1 0-1.864L16.55 21.833a1.318 1.318 0 0 0 0-1.863L.595 4.014a1.318 1.318 0 0 1 0-1.863L2.125.62a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0zm29 0a1.318 1.318 0 0 1 0-1.864L45.55 21.833a1.318 1.318 0 0 0 0-1.863L29.595 4.014a1.318 1.318 0 0 1 0-1.863l1.53-1.53a1.318 1.318 0 0 1 1.864 0l19.35 19.349a1.318 1.318 0 0 1 0 1.863l-19.35 19.35a1.318 1.318 0 0 1-1.863 0z"></path>
+  </symbol>
+</svg>
+  </body>
+</html>

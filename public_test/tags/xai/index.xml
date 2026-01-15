@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XAI on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/xai/</link>
+    <description>Recent content in XAI on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Wed, 07 Jan 2026 10:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/xai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>馬斯克預言 2026 年 AGI 來臨，但他最擔心的不是 AI 太強</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20260107-elon-musk-agi-2026-ai-safety/</link>
+      <pubDate>Wed, 07 Jan 2026 10:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20260107-elon-musk-agi-2026-ai-safety/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Moonshots with Peter Diamandis 2026 年 1 月 6 日播出的單集。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/RSNuB9pj9P8&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    src=&#34;https://open.spotify.com/embed/episode/6LeYeJbwutFrQBNLJwcE6n&#34; &#xA;    width=&#34;100%&#34; &#xA;    height=&#34;152&#34; &#xA;    frameBorder=&#34;0&#34; &#xA;    allowfullscreen &#xA;    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; &#xA;    loading=&#34;lazy&#34;&#xA;    style=&#34;border-radius: 12px;&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;iframe &#xA;    allow=&#34;autoplay *; encrypted-media *; fullscreen *; clipboard-write&#34; &#xA;    frameborder=&#34;0&#34; &#xA;    height=&#34;175&#34; &#xA;    width=&#34;100%&#34;&#xA;    style=&#34;border-radius: 12px; overflow: hidden;&#34; &#xA;    sandbox=&#34;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&#34; &#xA;    src=&#34;https://embed.podcasts.apple.com/tw/podcast/elon-musk-on-agi-timeline-us-vs-china-job-markets-clean/id1648228034?i=1000743987690&#34;&#xA;    loading=&#34;lazy&#34;&#xA;  &gt;&lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;我們正在奇點之中&#34;&gt;我們正在奇點之中&lt;/h2&gt;&#xA;&lt;p&gt;「雲霄飛車剛到頂端，準備往下衝。」&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Meta、xAI 都選天然氣蓋資料中心？Casey Handmer：他們沒得選</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-hyperscalers-natural-gas-choice/</link>
+      <pubDate>Fri, 26 Dec 2025 14:35:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-hyperscalers-natural-gas-choice/</guid>
+      <description>&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/3cDHx2_QbPE&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自 Casey Handmer 受訪的 Podcast，2024 年 12 月播出。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Meta 宣布要蓋 5 GW 的資料中心。Google、Microsoft、xAI 也在擴建。他們選的電力來源，清一色是天然氣。&lt;/p&gt;&#xA;&lt;p&gt;你是太陽能的信徒，看著這些新聞會想：這些人在幹嘛？明明太陽能越來越便宜，學習曲線這麼陡，為什麼這些最聰明的公司、手上有最多數據的人，還在選天然氣？&lt;/p&gt;&#xA;&lt;p&gt;Casey Handmer 是 Terraform Industries 的創辦人，專門做合成燃料，對能源市場瞭若指掌。他的答案很直接：「他們不在乎電力成本。他們在乎的是電力可得性。」&lt;/p&gt;&#xA;&lt;h2 id=&#34;電力成本只佔-10漲十倍也不痛&#34;&gt;電力成本只佔 10%，漲十倍也不痛&lt;/h2&gt;&#xA;&lt;p&gt;先算一筆帳。&lt;/p&gt;&#xA;&lt;p&gt;你用 Claude 或 ChatGPT，每個月付 20 美元訂閱費。這 20 美元裡，有多少是電費？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>四大 AI 實驗室爭霸戰：一場史無前例的戰略博弈</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251222-four-ai-labs-competition/</link>
+      <pubDate>Mon, 22 Dec 2025 21:10:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251222-four-ai-labs-competition/</guid>
+      <description>&lt;p&gt;地球上只有四家 AI 實驗室真正重要：OpenAI、Google（Gemini）、Anthropic、和 XAI。這不是誇張的說法，而是基於技術能力、資本規模、和競爭態勢的冷靜評估。更值得關注的是，Meta、Microsoft、Amazon 這些擁有龐大資源的科技巨頭，投入數十億美元後依然未能躋身第一梯隊。這個現象本身就是理解當前 AI 競爭格局的重要線索。&lt;/p&gt;&#xA;&lt;p&gt;Gavin Baker 是 Atreides 投資公司創辦人，曾任 Fidelity 科技基金經理人，長期追蹤 AI 與半導體產業。在 2024 年 12 月與《Invest Like the Best》主持人 Patrick O&amp;rsquo;Shaughnessy 的對談中，他以投資人的視角，深入剖析了四大實驗室的競爭動態。這場分析揭示了一個比表面更複雜的戰略棋局，其中每個玩家都清楚知道自己的位置、對手的戰術、以及最終的獎品是什麼。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一個令人警醒的事實前沿模型比想像中更難做&#34;&gt;一個令人警醒的事實：前沿模型比想像中更難做&lt;/h2&gt;&#xA;&lt;p&gt;在分析四大實驗室之前，首先要理解一個產業現實：打造前沿 AI 模型比任何人預期的都要困難。這不是謙虛的說法，而是有具體案例支撐的事實。&lt;/p&gt;&#xA;&lt;p&gt;2025 年初，Mark Zuckerberg 公開表示他「高度確信」Meta 在年內某個時候會擁有「最好、最強大的 AI」。這是一個大膽的預測，來自一家擁有頂尖人才、龐大資本、和海量數據的公司。結果呢？Meta 的模型可能連前一百名都排不進去。這個預測錯得不能再錯。&lt;/p&gt;&#xA;&lt;p&gt;Meta 不是唯一失敗的例子。Microsoft 收購了 Inflection AI，這家公司的創辦人包括 DeepMind 的共同創辦人，擁有頂級的 AI 人才。Microsoft 當時暗示，他們預期內部模型的能力會快速提升，將越來越多的 AI 服務建立在自己的模型上。這個預期沒有實現。Amazon 收購了 Adept AI，推出了自己的 Nova 模型系列，但這些模型的表現連前二十名都進不了。三家擁有近乎無限資源的科技巨頭，三次失敗的嘗試。&lt;/p&gt;&#xA;&lt;p&gt;這些失敗揭示了什麼？首先，讓大規模 GPU 叢集保持「連貫」運作是一項極其困難的工程挑戰。「連貫」的意思是，叢集中的每一張 GPU 都知道其他 GPU 在做什麼，它們共享記憶體、透過高速網路協同運算。當你有兩萬張、十萬張、甚至二十萬張 GPU 時，保持它們的連貫需要頂尖的系統工程能力。物理定律限制了連貫叢集的上限大約在二十萬到三十萬張的量級，但達到這個上限之前，工程挑戰已經足夠艱鉅。&lt;/p&gt;&#xA;&lt;p&gt;更微妙的是，不同公司運作 GPU 的效率差異極大。如果你的叢集只有 30% 的正常運作時間，而競爭對手達到 90%，你們根本不是在同一個量級競爭。這種效率差異不容易從外部觀察到，但它直接決定了誰能更快地完成訓練、迭代更多的實驗、累積更多的改進。許多公司過去習慣於為成本最佳化運作基礎設施，而非為效能最佳化。這種組織慣性在 AI 訓練中成為致命的劣勢。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

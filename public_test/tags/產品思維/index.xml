@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>產品思維 on AINEXT</title>
+    <link>https://bnextmedia.github.io/AINEXT/tags/%E7%94%A2%E5%93%81%E6%80%9D%E7%B6%AD/</link>
+    <description>Recent content in 產品思維 on AINEXT</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Fri, 26 Dec 2025 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://bnextmedia.github.io/AINEXT/tags/%E7%94%A2%E5%93%81%E6%80%9D%E7%B6%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anduril 的產品思維：為什麼軍火商要像 Apple 那樣做產品</title>
+      <link>https://bnextmedia.github.io/AINEXT/posts/20251226-anduril-product-company-not-contractor/</link>
+      <pubDate>Fri, 26 Dec 2025 11:00:00 +0800</pubDate>
+      <guid>https://bnextmedia.github.io/AINEXT/posts/20251226-anduril-product-company-not-contractor/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;本文整理自台灣人工智慧學校 2025 年 8 月於台大舉辦的講座。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;div class=&#34;media-embed&#34;&gt;&#xA;  &lt;div class=&#34;video-container&#34;&gt;&#xA;    &lt;iframe &#xA;      src=&#34;https://www.youtube.com/embed/ktERIegV8RI&#34; &#xA;      allowfullscreen &#xA;      title=&#34;YouTube Video&#34;&#xA;      loading=&#34;lazy&#34;&#xA;    &gt;&lt;/iframe&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&#xA;&lt;style&gt;&#xA;.media-embed {&#xA;  max-width: 100%;&#xA;  margin: 1rem 0;&#xA;}&#xA;&#xA;.video-container {&#xA;  position: relative;&#xA;  padding-bottom: 56.25%;&#xA;  height: 0;&#xA;  overflow: hidden;&#xA;}&#xA;&#xA;.video-container iframe {&#xA;  position: absolute;&#xA;  top: 0;&#xA;  left: 0;&#xA;  width: 100%;&#xA;  height: 100%;&#xA;  border: 0;&#xA;  border-radius: 12px;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;2017 年，Palmer Luckey 創辦 Anduril 的時候，國防產業在矽谷是個禁忌話題。這是 Google 員工走上街頭抗議公司與美國軍方合作的年代。頂尖的科技人才紛紛投入社群媒體、電商、金融科技，而不是「幫政府造武器」。&lt;/p&gt;&#xA;&lt;p&gt;八年後，Anduril 估值超過 280 億美元，成為美國成長最快的國防公司之一。但讓他們與眾不同的，不只是技術——而是他們從根本上顛覆了國防產業的商業模式。&lt;/p&gt;&#xA;&lt;p&gt;Palmer 在台大演講時，用了一個簡單的區分來解釋這件事：Anduril 不是「國防承包商」（defense contractor），而是「國防產品公司」（defense product company）。這兩個詞聽起來差不多，但背後代表的是完全不同的世界。&lt;/p&gt;&#xA;&lt;h2 id=&#34;承包商-vs-產品公司誰承擔失敗的風險&#34;&gt;承包商 vs 產品公司：誰承擔失敗的風險？&lt;/h2&gt;&#xA;&lt;p&gt;傳統的國防承包商是這樣運作的：政府發出需求規格，承包商提交標書和 PowerPoint 簡報，贏得合約後開始開發。開發過程中，政府持續付款。如果專案延遲、超支、或者最終產品不如預期，承包商還是拿到了錢。納稅人承擔了所有風險。&lt;/p&gt;&#xA;&lt;p&gt;這種模式存在一個根本性的激勵錯位：承包商沒有動力控制成本、加快進度、或者淘汰不可行的專案。延遲意味著更多帳單。複雜意味著更高的收費。失敗不會讓你賠錢，只是少了下一份合約而已。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

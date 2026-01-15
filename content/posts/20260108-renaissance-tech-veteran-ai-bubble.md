@@ -15,7 +15,7 @@ draft: false
 
 {{< spotify "episode/3rE8LoxnOHfps6nMUB9b6x" >}}
 
-{{< apple-podcast us/podcast/david-magerman-on-building-renaissance-technologies/id1676144151?i=1000744119627 >}}
+{{< apple-podcast "us/podcast/david-magerman-on-building-renaissance-technologies/id1676144151?i=1000744119627" >}}
 
 ---
 

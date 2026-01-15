@@ -15,7 +15,7 @@ draft: false
 
 {{< spotify "episode/2j1ea0OYknBXD1oRqrzMRN" >}}
 
-{{< apple-podcast us/podcast/why-the-next-ai-revolution-will-happen-off-screen/id1750736528?i=1000741506908 >}}
+{{< apple-podcast "us/podcast/why-the-next-ai-revolution-will-happen-off-screen/id1750736528?i=1000741506908" >}}
 
 ---
 

@@ -15,7 +15,7 @@ draft: false
 
 {{< spotify "episode/4kSlkESoQ8GPU6meWACSlf" >}}
 
-{{< apple-podcast ua/podcast/nvidias-jensen-huang-on-reasoning-models-robotics-and/id1668002688?i=1000744277967 >}}
+{{< apple-podcast "ua/podcast/nvidias-jensen-huang-on-reasoning-models-robotics-and/id1668002688?i=1000744277967" >}}
 
 ---
 

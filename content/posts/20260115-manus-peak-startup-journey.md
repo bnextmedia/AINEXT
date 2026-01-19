@@ -4,16 +4,18 @@ date: 2026-01-15T10:00:00+08:00
 description: "2025 年 12 月，Meta 以超過 20 億美元收購 AI Agent 新創 Manus，創下 Meta 史上第三大收購案。這篇文章整理了 Manus 共同創辦人暨首席科學家季逸超在收購案宣布前的最後一次深度訪談，揭露他從高中開發瀏覽器、歷經知識圖譜創業低谷、到被 GPT-3 震撼後重新出發的完整創業歷程。"
 tags: ["Manus", "Meta", "季逸超", "AI Agent", "創業", "收購案"]
 categories: ["AI 產業"]
-source_url: "https://www.youtube.com/watch?v=xIcjDudWGz4"
+source_url: "https://www.youtube.com/watch?v=MW-ezf2RhVg"
 source_name: "張小珺商業訪談錄"
 draft: false
 ---
 
 > 本文整理自「張小珺商業訪談錄」第 128 集，錄製於 2025 年 12 月 1 日。訪談結束後不到一個月，Meta 宣布以超過 20 億美元全資收購 Manus。
 
-{{< youtube xIcjDudWGz4 >}}
+{{< youtube MW-ezf2RhVg >}}
 
-{{< spotify "episode/1lNz3xOYEGgQ8DLZA9Dryb" >}}
+{{< spotify "episode/5liWPC4iNkMhdFXgnqDym6" >}}
+
+{{< apple-podcast "tw/podcast/128-manus%E5%86%B3%E5%AE%9A%E5%87%BA%E5%94%AE%E5%89%8D%E6%9C%80%E5%90%8E%E7%9A%84%E8%AE%BF%E8%B0%88-%E5%95%8A-%E8%BF%99%E5%A5%87%E5%B9%BB%E7%9A%842025%E5%B9%B4%E6%BC%82%E6%B5%81%E5%95%8A/id1634356920?i=1000743131736" >}}
 
 ---
 

@@ -6,6 +6,7 @@ tags: ["Manus", "Meta", "季逸超", "AI 創業", "經營哲學", "收購案"]
 categories: ["創業經營"]
 source_url: "https://www.youtube.com/watch?v=MW-ezf2RhVg"
 source_name: "張小珺商業訪談錄"
+image: "https://img.youtube.com/vi/MW-ezf2RhVg/maxresdefault.jpg"
 draft: false
 ---
 

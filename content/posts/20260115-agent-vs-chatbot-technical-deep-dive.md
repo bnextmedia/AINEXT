@@ -6,6 +6,7 @@ tags: ["AI Agent", "Manus", "Meta", "季逸超", "技術解析", "LLM"]
 categories: ["AI 產業"]
 source_url: "https://www.youtube.com/watch?v=MW-ezf2RhVg"
 source_name: "張小珺商業訪談錄"
+image: "https://img.youtube.com/vi/MW-ezf2RhVg/maxresdefault.jpg"
 draft: false
 ---
 

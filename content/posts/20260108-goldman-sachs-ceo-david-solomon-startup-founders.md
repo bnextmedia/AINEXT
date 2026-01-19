@@ -13,9 +13,9 @@ draft: false
 
 {{< youtube kcEQlp_QGJo >}}
 
-{{< spotify episode/2Ege1XIIWm4hXYf9lKucat >}}
+{{< spotify "episode/2Ege1XIIWm4hXYf9lKucat" >}}
 
-{{< apple-podcast us/podcast/goldman-sachs-ceo-david-solomon-what-startup-founders/id1852309009?i=1000741815289 >}}
+{{< apple-podcast "us/podcast/goldman-sachs-ceo-david-solomon-what-startup-founders/id1852309009?i=1000741815289" >}}
 
 ---
 

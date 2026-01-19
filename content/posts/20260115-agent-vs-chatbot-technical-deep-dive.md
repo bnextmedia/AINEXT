@@ -1,6 +1,6 @@
 ---
 title: "Agent 不是更聰明的 Chatbot：被 Meta 20 億美元收購的 Manus，怎麼理解 AI Agent 的技術本質"
-date: 2025-01-15T11:00:00+08:00
+date: 2026-01-15T11:00:00+08:00
 description: "AI Agent 和 Chatbot 到底有什麼不同？Manus 首席科學家季逸超在被 Meta 收購前的訪談中，從技術角度深入解析了這個問題。本文整理他對 Agent 架構、Token 消耗模式、Context Engineering 等核心概念的見解。"
 tags: ["AI Agent", "Manus", "Meta", "季逸超", "技術解析", "LLM"]
 categories: ["AI 產業"]

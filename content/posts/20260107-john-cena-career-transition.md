@@ -13,9 +13,9 @@ draft: false
 
 {{< youtube sJ4Ho4ccuFg >}}
 
-{{< spotify episode/7f5Z0bIEE5K3EMWgb0SJn0 >}}
+{{< spotify "episode/7f5Z0bIEE5K3EMWgb0SJn0" >}}
 
-{{< apple-podcast tw/podcast/2423-john-cena/id360084272?i=1000739893276 >}}
+{{< apple-podcast "tw/podcast/2423-john-cena/id360084272?i=1000739893276" >}}
 
 ---
 

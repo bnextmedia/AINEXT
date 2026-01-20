@@ -13,9 +13,9 @@ draft: false
 
 {{< youtube RmnWHz8HD74 >}}
 
-{{< spotify episode/33oMOus6SMZvaN6CFKpXRo >}}
+{{< spotify "episode/33oMOus6SMZvaN6CFKpXRo" >}}
 
-{{< apple-podcast us/podcast/what-world-class-gtm-looks-like-in-2026-jeanne-dewitt/id1627920305?i=1000738988071 >}}
+{{< apple-podcast "us/podcast/what-world-class-gtm-looks-like-in-2026-jeanne-dewitt/id1627920305?i=1000738988071" >}}
 
 ---
 

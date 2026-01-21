@@ -6,7 +6,7 @@ tags: ["a16z", "Alex Rampell", "AI 投資", "SaaS", "Podcast"]
 categories: ["AI 產業"]
 source_url: "https://www.youtube.com/watch?v=3XVDtPU8xKE"
 source_name: "The a16z Podcast"
-image: "https://img.youtube.com/vi/3XVDtPU8xKE/maxresdefault.jpg"
+image: "https://img.youtube.com/vi/3XVDtPU8xKE/sddefault.jpg"
 draft: false
 ---
 

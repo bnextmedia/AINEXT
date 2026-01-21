@@ -4,15 +4,15 @@ date: 2026-01-15T12:00:00+08:00
 description: "Manus 在 8 個月內從零做到年收入 1 億美元，然後被 Meta 以超過 20 億美元收購。首席科學家季逸超在收購案宣布前的訪談中，分享了幾個反直覺的經營哲學：不當 CEO、不自建模型、找「心理健康」的合夥人、把 AI 公司當製造業經營。"
 tags: ["Manus", "Meta", "季逸超", "AI 創業", "經營哲學", "收購案"]
 categories: ["創業經營"]
-source_url: "https://www.youtube.com/watch?v=MW-ezf2RhVg"
+source_url: "https://www.youtube.com/watch?v=UqMtkgQe-kI"
 source_name: "張小珺商業訪談錄"
-image: "https://img.youtube.com/vi/MW-ezf2RhVg/maxresdefault.jpg"
+image: "https://img.youtube.com/vi/UqMtkgQe-kI/maxresdefault.jpg"
 draft: false
 ---
 
 > 本文整理自「張小珺商業訪談錄」第 128 集，錄製於 2025 年 12 月 1 日。訪談結束後不到一個月，Meta 宣布以超過 20 億美元收購 Manus。
 
-{{< youtube MW-ezf2RhVg >}}
+{{< youtube UqMtkgQe-kI >}}
 
 {{< spotify "episode/5liWPC4iNkMhdFXgnqDym6" >}}
 

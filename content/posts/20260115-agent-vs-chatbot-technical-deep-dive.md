@@ -4,15 +4,15 @@ date: 2026-01-15T11:00:00+08:00
 description: "AI Agent 和 Chatbot 到底有什麼不同？Manus 首席科學家季逸超在被 Meta 收購前的訪談中，從技術角度深入解析了這個問題。本文整理他對 Agent 架構、Token 消耗模式、Context Engineering 等核心概念的見解。"
 tags: ["AI Agent", "Manus", "Meta", "季逸超", "技術解析", "LLM"]
 categories: ["AI 產業"]
-source_url: "https://www.youtube.com/watch?v=MW-ezf2RhVg"
+source_url: "https://www.youtube.com/watch?v=UqMtkgQe-kI"
 source_name: "張小珺商業訪談錄"
-image: "https://img.youtube.com/vi/MW-ezf2RhVg/maxresdefault.jpg"
+image: "https://img.youtube.com/vi/UqMtkgQe-kI/maxresdefault.jpg"
 draft: false
 ---
 
 > 本文整理自「張小珺商業訪談錄」第 128 集，錄製於 2025 年 12 月 1 日。訪談結束後不到一個月，Meta 宣布以超過 20 億美元收購 Manus。
 
-{{< youtube MW-ezf2RhVg >}}
+{{< youtube UqMtkgQe-kI >}}
 
 {{< spotify "episode/5liWPC4iNkMhdFXgnqDym6" >}}
 

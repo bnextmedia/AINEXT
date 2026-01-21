@@ -20,11 +20,11 @@ buildExpired = false
   # defaultMode = "dark"  # 取消註解可設定預設深色模式
   mainSections = ["posts"]
 
-  # Google Analytics 4 - 填入你的 Measurement ID
-  # ga_analytics = "G-XXXXXXXXXX"
+  # Google Analytics 4
+  ga_analytics = "G-C67T25XT8Q"
 
-  # Google Search Console 驗證 - 填入驗證碼
-  # ga_verify = "你的驗證碼"
+  # Google Search Console 驗證
+  ga_verify = "dFByHKTfCwWUh1Ni2_4hi2hhiW4swQFPKK_01cl1uOc"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

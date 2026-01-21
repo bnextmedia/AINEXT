@@ -1,4 +1,4 @@
-baseURL = "https://bnextmedia.github.io/AINEXT/"
+baseURL = "https://ainext.tw/"
 languageCode = "zh-TW"
 title = "AINEXT"
 theme = "newsroom"
@@ -19,6 +19,12 @@ buildExpired = false
   logoDark = "images/logo-dark.png"
   # defaultMode = "dark"  # 取消註解可設定預設深色模式
   mainSections = ["posts"]
+
+  # Google Analytics 4 - 填入你的 Measurement ID
+  # ga_analytics = "G-XXXXXXXXXX"
+
+  # Google Search Console 驗證 - 填入驗證碼
+  # ga_verify = "你的驗證碼"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

@@ -6,7 +6,7 @@ tags: ["Apple", "M5", "Apple Silicon", "AI 晶片", "GPU 架構"]
 categories: ["AI 技術前沿"]
 source_url: ""
 source_name: "Apple FY2025 Q4 財報"
-image: "/images/posts/apple-m5-chip-keynote.jpg"
+image: "posts/apple-m5-chip-keynote.jpg"
 draft: false
 ---
 

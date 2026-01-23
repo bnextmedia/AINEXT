@@ -78,9 +78,9 @@
       </div>
     </div>
 
-    {{/* 中間：Logo */}}
+    {{/* 中間：Logo - 點擊回到首頁 */}}
     <div class="site-header__logo">
-      <a href="{{ .Site.BaseURL }}v2/">AINEXT</a>
+      <a href="{{ "/" | relURL }}">AINEXT</a>
     </div>
 
     {{/* 中間：城市時鐘（右三） */}}
@@ -132,13 +132,17 @@
       </div>
     </div>
 
-    {{/* 右側：漢堡選單（手機版用） */}}
+    {{/* 右側：漢堡選單按鈕（手機版用） */}}
     <div class="site-header__right">
-      <button class="site-header__menu-btn" aria-label="選單">
-        <svg viewBox="0 0 24 24" width="24" height="24">
+      <button class="site-header__menu-btn" id="mobile-menu-btn" aria-label="選單" aria-expanded="false">
+        <svg class="menu-icon menu-icon--open" viewBox="0 0 24 24" width="24" height="24">
           <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2"/>
           <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2"/>
           <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="2"/>
+        </svg>
+        <svg class="menu-icon menu-icon--close" viewBox="0 0 24 24" width="24" height="24" style="display: none;">
+          <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"/>
+          <line x1="6" y1="18" x2="18" y2="6" stroke="currentColor" stroke-width="2"/>
         </svg>
       </button>
     </div>

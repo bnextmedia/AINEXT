@@ -1,0 +1,33 @@
+{{/* AINEXT V2 - 主導航 */}}
+{{/*
+  八大分類：
+  1. AI 技術前沿
+  2. AI 產業動態
+  3. AI 開發實戰
+  4. AI 安全與治理
+  5. 科技巨頭觀察
+  6. 地緣政治與經濟
+  7. 領袖思維
+  8. 職涯與學習
+*/}}
+
+<nav class="site-nav">
+  <div class="site-nav__inner">
+    <ul class="site-nav__list">
+      <li class="site-nav__item">
+        <a href="{{ .Site.BaseURL }}" class="site-nav__link {{ if .IsHome }}is-active{{ end }}">首頁</a>
+      </li>
+
+      {{/* 固定順序的分類導航 */}}
+      {{ $categories := slice "AI 技術前沿" "AI 產業動態" "AI 開發實戰" "AI 安全與治理" "科技巨頭觀察" "地緣政治與經濟" "領袖思維" "職涯與學習" }}
+
+      {{ range $categories }}
+        {{ $name := . }}
+        {{ $slug := . | urlize }}
+        <li class="site-nav__item">
+          <a href="{{ printf "/categories/%s/" $slug | relURL }}" class="site-nav__link">{{ $name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</nav>

@@ -3,7 +3,7 @@ title: "Karpathy 的教育願景：打造 AI 時代的星際艦隊學院"
 date: 2025-12-26T11:30:00+08:00
 description: "Andrej Karpathy 為什麼離開 AI 研究前線，轉向教育？他的答案是：他最擔心的不是 AI 會不會成功，而是人類會不會在這個過程中被邊緣化。他正在打造的 Eureka，是他對這個問題的回應。"
 tags: ["Andrej Karpathy", "Eureka", "AI 教育", "LLM 教學", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=lXUZvyajciY"
 source_name: "Dwarkesh Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "印刷術發明後，抄寫員都失業了 —— 諾貝爾經濟學獎�
 date: 2025-12-24T01:59:00+08:00
 description: "當古騰堡發明印刷術，一整個行業的抄寫員瞬間失業。諾貝爾經濟學獎得主 Joel Mokyr 與 Philippe Aghion 在 Nobel Minds 座談會上，深入探討「創造性破壞」理論：為什麼每一項重大發明都有輸家？歐洲創新為何落後美中？福利國家如何讓社會更願意接受改變？"
 tags: ["諾貝爾獎", "經濟學", "創造性破壞", "創新", "AI"]
-categories: ["科學與創新"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=e0yqY_bPIU0"
 source_name: "Nobel Minds 2025"
 draft: false

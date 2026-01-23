@@ -3,7 +3,7 @@ title: "AI 教母李飛飛：ImageNet 不是天才的發明，是站在巨人肩
 date: 2026-01-23T10:00:00+08:00
 description: "李飛飛在 Tim Ferriss 節目中分享 ImageNet 的誕生故事。她強調科學進步不是單一天才的功勞，而是跨學科、跨世代的傳承——問對問題，比擁有大數據更重要。"
 tags: ["李飛飛", "ImageNet", "AI 歷史", "大數據", "Tim Ferriss", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=z1g1kkA1M-8"
 source_name: "Tim Ferriss Show"
 draft: false

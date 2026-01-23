@@ -3,7 +3,7 @@ title: "「我喜歡穀倉」——Kelsey Hightower 的反直覺團隊協作論"
 date: 2025-12-25T18:10:00+08:00
 description: "Kubernetes 共同創辦人 Kelsey Hightower 說「我喜歡穀倉」時，所有人都愣住了。但他的論述非常務實：專業分工加上好的 API，比讓每個人都懂一切更有效。這是對 DevOps 原教旨主義的一次務實修正。"
 tags: ["Kelsey Hightower", "DevOps", "Platform Engineering", "團隊協作", "JetBrains"]
-categories: ["科技趨勢"]
+categories: ["AI 開發實戰"]
 source_url: "https://www.youtube.com/watch?v=HdUbTyvrfKo"
 source_name: "JetBrains"
 draft: false

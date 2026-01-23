@@ -3,7 +3,7 @@ title: "翁家翌：OpenAI 每一個模型背後的那個「賣鏟子的人」"
 date: 2026-01-20T13:00:00+08:00
 description: "從小學奧數、清華開源作業、天授框架、退學 online，到成為 GPT 系列核心貢獻者——翁家翌的故事是一個關於「資訊平權」與「投資未來」的旅程。但這個熱愛開源的工程師，如何自處於一個閉源的公司？"
 tags: ["OpenAI", "翁家翌", "人物側寫", "天授", "強化學習", "Podcast"]
-categories: ["人物專訪"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=I0DrcsDf3Os"
 source_name: "WhynotTV Podcast"
 draft: false

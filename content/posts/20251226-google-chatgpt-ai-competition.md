@@ -3,7 +3,7 @@ title: "ChatGPT 來了，Google 在想什麼？——Sundar Pichai 親述 AI 競
 date: 2025-12-26T11:00:00+08:00
 description: "2022 年 11 月 ChatGPT 上線，外界以為 Google 措手不及。但 Google 執行長 Sundar Pichai 在 Dreamforce 2025 透露，他當時的反應其實是「興奮」。這篇文章還原 Google 內部的 AI 發展脈絡，從 Transformer 論文、LaMDA 聊天機器人，到 Gemini 的誕生。"
 tags: ["Sundar Pichai", "Google", "ChatGPT", "OpenAI", "Gemini", "AI 競爭"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=brQH2CCxbSE"
 source_name: "Dreamforce 2025"
 draft: false

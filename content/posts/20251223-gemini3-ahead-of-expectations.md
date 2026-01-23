@@ -3,7 +3,7 @@ title: "「我們走得比我預期的還要前面」——Gemini 3 預訓練負
 date: 2025-12-23T00:53:00+08:00
 description: "Google DeepMind 的 Gemini 3 預訓練負責人 Sebastian Bourgeaud 坦言，AI 的進展比他預期的更快。他認為真正衡量模型進步的指標不是 benchmark，而是團隊內部使用模型來提升生產力的時間持續增加。同時，AI 研究正從「數據無限」轉向「數據受限」的新範式。"
 tags: ["Gemini", "Google DeepMind", "Scaling Laws", "AI 研究", "大型語言模型"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=cNGDAqFXvew"
 source_name: "The MAD Podcast with Matt Turck"
 draft: false

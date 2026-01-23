@@ -3,7 +3,7 @@ title: "李飛飛給年輕人的建議：學歷不重要了，學習的能力才
 date: 2026-01-23T11:00:00+08:00
 description: "李飛飛分享她的新創公司 World Labs 如何招聘工程師：看的不是學歷，而是學習敏捷度和對 AI 工具的態度。她也談到空間智慧為何是被低估的下一個前沿，以及 AI 時代教育評估該如何重新設計。"
 tags: ["李飛飛", "World Labs", "空間智慧", "AI 教育", "職涯發展", "Tim Ferriss", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=z1g1kkA1M-8"
 source_name: "Tim Ferriss Show"
 draft: false

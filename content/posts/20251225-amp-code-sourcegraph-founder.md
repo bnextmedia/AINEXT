@@ -3,7 +3,7 @@ title: "從 Code Search 到 AI Agent：Sourcegraph 創辦人如何用 Amp Code �
 date: 2025-12-25T15:00:00+08:00
 description: "Sourcegraph 創辦人 Beyang Liu 打造的 Amp Code，不只是另一個 coding agent。這款產品的設計決策——從 sub-agent 架構到終端機廣告補貼——反映了一個深耕程式碼搜尋十年的團隊，對開發者工作流的獨特理解。"
 tags: ["Amp Code", "Sourcegraph", "Beyang Liu", "Coding Agent", "Quinn Slack"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=gvIAkmZUEZY"
 source_name: "AI Engineer World's Fair"
 draft: false

@@ -3,7 +3,7 @@ title: "Amp Code 的「反常識」設計哲學：為什麼不讓使用者選模
 date: 2025-12-25T14:00:00+08:00
 description: "Amp Code 創辦人 Beyang Liu 分享這款 coding agent 的設計決策：不做模型選擇器、不依賴 MCP、用 sub-agent 取代單一大模型。這些「反常識」選擇背後，是對開發者工作流更深層的思考。"
 tags: ["Amp Code", "AI Agent", "Beyang Liu", "Coding Agent", "產品設計"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=gvIAkmZUEZY"
 source_name: "AI Engineer World's Fair"
 draft: false

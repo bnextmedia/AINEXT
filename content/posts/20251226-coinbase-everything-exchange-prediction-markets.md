@@ -3,7 +3,7 @@ title: "Coinbase 的「萬物交易所」野心：當加密貨幣遇上預測市
 date: 2025-12-26T11:00:00+08:00
 description: "Coinbase 執行長 Brian Armstrong 宣布與 Kalshi 合作，將預測市場整合進 Coinbase 平台。這不只是一個新功能，而是 Coinbase 「萬物交易所」戰略的關鍵拼圖。預測市場為什麼比民調更準？TradFi 與 Crypto 的邊界為什麼正在消失？Armstrong 和 Kalshi 創辦人 Tarek 的對談，揭示了這場金融基礎設施重構的野心。"
 tags: ["Coinbase", "Brian Armstrong", "Kalshi", "預測市場", "Podcast"]
-categories: ["投資理財"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856"
 source_name: "TBPN"
 draft: false

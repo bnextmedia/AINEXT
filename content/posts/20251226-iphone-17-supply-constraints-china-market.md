@@ -3,7 +3,7 @@ title: "iPhone 17 多款型號缺貨，但中國市場下滑 4%：Apple 的兩�
 date: 2025-12-26T11:00:00+08:00
 description: "Apple Q4 財報揭示一個矛盾現象：iPhone 17 系列需求強勁到多款型號供不應求，但大中華區營收卻年減 4%。Tim Cook 親自解釋原因，並預告中國市場將在下一季恢復成長。"
 tags: ["Apple", "iPhone 17", "中國市場", "供應鏈", "財報分析"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: ""
 source_name: "Apple FY2025 Q4 財報"
 draft: false

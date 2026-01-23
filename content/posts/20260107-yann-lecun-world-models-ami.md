@@ -3,7 +3,7 @@ title: "Yann LeCun：LLM 永遠無法達到人類智慧，世界模型才是正�
 date: 2026-01-07T14:00:00+08:00
 description: "圖靈獎得主 Yann LeCun 離開 Meta 創辦 AMI，主攻世界模型與 JEPA 架構。他直言 LLM 無法處理高維度連續資料，批評矽谷陷入「單一文化」，並預測達到狗的智慧程度是最困難的一步。"
 tags: ["Yann LeCun", "世界模型", "JEPA", "AMI", "Meta", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=7u-DXVADyhc"
 source_name: "The Information Bottleneck"
 draft: false

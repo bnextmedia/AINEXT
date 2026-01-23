@@ -3,7 +3,7 @@ title: "AI 時代的 GTM 變局：Play 還有效，Playbook 壞了"
 date: 2026-01-04T13:00:00+08:00
 description: "SaaStr 創辦人 Jason Lemkin 觀察：在 AI 時代，outbound、webinar、活動這些銷售手法還是有效，但過去的 playbook 已經失靈。產業正在分裂成 AI-native 高成長公司和傳統低成長公司兩種截然不同的物種，各自需要完全不同的策略。"
 tags: ["AI Agent", "GTM", "銷售", "SaaStr", "Jason Lemkin", "Vercel", "Replit", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://youtu.be/I-R1bc1rlFs"
 source_name: "Lenny's Podcast"
 draft: false

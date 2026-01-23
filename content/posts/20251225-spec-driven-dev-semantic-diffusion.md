@@ -3,7 +3,7 @@ title: "從 Spec-Driven Dev 到 Context Engineering——AI 編程方法論的�
 date: 2025-12-25T12:00:00+08:00
 description: "「Spec-Driven Development」這個詞已經壞掉了。HumanLayer 創辦人 Dex Horthy 引用 Martin Fowler 的「語意擴散」理論，解釋為什麼流行術語會失去意義，以及真正有效的 AI 編程方法是什麼。"
 tags: ["Spec-Driven Development", "Semantic Diffusion", "Context Engineering", "Dex Horthy", "Martin Fowler"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=rmvDxxNubIg"
 source_name: "AI Engineer World's Fair 2025"
 draft: false

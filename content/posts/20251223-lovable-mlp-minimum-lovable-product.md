@@ -3,7 +3,7 @@ title: "Minimum Lovable Product：為什麼「最小可行產品」在 AI 時代
 date: 2025-12-23T00:46:00+08:00
 description: "Lovable 增長負責人 Elena Verna 認為 MVP 該退休了，取而代之的是 MLP——Minimum Lovable Product。當軟體建造成本趨近於零，競爭基準上升，「可行」已不足以脫穎而出，「可愛」才是新的差異化關鍵。"
 tags: ["Lovable", "Elena Verna", "MVP", "MLP", "產品策略", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=6qAB6aUMIeA"
 source_name: "Lenny's Podcast"
 draft: false

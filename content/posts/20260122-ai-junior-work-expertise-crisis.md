@@ -3,7 +3,7 @@ title: "當 AI 搶走新人的學徒工作，誰來培養下一代專家？"
 date: 2026-01-22T11:00:00+08:00
 description: "Anthropic 經濟主管 Peter McCrory 指出，AI 正在自動化那些過去用來培養新人的基礎工作。當文獻回顧、資料整理都交給 Claude，年輕人要從哪裡學會判斷力和品味？這是一個正在發生的制度性危機。"
 tags: ["Anthropic", "AI 人才", "職涯發展", "Peter McCrory", "專業養成", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=_CjO65F6JEQ"
 source_name: "Exponential View"
 draft: false

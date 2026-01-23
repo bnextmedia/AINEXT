@@ -3,7 +3,7 @@ title: "美國 8 天打光飛彈，然後呢？——一場關於製造業的國
 date: 2026-01-04T10:00:00+08:00
 description: "美軍兵推顯示，與中國開戰後約 8 天就會耗盡關鍵飛彈，補充需要 2-3 年。Anduril 執行長與 Hadrian 創辦人在 a16z 節目中剖析：美國製造業如何空洞化、中國如何建立壓倒性產能、以及為什麼時間可能站在北京那邊。"
 tags: ["美中競爭", "國防工業", "製造業", "Anduril", "供應鏈", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=ShkxpBoObCQ"
 source_name: "a16z Podcast"
 draft: false

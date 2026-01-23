@@ -3,7 +3,7 @@ title: "Karpathy：「強化學習很糟糕，只是之前的方法更糟」"
 date: 2025-12-26T11:00:00+08:00
 description: "Andrej Karpathy 對強化學習提出尖銳批評：我們正在「用吸管吸取監督訊號」。人類根本不是這樣學習的。但目前沒有更好的方法，所以我們只能繼續用這個「很糟糕」的工具。"
 tags: ["Andrej Karpathy", "強化學習", "RL", "AI 訓練", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=lXUZvyajciY"
 source_name: "Dwarkesh Podcast"
 draft: false

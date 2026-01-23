@@ -3,7 +3,7 @@ title: "Sergey Brin 在史丹佛百年校慶問了一個尷尬的問題：大學
 date: 2025-12-25T13:00:00+08:00
 description: "在史丹佛工程學院百年校慶活動上，Google 共同創辦人 Sergey Brin 提出了一個令主辦方尷尬的問題：在 AI 和線上課程的時代，傳統地理集中式的大學還有存在的必要嗎？這位從史丹佛輟學創辦 Google 的億萬富翁，對高等教育的未來提出了根本性的質疑。"
 tags: ["Sergey Brin", "Stanford", "高等教育", "AI", "大學未來"]
-categories: ["科技趨勢"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=0nlNX94FcUE"
 source_name: "Stanford Engineering"
 draft: false

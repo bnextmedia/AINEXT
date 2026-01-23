@@ -3,7 +3,7 @@ title: "Ray Dalio 的大週期視角：五大力量如何重塑未來五年"
 date: 2025-12-25T10:00:00+08:00
 description: "橋水基金創辦人 Ray Dalio 在牛津辯論社的訪談中，提出推動世界變化的五大力量框架：債務週期、內部衝突、世界秩序、自然災害與技術革命。他預測未來五年將是「時光隧道」般的劇變期，我們正在見證一部看過很多次的電影。"
 tags: ["Ray Dalio", "Bridgewater", "債務週期", "地緣政治", "訪談"]
-categories: ["投資理財"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=blp67tGDFUg"
 source_name: "Oxford Union"
 draft: false

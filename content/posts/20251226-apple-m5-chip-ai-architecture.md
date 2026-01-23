@@ -3,7 +3,7 @@ title: "M5 晶片的 AI 野心：為什麼 Apple 要在每個 GPU 核心塞入�
 date: 2025-12-26T12:00:00+08:00
 description: "Apple M5 晶片的 AI 效能是 M4 的 3.5 倍，關鍵在於一個架構創新：在每個 GPU 核心內建神經加速器。這篇文章解析這個設計的技術意義，以及它如何支撐 Apple 的裝置端 AI 戰略。"
 tags: ["Apple", "M5", "Apple Silicon", "AI 晶片", "GPU 架構"]
-categories: ["科技趨勢"]
+categories: ["AI 技術前沿"]
 source_url: ""
 source_name: "Apple FY2025 Q4 財報"
 draft: false

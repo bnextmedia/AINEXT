@@ -3,7 +3,7 @@ title: "Demis Hassabis 的 AGI 路線圖：世界模型才是關鍵拼圖"
 date: 2025-12-22
 description: "DeepMind 執行長 Demis Hassabis 深度訪談：Scaling Laws 沒有撞牆但報酬遞減、AI 的「鋸齒狀智慧」現象、世界模型為何是通往 AGI 的關鍵，以及 Proto-AGI 的願景。"
 tags: ["DeepMind", "Demis Hassabis", "AGI", "世界模型", "Gemini"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=PqVbypvxDto"
 source_name: "Google DeepMind Podcast"
 draft: false

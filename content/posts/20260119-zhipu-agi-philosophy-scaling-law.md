@@ -3,7 +3,7 @@ title: "Scaling Law 只是現象描述：智谱 CEO 張鵬的 AGI 哲學與技�
 date: 2026-01-19T11:00:00+08:00
 description: "智谱 CEO 張鵬在上市前夕的深度訪談中，分享了對 Scaling Law、Transformer 架構、認知智能本質的獨到見解。他認為暴力堆算力並非通往 AGI 的唯一路徑，真正的智能需要具備舉一反三、自我糾錯的認知能力。"
 tags: ["智谱", "張鵬", "Scaling Law", "AGI", "認知智能", "Transformer", "GLM", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=9zSMTUUEfmU"
 source_name: "張小珺商業訪談錄"
 draft: false

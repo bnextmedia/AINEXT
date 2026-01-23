@@ -3,7 +3,7 @@ title: "當編輯器變成閱讀器：Amp Code 對開發者工作流的重新想
 date: 2025-12-25T14:30:00+08:00
 description: "Amp Code 創辦人 Beyang Liu 分享一個關鍵洞察：重度使用 coding agent 的開發者，大部分時間都在做 code review，而不是寫程式碼。這個觀察如何影響了 Amp 的 UI 設計？"
 tags: ["Amp Code", "開發者體驗", "Code Review", "AI Agent", "Beyang Liu"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=gvIAkmZUEZY"
 source_name: "AI Engineer World's Fair"
 draft: false

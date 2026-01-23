@@ -3,7 +3,7 @@ title: "Musk 的太空算力野心：兩三年內，太空將是 AI 資料中心
 date: 2026-01-23T12:00:00+08:00
 description: "Elon Musk 在達沃斯論壇上宣布，SpaceX 將在幾年內發射太陽能供電的 AI 衛星。太空的太陽能效率是地面五倍、散熱近乎免費、空間無限。當 Starship 實現全可回收，太空成本將降低 100 倍，讓太空成為 AI 算力的最低成本選址。"
 tags: ["Elon Musk", "SpaceX", "Starship", "太空 AI", "資料中心", "WEF Davos"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=IgifEgm1-e0"
 source_name: "World Economic Forum"
 draft: false

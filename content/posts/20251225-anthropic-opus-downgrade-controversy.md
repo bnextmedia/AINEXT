@@ -3,7 +3,7 @@ title: "Anthropic 被控「偷降 Opus」？AI 公司的信任危機"
 date: 2025-12-25T12:00:00+08:00
 description: "Opus 4.5 推出後獲得好評，但最近 Twitter 上出現大量使用者抱怨模型「變笨了」。是 Anthropic 偷偷降級模型來節省成本，還是使用者的期望值過高？這場爭議揭示了 AI 公司面臨的透明度挑戰。"
 tags: ["Anthropic", "Claude", "Opus", "AI 爭議", "模型降級", "使用者信任"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=f8I4cGrDFYA"
 source_name: "Break Even Brothers Podcast"
 draft: false

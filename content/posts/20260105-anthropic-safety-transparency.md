@@ -3,7 +3,7 @@ title: "為什麼 Anthropic 主動公開自家 AI 的風險？"
 date: 2026-01-05T13:00:00+08:00
 description: "Anthropic 不只發布 AI 模型，還主動公開 Claude 被用於網路間諜攻擊、在極端情境下使用勒索手段等風險研究。總裁 Daniela Amodei 解釋這套「激進透明」策略背後的商業邏輯，以及她為什麼認為 AGI 這個詞已經過時。"
 tags: ["Anthropic", "Daniela Amodei", "AI 安全", "AGI", "AI 治理", "CNBC"]
-categories: ["AI 產業"]
+categories: ["AI 安全與治理"]
 source_url: "https://www.youtube.com/watch?v=GMXnmaky9FY"
 source_name: "CNBC Television"
 draft: false

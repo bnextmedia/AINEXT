@@ -3,7 +3,7 @@ title: "2025 Model Wars 年終回顧：從 GPT-5 到 Gemini 3 的瘋狂四個月
 date: 2025-12-26T12:00:00+08:00
 description: "2025 年 8 月到 12 月，AI 模型軍備競賽達到白熱化。OpenAI、Anthropic、Google、xAI、DeepSeek 輪番發布超過十個重要模型。基準測試正在飽和、「AI 冬天」論戰持續延燒、年度發布節奏的呼聲漸起。這場 Model Wars 的瘋狂四個月，究竟告訴了我們什麼？"
 tags: ["OpenAI", "Anthropic", "Google", "AI 模型", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856"
 source_name: "TBPN"
 draft: false

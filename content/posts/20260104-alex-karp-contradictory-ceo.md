@@ -3,7 +3,7 @@ title: "Alex Karp：嬉皮之子如何成為「幫軍方殺人」的科技執行
 date: 2026-01-04T14:30:00+08:00
 description: "Alex Karp 是矽谷最矛盾的存在：一個在德國拿哲學博士的極左派，父母都是嬉皮，卻創辦了一家與 CIA、國防部、ICE 合作的監控科技公司。當抗議者在他家門口高喊「Alex Karp is a coward」時，這位執行長如何面對自己的矛盾？從 DW 紀錄片深入剖析這位科技界最獨特的領導者。"
 tags: ["Alex Karp", "Palantir", "Peter Thiel", "矽谷", "哲學", "紀錄片"]
-categories: ["人物專訪"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=hN-mEGLF_6w"
 source_name: "DW Documentary"
 draft: false

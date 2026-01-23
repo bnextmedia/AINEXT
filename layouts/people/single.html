@@ -1,0 +1,331 @@
+{{ define "main" }}
+<div class="wrap mt person-page">
+  <article class="person-profile">
+    <!-- 頁首：照片 + 基本資訊 -->
+    <header class="person-header">
+      <div class="person-header-content">
+        {{ with .Params.photo }}
+        <div class="person-photo-container">
+          <img src="{{ . }}" alt="{{ $.Title }}" class="person-photo">
+          {{ with $.Params.photo_credit }}
+          <p class="photo-credit">{{ . }}</p>
+          {{ end }}
+        </div>
+        {{ else }}
+        <div class="person-photo-placeholder">
+          <span>{{ substr .Title 0 1 | upper }}</span>
+        </div>
+        {{ end }}
+        <div class="person-header-info">
+          <h1 class="person-name">{{ .Title }}</h1>
+          {{ with .Params.name_zh }}<p class="person-name-zh">{{ . }}</p>{{ end }}
+          <p class="person-tagline">{{ .Params.description_short }}</p>
+          <div class="person-current">
+            {{ with .Params.current_position }}<span class="current-position">{{ . }}</span>{{ end }}
+            {{ with .Params.current_organization }}
+            <span class="current-org">
+              @ {{ with $.Params.current_org_slug }}<a href="{{ "/companies/" | relURL }}{{ . }}/">{{ $.Params.current_organization }}</a>{{ else }}{{ . }}{{ end }}
+            </span>
+            {{ end }}
+          </div>
+          <div class="person-meta">
+            {{ with .Params.nationality }}<span class="meta-item">{{ . }}</span>{{ end }}
+            {{ with .Params.birth_year }}<span class="meta-item">{{ . }} 年生</span>{{ end }}
+          </div>
+        </div>
+      </div>
+      <!-- 社群連結 -->
+      <div class="person-links">
+        {{ with .Params.social }}
+          {{ with .personal_website }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-primary">個人網站</a>{{ end }}
+          {{ with .twitter }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-icon" title="Twitter/X"><svg class="icon"><use xlink:href="#twitter"></use></svg></a>{{ end }}
+          {{ with .linkedin }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-icon" title="LinkedIn"><svg class="icon"><use xlink:href="#linkedin"></use></svg></a>{{ end }}
+          {{ with .github }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-icon" title="GitHub"><svg class="icon"><use xlink:href="#github"></use></svg></a>{{ end }}
+          {{ with .google_scholar }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-icon" title="Google Scholar"><svg class="icon"><use xlink:href="#scholar"></use></svg></a>{{ end }}
+        {{ end }}
+      </div>
+    </header>
+
+    <!-- 身份標籤 -->
+    <div class="person-badges">
+      {{ with .Params.person_type }}
+        {{ range . }}
+        <span class="badge badge-type">{{ . }}</span>
+        {{ end }}
+      {{ end }}
+      {{ with .Params.expertise_areas }}
+        {{ range . }}
+        <span class="badge badge-expertise">{{ . }}</span>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    <!-- 主要內容區 -->
+    <div class="person-content">
+      <!-- 左側：詳細資訊 -->
+      <div class="person-main">
+
+        <!-- 人物簡介 -->
+        <section class="person-section">
+          <h2>關於 {{ .Title }}</h2>
+          <div class="person-description">
+            {{ with .Params.description_long }}{{ . | markdownify }}{{ else }}{{ .Content }}{{ end }}
+          </div>
+        </section>
+
+        <!-- 職涯經歷 -->
+        {{ with .Params.career_history }}
+        <section class="person-section">
+          <h2>職涯經歷</h2>
+          <div class="career-timeline">
+            {{ range . }}
+            <div class="career-item">
+              <div class="career-years">{{ .years }}</div>
+              <div class="career-details">
+                <h3>{{ .position }}</h3>
+                <p class="career-org">
+                  {{ with .org_slug }}<a href="{{ "/companies/" | relURL }}{{ . }}/">{{ $.organization }}</a>{{ else }}{{ .organization }}{{ end }}
+                </p>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+        <!-- 學歷 -->
+        {{ with .Params.education }}
+        <section class="person-section">
+          <h2>學歷</h2>
+          <div class="education-list">
+            {{ range . }}
+            <div class="education-item">
+              <h3>{{ .institution }}</h3>
+              <p>{{ .degree }}</p>
+              {{ with .years }}<span class="education-years">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+        <!-- 創業經歷 -->
+        {{ with .Params.founded_companies }}
+        <section class="person-section">
+          <h2>創業經歷</h2>
+          <div class="founded-list">
+            {{ range . }}
+            <div class="founded-item">
+              <h3>{{ .name }}</h3>
+              <div class="founded-meta">
+                <span class="founded-year">{{ .year }} 年創立</span>
+                {{ with .outcome }}<span class="founded-outcome">{{ . }}</span>{{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+        <!-- 投資經歷 -->
+        {{ with .Params.investments }}
+        <section class="person-section">
+          <h2>投資經歷</h2>
+          <div class="investments-list">
+            {{ range . }}
+            <div class="investment-item">
+              <span class="investment-company">{{ .company }}</span>
+              {{ with .role }}<span class="investment-role">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+        <!-- 重要論文 -->
+        {{ with .Params.publications }}
+        <section class="person-section">
+          <h2>重要論文</h2>
+          <div class="publications-list">
+            {{ range . }}
+            <div class="publication-item">
+              <h3>
+                {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+                {{ .title }}
+                {{ with .url }}</a>{{ end }}
+              </h3>
+              <div class="publication-meta">
+                {{ with .venue }}<span class="publication-venue">{{ . }}</span>{{ end }}
+                {{ with .year }}<span class="publication-year">{{ . }}</span>{{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+        <!-- 成就與獎項 -->
+        {{ if or .Params.achievements .Params.awards }}
+        <section class="person-section">
+          <h2>成就與獎項</h2>
+          {{ with .Params.achievements }}
+          <ul class="achievements-list">
+            {{ range . }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+          {{ end }}
+          {{ with .Params.awards }}
+          <div class="awards-list">
+            {{ range . }}
+            <div class="award-item">
+              <span class="award-name">{{ .name }}</span>
+              <span class="award-meta">{{ .issuer }} ({{ .year }})</span>
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+        </section>
+        {{ end }}
+
+        <!-- 重要言論 -->
+        {{ with .Params.notable_quotes }}
+        <section class="person-section">
+          <h2>重要言論</h2>
+          <div class="quotes-list">
+            {{ range . }}
+            <blockquote class="quote-item">
+              <p>{{ .quote }}</p>
+              <footer>
+                {{ with .context }}<cite>{{ . }}</cite>{{ end }}
+                {{ with .date }}<time>{{ . }}</time>{{ end }}
+              </footer>
+            </blockquote>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+        <!-- 評價 -->
+        {{ if or .Params.positive_views .Params.negative_views .Params.controversies }}
+        <section class="person-section">
+          <h2>評價與爭議</h2>
+          {{ with .Params.positive_views }}
+          <div class="views-section views-positive">
+            <h3>正面評價</h3>
+            <ul>
+              {{ range . }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+          {{ with .Params.negative_views }}
+          <div class="views-section views-negative">
+            <h3>負面評價</h3>
+            <ul>
+              {{ range . }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+          {{ with .Params.controversies }}
+          <div class="controversies-section">
+            <h3>爭議事件</h3>
+            {{ range . }}
+            <div class="controversy-item">
+              <h4>{{ .title }} <time>({{ .date }})</time></h4>
+              <p>{{ .description }}</p>
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+        </section>
+        {{ end }}
+
+        <!-- 相關文章 -->
+        {{ $personSlug := .File.ContentBaseName }}
+        {{ $relatedPosts := where (where .Site.RegularPages "Section" "posts") ".Params.related_people" "intersect" (slice $personSlug) }}
+        {{ if $relatedPosts }}
+        <section class="person-section">
+          <h2>相關報導</h2>
+          <div class="related-posts">
+            {{ range $relatedPosts.ByDate.Reverse }}
+            <a href="{{ .Permalink }}" class="related-post-item">
+              <time>{{ .Date.Format "2006-01-02" }}</time>
+              <h3>{{ .Title }}</h3>
+            </a>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+      </div>
+
+      <!-- 右側：資訊卡 -->
+      <aside class="person-sidebar">
+        <div class="info-card">
+          <h3>基本資料</h3>
+          <dl class="info-list">
+            {{ with .Params.name_en }}<dt>英文名</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.nationality }}<dt>國籍</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.birth_year }}<dt>出生年</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.current_position }}<dt>現職</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.current_organization }}<dt>現任職機構</dt><dd>{{ . }}</dd>{{ end }}
+          </dl>
+        </div>
+
+        <!-- 關聯公司 -->
+        {{ with .Params.related_companies }}
+        <div class="info-card">
+          <h3>關聯公司</h3>
+          <ul class="related-companies-list">
+            {{ range . }}
+            <li>
+              <a href="{{ "/companies/" | relURL }}{{ .slug }}/">{{ .slug }}</a>
+              <span class="relation-type">{{ .relation }}</span>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        {{ with .Params.tags }}
+        <div class="info-card">
+          <h3>相關標籤</h3>
+          <div class="tag-list">
+            {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        <!-- 外部連結 -->
+        {{ with .Params.social }}
+        <div class="info-card">
+          <h3>外部連結</h3>
+          <ul class="external-links">
+            {{ with .wikipedia }}<li><a href="{{ . }}" target="_blank" rel="noopener">Wikipedia</a></li>{{ end }}
+            {{ with .google_scholar }}<li><a href="{{ . }}" target="_blank" rel="noopener">Google Scholar</a></li>{{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        <!-- 資料來源與更新 -->
+        <div class="info-card info-card-meta">
+          <h3>資料資訊</h3>
+          <dl class="info-list">
+            {{ with .Params.last_updated }}<dt>最後更新</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.data_sources }}
+            <dt>資料來源</dt>
+            <dd>{{ delimit . ", " }}</dd>
+            {{ end }}
+          </dl>
+          {{ with .Params.update_notes }}<p class="update-notes">{{ . }}</p>{{ end }}
+        </div>
+      </aside>
+    </div>
+
+  </article>
+</div>
+{{ end }}

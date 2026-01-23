@@ -3,7 +3,7 @@ title: "85% 的 AI 專案為什麼會失敗？從「我們要用 Agent」的故�
 date: 2026-01-04T11:00:00+08:00
 description: "麥肯錫報告指出 85% 的企業 AI 專案以失敗告終，問題不在技術，而在於被炒作牽著走。史丹佛講座分享了一個歐洲公司導入 Agent 的真實案例，示範如何問對問題、避免踩坑。"
 tags: ["AI 導入", "Agentic AI", "企業轉型", "史丹佛", "專案管理"]
-categories: ["AI 產業"]
+categories: ["AI 開發實戰"]
 source_url: "https://www.youtube.com/watch?v=AuZoDsNmG_s"
 source_name: "Stanford CS230"
 draft: false

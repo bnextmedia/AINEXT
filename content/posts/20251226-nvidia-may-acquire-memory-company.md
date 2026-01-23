@@ -3,7 +3,7 @@ title: "NVIDIA 可能收購記憶體公司？KAIST 教授的驚人預測與背�
 date: 2025-12-26T10:00:00+08:00
 description: "KAIST 電機工程系金正鎬教授預測，NVIDIA 可能收購 SanDisk 或 Micron 等記憶體公司。他認為 AI 時代的真正瓶頸不是 GPU，而是記憶體。隨著 HBF 技術興起，記憶體將成為 AI 半導體的決勝關鍵。"
 tags: ["NVIDIA", "HBF", "HBM", "記憶體", "半導體", "金正鎬", "KAIST"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=uJWZQb9rWUk"
 source_name: "삼프로TV 언더스탠딩"
 draft: false

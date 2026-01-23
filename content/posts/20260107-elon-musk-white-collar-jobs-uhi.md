@@ -3,7 +3,7 @@ title: "馬斯克的「超音速海嘯」警告：白領工作會比藍領更早
 date: 2026-01-07T11:00:00+08:00
 description: "馬斯克在 Podcast 中預測 AI 將先取代白領工作，因為不需要「形塑原子」的工作最容易被替代。他提出 Universal High Income 作為解方，認為物價會暴跌，政府可以直接發錢給所有人。"
 tags: ["Elon Musk", "AI", "就業市場", "Universal High Income", "白領工作", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=RSNuB9pj9P8"
 source_name: "Moonshots with Peter Diamandis"
 draft: false

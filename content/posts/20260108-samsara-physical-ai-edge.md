@@ -3,7 +3,7 @@ title: "Samsara 執行長：下一波 AI 革命不在螢幕上，而在卡車、
 date: 2026-01-08T10:00:00+08:00
 description: "Samsara 創辦人 Sanjit Biswas 分享 Physical AI 的實戰經驗。當 AI 必須在 2-10 瓦的邊緣裝置上運行，面對真實世界的混亂與多樣性，一切都變得不一樣。他認為自動駕駛將開啟「第三班」——讓物流在午夜到清晨持續運轉，加速整個世界的運作節奏。"
 tags: ["Samsara", "Physical AI", "Sanjit Biswas", "邊緣運算", "自動駕駛", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=VQXivhM8I-g"
 source_name: "Sequoia Capital"
 draft: false

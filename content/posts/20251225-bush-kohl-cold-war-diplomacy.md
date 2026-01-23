@@ -3,7 +3,7 @@ title: "冷戰如何和平收場？老布希與柯爾的外交藝術"
 date: 2025-12-25T15:00:00+08:00
 description: "柏林圍牆倒塌那天，老布希選擇不在牆上跳舞。這個決定背後，是一場精心策劃的外交行動。Sarah Paine 教授深入分析老布希與德國總理柯爾如何聯手運作，用金錢換時間、用耐心換和平，在戈巴契夫倒台之前完成德國統一，為西方爭取了 20 年的戰略緩衝。"
 tags: ["Sarah Paine", "冷戰", "老布希", "柯爾", "德國統一", "外交史", "Dwarkesh Podcast"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=FdkpWrlR5zg"
 source_name: "Dwarkesh Podcast"
 draft: false

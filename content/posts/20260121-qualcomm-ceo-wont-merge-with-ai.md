@@ -3,7 +3,7 @@ title: "Qualcomm CEO：我不會與 AI 合體——但 AI 會民主化知識與�
 date: 2026-01-21T13:00:00+08:00
 description: "當被問到是否願意與 AI 合體時，Qualcomm CEO Cristiano Amon 毫不猶豫說「不」。他認為 AI 是人類創造的工具，會增強我們的能力，但不會取代人性。長期來看，AI 的影響力被低估了。"
 tags: ["Qualcomm", "Cristiano Amon", "AI 倫理", "Neuralink", "人機關係", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=nk4X-iD8HP0"
 source_name: "Big Technology Podcast"
 draft: false

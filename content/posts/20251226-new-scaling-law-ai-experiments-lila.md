@@ -3,7 +3,7 @@ title: "Scaling Law 的下一章：讓 AI 自己做實驗"
 date: 2025-12-26T12:00:00+08:00
 description: "Pre-training 的 Scaling Law 正在飽和，下一個突破在哪？Lila Sciences 技術長 Andy Beam 認為答案是讓 AI 自己做實驗。他們正在打造結合 GPU 叢集與自動化實驗平台的新系統，目標是讓 AI 能生成自己的訓練資料。這是對 Scaling Law 的全新詮釋。"
 tags: ["Scaling Laws", "Lila Sciences", "Andy Beam", "AI 科學研究", "Pre-training", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879"
 source_name: "NEJM AI Grand Rounds"
 draft: false

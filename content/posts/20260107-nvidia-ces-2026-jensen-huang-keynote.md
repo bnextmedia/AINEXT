@@ -3,7 +3,7 @@ title: "NVIDIA 的全棧帝國：CES 2026 揭示黃仁勳的終極野心"
 date: 2026-01-07T12:00:00+08:00
 description: "CES 2026 上，NVIDIA 用一整天的活動展示了驚人的野心：從晶片到系統到模型到應用，從自駕車到機器人到企業 AI，黃仁勳正在建構一個前所未有的全棧帝國。這不只是產品發布，而是一場關於 AI 產業未來控制權的宣言。"
 tags: ["NVIDIA", "Jensen Huang", "CES 2026", "Vera Rubin", "Alpamayo", "Physical AI", "Cosmos", "Snowflake", "Mercedes-Benz", "AI Agent"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=0NBILspM4c4"
 source_name: "NVIDIA"
 draft: false

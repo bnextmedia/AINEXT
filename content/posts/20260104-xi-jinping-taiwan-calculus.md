@@ -3,7 +3,7 @@ title: "習近平的算盤與美國的兩年空窗——理解中國為什麼可
 date: 2026-01-04T13:00:00+08:00
 description: "西方分析師習慣用經濟成長來預測中國行為，但這可能是根本性的誤判。Anduril 執行長指出，習近平的優先順序是保黨和留名，不是 GDP。當一胎化政策造成的人口懸崖逼近，加上美軍兵推顯示打光飛彈需要兩年重整，時間窗口可能比我們想像的更短。"
 tags: ["美中競爭", "台海", "習近平", "戴維森窗口", "地緣政治", "Podcast"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=ShkxpBoObCQ"
 source_name: "a16z Podcast"
 draft: false

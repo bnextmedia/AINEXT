@@ -3,7 +3,7 @@ title: "Ilya Sutskever：我們正從 Scaling 時代，進入研究時代"
 date: 2025-12-25T10:00:00+08:00
 description: "OpenAI 共同創辦人 Ilya Sutskever 在離開後首次深度訪談中指出，AI 產業正經歷典範轉移：2020-2025 年的 Scaling 時代正在結束，我們回到了需要真正研究突破的階段。這對投資人、創業者和從業者意味著什麼？"
 tags: ["Ilya Sutskever", "SSI", "AI 研究", "Scaling Laws", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=aR20FWCCjAs"
 source_name: "Dwarkesh Podcast"
 draft: false

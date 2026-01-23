@@ -3,7 +3,7 @@ title: "Nobel Minds 2025：八位諾貝爾獎得主的一小時對話（完整�
 date: 2025-12-24T02:02:00+08:00
 description: "2024 年諾貝爾獎得主齊聚斯德哥爾摩皇家宮殿，進行一場跨領域對話。經濟學家談創造性破壞與歐洲創新困境，化學家宣稱 CO2 捕獲科學問題已解決，醫學家討論自體免疫疾病的治癒希望，物理學家解釋量子電腦的基礎。本文完整整理座談會所有重點與洞見。"
 tags: ["諾貝爾獎", "Nobel Minds", "科學", "創新", "AI"]
-categories: ["科學與創新"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=e0yqY_bPIU0"
 source_name: "Nobel Minds 2025"
 draft: false

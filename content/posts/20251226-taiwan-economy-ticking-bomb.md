@@ -3,7 +3,7 @@ title: "臺灣經濟的定時炸彈——匯率、壽險業與 15% GDP 順差的
 date: 2025-12-26T10:30:00+08:00
 description: "關稅只是表面問題。芝加哥大學教授謝長泰與前美國財政部官員 Brad Setser 在 Hudson Institute 座談會上直言：臺灣真正的危機是 15% GDP 經常帳順差、壽險業巨額未避險外匯部位、以及央行治理問題。這些結構性失衡若不處理，損失只會越來越大。"
 tags: ["臺灣經濟", "匯率", "壽險業", "央行", "謝長泰", "Brad Setser"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=0v2ytB6KVA0"
 source_name: "Hudson Institute"
 draft: false

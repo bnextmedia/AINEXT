@@ -1,0 +1,17 @@
+# AINEXT 參數設定
+
+description = "AI 閱讀筆記與產業觀察"
+logo = "images/logo.png"
+logoDark = "images/logo-dark.png"
+mainSections = ["posts"]
+
+# Google Analytics 4
+ga_analytics = "G-C67T25XT8Q"
+
+# Google Search Console 驗證
+ga_verify = "dFByHKTfCwWUh1Ni2_4hi2hhiW4swQFPKK_01cl1uOc"
+
+# 版型設定（v1 或 v2）
+# v1 = 現有 newsroom 主題
+# v2 = 新報紙風格
+siteVersion = "v1"

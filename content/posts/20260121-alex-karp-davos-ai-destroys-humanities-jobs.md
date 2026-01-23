@@ -3,7 +3,7 @@ title: "Palantir 執行長 Alex Karp：AI 會消滅人文科系的工作，大�
 date: 2026-01-21T10:00:00+08:00
 description: "Palantir 執行長 Alex Karp 在 2025 年達沃斯論壇上與 BlackRock 執行長 Larry Fink 對談，直言 AI 將摧毀人文學科畢業生的就業市場，但會讓技職人員變得更有價值。他也警告：AI 會無情揭露誰是真有實力、誰只是簡報做得漂亮。"
 tags: ["Alex Karp", "Palantir", "達沃斯", "AI 就業", "國防科技", "Larry Fink"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=D-lx-MBL2ag"
 source_name: "World Economic Forum / Davos 2025"
 draft: false

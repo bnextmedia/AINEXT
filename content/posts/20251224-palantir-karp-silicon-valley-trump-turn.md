@@ -3,7 +3,7 @@ title: "科技巨頭的政治表態課——從 Alex Karp 看矽谷的「川普�
 date: 2025-12-24T01:46:00+08:00
 description: "2024 年矽谷出現一波「川普轉向」：Karp、Musk、Andreessen 紛紛表態支持川普。他們都不是傳統保守派，卻在移民和國防議題上與民主黨漸行漸遠。這篇文章分析這波轉向的原因，以及對臺灣科技業的啟示。"
 tags: ["Palantir", "矽谷政治", "川普", "Alex Karp", "科技業"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=8i-ys9faa74"
 source_name: "紐約時報 DealBook 峰會"
 draft: false

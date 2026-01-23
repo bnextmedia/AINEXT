@@ -3,7 +3,7 @@ title: "ByteDance 2025 年獲利 500 億美元：TikTok 只是冰山一角"
 date: 2025-12-26T12:00:00+08:00
 description: "TikTok 母公司字節跳動 2025 年預計獲利 500 億美元，直逼 Meta。但 TikTok 只是這家公司的一部分。抖音、今日頭條、CapCut、剪映、豆包——ByteDance 的版圖遠比多數人想像的大。"
 tags: ["ByteDance", "TikTok", "抖音", "Meta", "社群媒體", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=2gCZql8C0tk"
 source_name: "TBPN"
 draft: false

@@ -3,7 +3,7 @@ title: "Apple FY2025 財報總整理：全年營收 4,160 億美元創新高，1
 date: 2025-12-26T13:00:00+08:00
 description: "Apple 公布 FY2025 Q4 財報，全年營收 4,160 億美元創歷史新高，服務營收首度突破千億美元。本文完整整理各產品線表現、區域市場動態、AI 戰略布局，以及 12 月季度展望。"
 tags: ["Apple", "財報", "FY2025", "iPhone", "服務營收"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: ""
 source_name: "Apple FY2025 Q4 財報"
 draft: false

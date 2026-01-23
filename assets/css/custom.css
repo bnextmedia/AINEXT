@@ -1,0 +1,1144 @@
+/* ===========================================
+   AINEXT 公司庫 & 人物庫 自訂樣式
+   =========================================== */
+
+/* --- 共用變數 --- */
+:root {
+  --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+/* --- Section Header --- */
+.section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.section-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-description {
+  color: var(--color-gray-600);
+  font-size: 1.1rem;
+}
+
+.section-stats {
+  color: var(--color-gray-500);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* --- 篩選器 --- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: var(--color-gray-50);
+  border-radius: var(--radius-md);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.filter-group label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-gray-600);
+  text-transform: uppercase;
+}
+
+.filter-select,
+.filter-input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  min-width: 150px;
+}
+
+.filter-search {
+  flex-grow: 1;
+}
+
+.filter-search .filter-input {
+  width: 100%;
+}
+
+.no-results {
+  text-align: center;
+  padding: 3rem;
+  color: var(--color-gray-500);
+}
+
+/* ===========================================
+   公司列表頁
+   =========================================== */
+
+.company-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.company-card {
+  display: block;
+  background: white;
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+.company-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.company-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.company-card-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+}
+
+.company-card-logo-placeholder {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.company-card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--color-gray-900);
+}
+
+.company-card-desc {
+  font-size: 0.85rem;
+  color: var(--color-gray-600);
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.company-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.meta-tag {
+  background: var(--color-gray-100);
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-sm);
+  color: var(--color-gray-700);
+}
+
+.meta-location {
+  color: var(--color-gray-500);
+}
+
+.company-card-valuation {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-gray-100);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.valuation-label {
+  font-size: 0.75rem;
+  color: var(--color-gray-500);
+}
+
+.valuation-value {
+  font-weight: 700;
+  color: var(--color-success);
+}
+
+/* ===========================================
+   公司詳情頁
+   =========================================== */
+
+.company-page,
+.person-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.company-header,
+.person-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.company-header-content,
+.person-header-content {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-gray-200);
+}
+
+.company-logo-placeholder {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.company-name,
+.person-name {
+  font-size: 1.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.company-name-zh,
+.person-name-zh {
+  color: var(--color-gray-500);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.company-tagline,
+.person-tagline {
+  color: var(--color-gray-600);
+  margin-bottom: 0.75rem;
+}
+
+.company-meta,
+.person-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: var(--color-gray-500);
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.company-links,
+.person-links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* --- Badges --- */
+.company-badges,
+.person-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  background: var(--color-gray-100);
+  color: var(--color-gray-700);
+}
+
+.badge-sm {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.7rem;
+}
+
+.badge-private { background: #dbeafe; color: #1e40af; }
+.badge-public { background: #d1fae5; color: #065f46; }
+.badge-acquired { background: #fef3c7; color: #92400e; }
+.badge-defunct { background: #fee2e2; color: #991b1b; }
+.badge-category { background: #ede9fe; color: #5b21b6; }
+.badge-category-secondary { background: #fce7f3; color: #9d174d; }
+.badge-type { background: #e0f2fe; color: #0369a1; }
+.badge-expertise { background: #ecfdf5; color: #047857; }
+
+/* --- 主內容區 --- */
+.company-content,
+.person-content {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .company-content,
+  .person-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.company-main,
+.person-main {
+  min-width: 0;
+}
+
+.company-section,
+.person-section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--color-gray-100);
+}
+
+.company-section:last-child,
+.person-section:last-child {
+  border-bottom: none;
+}
+
+.company-section h2,
+.person-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--color-gray-800);
+}
+
+.company-description,
+.person-description {
+  line-height: 1.8;
+  color: var(--color-gray-700);
+}
+
+/* --- 台灣觀點 --- */
+.taiwan-relevance {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #fef3c7;
+  border-radius: var(--radius-md);
+  border-left: 4px solid #f59e0b;
+}
+
+.taiwan-relevance h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #92400e;
+}
+
+/* --- 產品網格 --- */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.product-card {
+  padding: 1rem;
+  background: var(--color-gray-50);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-gray-200);
+}
+
+.product-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  font-size: 0.85rem;
+  color: var(--color-gray-600);
+  margin-bottom: 0.5rem;
+}
+
+.product-card a {
+  font-size: 0.8rem;
+  color: var(--color-primary);
+}
+
+/* --- 時間軸 --- */
+.timeline {
+  position: relative;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--color-gray-200);
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -1.65rem;
+  top: 0.25rem;
+  width: 10px;
+  height: 10px;
+  background: var(--color-primary);
+  border-radius: 50%;
+}
+
+.timeline-date {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-bottom: 0.25rem;
+}
+
+.timeline-content {
+  font-size: 0.95rem;
+  color: var(--color-gray-700);
+}
+
+/* --- 融資資訊 --- */
+.funding-summary {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.funding-stat {
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-gray-900);
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--color-gray-500);
+  text-transform: uppercase;
+}
+
+.funding-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.funding-table th,
+.funding-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.funding-table th {
+  background: var(--color-gray-50);
+  font-weight: 600;
+  color: var(--color-gray-600);
+}
+
+/* --- 投資人列表 --- */
+.investors-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.investor-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--color-gray-50);
+  border-radius: var(--radius-sm);
+}
+
+.investor-name {
+  font-weight: 500;
+}
+
+.investor-type {
+  font-size: 0.75rem;
+  color: var(--color-gray-500);
+}
+
+/* --- 人物網格 --- */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.person-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.person-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-md);
+}
+
+.person-card-photo {
+  margin-bottom: 0.75rem;
+}
+
+.person-card-photo img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.person-card-photo-placeholder {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, var(--color-gray-400), var(--color-gray-500));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+.person-card-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.person-card-name-zh {
+  font-size: 0.85rem;
+  color: var(--color-gray-500);
+  margin-bottom: 0.5rem;
+}
+
+.person-card-position {
+  font-size: 0.8rem;
+  color: var(--color-gray-600);
+  margin-bottom: 0.5rem;
+}
+
+.person-card-badges {
+  display: flex;
+  justify-content: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+/* --- 人物詳情頁 --- */
+.person-photo-container {
+  text-align: center;
+}
+
+.person-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--color-gray-200);
+}
+
+.person-photo-placeholder {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(135deg, var(--color-gray-400), var(--color-gray-500));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.photo-credit {
+  font-size: 0.7rem;
+  color: var(--color-gray-400);
+  margin-top: 0.5rem;
+}
+
+.person-current {
+  margin-bottom: 0.5rem;
+}
+
+.current-position {
+  font-weight: 600;
+  color: var(--color-gray-800);
+}
+
+.current-org {
+  color: var(--color-gray-600);
+}
+
+.current-org a {
+  color: var(--color-primary);
+}
+
+/* --- 職涯時間軸 --- */
+.career-timeline {
+  position: relative;
+}
+
+.career-item {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 1.5rem;
+  border-left: 2px solid var(--color-gray-200);
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.career-item::before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 0.25rem;
+  width: 8px;
+  height: 8px;
+  background: var(--color-primary);
+  border-radius: 50%;
+}
+
+.career-years {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-gray-500);
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.career-details h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.career-org {
+  font-size: 0.9rem;
+  color: var(--color-gray-600);
+}
+
+.career-org a {
+  color: var(--color-primary);
+}
+
+/* --- 學歷 --- */
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.education-item h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.education-item p {
+  font-size: 0.9rem;
+  color: var(--color-gray-600);
+}
+
+.education-years {
+  font-size: 0.8rem;
+  color: var(--color-gray-500);
+}
+
+/* --- 創業/投資經歷 --- */
+.founded-list,
+.investments-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.founded-item,
+.investment-item {
+  padding: 1rem;
+  background: var(--color-gray-50);
+  border-radius: var(--radius-md);
+  min-width: 200px;
+}
+
+.founded-item h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.founded-meta {
+  font-size: 0.8rem;
+  color: var(--color-gray-500);
+}
+
+.founded-outcome {
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.4rem;
+  background: var(--color-gray-200);
+  border-radius: var(--radius-sm);
+}
+
+.investment-company {
+  font-weight: 500;
+}
+
+.investment-role {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--color-gray-500);
+  margin-top: 0.25rem;
+}
+
+/* --- 論文列表 --- */
+.publications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.publication-item {
+  padding: 1rem;
+  background: var(--color-gray-50);
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--color-primary);
+}
+
+.publication-item h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.publication-item h3 a {
+  color: var(--color-gray-800);
+}
+
+.publication-item h3 a:hover {
+  color: var(--color-primary);
+}
+
+.publication-meta {
+  font-size: 0.8rem;
+  color: var(--color-gray-500);
+}
+
+.publication-venue {
+  font-style: italic;
+}
+
+.publication-year {
+  margin-left: 0.5rem;
+}
+
+/* --- 成就與獎項 --- */
+.achievements-list {
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
+}
+
+.achievements-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.awards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.award-item {
+  padding: 0.75rem 1rem;
+  background: #fef3c7;
+  border-radius: var(--radius-md);
+}
+
+.award-name {
+  font-weight: 600;
+  display: block;
+}
+
+.award-meta {
+  font-size: 0.8rem;
+  color: var(--color-gray-600);
+}
+
+/* --- 重要言論 --- */
+.quotes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.quote-item {
+  padding: 1.25rem;
+  background: var(--color-gray-50);
+  border-left: 4px solid var(--color-primary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin: 0;
+}
+
+.quote-item p {
+  font-size: 1.05rem;
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.quote-item footer {
+  font-size: 0.85rem;
+  color: var(--color-gray-500);
+}
+
+.quote-item cite {
+  font-style: normal;
+}
+
+.quote-item time {
+  margin-left: 0.5rem;
+}
+
+/* --- 評價區塊 --- */
+.views-section {
+  margin-bottom: 1.5rem;
+}
+
+.views-section h3 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.views-positive {
+  padding: 1rem;
+  background: #ecfdf5;
+  border-radius: var(--radius-md);
+}
+
+.views-negative {
+  padding: 1rem;
+  background: #fef2f2;
+  border-radius: var(--radius-md);
+}
+
+.views-section ul {
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+.views-section li {
+  margin-bottom: 0.5rem;
+}
+
+.controversies-section {
+  margin-top: 1.5rem;
+}
+
+.controversy-item {
+  padding: 1rem;
+  background: #fffbeb;
+  border-radius: var(--radius-md);
+  border-left: 3px solid #f59e0b;
+  margin-bottom: 1rem;
+}
+
+.controversy-item h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.controversy-item time {
+  font-size: 0.8rem;
+  color: var(--color-gray-500);
+  font-weight: normal;
+}
+
+.controversy-item p {
+  font-size: 0.9rem;
+  color: var(--color-gray-700);
+}
+
+/* --- 相關文章 --- */
+.related-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.related-post-item {
+  display: block;
+  padding: 1rem;
+  background: var(--color-gray-50);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.2s;
+}
+
+.related-post-item:hover {
+  background: var(--color-gray-100);
+}
+
+.related-post-item time {
+  font-size: 0.8rem;
+  color: var(--color-gray-500);
+}
+
+.related-post-item h3 {
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+  color: var(--color-gray-800);
+}
+
+/* --- 側邊欄 --- */
+.company-sidebar,
+.person-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-card {
+  background: var(--color-gray-50);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+}
+
+.info-card h3 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-gray-500);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.info-list {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.5rem 1rem;
+}
+
+.info-list dt {
+  font-size: 0.85rem;
+  color: var(--color-gray-500);
+}
+
+.info-list dd {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-gray-800);
+  margin: 0;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.8rem;
+  background: white;
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--radius-sm);
+  color: var(--color-gray-700);
+}
+
+.external-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.external-links li {
+  margin-bottom: 0.5rem;
+}
+
+.external-links a {
+  color: var(--color-primary);
+  font-size: 0.9rem;
+}
+
+.info-card-meta {
+  background: white;
+  border: 1px solid var(--color-gray-200);
+}
+
+.update-notes {
+  font-size: 0.8rem;
+  color: var(--color-gray-500);
+  font-style: italic;
+  margin-top: 0.75rem;
+}
+
+.related-companies-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.related-companies-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.related-companies-list li:last-child {
+  border-bottom: none;
+}
+
+.related-companies-list a {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.relation-type {
+  font-size: 0.8rem;
+  color: var(--color-gray-500);
+}
+
+/* --- 按鈕 --- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: var(--color-primary-dark);
+}
+
+.btn-icon {
+  padding: 0.6rem;
+  background: var(--color-gray-100);
+  color: var(--color-gray-600);
+}
+
+.btn-icon:hover {
+  background: var(--color-gray-200);
+}
+
+.btn .icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* --- 圖標 --- */
+.icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+/* --- Dark Mode --- */
+[data-mode="dark"] {
+  --color-gray-50: #1f2937;
+  --color-gray-100: #374151;
+  --color-gray-200: #4b5563;
+  --color-gray-300: #6b7280;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #d1d5db;
+  --color-gray-600: #e5e7eb;
+  --color-gray-700: #f3f4f6;
+  --color-gray-800: #f9fafb;
+  --color-gray-900: #ffffff;
+}
+
+[data-mode="dark"] .company-card,
+[data-mode="dark"] .person-card {
+  background: var(--color-gray-100);
+}
+
+[data-mode="dark"] .info-card {
+  background: var(--color-gray-100);
+}
+
+[data-mode="dark"] .info-card-meta {
+  background: var(--color-gray-50);
+  border-color: var(--color-gray-200);
+}

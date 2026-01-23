@@ -3,7 +3,7 @@ title: "AI 教父的警告：2 年內一切都會改變"
 date: 2026-01-05T10:00:00+08:00
 description: "深度學習先驅 Yoshua Bengio 在 Podcast 專訪中警告，AI 可能在 2 年內顛覆大量認知型工作。這位圖靈獎得主為何從內向學者轉為公開呼籲？他對 AI 大廠 CEO 的喊話是什麼？他創辦的 Law Zero 又想解決什麼問題？"
 tags: ["Yoshua Bengio", "AI 風險", "AI 教父", "Law Zero", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=zQ1POHiR8m8"
 source_name: "The Diary Of A CEO with Steven Bartlett"
 draft: false

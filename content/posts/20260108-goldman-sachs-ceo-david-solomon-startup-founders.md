@@ -3,7 +3,7 @@ title: "高盛 CEO David Solomon：創業者對領導這件事的三大誤解"
 date: 2026-01-08T10:00:00+08:00
 description: "Goldman Sachs 執行長 David Solomon 分享他對領導力、文化經營與決策思維的看法。他認為經驗被嚴重低估、與大企業合作很難成功、而最重要的是：保持你的羅盤指向正北。"
 tags: ["David Solomon", "Goldman Sachs", "領導力", "企業文化", "Sequoia Capital", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=kcEQlp_QGJo"
 source_name: "Sequoia Capital"
 draft: false

@@ -3,7 +3,7 @@ title: "寫 AI 教科書的人說：我會按下暫停鍵"
 date: 2026-01-05T10:00:00+08:00
 description: "Stuart Russell 是全球最暢銷 AI 教科書的作者，教出無數 AI 工程師。但這位 AI 領域的教父級人物，現在卻說如果有按鈕能暫停 AI 發展 50 年，他會按下去。這個矛盾背後，藏著他對人類存亡的深層憂慮。"
 tags: ["Stuart Russell", "AI 安全", "AGI", "AI 監管", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=DOAC-stuart-russell"
 source_name: "The Diary Of A CEO with Steven Bartlett"
 draft: false

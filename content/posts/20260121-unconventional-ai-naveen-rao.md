@@ -3,7 +3,7 @@ title: "4.75 億美元的賭注：為什麼這位連續創業家要重新發明 
 date: 2026-01-21T10:00:00+08:00
 description: "Unconventional AI 創辦人 Naveen Rao 認為，目前的 AI 晶片距離理論效率極限差了 10 億倍，而人腦只差 10 倍。他募資 4.75 億美元，要用物理學重新定義運算的基礎。"
 tags: ["Naveen Rao", "Unconventional AI", "AI 晶片", "能源效率", "Lightspeed", "湯漢林"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=VVVOQLLOero"
 source_name: "Lightspeed Venture Partners"
 draft: false

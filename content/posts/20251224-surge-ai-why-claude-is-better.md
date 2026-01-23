@@ -3,7 +3,7 @@ title: "為什麼 Claude 寫程式碼這麼強？訓練 AI 的內幕人士揭露
 date: 2025-12-24T01:52:00+08:00
 description: "Surge AI 創辦人 Edwin Chen 揭露 Claude 領先的秘密：不是更多資料，而是品味。Anthropic 對「什麼是好」有更高的標準，願意在 benchmark 上「輸」，換取真實任務的表現。後訓練是一門藝術，不純粹是科學。"
 tags: ["Claude", "Anthropic", "AI 訓練", "Surge AI", "品味"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=dduQeaqmpnI"
 source_name: "Lenny's Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "一位芝加哥經濟學家眼中的「台灣問題」：歷史、經濟
 date: 2025-12-26T12:00:00+08:00
 description: "芝加哥大學經濟學教授謝長泰是少數能同時從學術、歷史和在地視角談論台灣議題的學者。在這集 Podcast 中，他用近 30 分鐘的時間，完整梳理了台灣問題的來龍去脈——從 19 世紀的殖民歷史、1949 年的政權遷移、到今天的地緣政治困境。他的結論令人不安：這是一個「無解」的問題。"
 tags: ["台灣", "中國", "謝長泰", "地緣政治", "兩岸關係", "歷史", "Podcast"]
-categories: ["科技趨勢"]
+categories: ["AI 產業動態"]
 source_url: "https://bfi.uchicago.edu/insights/between-a-chip-and-a-hard-place-the-economics-of-security-and-sovereignty-in-taiwan/"
 source_name: "The Pie: An Economics Podcast"
 draft: false

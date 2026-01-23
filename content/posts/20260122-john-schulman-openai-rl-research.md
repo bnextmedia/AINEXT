@@ -3,7 +3,7 @@ title: "OpenAI 共同創辦人 John Schulman 深度訪談：從 ChatGPT 的早�
 date: 2026-01-22T10:00:00+08:00
 description: "John Schulman 是 PPO 演算法發明者、OpenAI 共同創辦人，現創辦 Thinking Machines。這場訪談涵蓋 OpenAI 早期文化、研究管理哲學、技術觀點（value functions、持續學習、多智能體訓練），以及他對 AGI 時程與 AI 實驗室協作的看法。"
 tags: ["John Schulman", "OpenAI", "Reinforcement Learning", "PPO", "Thinking Machines", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=29BYxvvF1iM"
 source_name: "Cursor Podcast"
 draft: false

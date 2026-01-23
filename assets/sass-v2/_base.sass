@@ -1,0 +1,177 @@
+// AINEXT V2 - 基礎樣式
+// 報紙風格：乾淨、無圓角、強調文字
+
+@import "variables"
+@import "fonts"
+
+// ============================================
+// Reset & 基礎設定
+// ============================================
+
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+
+html
+  scroll-behavior: smooth
+  font-size: $font-size-base
+  -webkit-text-size-adjust: 100%
+
+body
+  @include font-body
+  background-color: var(--bg)
+  color: var(--text)
+  line-height: $line-height-base
+  min-height: 100vh
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+// ============================================
+// 連結
+// ============================================
+
+a
+  color: inherit
+  text-decoration: none
+  transition: $transition-base
+
+  &:hover
+    color: $color-accent
+
+// 內文連結（有底線）
+.content a,
+article p a
+  color: $color-accent
+  text-decoration: underline
+  text-decoration-thickness: 1px
+  text-underline-offset: 2px
+
+  &:hover
+    text-decoration-thickness: 2px
+
+// ============================================
+// 標題
+// ============================================
+
+h1, h2, h3, h4, h5, h6
+  @include font-headline
+  line-height: $line-height-tight
+  margin-bottom: $spacing-sm
+
+h1
+  font-size: $font-size-h1
+
+h2
+  font-size: $font-size-h2
+
+h3
+  font-size: $font-size-h3
+
+h4
+  font-size: $font-size-h4
+
+// ============================================
+// 段落與文字
+// ============================================
+
+p
+  margin-bottom: $spacing-sm
+  line-height: $line-height-loose
+
+strong, b
+  font-weight: $font-weight-semibold
+
+em, i
+  font-style: italic
+
+small
+  font-size: $font-size-small
+
+// ============================================
+// 圖片
+// ============================================
+
+img
+  max-width: 100%
+  height: auto
+  display: block
+
+figure
+  margin: $spacing-md 0
+
+figcaption
+  font-size: $font-size-caption
+  color: $color-text-light
+  margin-top: $spacing-xs
+  @include font-ui
+
+// ============================================
+// 分隔線
+// ============================================
+
+hr
+  border: none
+  border-top: $border-width $border-style $color-divider
+  margin: $spacing-lg 0
+
+// 粗分隔線（區塊間）
+.divider-thick
+  border-top-width: 3px
+  border-color: $color-text
+
+// ============================================
+// 引言
+// ============================================
+
+blockquote
+  border-left: 3px solid $color-accent
+  padding-left: $spacing-md
+  margin: $spacing-md 0
+  font-style: italic
+
+  p
+    margin-bottom: 0
+
+// ============================================
+// 列表
+// ============================================
+
+ul, ol
+  margin: $spacing-sm 0
+  padding-left: $spacing-md
+
+li
+  margin-bottom: $spacing-xs
+
+// ============================================
+// 表格
+// ============================================
+
+table
+  width: 100%
+  border-collapse: collapse
+  margin: $spacing-md 0
+
+th, td
+  padding: $spacing-xs $spacing-sm
+  border-bottom: $border-width $border-style $color-divider
+  text-align: left
+
+th
+  font-weight: $font-weight-semibold
+  border-bottom-width: 2px
+
+// ============================================
+// 容器
+// ============================================
+
+.container
+  max-width: $max-width
+  margin: 0 auto
+  padding: 0 $spacing-md
+
+.container-narrow
+  max-width: $max-width-content
+  margin: 0 auto
+  padding: 0 $spacing-md

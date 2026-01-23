@@ -3,7 +3,7 @@ title: "從斯大林到普京 — 俄羅斯對中國百年不變的策略"
 date: 2025-12-25T13:00:00+08:00
 description: "沙皇、蘇聯、俄羅斯聯邦——政權更迭，但對中國的策略驚人一致：永遠不讓中國變強。美國海軍戰院教授 Sarah Paine 梳理 170 年歷史，揭露「中俄友誼」背後的真相。從鴉片戰爭到烏克蘭戰爭，這套劇本從未改變。"
 tags: ["Sarah Paine", "俄中關係", "斯大林", "普京", "歷史分析", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=RH_ycZYH8-s"
 source_name: "Dwarkesh Podcast"
 draft: false

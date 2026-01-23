@@ -3,7 +3,7 @@ title: "SDR 一年內消失九成？SaaS 教父的 2026 銷售預言"
 date: 2026-01-04T11:00:00+08:00
 description: "投資過兩億美元 SaaS 公司的 Jason Lemkin 預測：傳統 SDR 將在一年內被 AI 取代九成。這不是危言聳聽，而是他親自實驗的結論。哪些銷售職位最危險？哪些人能倖存？又該如何成為 AI 時代的頂尖 20%？"
 tags: ["AI Agent", "SDR", "銷售", "SaaStr", "Jason Lemkin", "職涯", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://youtu.be/I-R1bc1rlFs"
 source_name: "Lenny's Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "「研究品味」比天才更重要——Google DeepMind 如何打造�
 date: 2025-12-23T00:54:00+08:00
 description: "Gemini 3 預訓練負責人 Sebastian Bourgeaud 分享如何帶領 150 人團隊協作。他認為「研究品味」的核心是對複雜性過敏——寧願犧牲一些性能，換取較低複雜度的解決方案。真正讓 Gemini 3 成功的，不是單一突破，而是大團隊的許多小改進累積而成。"
 tags: ["Google DeepMind", "AI 研究", "團隊管理", "研究方法論", "Gemini"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=cNGDAqFXvew"
 source_name: "The MAD Podcast with Matt Turck"
 draft: false

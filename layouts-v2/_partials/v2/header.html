@@ -1,0 +1,15 @@
+{{/* AINEXT V2 - 頁首 */}}
+<header class="site-header">
+  <div class="site-header__inner">
+    {{/* Logo */}}
+    <div class="site-logo">
+      <a href="{{ .Site.BaseURL }}">AINEXT</a>
+    </div>
+
+    {{/* 右側資訊 */}}
+    <div class="site-header__meta">
+      <span class="site-header__date">{{ now.Format "2006 年 1 月 2 日" }}</span>
+      <span class="site-header__tagline">{{ .Site.Params.description | default "AI 閱讀筆記與產業觀察" }}</span>
+    </div>
+  </div>
+</header>

@@ -3,7 +3,7 @@ title: "臺灣如何在川普關稅戰中自保？四位專家的具體建議"
 date: 2025-12-26T11:00:00+08:00
 description: "如果臺灣還有機會影響關稅談判的最終結果，該怎麼做？Hudson Institute 座談會上，四位專家給出了具體建議：國防預算拉高到 GDP 的 5%、新臺幣升值到 25、TSMC 承諾 50% 產能在美生產、加強打擊轉運、解決市場准入問題。"
 tags: ["臺灣", "關稅", "川普", "國防預算", "TSMC", "鄧振中"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=0v2ytB6KVA0"
 source_name: "Hudson Institute"
 draft: false

@@ -3,7 +3,7 @@ title: "陳天奇：XGBoost、TVM 背後的男人，一個關於失敗、初心�
 date: 2026-01-19T10:00:00+08:00
 description: "XGBoost、TVM、MXNet——這些改變機器學習產業的開源工具，背後都有同一個名字：陳天奇。本文整理自 WhynotTV Podcast 深度訪談，看這位從浙江縣城走出來的工程師，如何用二十年時間，在失敗中學會接受失敗，在成功後努力保持初心。"
 tags: ["陳天奇", "XGBoost", "TVM", "MXNet", "機器學習系統", "開源", "長期主義", "OctoML", "NVIDIA", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=jvqsvbntEFQ"
 source_name: "WhynotTV Podcast"
 draft: false

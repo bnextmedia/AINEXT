@@ -3,7 +3,7 @@ title: "Codex 用 Codex 來訓練自己——AI 自我改進的第一個徵兆"
 date: 2025-12-24T01:34:00+08:00
 description: "OpenAI 內部正在發生一件有趣的事：Codex 正在幫忙訓練 Codex。這不是概念描述，而是字面上的意思——Codex 寫程式碼來監控自己的訓練過程、發現問題、做出決策。這是 AI 遞迴自我改進的早期形態嗎？"
 tags: ["AI 自我改進", "OpenAI", "Codex", "AI 訓練", "AGI"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=z1ISq9Ty4Cg"
 source_name: "Lenny's Podcast"
 draft: false

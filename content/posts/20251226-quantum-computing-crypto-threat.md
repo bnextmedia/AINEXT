@@ -3,7 +3,7 @@ title: "量子電腦 3-5 年內將破解現有加密——Sundar Pichai 的未�
 date: 2025-12-26T12:00:00+08:00
 description: "Google 執行長 Sundar Pichai 在 Dreamforce 2025 預測，量子電腦將在 3-5 年內對現有加密系統構成威脅。他還談到數位超級智慧、Google Glass 回歸、Waymo 自駕車的普及，描繪了一個 10 年後的科技圖景。"
 tags: ["Sundar Pichai", "Google", "量子運算", "加密", "Waymo", "未來科技"]
-categories: ["科技趨勢"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=brQH2CCxbSE"
 source_name: "Dreamforce 2025"
 draft: false

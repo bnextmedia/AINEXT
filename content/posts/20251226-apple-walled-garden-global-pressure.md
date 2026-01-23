@@ -3,7 +3,7 @@ title: "繼歐盟之後，日本也逼 Apple 開門：圍牆花園時代真的�
 date: 2025-12-26T12:00:00+08:00
 description: "歐盟 DMA、日本 MSCA，全球監管力量正在聯手拆解 Apple 的封閉生態系。本文比較兩大法規的異同，分析 Apple 的標準應對策略，並探討這場「開放 vs 封閉」之戰的下一步發展。"
 tags: ["Apple", "歐盟", "日本", "DMA", "MSCA", "科技監管"]
-categories: ["科技趨勢"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.apple.com/newsroom/2025/12/apple-announces-changes-to-ios-in-japan/"
 source_name: "Apple Newsroom"
 draft: false

@@ -3,7 +3,7 @@ title: "Musk：AI 發展的真正瓶頸不是晶片，是電力"
 date: 2026-01-23T11:00:00+08:00
 description: "在達沃斯論壇上，Elon Musk 指出 AI 部署的根本限制因素是電力，不是晶片。中國每年部署超過 1000GW 太陽能，而美國被高關稅拖慢腳步。他宣布 Tesla 與 SpaceX 將在三年內建置 100GW 美國製太陽能產能。"
 tags: ["Elon Musk", "Tesla", "SpaceX", "太陽能", "AI 基礎建設", "WEF Davos"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=IgifEgm1-e0"
 source_name: "World Economic Forum"
 draft: false

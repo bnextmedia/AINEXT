@@ -3,7 +3,7 @@ title: "晶片設計的寒武紀大爆發：當客製化矽晶片不再是大公
 date: 2026-01-19T12:00:00+08:00
 description: "Recursive Intelligence 創辦人描繪一個客製化晶片民主化的未來：AR/VR、太空資料中心、助聽器，任何有足夠規模的應用都能擁有專屬晶片。這將如何改變 AI 產業的競爭格局？"
 tags: ["Recursive Intelligence", "客製化晶片", "Co-design", "AR VR", "太空運算", "AI 基礎設施", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=55LT52eVArM"
 source_name: "Training Data Podcast"
 draft: false

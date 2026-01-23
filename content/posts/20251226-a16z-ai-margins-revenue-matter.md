@@ -3,7 +3,7 @@ title: "AI 公司的毛利率低？a16z 說：先別急著下結論"
 date: 2025-12-26T12:00:00+08:00
 description: "市場對 AI 公司毛利率偏低的批評不斷，認為這些公司不如傳統 SaaS 公司有價值。a16z 成長投資負責人 David George 分享不同觀點：技術輸入成本的歷史規律會重演，目前應該更看重留存率和參與度，而非糾結於 50% 還是 80% 的毛利率。"
 tags: ["a16z", "David George", "AI 毛利率", "SaaS", "Gamma", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=IxoGRY6TXwk"
 source_name: "20VC"
 draft: false

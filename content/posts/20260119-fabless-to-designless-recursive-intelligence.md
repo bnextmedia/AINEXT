@@ -3,7 +3,7 @@ title: "從 Fabless 到 Designless：AlphaChip 創始人要讓晶片設計也被
 date: 2026-01-19T10:00:00+08:00
 description: "Google AlphaChip 專案的兩位創始人 Anna Goldie 與 Azalia Mirhoseini 成立 Recursive Intelligence，提出「Designless」願景——未來企業不需要自建晶片設計團隊，AI 就能為你打造客製化晶片。"
 tags: ["Recursive Intelligence", "AlphaChip", "Anna Goldie", "Azalia Mirhoseini", "晶片設計", "AI", "Designless", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=55LT52eVArM"
 source_name: "Training Data Podcast"
 draft: false

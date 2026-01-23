@@ -3,7 +3,7 @@ title: "密碼要消失了嗎？從 Passkeys 到 AI 驅動的身份驗證"
 date: 2025-12-24T01:53:00+08:00
 description: "密碼系統與人類認知天性根本不相容，這是資安專家早已知道的事實。Google DeepMind 安全副總裁 Four Flynn 解析 Passkeys 如何終結釣魚攻擊、AI 如何透過行為特徵建立更可靠的身份驗證，以及當 deepfake 讓「眼見為憑」失效時，我們該如何證明自己是自己。"
 tags: ["Passkeys", "身份驗證", "Deepfake", "AI 安全", "資安"]
-categories: ["AI 產業"]
+categories: ["AI 安全與治理"]
 source_url: "https://youtube.com/watch?v=1gO2bC5xLlo"
 source_name: "Google DeepMind Podcast"
 draft: false

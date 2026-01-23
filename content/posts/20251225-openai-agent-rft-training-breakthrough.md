@@ -3,7 +3,7 @@ title: "OpenAI 讓 AI 在訓練時操作真實世界——Agent RFT 是什麼？
 date: 2025-12-25T14:00:00+08:00
 description: "OpenAI 推出 Agent RFT，首次讓模型在訓練過程中與外部世界互動。這項技術允許 AI 代理在訓練時呼叫真實的工具端點，並透過自訂獎勵函數學習最佳行為模式。對於打造企業級 AI 代理的開發者來說，這是一個重要的里程碑。"
 tags: ["OpenAI", "Agent RFT", "AI Agent", "Fine-tuning", "強化學習"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=p1CmPZ2j6Lk"
 source_name: "OpenAI DevDay"
 draft: false

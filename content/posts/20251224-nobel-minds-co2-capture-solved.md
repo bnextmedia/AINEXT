@@ -3,7 +3,7 @@ title: "「清除 CO2 的科學問題，已經解決了」—— 化學諾貝爾
 date: 2025-12-24T01:56:00+08:00
 description: "化學諾貝爾獎得主 Omar Yaghi 在 Nobel Minds 座談會上宣稱：從大氣中清除多餘 CO2 的科學挑戰已經完成。他與北川進共同發明的「金屬有機框架」（MOFs）材料，已在水泥廠捕獲碳排放、在沙漠中從空氣取水。這是科學家的過度樂觀，還是社會必須正視的解方？"
 tags: ["諾貝爾獎", "氣候變遷", "MOFs", "碳捕獲", "AI"]
-categories: ["科學與創新"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=e0yqY_bPIU0"
 source_name: "Nobel Minds 2025"
 draft: false

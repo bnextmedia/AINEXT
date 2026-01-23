@@ -3,7 +3,7 @@ title: "Instagram 共同創辦人如何思考 AI 產品：Anthropic 首席產品
 date: 2025-12-24T01:43:00+08:00
 description: "Mike Krieger 從 Instagram 共同創辦人轉戰 Anthropic 擔任首席產品長，分享他如何適應 AI 產品開發的獨特節奏。從每月都像 WWDC 的研究突破、使用者對模型變化的敏感度，到保持產品專注的紀律，這是一位資深產品人在 AI 時代的第一年觀察。"
 tags: ["Mike Krieger", "Anthropic", "Instagram", "AI 產品", "產品管理", "Claude"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=_-V5objmQ00"
 source_name: "Generative Now (Lightspeed)"
 draft: false

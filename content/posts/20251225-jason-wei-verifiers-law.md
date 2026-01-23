@@ -3,7 +3,7 @@ title: "驗證者法則：為什麼容易打分數的任務，會最先被 AI �
 date: 2025-12-25T11:00:00+08:00
 description: "OpenAI o1 共同創作者 Jason Wei 提出「驗證者法則」：AI 訓練能力與任務可驗證性成正比。這個框架解釋了為什麼 AI 在某些領域進步神速，在某些領域卻停滯不前，也指出了下一波突破會發生在哪裡。"
 tags: ["Jason Wei", "OpenAI", "AlphaEvolve", "強化學習", "Stanford"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=b6Doq2fz81U"
 source_name: "Stanford AI Club"
 draft: false

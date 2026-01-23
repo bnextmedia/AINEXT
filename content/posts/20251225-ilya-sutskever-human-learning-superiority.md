@@ -3,7 +3,7 @@ title: "Ilya Sutskever：人類的學習能力遠超 AI，而且原因不是你�
 date: 2025-12-25T11:00:00+08:00
 description: "一個青少年 10 小時就能學會開車，AI 做不到。Ilya Sutskever 認為這不只是資料量的問題，而是指向某種更根本的「更好的機器學習」。他有想法，但拒絕公開談——這本身就很有意思。"
 tags: ["Ilya Sutskever", "SSI", "機器學習", "人類認知", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=aR20FWCCjAs"
 source_name: "Dwarkesh Podcast"
 draft: false

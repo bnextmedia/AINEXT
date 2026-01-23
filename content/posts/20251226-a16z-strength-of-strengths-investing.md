@@ -3,7 +3,7 @@ title: "「不要怕理論上的競爭」——a16z 如何看 AI 時代的投資
 date: 2025-12-26T11:00:00+08:00
 description: "a16z 成長投資負責人 David George 分享投資哲學：投資「尖銳的優勢」而非「沒有弱點」。他認為最常見的投資錯誤是過度擔心理論上的競爭——「如果 Google 做這個怎麼辦？」這種恐懼讓投資人錯過 ElevenLabs、Deal 等明星公司。"
 tags: ["a16z", "David George", "投資哲學", "ElevenLabs", "AI 投資", "Podcast"]
-categories: ["投資理財"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=IxoGRY6TXwk"
 source_name: "20VC"
 draft: false

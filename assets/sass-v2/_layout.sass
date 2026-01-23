@@ -1,0 +1,215 @@
+// AINEXT V2 - 布局樣式
+// 導航、頁首、頁尾
+
+@import "variables"
+
+// ============================================
+// 網站整體結構
+// ============================================
+
+.site
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+
+.site-main
+  flex: 1
+
+// ============================================
+// 頁首 Header
+// ============================================
+
+.site-header
+  padding: $spacing-md 0
+  border-bottom: 1px solid $color-divider
+
+.site-header__inner
+  display: flex
+  justify-content: space-between
+  align-items: center
+  max-width: $max-width
+  margin: 0 auto
+  padding: 0 $spacing-md
+
+// Logo
+.site-logo
+  @include font-headline
+  font-size: 2rem
+  font-weight: $font-weight-regular
+  letter-spacing: 0.1em
+  text-transform: uppercase
+
+  a
+    color: inherit
+
+// 頂部資訊列（日期、時間）
+.site-header__meta
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-text-light
+  display: flex
+  gap: $spacing-md
+
+// ============================================
+// 主導航
+// ============================================
+
+.site-nav
+  border-bottom: 1px solid $color-divider
+
+.site-nav__inner
+  max-width: $max-width
+  margin: 0 auto
+  padding: 0 $spacing-md
+
+.site-nav__list
+  display: flex
+  gap: $spacing-md
+  list-style: none
+  padding: $spacing-sm 0
+  margin: 0
+  overflow-x: auto
+
+  // 隱藏滾動條但保留功能
+  scrollbar-width: none
+  &::-webkit-scrollbar
+    display: none
+
+.site-nav__item
+  flex-shrink: 0
+
+.site-nav__link
+  @include font-headline
+  font-size: 1.125rem
+  color: $color-text
+  padding: $spacing-xs 0
+  position: relative
+
+  &:hover
+    color: $color-accent
+
+  // 當前頁面指示
+  &.is-active
+    color: $color-accent
+
+    &::after
+      content: ""
+      position: absolute
+      bottom: -$spacing-sm
+      left: 0
+      right: 0
+      height: 2px
+      background-color: $color-accent
+
+// 手機版導航
+@media (max-width: $breakpoint-md)
+  .site-nav__list
+    gap: $spacing-sm
+
+  .site-nav__link
+    font-size: 1rem
+
+// ============================================
+// 頁尾 Footer
+// ============================================
+
+.site-footer
+  border-top: 3px solid $color-text
+  padding: $spacing-xl 0 $spacing-lg
+  margin-top: $spacing-xxl
+
+.site-footer__inner
+  max-width: $max-width
+  margin: 0 auto
+  padding: 0 $spacing-md
+
+.site-footer__top
+  display: grid
+  grid-template-columns: 2fr 1fr 1fr
+  gap: $spacing-xl
+  margin-bottom: $spacing-lg
+
+  @media (max-width: $breakpoint-md)
+    grid-template-columns: 1fr
+    gap: $spacing-lg
+
+// Footer Logo 與描述
+.site-footer__brand
+  .site-logo
+    margin-bottom: $spacing-sm
+
+.site-footer__desc
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+  max-width: 300px
+
+// Footer 導航
+.site-footer__nav-title
+  @include font-ui
+  font-size: $font-size-small
+  font-weight: $font-weight-semibold
+  text-transform: uppercase
+  letter-spacing: 0.05em
+  margin-bottom: $spacing-sm
+
+.site-footer__nav-list
+  list-style: none
+  padding: 0
+  margin: 0
+
+.site-footer__nav-item
+  margin-bottom: $spacing-xs
+
+.site-footer__nav-link
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+
+  &:hover
+    color: $color-accent
+
+// Footer 底部
+.site-footer__bottom
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding-top: $spacing-md
+  border-top: 1px solid $color-divider
+
+  @media (max-width: $breakpoint-sm)
+    flex-direction: column
+    gap: $spacing-sm
+    text-align: center
+
+.site-footer__copyright
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+
+// ============================================
+// 內容區域
+// ============================================
+
+.content-area
+  max-width: $max-width
+  margin: 0 auto
+  padding: $spacing-lg $spacing-md
+
+// 文章內容
+.post-content
+  max-width: $max-width-content
+  margin: 0 auto
+
+  h2, h3, h4
+    margin-top: $spacing-lg
+    margin-bottom: $spacing-sm
+
+  p
+    margin-bottom: $spacing-md
+
+  img
+    margin: $spacing-lg auto
+
+  figure
+    margin: $spacing-lg 0

@@ -3,7 +3,7 @@ title: "Cursor 收購 Graphite：當 AI 寫程式碼的速度超越人類審核�
 date: 2025-12-26T10:00:00+08:00
 description: "AI 程式碼編輯器 Cursor 宣布收購程式碼審核工具 Graphite。兩位創辦人在訪談中透露，軟體開發的瓶頸已從「寫程式碼」轉移到「審核程式碼」。這筆收購背後的邏輯，以及對開發者的影響。"
 tags: ["Cursor", "Graphite", "AI 程式碼", "Michael Truell", "軟體開發", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=2gCZql8C0tk"
 source_name: "TBPN"
 draft: false

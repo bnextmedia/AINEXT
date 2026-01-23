@@ -3,7 +3,7 @@ title: "從香港到台灣：6 萬港人的選擇，與台灣的警醒"
 date: 2025-12-26T11:00:00+08:00
 description: "自 2019 年以來，約 6 萬香港居民選擇移居台灣。陸委會主委邱垂正在美國智庫演講中談及香港的悲劇，並解釋台灣如何從中汲取教訓。當自由民主人權法治在香港「可說是蕩然無存」，台灣看到的不只是歷史，更是可能的未來。"
 tags: ["邱垂正", "香港", "台灣", "反送中", "國安法"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=Td2RsaL0lsQ"
 source_name: "Heritage Foundation"
 draft: false

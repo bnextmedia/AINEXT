@@ -3,7 +3,7 @@ title: "Satya Nadella：模型公司可能有「贏家詛咒」，真正值錢�
 date: 2025-12-26T10:00:00+08:00
 description: "Microsoft CEO Satya Nadella 在最新訪談中提出一個顛覆市場共識的觀點：模型公司可能面臨贏家詛咒，做了所有艱難的創新工作，卻可能只差一個複製就被商品化。他認為真正的價值在於擁有數據和 scaffolding 的人手中。"
 tags: ["Satya Nadella", "Microsoft", "AI 產業", "OpenAI", "商業模式", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=8-boBsWcr5A"
 source_name: "Dwarkesh Patel Podcast"
 draft: false

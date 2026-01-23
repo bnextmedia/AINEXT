@@ -3,7 +3,7 @@ title: "Sergey Brin 給焦慮學生的建議：別因為 AI 會寫程式就轉�
 date: 2025-12-25T11:00:00+08:00
 description: "AI 會取代程式設計師嗎？在史丹佛工程學院百年校慶活動上，Google 共同創辦人 Sergey Brin 給出了一個反直覺的答案：不要因為 AI 會寫程式就轉系，因為 AI 寫比較文學可能寫得更好。這位科技巨頭對 AI 時代職涯選擇的看法，值得每個對未來感到焦慮的人深思。"
 tags: ["Sergey Brin", "Google", "AI", "職涯發展", "程式設計"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=0nlNX94FcUE"
 source_name: "Stanford Engineering"
 draft: false

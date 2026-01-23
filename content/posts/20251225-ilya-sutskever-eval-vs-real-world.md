@@ -3,7 +3,7 @@ title: "Ilya Sutskever：為什麼 AI 模型在測驗上很強，實際使用卻
 date: 2025-12-25T10:30:00+08:00
 description: "AI 模型在各種評測上表現驚人，但實際經濟影響卻遠遠落後。Ilya Sutskever 提出兩個解釋：RL 訓練讓模型過度專精，以及研究者不自覺地追著 eval 跑。這解釋了為什麼你的 AI 助手有時候聰明得嚇人，有時候又蠢得讓人崩潰。"
 tags: ["Ilya Sutskever", "SSI", "AI 評測", "RL 訓練", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=aR20FWCCjAs"
 source_name: "Dwarkesh Podcast"
 draft: false

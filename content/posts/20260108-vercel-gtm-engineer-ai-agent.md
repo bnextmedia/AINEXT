@@ -3,7 +3,7 @@ title: "Vercel 營運長：一個工程師、六週時間、1000 美元，取代
 date: 2026-01-08T10:00:00+08:00
 description: "Vercel COO Jeanne DeWitt Grosser 分享如何用 AI Agent 革新銷售流程。一個工程師用六週打造的 AI Agent，全年運作成本僅 1000 美元，卻能取代原本百萬美元的人力成本。她也分享 80% 客戶其實是為了避免風險而購買的洞察。"
 tags: ["Vercel", "AI Agent", "Jeanne DeWitt Grosser", "Stripe", "Podcast", "銷售策略", "Go-to-Market"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=RmnWHz8HD74"
 source_name: "Lenny's Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "蘇聯為何輸掉冷戰？歷史學家的十種解釋"
 date: 2025-12-25T14:00:00+08:00
 description: "美國海軍戰爭學院教授 Sarah Paine 系統性分析冷戰結束的多重因素。從雷根的軍備競賽、赫爾辛基人權條款、尼克森的中國牌，到蘇聯內部的帝國崩解與經濟失敗，這場講座打破了「雷根單獨擊敗蘇聯」的迷思，揭示歷史因果的真正複雜性。"
 tags: ["Sarah Paine", "冷戰", "蘇聯", "美蘇關係", "歷史戰略", "Dwarkesh Podcast"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=FdkpWrlR5zg"
 source_name: "Dwarkesh Podcast"
 draft: false

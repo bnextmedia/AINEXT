@@ -1,0 +1,248 @@
+{{ define "main" }}
+{{/*
+  AINEXT V2 - 首頁
+  報紙風格布局
+
+  八大分類：
+  1. AI 技術前沿
+  2. AI 產業動態
+  3. AI 開發實戰
+  4. AI 安全與治理
+  5. 科技巨頭觀察
+  6. 地緣政治與經濟
+  7. 領袖思維
+  8. 職涯與學習
+*/}}
+
+{{ $allPages := where .Site.RegularPages "Type" "posts" }}
+
+<div class="homepage">
+
+  {{/* ============================================ */}}
+  {{/* Hero 區塊：今日焦點 + 頭條 + 側欄 */}}
+  {{/* ============================================ */}}
+  <section class="hero-section">
+
+    {{/* 左側：今日焦點（快訊列表） */}}
+    <div class="hero-section__glance">
+      <h2 class="glance-title">今日焦點</h2>
+      <p class="glance-updated">更新於 {{ now.Format "15:04" }}</p>
+
+      <ol class="headlines-list">
+        {{ range $i, $page := first 6 $allPages }}
+        <li class="headlines-list__item">
+          <span class="headlines-list__number">{{ add $i 1 }}</span>
+          <div class="headlines-list__content">
+            {{ with $page.Params.categories }}
+              {{ range first 1 . }}
+              <span class="headlines-list__category">{{ . }}</span>
+              {{ end }}
+            {{ end }}
+            <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+          </div>
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+
+    {{/* 中間：主文章 */}}
+    <div class="hero-section__main">
+      {{ with index $allPages 0 }}
+        {{ partial "v2/article-card.html" (dict "page" . "variant" "hero") }}
+      {{ end }}
+    </div>
+
+    {{/* 右側：次要文章 */}}
+    <div class="hero-section__sidebar">
+      {{ range $allPages | first 4 | after 1 }}
+        {{ partial "v2/article-card.html" (dict "page" . "variant" "small") }}
+      {{ end }}
+    </div>
+
+  </section>
+
+  {{/* ============================================ */}}
+  {{/* AI 核心區塊（技術前沿 + 產業動態） */}}
+  {{/* 這兩個是最核心的 AI 內容，放在最顯眼位置 */}}
+  {{/* ============================================ */}}
+  <section class="category-section category-section--featured">
+    <div class="category-dual">
+
+      {{/* AI 技術前沿 */}}
+      {{ $techPages := where $allPages "Params.categories" "intersect" (slice "AI 技術前沿") }}
+      {{ if gt (len $techPages) 0 }}
+      <div class="category-dual__column">
+        <div class="category-section__header">
+          <h2 class="category-title">
+            <a href="{{ "/categories/ai-技術前沿/" | relURL }}">AI 技術前沿</a>
+          </h2>
+        </div>
+        <div class="category-layout--featured">
+          {{ with index $techPages 0 }}
+            {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+          {{ end }}
+          <div class="category-layout__list-small">
+            {{ range $techPages | first 4 | after 1 }}
+              {{ partial "v2/article-card.html" (dict "page" . "variant" "text-only") }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+
+      {{/* AI 產業動態 */}}
+      {{ $industryPages := where $allPages "Params.categories" "intersect" (slice "AI 產業動態") }}
+      {{ if gt (len $industryPages) 0 }}
+      <div class="category-dual__column">
+        <div class="category-section__header">
+          <h2 class="category-title">
+            <a href="{{ "/categories/ai-產業動態/" | relURL }}">AI 產業動態</a>
+          </h2>
+        </div>
+        <div class="category-layout--featured">
+          {{ with index $industryPages 0 }}
+            {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+          {{ end }}
+          <div class="category-layout__list-small">
+            {{ range $industryPages | first 4 | after 1 }}
+              {{ partial "v2/article-card.html" (dict "page" . "variant" "text-only") }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+
+    </div>
+  </section>
+
+  {{/* ============================================ */}}
+  {{/* AI 開發實戰 */}}
+  {{/* 開發者導向，獨立區塊 */}}
+  {{/* ============================================ */}}
+  {{ $devPages := where $allPages "Params.categories" "intersect" (slice "AI 開發實戰") }}
+  {{ if gt (len $devPages) 0 }}
+  <section class="category-section">
+    <div class="category-section__header">
+      <h2 class="category-title">
+        <a href="{{ "/categories/ai-開發實戰/" | relURL }}">AI 開發實戰</a>
+      </h2>
+      <a href="{{ "/categories/ai-開發實戰/" | relURL }}" class="category-section__more">查看全部 →</a>
+    </div>
+    <div class="category-layout--b">
+      {{ range $devPages | first 4 }}
+        {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ============================================ */}}
+  {{/* 中層區塊（安全治理 + 科技巨頭） */}}
+  {{/* ============================================ */}}
+  <section class="category-section">
+    <div class="category-dual">
+
+      {{/* AI 安全與治理 */}}
+      {{ $safetyPages := where $allPages "Params.categories" "intersect" (slice "AI 安全與治理") }}
+      {{ if gt (len $safetyPages) 0 }}
+      <div class="category-dual__column">
+        <div class="category-section__header">
+          <h2 class="category-title">
+            <a href="{{ "/categories/ai-安全與治理/" | relURL }}">AI 安全與治理</a>
+          </h2>
+        </div>
+        <div class="articles-grid--list">
+          {{ range $safetyPages | first 4 }}
+            {{ partial "v2/article-card.html" (dict "page" . "variant" "horizontal") }}
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{/* 科技巨頭觀察 */}}
+      {{ $giantPages := where $allPages "Params.categories" "intersect" (slice "科技巨頭觀察") }}
+      {{ if gt (len $giantPages) 0 }}
+      <div class="category-dual__column">
+        <div class="category-section__header">
+          <h2 class="category-title">
+            <a href="{{ "/categories/科技巨頭觀察/" | relURL }}">科技巨頭觀察</a>
+          </h2>
+        </div>
+        <div class="articles-grid--list">
+          {{ range $giantPages | first 4 }}
+            {{ partial "v2/article-card.html" (dict "page" . "variant" "horizontal") }}
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+    </div>
+  </section>
+
+  {{/* ============================================ */}}
+  {{/* 地緣政治與經濟 */}}
+  {{/* 宏觀視野，大圖展示 */}}
+  {{/* ============================================ */}}
+  {{ $geoPages := where $allPages "Params.categories" "intersect" (slice "地緣政治與經濟") }}
+  {{ if gt (len $geoPages) 0 }}
+  <section class="category-section">
+    <div class="category-section__header">
+      <h2 class="category-title">
+        <a href="{{ "/categories/地緣政治與經濟/" | relURL }}">地緣政治與經濟</a>
+      </h2>
+      <a href="{{ "/categories/地緣政治與經濟/" | relURL }}" class="category-section__more">查看全部 →</a>
+    </div>
+    <div class="category-layout--c">
+      {{ range $geoPages | first 3 }}
+        {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ============================================ */}}
+  {{/* 底層區塊（領袖思維 + 職涯學習） */}}
+  {{/* 軟性內容，適合放在下方 */}}
+  {{/* ============================================ */}}
+  <section class="category-section">
+    <div class="category-dual">
+
+      {{/* 領袖思維 */}}
+      {{ $leaderPages := where $allPages "Params.categories" "intersect" (slice "領袖思維") }}
+      {{ if gt (len $leaderPages) 0 }}
+      <div class="category-dual__column">
+        <div class="category-section__header">
+          <h2 class="category-title">
+            <a href="{{ "/categories/領袖思維/" | relURL }}">領袖思維</a>
+          </h2>
+        </div>
+        <div class="category-layout--d">
+          {{ range $leaderPages | first 5 }}
+            {{ partial "v2/article-card.html" (dict "page" . "variant" "text-only") }}
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+      {{/* 職涯與學習 */}}
+      {{ $careerPages := where $allPages "Params.categories" "intersect" (slice "職涯與學習") }}
+      {{ if gt (len $careerPages) 0 }}
+      <div class="category-dual__column">
+        <div class="category-section__header">
+          <h2 class="category-title">
+            <a href="{{ "/categories/職涯與學習/" | relURL }}">職涯與學習</a>
+          </h2>
+        </div>
+        <div class="category-layout--d">
+          {{ range $careerPages | first 5 }}
+            {{ partial "v2/article-card.html" (dict "page" . "variant" "text-only") }}
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+
+    </div>
+  </section>
+
+</div>
+{{ end }}

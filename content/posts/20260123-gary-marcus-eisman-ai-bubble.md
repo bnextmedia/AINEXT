@@ -3,7 +3,7 @@ title: "《大賣空》主角對談 AI 批評者：為什麼 OpenAI 可能是下
 date: 2026-01-23T10:00:00+08:00
 description: "認知科學家 Gary Marcus 與《大賣空》原型 Steve Eisman 對談，拆解 LLM 的根本問題、Scaling 撞牆的現實、以及 AI 產業泡沫的投資風險。當做空次貸的人開始問 AI 的問題，華爾街該緊張了。"
 tags: ["Gary Marcus", "Steve Eisman", "OpenAI", "LLM", "AI 泡沫", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=aI7XknJJC5Q"
 source_name: "The Real Eisman Playbook"
 draft: false

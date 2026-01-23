@@ -3,7 +3,7 @@ title: "簡立峰談出海：台灣不是少子化，是「少國化」"
 date: 2026-01-19T11:00:00+08:00
 description: "前 Google 台灣董事總經理簡立峰指出，台灣最大的問題不是少子化，而是「少國化」——人才來源國太少。他分析台灣企業出海的新思維，以及 AI 如何幫助台灣克服國際化的障礙。"
 tags: ["簡立峰", "出海", "台灣產業", "人才策略", "全球化", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=Px8GLgVw8V0"
 source_name: "數位時代 Business Next Podcast"
 draft: false

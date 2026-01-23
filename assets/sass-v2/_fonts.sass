@@ -1,0 +1,31 @@
+// AINEXT V2 - 字體載入
+// 源樣明體 + Playfair Display
+
+// ============================================
+// Google Fonts 載入（在 HTML head 中處理）
+// 這裡只做 fallback 定義
+// ============================================
+
+// 源樣明體 - 透過 CDN 載入
+// 實際載入會在 baseof.html 中用 <link> 處理
+// GitHub: https://github.com/ButTaiwan/genyo-font
+
+// Playfair Display - Google Fonts
+// https://fonts.google.com/specimen/Playfair+Display
+
+// ============================================
+// 字體 fallback 堆疊
+// ============================================
+
+// 確保即使自訂字體載入失敗，仍有合適的 fallback
+@mixin font-headline
+  font-family: 'Playfair Display', 'GenYoMin', 'Noto Serif TC', Georgia, 'Times New Roman', serif
+  font-weight: 400
+
+@mixin font-body
+  font-family: 'GenYoMin', 'Noto Serif TC', Georgia, serif
+  font-weight: 400
+
+@mixin font-ui
+  font-family: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif
+  font-weight: 400

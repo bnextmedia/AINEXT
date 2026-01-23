@@ -3,7 +3,7 @@ title: "2026 企業 AI 轉型生存指南——Klarna 的教訓與三個不踩�
 date: 2025-12-25T14:00:00+08:00
 description: "Klarna 曾高調宣稱 AI 客服取代 700 名員工、一個月處理 230 萬通電話，卻在一年後全面撤回。前麥肯錫 QuantumBlack Labs 全球主管、現任 Invisible Technologies CEO Matt Fitzpatrick 分享企業導入 AI 的三大原則：數據先行、聚焦高價值用例、用營運指標而非技術指標追蹤成效。"
 tags: ["AI 轉型", "企業 AI", "Klarna", "Matt Fitzpatrick", "Invisible Technologies", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=7GFKB0oKd9A"
 source_name: "Moonshots Podcast"
 draft: false

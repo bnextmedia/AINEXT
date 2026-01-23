@@ -3,7 +3,7 @@ title: "AMD 的佑級野心：蘇姿丰如何用一場演講宣示挑戰 NVIDIA"
 date: 2026-01-07T22:00:00+08:00
 description: "AMD 執行長蘇姿丰在 CES 2026 發表長達兩小時的主題演講，推出 MI-455X 晶片、Helios 機櫃架構，並宣布與 OpenAI 的 6GW 合作案。這場演講不只是產品發布，更是 AMD 對 NVIDIA 的正面宣戰。本文深度解析 AMD 的全線布局、與 NVIDIA 的規格對決、台灣供應鏈的受惠程度，以及投資人該關注的關鍵指標。"
 tags: ["AMD", "蘇姿丰", "NVIDIA", "MI-455X", "Helios", "OpenAI", "CES 2026", "台積電", "AI 晶片"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=TvBNWbFK2lY"
 source_name: "CES 2026 AMD Keynote"
 draft: false

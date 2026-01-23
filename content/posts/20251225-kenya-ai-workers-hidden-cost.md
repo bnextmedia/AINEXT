@@ -3,7 +3,7 @@ title: "每小時 2 美元的 AI 夢：肯亞標註員揭露矽谷的隱藏人�
 date: 2025-12-25T12:00:00+08:00
 description: "當我們讚嘆 AI 的神奇時，很少人知道背後有一支龐大的人類大軍正在訓練這些模型。在肯亞，數學系畢業生每小時賺 2 美元，整天看著暴力和色情內容，為 Meta 和 OpenAI 標註資料。60 Minutes 深入調查這個被稱為「矽谷薩凡納」的地方，揭露 AI 產業光鮮背後的血淚故事。"
 tags: ["AI 產業", "肯亞", "資料標註", "勞工權益", "60 Minutes"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=KpOcUrPdx-4"
 source_name: "60 Minutes"
 draft: false

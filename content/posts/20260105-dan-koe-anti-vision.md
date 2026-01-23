@@ -3,7 +3,7 @@ title: "想不清楚自己要什麼？試試 Dan Koe 的「反願景」練習"
 date: 2026-01-05T11:00:00+08:00
 description: "很多人被問「你的人生目標是什麼」就卡住。Dan Koe 提出一個反向思考法：與其想你要什麼，不如先想清楚你「絕對不想要」的人生是什麼樣子。這股厭惡感，會成為推動你前進的燃料。"
 tags: ["Dan Koe", "個人成長", "目標設定", "Anti-Vision", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://youtu.be/EVDQ1MijHbk"
 source_name: "Open Residency Podcast"
 draft: false

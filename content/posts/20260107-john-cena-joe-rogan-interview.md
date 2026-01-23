@@ -3,7 +3,7 @@ title: "John Cena 上 Joe Rogan：從學中文、台灣事件到人生哲學的�
 date: 2026-01-07T13:00:00+08:00
 description: "WWE 傳奇選手 John Cena 登上 Joe Rogan Experience，暢談他的 23 年職摔生涯、學中文十年的意外收穫、台灣道歉事件始末、從擂台轉戰好萊塢的心路歷程，以及他的「30% 法則」人生觀。"
 tags: ["John Cena", "Joe Rogan", "WWE", "Podcast", "人物專訪"]
-categories: ["人物專訪"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=sJ4Ho4ccuFg"
 source_name: "The Joe Rogan Experience"
 draft: false

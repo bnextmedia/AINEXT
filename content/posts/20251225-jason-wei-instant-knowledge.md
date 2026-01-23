@@ -3,7 +3,7 @@ title: "從圖書館到 ChatGPT：取得知識的成本正在歸零"
 date: 2025-12-25T11:30:00+08:00
 description: "OpenAI o1 共同創作者 Jason Wei 用一個問題說明 AI 時代的變化：1983 年釜山有多少對新人結婚？這個問題在不同時代的回答成本，從幾天壓縮到幾分鐘。當知識取得成本趨近於零，什麼會變得更有價值？"
 tags: ["Jason Wei", "OpenAI", "Deep Research", "知識民主化", "Stanford"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=b6Doq2fz81U"
 source_name: "Stanford AI Club"
 draft: false

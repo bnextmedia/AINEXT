@@ -3,7 +3,7 @@ title: "從資料標註到「養育人類的孩子」——AI 訓練的真相"
 date: 2025-12-24
 description: "Surge AI 創辦人 Edwin Chen 深度訪談：為什麼 AI 訓練不是「標註貓照片」？諾貝爾獎等級的詩如何定義品質、RL 環境如何模擬真實世界，以及為什麼人類在 AI 訓練中不會消失。"
 tags: ["AI 訓練", "Surge AI", "RLHF", "資料標註", "Edwin Chen"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=dduQeaqmpnI"
 source_name: "Lenny's Podcast"
 draft: false

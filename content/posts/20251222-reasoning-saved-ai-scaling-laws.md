@@ -3,7 +3,7 @@ title: "Reasoning 如何拯救 AI：一場你不知道的 18 個月危機"
 date: 2025-12-22T21:00:00+08:00
 description: "2024 年 Nvidia Blackwell 晶片延遲，導致 AI 算力升級陷入 18 個月空白期。如果不是 OpenAI 的 o1 等 Reasoning 模型及時出現，開創後訓練規模定律與推論時運算兩條新路徑，AI 進展可能在此期間停滯。本文深入分析這場鮮為人知的產業危機，以及 Reasoning 如何讓 AI 穿越硬體真空期。"
 tags: ["Scaling Laws", "Reasoning", "NVIDIA", "Blackwell", "OpenAI"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://podwise.ai/dashboard/episodes/6327964"
 source_name: "Invest Like the Best EP.451 - Gavin Baker"
 draft: false

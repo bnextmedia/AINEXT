@@ -3,7 +3,7 @@ title: "從 Artifact 失敗到 Claude 產品策略：Mike Krieger 的 AI 產品�
 date: 2025-12-24T01:45:00+08:00
 description: "Artifact 是一款做得很好的產品，但它沒有成功。Mike Krieger 回顧這段創業經歷，診斷出問題不在 AI 而在行動網頁生態系本身的破碎。他也深入分析 AI 代理將如何重塑網路生態、發行商的反抗，以及 AI 作為增益器而非取代者的可能性。"
 tags: ["Mike Krieger", "Anthropic", "Artifact", "AI 產品", "Product-Market Fit", "AI 代理", "媒體產業"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=_-V5objmQ00"
 source_name: "Generative Now (Lightspeed)"
 draft: false

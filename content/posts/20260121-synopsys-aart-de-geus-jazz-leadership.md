@@ -3,7 +3,7 @@ title: "從爵士樂學管理：有人出錯時，團隊的責任是一起補位
 date: 2026-01-21T11:00:00+08:00
 description: "新思科技創辦人 Aart de Geus 是藍調樂團吉他手，他說帶樂團比帶公司難。但從爵士樂學到的一課改變了他的管理方式：有人犯錯時，不是追究是誰的錯，而是一起補位。"
 tags: ["Synopsys", "Aart de Geus", "領導力", "爵士樂", "團隊合作", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=iWnOOzHgfrs"
 source_name: "A Bit Personal with Jodi Shelton"
 draft: false

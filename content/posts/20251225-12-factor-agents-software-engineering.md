@@ -3,7 +3,7 @@ title: "12-Factor Agents：當 Agent 開發遇上軟體工程的老派智慧"
 date: 2025-12-25T17:30:00+08:00
 description: "HumanLayer 創辦人 Dex Horthy 訪談超過 100 位開發者後，整理出建構可靠 AI Agent 的 12 條原則。核心洞見：Agent 就是軟體，LLM 就是純函數，Context Engineering 才是王道。這套方法論借鏡了 Heroku 十年前定義雲端應用的精神，把 Agent 開發拉回軟體工程的本質。"
 tags: ["AI Agent", "12-Factor Agents", "Dex Horthy", "HumanLayer", "Context Engineering"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=8kMaTybvDUw"
 source_name: "AI Engineer 大會"
 draft: false

@@ -3,7 +3,7 @@ title: "從 Palantir 工程師到國防獨角獸 CEO：Brian Schimpf 的人才�
 date: 2026-01-05T13:00:00+08:00
 description: "Anduril CEO Brian Schimpf 從 Palantir 學到最重要的一課是關於人才：真正有才華的人通常很難搞，會直接說你很蠢。但這種混亂正是創造力的來源。他用「Artistry and Meritocracy」來描述這種文化。"
 tags: ["Anduril", "Brian Schimpf", "Palantir", "Alex Karp", "領導力", "Podcast"]
-categories: ["人物專訪"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=P5dsb28UVec"
 source_name: "Sourcery Podcast"
 draft: false

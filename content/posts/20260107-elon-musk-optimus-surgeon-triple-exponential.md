@@ -3,7 +3,7 @@ title: "馬斯克：3 年內 Optimus 將成為比人類更好的外科醫生"
 date: 2026-01-07T12:00:00+08:00
 description: "馬斯克預測 Tesla 的人形機器人 Optimus 將在 3-4 年內超越人類最頂尖的外科醫生。他解釋背後的「三重指數成長」：AI 軟體、AI 晶片、機電靈活度三者相乘，再加上機器人自我製造的遞迴效應。"
 tags: ["Elon Musk", "Optimus", "人形機器人", "醫療", "Tesla", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=RSNuB9pj9P8"
 source_name: "Moonshots with Peter Diamandis"
 draft: false

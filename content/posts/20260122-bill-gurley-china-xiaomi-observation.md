@@ -3,7 +3,7 @@ title: "不要低估中國：矽谷投資人親眼見證小米工廠後的反思
 date: 2026-01-22T11:00:00+08:00
 description: "矽谷傳奇創投家 Bill Gurley 分享他在中國 10 天的觀察：省際競爭如何驅動創新、雷軍如何用 200 台員工的車設計小米汽車，以及美國必須面對的殘酷現實。"
 tags: ["Bill Gurley", "中國", "小米", "雷軍", "創新", "Podcast"]
-categories: ["科技趨勢"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=rjSesMsQTxk"
 source_name: "Tim Ferriss Show"
 draft: false

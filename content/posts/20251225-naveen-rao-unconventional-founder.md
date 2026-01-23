@@ -3,7 +3,7 @@ title: "這位連續創業家為何「瘋狂」到要挑戰 NVIDIA"
 date: 2025-12-25T15:00:00+08:00
 description: "Naveen Rao 賣掉過兩家公司、當過 Databricks AI 負責人。現在他創辦 Unconventional AI，想用類比電路重新定義 AI 運算。很多人說他瘋了，他說：人類需要一些瘋子去探索。"
 tags: ["Naveen Rao", "Unconventional AI", "Nervana", "創業", "AI 晶片"]
-categories: ["人物專訪"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=wZ4DT20OHXE"
 source_name: "NeurIPS 2024 訪談"
 draft: false

@@ -3,7 +3,7 @@ title: "黃仁勳說美國「正在輸」——他到底在擔心什麼？"
 date: 2025-12-24T12:40:00+08:00
 description: "「中國正在贏得 AI 競賽」這個標題傳遍科技圈，但黃仁勳說被省略的是「免責聲明和基礎論述」。他逐層分析美中 AI 競爭：能源、晶片、基礎設施、模型、應用。美國技術領先，但能源產能只有中國一半、建設速度被甩開、開源生態落後。這才是他真正擔心的。"
 tags: ["黃仁勳", "NVIDIA", "美中競爭", "AI競賽", "能源政策"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=jpZ0dPsnIWw"
 source_name: "David Rubenstein Show"
 draft: false

@@ -3,7 +3,7 @@ title: "AI Coding Agent 的架構演進：從 Amp Code 看 Sub-agent 設計"
 date: 2025-12-25T15:30:00+08:00
 description: "Coding agent 的核心就是一個 for loop，但魔鬼藏在細節裡。Amp Code 的創辦人 Beyang Liu 深入講解他們如何用 sub-agent 架構解決 context exhaustion 問題，以及 Finder、Oracle、Librarian、Kraken 四個專用 sub-agent 的設計原理。"
 tags: ["Amp Code", "AI Agent", "Sub-agent", "Context Window", "技術架構"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=gvIAkmZUEZY"
 source_name: "AI Engineer World's Fair"
 draft: false

@@ -3,7 +3,7 @@ title: "國防版的 Tesla 時刻：Anduril 如何在 8 年內從無人機做到
 date: 2026-01-05T12:00:00+08:00
 description: "Anduril 的產品線從小型無人機一路擴展到低成本巡弋飛彈、大型自主水下載具、甚至自主戰鬥機。CEO Brian Schimpf 分享產品擴張的邏輯：資本累積、技術複雜度遞進、以及嚴格的三條篩選標準。"
 tags: ["Anduril", "Brian Schimpf", "Fury", "Ghost Shark", "Defense Tech", "Podcast"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=P5dsb28UVec"
 source_name: "Sourcery Podcast"
 draft: false

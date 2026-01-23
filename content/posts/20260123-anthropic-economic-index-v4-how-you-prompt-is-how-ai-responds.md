@@ -3,7 +3,7 @@ title: "你怎麼問，AI 就怎麼答：Anthropic 經濟指數報告揭示的�
 date: 2026-01-23T09:00:00+08:00
 description: "Anthropic 發布第四份經濟指數報告，分析百萬筆 Claude 對話紀錄後發現：使用者提問的教育程度與 AI 回覆的教育程度高度相關（r > 0.92）。這份報告不只談 AI 的生產力影響，更揭示了一個被忽略的關鍵：與 AI 對話的品質，取決於人類自身的能力。"
 tags: ["Anthropic", "Claude", "經濟指數", "AI 生產力", "人機協作", "Prompt"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 image: "https://bnextmedia.github.io/AINEXT/images/2026_anthropic_economics.png"
 source_url: "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
 source_name: "Anthropic Research"

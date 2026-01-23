@@ -3,7 +3,7 @@ title: "帝國如何破產：Ray Dalio 解析債務危機的機制"
 date: 2025-12-25T11:30:00+08:00
 description: "Ray Dalio 在牛津辯論社解釋國家債務危機的運作機制。他指出貨幣就是債務、債務就是貨幣，而目前財富對貨幣的比率高達 850%。當政府面臨加稅、減支、印鈔三個都很痛苦的選項時，歷史上的答案通常是印鈔——然後貨幣貶值。"
 tags: ["Ray Dalio", "Bridgewater", "債務危機", "貨幣政策", "訪談"]
-categories: ["投資理財"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=blp67tGDFUg"
 source_name: "Oxford Union"
 draft: false

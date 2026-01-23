@@ -3,7 +3,7 @@ title: "為什麼哈佛教授離開學界去做 AI"
 date: 2025-12-26T11:00:00+08:00
 description: "Andy Beam 是哈佛公衛學院教授、醫療 AI 先驅，2024 年他選擇離開學界，加入 Lila Sciences 擔任技術長。不是因為學術界不好，而是他想做的問題需要的資源，學界已經提供不了。這是一個關於選擇的故事，也是一面照出 AI 產業現狀的鏡子。"
 tags: ["Andy Beam", "Lila Sciences", "學術界", "AI 人才", "職涯選擇", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879"
 source_name: "NEJM AI Grand Rounds"
 draft: false

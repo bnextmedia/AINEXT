@@ -3,7 +3,7 @@ title: "AI 時代的能源軍備競賽——為什麼太陽能才是關鍵戰場
 date: 2025-12-26T14:30:00+08:00
 description: "美國用晶片出口管制卡中國，但中國在太陽能製造上領先 20 倍。Terraform Industries 創辦人 Casey Handmer 認為，AI 競賽的真正戰場不只是晶片，更是能源。誰能更快部署便宜的電力，誰就能訓練更大的模型。"
 tags: ["Casey Handmer", "Terraform Industries", "太陽能", "AI 基礎設施", "美中競爭"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=3cDHx2_QbPE"
 source_name: "YouTube"
 draft: false

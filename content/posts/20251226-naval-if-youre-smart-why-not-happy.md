@@ -3,7 +3,7 @@ title: "Naval Ravikant：如果你這麼聰明，為什麼不快樂？"
 date: 2025-12-26T12:00:00+08:00
 description: "Naval Ravikant 對所有自認聰明的人提出挑戰：如果你真的這麼聰明、這麼有能力，為什麼連讓自己快樂這件事都做不到？這不是挑釁，而是一個值得深思的問題。"
 tags: ["Naval Ravikant", "幸福", "智慧", "心理健康", "哲學", "Podcast"]
-categories: ["人生哲學"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=3qHkcs3kG44"
 source_name: "Joe Rogan Experience #1309"
 draft: false

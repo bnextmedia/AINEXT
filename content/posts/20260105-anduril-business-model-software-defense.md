@@ -3,7 +3,7 @@ title: "年年翻倍的國防新創：Anduril CEO 如何用軟體思維重塑軍
 date: 2026-01-05T10:00:00+08:00
 description: "Anduril 在 8 年內成長到 7,000 名員工、營收突破 10 億美元且年年翻倍。CEO Brian Schimpf 分享公司如何透過軟體平台 Lattice、固定價格合約、以及「設計可製造的武器」思維，在傳統國防產業中殺出一條血路。"
 tags: ["Anduril", "Brian Schimpf", "國防科技", "Defense Tech", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=P5dsb28UVec"
 source_name: "Sourcery Podcast"
 draft: false

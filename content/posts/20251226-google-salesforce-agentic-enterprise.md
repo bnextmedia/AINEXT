@@ -3,7 +3,7 @@ title: "兩個 CEO 的 20 年情誼——從 2004 年 IPO 到 Agentic Enterprise
 date: 2025-12-26T13:00:00+08:00
 description: "2004 年，Google 和 Salesforce 同一年上市。那年，Salesforce 執行長 Marc Benioff 首次遇見 Larry Page 和 Sergey Brin，啟發了 Google.org 的誕生。20 年後，兩家公司在 Dreamforce 2025 宣布深化合作，共同推動 Agentic Enterprise 的願景。"
 tags: ["Sundar Pichai", "Marc Benioff", "Google", "Salesforce", "Agentic AI", "企業合作"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=brQH2CCxbSE"
 source_name: "Dreamforce 2025"
 draft: false

@@ -3,7 +3,7 @@ title: "Neolab 爭議：沒有百億美元，AI 新創還能怎麼贏？"
 date: 2025-12-26T12:00:00+08:00
 description: "當 OpenAI 和 Anthropic 燒掉數百億美元訓練模型，規模較小的 AI 研究實驗室還有機會嗎？創投 Sarah Guo 分析 Neolab 這種新型態 AI 公司的生存邏輯：專注特定方向、接受人才收購作為退出機制，未必是輸家的選擇。"
 tags: ["Neolab", "AI 創業", "Sarah Guo", "Scaling Laws", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=DRZatti6mVM"
 source_name: "TBPN Podcast"
 draft: false

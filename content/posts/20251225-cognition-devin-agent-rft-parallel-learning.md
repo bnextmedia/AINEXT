@@ -3,7 +3,7 @@ title: "Devin 背後的秘密：Cognition 如何用 Agent RFT 讓 AI 學會平�
 date: 2025-12-25T15:00:00+08:00
 description: "Cognition 使用 OpenAI 的 Agent RFT 訓練 Devin 的程式碼規劃功能，將工具呼叫步驟從 8-10 步降到 4 步。透過 F1 評分、獨立 VM 架構、以及從 100 到 1000 個範例的規模擴展，他們讓 Devin 學會了在第一步就平行發出多個工具呼叫。"
 tags: ["Cognition", "Devin", "Agent RFT", "OpenAI", "AI Agent", "程式碼代理"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=p1CmPZ2j6Lk"
 source_name: "OpenAI DevDay"
 draft: false

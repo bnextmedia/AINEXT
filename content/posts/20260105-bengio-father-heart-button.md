@@ -3,7 +3,7 @@ title: "「我會按下那個按鈕」——AI 教父的父親心聲"
 date: 2026-01-05T11:30:00+08:00
 description: "當主持人問「如果有個按鈕能停止 AI 發展，你會按嗎？」，深度學習先驅 Yoshua Bengio 毫不猶豫：「我會按。因為我在乎我的孩子。」這位圖靈獎得主為何拒絕 Google、Facebook 的高薪邀約？他給四歲孫子的人生建議是什麼？"
 tags: ["Yoshua Bengio", "AI 教父", "人生選擇", "Law Zero", "Podcast"]
-categories: ["人物專訪"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=zQ1POHiR8m8"
 source_name: "The Diary Of A CEO with Steven Bartlett"
 draft: false

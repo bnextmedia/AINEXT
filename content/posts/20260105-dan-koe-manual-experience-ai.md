@@ -3,7 +3,7 @@ title: "AI 時代的反直覺真相：手動經驗比你想的更重要"
 date: 2026-01-05T13:00:00+08:00
 description: "當大家都在問『現在學什麼技能還有用？』，Dan Koe 給出一個反直覺的答案：能親手做事的能力，比會用 AI 更重要。因為只有你真正做過，才能教會 AI 怎麼做好。"
 tags: ["Dan Koe", "AI", "技能學習", "Prompt Engineering", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://youtu.be/EVDQ1MijHbk"
 source_name: "Open Residency Podcast"
 draft: false

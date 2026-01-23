@@ -3,7 +3,7 @@ title: "開源 AI 的隱憂——為什麼黃仁勳說中國「遙遙領先」"
 date: 2025-12-24T12:30:00+08:00
 description: "全世界有 150 萬個 AI 模型，ChatGPT 和 Claude 只是其中的 150 萬分之四。黃仁勳指出，這 150 萬個模型絕大多數是開源的，而中國在開源 AI 領域「遙遙領先」。開源不只是授權方式，更是整個 AI 產業蓬勃發展的地基。"
 tags: ["黃仁勳", "NVIDIA", "開源AI", "中國AI", "AI競爭"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=jpZ0dPsnIWw"
 source_name: "David Rubenstein Show"
 draft: false

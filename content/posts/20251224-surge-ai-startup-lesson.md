@@ -3,7 +3,7 @@ title: "訓練 ChatGPT 的公司，給 AI 時代創業者的一堂課"
 date: 2025-12-24T01:49:00+08:00
 description: "Surge AI 四年內營收突破 10 億美元，員工不到 100 人，從未募資。創辦人 Edwin Chen 分享反矽谷的創業哲學：不要 pivot、不要閃電擴張、專注做一件只有你能做的事。他把訓練 AI 比喻為「養育人類的孩子」。"
 tags: ["Surge AI", "創業", "AI 訓練", "Edwin Chen", "資料標註"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=dduQeaqmpnI"
 source_name: "Lenny's Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "2030 不歸點：AI 教父的末日時鐘"
 date: 2026-01-05T11:30:00+08:00
 description: "OpenAI 執行長 Sam Altman 說，我們可能已經越過了 AI 發展的「事件視界」。AI 教科書作者 Stuart Russell 解釋這句話的意思：就像黑洞一樣，一旦越過那條線，就再也回不去了。"
 tags: ["Stuart Russell", "AGI", "AI 安全", "Scaling Laws", "Sam Altman", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=DOAC-stuart-russell"
 source_name: "The Diary Of A CEO with Steven Bartlett"
 draft: false

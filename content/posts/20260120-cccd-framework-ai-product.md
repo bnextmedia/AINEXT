@@ -3,7 +3,7 @@ title: "CCCD 框架：不讓 AI 產品失控的持續校準方法"
 date: 2026-01-20T12:00:00+08:00
 description: "OpenAI Codex 負責人與 AI 顧問這對夫妻檔，提出 CCCD 框架（Continuous Calibration Continuous Development），教你如何在不失去使用者信任的前提下，逐步提升 AI 產品的自主性。"
 tags: ["OpenAI", "AI 產品", "CCCD", "Evals", "Kiriti Badam", "Aishwarya Reganti"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=z7T1pCxgvlA"
 source_name: "Lenny's Podcast"
 draft: false

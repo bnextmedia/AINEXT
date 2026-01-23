@@ -3,7 +3,7 @@ title: "橋水創辦人給 20 歲年輕人的人生備忘錄"
 date: 2025-12-25T10:30:00+08:00
 description: "Ray Dalio 在牛津辯論社對著一群 20 多歲的學生，分享他 75 年人生的核心體悟：人生有三個階段、痛苦加反思等於進步、知道自己不知道什麼比知識更重要，以及冥想是他能送給任何人最好的禮物。"
 tags: ["Ray Dalio", "Bridgewater", "人生建議", "冥想", "訪談"]
-categories: ["人物專訪"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=blp67tGDFUg"
 source_name: "Oxford Union"
 draft: false

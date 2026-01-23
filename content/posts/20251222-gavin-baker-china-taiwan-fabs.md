@@ -3,7 +3,7 @@ title: "半導體專家 Gavin Baker：「中國不會得到台灣的晶圓廠」
 date: 2025-12-22
 description: "華爾街頂尖半導體投資人 Gavin Baker 分析：台積電領先優勢其實只有 18 個月、中國入侵台灣也拿不到晶圓廠、Intel 衰落的真正原因，以及「盟友晶片主權」為何是新時代的關鍵概念。"
 tags: ["半導體", "台積電", "Intel", "地緣政治", "Gavin Baker"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=ugihLT9cFTE"
 source_name: "Invested Podcast"
 draft: false

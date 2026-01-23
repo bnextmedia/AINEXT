@@ -3,7 +3,7 @@ title: "當 AI 能做所有工作，人類該學什麼？"
 date: 2026-01-05T11:00:00+08:00
 description: "如果 AI 真的在 5-10 年內能做所有工作，現在 20 歲的年輕人該怎麼規劃職涯？AI 教科書作者 Stuart Russell 的答案出人意料：不是寫程式，而是學會成為一個完整的人。"
 tags: ["Stuart Russell", "AI 職涯", "未來工作", "AGI", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=DOAC-stuart-russell"
 source_name: "The Diary Of A CEO with Steven Bartlett"
 draft: false

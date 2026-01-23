@@ -3,7 +3,7 @@ title: "從清華實驗室到全球大模型第一股：智谱 CEO 張鵬的 10 
 date: 2026-01-19T10:00:00+08:00
 description: "2026 年 1 月 8 日，智谱登陸港交所成為全球首家上市的大模型公司。CEO 張鵬在上市前夕接受深度訪談，回顧從清華知識工程實驗室到港交所敲鐘的 10 年歷程，分享融資困境、技術抉擇與商業模式探索的關鍵決策。"
 tags: ["智谱", "張鵬", "AI 六小虎", "清華大學", "大模型", "IPO", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=9zSMTUUEfmU"
 source_name: "張小珺商業訪談錄"
 draft: false

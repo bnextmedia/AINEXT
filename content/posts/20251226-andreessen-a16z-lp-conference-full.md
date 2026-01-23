@@ -3,7 +3,7 @@ title: "Andreessen 的 2025 年宣言：我們不再假裝低調了"
 date: 2025-12-26T11:30:00+08:00
 description: "a16z 創辦人 Marc Andreessen 在 2025 LP 大會的完整訪談精華。他談 AI 與網路泡沫的差異、開源 AI 的價值觀戰爭、創業者該深耕還是廣博、以及 a16z 新品牌背後的文化宣言：「過去十五年大家都太謹慎了，現在是擁抱野心、成就、與動能的時候。」"
 tags: ["Marc Andreessen", "a16z", "創投", "AI 產業", "American Dynamism", "Podcast"]
-categories: ["人物專訪"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760"
 source_name: "The a16z Show"
 draft: false

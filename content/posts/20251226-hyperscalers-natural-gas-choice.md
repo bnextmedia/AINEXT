@@ -3,7 +3,7 @@ title: "Meta、xAI 都選天然氣蓋資料中心？Casey Handmer：他們沒得
 date: 2025-12-26T14:35:00+08:00
 description: "為什麼 Meta 的 5GW 資料中心選擇天然氣而非太陽能？Terraform Industries 創辦人 Casey Handmer 說，不是成本問題，是可得性問題。渦輪機產能到 2030 年前都被訂光了，太陽能才是唯一能無限擴展的選項。"
 tags: ["Casey Handmer", "Meta", "xAI", "資料中心", "天然氣", "太陽能"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=3cDHx2_QbPE"
 source_name: "YouTube"
 draft: false

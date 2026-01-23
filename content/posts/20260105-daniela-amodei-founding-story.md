@@ -3,7 +3,7 @@ title: "疫情、帳篷、懷孕八週：Anthropic 總裁回憶創業第一天"
 date: 2026-01-05T11:00:00+08:00
 description: "Anthropic 總裁 Daniela Amodei 在 CNBC 專訪中回憶五年前的創業起點：疫情期間在哥哥家後院搭帳篷向 Eric Schmidt 簡報，當時她懷孕八週，沒人知道公司會變成什麼樣子。五年後，她分享了什麼變了、什麼沒變。"
 tags: ["Anthropic", "Daniela Amodei", "Dario Amodei", "Eric Schmidt", "創業", "CNBC"]
-categories: ["人物專訪"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=GMXnmaky9FY"
 source_name: "CNBC Television"
 draft: false

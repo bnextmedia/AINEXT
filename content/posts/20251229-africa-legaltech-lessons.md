@@ -3,7 +3,7 @@ title: "非洲科技律師給台灣的啟示——數位轉型不等人"
 date: 2025-12-29T15:00:00+08:00
 description: "在迦納首都阿克拉的一場法律科技聚會上，來自 Hubtel、FarmerLine 等非洲新創的法務主管分享了他們擁抱科技的經驗。他們的故事揭示一個現實：當發展中市場的法務都在積極轉型，我們還有多少猶豫的本錢？"
 tags: ["Legaltech", "非洲新創", "Hubtel", "FarmerLine", "數位轉型", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/us/podcast/s02e05-navigating-digital-transformation-in-house-counsel/id1725709717?i=1000699635807"
 source_name: "Legaltech Lounge Podcast"
 draft: false

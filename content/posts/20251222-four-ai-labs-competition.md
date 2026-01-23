@@ -3,7 +3,7 @@ title: "四大 AI 實驗室爭霸戰：一場史無前例的戰略博弈"
 date: 2025-12-22T21:10:00+08:00
 description: "全球只有四家 AI 實驗室真正重要：OpenAI、Google、Anthropic、XAI。Meta、Microsoft、Amazon 投入數十億美元仍無法躋身第一梯隊，揭示了前沿 AI 研究的高門檻。本文分析四大實驗室的競爭策略：Google 的低成本生產者定位、XAI 的速度優勢、OpenAI 的成本劣勢、Anthropic 的靈活佈局，以及 Reasoning 模型如何創造飛輪效應改變競爭格局。"
 tags: ["OpenAI", "Google", "Anthropic", "XAI", "AI 競爭"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podwise.ai/dashboard/episodes/6327964"
 source_name: "Invest Like the Best EP.451 - Gavin Baker"
 draft: false

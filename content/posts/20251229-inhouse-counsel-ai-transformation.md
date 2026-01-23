@@ -3,7 +3,7 @@ title: "從「避險」到「策略夥伴」——企業法務的 AI 轉型之�
 date: 2025-12-29T14:00:00+08:00
 description: "企業法務的角色正在轉變：從傳統的風險把關者，變成科技轉型的推動者。來自迦納的法務專家分享，為什麼「心態」才是最大的障礙，以及如何用 Excel、Teams、ChatGPT 這些基本工具，在預算有限的情況下提升效率。"
 tags: ["Legaltech", "企業法務", "數位轉型", "AI 工具", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/us/podcast/s02e05-navigating-digital-transformation-in-house-counsel/id1725709717?i=1000699635807"
 source_name: "Legaltech Lounge Podcast"
 draft: false

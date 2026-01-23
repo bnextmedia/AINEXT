@@ -3,7 +3,7 @@ title: "AI 太聰明反而更會騙人？Gemini 3 Flash 的「幻覺式推理」
 date: 2025-12-25T11:00:00+08:00
 description: "Gemini 3 Flash 在 benchmark 上表現亮眼，但有人發現它的幻覺率也很高。奇怪的是，高幻覺率卻沒有影響最終答案的正確性。這個反直覺的現象揭示了 AI 推理的本質——它可能在思考過程中「瞎掰」，但最後卻能自我修正得到正確答案。"
 tags: ["Google", "Gemini", "AI 幻覺", "AI 推理", "Benchmark", "DeepMind"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=f8I4cGrDFYA"
 source_name: "Break Even Brothers Podcast"
 draft: false

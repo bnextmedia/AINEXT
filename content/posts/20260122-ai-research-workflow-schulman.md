@@ -3,7 +3,7 @@ title: "PPO 發明者的 AI 使用哲學：讓模型幫忙，但要理解每一�
 date: 2026-01-22T12:00:00+08:00
 description: "John Schulman 每天大量使用 AI 做研究——文獻搜尋、發展想法、寫作反饋。但他堅持一件事：研究工作不該讓 AI 寫你沒讀過的程式碼。做出最好成果的人，對每一行程式碼都瞭若指掌。"
 tags: ["John Schulman", "AI 工具", "研究方法", "Cursor", "Claude Code", "PPO", "RLHF", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=29BYxvvF1iM"
 source_name: "Cursor Podcast"
 draft: false

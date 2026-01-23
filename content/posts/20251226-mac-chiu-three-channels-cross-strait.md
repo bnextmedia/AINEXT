@@ -3,7 +3,7 @@ title: "兩岸溝通還有哪些管道？陸委會主委邱垂正揭露三條線
 date: 2025-12-26T10:30:00+08:00
 description: "兩岸官方對話中斷多年，但溝通完全斷了嗎？陸委會主委邱垂正在美國智庫演講中揭露，台灣與中國大陸之間仍維持三條溝通管道：官方機制、26項既有協議、以及民間學者與台商的非正式交流。他也透露，超過 75% 的台灣民眾反對接受北京的政治前提。"
 tags: ["邱垂正", "陸委會", "兩岸關係", "九二共識", "台海關係"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=Td2RsaL0lsQ"
 source_name: "Heritage Foundation"
 draft: false

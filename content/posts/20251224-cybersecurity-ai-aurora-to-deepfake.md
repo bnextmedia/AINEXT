@@ -3,7 +3,7 @@ title: "從 Operation Aurora 到 Deepfake 詐騙：一位資安老兵眼中的 1
 date: 2025-12-24T01:47:00+08:00
 description: "Google DeepMind 安全副總裁 Four Flynn 親歷了 2009 年中國國家級駭客攻擊「極光行動」，這場事件改寫了企業資安的遊戲規則。從「護城河」思維到「零信任」架構，從 WannaCry 到 deepfake 詐騙，Flynn 分享 15 年來網路安全攻防的根本轉變，以及 AI 如何同時成為攻擊者的武器與防禦者的盾牌。"
 tags: ["網路安全", "零信任", "資安", "Operation Aurora", "Deepfake"]
-categories: ["AI 產業"]
+categories: ["AI 安全與治理"]
 source_url: "https://youtube.com/watch?v=1gO2bC5xLlo"
 source_name: "Google DeepMind Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "台灣對川普政府的戰略喊話——從國防預算到價值同盟
 date: 2025-12-26T11:30:00+08:00
 description: "陸委會主委邱垂正選擇在 Heritage Foundation 發表公開演說，這個場地本身就是一個戰略信號。作為保守派智庫與川普政府的政策智囊，Heritage 是向美國新政府傳達訊息的最佳舞台。邱垂正帶來的訊息很明確：台灣準備好了，國防預算將提升到 GDP 的 5%。"
 tags: ["邱垂正", "陸委會", "川普", "Heritage Foundation", "台美關係"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=Td2RsaL0lsQ"
 source_name: "Heritage Foundation"
 draft: false

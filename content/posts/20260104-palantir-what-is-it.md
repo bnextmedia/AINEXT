@@ -3,7 +3,7 @@ title: "Palantir 是什麼？從《魔戒》真知晶球到矽谷最神秘的監
 date: 2026-01-04T14:00:00+08:00
 description: "Palantir Technologies 是一家市值超過千億美元的大數據分析公司，卻鮮少有人真正理解它在做什麼。這家公司的名字來自托爾金《魔戒》中能看見一切的真知晶球，它的軟體被用於追捕賓拉登、協助 ICE 追蹤移民、甚至影響戰場上的生死決策。本文從 DW 紀錄片出發，解析這家科技界最神秘公司的真實面貌。"
 tags: ["Palantir", "Alex Karp", "Peter Thiel", "監控資本主義", "大數據", "紀錄片"]
-categories: ["科技趨勢"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=hN-mEGLF_6w"
 source_name: "DW Documentary"
 draft: false

@@ -3,7 +3,7 @@ title: "從 280 人到 3000 人：OpenAI 如何避免「大公司病」？"
 date: 2026-01-20T12:00:00+08:00
 description: "OpenAI 三年內從 280 人擴張到 3000 人，翁家翌認為最大的挑戰不是人才密度下降，而是 context sharing 的一致性難以維持。他也透露 DeepSeek 真正讓 OpenAI 緊張的原因：不是榜單，而是迭代速度。"
 tags: ["OpenAI", "翁家翌", "組織管理", "DeepSeek", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=I0DrcsDf3Os"
 source_name: "WhynotTV Podcast"
 draft: false

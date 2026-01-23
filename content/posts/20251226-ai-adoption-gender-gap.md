@@ -3,7 +3,7 @@ title: "AI 採用的性別落差：同一間公司、同一份工作，女性使
 date: 2025-12-26T11:00:00+08:00
 description: "芝加哥大學經濟學家的研究發現，在同一間法律事務所、處理同樣法律任務的員工中，女性採用 AI 工具的比例比男性低了超過 10 個百分點。這個發現揭示了 AI 革命中一個令人不安的現象：新技術的紅利可能正在加劇而非縮小既有的不平等。"
 tags: ["AI", "性別落差", "勞動市場", "芝加哥大學", "DEI", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261"
 source_name: "The Pie: An Economics Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "諾貝爾獎得主 Demis Hassabis：「5 到 10 年內，AGI 將改變�
 date: 2025-12-25T11:00:00+08:00
 description: "Google DeepMind 創辦人 Demis Hassabis 在獲得諾貝爾獎後接受 60 Minutes 專訪，談論 AGI 的時程、AI 的無限潛力，以及他最擔心的風險。這位 49 歲的英國科學家認為，未來十年內，AI 可能幫助人類終結疾病——但競賽中的偷工減料也讓他夜不能寐。"
 tags: ["Demis Hassabis", "Google DeepMind", "AGI", "諾貝爾獎", "60 Minutes"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=KpOcUrPdx-4"
 source_name: "60 Minutes"
 draft: false

@@ -3,7 +3,7 @@ title: "「痛苦是新護城河」：為什麼 AI 時代的競爭優勢來自�
 date: 2026-01-20T13:00:00+08:00
 description: "OpenAI Codex 負責人 Kiriti Badam 與 AI 顧問 Aishwarya Reganti 這對夫妻檔提出：在 AI 時代，快速建置不如深度理解問題重要。真正的護城河來自實作過程中累積的痛苦經驗。"
 tags: ["OpenAI", "AI 產品", "競爭優勢", "Coding Agent", "Kiriti Badam", "Aishwarya Reganti"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=z7T1pCxgvlA"
 source_name: "Lenny's Podcast"
 draft: false

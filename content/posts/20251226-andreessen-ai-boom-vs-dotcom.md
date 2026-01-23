@@ -3,7 +3,7 @@ title: "親歷兩個泡沫的人怎麼看：Andreessen 談 AI 熱與網路泡沫
 date: 2025-12-26T11:00:00+08:00
 description: "a16z 創辦人 Marc Andreessen 經歷過 2000 年網路泡沫，他如何看待這一波 AI 熱潮？他認為關鍵差異在於「實質」：AI 公司有真實的用戶、真實的營收、真實的產品價值。他也警告，人們對新科技的反應往往是躁鬱的，容易在狂熱與恐慌之間擺盪。"
 tags: ["Marc Andreessen", "a16z", "AI 泡沫", "網路泡沫", "創投", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760"
 source_name: "The a16z Show"
 draft: false

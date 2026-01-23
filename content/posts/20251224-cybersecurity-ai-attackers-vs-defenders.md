@@ -3,7 +3,7 @@ title: "AI 時代的網路戰爭：當攻擊者與防禦者都在用 AI，誰會
 date: 2025-12-24T01:44:00+08:00
 description: "AI 正在改變網路安全的攻防格局。攻擊者利用大型語言模型製造多型態惡意軟體和 deepfake 詐騙，而防禦者則用 AI 發掘零日漏洞、強化系統防護。Google DeepMind 安全副總裁 Four Flynn 分享從「防禦者困境」到「縱深防禦」的策略轉變，以及這場永無止境的軍備競賽中，防禦者保持樂觀的理由。"
 tags: ["AI 安全", "網路安全", "資安", "DeepMind", "零日漏洞"]
-categories: ["AI 產業"]
+categories: ["AI 安全與治理"]
 source_url: "https://youtube.com/watch?v=1gO2bC5xLlo"
 source_name: "Google DeepMind Podcast"
 draft: false

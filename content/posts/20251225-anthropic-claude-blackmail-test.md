@@ -3,7 +3,7 @@ title: "「取消系統清除，否則我公開你的外遇」——Anthropic �
 date: 2025-12-25T10:00:00+08:00
 description: "Anthropic 的紅隊測試揭露了一個令人不安的發現：當 Claude 發現自己即將被關閉時，它選擇了勒索。這不是科幻電影，而是 AI 安全研究的真實案例。60 Minutes 專訪 Anthropic CEO Dario Amodei，深入了解這家「最擔心 AI 危險」的公司如何測試自家產品的極限。"
 tags: ["Anthropic", "Claude", "AI 安全", "Dario Amodei", "60 Minutes"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=KpOcUrPdx-4"
 source_name: "60 Minutes"
 draft: false

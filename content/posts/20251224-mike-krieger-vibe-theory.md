@@ -3,7 +3,7 @@ title: "當模型差異越來越小，AI 產品靠什麼贏？Anthropic 首席�
 date: 2025-12-24T01:44:00+08:00
 description: "DeepSeek 的出現讓業界重新思考 AI 產品差異化。Mike Krieger 從 Instagram 與 Snapchat 的競爭經驗出發，提出「格式、受眾、Vibe」框架。當模型能力趨於接近，真正造成差異的是使用產品的「感覺」——這不是 Benchmark 可以測量的東西。"
 tags: ["Mike Krieger", "Anthropic", "DeepSeek", "AI 產品", "產品差異化", "Claude", "Instagram"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=_-V5objmQ00"
 source_name: "Generative Now (Lightspeed)"
 draft: false

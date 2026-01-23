@@ -3,7 +3,7 @@ title: "Naval Ravikant：你不會靠出賣時間致富"
 date: 2025-12-26T10:00:00+08:00
 description: "矽谷傳奇天使投資人 Naval Ravikant 在 Joe Rogan 節目上分享財富創造的第一原則：停止用時間換錢，開始建立能為你工作的資產。這套思維框架影響了無數創業者。"
 tags: ["Naval Ravikant", "財富", "創業", "投資", "槓桿", "Podcast"]
-categories: ["商業思維"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=3qHkcs3kG44"
 source_name: "Joe Rogan Experience #1309"
 draft: false

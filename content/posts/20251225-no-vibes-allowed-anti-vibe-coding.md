@@ -3,7 +3,7 @@ title: "「AI 不能取代思考」——一位 Agent 專家的反 Vibe Coding �
 date: 2025-12-25T11:00:00+08:00
 description: "Vibe Coding 在真實專案中行不通。HumanLayer 創辦人 Dex Horthy 在 AI Engineer 大會直言：AI 只能放大你的思考，不能取代思考。當資深工程師每週都在清理 AI 產生的爛 code，問題不在 AI，在於我們怎麼用它。"
 tags: ["Vibe Coding", "AI 編程", "Dex Horthy", "HumanLayer", "技術債"]
-categories: ["AI 產業"]
+categories: ["AI 開發實戰"]
 source_url: "https://www.youtube.com/watch?v=rmvDxxNubIg"
 source_name: "AI Engineer World's Fair 2025"
 draft: false

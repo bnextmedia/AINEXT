@@ -3,7 +3,7 @@ title: "大陸帝國的生存法則 — 理解俄羅斯與中國行為的底層�
 date: 2025-12-25T12:00:00+08:00
 description: "為什麼古代廢墟都是廢墟？美國海軍戰院教授 Sarah Paine 提出「大陸帝國法則」：不要兩線作戰、不要有強鄰。這套法則解釋了俄羅斯和中國數百年來的行為模式，也解釋了為什麼海洋秩序創造繁榮，而大陸秩序製造廢墟。"
 tags: ["Sarah Paine", "地緣政治", "大陸帝國", "海洋秩序", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=RH_ycZYH8-s"
 source_name: "Dwarkesh Podcast"
 draft: false

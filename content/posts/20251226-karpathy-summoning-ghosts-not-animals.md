@@ -3,7 +3,7 @@ title: "Karpathy：「我們不是在建造動物，是在召喚幽靈」"
 date: 2025-12-26T10:00:00+08:00
 description: "Andrej Karpathy 提出一個引人深思的框架：LLM 不是我們試圖複製的動物智能，而是一種全新的「幽靈」——透過模仿人類網路資料誕生的靈體。這個區別，決定了我們該如何思考 AI 的發展路徑。"
 tags: ["Andrej Karpathy", "LLM", "AGI", "AI 哲學", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=lXUZvyajciY"
 source_name: "Dwarkesh Podcast"
 draft: false

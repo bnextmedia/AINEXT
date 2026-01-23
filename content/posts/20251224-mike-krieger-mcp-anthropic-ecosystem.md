@@ -3,7 +3,7 @@ title: "MCP、Projects、Artifacts：Anthropic 正在建造什麼樣的 AI 產�
 date: 2025-12-24T01:46:00+08:00
 description: "Mike Krieger 深入介紹 Anthropic 的產品生態系布局：從讓 Claude 連接數位生活的 MCP 協議、讓非工程師也能建造軟體的趨勢，到企業與個人產品的交叉學習。他也分享自己如何使用 Claude 作為批評者與加速器，以及 Anthropic 如何從內部生產力實驗中學習。"
 tags: ["Mike Krieger", "Anthropic", "MCP", "Claude", "AI 產品", "Projects", "Artifacts", "企業 AI"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=_-V5objmQ00"
 source_name: "Generative Now (Lightspeed)"
 draft: false

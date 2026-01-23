@@ -3,7 +3,7 @@ title: "馬斯克警告：中國 AI 算力將超越全世界，美國靠什麼�
 date: 2026-01-07T13:00:00+08:00
 description: "馬斯克在 Podcast 中警告，按照現有趨勢，中國的 AI 算力將遠超全球其他國家。關鍵在於能源：中國的太陽能年產能已達 1,500GW，而 AI 發展的瓶頸已從晶片轉向電力。他認為電池儲能是美國最快追上的方式。"
 tags: ["Elon Musk", "中國", "AI 算力", "太陽能", "電池", "能源", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=RSNuB9pj9P8"
 source_name: "Moonshots with Peter Diamandis"
 draft: false

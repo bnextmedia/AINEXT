@@ -3,7 +3,7 @@ title: "訓練 AI 代理的四個不能妥協——OpenAI 的 Agent RFT 實戰�
 date: 2025-12-25T15:30:00+08:00
 description: "OpenAI 分享使用 Agent RFT 訓練 AI 代理的四大成功原則：任務要明確可評分、訓練資料要像生產環境、讓模型有探索空間、以及獎勵函數不能被鑽漏洞。這些原則來自與 Cognition、Cosine、MACO 等公司的實戰合作經驗。"
 tags: ["OpenAI", "Agent RFT", "AI Agent", "Fine-tuning", "強化學習", "最佳實踐"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=p1CmPZ2j6Lk"
 source_name: "OpenAI DevDay"
 draft: false

@@ -1,0 +1,279 @@
+{{ define "main" }}
+<div class="wrap mt company-page">
+  <article class="company-profile">
+    <!-- 頁首：Logo + 基本資訊 -->
+    <header class="company-header">
+      <div class="company-header-content">
+        {{ with .Params.logo }}
+        <img src="{{ . }}" alt="{{ $.Title }} Logo" class="company-logo">
+        {{ else }}
+        <div class="company-logo-placeholder">
+          <span>{{ substr .Title 0 2 | upper }}</span>
+        </div>
+        {{ end }}
+        <div class="company-header-info">
+          <h1 class="company-name">{{ .Title }}</h1>
+          {{ with .Params.name_zh }}<p class="company-name-zh">{{ . }}</p>{{ end }}
+          <p class="company-tagline">{{ .Params.description_short }}</p>
+          <div class="company-meta">
+            {{ with .Params.headquarters }}<span class="meta-item"><svg class="icon"><use xlink:href="#location"></use></svg> {{ . }}</span>{{ end }}
+            {{ with .Params.founded }}<span class="meta-item"><svg class="icon"><use xlink:href="#calendar"></use></svg> 成立於 {{ . }}</span>{{ end }}
+            {{ with .Params.employee_count }}<span class="meta-item"><svg class="icon"><use xlink:href="#users"></use></svg> {{ . }} 人</span>{{ end }}
+          </div>
+        </div>
+      </div>
+      <!-- 快速連結 -->
+      <div class="company-links">
+        {{ with .Params.website }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-primary">官方網站</a>{{ end }}
+        {{ with .Params.social }}
+          {{ with .twitter }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-icon" title="Twitter"><svg class="icon"><use xlink:href="#twitter"></use></svg></a>{{ end }}
+          {{ with .linkedin }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-icon" title="LinkedIn"><svg class="icon"><use xlink:href="#linkedin"></use></svg></a>{{ end }}
+          {{ with .github }}<a href="{{ . }}" target="_blank" rel="noopener" class="btn btn-icon" title="GitHub"><svg class="icon"><use xlink:href="#github"></use></svg></a>{{ end }}
+        {{ end }}
+      </div>
+    </header>
+
+    <!-- 狀態標籤 -->
+    <div class="company-badges">
+      {{ with .Params.status }}
+      <span class="badge badge-{{ . }}">
+        {{ if eq . "private" }}私有公司
+        {{ else if eq . "public" }}上市公司
+        {{ else if eq . "acquired" }}已被收購
+        {{ else if eq . "defunct" }}已停止營運
+        {{ else }}{{ . }}{{ end }}
+      </span>
+      {{ end }}
+      {{ with .Params.category_primary }}<span class="badge badge-category">{{ . }}</span>{{ end }}
+      {{ with .Params.category_secondary }}<span class="badge badge-category-secondary">{{ . }}</span>{{ end }}
+    </div>
+
+    <!-- 主要內容區 -->
+    <div class="company-content">
+      <!-- 左側：詳細資訊 -->
+      <div class="company-main">
+
+        <!-- 公司簡介 -->
+        <section class="company-section">
+          <h2>關於 {{ .Title }}</h2>
+          <div class="company-description">
+            {{ with .Params.description_long }}{{ . | markdownify }}{{ else }}{{ .Content }}{{ end }}
+          </div>
+          {{ with .Params.taiwan_relevance }}
+          <div class="taiwan-relevance">
+            <h3>台灣觀點</h3>
+            <p>{{ . | markdownify }}</p>
+          </div>
+          {{ end }}
+        </section>
+
+        <!-- 產品與服務 -->
+        {{ with .Params.products }}
+        <section class="company-section">
+          <h2>產品與服務</h2>
+          <div class="products-grid">
+            {{ range . }}
+            <div class="product-card">
+              <h3>{{ .name }}</h3>
+              <p>{{ .description }}</p>
+              {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">了解更多 →</a>{{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+        <!-- 發展歷史時間軸 -->
+        {{ with .Params.milestones }}
+        <section class="company-section">
+          <h2>發展歷史</h2>
+          <div class="timeline">
+            {{ range . }}
+            <div class="timeline-item">
+              <div class="timeline-date">{{ .date }}</div>
+              <div class="timeline-content">{{ .event }}</div>
+            </div>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+        <!-- 融資歷程 -->
+        {{ with .Params.funding_rounds }}
+        <section class="company-section">
+          <h2>融資歷程</h2>
+          <div class="funding-summary">
+            {{ with $.Params.total_funding }}<div class="funding-stat"><span class="stat-value">{{ . }}</span><span class="stat-label">總融資額</span></div>{{ end }}
+            {{ with $.Params.latest_valuation }}<div class="funding-stat"><span class="stat-value">{{ . }}</span><span class="stat-label">最新估值</span></div>{{ end }}
+            {{ with $.Params.latest_round }}<div class="funding-stat"><span class="stat-value">{{ . }}</span><span class="stat-label">最新輪次</span></div>{{ end }}
+          </div>
+          <div class="funding-chart" id="funding-chart" data-rounds='{{ . | jsonify }}'></div>
+          <table class="funding-table">
+            <thead>
+              <tr>
+                <th>輪次</th>
+                <th>日期</th>
+                <th>金額</th>
+                <th>估值</th>
+                <th>領投方</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range . }}
+              <tr>
+                <td>{{ .round }}</td>
+                <td>{{ .date }}</td>
+                <td>{{ .amount }}</td>
+                <td>{{ with .valuation }}{{ . }}{{ else }}-{{ end }}</td>
+                <td>{{ with .lead_investor }}{{ . }}{{ else }}-{{ end }}</td>
+              </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </section>
+        {{ end }}
+
+        <!-- 投資人 -->
+        {{ with .Params.investors }}
+        <section class="company-section">
+          <h2>主要投資人</h2>
+          <div class="investors-list">
+            {{ range . }}
+            <div class="investor-item">
+              <span class="investor-name">{{ .name }}</span>
+              {{ with .type }}<span class="investor-type">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+        <!-- 關鍵人物 -->
+        {{ if or .Params.founders .Params.key_people }}
+        <section class="company-section">
+          <h2>關鍵人物</h2>
+          <div class="people-grid">
+            {{ with .Params.founders }}
+              {{ range . }}
+              <div class="person-card">
+                {{ with .people_slug }}
+                <a href="{{ "/people/" | relURL }}{{ . }}/">
+                {{ end }}
+                  <div class="person-info">
+                    <h3>{{ .name }}</h3>
+                    <p>{{ .role }}</p>
+                    <span class="person-badge">創辦人</span>
+                  </div>
+                {{ with .people_slug }}</a>{{ end }}
+              </div>
+              {{ end }}
+            {{ end }}
+            {{ with .Params.key_people }}
+              {{ range . }}
+              <div class="person-card">
+                {{ with .people_slug }}
+                <a href="{{ "/people/" | relURL }}{{ . }}/">
+                {{ end }}
+                  <div class="person-info">
+                    <h3>{{ .name }}</h3>
+                    <p>{{ .role }}</p>
+                  </div>
+                {{ with .people_slug }}</a>{{ end }}
+              </div>
+              {{ end }}
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+        <!-- 相關文章 -->
+        {{ $companySlug := .File.ContentBaseName }}
+        {{ $relatedPosts := where (where .Site.RegularPages "Section" "posts") ".Params.related_companies" "intersect" (slice $companySlug) }}
+        {{ if $relatedPosts }}
+        <section class="company-section">
+          <h2>相關報導</h2>
+          <div class="related-posts">
+            {{ range $relatedPosts.ByDate.Reverse }}
+            <a href="{{ .Permalink }}" class="related-post-item">
+              <time>{{ .Date.Format "2006-01-02" }}</time>
+              <h3>{{ .Title }}</h3>
+            </a>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+
+      </div>
+
+      <!-- 右側：資訊卡 -->
+      <aside class="company-sidebar">
+        <div class="info-card">
+          <h3>基本資料</h3>
+          <dl class="info-list">
+            {{ with .Params.name_en }}<dt>英文名稱</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.founded }}<dt>成立年份</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.country }}<dt>國家</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.city }}<dt>城市</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.employee_count }}<dt>員工人數</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.current_ceo }}<dt>現任 CEO</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.stock_ticker }}<dt>股票代號</dt><dd>{{ . }}</dd>{{ end }}
+          </dl>
+        </div>
+
+        {{ with .Params.business_model }}
+        <div class="info-card">
+          <h3>商業模式</h3>
+          <div class="tag-list">
+            {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        {{ with .Params.target_industries }}
+        <div class="info-card">
+          <h3>目標產業</h3>
+          <div class="tag-list">
+            {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        {{ with .Params.tags }}
+        <div class="info-card">
+          <h3>相關標籤</h3>
+          <div class="tag-list">
+            {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+          </div>
+        </div>
+        {{ end }}
+
+        <!-- 外部連結 -->
+        {{ with .Params.social }}
+        <div class="info-card">
+          <h3>外部連結</h3>
+          <ul class="external-links">
+            {{ with .crunchbase }}<li><a href="{{ . }}" target="_blank" rel="noopener">Crunchbase</a></li>{{ end }}
+            {{ with .wikipedia }}<li><a href="{{ . }}" target="_blank" rel="noopener">Wikipedia</a></li>{{ end }}
+            {{ with .investor_relations }}<li><a href="{{ . }}" target="_blank" rel="noopener">投資人關係</a></li>{{ end }}
+          </ul>
+        </div>
+        {{ end }}
+
+        <!-- 資料來源與更新 -->
+        <div class="info-card info-card-meta">
+          <h3>資料資訊</h3>
+          <dl class="info-list">
+            {{ with .Params.last_updated }}<dt>最後更新</dt><dd>{{ . }}</dd>{{ end }}
+            {{ with .Params.data_sources }}
+            <dt>資料來源</dt>
+            <dd>{{ delimit . ", " }}</dd>
+            {{ end }}
+          </dl>
+          {{ with .Params.update_notes }}<p class="update-notes">{{ . }}</p>{{ end }}
+        </div>
+      </aside>
+    </div>
+
+  </article>
+</div>
+{{ end }}

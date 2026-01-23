@@ -3,7 +3,7 @@ title: "DevOps 死了嗎？Kubernetes 傳奇 Kelsey Hightower 的 2025 答案"
 date: 2025-12-25T18:20:00+08:00
 description: "Kelsey Hightower 是 Kubernetes 共同創辦人、前 Google Cloud 開發者大使。在這場深度訪談中，他分享對 DevOps 現況、平台工程、雲端回遷、Serverless、Kubernetes 未來、以及 AI 的完整看法。這是一位老兵對整個產業的務實診斷。"
 tags: ["Kelsey Hightower", "DevOps", "Kubernetes", "Platform Engineering", "Cloud", "AI", "JetBrains"]
-categories: ["科技趨勢"]
+categories: ["AI 開發實戰"]
 source_url: "https://www.youtube.com/watch?v=HdUbTyvrfKo"
 source_name: "JetBrains"
 draft: false

@@ -3,7 +3,7 @@ title: "Naval Ravikant 在 2019 年說：通用 AI 在我們有生之年不會�
 date: 2025-12-26T11:30:00+08:00
 description: "2019 年，Naval Ravikant 在 Joe Rogan 節目上表示，通用人工智慧（AGI）在我們有生之年不會實現，自動化末日是「對不存在問題的不存在解決方案」。五年後的今天，這番話值得重新審視。"
 tags: ["Naval Ravikant", "AI", "AGI", "自動化", "未來工作", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=3qHkcs3kG44"
 source_name: "Joe Rogan Experience #1309"
 draft: false

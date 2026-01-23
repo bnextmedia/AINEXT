@@ -3,7 +3,7 @@ title: "GPT-5.2 的能力過剩：模型這麼強，為什麼企業還是用不�
 date: 2025-12-23T00:59:00+08:00
 description: "OpenAI 的 GDPVal 評估顯示 GPT-5.2 在七成知識工作上表現優於人類，但許多企業仍說看不到投資報酬率。Sam Altman 提出「能力過剩」概念：AI 能力已到位，但人類的工作習慣和採用速度跟不上。這個落差解釋了為何 AI 改變世界的速度可能比預期慢。"
 tags: ["OpenAI", "Sam Altman", "GPT-5", "企業採用", "AI 生產力"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/in/podcast/sam-altman-how-openai-wins-ai-buildout-logic-ipo-in-2026/id1522960417?i=1000741901091"
 source_name: "Big Technology Podcast"
 draft: false

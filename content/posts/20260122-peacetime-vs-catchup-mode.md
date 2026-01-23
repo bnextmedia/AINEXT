@@ -3,7 +3,7 @@ title: "OpenAI 元老的創業啟示：「和平時期」vs「追趕模式」，
 date: 2026-01-22T11:00:00+08:00
 description: "John Schulman 比較早期 OpenAI 與現在 AI 新創的處境：前者是「和平時期」可以探索，後者被迫先追趕 state-of-the-art。但他刻意在 Thinking Machines 避免純追趕模式——因為探索性研究的肌肉，晚了就練不起來。"
 tags: ["John Schulman", "OpenAI", "Thinking Machines", "AI 創業", "研究管理", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=29BYxvvF1iM"
 source_name: "Cursor Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "醫療 AI 的未來：一位從業者的預測"
 date: 2025-12-26T13:00:00+08:00
 description: "Andy Beam 是哈佛前教授、醫療 AI 先驅，現任 Lila Sciences 技術長。在一場訪談中，他分享了對醫療 AI 未來的預測：診斷問題已經解決，下一步是通用電腦操作；學術界最重要的任務是評估；給臨床醫師的建議是每天都用 AI，建立直覺。這是一份來自前線的觀察報告。"
 tags: ["醫療 AI", "Andy Beam", "AI 預測", "臨床應用", "電腦操作", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879"
 source_name: "NEJM AI Grand Rounds"
 draft: false

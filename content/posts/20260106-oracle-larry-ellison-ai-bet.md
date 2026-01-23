@@ -3,7 +3,7 @@ title: "Oracle 憑什麼一天漲 2500 億美元？81 歲艾里森的 AI 豪賭"
 date: 2026-01-06T10:00:00+08:00
 description: "甲骨文（Oracle）股價單日暴漲 35%，市值增加近 2500 億美元，創辦人艾里森一度超越馬斯克成為全球首富。這家被認為是「老牌軟體公司」的企業，為何能在 AI 時代迎來第二春？背後的賭注又與臺灣供應鏈有什麼關係？"
 tags: ["Oracle", "Larry Ellison", "AI", "雲端運算", "台灣供應鏈", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=NsQozkZmrXA"
 source_name: "DeepTech Podcast"
 draft: false

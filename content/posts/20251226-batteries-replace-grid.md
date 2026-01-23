@@ -3,7 +3,7 @@ title: "電網已死？Casey Handmer：電池正在取代它"
 date: 2025-12-26T14:45:00+08:00
 description: "電網做的是空間套利，電池做的是時間套利。Terraform Industries 創辦人 Casey Handmer 認為，電網的擴建成本太高、速度太慢，未來大型用電戶會自建電廠，電池將成為新的基礎設施。"
 tags: ["Casey Handmer", "電網", "電池", "太陽能", "能源基礎設施"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=3cDHx2_QbPE"
 source_name: "YouTube"
 draft: false

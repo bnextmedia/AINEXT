@@ -3,7 +3,7 @@ title: "半導體與關稅——為什麼 TSMC 投資 1000 億美元還不夠？
 date: 2025-12-26T11:30:00+08:00
 description: "TSMC 宣布在美投資 1000 億美元，白宮高規格接待。但這對關稅談判有幫助嗎？前美國財政部官員 Brad Setser 在 Hudson Institute 座談會上直言：美國要的是 TSMC 50% 產能在美生產，而且「別再抱怨美國工人太貴」。"
 tags: ["TSMC", "半導體", "關稅", "川普", "Brad Setser", "臺灣"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=0v2ytB6KVA0"
 source_name: "Hudson Institute"
 draft: false

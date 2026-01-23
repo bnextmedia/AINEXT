@@ -3,7 +3,7 @@ title: "計劃經濟為何注定失敗？從蘇聯崩潰看經濟體制的致命
 date: 2025-12-25T14:30:00+08:00
 description: "蘇聯曾宣稱是世界最大的電視生產國——因為他們生產的電視最重。這個黑色幽默背後，是計劃經濟的結構性荒謬。Sarah Paine 教授從親身經歷出發，剖析蘇聯經濟體制如何從數據造假、資源錯配、錯過技術革命，一步步走向崩潰。"
 tags: ["Sarah Paine", "蘇聯", "計劃經濟", "經濟史", "市場經濟", "Dwarkesh Podcast"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=FdkpWrlR5zg"
 source_name: "Dwarkesh Podcast"
 draft: false

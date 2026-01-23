@@ -3,7 +3,7 @@ title: "第二次冷戰來了嗎？從蘇聯崩潰看美中對抗的戰略啟示
 date: 2025-12-25T15:30:00+08:00
 description: "「我們似乎正處於第二次冷戰。」Sarah Paine 教授在講座結尾這樣說。但這次對手不是蘇聯，而是經濟實力更強、與全球化更深度嵌合的中國。從第一次冷戰的終結中，我們能學到什麼？耐心、長期戰略、經濟繁榮、不要自己把好牌打爛——這些教訓今天依然適用。"
 tags: ["Sarah Paine", "冷戰", "美中關係", "地緣政治", "戰略", "Dwarkesh Podcast"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=FdkpWrlR5zg"
 source_name: "Dwarkesh Podcast"
 draft: false

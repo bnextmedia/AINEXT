@@ -3,7 +3,7 @@ title: "「AI 不是泡沫」——挪威海豹部隊出身的創投家，為何
 date: 2026-01-19T10:00:00+08:00
 description: "Antler 創辦人暨 CEO Magnus Grimeland 從挪威海軍特種部隊、東南亞電商創業，一路走到全球早期創投。他認為 AI 不是泡沫，但創辦人必須具備「失敗不是選項」的心態。"
 tags: ["Antler", "Magnus Grimeland", "AI 投資", "創投", "東南亞", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://open.spotify.com/episode/6A69f76UpW7eAajE1PC1Qx"
 source_name: "CNBC Beyond the Valley"
 draft: false

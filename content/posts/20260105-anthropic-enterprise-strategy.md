@@ -3,7 +3,7 @@ title: "當 OpenAI 搶消費者時，Anthropic 為什麼選擇 B2B？"
 date: 2026-01-05T12:00:00+08:00
 description: "OpenAI 用 ChatGPT 席捲消費市場時，Anthropic 卻把重心放在企業客戶。總裁 Daniela Amodei 解釋這個決策背後的兩個核心理由，以及為什麼三大雲端平台都搶著要 Claude。"
 tags: ["Anthropic", "Daniela Amodei", "B2B", "企業市場", "Claude", "CNBC"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=GMXnmaky9FY"
 source_name: "CNBC Television"
 draft: false

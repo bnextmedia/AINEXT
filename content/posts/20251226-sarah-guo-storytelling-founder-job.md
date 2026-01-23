@@ -3,7 +3,7 @@ title: "說故事是創辦人的工作——頂尖創投 Sarah Guo 談為什麼�
 date: 2025-12-26T10:00:00+08:00
 description: "AI 創投 Conviction 創辦人 Sarah Guo 在 Podcast 中直言：說故事是創辦人的核心職責，無法外包給行銷團隊或 storyteller。她指出「寫作即思考」，如果創辦人說不清楚公司的故事，往往代表策略本身有問題。"
 tags: ["Sarah Guo", "Conviction", "創業", "說故事", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=DRZatti6mVM"
 source_name: "TBPN Podcast"
 draft: false

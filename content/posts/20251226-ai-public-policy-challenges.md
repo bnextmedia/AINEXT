@@ -3,7 +3,7 @@ title: "AI 改變公共政策的真實案例：從印度 WhatsApp 到美國 SNAP
 date: 2025-12-26T12:00:00+08:00
 description: "AI 在公共政策領域有巨大潛力，但從研究發現到實際落地，中間隔著一道難以跨越的鴻溝。芝加哥大學專家分享 SNAP 糧食援助計畫的困境，以及發展中國家如何用 WhatsApp + AI 找到另一條出路。"
 tags: ["AI", "公共政策", "SNAP", "WhatsApp", "Agentic AI", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261"
 source_name: "The Pie: An Economics Podcast"
 draft: false

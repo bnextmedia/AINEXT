@@ -3,7 +3,7 @@ title: "YC 創業者換邊站：Anthropic 首度超越 OpenAI"
 date: 2025-12-23
 description: "YC 最新數據揭露：Anthropic 首度超越 OpenAI 成為創業者首選 API。為什麼是 coding 能力讓 Claude 逆襲？模型套利時代來臨，創業者不再效忠單一家。"
 tags: ["YC", "Anthropic", "OpenAI", "Claude", "Gemini", "LLM"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=cqrJzG03ENE"
 source_name: "The Light Cone Podcast"
 draft: false

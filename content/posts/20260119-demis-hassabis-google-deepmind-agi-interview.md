@@ -3,7 +3,7 @@ title: "Google AI 掌門人 Demis Hassabis：AGI 還要 5-10 年，但中國只�
 date: 2026-01-19T10:00:00+08:00
 description: "Google DeepMind CEO Demis Hassabis 在 CNBC 專訪中，談 AGI 時間表、世界模型與 LLM 的融合、中國 AI 競爭力、AI 泡沫，以及為何現有聊天機器人是「鋸齒狀智慧」。這位諾貝爾獎得主認為，AI 將帶來比工業革命大 10 倍、快 10 倍的變革。"
 tags: ["Demis Hassabis", "Google DeepMind", "AGI", "World Models", "AlphaFold", "Gemini", "Podcast"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=q6fq4_uP7aM"
 source_name: "CNBC - The Tech Download"
 draft: false

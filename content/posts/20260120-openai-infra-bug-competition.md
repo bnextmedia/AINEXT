@@ -3,7 +3,7 @@ title: "「每家 Infra 都有 bug，誰修得多誰就贏」—— OpenAI 核�
 date: 2026-01-20T10:00:00+08:00
 description: "OpenAI 核心工程師翁家翌在訪談中揭示 AI 競賽的殘酷真相：決定勝負的不是演算法創新，而是 Infra 的 bug 數量和迭代速度。這個觀點徹底顛覆了學術界對 AI 研究的想像。"
 tags: ["OpenAI", "翁家翌", "AI Infra", "強化學習", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=I0DrcsDf3Os"
 source_name: "WhynotTV Podcast"
 draft: false

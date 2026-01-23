@@ -3,7 +3,7 @@ title: "Karpathy：「這是 Agent 的十年，不是 Agent 的一年」"
 date: 2025-12-26T10:30:00+08:00
 description: "當各大 AI 實驗室都在喊 2025 是 Agent 元年時，Andrej Karpathy 潑了一盆冷水：真正可用的 Agent 還需要十年。這個判斷來自他 15 年的 AI 經驗，以及對業界預測紀錄的觀察。"
 tags: ["Andrej Karpathy", "AI Agent", "AGI", "AI 預測", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=lXUZvyajciY"
 source_name: "Dwarkesh Podcast"
 draft: false

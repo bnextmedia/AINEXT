@@ -3,7 +3,7 @@ title: "Amazon 砸百億美元投資 OpenAI：一場精心算計的雲端、晶�
 date: 2025-12-26T11:00:00+08:00
 description: "Amazon 宣布對 OpenAI 投資超過 100 億美元，這筆交易背後不只是財務投資，更涉及 AWS 雲端服務綁定、自研 Tranium AI 晶片推廣，以及 AI 時代電商入口的保衛戰。本文拆解這筆交易的多層戰略意涵。"
 tags: ["Amazon", "OpenAI", "AWS", "Tranium", "AI 投資", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=DRZatti6mVM"
 source_name: "TBPN Podcast"
 draft: false

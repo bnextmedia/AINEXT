@@ -3,7 +3,7 @@ title: "AI 不用比人強，「夠好就好」才是真正的威脅"
 date: 2026-01-21T10:00:00+08:00
 description: "《金融時報》記者圓桌討論 AI 泡沫，意外揭露一個殘酷現實：AI 不需要超越人類，只要「夠好又夠便宜」，企業就會選擇換掉你。創意產業首當其衝。"
 tags: ["AI 泡沫", "金融時報", "創意產業", "勞動市場", "LLM", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/tw/podcast/tech-in-2026-inside-the-ai-bubble/id1169101860?i=1000745133717"
 source_name: "FT Tech Tonic"
 draft: false

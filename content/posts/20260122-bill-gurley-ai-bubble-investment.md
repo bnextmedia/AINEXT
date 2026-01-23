@@ -3,7 +3,7 @@ title: "AI 泡沫與科技浪潮是雙生兄弟：傳奇創投家 Bill Gurley �
 date: 2026-01-22T10:00:00+08:00
 description: "矽谷頂級創投 Benchmark 合夥人 Bill Gurley 引用經濟學家 Carlotta Perez 的理論，解釋為什麼 AI 泡沫與科技革命必然同時存在，並點出當前 AI 投資市場的循環交易問題與散戶風險。"
 tags: ["Bill Gurley", "AI", "創投", "泡沫", "Carlotta Perez", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=rjSesMsQTxk"
 source_name: "Tim Ferriss Show"
 draft: false

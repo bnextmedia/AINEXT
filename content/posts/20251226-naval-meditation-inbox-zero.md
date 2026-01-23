@@ -3,7 +3,7 @@ title: "Naval Ravikant：冥想就是清空你心靈的 Email Inbox"
 date: 2025-12-26T11:00:00+08:00
 description: "Naval Ravikant 用「Email Inbox」比喻冥想，認為我們心中累積了幾十年未處理的問題。冥想不是什麼神秘儀式，而是自我治療——一封一封處理那些堆積的信。"
 tags: ["Naval Ravikant", "冥想", "心理健康", "正念", "Podcast"]
-categories: ["人生哲學"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=3qHkcs3kG44"
 source_name: "Joe Rogan Experience #1309"
 draft: false

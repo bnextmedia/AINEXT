@@ -3,7 +3,7 @@ title: "7 小時 vs 2 週——AI 編程的 10 倍速真相與代價"
 date: 2025-12-25T13:00:00+08:00
 description: "一個週六下午，35,000 行程式碼。HumanLayer 創辦人 Dex Horthy 分享他在 300,000 行 Rust codebase 中 one-shot fix 的實戰案例，以及在 Parquet Java 慘遭滑鐵盧的經驗。10 倍速的代價是什麼？"
 tags: ["AI 編程", "Dex Horthy", "HumanLayer", "BAML", "Rust"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=rmvDxxNubIg"
 source_name: "AI Engineer World's Fair 2025"
 draft: false

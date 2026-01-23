@@ -3,7 +3,7 @@ title: "別再造 Agent 了！Anthropic 說：2026 年是 Skills 的天下"
 date: 2025-12-25T10:00:00+08:00
 description: "2025 是 AI Agent 之年，但 Anthropic 已經在佈局下一步：Skills。這個新概念能讓 AI 像 CPA 一樣專業處理任務，而不只是聰明的數學家。Skills 是什麼？為什麼 Anthropic 說「別建 Agent，建 Skills」？"
 tags: ["Anthropic", "Claude", "AI Agent", "Skills", "MCP", "AI 開發"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=f8I4cGrDFYA"
 source_name: "Break Even Brothers Podcast"
 draft: false

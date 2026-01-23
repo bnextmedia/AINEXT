@@ -3,7 +3,7 @@ title: "Sergey Brin 的史丹佛往事：從撬鎖、溜直排輪到創辦 Googl
 date: 2025-12-25T12:00:00+08:00
 description: "在史丹佛工程學院百年校慶上，Google 共同創辦人 Sergey Brin 回憶了他在 PhD 時期的往事：研究逆向碎紙機、學會撬鎖、爬鷹架入侵電腦系統取得萬能門禁卡。這些看似荒謬的經歷，揭示了什麼樣的環境能孕育出改變世界的創新。"
 tags: ["Sergey Brin", "Google", "Stanford", "創業故事", "創新文化"]
-categories: ["人物專訪"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=0nlNX94FcUE"
 source_name: "Stanford Engineering"
 draft: false

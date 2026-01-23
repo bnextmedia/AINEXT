@@ -3,7 +3,7 @@ title: "黃仁勳：無知是一種超能力，NVIDIA 不可能被建立——�
 date: 2026-01-21T11:00:00+08:00
 description: "NVIDIA 創辦人黃仁勳分享他的創業哲學：從第一性原理建立信念、無知如何成為超能力、以及為什麼 NVIDIA 沒有終局計畫。"
 tags: ["Jensen Huang", "NVIDIA", "創業", "第一性原理", "Podcast"]
-categories: ["創業經營"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=8FOdAc_i_tM"
 source_name: "A Bit Personal with Jodi Shelton"
 draft: false

@@ -3,7 +3,7 @@ title: "Vibe Coding 時代的技術債：寫程式像買房，你要會管理負
 date: 2026-01-04T12:00:00+08:00
 description: "AI 讓寫程式變得像說話一樣簡單，但免費的程式碼背後藏著高昂的代價。史丹佛 CS230 講座用「買房 vs 刷卡」的比喻，解釋為什麼技術債觀念是 AI 時代工程師最需要的思維框架。"
 tags: ["Vibe Coding", "技術債", "軟體工程", "AI 工具", "史丹佛"]
-categories: ["AI 產業"]
+categories: ["AI 開發實戰"]
 source_url: "https://www.youtube.com/watch?v=AuZoDsNmG_s"
 source_name: "Stanford CS230"
 draft: false

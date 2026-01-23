@@ -3,7 +3,7 @@ title: "「矽盾」的兩難：當護身符被要求交出去"
 date: 2025-12-26T11:00:00+08:00
 description: "台灣人長期相信「只要有台積電，世界就會保護我們」。但芝加哥大學經濟學教授謝長泰指出，這個「矽盾」論述正面臨前所未有的挑戰：如果台積電被迫將產能外移，台灣會不會變成「下一個烏克蘭」？這個問題，台灣人私下都在談，但沒人敢公開說。"
 tags: ["台積電", "TSMC", "台灣", "矽盾", "烏克蘭", "地緣政治", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://bfi.uchicago.edu/insights/between-a-chip-and-a-hard-place-the-economics-of-security-and-sovereignty-in-taiwan/"
 source_name: "The Pie: An Economics Podcast"
 draft: false

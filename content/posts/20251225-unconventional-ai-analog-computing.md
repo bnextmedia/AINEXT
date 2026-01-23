@@ -3,7 +3,7 @@ title: "80 年來首次，有人想重寫計算的底層架構"
 date: 2025-12-25T14:30:00+08:00
 description: "Unconventional AI 創辦人 Naveen Rao 正在嘗試一件「瘋狂」的事：用類比電路取代數位電路來執行 AI 運算。這不是漸進式改良，而是對計算本質的重新思考。"
 tags: ["Unconventional AI", "Naveen Rao", "類比計算", "AI 晶片", "電腦架構"]
-categories: ["科技趨勢"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=wZ4DT20OHXE"
 source_name: "NeurIPS 2024 訪談"
 draft: false

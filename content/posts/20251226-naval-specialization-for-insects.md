@@ -3,7 +3,7 @@ title: "專業化是給昆蟲的：Naval 的跨領域人生觀"
 date: 2025-12-26T16:00:00+08:00
 description: "Naval Ravikant 引用 Robert Heinlein 的名言，主張人類不該被單一專業定義。從古希臘羅馬的人生階段觀，到現代創業家的重新開始勇氣，這是一套關於「活出完整人生」的哲學。"
 tags: ["Naval Ravikant", "跨領域學習", "人生哲學", "Beginner's Mind", "Podcast"]
-categories: ["人生思考"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=3qHkcs3kG44"
 source_name: "Joe Rogan Experience #1309"
 draft: false

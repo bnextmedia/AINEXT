@@ -3,7 +3,7 @@ title: "客製化晶片來了，Nvidia 的好日子要結束了嗎？"
 date: 2026-01-06T10:30:00+08:00
 description: "OpenAI 與 Broadcom 簽下百億美元合約開發客製化晶片，Nvidia 則以 200 億美元收購推論晶片新創 Groq。當科技巨頭紛紛投入自製晶片，Nvidia 的 GPU 霸權還能維持多久？這場晶片戰爭的贏家會是誰？"
 tags: ["Nvidia", "Groq", "客製化晶片", "OpenAI", "Broadcom", "AI晶片", "Podcast"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=NsQozkZmrXA"
 source_name: "DeepTech Podcast"
 draft: false

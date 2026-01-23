@@ -3,7 +3,7 @@ title: "OpenAI 內部人士：2026 是 Agent 元年，但最大瓶頸不是算�
 date: 2025-12-24T01:31:00+08:00
 description: "OpenAI Codex 負責人 Alexander Embiricos 揭示 AI agent 發展的真正瓶頸：不是算力，而是人類的打字和審核速度。他預測 2026 年新創公司將率先看到生產力的 hockey stick 曲線，因為它們可以從零設計對 agent 友善的系統架構。"
 tags: ["AI Agent", "OpenAI", "Codex", "生產力", "新創"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=z1ISq9Ty4Cg"
 source_name: "Lenny's Podcast"
 draft: false

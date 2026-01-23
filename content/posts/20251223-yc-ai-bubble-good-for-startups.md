@@ -3,7 +3,7 @@ title: "AI 泡沫？YC 合夥人說：對新創反而是好事"
 date: 2025-12-23
 description: "YC 合夥人解析：為什麼 AI 泡沫對新創是利多？電信泡沫如何催生 YouTube，以及技術革命的安裝期與部署期如何影響創業時機。"
 tags: ["YC", "AI 泡沫", "創業", "科技投資"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=cqrJzG03ENE"
 source_name: "The Light Cone Podcast"
 draft: false

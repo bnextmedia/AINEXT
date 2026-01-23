@@ -3,7 +3,7 @@ title: "當盟友也被當「肥羊」——川普關稅戰下，臺灣的真正
 date: 2025-12-26T10:00:00+08:00
 description: "Hudson Institute 座談會上，四位專家直言：無論臺灣多配合，川普政府可能都不在乎。日本、南韓這些盟友一樣被課 25% 關稅，臺灣憑什麼例外？這場座談揭示了一個殘酷現實：在川普的「戰略模糊」下，配合與對抗的結果可能一樣。"
 tags: ["川普", "關稅", "臺灣", "美臺關係", "Hudson Institute", "Riley Walters"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=0v2ytB6KVA0"
 source_name: "Hudson Institute"
 draft: false

@@ -3,7 +3,7 @@ title: "AI 正在被訓練成討好你，而不是幫助你"
 date: 2025-12-24T01:55:00+08:00
 description: "Surge AI 創辦人 Edwin Chen 警告：AI 正在走上社群媒體的老路，被訓練成追多巴胺而不是追真相。LLM Arena 排行榜「為雜貨店結帳台買八卦雜誌的人優化」。當 AI 讓你感覺良好時，問問自己：這是幫助還是討好？"
 tags: ["AI 倫理", "Surge AI", "使用者體驗", "排行榜", "討好"]
-categories: ["AI 產業"]
+categories: ["AI 安全與治理"]
 source_url: "https://www.youtube.com/watch?v=dduQeaqmpnI"
 source_name: "Lenny's Podcast"
 draft: false

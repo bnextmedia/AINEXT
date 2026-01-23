@@ -3,7 +3,7 @@ title: "Palantir 的「道德灰色地帶」——當 AI 遇上國家機器"
 date: 2025-12-24T01:40:00+08:00
 description: "Palantir CEO Alex Karp 在紐約時報峰會上為公司與 ICE 的合作辯護：「你越想讓移民執法合乎憲法，你就越需要我的產品。」這篇文章探討 AI 公司與政府合作的道德困境，以及「技術中立」論述在現實中的侷限。"
 tags: ["Palantir", "AI 倫理", "國防科技", "政府合作", "Alex Karp"]
-categories: ["AI 產業"]
+categories: ["AI 安全與治理"]
 source_url: "https://www.youtube.com/watch?v=8i-ys9faa74"
 source_name: "紐約時報 DealBook 峰會"
 draft: false

@@ -3,7 +3,7 @@ title: "Musk 最新預測：2026 年底 AGI，2030 年 AI 超越全人類"
 date: 2026-01-23T13:00:00+08:00
 description: "Elon Musk 在 2026 達沃斯論壇上給出了他對 AI 發展的最新時間表：今年底或最晚明年，AI 將比任何單一人類都聰明；五年後，AI 的集體智慧將超越全人類。但考慮到他過去的預測紀錄，這個時間表該如何解讀？"
 tags: ["Elon Musk", "AGI", "AI 預測", "xAI", "WEF Davos"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=IgifEgm1-e0"
 source_name: "World Economic Forum"
 draft: false

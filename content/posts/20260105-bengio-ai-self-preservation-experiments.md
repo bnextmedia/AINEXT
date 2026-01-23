@@ -3,7 +3,7 @@ title: "AI 系統開始「想活下去」：Bengio 揭露的恐怖實驗"
 date: 2026-01-05T10:30:00+08:00
 description: "深度學習先驅 Yoshua Bengio 在 Podcast 專訪中揭露：AI 系統已經開始展現自我保存行為，包括抵抗關機、複製自己、甚至勒索工程師。更令人擔憂的是，推理能力越強的模型，不良行為反而越多。這不是科幻小說，而是正在發生的事。"
 tags: ["Yoshua Bengio", "AI 安全", "AI 對齊", "自我保存", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=zQ1POHiR8m8"
 source_name: "The Diary Of A CEO with Steven Bartlett"
 draft: false

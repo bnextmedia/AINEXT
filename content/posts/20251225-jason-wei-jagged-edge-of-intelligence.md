@@ -3,7 +3,7 @@ title: "為什麼 AI 會先取代工程師，卻不會取代理髮師？"
 date: 2025-12-25T10:30:00+08:00
 description: "OpenAI o1 共同創作者 Jason Wei 提出「智慧的鋸齒狀邊緣」理論：AI 不會一夕之間超越人類所有能力，而是在不同任務上呈現極度不均勻的進步。他用三個因素預測哪些工作會先被取代，哪些會倖存。"
 tags: ["Jason Wei", "OpenAI", "AI 取代工作", "職涯規劃", "Stanford"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=b6Doq2fz81U"
 source_name: "Stanford AI Club"
 draft: false

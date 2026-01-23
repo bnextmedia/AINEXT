@@ -3,7 +3,7 @@ title: "達沃斯論壇：四大產業巨頭坦言，AI 規模化的瓶頸不是
 date: 2026-01-22T10:00:00+08:00
 description: "2026 年世界經濟論壇上，飛利浦、Visa、沙烏地阿美、Accenture 四位 CEO 齊聚一堂，分享 AI 規模化的實戰經驗。他們的共同結論：真正的挑戰不在演算法，而在流程重塑、領導者理解、以及組織文化的全面轉型。"
 tags: ["世界經濟論壇", "達沃斯", "AI 規模化", "Julie Sweet", "Accenture", "Visa", "飛利浦", "沙烏地阿美"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=BwhZbRxSles"
 source_name: "World Economic Forum"
 draft: false

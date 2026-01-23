@@ -3,7 +3,7 @@ title: "Anthropic 執行長達沃斯警告：AI 將帶來史無前例的「高�
 date: 2026-01-21T14:00:00+08:00
 description: "Anthropic 執行長 Dario Amodei 在達沃斯論壇直言：AI 可能在 1-2 年內超越人類認知能力，同時帶來前所未見的經濟矛盾——GDP 高速成長與大規模失業並存。他也公開反對美國對中國的晶片出口政策，稱之為「賣核武給北韓」。"
 tags: ["Anthropic", "Dario Amodei", "達沃斯", "AI 經濟", "AI 安全", "DeepSeek"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=Ckt1cj0xjRM"
 source_name: "World Economic Forum / Financial Times"
 draft: false

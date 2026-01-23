@@ -3,7 +3,7 @@ title: "Anduril 的產品思維：為什麼軍火商要像 Apple 那樣做產品
 date: 2025-12-26T11:00:00+08:00
 description: "Palmer Luckey 創辦的 Anduril 不是傳統「國防承包商」，而是「國防產品公司」。他們用自己的錢開發產品、做完才賣，而不是拿納稅人的錢寫 PowerPoint。這種模式如何改變了整個軍火產業的遊戲規則？"
 tags: ["Palmer Luckey", "Anduril", "國防產業", "產品思維", "創業"]
-categories: ["創業經營"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=ktERIegV8RI"
 source_name: "台灣人工智慧學校"
 draft: false

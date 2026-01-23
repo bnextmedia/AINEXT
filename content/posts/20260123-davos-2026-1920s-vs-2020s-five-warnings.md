@@ -3,7 +3,7 @@ title: "1920 年代 vs 2020 年代：達沃斯「世紀對話」揭示的五大�
 date: 2026-01-23T10:00:00+08:00
 description: "2026 達沃斯論壇上，BlackRock 執行長 Larry Fink、Citadel 創辦人 Ken Griffin、歐洲央行總裁 Christine Lagarde 與歷史學家 Adam Tooze 齊聚一堂，探討當前時代與 1920 年代的驚人相似之處，以及我們能從歷史中學到什麼教訓。"
 tags: ["達沃斯", "世界經濟論壇", "Larry Fink", "Ken Griffin", "Christine Lagarde", "Adam Tooze", "1920年代", "經濟史"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=Vi6Apqyuk1s"
 source_name: "World Economic Forum"
 draft: false

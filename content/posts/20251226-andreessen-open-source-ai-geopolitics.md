@@ -3,7 +3,7 @@ title: "DeepSeek 的馬克思主義拿滿分：Andreessen 談開源 AI 的價值
 date: 2025-12-26T10:30:00+08:00
 description: "a16z 創辦人 Marc Andreessen 直言，開源 AI 模型的價值觀問題攸關國家安全。他指出中國模型在馬克思主義 benchmark 拿滿分，而這些 AI 將會主導未來的教育、法律、醫療系統。他呼籲美國必須有自己的開源 AI 冠軍。"
 tags: ["Marc Andreessen", "a16z", "開源 AI", "DeepSeek", "地緣政治", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760"
 source_name: "The a16z Show"
 draft: false

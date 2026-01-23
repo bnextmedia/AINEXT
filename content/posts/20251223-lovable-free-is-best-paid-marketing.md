@@ -3,7 +3,7 @@ title: "免費贈送是最好的付費行銷：Lovable 如何把 LLM 成本變�
 date: 2025-12-23T00:48:00+08:00
 description: "Lovable 增長負責人 Elena Verna 分享最反直覺的增長策略：把 LLM 成本當行銷費用，大量免費贈送產品。當產品本身有「讓人想分享」的時刻，降低使用門檻就是最划算的增長投資。"
 tags: ["Lovable", "Elena Verna", "Growth", "Product-Led Growth", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=6qAB6aUMIeA"
 source_name: "Lenny's Podcast"
 draft: false

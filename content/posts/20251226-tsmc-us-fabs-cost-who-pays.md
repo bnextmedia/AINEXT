@@ -3,7 +3,7 @@ title: "台積電美國廠的真實成本：誰來買單？"
 date: 2025-12-26T13:00:00+08:00
 description: "台積電在亞利桑那州的晶圓廠成本比台灣高，這不是新聞。但芝加哥大學經濟學教授謝長泰提出一個更根本的問題：這些成本最終會轉嫁給誰？Apple、NVIDIA、Meta 會吸收嗎？還是消費者來扛？更深層的問題是——利潤減少會不會拖慢 AI 革命的腳步？"
 tags: ["台積電", "TSMC", "美國製造", "AI", "NVIDIA", "Apple", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://bfi.uchicago.edu/insights/between-a-chip-and-a-hard-place-the-economics-of-security-and-sovereignty-in-taiwan/"
 source_name: "The Pie: An Economics Podcast"
 draft: false

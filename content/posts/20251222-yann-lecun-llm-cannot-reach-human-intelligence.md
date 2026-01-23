@@ -3,7 +3,7 @@ title: "「LLM 永遠無法達到人類智慧」——Yann LeCun 的技術宣戰
 date: 2025-12-22T22:20:00+08:00
 description: "Yann LeCun 認為 LLM 路線從根本上走錯了方向。他用數學計算證明所有網路文字的資訊量僅等於一個四歲小孩的視覺經驗，並解釋為何影片生成模型也無法理解物理世界。本文詳述他主張的 JEPA 架構如何在抽象表徵空間做預測，以及為何這才是通往人類智慧的正確路徑。"
 tags: ["Yann LeCun", "LLM", "JEPA", "World Model", "機器學習"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=7u-DXVADyhc"
 source_name: "Information Bottleneck Podcast"
 draft: false

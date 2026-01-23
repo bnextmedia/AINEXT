@@ -3,7 +3,7 @@ title: "黃仁勳談 AI 未來：100% 的工作會改變，但不是 50% 會消�
 date: 2026-01-21T12:00:00+08:00
 description: "NVIDIA 創辦人黃仁勳分享他對 AI 未來五年的預測：電腦將自己學習、Vibe Coding 讓人人都能寫程式、AI 將縮小科技鴻溝而非擴大失業。"
 tags: ["Jensen Huang", "NVIDIA", "AI", "Vibe Coding", "未來趨勢", "Podcast"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=8FOdAc_i_tM"
 source_name: "A Bit Personal with Jodi Shelton"
 draft: false

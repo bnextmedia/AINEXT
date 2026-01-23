@@ -3,7 +3,7 @@ title: "Jeff Dean 的 35 年 AI 旅程——從大學論文到 Gemini"
 date: 2025-12-23T00:57:00+08:00
 description: "Google 首席科學家 Jeff Dean 在史丹佛演講，回顧 35 年 AI 歷程：1990 年大學時以為 32 核就能改變世界，結果需要百萬倍運算力。從 Google Brain 的創立、TPU 的誕生、Transformer 的突破，到 Gemini 在 IMO 數學奧林匹克奪金，見證深度學習從實驗室走向改變世界。"
 tags: ["Jeff Dean", "Google", "TPU", "Transformer", "深度學習歷史"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=AnTw_t21ayE"
 source_name: "Stanford AI Club"
 draft: false

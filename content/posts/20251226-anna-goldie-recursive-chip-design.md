@@ -3,7 +3,7 @@ title: "用 AI 設計 AI 晶片：Recursive Intelligence 創辦人 Anna Goldie �
 date: 2025-12-26T13:00:00+08:00
 description: "從 Google Brain 到 Anthropic，再到創辦 Recursive Intelligence。Anna Goldie 相信晶片設計需要 2-3 年、花費數億美元的現狀可以被改變。Sequoia 領投 3500 萬美元，押注這個「AI 設計晶片、晶片加速 AI」的遞迴循環。"
 tags: ["Recursive Intelligence", "Anna Goldie", "AI 晶片", "Sequoia", "晶片設計", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=2gCZql8C0tk"
 source_name: "TBPN"
 draft: false

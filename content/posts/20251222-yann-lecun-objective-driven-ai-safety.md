@@ -3,7 +3,7 @@ title: "深度學習教父的 AI 安全方案——為什麼「目標驅動架�
 date: 2025-12-22T22:25:00+08:00
 description: "Yann LeCun 認為當前 LLM 的微調安全方法從根本上就是錯的，永遠可以被 jailbreak 繞過。他提出「目標驅動架構」作為替代方案：將安全規則設為硬性約束而非統計傾向，從設計上保證系統無法違反。本文詳解這個架構如何運作，以及為何這才是通往可靠 AI 安全的正確路徑。"
 tags: ["Yann LeCun", "AI 安全", "目標驅動架構", "World Model", "jailbreak"]
-categories: ["AI 產業"]
+categories: ["AI 安全與治理"]
 source_url: "https://www.youtube.com/watch?v=7u-DXVADyhc"
 source_name: "Information Bottleneck Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "「習近平的三個極端」——陸委會主委邱垂正眼中的中
 date: 2025-12-26T10:00:00+08:00
 description: "台灣陸委會主委邱垂正在美國智庫 Heritage Foundation 發表公開演說，罕見地以「三個極端化發展」定性習近平政權的威脅本質：權力高度集中、狂熱民族主義、以統一台灣作為延任正當性。這場演講揭示台灣官方對中國的最新判斷。"
 tags: ["邱垂正", "陸委會", "習近平", "台海關係", "Heritage Foundation"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=Td2RsaL0lsQ"
 source_name: "Heritage Foundation"
 draft: false

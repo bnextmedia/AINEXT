@@ -3,7 +3,7 @@ title: "俄羅斯如何「腳本化」中國？— 一位美國海軍戰院教�
 date: 2025-12-25T10:00:00+08:00
 description: "美國海軍戰爭學院教授 Sarah Paine 揭露俄中關係的真相：從 19 世紀中葉至今，俄羅斯一再「腳本化」中國，讓中國做出有利於俄羅斯、卻損害自身利益的決策。從鴉片戰爭到韓戰，這套劇本反覆上演。理解這段歷史，才能看清當代普習關係的本質。"
 tags: ["Sarah Paine", "俄中關係", "地緣政治", "歷史分析", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=RH_ycZYH8-s"
 source_name: "Dwarkesh Podcast"
 draft: false

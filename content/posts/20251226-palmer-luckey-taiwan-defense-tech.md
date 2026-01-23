@@ -3,7 +3,7 @@ title: "Palmer Luckey 給台灣科技人的一堂國防課：如果你在意，�
 date: 2025-12-26T10:00:00+08:00
 description: "Anduril 創辦人 Palmer Luckey 在台大演講，談威懾、AI 武器倫理、以及為什麼台灣科技人應該投入國防產業。他直言：選擇不是「AI 武器 vs 無武器」，而是「智慧武器 vs 笨武器」。如果你真的在意倫理，你就該自己動手。"
 tags: ["Palmer Luckey", "Anduril", "台灣國防", "AI 武器", "威懾"]
-categories: ["AI 產業"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=ktERIegV8RI"
 source_name: "台灣人工智慧學校"
 draft: false

@@ -3,7 +3,7 @@ title: "10 個範例就能訓練出更強的 AI 代理——四家公司怎麼�
 date: 2025-12-25T14:30:00+08:00
 description: "OpenAI 的 Agent RFT 讓企業能用少量資料訓練出高效能的 AI 代理。Cognition、Kodo、Cosine、MACO 四家公司分享實戰經驗：從 100 個範例獲得 5% 提升、到用 100 個 PyTorch 提示訓練出超越基準 72% 的 GPU Kernel 代理。本文深入解析他們的做法與關鍵心得。"
 tags: ["OpenAI", "Agent RFT", "Cognition", "Devin", "Cosine", "MACO", "AI Agent"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=p1CmPZ2j6Lk"
 source_name: "OpenAI DevDay"
 draft: false

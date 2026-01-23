@@ -3,7 +3,7 @@ title: "當 AI 不再等你下指令——a16z 對 2026 年的三個判斷"
 date: 2025-12-24T11:58:00+08:00
 description: "a16z 發布 2026 年 Big Ideas，三位合夥人預測：Prompt Box 將死、內容設計要為 Agent 優化、語音 AI 將規模化落地。這不只是技術演進，而是商業邏輯的重寫。"
 tags: ["a16z", "AI Agent", "2026 預測", "創投觀點"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=ULszsXDyjMY"
 source_name: "a16z"
 draft: false

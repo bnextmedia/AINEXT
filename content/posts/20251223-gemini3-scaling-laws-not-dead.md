@@ -3,7 +3,7 @@ title: "Scaling Laws 沒死，但遊戲規則變了——Gemini 3 研究負責�
 date: 2025-12-23T00:55:00+08:00
 description: "針對「Scaling Laws 已死」的討論，Gemini 3 預訓練負責人 Sebastian Bourgeaud 提出不同觀點：規模擴張仍然有效且可預測，但架構創新和數據創新的影響可能更大。真正的範式轉變是從「數據無限」進入「數據受限」時代，這讓研究變得更加多元化。"
 tags: ["Scaling Laws", "Gemini", "Google DeepMind", "AI 研究", "合成數據"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=cNGDAqFXvew"
 source_name: "The MAD Podcast with Matt Turck"
 draft: false

@@ -3,7 +3,7 @@ title: "Microsoft 為何主動放棄數十億美元的資料中心計畫？Satya
 date: 2025-12-26T10:30:00+08:00
 description: "2024 年下半年，Microsoft 做了一個令外界意外的決定：主動放棄了大量已規劃的資料中心計畫，讓 Google、Meta、Oracle 撿走了這些站點。Satya Nadella 首次完整解釋這個決策的戰略邏輯，涉及 OpenAI 關係重新定位、硬體世代更迭風險、以及對超大規模運算業務本質的重新思考。"
 tags: ["Satya Nadella", "Microsoft", "Azure", "資料中心", "AI 基礎設施", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=8-boBsWcr5A"
 source_name: "Dwarkesh Patel Podcast"
 draft: false

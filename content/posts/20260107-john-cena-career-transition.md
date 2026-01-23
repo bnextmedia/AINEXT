@@ -3,7 +3,7 @@ title: "從擂台到大銀幕：John Cena 的職涯轉型學"
 date: 2026-01-07T12:00:00+08:00
 description: "John Cena 在 WWE 是 17 次冠軍，但他的好萊塢之路一開始走得跌跌撞撞。他在 Joe Rogan 節目中坦承：前幾部電影他「人不在那裡」，心思都在摔角上。直到 2015 年的《姐姐愛最大》才讓他找到演戲的節奏。"
 tags: ["John Cena", "Joe Rogan", "職涯轉型", "WWE", "好萊塢", "Podcast"]
-categories: ["人物專訪"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=sJ4Ho4ccuFg"
 source_name: "The Joe Rogan Experience"
 draft: false

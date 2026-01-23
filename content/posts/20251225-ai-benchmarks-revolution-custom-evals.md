@@ -3,7 +3,7 @@ title: "AI 基準測試革命——為什麼通用評測無法告訴你 AI 能�
 date: 2025-12-25T14:30:00+08:00
 description: "當 OpenAI 發布新模型，我們會看到各種基準測試分數：編程能力提升 20%、數學推理進步 15%。但這些數字對企業導入 AI 的意義有限。前麥肯錫 QuantumBlack Labs 主管 Matt Fitzpatrick 指出，企業需要的是針對特定任務的客製化評測——這個領域正在爆發創業機會。"
 tags: ["AI Benchmark", "AI 評測", "Custom Evals", "Matt Fitzpatrick", "Invisible Technologies", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=7GFKB0oKd9A"
 source_name: "Moonshots Podcast"
 draft: false

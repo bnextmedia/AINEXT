@@ -3,7 +3,7 @@ title: "太空資料中心不是科幻：為什麼從第一原則來看，AI 運
 date: 2025-12-22T21:05:00+08:00
 description: "從第一原則分析，太空資料中心在電力、冷卻、網路三個維度都優於地球。太空中的太陽能 24 小時不間斷、不需要電池；背陽面接近絕對零度可免費散熱；衛星間雷射通訊比地面光纖快 40%。隨著 SpaceX Starship 大幅降低發射成本，這個看似科幻的願景正成為可能，對當前數千億美元的地面資料中心投資提出嚴肅警訊。"
 tags: ["太空資料中心", "SpaceX", "Starlink", "AI 基礎建設", "能源"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podwise.ai/dashboard/episodes/6327964"
 source_name: "Invest Like the Best EP.451 - Gavin Baker"
 draft: false

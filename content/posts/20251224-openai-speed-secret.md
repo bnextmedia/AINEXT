@@ -3,7 +3,7 @@ title: "OpenAI 怎麼這麼快？一個前創業者的震撼教育"
 date: 2025-12-24T01:37:00+08:00
 description: "OpenAI Codex 負責人 Alexander Embiricos 分享加入 OpenAI 後的震撼：Sora Android app 從零到 App Store 第一名只花 28 天。他揭露 OpenAI 的速度秘訣：極端的 bottoms-up 文化、Ready Fire Aim 策略、以及難以複製的人才密度。"
 tags: ["OpenAI", "組織文化", "創業", "執行力", "產品開發"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=z1ISq9Ty4Cg"
 source_name: "Lenny's Podcast"
 draft: false

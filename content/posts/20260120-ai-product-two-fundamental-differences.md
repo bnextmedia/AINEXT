@@ -3,7 +3,7 @@ title: "AI 產品開發的兩大根本差異：非確定性與代理控制權衡
 date: 2026-01-20T11:00:00+08:00
 description: "為什麼 AI 產品開發和傳統軟體完全不同？OpenAI Codex 負責人 Kiriti Badam 與 AI 顧問 Aishwarya Reganti 這對夫妻檔，用 Booking.com vs ChatGPT 的對比，解釋 AI 產品的兩個根本性挑戰。"
 tags: ["OpenAI", "AI 產品", "非確定性", "Agent", "Kiriti Badam", "Aishwarya Reganti"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=z7T1pCxgvlA"
 source_name: "Lenny's Podcast"
 draft: false

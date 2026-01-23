@@ -3,7 +3,7 @@ title: "Apple 日本新規上路：開發者該知道的佣金變化與新商機
 date: 2025-12-26T11:00:00+08:00
 description: "Apple 配合日本 MSCA 法規推出新的開發者費用結構，App Store 佣金從 30% 降至 10-21%，並開放第三方支付與外部連結選項。本文詳解新費用架構、實務考量，以及開發者在這個新局面下的策略選擇。"
 tags: ["Apple", "日本", "App Store", "開發者", "蘋果稅"]
-categories: ["科技趨勢"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.apple.com/newsroom/2025/12/apple-announces-changes-to-ios-in-japan/"
 source_name: "Apple Newsroom"
 draft: false

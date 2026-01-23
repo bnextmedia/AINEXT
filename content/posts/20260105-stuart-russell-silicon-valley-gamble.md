@@ -3,7 +3,7 @@ title: "「把槍抵著我們孩子的頭」：AI 教父眼中的矽谷豪賭"
 date: 2026-01-05T10:30:00+08:00
 description: "AI 教科書作者 Stuart Russell 直言，矽谷的 AI 競賽就像拿全人類玩俄羅斯輪盤。各大 AI 公司執行長自己都承認滅絕風險高達 25%，卻仍然全速前進。為什麼他們停不下來？錢。"
 tags: ["Stuart Russell", "AI 安全", "矽谷", "AI 監管", "OpenAI", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=DOAC-stuart-russell"
 source_name: "The Diary Of A CEO with Steven Bartlett"
 draft: false

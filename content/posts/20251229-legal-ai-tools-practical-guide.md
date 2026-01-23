@@ -3,7 +3,7 @@ title: "法務部門的 AI 工具指南——從免費工具開始的務實策�
 date: 2025-12-29T14:30:00+08:00
 description: "預算有限的企業法務該如何擁抱 AI？來自迦納的法律科技專家分享務實策略：從 Excel 和 Microsoft Office 開始，把 ChatGPT 當私人助理而非法律顧問，用數據說服管理層，並做好資安把關。"
 tags: ["Legaltech", "AI 工具", "ChatGPT", "Microsoft Office", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/us/podcast/s02e05-navigating-digital-transformation-in-house-counsel/id1725709717?i=1000699635807"
 source_name: "Legaltech Lounge Podcast"
 draft: false

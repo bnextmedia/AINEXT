@@ -3,7 +3,7 @@ title: "「可以，只要...」vs「不行，因為...」：新思科技創辦�
 date: 2026-01-21T09:00:00+08:00
 description: "新思科技創辦人 Aart de Geus 分享如何用一個簡單的心態轉換，帶領公司突破獲利瓶頸。從「不行，因為...」轉向「可以，只要...」，不只改變了組織文化，更讓公司獲利曲線出現明顯轉折。"
 tags: ["Synopsys", "Aart de Geus", "領導力", "組織文化", "EDA", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=iWnOOzHgfrs"
 source_name: "A Bit Personal with Jodi Shelton"
 draft: false

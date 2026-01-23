@@ -3,7 +3,7 @@ title: "供應鏈去中國化的實戰手冊：Palmer Luckey 的「意識形態�
 date: 2025-12-26T12:00:00+08:00
 description: "Anduril 創辦人 Palmer Luckey 分享如何真正擺脫對中國供應鏈的依賴。他的結論是：光是「合規」遠遠不夠，你需要一個意識形態狂熱分子擔任魔鬼代言人，專門找出那些隱藏的、間接的中國依賴。"
 tags: ["Palmer Luckey", "Anduril", "供應鏈", "去中國化", "國防產業"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=ktERIegV8RI"
 source_name: "台灣人工智慧學校"
 draft: false

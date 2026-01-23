@@ -3,7 +3,7 @@ title: "AI 職涯的「三大支柱」：從史丹佛講座看科技業的人才
 date: 2026-01-04T10:00:00+08:00
 description: "史丹佛 CS230 課程邀請業界專家分享 AI 職涯建議，點出當今科技業對人才的三大要求：深度理解、商業聚焦、偏向交付。從「會做 AI」到「能創造商業價值」，遊戲規則已經改變。"
 tags: ["AI 職涯", "史丹佛", "吳恩達", "人才發展", "職場趨勢"]
-categories: ["AI 產業"]
+categories: ["職涯與學習"]
 source_url: "https://www.youtube.com/watch?v=AuZoDsNmG_s"
 source_name: "Stanford CS230"
 draft: false

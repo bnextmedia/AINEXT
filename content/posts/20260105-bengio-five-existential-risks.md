@@ -3,7 +3,7 @@ title: "專訪 AI 教父：5 大滅絕風險與一線希望"
 date: 2026-01-05T11:00:00+08:00
 description: "深度學習先驅 Yoshua Bengio 在 Podcast 專訪中系統性地闡述 AI 帶來的五大存亡風險：CBRN 武器民主化、權力極端集中、Mirror Life 生物威脅、大規模失業、AI 失控。但他也提出了具體的解決路徑：保險機制、國際協議、以及從根本重新設計的安全 AI。"
 tags: ["Yoshua Bengio", "AI 風險", "CBRN", "Mirror Life", "Law Zero", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=zQ1POHiR8m8"
 source_name: "The Diary Of A CEO with Steven Bartlett"
 draft: false

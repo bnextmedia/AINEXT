@@ -3,7 +3,7 @@ title: "AI 時代該學什麼？OpenAI Codex 負責人的三個建議"
 date: 2025-12-24T01:28:00+08:00
 description: "OpenAI Codex 產品負責人 Alexander Embiricos 分享 AI 時代的職涯建議：成為善用工具的「做事的人」、培養系統工程與協作能力、在 AI 資料稀缺的前沿領域深耕。這些建議不是關於學什麼技能，而是關於如何定位自己。"
 tags: ["AI 職涯", "OpenAI", "Codex", "軟體工程", "職涯發展"]
-categories: ["AI 產業"]
+categories: ["職涯與學習"]
 source_url: "https://www.youtube.com/watch?v=z1ISq9Ty4Cg"
 source_name: "Lenny's Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "金錢跟著故事走——研究 350 位創業家後，David Senra 談�
 date: 2025-12-26T13:00:00+08:00
 description: "Founders Podcast 主持人 David Senra 研究超過 350 位歷史上最成功的創業家，他發現一個共同特徵：這些人都是說故事的高手。從傳奇廣告人 Claude Hopkins 的啤酒行銷案例，看創業者如何用故事吸引資金與人才。"
 tags: ["David Senra", "Founders Podcast", "說故事", "創業", "Claude Hopkins", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=DRZatti6mVM"
 source_name: "TBPN Podcast"
 draft: false

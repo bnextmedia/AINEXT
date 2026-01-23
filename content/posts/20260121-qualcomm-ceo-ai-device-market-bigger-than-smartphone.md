@@ -3,7 +3,7 @@ title: "Qualcomm CEO：AI 裝置市場將比智慧型手機更大，智慧眼鏡
 date: 2026-01-21T10:00:00+08:00
 description: "Qualcomm CEO Cristiano Amon 在達沃斯論壇表示，AI 裝置市場規模可達 100 億台，超越智慧型手機。他認為智慧眼鏡是最自然的 AI 載體，因為它最接近人類感官，能即時理解使用者看到、聽到的一切。"
 tags: ["Qualcomm", "Cristiano Amon", "AI 裝置", "智慧眼鏡", "穿戴裝置", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=nk4X-iD8HP0"
 source_name: "Big Technology Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "Sergey Brin 坦承：Google 發明了 Transformer，卻沒當回事"
 date: 2025-12-25T10:00:00+08:00
 description: "在史丹佛工程學院百年校慶活動上，Google 共同創辦人 Sergey Brin 罕見地公開承認，Google 在 AI 發展上犯了關鍵錯誤：八年前發表 Transformer 論文時沒有認真對待，讓 OpenAI 搶得先機。這位科技巨頭的坦誠反思，揭示了大公司在顛覆性創新面前的典型困境。"
 tags: ["Sergey Brin", "Google", "Transformer", "OpenAI", "AI 產業"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=0nlNX94FcUE"
 source_name: "Stanford Engineering"
 draft: false

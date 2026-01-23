@@ -3,7 +3,7 @@ title: "Andreessen：AI 時代，專精不如什麼都懂一點"
 date: 2025-12-26T10:00:00+08:00
 description: "a16z 創辦人 Marc Andreessen 在 2025 LP 大會分享對創業者的觀察：在 AI 時代，與其深耕單一專業，不如培養跨領域廣博能力。他認為頂尖 CEO 的共同特質是多學科思維，而 AI 工具讓深度研究可以隨時外包，人類的價值在於連結不同領域。"
 tags: ["Marc Andreessen", "a16z", "創業", "AI 時代", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/lk/podcast/marc-andreessen-deep-vs-broad-founders-ai-in-america/id842818711?i=1000708711760"
 source_name: "The a16z Show"
 draft: false

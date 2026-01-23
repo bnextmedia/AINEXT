@@ -3,7 +3,7 @@ title: "Apple 服務營收首度突破千億美元：不追 OpenAI 的 AI 戰略
 date: 2025-12-26T10:00:00+08:00
 description: "Apple FY2025 財報顯示服務營收首度突破 1,000 億美元，年增 14%。在外界質疑 Apple 的 AI 布局落後時，這份財報透露了一個不同的故事：Apple 正透過裝置端 AI、自研晶片和 Private Cloud Compute 建立獨特的競爭壁壘。"
 tags: ["Apple", "服務營收", "Apple Intelligence", "M5", "AI 戰略"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: ""
 source_name: "Apple FY2025 Q4 財報"
 draft: false

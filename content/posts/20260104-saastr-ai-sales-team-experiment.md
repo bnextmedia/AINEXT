@@ -3,7 +3,7 @@ title: "1.2 個人加 20 個 AI Agent：SaaStr 創辦人的銷售團隊實驗"
 date: 2026-01-04T10:00:00+08:00
 description: "SaaStr 創辦人 Jason Lemkin 在兩名業務當場辭職後，決定不再招募人類銷售，改用 20 個 AI Agent 取代原本 10 人團隊。半年後，業績持平但效率大增。這場實驗揭示了 AI 時代銷售工作的真實樣貌。"
 tags: ["AI Agent", "SaaStr", "Jason Lemkin", "銷售", "GTM", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://youtu.be/I-R1bc1rlFs"
 source_name: "Lenny's Podcast"
 draft: false

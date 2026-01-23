@@ -3,7 +3,7 @@ title: "EDA 之父的領導哲學：誠信為基、熱情封頂，以及為什�
 date: 2026-01-21T10:00:00+08:00
 description: "新思科技創辦人 Aart de Geus 談 CEO 的價值金字塔、如何培養接班人，以及為什麼領導者身邊一定要有敢說真話的人。他也坦承：自己到現在還是覺得像個騙子。"
 tags: ["Synopsys", "Aart de Geus", "領導力", "接班規劃", "CEO", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=iWnOOzHgfrs"
 source_name: "A Bit Personal with Jodi Shelton"
 draft: false

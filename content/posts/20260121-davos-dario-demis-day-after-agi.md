@@ -3,7 +3,7 @@ title: "兩大 AI 巨頭達沃斯對談：「人類的技術青春期，我們�
 date: 2026-01-21T10:00:00+08:00
 description: "Anthropic CEO Dario Amodei 與 Google DeepMind CEO Demis Hassabis 在 2026 達沃斯論壇同台，討論 AGI 時程、就業衝擊與地緣政治風險。兩人對時程預測略有差異，但對「這是人類文明的關鍵時刻」有高度共識。"
 tags: ["Dario Amodei", "Demis Hassabis", "Anthropic", "Google DeepMind", "AGI", "達沃斯", "AI 安全"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=mmKAnHz36v0"
 source_name: "World Economic Forum"
 draft: false

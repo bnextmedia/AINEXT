@@ -3,7 +3,7 @@ title: "你的 AI 助理會被駭嗎？Agent 時代的資安新挑戰"
 date: 2025-12-24T01:50:00+08:00
 description: "當 AI 從回答問題進化到代替人類執行操作，全新的安全威脅隨之而來。Google DeepMind 安全副總裁 Four Flynn 深入解析 Prompt Injection 攻擊原理、AI 代理的情境完整性挑戰，以及 Google 如何透過自適應攻擊框架與多層防禦策略，保護即將到來的 Agent 時代。"
 tags: ["AI Agent", "Prompt Injection", "AI 安全", "DeepMind", "Gemini"]
-categories: ["AI 產業"]
+categories: ["AI 安全與治理"]
 source_url: "https://youtube.com/watch?v=1gO2bC5xLlo"
 source_name: "Google DeepMind Podcast"
 draft: false

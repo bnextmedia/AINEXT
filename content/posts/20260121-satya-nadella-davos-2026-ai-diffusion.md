@@ -3,7 +3,7 @@ title: "Satya Nadella 談 AI 擴散論：為什麼「Token 工廠」將決定下
 date: 2026-01-21T10:00:00+08:00
 description: "微軟 CEO Satya Nadella 在 2026 達沃斯論壇與 BlackRock CEO Larry Fink 對談，提出 AI 不是泡沫的關鍵在於「擴散」——技術必須創造在地盈餘，而非停留在科技公司的供給端敘事。他也重新定義了「主權」的意義：企業能否掌控自己的隱性知識，才是真正的競爭力所在。"
 tags: ["Satya Nadella", "Microsoft", "Larry Fink", "BlackRock", "AI 擴散", "達沃斯", "WEF 2026"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=1co3zt3-r7I"
 source_name: "World Economic Forum"
 draft: false

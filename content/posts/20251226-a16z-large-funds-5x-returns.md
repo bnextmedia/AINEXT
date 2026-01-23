@@ -3,7 +3,7 @@ title: "大基金也能做出 5 倍回報？a16z 成長投資負責人破解創�
 date: 2025-12-26T10:00:00+08:00
 description: "a16z 成長投資負責人 David George 正面回應「大基金無法創造高回報」的業界質疑。他揭露 a16z 表現最好的基金正是 10 億美元的大基金，Databricks 和 Coinbase 分別回報 7 倍和 5 倍。更重要的是，私募市場已發生結構性改變，遊戲規則完全不同了。"
 tags: ["a16z", "David George", "創投", "私募市場", "Databricks", "Podcast"]
-categories: ["投資理財"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=IxoGRY6TXwk"
 source_name: "20VC"
 draft: false

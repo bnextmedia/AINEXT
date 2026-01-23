@@ -3,7 +3,7 @@ title: "美國國防預算真相：近兆美元，但新技術採購佔多少？
 date: 2026-01-05T11:00:00+08:00
 description: "美國國防預算接近一兆美元，但多數人不知道這筆錢真正花在哪裡。Anduril CEO Brian Schimpf 拆解預算結構：超過一半用於人事和設施，維護舊系統的成本遠超採購新技術，採購預算佔 GDP 比例創歷史新低。"
 tags: ["美國國防預算", "Anduril", "Brian Schimpf", "Defense Tech", "Podcast"]
-categories: ["科技趨勢"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=P5dsb28UVec"
 source_name: "Sourcery Podcast"
 draft: false

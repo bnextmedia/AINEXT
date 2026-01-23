@@ -3,7 +3,7 @@ title: "不會寫作的人怎麼開始？Dan Koe 的四步驟入門法"
 date: 2026-01-05T12:00:00+08:00
 description: "Dan Koe 從一個「不覺得自己是寫作的人」變成擁有 50 萬電子報訂閱的創作者。他分享了具體的入門方法：建立靈感博物館、分析成功貼文、模仿原則寫自己的內容、用 AI 建立專屬寫作指南。"
 tags: ["Dan Koe", "寫作", "內容創作", "個人品牌", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://youtu.be/EVDQ1MijHbk"
 source_name: "Open Residency Podcast"
 draft: false

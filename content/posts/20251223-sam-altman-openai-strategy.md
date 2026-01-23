@@ -3,7 +3,7 @@ title: "OpenAI 的三板斧：Sam Altman 親解如何在 AI 戰場勝出"
 date: 2025-12-23
 description: "Sam Altman 深度訪談：Code Red 的真相、為何模型不會完全商品化、產品個人化如何成為護城河、1.4 兆美元基礎設施投資的邏輯，以及 AGI 之後的下一個目標。"
 tags: ["OpenAI", "Sam Altman", "AI 策略", "AGI", "ChatGPT"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/in/podcast/sam-altman-how-openai-wins-ai-buildout-logic-ipo-in-2026/id1522960417?i=1000741901091"
 source_name: "Big Technology Podcast"
 draft: false

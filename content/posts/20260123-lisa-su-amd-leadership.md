@@ -3,7 +3,7 @@ title: "蘇姿丰：從修遙控車的女孩到 AMD 掌舵者的領導哲學"
 date: 2026-01-23T10:00:00+08:00
 description: "AMD CEO 蘇姿丰在 GSA 專訪中分享她的成長歷程與領導智慧。從移民家庭的工作倫理、MIT 半導體實驗室的啟蒙，到接手瀕危 AMD 後的關鍵抉擇，她展示了技術背景 CEO 在硬科技產業的不可取代性。"
 tags: ["Lisa Su", "蘇姿丰", "AMD", "半導體", "領導力", "Podcast"]
-categories: ["人物專訪"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=FZpd6UUnmrI"
 source_name: "A Bit Personal with Jodi Shelton"
 draft: false

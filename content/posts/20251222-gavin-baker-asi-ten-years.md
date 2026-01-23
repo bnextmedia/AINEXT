@@ -3,7 +3,7 @@ title: "華爾街頂尖投資人：我們正走向十年內的 AI 超級智慧"
 date: 2025-12-22T21:20:00+08:00
 description: "Gavin Baker 是 NVIDIA 和 Tesla 的早期大股東，他預測十年內人類將擁有人工超級智慧。本文深入分析 Reasoning 模型如何創造網路效應改變 AI 商業邏輯、科技巨頭為何陷入囚徒困境瘋狂投資、從兩百億到一兆美元問題的投資回報爭議，以及邊緣運算可能顛覆資料中心投資熱潮的風險。"
 tags: ["ASI", "Gavin Baker", "NVIDIA", "Reasoning", "AI 投資"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=ugihLT9cFTE"
 source_name: "Invested Podcast"
 draft: false

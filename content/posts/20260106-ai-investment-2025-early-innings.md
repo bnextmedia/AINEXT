@@ -3,7 +3,7 @@ title: "2025 年 AI 投資全景：我們到底在第幾局？"
 date: 2026-01-06T11:30:00+08:00
 description: "Oracle 單日暴漲 2500 億美元、Meta 宣布 6000 億美元 AI 投資、Nvidia 收購 Groq、Apple 押注 Siri 改版。從華爾街資深科技分析師的視角，解讀 2025 年 AI 產業的關鍵發展，以及這波投資潮與 90 年代網路泡沫的根本差異。"
 tags: ["AI投資", "Oracle", "Meta", "Nvidia", "Apple", "科技巨頭", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=NsQozkZmrXA"
 source_name: "DeepTech Podcast"
 draft: false

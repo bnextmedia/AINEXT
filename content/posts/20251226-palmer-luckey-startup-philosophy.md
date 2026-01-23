@@ -3,7 +3,7 @@ title: "Palmer Luckey 的創業哲學：從 VR 少年到國防巨頭，經營公
 date: 2025-12-26T13:00:00+08:00
 description: "Palmer Luckey 19 歲住在拖車裡創辦 Oculus，24 歲被 Facebook 開除，32 歲經營一家 280 億美元的國防公司。他在台大演講中分享：退學的唯一理由是什麼、為什麼經營公司像經營邪教、以及他為什麼選擇穿夏威夷襯衫。"
 tags: ["Palmer Luckey", "Anduril", "Oculus", "創業", "矽谷"]
-categories: ["人物專訪"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=ktERIegV8RI"
 source_name: "台灣人工智慧學校"
 draft: false

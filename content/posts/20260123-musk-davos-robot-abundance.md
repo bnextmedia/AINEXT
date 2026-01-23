@@ -3,7 +3,7 @@ title: "Musk 在達沃斯的富足願景：每個人都會有一台機器人"
 date: 2026-01-23T10:00:00+08:00
 description: "Elon Musk 在 2026 世界經濟論壇上描繪了一個由 AI 與機器人驅動的「富足未來」。他預測人形機器人將比人類還多，2027 年底開始對外銷售，能照顧老人、看護小孩。但當機器滿足所有需求，人類的存在意義是什麼？"
 tags: ["Elon Musk", "Tesla", "Optimus", "人形機器人", "WEF Davos"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=IgifEgm1-e0"
 source_name: "World Economic Forum"
 draft: false

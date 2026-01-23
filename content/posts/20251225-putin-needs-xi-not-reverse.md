@@ -3,7 +3,7 @@ title: "為什麼普京需要習近平，但習近平不需要普京？"
 date: 2025-12-25T11:00:00+08:00
 description: "中俄「無上限友誼」的背後，是一場極度不對稱的關係。美國海軍戰院教授 Sarah Paine 分析：中國人口是俄羅斯 9 倍、GDP 是 9 倍，普京在烏克蘭消耗資源時，習近平正坐收漁利。俄羅斯的未來，可能是「北韓化」。"
 tags: ["Sarah Paine", "普京", "習近平", "俄中關係", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=RH_ycZYH8-s"
 source_name: "Dwarkesh Podcast"
 draft: false

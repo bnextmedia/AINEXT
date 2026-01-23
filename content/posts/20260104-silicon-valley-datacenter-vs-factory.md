@@ -3,7 +3,7 @@ title: "矽谷最會做軟體，為什麼做不出工廠？"
 date: 2026-01-04T12:00:00+08:00
 description: "Colossus 是全球最大的 AI 資料中心，五個月內完工。但美國要蓋一座武器工廠卻難如登天。Hadrian 創辦人揭露關鍵差異：不是技術問題，是金融結構問題。資料中心有 30 年包銷合約，製造業卻只有年度預算。美國最強的資本市場優勢，為何無法導向製造業？"
 tags: ["資料中心", "製造業", "資本市場", "Hadrian", "美中競爭", "Podcast"]
-categories: ["科技趨勢"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=ShkxpBoObCQ"
 source_name: "a16z Podcast"
 draft: false

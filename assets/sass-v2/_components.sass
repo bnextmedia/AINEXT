@@ -1,0 +1,259 @@
+// AINEXT V2 - 元件樣式
+// 報紙風格：文章卡片、標籤、按鈕等
+
+@import "variables"
+
+// ============================================
+// 分類標籤
+// ============================================
+
+.category-tag
+  @include font-ui
+  font-size: $font-size-caption
+  font-weight: $font-weight-medium
+  text-transform: uppercase
+  letter-spacing: 0.05em
+  color: $color-category
+
+  &:hover
+    color: $color-accent
+
+// 分類標題（區塊用）
+.category-title
+  @include font-headline
+  font-size: $font-size-h2
+  font-weight: $font-weight-regular
+  margin-bottom: $spacing-md
+  padding-bottom: $spacing-xs
+  border-bottom: 3px solid $color-text
+
+  a
+    color: inherit
+
+    &:hover
+      color: $color-accent
+
+// ============================================
+// 文章卡片
+// ============================================
+
+.article-card
+  display: block
+
+  &:hover .article-card__title
+    color: $color-accent
+
+// 卡片圖片
+.article-card__image
+  width: 100%
+  aspect-ratio: 16 / 9
+  object-fit: cover
+  margin-bottom: $spacing-sm
+
+// 卡片分類
+.article-card__category
+  @extend .category-tag
+  margin-bottom: $spacing-xs
+  display: inline-block
+
+// 卡片標題
+.article-card__title
+  @include font-headline
+  font-size: $font-size-h3
+  line-height: $line-height-tight
+  margin-bottom: $spacing-xs
+  transition: color 0.2s ease
+
+// 卡片摘要
+.article-card__excerpt
+  @include font-body
+  font-size: $font-size-base
+  color: $color-text-light
+  line-height: $line-height-base
+  margin-bottom: $spacing-xs
+
+// 卡片日期
+.article-card__date
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+
+// 圖片來源標註
+.article-card__credit
+  @include font-ui
+  font-size: 11px
+  color: $color-text-light
+  margin-top: 4px
+
+// ============================================
+// 文章卡片變體
+// ============================================
+
+// 大型卡片（Hero）
+.article-card--hero
+  .article-card__title
+    font-size: $font-size-h1
+
+  .article-card__excerpt
+    font-size: 1.125rem
+
+// 小型卡片（列表用）
+.article-card--small
+  display: grid
+  grid-template-columns: 1fr
+  gap: $spacing-xs
+
+  .article-card__title
+    font-size: 1.125rem
+
+  .article-card__excerpt
+    display: none
+
+// 純文字卡片（無圖）
+.article-card--text-only
+  .article-card__image
+    display: none
+
+// 橫向卡片
+.article-card--horizontal
+  display: grid
+  grid-template-columns: 1fr 1fr
+  gap: $spacing-md
+  align-items: start
+
+  @media (max-width: $breakpoint-md)
+    grid-template-columns: 1fr
+
+// ============================================
+// 快訊列表（The World at a Glance 風格）
+// ============================================
+
+.headlines-list
+  list-style: none
+  padding: 0
+  margin: 0
+
+.headlines-list__item
+  display: grid
+  grid-template-columns: 2rem 1fr
+  gap: $spacing-sm
+  padding: $spacing-sm 0
+  border-bottom: 1px solid $color-divider
+
+  &:last-child
+    border-bottom: none
+
+.headlines-list__number
+  @include font-headline
+  font-size: 1.25rem
+  color: $color-text-light
+
+.headlines-list__content
+  @include font-body
+  font-size: $font-size-base
+  line-height: $line-height-base
+
+  a
+    color: $color-text
+    text-decoration: none
+
+    &:hover
+      color: $color-accent
+
+.headlines-list__category
+  @include font-ui
+  font-size: 11px
+  color: $color-accent
+  text-transform: uppercase
+  letter-spacing: 0.03em
+  display: block
+  margin-bottom: 2px
+
+// ============================================
+// 按鈕
+// ============================================
+
+.btn
+  @include font-ui
+  display: inline-block
+  padding: $spacing-xs $spacing-md
+  font-size: $font-size-small
+  font-weight: $font-weight-medium
+  text-align: center
+  cursor: pointer
+  transition: $transition-base
+  border: $border-width $border-style transparent
+
+// 主要按鈕
+.btn--primary
+  background-color: $color-text
+  color: $color-bg
+
+  &:hover
+    background-color: $color-accent
+    color: $color-bg
+
+// 次要按鈕
+.btn--secondary
+  background-color: transparent
+  color: $color-text
+  border-color: $color-text
+
+  &:hover
+    background-color: $color-text
+    color: $color-bg
+
+// ============================================
+// 標籤（Tags）
+// ============================================
+
+.tag
+  @include font-ui
+  display: inline-block
+  font-size: $font-size-caption
+  padding: 2px 8px
+  background-color: rgba($color-text, 0.05)
+  color: $color-text-light
+  margin-right: $spacing-xs
+  margin-bottom: $spacing-xs
+
+  &:hover
+    background-color: rgba($color-accent, 0.1)
+    color: $color-accent
+
+// ============================================
+// 訂閱區塊
+// ============================================
+
+.newsletter-box
+  background-color: rgba($color-text, 0.03)
+  padding: $spacing-lg
+  margin: $spacing-lg 0
+
+.newsletter-box__title
+  @include font-headline
+  font-size: $font-size-h3
+  margin-bottom: $spacing-sm
+
+.newsletter-box__desc
+  @include font-body
+  margin-bottom: $spacing-md
+
+.newsletter-box__form
+  display: flex
+  gap: $spacing-sm
+
+  @media (max-width: $breakpoint-sm)
+    flex-direction: column
+
+.newsletter-box__input
+  @include font-ui
+  flex: 1
+  padding: $spacing-xs $spacing-sm
+  border: $border-width $border-style $color-divider
+  background: $color-bg
+  font-size: $font-size-base
+
+  &:focus
+    outline: none
+    border-color: $color-accent

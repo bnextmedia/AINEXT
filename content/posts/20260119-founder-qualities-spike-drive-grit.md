@@ -3,7 +3,7 @@ title: "創投看過 50 萬份申請後的結論：好創辦人有這三個特�
 date: 2026-01-19T12:00:00+08:00
 description: "Antler 創辦人 Magnus Grimeland 分享他評估創辦人的框架：Spike（尖峰）、Drive（驅動力）、Grit（韌性）。這三個特質可以後天培養，而且與學歷、背景無關。"
 tags: ["創業", "創辦人", "Antler", "Magnus Grimeland", "創投"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://open.spotify.com/episode/6A69f76UpW7eAajE1PC1Qx"
 source_name: "CNBC Beyond the Valley"
 draft: false

@@ -3,7 +3,7 @@ title: "當大數據遇上國家機器：從 Palantir 看監控社會的邊界"
 date: 2026-01-04T15:00:00+08:00
 description: "前美國國家安全局局長 Michael Hayden 曾說：「我們根據 metadata 殺人。」這句話揭示了大數據時代的殘酷現實。從德國預測性警務實驗到美國 ICE 移民追蹤，Palantir 的技術已經深入國家機器的核心。本文從歐威爾《1984》到祖博夫《監控資本主義時代》，探討當「看見一切」的權力落入政府手中，我們該如何劃定界線。"
 tags: ["Palantir", "監控社會", "預測性警務", "隱私權", "大數據", "1984"]
-categories: ["科技趨勢"]
+categories: ["AI 安全與治理"]
 source_url: "https://www.youtube.com/watch?v=hN-mEGLF_6w"
 source_name: "DW Documentary"
 draft: false

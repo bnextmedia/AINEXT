@@ -3,7 +3,7 @@ title: "Ilya Sutskever 離開 OpenAI 後首次深度訪談：10 個關鍵洞見"
 date: 2025-12-25T11:30:00+08:00
 description: "OpenAI 共同創辦人 Ilya Sutskever 在離開後接受 Dwarkesh Patel 專訪，談論 AI 產業的典範轉移、模型泛化能力的根本問題、超級智慧的願景，以及他創辦 SSI 的真正目標。這是他離開 OpenAI 後最完整的一次公開發言。"
 tags: ["Ilya Sutskever", "SSI", "OpenAI", "AGI", "超級智慧", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=aR20FWCCjAs"
 source_name: "Dwarkesh Podcast"
 draft: false

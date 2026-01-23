@@ -3,7 +3,7 @@ title: "馬斯克預言 2026 年 AGI 來臨，但他最擔心的不是 AI 太強
 date: 2026-01-07T10:00:00+08:00
 description: "Tesla 創辦人馬斯克在 Podcast 中預測 2026 年將達成 AGI，2030 年 AI 智慧將超越全人類總和。但他認為 AI 安全的關鍵不是限制能力，而是確保 AI 追求真理、保持好奇、懂得欣賞美。"
 tags: ["Elon Musk", "AGI", "AI 安全", "xAI", "Grok", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=RSNuB9pj9P8"
 source_name: "Moonshots with Peter Diamandis"
 draft: false

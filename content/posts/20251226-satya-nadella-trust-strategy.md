@@ -3,7 +3,7 @@ title: "Satya Nadella：AI 時代最重要的競爭力可能不是模型能力�
 date: 2025-12-26T11:30:00+08:00
 description: "在 AI 競爭白熱化的時代，Microsoft CEO Satya Nadella 提出一個反直覺的觀點：贏得世界的關鍵可能不是誰有最強的模型，而是誰能建立信任。他詳細解釋了 Microsoft 如何在主權 AI 浪潮中定位自己，以及為什麼美國科技公司的全球競爭力取決於信任資本。"
 tags: ["Satya Nadella", "Microsoft", "主權 AI", "地緣政治", "中國", "全球化", "Podcast"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=8-boBsWcr5A"
 source_name: "Dwarkesh Patel Podcast"
 draft: false

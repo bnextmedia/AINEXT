@@ -3,7 +3,7 @@ title: "John Cena 親述「台灣道歉事件」始末：學會語言不代表�
 date: 2026-01-07T10:00:00+08:00
 description: "2021 年 John Cena 因在宣傳影片中用中文稱台灣為「國家」而引發爭議，事後道歉又惹怒美國觀眾。在 Joe Rogan 的節目中，他首度完整還原事件經過，並分享從中學到的教訓。"
 tags: ["John Cena", "Joe Rogan", "WWE", "文化敏感度", "Podcast"]
-categories: ["人物專訪"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=sJ4Ho4ccuFg"
 source_name: "The Joe Rogan Experience"
 draft: false

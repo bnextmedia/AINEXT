@@ -3,7 +3,7 @@ title: "AI 公司的增長新遊戲規則：Lovable 一年 2 億美元 ARR 背�
 date: 2025-12-23T00:45:00+08:00
 description: "Lovable 增長負責人 Elena Verna 分享 AI 時代的增長邏輯轉變：從 95% 優化變成 95% 創新、PMF 每三個月重新驗證、免費贈送成為最強增長引擎。這不只是一家公司的故事，而是整個 AI 產業增長規則重構的縮影。"
 tags: ["Lovable", "Elena Verna", "Growth", "AI 產品", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=6qAB6aUMIeA"
 source_name: "Lenny's Podcast"
 draft: false

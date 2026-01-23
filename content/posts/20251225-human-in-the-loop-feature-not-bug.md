@@ -3,7 +3,7 @@ title: "Human in the Loop 不是臭蟲，是功能——為什麼 AI 全自動�
 date: 2025-12-25T15:00:00+08:00
 description: "Klarna 高調宣稱 AI 取代 700 名客服，一年後全面撤回。前麥肯錫 QuantumBlack Labs 主管 Matt Fitzpatrick 認為，問題不在 AI 能力不足，而在於『全自動化』本身就是錯誤目標。在遞迴自我改進到來前，人類在迴路中不是過渡方案，而是讓 AI 真正可用的核心設計。"
 tags: ["Human in the Loop", "AI 自動化", "RLHF", "Klarna", "Matt Fitzpatrick", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 開發實戰"]
 source_url: "https://www.youtube.com/watch?v=7GFKB0oKd9A"
 source_name: "Moonshots Podcast"
 draft: false

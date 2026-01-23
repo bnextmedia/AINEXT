@@ -3,7 +3,7 @@ title: "從洗碗工到 3 兆美元——黃仁勳談「為什麼我還在拼」
 date: 2025-12-24T12:25:00+08:00
 description: "NVIDIA 市值超過 3 兆美元，黃仁勳早已不需要工作。但這位九歲移民、從 Denny's 洗碗做起的創業家說：「這是我絕對不會錯過的十年。」從典型的美國夢故事，到對這個國家的浪漫情懷，黃仁勳分享了為什麼成功之後，他選擇繼續。"
 tags: ["黃仁勳", "NVIDIA", "創業", "美國夢", "AI"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=jpZ0dPsnIWw"
 source_name: "David Rubenstein Show"
 draft: false

@@ -3,7 +3,7 @@ title: "AI 是救世主還是泡沫？達沃斯頂尖投資人的分歧與共識
 date: 2026-01-23T11:00:00+08:00
 description: "在達沃斯論壇上，BlackRock 執行長 Larry Fink 與 Citadel 創辦人 Ken Griffin 對 AI 的未來展開辯論：AI 能否拯救全球經濟脫離債務困境？還是只是另一場等待破滅的泡沫？"
 tags: ["達沃斯", "AI", "Larry Fink", "Ken Griffin", "Christine Lagarde", "AI泡沫", "生產力"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=Vi6Apqyuk1s"
 source_name: "World Economic Forum"
 draft: false

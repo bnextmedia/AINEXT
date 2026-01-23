@@ -3,7 +3,7 @@ title: "OpenAI 元老談 AGI 時程：工程師預測要乘以 2-3 倍，但 AI 
 date: 2026-01-22T13:00:00+08:00
 description: "John Schulman 同意工程師習慣性低估專案時程，AGI 預測可能也要乘以 2-3 倍。但他也指出 AI 加速自身發展的正向回饋可能打破直覺。自駕車是最好的類比——比預期晚很多，但終究還是來了。"
 tags: ["John Schulman", "AGI", "AI 預測", "自駕車", "OpenAI", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=29BYxvvF1iM"
 source_name: "Cursor Podcast"
 draft: false

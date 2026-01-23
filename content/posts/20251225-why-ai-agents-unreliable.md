@@ -3,7 +3,7 @@ title: "為什麼你的 AI Agent 總是不夠可靠？這個開發者訪談了 1
 date: 2025-12-25T17:35:00+08:00
 description: "用框架快速做出 Agent 很容易，但要突破 70-80% 的完成度卻很難。HumanLayer 創辦人 Dex Horthy 訪談超過 100 位開發者後發現：生產環境中真正可靠的 Agent，其實沒那麼 agentic。它們大多是軟體，只在關鍵節點用 LLM。這篇文章整理他的核心發現。"
 tags: ["AI Agent", "12-Factor Agents", "Dex Horthy", "HumanLayer", "軟體工程"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=8kMaTybvDUw"
 source_name: "AI Engineer 大會"
 draft: false

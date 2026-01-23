@@ -3,7 +3,7 @@ title: "「讀 PhD 就是浪費生命」—— 從清華到 OpenAI，一個工�
 date: 2026-01-20T11:00:00+08:00
 description: "OpenAI 核心工程師翁家翌直言：如果你想進工業界，讀 PhD 就是浪費生命。他認為教一個 researcher 做工程，比教一個 engineer 做研究難得多。這番話對學術界培養 AI 人才的方式提出了根本性的質疑。"
 tags: ["OpenAI", "翁家翌", "PhD", "職涯選擇", "AI 人才", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=I0DrcsDf3Os"
 source_name: "WhynotTV Podcast"
 draft: false

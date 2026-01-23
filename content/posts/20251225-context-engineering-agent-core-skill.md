@@ -3,7 +3,7 @@ title: "Context Engineering：AI Agent 開發的新核心能力"
 date: 2025-12-25T17:40:00+08:00
 description: "LLM 是純函數，輸入什麼就得到什麼。這個簡單的認知，正在重新定義 Agent 開發的核心能力。HumanLayer 創辦人 Dex Horthy 提出的 Context Engineering 概念，把 Prompt、Memory、RAG、History 統一成一個問題：怎麼把對的 token 送進模型？"
 tags: ["Context Engineering", "AI Agent", "12-Factor Agents", "Dex Horthy", "LLM"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=8kMaTybvDUw"
 source_name: "AI Engineer 大會"
 draft: false

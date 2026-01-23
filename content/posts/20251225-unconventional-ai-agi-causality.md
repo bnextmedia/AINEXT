@@ -3,7 +3,7 @@ title: "通往 AGI 的路，可能需要重新發明電腦"
 date: 2025-12-25T15:30:00+08:00
 description: "Unconventional AI 創辦人 Naveen Rao 認為，目前的 AI 系統缺乏對「因果關係」的真正理解，而這可能源於數位計算本身的限制。類比計算的動態系統特性，也許是解決這個問題的方向。"
 tags: ["Unconventional AI", "Naveen Rao", "AGI", "因果關係", "類比計算"]
-categories: ["AI 產業"]
+categories: ["AI 安全與治理"]
 source_url: "https://www.youtube.com/watch?v=wZ4DT20OHXE"
 source_name: "NeurIPS 2024 訪談"
 draft: false

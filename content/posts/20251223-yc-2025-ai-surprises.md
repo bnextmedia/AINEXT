@@ -3,7 +3,7 @@ title: "2025 年 AI 產業回顧：YC 合夥人眼中最意外的五件事"
 date: 2025-12-23
 description: "YC 合夥人年度回顧：Anthropic 超越 OpenAI、AI 經濟穩定化、模型訓練知識平民化、一人獨角獸時代未到來，以及太空資料中心為何變成認真的商業計畫。"
 tags: ["YC", "AI 產業", "Anthropic", "OpenAI", "創業"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=cqrJzG03ENE"
 source_name: "The Light Cone Podcast"
 draft: false

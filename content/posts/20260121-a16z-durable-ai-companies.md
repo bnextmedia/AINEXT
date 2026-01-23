@@ -3,7 +3,7 @@ title: "a16z 投資人的 AI 選股框架：三種能活過模型戰爭的公司
 date: 2026-01-21T10:00:00+08:00
 description: "a16z 合夥人 Alex Rampell 提出 AI 應用投資的三大主題：傳統軟體 AI 原生化、軟體取代勞動力、圍牆花園策略。核心觀點是：AI 的真正故事不在模型，而在應用、分發與護城河。"
 tags: ["a16z", "Alex Rampell", "AI 投資", "SaaS", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=3XVDtPU8xKE"
 source_name: "The a16z Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "GPU 有 70% 時間在「等記憶體」：AI 半導體的真正瓶頸在
 date: 2025-12-26T10:30:00+08:00
 description: "你以為 AI 運算的瓶頸是 GPU 算力不夠？錯了。KAIST 金正鎬教授指出，目前的 AI 晶片有 60-70% 時間在等記憶體送資料。真正的瓶頸是記憶體的頻寬和容量，這解釋了為什麼 HBM 如此重要，以及為什麼 HBF 將成為下一個戰場。"
 tags: ["GPU", "HBM", "HBF", "記憶體", "AI 半導體", "NVIDIA", "金正鎬"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=uJWZQb9rWUk"
 source_name: "삼프로TV 언더스탠딩"
 draft: false

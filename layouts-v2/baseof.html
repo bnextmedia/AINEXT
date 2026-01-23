@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+  {{/* SEO Meta */}}
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+  {{/* 字體載入 */}}
+  {{/* 源樣明體 - 透過 jsDelivr CDN */}}
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AFlask/cdn-source-han-serif@1/SourceHanSerifTW-VF.css">
+
+  {{/* Playfair Display - Google Fonts */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+
+  {{/* V2 樣式 */}}
+  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+  {{/* Favicon */}}
+  <link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
+
+  {{/* RSS */}}
+  {{ with .OutputFormats.Get "RSS" }}
+  <link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">
+  {{ end }}
+
+  {{/* Google Analytics */}}
+  {{ if .Site.Params.ga_analytics }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.ga_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ .Site.Params.ga_analytics }}');
+  </script>
+  {{ end }}
+</head>
+<body class="site">
+  {{/* 頁首 */}}
+  {{ partial "v2/header.html" . }}
+
+  {{/* 主導航 */}}
+  {{ partial "v2/nav.html" . }}
+
+  {{/* 主內容 */}}
+  <main class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{/* 頁尾 */}}
+  {{ partial "v2/footer.html" . }}
+</body>
+</html>

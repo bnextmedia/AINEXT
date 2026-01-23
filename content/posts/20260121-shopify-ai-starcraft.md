@@ -3,7 +3,7 @@ title: "用 AI Agent 就像在玩《星海爭霸》：Shopify CEO 的 AI 工作�
 date: 2026-01-21T12:00:00+08:00
 description: "Shopify CEO Tobi Lütke 認為操作 AI Agent 就像在玩即時戰略遊戲。他同時運行六個 AI Agent，它們之間會互相發送 email。他說如果沒有 AI，他可能已經不會繼續當 CEO 了。2026 年將是 Shopify 歷史上最有趣的一年。"
 tags: ["Shopify", "Tobi Lütke", "AI Agent", "星海爭霸", "StarCraft", "注意力管理", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=ZSM2uFnJ5bs"
 source_name: "Founders Podcast"
 draft: false

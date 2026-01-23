@@ -3,7 +3,7 @@ title: "職稱會崩塌，每個人都會成為 Builder——Zevi Arnovitz 談 A
 date: 2026-01-21T11:00:00+08:00
 description: "Meta PM Zevi Arnovitz 認為現在是當 junior 最好的時代。當大家都在焦慮 AI 會取代工作，他看到的是：史上第一次，你可以一個人就把產品做出來。這篇整理他對 AI 時代職涯的觀點，以及他如何用 AI 準備 Meta 面試。"
 tags: ["Zevi Arnovitz", "Meta", "職涯", "AI 時代", "Junior PM", "面試", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=1em64iUFt3U"
 source_name: "Lenny's Podcast"
 draft: false

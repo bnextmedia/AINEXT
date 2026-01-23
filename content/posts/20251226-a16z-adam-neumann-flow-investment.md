@@ -3,7 +3,7 @@ title: "為什麼 a16z 投資 Adam Neumann 的 Flow？"
 date: 2025-12-26T13:00:00+08:00
 description: "WeWork 創辦人 Adam Neumann 的新公司 Flow 獲得 a16z 投資，引發業界困惑。a16z 成長投資負責人 David George 首次公開解釋投資邏輯：這是「尖銳優勢」投資哲學的最佳案例，而 Neumann 看到了一個被忽略的巨大市場——美國租屋是唯一的「無品牌」生活體驗。"
 tags: ["a16z", "Adam Neumann", "Flow", "WeWork", "投資哲學", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=IxoGRY6TXwk"
 source_name: "20VC"
 draft: false

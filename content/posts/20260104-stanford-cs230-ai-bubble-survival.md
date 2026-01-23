@@ -3,7 +3,7 @@ title: "AI 泡沫要來了嗎？從 .com 時代學到的生存法則"
 date: 2026-01-04T13:00:00+08:00
 description: "史丹佛 CS230 講座直言 AI 泡沫可能正在形成，但這不是壞消息。從 .com 泡沫中存活下來的 Amazon、Google 告訴我們：做對事的人不只能活下來，還會變得更強大。"
 tags: ["AI 泡沫", "投資趨勢", "職涯規劃", "史丹佛", "大模型"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=AuZoDsNmG_s"
 source_name: "Stanford CS230"
 draft: false

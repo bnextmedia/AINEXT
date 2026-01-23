@@ -3,7 +3,7 @@ title: "Shopify CEO 的「工程師思維」經營法則：用程式碼管理一
 date: 2026-01-21T10:00:00+08:00
 description: "Shopify CEO Tobi Lütke 分享如何用工程師的第一原則思維重新設計公司。他建立了 Shopify OS 系統，用 Python 程式碼計算公司理想結構，並導入「desire state system」概念，讓組織設計變得可量化、可迭代。"
 tags: ["Shopify", "Tobi Lütke", "組織設計", "工程師思維", "第一原則", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=ZSM2uFnJ5bs"
 source_name: "Founders Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "AI 硬體突圍與美國財政危機：All-In 年終關鍵回顧"
 date: 2026-01-06T12:00:00+08:00
 description: "從明尼蘇達的 1.1 億美元詐欺案，到 NVIDIA 與 Groq 的 200 億美元驚天合作。All-In Podcast 本集不僅揭露了美國財政體系的系統性崩壞，更深度解析了 AI 運算架構的下一場革命。為何 Chamath 認為我們正處於「帝國黃昏」與「科技黎明」的交界點？"
 tags: ["All-In Podcast", "Groq", "NVIDIA", "美國經濟", "AI趨勢"]
-categories: ["科技趨勢"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=bhpd4NeTbCI"
 source_name: "All-In Podcast"
 draft: false

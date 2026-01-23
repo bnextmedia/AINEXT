@@ -3,7 +3,7 @@ title: "為什麼大多數 AI 產品會失敗？OpenAI 與 Google 資深專家�
 date: 2026-01-20T10:00:00+08:00
 description: "OpenAI Codex 產品負責人 Kiriti Badam 與前 Alexa AI 研究員 Aishwarya Reganti 這對夫妻檔，在 Lenny's Podcast 分享他們參與 50+ AI 產品部署的實戰經驗，揭露為什麼大多數 AI 產品會失敗，以及如何避免這些致命錯誤。"
 tags: ["OpenAI", "AI 產品", "Codex", "Kiriti Badam", "Aishwarya Reganti", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=z7T1pCxgvlA"
 source_name: "Lenny's Podcast"
 draft: false

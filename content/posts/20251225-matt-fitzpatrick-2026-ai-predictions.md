@@ -3,7 +3,7 @@ title: "2026 年 AI 三大預測——來自企業導入最前線的觀察"
 date: 2025-12-25T15:30:00+08:00
 description: "前麥肯錫 QuantumBlack Labs 全球主管、現任 Invisible Technologies CEO Matt Fitzpatrick 分享 2026 年三大 AI 趨勢：多代理人團隊成為企業標配、多模態互動大躍進、數位孿生與 RL Gyms 進入主流。這些預測來自他與數百家企業合作的第一手觀察。"
 tags: ["2026 預測", "AI Agent", "Multi-agent", "Multimodal", "RL Gym", "Matt Fitzpatrick", "Podcast"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=7GFKB0oKd9A"
 source_name: "Moonshots Podcast"
 draft: false

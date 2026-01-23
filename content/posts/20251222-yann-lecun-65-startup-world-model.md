@@ -3,7 +3,7 @@ title: "Yann LeCun 65歲創業宣言——為什麼他要與整個矽谷對賭�
 date: 2025-12-22T22:10:00+08:00
 description: "圖靈獎得主 Yann LeCun 在 65 歲離開 Meta，創辦專注於 World Model 的新公司 AMI。他認為當前 LLM 路線是死胡同，矽谷陷入羊群效應。本文剖析他為何選擇與主流對賭，以及他對達到「狗級智慧」需要 5-10 年的時間表預測。"
 tags: ["Yann LeCun", "World Model", "JEPA", "Meta", "AI 創業"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=7u-DXVADyhc"
 source_name: "Information Bottleneck Podcast"
 draft: false

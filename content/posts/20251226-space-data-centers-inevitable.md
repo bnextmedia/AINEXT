@@ -3,7 +3,7 @@ title: "太空資料中心：為什麼「不信」等於不信運算會繼續成
 date: 2025-12-26T11:00:00+08:00
 description: "地球上的資料中心正面臨土地、水、電力三大限制。一位能源產業背景的研究者 Pranav Myana 認為，太空資料中心不是科幻，而是必然。他預測三年內，衛星上的 AI 推論成本將比地球更低。"
 tags: ["太空資料中心", "SpaceX", "Starship", "AI 運算", "Pranav Myana", "Podcast"]
-categories: ["科技趨勢"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=2gCZql8C0tk"
 source_name: "TBPN"
 draft: false

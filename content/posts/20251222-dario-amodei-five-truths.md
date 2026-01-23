@@ -3,7 +3,7 @@ title: "Anthropic CEO 說了五個圈內人才敢講的真話"
 date: 2025-12-22T21:15:00+08:00
 description: "Anthropic CEO Dario Amodei 在紐約時報 DealBook Summit 公開談論 AI 產業的敏感議題：有人在 YOLO 賭博式投資、消費者市場的戰爭 Anthropic 不參與、Scaling Laws 會持續有效沒有奇點、監管爭議的本質是路線之爭、工作衝擊需要三層解法。這位願意講真話的 CEO，展現了一種清醒的樂觀主義。"
 tags: ["Anthropic", "Dario Amodei", "AI 監管", "AI 安全", "AI 就業衝擊"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=FEj7wAjwQIk"
 source_name: "紐約時報 DealBook Summit"
 draft: false

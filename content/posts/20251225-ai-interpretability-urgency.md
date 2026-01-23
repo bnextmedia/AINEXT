@@ -3,7 +3,7 @@ title: "打開 AI 的黑盒子：Anthropic 與 Goodfire 談可解釋性為何刻
 date: 2025-12-25T10:00:00+08:00
 description: "Anthropic 研究員 Jack Lindsay 與 Goodfire 首席科學家 Tom McGrath 深度對談 AI 可解釋性。當模型產出的 token 數量即將超越全人類閱讀能力，我們必須發展出理解 AI 思維的科學，才能在高風險場景中信任它們。"
 tags: ["Anthropic", "Goodfire", "AI 可解釋性", "Mechanistic Interpretability", "AI 安全"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=azoBSxpkv7Y"
 source_name: "Lightspeed Generative Now"
 draft: false

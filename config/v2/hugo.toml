@@ -1,0 +1,24 @@
+# AINEXT V2 Hugo 設定
+# 使用方式：hugo server --environment v2
+
+baseURL = "https://ainext.tw/"
+languageCode = "zh-TW"
+title = "AINEXT"
+
+# 使用 V2 layouts（不使用 theme）
+# theme = ""
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = true
+buildExpired = false
+
+[pagination]
+  pagerSize = 20
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

@@ -3,7 +3,7 @@ title: "Larry Fink：AI 時代的「K 型經濟」正在成形，規模營運者
 date: 2026-01-23T12:00:00+08:00
 description: "BlackRock 執行長 Larry Fink 在達沃斯警告：AI 正在加速「K 型經濟」的形成，規模營運者在每個產業都成為超級贏家，而中小企業正在被拋在後面。AI 民主化是唯一的解方。"
 tags: ["達沃斯", "Larry Fink", "BlackRock", "K型經濟", "AI", "Walmart", "規模經濟"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=Vi6Apqyuk1s"
 source_name: "World Economic Forum"
 draft: false

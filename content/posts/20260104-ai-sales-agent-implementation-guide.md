@@ -3,7 +3,7 @@ title: "導入 AI 銷售 Agent 實戰指南：SaaStr 的 30 天訓練法則"
 date: 2026-01-04T12:00:00+08:00
 description: "SaaStr 創辦人 Jason Lemkin 分享導入 AI 銷售 Agent 的完整經驗：用哪些工具、怎麼訓練、需要多少時間、誰來管理。從一個通用 AI 自己成交七萬美元訂單開始，到建立 20 個 Agent 的完整銷售團隊，這是一份來自實戰的導入指南。"
 tags: ["AI Agent", "銷售", "SaaStr", "Delphi", "Artisan", "Qualified", "AgentForce", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://youtu.be/I-R1bc1rlFs"
 source_name: "Lenny's Podcast"
 draft: false

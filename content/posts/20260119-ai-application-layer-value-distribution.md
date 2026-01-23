@@ -3,7 +3,7 @@ title: "Antler 創辦人：AI 應用層的價值終將超越 NVIDIA——但關�
 date: 2026-01-19T11:00:00+08:00
 description: "全球創投 Antler 創辦人 Magnus Grimeland 分析 AI 產業價值鏈：基礎建設層目前賺最多錢，但長期來看，應用層會像電商時代的 Amazon 一樣，遠遠超越物流商。而決勝關鍵不是技術，是通路。"
 tags: ["AI 投資", "NVIDIA", "OpenAI", "應用層", "平台轉移", "Antler"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://open.spotify.com/episode/6A69f76UpW7eAajE1PC1Qx"
 source_name: "CNBC Beyond the Valley"
 draft: false

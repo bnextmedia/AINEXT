@@ -3,7 +3,7 @@ title: "諾貝爾獎得主教我的事：突破性科學的真正秘密"
 date: 2025-12-24T02:05:00+08:00
 description: "八位諾貝爾獎得主齊聚一堂，他們成功的秘密是什麼？不是天賦，而是每天問一個問題的習慣、接受不理解的耐心、極度的自我紀律，以及分不清工作與休息的熱情。Nobel Minds 座談會揭示的，是任何人都可以培養的特質——差別只在於能否持續三十年。"
 tags: ["諾貝爾獎", "科學研究", "創新", "學習方法", "好奇心"]
-categories: ["科學與創新"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=e0yqY_bPIU0"
 source_name: "Nobel Minds 2025"
 draft: false

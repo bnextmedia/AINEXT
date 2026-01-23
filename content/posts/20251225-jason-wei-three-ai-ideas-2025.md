@@ -3,7 +3,7 @@ title: "o1 共同創作者的 2025 AI 預言：三個你該知道的核心趨勢
 date: 2025-12-25T10:00:00+08:00
 description: "Jason Wei 是 OpenAI o1 和 Deep Research 的共同創作者，擁有超過 9 萬次學術引用。在 Stanford AI Club 的演講中，他分享了理解 2025 年 AI 發展的三個關鍵框架：智慧商品化、驗證者法則、以及智慧的鋸齒狀邊緣。"
 tags: ["Jason Wei", "OpenAI", "o1", "AI 趨勢", "Stanford"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=b6Doq2fz81U"
 source_name: "Stanford AI Club"
 draft: false

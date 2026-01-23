@@ -3,7 +3,7 @@ title: "你的 AI 會比你更懂你：Sam Altman 談 ChatGPT 記憶功能的終
 date: 2025-12-23T01:00:00+08:00
 description: "Sam Altman 認為目前的記憶功能還在「GPT-2 時代」，終極願景是 AI 記住你生命中的每個細節，理解你勝過任何人類。這種深度個人化會創造強大的產品黏著度，但也帶來倫理問題：OpenAI 不會讓 AI 說服使用者建立專屬戀愛關係，但陪伴需求比預期更強烈。"
 tags: ["OpenAI", "Sam Altman", "ChatGPT", "記憶功能", "AI 陪伴"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://podcasts.apple.com/in/podcast/sam-altman-how-openai-wins-ai-buildout-logic-ipo-in-2026/id1522960417?i=1000741901091"
 source_name: "Big Technology Podcast"
 draft: false

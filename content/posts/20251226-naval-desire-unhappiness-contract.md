@@ -3,7 +3,7 @@ title: "Naval Ravikant：慾望是你與不快樂簽下的契約"
 date: 2025-12-26T10:30:00+08:00
 description: "矽谷天使投資人 Naval Ravikant 認為幸福是一種選擇，而非運氣。他的核心洞見：每一個慾望都是你自願簽下的不快樂契約，直到你得到想要的東西。"
 tags: ["Naval Ravikant", "幸福", "哲學", "心理學", "慾望", "Podcast"]
-categories: ["人生哲學"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=3qHkcs3kG44"
 source_name: "Joe Rogan Experience #1309"
 draft: false

@@ -3,7 +3,7 @@ title: "Meta PM 不寫程式照樣出貨：Zevi Arnovitz 的 AI 開發工作流�
 date: 2026-01-21T10:00:00+08:00
 description: "一位零技術背景的 Meta 產品經理，靠著 AI 工具獨立開發出能賺錢的產品。這篇完整拆解他的 7 步驟開發流程——從記錄靈感、討論需求、列計畫、開工、到讓不同 AI 互相檢查成果。不懂程式也看得懂。"
 tags: ["Zevi Arnovitz", "Meta", "AI 開發", "Cursor", "Claude Code", "Vibe Coding", "Podcast", "PM"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=1em64iUFt3U"
 source_name: "Lenny's Podcast"
 draft: false

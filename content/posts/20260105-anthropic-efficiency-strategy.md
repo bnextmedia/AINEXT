@@ -3,7 +3,7 @@ title: "Anthropic 只花對手十分之一的錢，為什麼還能贏？"
 date: 2026-01-05T10:00:00+08:00
 description: "Anthropic 總裁 Daniela Amodei 接受 CNBC 專訪，揭露公司如何以競爭對手十分之一的資源，持續推出領先業界的 AI 模型。她認為 AI 產業的技術進步不會放緩，但商業落地速度才是真正的變數。"
 tags: ["Anthropic", "Daniela Amodei", "AI 投資", "Scaling Laws", "CNBC"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=GMXnmaky9FY"
 source_name: "CNBC Television"
 draft: false

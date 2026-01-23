@@ -3,7 +3,7 @@ title: "DeepMind CEO 的不眠之夜：站在 AGI 門檻上的人"
 date: 2025-12-22T22:05:00+08:00
 description: "Demis Hassabis 坦承自己經常失眠，因為他正站在 AGI 的門檻上。從四歲學棋到創辦 DeepMind，他用三十年準備這一刻。本文探討這位圖靈獎得主如何面對競爭中的孤獨、AlphaGo 勝利的苦樂參半，以及對 Agent 時代即將來臨的焦慮。"
 tags: ["Demis Hassabis", "DeepMind", "AGI", "AI Agent", "領導力"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=PqVbypvxDto"
 source_name: "Google DeepMind Podcast"
 draft: false

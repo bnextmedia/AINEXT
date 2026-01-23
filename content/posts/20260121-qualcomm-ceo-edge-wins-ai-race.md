@@ -3,7 +3,7 @@ title: "「贏得邊緣運算就贏得 AI 競賽」—— Qualcomm CEO 的 AI �
 date: 2026-01-21T11:00:00+08:00
 description: "Qualcomm CEO Cristiano Amon 認為，在 AI 競賽中，擁有用戶真實情境資料的「邊緣」裝置廠商將佔據優勢。通用模型是用網路資料訓練的，但真正有用的 AI 需要理解你的世界、你的情境、你這個人。"
 tags: ["Qualcomm", "Cristiano Amon", "邊緣運算", "AI 競賽", "Meta", "Google", "OpenAI", "Apple", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=nk4X-iD8HP0"
 source_name: "Big Technology Podcast"
 draft: false

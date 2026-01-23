@@ -3,7 +3,7 @@ title: "AI 寫程式超快，但你跟得上嗎？Netflix 的三階段解法"
 date: 2025-12-22T22:33:00+08:00
 description: "Netflix 工程師 Jake Nations 分享 AI 開發的核心困境：程式碼生成速度已超過工程師理解速度。他提出 Research、Planning、Implementation 三階段方法論，強調「理解先於生成」。本文整理他對本質複雜性與意外複雜性的區分、Easy 與 Simple 的混淆陷阱，以及如何讓 AI 真正發揮效用而非製造更多技術債。"
 tags: ["Netflix", "AI 開發", "軟體工程", "程式設計"]
-categories: ["科技趨勢"]
+categories: ["AI 開發實戰"]
 source_url: "https://www.youtube.com/watch?v=eIoohUmYpGI"
 source_name: "Netflix Tech Talk"
 draft: false

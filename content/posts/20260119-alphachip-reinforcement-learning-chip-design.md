@@ -3,7 +3,7 @@ title: "當 AI 設計出「甜甜圈形狀」的晶片：AlphaChip 如何用強�
 date: 2026-01-19T11:00:00+08:00
 description: "Google AlphaChip 團隊用強化學習讓 AI 自主學習晶片佈局，結果 AI 設計出人類從未嘗試的彎曲形狀，效能反而更好。這個故事揭示了 AI 突破人類認知框架的潛力，以及導入傳統產業的真實挑戰。"
 tags: ["AlphaChip", "強化學習", "Google TPU", "Anna Goldie", "Azalia Mirhoseini", "Floor Planning", "EDA", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=55LT52eVArM"
 source_name: "Training Data Podcast"
 draft: false

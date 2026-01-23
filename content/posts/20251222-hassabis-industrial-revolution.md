@@ -3,7 +3,7 @@ title: "AI 革命會比工業革命快 10 倍——Demis Hassabis 的社會預�
 date: 2025-12-22T22:00:00+08:00
 description: "DeepMind CEO Demis Hassabis 預測 AI 革命將以十倍於工業革命的速度改變社會。他深入分析工業革命的歷史教訓，指出 AI 直接作用於認知層面、擴散近乎即時的特性，將帶來經濟系統重建、人生意義重塑等深層挑戰，並呼籲在五到十年內建立有效的國際治理框架。"
 tags: ["Demis Hassabis", "DeepMind", "AGI", "AI 治理", "社會影響"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=PqVbypvxDto"
 source_name: "Google DeepMind Podcast"
 draft: false

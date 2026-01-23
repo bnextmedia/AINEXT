@@ -3,7 +3,7 @@ title: "從等 5 年電話到 AI 霸主——Sundar Pichai 的矽谷之路"
 date: 2025-12-26T10:00:00+08:00
 description: "Google CEO Sundar Pichai 在 Dreamforce 2025 分享他從南印度到矽谷的成長故事。從等 5 年才拿到撥盤電話、到在 Stanford 省吃儉用打電話給女友、再到帶領 Google 成為 AI 巨頭，這段旅程揭示了「科技普惠」如何成為他一生的使命。"
 tags: ["Sundar Pichai", "Google", "矽谷", "AI", "人物故事"]
-categories: ["人物專訪"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=brQH2CCxbSE"
 source_name: "Dreamforce 2025"
 draft: false

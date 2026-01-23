@@ -3,7 +3,7 @@ title: "資深工程師，初階人類——Kelsey Hightower 談技術人的軟�
 date: 2025-12-25T18:30:00+08:00
 description: "「我看過很多資深工程師，同時也是初階人類。」Kubernetes 共同創辦人 Kelsey Hightower 談技術人員常忽略的軟技能：為什麼靈感來自工作之外、為什麼同理心需要刻意練習、以及為什麼職稱會讓人忘記進化。"
 tags: ["Kelsey Hightower", "軟技能", "職涯發展", "工程師成長", "JetBrains"]
-categories: ["人物專訪"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=HdUbTyvrfKo"
 source_name: "JetBrains"
 draft: false

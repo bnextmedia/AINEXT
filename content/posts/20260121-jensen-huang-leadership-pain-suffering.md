@@ -3,7 +3,7 @@ title: "黃仁勳的領導哲學：痛苦與受苦是 NVIDIA 的秘密武器"
 date: 2026-01-21T10:00:00+08:00
 description: "NVIDIA 創辦人黃仁勳在 Podcast 中分享他的領導理念：空椅子比坐錯人好、60 個直屬下屬的扁平管理、以及為什麼「痛苦與受苦」是打造世界級團隊的關鍵。"
 tags: ["Jensen Huang", "NVIDIA", "領導力", "企業文化", "Podcast"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=8FOdAc_i_tM"
 source_name: "A Bit Personal with Jodi Shelton"
 draft: false

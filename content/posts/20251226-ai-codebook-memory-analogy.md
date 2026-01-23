@@ -3,7 +3,7 @@ title: "AI 的「密碼本」越大越聰明：一位 KAIST 教授的記憶體�
 date: 2025-12-26T11:00:00+08:00
 description: "KAIST 金正鎬教授用「密碼本」比喻解釋 AI 如何運作：Transformer 模型的 Encoder 把人類語言轉成密碼，Decoder 再解密成答案。這本密碼本越大，AI 就越聰明。而儲存這本密碼本的記憶體，才是決定 AI 能力的關鍵。"
 tags: ["Transformer", "KV Cache", "HBM", "HBF", "記憶體", "金正鎬", "AI 原理"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=uJWZQb9rWUk"
 source_name: "삼프로TV 언더스탠딩"
 draft: false

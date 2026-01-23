@@ -3,7 +3,7 @@ title: "簡立峰：2026 年 AI 趨勢觀察——從 CES 看 NVIDIA 的野心�
 date: 2026-01-19T10:00:00+08:00
 description: "前 Google 台灣董事總經理簡立峰分析 CES 2026 的重要觀察：NVIDIA 的降價策略、Physical AI 崛起、科技巨頭併購新模式，以及 AI Agent 落地與超級使用者的定義。"
 tags: ["簡立峰", "NVIDIA", "CES", "AI Agent", "Physical AI", "Podcast"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=Px8GLgVw8V0"
 source_name: "數位時代 Business Next Podcast"
 draft: false

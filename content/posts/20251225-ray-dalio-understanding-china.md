@@ -3,7 +3,7 @@ title: "Ray Dalio 的中國洞察：理解和諧、朝貢與百年恥辱"
 date: 2025-12-25T11:00:00+08:00
 description: "Ray Dalio 從 1984 年開始接觸中國，與多位中國領導人有深入交流。他在牛津辯論社分享三個理解中國的關鍵詞：和諧、朝貢制度、百年恥辱。西方最大的誤解是以為中國人會像我們一樣思考。"
 tags: ["Ray Dalio", "中國", "地緣政治", "中美關係", "訪談"]
-categories: ["投資理財"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=blp67tGDFUg"
 source_name: "Oxford Union"
 draft: false

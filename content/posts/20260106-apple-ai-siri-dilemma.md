@@ -3,7 +3,7 @@ title: "Apple 的 AI 困局：Siri 只剩一次機會？"
 date: 2026-01-06T11:00:00+08:00
 description: "iPhone 發表會結束後股價下跌，市場在等什麼？兩位華爾街科技分析師深入辯論 Apple 的 AI 策略：Siri 的改版是背水一戰還是還有翻身機會？Vision Pro 是不是一場資源錯配？Apple 在 AI 時代的未來會是什麼？"
 tags: ["Apple", "Siri", "AI", "iPhone", "Vision Pro", "Podcast"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=NsQozkZmrXA"
 source_name: "DeepTech Podcast"
 draft: false

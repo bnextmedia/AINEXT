@@ -3,7 +3,7 @@ title: "Kelsey Hightower 談 AI：為什麼預測？明明可以確定"
 date: 2025-12-25T18:00:00+08:00
 description: "Kubernetes 共同創辦人 Kelsey Hightower 對 AI 的務實觀點：我們整個職涯都在把系統變得可預測，現在卻擁抱不確定性？他看好 AI 作為意圖導向 API 的潛力，但對 prompt engineering 有獨到見解——你們可能創造了另一種程式語言。"
 tags: ["Kelsey Hightower", "Kubernetes", "AI", "DevOps", "Platform Engineering"]
-categories: ["AI 產業"]
+categories: ["AI 開發實戰"]
 source_url: "https://www.youtube.com/watch?v=HdUbTyvrfKo"
 source_name: "JetBrains"
 draft: false

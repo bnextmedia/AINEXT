@@ -3,7 +3,7 @@ title: "OpenAI 的 2026：裝置、雲端、科學發現，以及超級智慧的
 date: 2025-12-23T00:58:00+08:00
 description: "Sam Altman 在專訪中描繪 OpenAI 的 2026 願景：開發 AI 原生裝置家族、建構不同於傳統雲端的 AI 平台、用 AI 加速科學發現。他認為 AGI 可能已經「悄悄過去」，並提出超級智慧的新定義：當 AI 能比任何人類更好地擔任總統、CEO 或科學實驗室主持人。"
 tags: ["OpenAI", "Sam Altman", "AGI", "超級智慧", "AI 裝置"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://podcasts.apple.com/in/podcast/sam-altman-how-openai-wins-ai-buildout-logic-ipo-in-2026/id1522960417?i=1000741901091"
 source_name: "Big Technology Podcast"
 draft: false

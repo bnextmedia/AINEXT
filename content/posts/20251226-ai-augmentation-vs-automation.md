@@ -3,7 +3,7 @@ title: "AI 讓你更強，還是讓你失業？芝加哥大學經濟學家的真
 date: 2025-12-26T10:00:00+08:00
 description: "ChatGPT 上線兩年半，「AI 會搶走工作」的恐懼持續蔓延。但芝加哥大學的經濟學家們發現，實際情況遠比想像複雜：AI 更常被用來增強人類能力，而非取代人類。本文整理芝大 Becker Friedman Institute 的專家對談，拆解 AI 對工作的真實影響。"
 tags: ["AI", "ChatGPT", "勞動市場", "芝加哥大學", "Anthropic", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/us/podcast/pandemic-economics/id1509074261"
 source_name: "The Pie: An Economics Podcast"
 draft: false

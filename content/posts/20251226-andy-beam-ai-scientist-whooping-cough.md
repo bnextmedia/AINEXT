@@ -3,7 +3,7 @@ title: "那年被誤診的男孩，現在要讓 AI 自己做實驗"
 date: 2025-12-26T10:00:00+08:00
 description: "Andy Beam 小學六年級時得了百日咳，小兒科醫師卻診斷為鼻竇炎。這次誤診讓他看見醫療的認知盲點，最終成為哈佛教授、醫療 AI 先驅。2024 年他離開學界，加入 Lila Sciences 擔任技術長，目標是打造能自己提出假說、自己做實驗的 AI 系統。這是他的故事，也是 AI 科學研究的下一章。"
 tags: ["Andy Beam", "Lila Sciences", "醫療 AI", "Scaling Laws", "AI 科學研究", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/tw/podcast/can-ai-accelerate-science-dr-andy-beam-on-ais-next-frontier/id1657518313?i=1000717523879"
 source_name: "NEJM AI Grand Rounds"
 draft: false

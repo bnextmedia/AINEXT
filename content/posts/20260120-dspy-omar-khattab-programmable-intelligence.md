@@ -3,7 +3,7 @@ title: "「沒人想要智慧本身」——DSPy 創建者談 AI 的下一步不
 date: 2026-01-20T10:00:00+08:00
 description: "MIT 助理教授、DSPy 創建者 Omar Khattab 認為，追求 AGI 的方向有誤。真正重要的是建構「可程式化智慧」(Artificial Programmable Intelligence)——讓人類能有效表達意圖、建構可靠系統的能力。"
 tags: ["DSPy", "Omar Khattab", "AGI", "AI Agent", "系統設計", "a16z", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://open.spotify.com/episode/09zE7lWP6poDbTFNoglEYJ"
 source_name: "The a16z Show"
 draft: false

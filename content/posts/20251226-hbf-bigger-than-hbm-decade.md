@@ -3,7 +3,7 @@ title: "十年後，HBF 會比 HBM 更重要：一場可能改變半導體版圖
 date: 2025-12-26T11:30:00+08:00
 description: "KAIST 金正鎬教授預測，HBF（高頻寬快閃記憶體）將在十年後超越 HBM 成為 AI 半導體的核心。他詳細解釋了 HBF 的技術原理、為什麼 AI 需要它、以及這對三星、SK 海力士、SanDisk 等記憶體廠商的戰略意義。"
 tags: ["HBF", "HBM", "NAND Flash", "三星", "SK 海力士", "SanDisk", "金正鎬", "AI 半導體"]
-categories: ["AI 產業"]
+categories: ["AI 技術前沿"]
 source_url: "https://www.youtube.com/watch?v=uJWZQb9rWUk"
 source_name: "삼프로TV 언더스탠딩"
 draft: false

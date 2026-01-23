@@ -1,0 +1,101 @@
+// AINEXT V2 - 報紙風格變數設定
+// 設計靈感：Semafor.com
+
+// ============================================
+// 色彩系統
+// ============================================
+
+// 主要色彩
+$color-bg: #f8f5d7              // 奶油黃背景（報紙色）
+$color-bg-dark: #1a1a1a         // 深色模式背景
+$color-text: #000000            // 純黑文字
+$color-text-light: #1f1d1a      // 稍淺的文字色
+$color-accent: #3a6d78          // 青綠色重點色（連結、互動）
+$color-accent-hover: #2d555e    // 重點色 hover 狀態
+$color-divider: #d4d0b8         // 分隔線顏色
+$color-category: #1a365d        // 分類標籤深藍色
+
+// ============================================
+// 字體系統
+// ============================================
+
+// 中文字體：源樣明體（傳統印刷體風格）
+// 英文字體：Playfair Display（經典 serif）
+$font-serif-zh: 'GenYoMin', 'Noto Serif TC', 'Source Han Serif TC', serif
+$font-serif-en: 'Playfair Display', Georgia, 'Times New Roman', serif
+$font-sans: 'Noto Sans TC', -apple-system, BlinkMacSystemFont, sans-serif
+
+// 字體組合
+$font-headline: $font-serif-en, $font-serif-zh   // 標題用
+$font-body: $font-serif-zh                        // 內文用
+$font-ui: $font-sans                              // UI 元素用
+
+// 字重
+$font-weight-light: 300
+$font-weight-regular: 400
+$font-weight-medium: 500
+$font-weight-semibold: 600
+
+// ============================================
+// 字級系統
+// ============================================
+
+$font-size-base: 18px
+$font-size-small: 14px
+$font-size-caption: 12px
+
+// 標題字級
+$font-size-h1: 2.5rem      // 40px - 主標題
+$font-size-h2: 2rem        // 32px - 區塊標題
+$font-size-h3: 1.5rem      // 24px - 文章標題
+$font-size-h4: 1.25rem     // 20px - 小標題
+
+// 行高
+$line-height-tight: 1.2
+$line-height-base: 1.6
+$line-height-loose: 1.8
+
+// ============================================
+// 間距系統
+// ============================================
+
+$spacing-xs: 0.5rem    // 8px
+$spacing-sm: 1rem      // 16px
+$spacing-md: 1.5rem    // 24px
+$spacing-lg: 2rem      // 32px
+$spacing-xl: 3rem      // 48px
+$spacing-xxl: 4rem     // 64px
+
+// ============================================
+// 布局
+// ============================================
+
+$max-width: 1200px
+$max-width-content: 800px
+$grid-gap: 2rem
+
+// 斷點
+$breakpoint-sm: 576px
+$breakpoint-md: 768px
+$breakpoint-lg: 1024px
+$breakpoint-xl: 1200px
+
+// ============================================
+// 其他
+// ============================================
+
+$border-width: 1px
+$border-style: solid
+$transition-base: all 0.2s ease
+
+// CSS 變數（供 HTML 使用）
+html
+  --color-mode: "light"
+  --bg: #{$color-bg}
+  --bg-dark: #{$color-bg-dark}
+  --text: #{$color-text}
+  --accent: #{$color-accent}
+  --divider: #{$color-divider}
+  --font-headline: #{$font-headline}
+  --font-body: #{$font-body}
+  --font-ui: #{$font-ui}

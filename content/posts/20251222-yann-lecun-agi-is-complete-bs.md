@@ -3,7 +3,7 @@ title: "「AGI 這個概念完全是鬼扯」——LeCun 如何拆解 AI 產業�
 date: 2025-12-22T22:15:00+08:00
 description: "Yann LeCun 直言 AGI 概念是「complete BS」，人類智慧根本不通用。他分析為何最樂觀也要 5-10 年才能達到「狗級智慧」，並用噴射引擎比喻回應末日論：AI 安全是工程問題，不是存在性威脅。本文完整拆解他對 AI 產業集體妄想的批判。"
 tags: ["Yann LeCun", "AGI", "AI 安全", "Moravec 悖論", "末日論"]
-categories: ["AI 產業"]
+categories: ["AI 安全與治理"]
 source_url: "https://www.youtube.com/watch?v=7u-DXVADyhc"
 source_name: "Information Bottleneck Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "「我沒變，是政黨變了」——Alex Karp 的詭辯課"
 date: 2025-12-24T01:43:00+08:00
 description: "Palantir CEO Alex Karp 在紐約時報峰會上展示了高超的論述技巧：詞彙劫持、同理心柔道、議題窄化、沉默多數召喚。這篇文章拆解他如何在爭議話題上自圓其說，這些技巧不管你喜不喜歡他，都值得學。"
 tags: ["Palantir", "論述技巧", "Alex Karp", "政治表態", "說服力"]
-categories: ["AI 產業"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=8i-ys9faa74"
 source_name: "紐約時報 DealBook 峰會"
 draft: false

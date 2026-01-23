@@ -3,7 +3,7 @@ title: "John Cena 的 30% 法則：抓住三成機會，你就贏過 99% 的人"
 date: 2026-01-07T11:00:00+08:00
 description: "WWE 傳奇選手 John Cena 在 Joe Rogan 節目中分享他的人生哲學：不追求完美打擊率，只要抓住 30% 的機會就夠了。從失敗中學習、對機會說 Yes、以及如何與父親和解，這些心法讓他走過 23 年職摔生涯。"
 tags: ["John Cena", "Joe Rogan", "人生哲學", "成功心法", "Podcast"]
-categories: ["人物專訪"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=sJ4Ho4ccuFg"
 source_name: "The Joe Rogan Experience"
 draft: false

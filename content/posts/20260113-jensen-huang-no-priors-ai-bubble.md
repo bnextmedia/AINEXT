@@ -3,7 +3,7 @@ title: "黃仁勳反駁 AI 泡沫論：「悲觀者在派對上聽起來很聰�
 date: 2026-01-13T16:00:00+08:00
 description: "NVIDIA 執行長黃仁勳在 No Priors Podcast 分享對 AI 產業的深度觀察。他提出「任務 vs 目的」框架解釋 AI 不會消滅工作、強調開源 AI 對創新的關鍵作用，並以系統性思維反駁 AI 泡沫敘事。"
 tags: ["NVIDIA", "Jensen Huang", "AI 泡沫", "開源 AI", "DeepSeek", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=k-xtmISBCNE"
 source_name: "No Priors Podcast"
 draft: false

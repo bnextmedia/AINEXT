@@ -3,7 +3,7 @@ title: "Apple 日本開放第三方 App 商店，這對全球 iOS 生態系意�
 date: 2025-12-26T10:00:00+08:00
 description: "日本通過《行動軟體競爭法》(MSCA)，要求 Apple 開放第三方 App 商店與支付系統。這是繼歐盟之後，第二個成功迫使 Apple 鬆綁 iOS 封閉生態系的主要市場。本文解析 MSCA 的核心要求、Apple 的因應措施，以及對臺灣使用者與開發者的潛在影響。"
 tags: ["Apple", "日本", "MSCA", "App Store", "科技法規"]
-categories: ["科技趨勢"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.apple.com/newsroom/2025/12/apple-announces-changes-to-ios-in-japan/"
 source_name: "Apple Newsroom"
 draft: false

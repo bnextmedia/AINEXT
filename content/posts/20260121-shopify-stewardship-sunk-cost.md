@@ -3,7 +3,7 @@ title: "公司不是你的：Shopify CEO 如何用「貢獻到公地」思維避
 date: 2026-01-21T13:00:00+08:00
 description: "Shopify CEO Tobi Lütke 禁止員工使用「ownership」這個詞，只能用「stewardship」。他每年會假裝自己是剛買下破產公司的企業掠奪者，寫一份「黑函」批評過去的決策。這種心智模型幫助他避免沉沒成本謬誤，持續推動公司進步。"
 tags: ["Shopify", "Tobi Lütke", "沉沒成本", "組織文化", "心智模型", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=ZSM2uFnJ5bs"
 source_name: "Founders Podcast"
 draft: false

@@ -3,7 +3,7 @@ title: "黃仁勳的「AI 五層蛋糕」——為什麼理解這個框架比追
 date: 2025-12-24T12:35:00+08:00
 description: "多數人談 AI 只談 ChatGPT，但黃仁勳用「五層蛋糕」框架重新定義整個產業：能源、晶片、基礎設施、模型、應用。理解這個框架，比追著看哪個 AI 又更新了更重要。每一層都有不同的競爭態勢，美國領先的是哪些？落後的又是哪些？"
 tags: ["黃仁勳", "NVIDIA", "AI產業", "AI框架", "能源", "晶片"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=jpZ0dPsnIWw"
 source_name: "David Rubenstein Show"
 draft: false

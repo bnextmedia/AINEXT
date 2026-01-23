@@ -3,7 +3,7 @@ title: "危機中找到真正的領導者：Shopify CEO 為何把「創辦人」
 date: 2026-01-21T11:00:00+08:00
 description: "COVID 疫情成為 Shopify 的轉捩點。CEO Tobi Lütke 發現危機會以無法預測的方式測試人，而最能適應的往往是有創業經驗的人。他取消 60% 專案、換掉所有高管，並從被收購公司的創辦人中組建新的領導團隊。"
 tags: ["Shopify", "Tobi Lütke", "創辦人模式", "領導力", "危機管理", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=ZSM2uFnJ5bs"
 source_name: "Founders Podcast"
 draft: false

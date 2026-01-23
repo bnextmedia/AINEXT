@@ -3,7 +3,7 @@ title: "AI PC 真正的商機不在消費者，而在企業端的成本結構革
 date: 2026-01-21T12:00:00+08:00
 description: "Dell 產品主管坦言消費者不是為了 AI 而買電腦。但 Qualcomm CEO Cristiano Amon 認為，AI PC 的真正價值在企業端：當 SaaS 公司能把運算從雲端搬到本地裝置，成本結構將徹底改變。"
 tags: ["Qualcomm", "Cristiano Amon", "AI PC", "SaaS", "企業運算", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=nk4X-iD8HP0"
 source_name: "Big Technology Podcast"
 draft: false

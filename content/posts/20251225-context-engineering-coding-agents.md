@@ -3,7 +3,7 @@ title: "Context Engineering 實戰指南——為什麼你的 AI 編程工具總
 date: 2025-12-25T10:00:00+08:00
 description: "AI 編程工具的問題不在模型，在於 context window 管理。HumanLayer 創辦人 Dex Horthy 提出「Dumb Zone」理論，解釋為什麼超過 40% context 使用率後效果急劇下降，並分享 Research-Plan-Implement 三階段工作流。"
 tags: ["Context Engineering", "AI 編程", "Claude Code", "Dex Horthy", "HumanLayer"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=rmvDxxNubIg"
 source_name: "AI Engineer World's Fair 2025"
 draft: false

@@ -3,7 +3,7 @@ title: "AI 時代不被淘汰的技能組合：Dan Koe 的 Future Proof Skill St
 date: 2026-01-05T10:00:00+08:00
 description: "當所有人都在問「AI 會取代我嗎」，個人品牌經營者 Dan Koe 提出一套「防呆技能組」：學習如何學習、如何思考、如何賺錢。這不是空泛的心靈雞湯，而是一套可操作的框架，讓你在 AI 時代保持競爭力。"
 tags: ["Dan Koe", "個人品牌", "AI 時代", "技能學習", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://youtu.be/EVDQ1MijHbk"
 source_name: "Open Residency Podcast"
 draft: false

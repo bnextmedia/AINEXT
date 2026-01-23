@@ -3,7 +3,7 @@ title: "當強權不再遵守規則：從台積電看權力不對等下的談判
 date: 2025-12-26T10:00:00+08:00
 description: "芝加哥大學經濟學教授謝長泰在 Podcast 中提出一個尖銳的問題：當強權對你提出要求，而過去處理關係的規則不再適用，你該怎麼辦？從台積電的處境，我們可以看見這個困境的普世性——從國際政治到企業談判，甚至職場權力關係，這個問題正在各處上演。"
 tags: ["台積電", "TSMC", "謝長泰", "談判策略", "地緣政治", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://bfi.uchicago.edu/insights/between-a-chip-and-a-hard-place-the-economics-of-security-and-sovereignty-in-taiwan/"
 source_name: "The Pie: An Economics Podcast"
 draft: false

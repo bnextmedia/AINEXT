@@ -3,7 +3,7 @@ title: "80,000 小時的人生，為什麼要做不喜歡的事？Bill Gurley �
 date: 2026-01-22T12:00:00+08:00
 description: "矽谷傳奇創投家 Bill Gurley 分享他的新書《Running Down a Dream》核心觀點：如何測試真正的熱情、為什麼要去最熱鬧的地方、以及 80 歲回頭看時，我們更容易後悔什麼。"
 tags: ["Bill Gurley", "職涯", "創業", "熱情", "Running Down a Dream", "Podcast"]
-categories: ["創業經營"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=rjSesMsQTxk"
 source_name: "Tim Ferriss Show"
 draft: false

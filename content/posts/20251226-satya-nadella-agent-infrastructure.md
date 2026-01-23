@@ -3,7 +3,7 @@ title: "Satya Nadella：Microsoft 365 將從「人類工具」轉型為「Agent 
 date: 2025-12-26T11:00:00+08:00
 description: "Microsoft CEO Satya Nadella 描繪了公司未來十年的轉型藍圖：Microsoft 365 將從服務人類使用者的工具業務，轉變為支援 AI Agent 工作的基礎設施業務。這意味著商業模式從 per user 變成 per agent，市場規模可能比人類使用者更大。"
 tags: ["Satya Nadella", "Microsoft", "AI Agent", "Microsoft 365", "GitHub", "商業模式", "Podcast"]
-categories: ["AI 產業"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=8-boBsWcr5A"
 source_name: "Dwarkesh Patel Podcast"
 draft: false

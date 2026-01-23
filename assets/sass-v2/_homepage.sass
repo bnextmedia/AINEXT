@@ -1,0 +1,266 @@
+// AINEXT V2 - 首頁樣式
+// 報紙風格：多欄布局、分類區塊
+
+@import "variables"
+
+// ============================================
+// 首頁整體結構
+// ============================================
+
+.homepage
+  max-width: $max-width
+  margin: 0 auto
+  padding: $spacing-lg $spacing-md
+
+// ============================================
+// Hero 區塊（頭條新聞）
+// ============================================
+
+.hero-section
+  display: grid
+  grid-template-columns: 1fr 2fr 1fr
+  gap: $spacing-lg
+  padding-bottom: $spacing-xl
+  border-bottom: 3px solid $color-text
+  margin-bottom: $spacing-xl
+
+  @media (max-width: $breakpoint-lg)
+    grid-template-columns: 1fr 1fr
+
+  @media (max-width: $breakpoint-md)
+    grid-template-columns: 1fr
+
+// 左側：今日焦點（快訊列表）
+.hero-section__glance
+  @media (max-width: $breakpoint-lg)
+    order: 2
+    grid-column: 1 / -1
+
+.glance-title
+  @include font-headline
+  font-size: 1.5rem
+  margin-bottom: $spacing-md
+  display: flex
+  align-items: center
+  gap: $spacing-sm
+
+  &::before
+    content: ""
+    width: 8px
+    height: 8px
+    background-color: $color-accent
+    border-radius: 50%
+
+.glance-updated
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+  margin-bottom: $spacing-sm
+
+// 中間：主文章
+.hero-section__main
+  @media (max-width: $breakpoint-lg)
+    order: 1
+
+// 右側：次要文章 + 廣告
+.hero-section__sidebar
+  @media (max-width: $breakpoint-lg)
+    order: 3
+    grid-column: 1 / -1
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    gap: $spacing-md
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: 1fr
+
+// ============================================
+// 分類區塊
+// ============================================
+
+.category-section
+  padding: $spacing-xl 0
+  border-bottom: 1px solid $color-divider
+
+  &:last-child
+    border-bottom: none
+
+// 區塊標題列
+.category-section__header
+  display: flex
+  justify-content: space-between
+  align-items: baseline
+  margin-bottom: $spacing-lg
+
+.category-section__more
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-accent
+
+  &:hover
+    text-decoration: underline
+
+// ============================================
+// 分類區塊布局變體
+// ============================================
+
+// 布局 A：1 大 + 4 小（橫向）
+.category-layout--a
+  display: grid
+  grid-template-columns: 1fr 1fr
+  gap: $spacing-lg
+
+  @media (max-width: $breakpoint-md)
+    grid-template-columns: 1fr
+
+  .category-layout__main
+    // 主文章
+
+  .category-layout__list
+    display: grid
+    grid-template-columns: 1fr 1fr
+    gap: $spacing-md
+
+    @media (max-width: $breakpoint-sm)
+      grid-template-columns: 1fr
+
+// 布局 B：4 欄均等
+.category-layout--b
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  gap: $spacing-md
+
+  @media (max-width: $breakpoint-lg)
+    grid-template-columns: repeat(2, 1fr)
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: 1fr
+
+// 布局 C：3 欄（1 大 2 小）
+.category-layout--c
+  display: grid
+  grid-template-columns: 2fr 1fr 1fr
+  gap: $spacing-lg
+
+  @media (max-width: $breakpoint-md)
+    grid-template-columns: 1fr
+
+// 布局 D：純列表
+.category-layout--d
+  display: flex
+  flex-direction: column
+  gap: 0
+
+  .article-card
+    padding: $spacing-sm 0
+    border-bottom: 1px solid $color-divider
+
+    &:last-child
+      border-bottom: none
+
+    .article-card__title
+      font-size: 1rem
+      margin-bottom: 0
+
+// ============================================
+// 雙欄布局（兩個分類並排）
+// ============================================
+
+.category-dual
+  display: grid
+  grid-template-columns: 1fr 1fr
+  gap: $spacing-xl
+
+  @media (max-width: $breakpoint-md)
+    grid-template-columns: 1fr
+    gap: $spacing-lg
+
+.category-dual__column
+  // 單欄內容
+
+// Featured 布局（1 大圖 + 小列表）
+.category-layout--featured
+  .article-card:first-child
+    margin-bottom: $spacing-md
+
+.category-layout__list-small
+  display: flex
+  flex-direction: column
+  gap: 0
+
+  .article-card
+    padding: $spacing-xs 0
+    border-bottom: 1px solid $color-divider
+
+    &:last-child
+      border-bottom: none
+
+    .article-card__title
+      font-size: 0.95rem
+      line-height: 1.4
+
+// 列表式文章（橫向小卡片）
+.articles-grid--list
+  display: flex
+  flex-direction: column
+  gap: $spacing-sm
+
+  .article-card--horizontal
+    grid-template-columns: 100px 1fr
+    gap: $spacing-sm
+    align-items: start
+
+    .article-card__image
+      aspect-ratio: 1
+      width: 100px
+      height: 100px
+
+    .article-card__title
+      font-size: 1rem
+
+    .article-card__excerpt
+      display: none
+
+// ============================================
+// 文章網格（通用）
+// ============================================
+
+.articles-grid
+  display: grid
+  gap: $spacing-lg
+
+  &--2col
+    grid-template-columns: repeat(2, 1fr)
+
+    @media (max-width: $breakpoint-sm)
+      grid-template-columns: 1fr
+
+  &--3col
+    grid-template-columns: repeat(3, 1fr)
+
+    @media (max-width: $breakpoint-md)
+      grid-template-columns: repeat(2, 1fr)
+
+    @media (max-width: $breakpoint-sm)
+      grid-template-columns: 1fr
+
+  &--4col
+    grid-template-columns: repeat(4, 1fr)
+
+    @media (max-width: $breakpoint-lg)
+      grid-template-columns: repeat(2, 1fr)
+
+    @media (max-width: $breakpoint-sm)
+      grid-template-columns: 1fr
+
+// ============================================
+// 分隔區塊
+// ============================================
+
+.section-divider
+  border: none
+  border-top: 1px solid $color-divider
+  margin: $spacing-xl 0
+
+.section-divider--thick
+  border-top: 3px solid $color-text

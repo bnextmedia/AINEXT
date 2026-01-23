@@ -3,7 +3,7 @@ title: "一平方公尺太陽能＝一個人腦的運算力？Casey Handmer 描�
 date: 2025-12-26T14:40:00+08:00
 description: "Terraform Industries 創辦人 Casey Handmer 從物理第一性原理推導 AI 的終極形態：一片漂浮在太空中的太陽能矽晶片，中央是運算單元，周圍是發電面板。這不是科幻，是物理定律允許的必然終局。"
 tags: ["Casey Handmer", "Terraform Industries", "AI 終局", "太陽能", "運算物理學"]
-categories: ["科技趨勢"]
+categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=3cDHx2_QbPE"
 source_name: "YouTube"
 draft: false

@@ -3,7 +3,7 @@ title: "Anthropic 經濟學家：API 自動化成功率不如你想的高，企�
 date: 2026-01-22T10:00:00+08:00
 description: "Anthropic 經濟主管 Peter McCrory 分析數百萬筆 Claude 對話資料，發現企業透過 API 部署 AI 的成功率，遠低於一般使用者在聊天介面的表現。關鍵差異在於：複雜任務需要更多脈絡資訊，而多數企業還沒準備好。"
 tags: ["Anthropic", "Claude", "AI 導入", "企業自動化", "Peter McCrory", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=_CjO65F6JEQ"
 source_name: "Exponential View"
 draft: false

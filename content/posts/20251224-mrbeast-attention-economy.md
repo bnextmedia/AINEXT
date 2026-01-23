@@ -3,7 +3,7 @@ title: "從假裝上大學到 52 億帝國：MrBeast 怎麼成為全球最懂注
 date: 2025-12-24T02:02:00+08:00
 description: "MrBeast 從 11 歲開始做 YouTube，連續七年幾乎沒人看。他假裝上大學、在車裡研究演算法，終於破解了注意力密碼。如今他擁有十億粉絲、52 億美元企業估值，橫跨媒體、消費品、串流平台。這篇文章整理他在 DealBook Summit 的訪談精華，揭露他對演算法、平台差異、內容策略的核心洞見。"
 tags: ["MrBeast", "YouTube", "創作者經濟", "注意力經濟"]
-categories: ["創業經營"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=N9gSO66oC6U"
 source_name: "DealBook Summit"
 draft: false

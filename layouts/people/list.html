@@ -1,0 +1,154 @@
+{{ define "main" }}
+<div class="wrap mt people-list-page">
+  <header class="section-header">
+    <h1>{{ .Title }}</h1>
+    <p class="section-description">{{ .Description }}</p>
+    <p class="section-stats">共收錄 <strong>{{ len .Pages }}</strong> 位人物</p>
+  </header>
+
+  <!-- 篩選器 -->
+  <div class="filters">
+    <div class="filter-group">
+      <label>身份類型</label>
+      <select id="filter-type" class="filter-select">
+        <option value="">全部</option>
+        {{ $types := slice }}
+        {{ range .Pages }}
+          {{ with .Params.person_type }}
+            {{ range . }}
+              {{ $types = $types | append . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ range ($types | uniq | sort) }}
+        <option value="{{ . }}">{{ . }}</option>
+        {{ end }}
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>專長領域</label>
+      <select id="filter-expertise" class="filter-select">
+        <option value="">全部</option>
+        {{ $expertise := slice }}
+        {{ range .Pages }}
+          {{ with .Params.expertise_areas }}
+            {{ range . }}
+              {{ $expertise = $expertise | append . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ range ($expertise | uniq | sort) }}
+        <option value="{{ . }}">{{ . }}</option>
+        {{ end }}
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>國籍</label>
+      <select id="filter-nationality" class="filter-select">
+        <option value="">全部</option>
+        {{ $nationalities := slice }}
+        {{ range .Pages }}
+          {{ with .Params.nationality }}
+            {{ $nationalities = $nationalities | append . }}
+          {{ end }}
+        {{ end }}
+        {{ range ($nationalities | uniq | sort) }}
+        <option value="{{ . }}">{{ . }}</option>
+        {{ end }}
+      </select>
+    </div>
+    <div class="filter-group filter-search">
+      <label>搜尋</label>
+      <input type="text" id="filter-search" placeholder="輸入人名..." class="filter-input">
+    </div>
+  </div>
+
+  <!-- 人物列表 -->
+  <div class="people-grid" id="people-grid">
+    {{ range .Pages.ByTitle }}
+    <a href="{{ .Permalink }}" class="person-card"
+       data-type="{{ delimit .Params.person_type "," | lower }}"
+       data-expertise="{{ delimit .Params.expertise_areas "," | lower }}"
+       data-nationality="{{ .Params.nationality | lower }}"
+       data-name="{{ .Title | lower }} {{ .Params.name_zh | lower }}">
+      <div class="person-card-photo">
+        {{ with .Params.photo }}
+        <img src="{{ . }}" alt="{{ $.Title }}">
+        {{ else }}
+        <div class="person-card-photo-placeholder">
+          <span>{{ substr .Title 0 1 | upper }}</span>
+        </div>
+        {{ end }}
+      </div>
+      <div class="person-card-body">
+        <h2 class="person-card-name">{{ .Title }}</h2>
+        {{ with .Params.name_zh }}<p class="person-card-name-zh">{{ . }}</p>{{ end }}
+        <p class="person-card-position">
+          {{ with .Params.current_position }}{{ . }}{{ end }}
+          {{ with .Params.current_organization }}@ {{ . }}{{ end }}
+        </p>
+        <div class="person-card-badges">
+          {{ with .Params.person_type }}
+            {{ range first 2 . }}
+            <span class="badge badge-sm">{{ . }}</span>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+
+  <p class="no-results" id="no-results" style="display: none;">沒有符合條件的人物</p>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const grid = document.getElementById('people-grid');
+  const cards = grid.querySelectorAll('.person-card');
+  const noResults = document.getElementById('no-results');
+
+  const filters = {
+    type: document.getElementById('filter-type'),
+    expertise: document.getElementById('filter-expertise'),
+    nationality: document.getElementById('filter-nationality'),
+    search: document.getElementById('filter-search')
+  };
+
+  function applyFilters() {
+    const typeVal = filters.type.value.toLowerCase();
+    const expertiseVal = filters.expertise.value.toLowerCase();
+    const nationalityVal = filters.nationality.value.toLowerCase();
+    const searchVal = filters.search.value.toLowerCase();
+
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const type = (card.dataset.type || '').toLowerCase();
+      const expertise = (card.dataset.expertise || '').toLowerCase();
+      const nationality = (card.dataset.nationality || '').toLowerCase();
+      const name = card.dataset.name || '';
+
+      const matchType = !typeVal || type.includes(typeVal);
+      const matchExpertise = !expertiseVal || expertise.includes(expertiseVal);
+      const matchNationality = !nationalityVal || nationality === nationalityVal;
+      const matchSearch = !searchVal || name.includes(searchVal);
+
+      if (matchType && matchExpertise && matchNationality && matchSearch) {
+        card.style.display = '';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    noResults.style.display = visibleCount === 0 ? '' : 'none';
+  }
+
+  Object.values(filters).forEach(filter => {
+    filter.addEventListener('input', applyFilters);
+    filter.addEventListener('change', applyFilters);
+  });
+});
+</script>
+{{ end }}

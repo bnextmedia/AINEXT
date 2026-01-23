@@ -3,7 +3,7 @@ title: "蘋果培訓了 2800 萬中國人，然後美國發現自己不會做東
 date: 2026-01-04T11:00:00+08:00
 description: "蘋果在中國投入比馬歇爾計畫還多的資金培訓製造業人才，而美國製造業熟練工人的平均年齡已達 62 歲。Anduril 與 Hadrian 兩家國防製造公司的創辦人剖析：美國如何在一個商業決策中失去了製造能力，以及為什麼這不只是經濟問題，更是國安危機。"
 tags: ["製造業", "蘋果", "供應鏈", "美中競爭", "Anduril", "Podcast"]
-categories: ["科技趨勢"]
+categories: ["科技巨頭觀察"]
 source_url: "https://www.youtube.com/watch?v=ShkxpBoObCQ"
 source_name: "a16z Podcast"
 draft: false

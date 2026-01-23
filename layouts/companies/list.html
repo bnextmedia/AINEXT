@@ -1,0 +1,175 @@
+{{ define "main" }}
+<div class="wrap mt company-list-page">
+  <header class="section-header">
+    <h1>{{ .Title }}</h1>
+    <p class="section-description">{{ .Description }}</p>
+    <p class="section-stats">共收錄 <strong>{{ len .Pages }}</strong> 家公司</p>
+  </header>
+
+  <!-- 篩選器 -->
+  <div class="filters">
+    <div class="filter-group">
+      <label>母分類</label>
+      <select id="filter-category" class="filter-select">
+        <option value="">全部</option>
+        {{ $categories := slice }}
+        {{ range .Pages }}
+          {{ with .Params.category_primary }}
+            {{ $categories = $categories | append . }}
+          {{ end }}
+        {{ end }}
+        {{ range ($categories | uniq | sort) }}
+        <option value="{{ . }}">{{ . }}</option>
+        {{ end }}
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>子分類</label>
+      <select id="filter-subcategory" class="filter-select">
+        <option value="">全部</option>
+        {{ $subcategories := slice }}
+        {{ range .Pages }}
+          {{ with .Params.category_secondary }}
+            {{ $subcategories = $subcategories | append . }}
+          {{ end }}
+        {{ end }}
+        {{ range ($subcategories | uniq | sort) }}
+        <option value="{{ . }}">{{ . }}</option>
+        {{ end }}
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>國家</label>
+      <select id="filter-country" class="filter-select">
+        <option value="">全部</option>
+        {{ $countries := slice }}
+        {{ range .Pages }}
+          {{ with .Params.country }}
+            {{ $countries = $countries | append . }}
+          {{ end }}
+        {{ end }}
+        {{ range ($countries | uniq | sort) }}
+        <option value="{{ . }}">{{ . }}</option>
+        {{ end }}
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>狀態</label>
+      <select id="filter-status" class="filter-select">
+        <option value="">全部</option>
+        <option value="private">私有公司</option>
+        <option value="public">上市公司</option>
+        <option value="acquired">已被收購</option>
+      </select>
+    </div>
+    <div class="filter-group filter-search">
+      <label>搜尋</label>
+      <input type="text" id="filter-search" placeholder="輸入公司名稱..." class="filter-input">
+    </div>
+  </div>
+
+  <!-- 公司列表 -->
+  <div class="company-grid" id="company-grid">
+    {{ range .Pages.ByTitle }}
+    <a href="{{ .Permalink }}" class="company-card"
+       data-category="{{ .Params.category_primary }}"
+       data-subcategory="{{ .Params.category_secondary }}"
+       data-country="{{ .Params.country }}"
+       data-status="{{ .Params.status }}"
+       data-name="{{ .Title | lower }}">
+      <div class="company-card-header">
+        {{ with .Params.logo }}
+        <img src="{{ . }}" alt="{{ $.Title }}" class="company-card-logo">
+        {{ else }}
+        <div class="company-card-logo-placeholder">
+          <span>{{ substr .Title 0 2 | upper }}</span>
+        </div>
+        {{ end }}
+        <div class="company-card-badges">
+          {{ with .Params.status }}
+          <span class="badge badge-sm badge-{{ . }}">
+            {{ if eq . "private" }}私有
+            {{ else if eq . "public" }}上市
+            {{ else if eq . "acquired" }}收購
+            {{ else }}{{ . }}{{ end }}
+          </span>
+          {{ end }}
+        </div>
+      </div>
+      <div class="company-card-body">
+        <h2 class="company-card-title">{{ .Title }}</h2>
+        {{ with .Params.description_short }}
+        <p class="company-card-desc">{{ . | truncate 60 }}</p>
+        {{ end }}
+        <div class="company-card-meta">
+          {{ with .Params.category_secondary }}<span class="meta-tag">{{ . }}</span>{{ end }}
+          {{ with .Params.country }}<span class="meta-location">{{ . }}</span>{{ end }}
+        </div>
+        {{ with .Params.latest_valuation }}
+        <div class="company-card-valuation">
+          <span class="valuation-label">估值</span>
+          <span class="valuation-value">{{ . }}</span>
+        </div>
+        {{ end }}
+      </div>
+    </a>
+    {{ end }}
+  </div>
+
+  <p class="no-results" id="no-results" style="display: none;">沒有符合條件的公司</p>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const grid = document.getElementById('company-grid');
+  const cards = grid.querySelectorAll('.company-card');
+  const noResults = document.getElementById('no-results');
+
+  const filters = {
+    category: document.getElementById('filter-category'),
+    subcategory: document.getElementById('filter-subcategory'),
+    country: document.getElementById('filter-country'),
+    status: document.getElementById('filter-status'),
+    search: document.getElementById('filter-search')
+  };
+
+  function applyFilters() {
+    const categoryVal = filters.category.value.toLowerCase();
+    const subcategoryVal = filters.subcategory.value.toLowerCase();
+    const countryVal = filters.country.value.toLowerCase();
+    const statusVal = filters.status.value.toLowerCase();
+    const searchVal = filters.search.value.toLowerCase();
+
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const category = (card.dataset.category || '').toLowerCase();
+      const subcategory = (card.dataset.subcategory || '').toLowerCase();
+      const country = (card.dataset.country || '').toLowerCase();
+      const status = (card.dataset.status || '').toLowerCase();
+      const name = card.dataset.name || '';
+
+      const matchCategory = !categoryVal || category === categoryVal;
+      const matchSubcategory = !subcategoryVal || subcategory === subcategoryVal;
+      const matchCountry = !countryVal || country === countryVal;
+      const matchStatus = !statusVal || status === statusVal;
+      const matchSearch = !searchVal || name.includes(searchVal);
+
+      if (matchCategory && matchSubcategory && matchCountry && matchStatus && matchSearch) {
+        card.style.display = '';
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+
+    noResults.style.display = visibleCount === 0 ? '' : 'none';
+  }
+
+  Object.values(filters).forEach(filter => {
+    filter.addEventListener('input', applyFilters);
+    filter.addEventListener('change', applyFilters);
+  });
+});
+</script>
+{{ end }}

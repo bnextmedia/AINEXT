@@ -3,7 +3,7 @@ title: "Peter Thiel 的權力帝國：從 PayPal 教父到川普政府的科技�
 date: 2026-01-04T15:30:00+08:00
 description: "Peter Thiel 是矽谷最具爭議的人物之一：PayPal 共同創辦人、Facebook 早期投資者、Palantir 幕後推手、美國總統川普的重要支持者。他公開質疑「自由與民主能否相容」，資助保守派政治運動，同時經營一家為政府情報單位服務的監控公司。這篇文章從 DW 紀錄片出發，探討這位科技巨富如何編織他的權力網絡。"
 tags: ["Peter Thiel", "Palantir", "PayPal Mafia", "川普", "矽谷政治", "紀錄片"]
-categories: ["人物專訪"]
+categories: ["領袖思維"]
 source_url: "https://www.youtube.com/watch?v=hN-mEGLF_6w"
 source_name: "DW Documentary"
 draft: false

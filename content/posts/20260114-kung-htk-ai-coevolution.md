@@ -3,7 +3,7 @@ title: "孔祥重院士：AI 時代最稀缺的不是算力，而是會做系統
 date: 2026-01-14T10:00:00+08:00
 description: "哈佛大學講座教授、台灣人工智慧學校校長孔祥重院士，在中研院蔡元培院長講座分享 AI 時代的機會與挑戰。他指出 AI 越用越笨是真實現象，而系統設計與問題拆解能力，將是人類最後的競爭優勢。"
 tags: ["孔祥重", "中研院", "AI 人才", "系統設計", "Reasoning", "台灣人工智慧學校"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=_kjGhvcZb18"
 source_name: "中央研究院"
 draft: false

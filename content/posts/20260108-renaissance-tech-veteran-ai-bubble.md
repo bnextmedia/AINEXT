@@ -3,7 +3,7 @@ title: "年化報酬 66% 避險基金的系統打造者：AI 泡沫是網路泡�
 date: 2026-01-08T10:00:00+08:00
 description: "David Magerman 打造了史上報酬率最高避險基金的交易系統，也是 1980 年代就在研究語言模型的 AI 先驅。這位見證兩波 AI 浪潮的人，為何說現在的 AI 是「交給孩子的自動機槍」？"
 tags: ["Renaissance Technologies", "AI 泡沫", "David Magerman", "量化交易", "OpenAI", "Podcast"]
-categories: ["AI 產業"]
+categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=vlTYj9KNNZk"
 source_name: "Invested by Aleph"
 draft: false

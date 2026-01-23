@@ -1,0 +1,46 @@
+{{/* AINEXT V2 - 頁尾 */}}
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    {{/* 上方區塊 */}}
+    <div class="site-footer__top">
+      {{/* 品牌區 */}}
+      <div class="site-footer__brand">
+        <div class="site-logo">
+          <a href="{{ .Site.BaseURL }}">AINEXT</a>
+        </div>
+        <p class="site-footer__desc">
+          {{ .Site.Params.description | default "AI 閱讀筆記與產業觀察" }}
+        </p>
+      </div>
+
+      {{/* 分類導航 */}}
+      <div class="site-footer__nav">
+        <h4 class="site-footer__nav-title">分類</h4>
+        <ul class="site-footer__nav-list">
+          {{ range .Site.Taxonomies.categories }}
+          <li class="site-footer__nav-item">
+            <a href="{{ .Page.Permalink }}" class="site-footer__nav-link">{{ .Page.Title }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+
+      {{/* 訂閱連結 */}}
+      <div class="site-footer__nav">
+        <h4 class="site-footer__nav-title">訂閱</h4>
+        <ul class="site-footer__nav-list">
+          <li class="site-footer__nav-item">
+            <a href="{{ "index.xml" | relURL }}" class="site-footer__nav-link">RSS Feed</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    {{/* 底部版權 */}}
+    <div class="site-footer__bottom">
+      <p class="site-footer__copyright">
+        &copy; {{ now.Year }} {{ .Site.Title }}. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>

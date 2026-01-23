@@ -4,7 +4,7 @@ date: 2026-01-23T09:00:00+08:00
 description: "Anthropic 發布第四份經濟指數報告，分析百萬筆 Claude 對話紀錄後發現：使用者提問的教育程度與 AI 回覆的教育程度高度相關（r > 0.92）。這份報告不只談 AI 的生產力影響，更揭示了一個被忽略的關鍵：與 AI 對話的品質，取決於人類自身的能力。"
 tags: ["Anthropic", "Claude", "經濟指數", "AI 生產力", "人機協作", "Prompt"]
 categories: ["AI 產業"]
-image: "/images/2026_anthropic_economics.png"
+image: "https://bnextmedia.github.io/AINEXT/images/2026_anthropic_economics.png"
 source_url: "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report"
 source_name: "Anthropic Research"
 draft: false
@@ -136,7 +136,7 @@ Anthropic 在這份報告中首次用真實使用數據來呈現這個現象。�
 
 報告中最令人擔憂的發現之一，是全球 AI 使用的持續不均等。高收入國家不僅使用率更高，使用方式也更加多元和精緻。低收入國家的使用者主要將 AI 用於課業學習這類特定用途，而高收入國家的使用者則有更多個人用途和協作式的使用模式。
 
-![全球 Claude.ai 工作用途比例分布圖](/images/2026_anthropic_economics_figure_31.png)
+![全球 Claude.ai 工作用途比例分布圖](https://bnextmedia.github.io/AINEXT/images/2026_anthropic_economics_figure_31.png)
 *圖：全球各國 Claude.ai 用於工作的對話比例。顏色愈深代表工作用途比例愈高。灰色區域為 Claude 未提供服務或資料不足的地區。巴爾幹半島與巴西的工作用途比例最高，而印尼則以課業用途為主。資料來源：Anthropic Economic Index Report, January 2026。*
 
 這種差異不會因為「讓更多人能夠使用 AI」就自動消失。正如報告所指出的，使用者提問的教育程度與 AI 回覆的教育程度高度相關。即使每個人都能取用相同的 AI 工具，能夠從中獲得的價值仍然會因為基礎能力的差異而不同。

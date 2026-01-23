@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" height="720" width="1280">
+  
+  <rect fill="#f7f7f7" height="720" width="1280"></rect>
+  
+  
+  <rect fill="#76b900" height="80" width="1280" y="0" x="0"></rect>
+  <text fill="white" font-weight="bold" font-size="36" font-family="Arial, sans-serif" y="55" x="40">NVIDIA AI晶片出口管制演變</text>
+  
+  
+  <rect stroke-width="1" stroke="#ddd" fill="white" ry="10" rx="10" height="360" width="440" y="100" x="40"></rect>
+  <text fill="#333" font-weight="bold" font-size="22" font-family="Arial, sans-serif" y="130" x="60">管制演變時間線</text>
+  
+  
+  <line stroke-width="4" stroke="#76b900" y2="420" x2="70" y1="170" x1="70"></line>
+  
+  
+  <circle fill="#76b900" r="8" cy="170" cx="70"></circle>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="175" x="90">2022年9月：首次禁止A100、H100出口中國</text>
+  
+  <circle fill="#76b900" r="8" cy="220" cx="70"></circle>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="225" x="90">2022年11月：NVIDIA推出A800規避管制</text>
+  
+  <circle fill="#76b900" r="8" cy="270" cx="70"></circle>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="275" x="90">2023年3月：NVIDIA推出H800規避管制</text>
+  
+  <circle fill="#76b900" r="8" cy="320" cx="70"></circle>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="325" x="90">2023年10月：美國政府將A800、H800列入管制</text>
+  
+  <circle fill="#76b900" r="8" cy="370" cx="70"></circle>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="375" x="90">2023年11月：NVIDIA推出H20作為新合規方案</text>
+  
+  <circle fill="#76b900" r="8" cy="420" cx="70"></circle>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="425" x="90">2025年4月：H20被列入管制，無限期出口限制</text>
+  
+  
+  <rect stroke-width="1" stroke="#ddd" fill="white" ry="10" rx="10" height="120" width="740" y="100" x="500"></rect>
+  <text fill="#333" font-weight="bold" font-size="22" font-family="Arial, sans-serif" y="130" x="520">性能分級（從高到低）</text>
+  
+  
+  <rect fill="#f0f0f0" ry="5" rx="5" height="50" width="700" y="150" x="520"></rect>
+  
+  
+  <rect fill="#1a1a1a" ry="5" rx="5" height="50" width="140" y="150" x="520"></rect>
+  <text text-anchor="middle" fill="white" font-weight="bold" font-size="16" font-family="Arial, sans-serif" y="183" x="590">Blackwell</text>
+  
+  <rect fill="#333333" ry="5" rx="5" height="50" width="100" y="150" x="660"></rect>
+  <text text-anchor="middle" fill="white" font-weight="bold" font-size="16" font-family="Arial, sans-serif" y="183" x="710">H100</text>
+  
+  <rect fill="#555555" ry="5" rx="5" height="50" width="100" y="150" x="760"></rect>
+  <text text-anchor="middle" fill="white" font-weight="bold" font-size="16" font-family="Arial, sans-serif" y="183" x="810">A100</text>
+  
+  <rect fill="#777777" ry="5" rx="5" height="50" width="80" y="150" x="860"></rect>
+  <text text-anchor="middle" fill="white" font-weight="bold" font-size="16" font-family="Arial, sans-serif" y="183" x="900">H800</text>
+  
+  <rect fill="#999999" ry="5" rx="5" height="50" width="80" y="150" x="940"></rect>
+  <text text-anchor="middle" fill="white" font-weight="bold" font-size="16" font-family="Arial, sans-serif" y="183" x="980">A800</text>
+  
+  <rect fill="#e74c3c" ry="5" rx="5" height="50" width="80" y="150" x="1020"></rect>
+  <text text-anchor="middle" fill="white" font-weight="bold" font-size="16" font-family="Arial, sans-serif" y="183" x="1060">H20</text>
+  
+  <rect fill="#dddddd" ry="5" rx="5" height="50" width="120" y="150" x="1100"></rect>
+  <text text-anchor="middle" fill="#333" font-weight="bold" font-size="16" font-family="Arial, sans-serif" y="183" x="1160">L20/RTX系列</text>
+  
+  
+  <rect stroke-width="1" stroke="#ddd" fill="white" ry="10" rx="10" height="220" width="340" y="240" x="500"></rect>
+  <text fill="#333" font-weight="bold" font-size="22" font-family="Arial, sans-serif" y="270" x="520">應用領域差異</text>
+  
+  
+  <circle fill="#76b900" r="5" cy="300" cx="530"></circle>
+  <text fill="#333" font-size="14" font-family="Arial, sans-serif" y="305" x="545">H100/A100：大規模AI模型訓練和推理</text>
+  
+  <circle fill="#76b900" r="5" cy="330" cx="530"></circle>
+  <text fill="#333" font-size="14" font-family="Arial, sans-serif" y="335" x="545">H800/A800：中國市場替代品，接近旗艦性能</text>
+  
+  <circle fill="#76b900" r="5" cy="360" cx="530"></circle>
+  <text fill="#333" font-size="14" font-family="Arial, sans-serif" y="365" x="545">H20：訓練能力受限，推理性能良好</text>
+  
+  <circle fill="#76b900" r="5" cy="390" cx="530"></circle>
+  <text fill="#333" font-size="14" font-family="Arial, sans-serif" y="395" x="545">L20/RTX系列：推理和普通計算工作負載優化</text>
+  
+  
+  <circle fill="#e74c3c" r="5" cy="430" cx="530"></circle>
+  <text font-weight="bold" fill="#e74c3c" font-size="14" font-family="Arial, sans-serif" y="435" x="545">已禁止：H100, A100, H800, A800, H20</text>
+  
+  <circle fill="#2ecc71" r="5" cy="460" cx="530"></circle>
+  <text font-weight="bold" fill="#2ecc71" font-size="14" font-family="Arial, sans-serif" y="465" x="545">仍可出口：L20, RTX 5090D系列</text>
+  
+  
+  <rect stroke-width="1" stroke="#ddd" fill="white" ry="10" rx="10" height="220" width="380" y="240" x="860"></rect>
+  <text fill="#333" font-weight="bold" font-size="22" font-family="Arial, sans-serif" y="270" x="880">管制主要關注參數</text>
+  
+  
+  <circle fill="#76b900" r="5" cy="310" cx="890"></circle>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="315" x="905">FLOPS（浮點運算能力）</text>
+  <text fill="#666" font-size="14" font-family="Arial, sans-serif" y="340" x="905">反映晶片的計算效能</text>
+  
+  <circle fill="#76b900" r="5" cy="370" cx="890"></circle>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="375" x="905">互連頻寬</text>
+  <text fill="#666" font-size="14" font-family="Arial, sans-serif" y="400" x="905">影響多GPU協同工作，對大規模訓練至關重要</text>
+  
+  <circle fill="#76b900" r="5" cy="430" cx="890"></circle>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="435" x="905">記憶體頻寬</text>
+  <text fill="#666" font-size="14" font-family="Arial, sans-serif" y="460" x="905">影響數據讀取速度，特別重要於推理工作</text>
+  
+  
+  <rect stroke-width="1" stroke="#ddd" fill="#f0f0f0" ry="10" rx="10" height="120" width="1200" y="480" x="40"></rect>
+  <text font-weight="bold" fill="#333" font-size="18" font-family="Arial, sans-serif" y="520" x="60">重要結論:</text>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="555" x="60">美國出口管制策略逐步收緊，從最初僅針對頂級產品，到對各類降規晶片的全面管制。</text>
+  <text fill="#333" font-size="16" font-family="Arial, sans-serif" y="585" x="60">這反映了美中科技戰的深化，以及NVIDIA在市場利益與合規要求間尋求平衡的挑戰。</text>
+  
+  
+  <text font-weight="bold" text-anchor="end" fill="#76b900" font-size="14" font-family="Arial, sans-serif" y="700" x="1220">NVIDIA</text>
+</svg>

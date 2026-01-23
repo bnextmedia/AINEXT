@@ -1,0 +1,103 @@
+<svg height="100%" width="100%" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  
+  
+  
+  <rect fill="#f5f7fa" height="900" width="1600"></rect>
+  
+  
+  <g>
+    <rect fill="#2c3e50" rx="10" height="100" width="1400" y="60" x="100"></rect>
+    <text fill="white" text-anchor="middle" font-weight="bold" font-size="48" font-family="Arial, sans-serif" y="120" x="800">企業應關注的技術時間表</text>
+    <text fill="#d5d8dc" text-anchor="middle" font-size="24" font-family="Arial, sans-serif" y="155" x="800">根據楊立昆的觀點</text>
+  </g>
+  
+  
+  <rect fill="#3498db" rx="15" height="30" width="1200" y="600" x="200"></rect>
+  
+  
+  
+  <g>
+    <circle stroke-width="4" stroke="white" fill="#3498db" r="40" cy="600" cx="300"></circle>
+    <text fill="white" text-anchor="middle" font-weight="bold" font-size="22" font-family="Arial, sans-serif" y="605" x="300">0-2</text>
+    <text dy="30" fill="white" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" y="625" x="300">年</text>
+    
+    <rect stroke-width="3" stroke="#3498db" fill="white" rx="15" height="200" width="300" y="330" x="150"></rect>
+    <line stroke-dasharray="5,5" stroke-width="4" stroke="#3498db" y2="530" x2="300" y1="560" x1="300"></line>
+    
+    <text fill="#2c3e50" text-anchor="middle" font-weight="bold" font-size="24" font-family="Arial, sans-serif" y="360" x="300">關注生產力與創造力</text>
+    <text fill="#2c3e50" text-anchor="middle" font-size="20" font-family="Arial, sans-serif" y="395" x="300">的AI工具</text>
+    
+    <g transform="translate(170, 420)">
+      <rect fill="#ebf5fb" rx="5" height="90" width="260" y="0" x="0"></rect>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="25" x="10">• 專門針對特定領域的模型</text>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="55" x="10">• 增強人類生產力</text>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="85" x="10">• 提升創造力</text>
+    </g>
+  </g>
+  
+  
+  <g>
+    <circle stroke-width="4" stroke="white" fill="#2980b9" r="40" cy="600" cx="600"></circle>
+    <text fill="white" text-anchor="middle" font-weight="bold" font-size="22" font-family="Arial, sans-serif" y="605" x="600">3-5</text>
+    <text dy="30" fill="white" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" y="625" x="600">年</text>
+    
+    <rect stroke-width="3" stroke="#2980b9" fill="white" rx="15" height="200" width="300" y="330" x="450"></rect>
+    <line stroke-dasharray="5,5" stroke-width="4" stroke="#2980b9" y2="530" x2="600" y1="560" x1="600"></line>
+    
+    <text fill="#2c3e50" text-anchor="middle" font-weight="bold" font-size="24" font-family="Arial, sans-serif" y="360" x="600">準備「世界模型」</text>
+    <text fill="#2c3e50" text-anchor="middle" font-size="20" font-family="Arial, sans-serif" y="395" x="600">小規模實現</text>
+    
+    <g transform="translate(470, 420)">
+      <rect fill="#e1f0fa" rx="5" height="90" width="260" y="0" x="0"></rect>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="25" x="10">• 學習抽象表徵</text>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="55" x="10">• 推理規劃能力</text>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="85" x="10">• 系統小規模實現</text>
+    </g>
+  </g>
+  
+  
+  <g>
+    <circle stroke-width="4" stroke="white" fill="#1c6ea4" r="40" cy="600" cx="900"></circle>
+    <text fill="white" text-anchor="middle" font-weight="bold" font-size="22" font-family="Arial, sans-serif" y="605" x="900">5-10</text>
+    <text dy="30" fill="white" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" y="625" x="900">年</text>
+    
+    <rect stroke-width="3" stroke="#1c6ea4" fill="white" rx="15" height="200" width="300" y="330" x="750"></rect>
+    <line stroke-dasharray="5,5" stroke-width="4" stroke="#1c6ea4" y2="530" x2="900" y1="560" x1="900"></line>
+    
+    <text fill="#2c3e50" text-anchor="middle" font-weight="bold" font-size="24" font-family="Arial, sans-serif" y="360" x="900">系統逐步擴展</text>
+    
+    <g transform="translate(770, 390)">
+      <rect fill="#d6eaf8" rx="5" height="120" width="260" y="0" x="0"></rect>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="25" x="10">• 系統能力提升</text>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="55" x="10">• 應用範圍擴大</text>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="85" x="10">• 尚未達到全面的</text>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="115" x="10">  人類水平智慧</text>
+    </g>
+  </g>
+  
+  
+  <g>
+    <circle stroke-width="4" stroke="white" fill="#144e78" r="40" cy="600" cx="1200"></circle>
+    <text fill="white" text-anchor="middle" font-weight="bold" font-size="22" font-family="Arial, sans-serif" y="605" x="1200">10+</text>
+    <text dy="30" fill="white" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" y="625" x="1200">年</text>
+    
+    <rect stroke-width="3" stroke="#144e78" fill="white" rx="15" height="200" width="300" y="330" x="1050"></rect>
+    <line stroke-dasharray="5,5" stroke-width="4" stroke="#144e78" y2="530" x2="1200" y1="560" x1="1200"></line>
+    
+    <text fill="#2c3e50" text-anchor="middle" font-weight="bold" font-size="24" font-family="Arial, sans-serif" y="360" x="1200">接近人類水平的AI</text>
+    
+    <g transform="translate(1070, 390)">
+      <rect fill="#ccd9e6" rx="5" height="120" width="260" y="0" x="0"></rect>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="25" x="10">• 更接近人類水平智慧</text>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="55" x="10">• 漸進過程</text>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="85" x="10">• 非突然出現</text>
+      <text fill="#2c3e50" font-size="18" font-family="Arial, sans-serif" y="115" x="10">• 持續發展</text>
+    </g>
+  </g>
+  
+  
+  <g>
+    <text fill="#34495e" text-anchor="middle" font-size="20" font-family="Arial, sans-serif" y="780" x="800">企業AI戰略時間表</text>
+    <text fill="#7f8c8d" text-anchor="middle" font-size="16" font-family="Arial, sans-serif" y="810" x="800">基於楊立昆對AI發展階段的觀點</text>
+  </g>
+</svg>

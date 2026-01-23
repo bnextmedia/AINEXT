@@ -26,6 +26,50 @@
   <main class="site-main">
     {{ $allPages := where .Site.RegularPages "Type" "posts" }}
 
+    {{/* ========== Hero 區塊：先選出不重複 source_url 的 4 篇有圖文章 ========== */}}
+    {{ $heroPages := slice }}
+    {{ $usedSourceURLs := slice }}
+
+    {{ range $allPages }}
+      {{ if lt (len $heroPages) 4 }}
+        {{ $sourceURL := .Params.source_url | default "" }}
+        {{/* 如果沒有 source_url 或 source_url 尚未使用，就加入 */}}
+        {{ if or (eq $sourceURL "") (not (in $usedSourceURLs $sourceURL)) }}
+          {{ $heroPages = $heroPages | append . }}
+          {{ if ne $sourceURL "" }}
+            {{ $usedSourceURLs = $usedSourceURLs | append $sourceURL }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{/* ========== 今日焦點 6 篇：排除已在 heroPages 的文章 ========== */}}
+    {{ $glancePages := slice }}
+    {{ $heroPagePaths := slice }}
+    {{ range $heroPages }}
+      {{ $heroPagePaths = $heroPagePaths | append .File.Path }}
+    {{ end }}
+
+    {{ range $allPages }}
+      {{ if lt (len $glancePages) 6 }}
+        {{ if not (in $heroPagePaths .File.Path) }}
+          {{ $glancePages = $glancePages | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{/* 定義分類名稱到 URL slug 的對應 */}}
+    {{ $categoryURLs := dict
+      "AI 技術前沿" "/v2/category/ai-tech/"
+      "AI 產業動態" "/v2/category/ai-industry/"
+      "AI 開發實戰" "/v2/category/ai-dev/"
+      "AI 安全與治理" "/v2/category/ai-safety/"
+      "科技巨頭觀察" "/v2/category/tech-giants/"
+      "地緣政治與經濟" "/v2/category/geopolitics/"
+      "領袖思維" "/v2/category/leadership/"
+      "職涯與學習" "/v2/category/career/"
+    }}
+
     <div class="homepage">
 
       {{/* Hero 區塊 */}}
@@ -34,7 +78,7 @@
           <h2 class="glance-title">今日焦點</h2>
           <p class="glance-updated">更新於 {{ now.Format "15:04" }}</p>
           <ol class="headlines-list">
-            {{ range $i, $page := first 6 $allPages }}
+            {{ range $i, $page := $glancePages }}
             <li class="headlines-list__item">
               <span class="headlines-list__number">{{ add $i 1 }}</span>
               <div class="headlines-list__content">
@@ -51,39 +95,64 @@
         </div>
 
         <div class="hero-section__main">
-          {{ with index $allPages 0 }}
+          {{ with index $heroPages 0 }}
             {{ partial "v2/article-card.html" (dict "page" . "variant" "hero") }}
           {{ end }}
         </div>
 
         <div class="hero-section__sidebar">
-          {{ range $allPages | first 4 | after 1 }}
+          {{ range $heroPages | after 1 }}
             {{ partial "v2/article-card.html" (dict "page" . "variant" "small") }}
           {{ end }}
         </div>
       </section>
 
-      {{/* 分類區塊 */}}
-      {{ $catIndex := 0 }}
+      {{/* ========== 分類區塊 - 按分類動態顯示，每類去重 source_url ========== */}}
+      {{ $catIdx := 0 }}
       {{ range .Site.Taxonomies.categories }}
         {{ $categoryName := .Page.Title }}
         {{ $categoryPages := .Pages }}
+        {{ $categoryURL := index $categoryURLs $categoryName | default .Page.Permalink }}
 
-        {{ if gt (len $categoryPages) 0 }}
+        {{/* 從該分類中選出 source_url 不重複的文章（最多 4 篇） */}}
+        {{ $uniquePages := slice }}
+        {{ $catUsedURLs := slice }}
+
+        {{ range $categoryPages }}
+          {{ if lt (len $uniquePages) 4 }}
+            {{ $srcURL := .Params.source_url | default "" }}
+            {{ if or (eq $srcURL "") (not (in $catUsedURLs $srcURL)) }}
+              {{ $uniquePages = $uniquePages | append . }}
+              {{ if ne $srcURL "" }}
+                {{ $catUsedURLs = $catUsedURLs | append $srcURL }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+
+        {{ if gt (len $uniquePages) 0 }}
         <section class="category-section">
           <div class="category-section__header">
             <h2 class="category-title">
-              <a href="{{ .Page.Permalink }}">{{ $categoryName }}</a>
+              <a href="{{ $categoryURL }}">{{ $categoryName }}</a>
             </h2>
-            <a href="{{ .Page.Permalink }}" class="category-section__more">查看全部 →</a>
           </div>
 
+          {{ if eq (mod $catIdx 2) 0 }}
           <div class="category-layout--b">
-            {{ range $categoryPages | first 4 }}
+            {{ range $uniquePages }}
               {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
             {{ end }}
           </div>
+          {{ else }}
+          <div class="category-layout--c">
+            {{ range $uniquePages | first 3 }}
+              {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+            {{ end }}
+          </div>
+          {{ end }}
         </section>
+        {{ $catIdx = add $catIdx 1 }}
         {{ end }}
       {{ end }}
 

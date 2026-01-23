@@ -1,0 +1,20 @@
+{{/* V2 Header - 報紙風格頁首 */}}
+<header class="site-header">
+  <div class="site-header__container">
+    <div class="site-header__brand">
+      <a href="{{ "/" | relURL }}" class="site-header__logo">
+        {{ with .Site.Params.logo }}
+        <img src="{{ . | relURL }}" alt="{{ $.Site.Title }}">
+        {{ else }}
+        <span class="site-header__title">{{ .Site.Title }}</span>
+        {{ end }}
+      </a>
+      {{ with .Site.Params.description }}
+      <p class="site-header__tagline">{{ . }}</p>
+      {{ end }}
+    </div>
+    <div class="site-header__date">
+      <time datetime="{{ now.Format "2006-01-02" }}">{{ now.Format "2006 年 1 月 2 日" }}</time>
+    </div>
+  </div>
+</header>

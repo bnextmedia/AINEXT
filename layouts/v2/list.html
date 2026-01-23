@@ -67,20 +67,21 @@
       {{/* 八大分類區塊 - 固定順序（含錨點 ID） */}}
       {{/* ============================================ */}}
 
-      {{/* 分類名稱與對應的錨點 ID */}}
+      {{/* 分類名稱、英文 slug、錨點 ID */}}
       {{ $categories := slice
-        (dict "name" "AI 技術前沿" "id" "section-ai-tech")
-        (dict "name" "AI 產業動態" "id" "section-ai-industry")
-        (dict "name" "AI 開發實戰" "id" "section-ai-dev")
-        (dict "name" "AI 安全與治理" "id" "section-ai-safety")
-        (dict "name" "科技巨頭觀察" "id" "section-tech-giants")
-        (dict "name" "地緣政治與經濟" "id" "section-geopolitics")
-        (dict "name" "領袖思維" "id" "section-leadership")
-        (dict "name" "職涯與學習" "id" "section-career")
+        (dict "name" "AI 技術前沿" "slug" "ai-tech" "id" "section-ai-tech")
+        (dict "name" "AI 產業動態" "slug" "ai-industry" "id" "section-ai-industry")
+        (dict "name" "AI 開發實戰" "slug" "ai-dev" "id" "section-ai-dev")
+        (dict "name" "AI 安全與治理" "slug" "ai-safety" "id" "section-ai-safety")
+        (dict "name" "科技巨頭觀察" "slug" "tech-giants" "id" "section-tech-giants")
+        (dict "name" "地緣政治與經濟" "slug" "geopolitics" "id" "section-geopolitics")
+        (dict "name" "領袖思維" "slug" "leadership" "id" "section-leadership")
+        (dict "name" "職涯與學習" "slug" "career" "id" "section-career")
       }}
 
       {{ range $idx, $cat := $categories }}
         {{ $catName := $cat.name }}
+        {{ $catSlug := $cat.slug }}
         {{ $sectionId := $cat.id }}
         {{ $categoryPages := where $allPages "Params.categories" "intersect" (slice $catName) }}
 
@@ -88,9 +89,9 @@
         <section class="category-section" id="{{ $sectionId }}">
           <div class="category-section__header">
             <h2 class="category-title">
-              <a href="{{ printf "/v2/category/%s/" ($catName | urlize) | relURL }}">{{ $catName }}</a>
+              <a href="{{ printf "/v2/category/%s/" $catSlug | relURL }}">{{ $catName }}</a>
             </h2>
-            <a href="{{ printf "/v2/category/%s/" ($catName | urlize) | relURL }}" class="category-section__more">查看全部 →</a>
+            <a href="{{ printf "/v2/category/%s/" $catSlug | relURL }}" class="category-section__more">查看全部 →</a>
           </div>
 
           <div class="category-layout--b">

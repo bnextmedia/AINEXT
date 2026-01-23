@@ -29,30 +29,50 @@
       <div class="clock-item" data-timezone="Asia/Taipei">
         <span class="clock-item__city">台北</span>
         <div class="clock-item__face">
-          <svg viewBox="0 0 40 40" class="clock-svg">
-            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
-            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <svg viewBox="0 0 100 100" class="clock-svg">
+            {{/* 錶面 */}}
+            <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="2"/>
+            {{/* 時刻標記 */}}
+            <line x1="50" y1="6" x2="50" y2="12" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="88" x2="50" y2="94" stroke="currentColor" stroke-width="2"/>
+            <line x1="6" y1="50" x2="12" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line x1="88" y1="50" x2="94" y2="50" stroke="currentColor" stroke-width="2"/>
+            {{/* 時針 */}}
+            <line class="clock-hand clock-hand--hour" x1="50" y1="50" x2="50" y2="26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            {{/* 分針 */}}
+            <line class="clock-hand clock-hand--minute" x1="50" y1="50" x2="50" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            {{/* 中心點 */}}
+            <circle cx="50" cy="50" r="3" fill="currentColor"/>
           </svg>
         </div>
       </div>
       <div class="clock-item" data-timezone="Asia/Tokyo">
         <span class="clock-item__city">東京</span>
         <div class="clock-item__face">
-          <svg viewBox="0 0 40 40" class="clock-svg">
-            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
-            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <svg viewBox="0 0 100 100" class="clock-svg">
+            <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="6" x2="50" y2="12" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="88" x2="50" y2="94" stroke="currentColor" stroke-width="2"/>
+            <line x1="6" y1="50" x2="12" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line x1="88" y1="50" x2="94" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line class="clock-hand clock-hand--hour" x1="50" y1="50" x2="50" y2="26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="50" y1="50" x2="50" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="50" cy="50" r="3" fill="currentColor"/>
           </svg>
         </div>
       </div>
       <div class="clock-item" data-timezone="Europe/London">
         <span class="clock-item__city">倫敦</span>
         <div class="clock-item__face">
-          <svg viewBox="0 0 40 40" class="clock-svg">
-            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
-            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <svg viewBox="0 0 100 100" class="clock-svg">
+            <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="6" x2="50" y2="12" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="88" x2="50" y2="94" stroke="currentColor" stroke-width="2"/>
+            <line x1="6" y1="50" x2="12" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line x1="88" y1="50" x2="94" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line class="clock-hand clock-hand--hour" x1="50" y1="50" x2="50" y2="26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="50" y1="50" x2="50" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="50" cy="50" r="3" fill="currentColor"/>
           </svg>
         </div>
       </div>
@@ -68,30 +88,45 @@
       <div class="clock-item" data-timezone="America/New_York">
         <span class="clock-item__city">紐約</span>
         <div class="clock-item__face">
-          <svg viewBox="0 0 40 40" class="clock-svg">
-            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
-            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <svg viewBox="0 0 100 100" class="clock-svg">
+            <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="6" x2="50" y2="12" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="88" x2="50" y2="94" stroke="currentColor" stroke-width="2"/>
+            <line x1="6" y1="50" x2="12" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line x1="88" y1="50" x2="94" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line class="clock-hand clock-hand--hour" x1="50" y1="50" x2="50" y2="26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="50" y1="50" x2="50" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="50" cy="50" r="3" fill="currentColor"/>
           </svg>
         </div>
       </div>
       <div class="clock-item" data-timezone="America/Phoenix">
         <span class="clock-item__city">鳳凰城</span>
         <div class="clock-item__face">
-          <svg viewBox="0 0 40 40" class="clock-svg">
-            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
-            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <svg viewBox="0 0 100 100" class="clock-svg">
+            <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="6" x2="50" y2="12" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="88" x2="50" y2="94" stroke="currentColor" stroke-width="2"/>
+            <line x1="6" y1="50" x2="12" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line x1="88" y1="50" x2="94" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line class="clock-hand clock-hand--hour" x1="50" y1="50" x2="50" y2="26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="50" y1="50" x2="50" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="50" cy="50" r="3" fill="currentColor"/>
           </svg>
         </div>
       </div>
       <div class="clock-item" data-timezone="America/Los_Angeles">
         <span class="clock-item__city">舊金山</span>
         <div class="clock-item__face">
-          <svg viewBox="0 0 40 40" class="clock-svg">
-            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
-            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <svg viewBox="0 0 100 100" class="clock-svg">
+            <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="6" x2="50" y2="12" stroke="currentColor" stroke-width="2"/>
+            <line x1="50" y1="88" x2="50" y2="94" stroke="currentColor" stroke-width="2"/>
+            <line x1="6" y1="50" x2="12" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line x1="88" y1="50" x2="94" y2="50" stroke="currentColor" stroke-width="2"/>
+            <line class="clock-hand clock-hand--hour" x1="50" y1="50" x2="50" y2="26" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="50" y1="50" x2="50" y2="14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="50" cy="50" r="3" fill="currentColor"/>
           </svg>
         </div>
       </div>
@@ -111,54 +146,67 @@
   </div>
 </header>
 
+{{/* 時鐘樣式 - 關鍵：transform-origin 設為中心點 */}}
+<style>
+.clock-hand {
+  transform-origin: 50px 50px;
+  transition: transform 0.3s ease-out;
+}
+</style>
+
 {{/* 時鐘 JavaScript */}}
 <script>
 (function() {
   // 更新當地時間和日期
   function updateLocalTime() {
-    const now = new Date();
+    var now = new Date();
 
     // 時間格式：4:10 PM
-    let hours = now.getHours();
-    const minutes = now.getMinutes().toString().padStart(2, '0');
-    const ampm = hours >= 12 ? 'PM' : 'AM';
+    var hours = now.getHours();
+    var minutes = now.getMinutes().toString().padStart(2, '0');
+    var ampm = hours >= 12 ? 'PM' : 'AM';
     hours = hours % 12;
     hours = hours ? hours : 12;
     document.getElementById('current-time').textContent = hours + ':' + minutes + ' ' + ampm;
 
     // 日期格式：週五 1月23日 2026
-    const weekdays = ['週日', '週一', '週二', '週三', '週四', '週五', '週六'];
-    const weekday = weekdays[now.getDay()];
-    const month = now.getMonth() + 1;
-    const date = now.getDate();
-    const year = now.getFullYear();
+    var weekdays = ['週日', '週一', '週二', '週三', '週四', '週五', '週六'];
+    var weekday = weekdays[now.getDay()];
+    var month = now.getMonth() + 1;
+    var date = now.getDate();
+    var year = now.getFullYear();
     document.getElementById('current-date').textContent = weekday + ' ' + month + '月' + date + '日 ' + year;
   }
 
   // 更新世界時鐘
   function updateWorldClocks() {
-    document.querySelectorAll('.clock-item').forEach(function(clock) {
-      const timezone = clock.dataset.timezone;
-      const now = new Date();
+    var clocks = document.querySelectorAll('.clock-item');
+    clocks.forEach(function(clock) {
+      var timezone = clock.dataset.timezone;
+      var now = new Date();
 
       // 取得該時區的時間
-      const options = { timeZone: timezone, hour: 'numeric', minute: 'numeric', hour12: false };
-      const timeStr = now.toLocaleTimeString('en-US', options);
-      const [hours, minutes] = timeStr.split(':').map(Number);
+      var options = { timeZone: timezone, hour: 'numeric', minute: 'numeric', hour12: false };
+      var timeStr = now.toLocaleTimeString('en-US', options);
+      var parts = timeStr.split(':');
+      var hours = parseInt(parts[0], 10);
+      var minutes = parseInt(parts[1], 10);
 
       // 計算指針角度
-      const hourAngle = (hours % 12) * 30 + minutes * 0.5;
-      const minuteAngle = minutes * 6;
+      // 時針：每小時 30 度，每分鐘 0.5 度
+      var hourAngle = (hours % 12) * 30 + minutes * 0.5;
+      // 分針：每分鐘 6 度
+      var minuteAngle = minutes * 6;
 
-      // 更新指針
-      const hourHand = clock.querySelector('.clock-hand--hour');
-      const minuteHand = clock.querySelector('.clock-hand--minute');
+      // 用 CSS transform 更新指針角度
+      var hourHand = clock.querySelector('.clock-hand--hour');
+      var minuteHand = clock.querySelector('.clock-hand--minute');
 
       if (hourHand) {
-        hourHand.setAttribute('transform', 'rotate(' + hourAngle + ' 20 20)');
+        hourHand.style.transform = 'rotate(' + hourAngle + 'deg)';
       }
       if (minuteHand) {
-        minuteHand.setAttribute('transform', 'rotate(' + minuteAngle + ' 20 20)');
+        minuteHand.style.transform = 'rotate(' + minuteAngle + 'deg)';
       }
     });
   }

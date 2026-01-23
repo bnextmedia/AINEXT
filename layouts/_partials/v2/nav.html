@@ -41,6 +41,17 @@
       <li class="site-nav__item">
         <a href="{{ $baseUrl }}#section-career" class="site-nav__link site-nav__link--anchor">職涯與學習</a>
       </li>
+
+      {{/* 分隔線 */}}
+      <li class="site-nav__divider"></li>
+
+      {{/* 公司庫與人物庫 */}}
+      <li class="site-nav__item">
+        <a href="{{ "/v2/companies/" | relURL }}" class="site-nav__link">AI 公司</a>
+      </li>
+      <li class="site-nav__item">
+        <a href="{{ "/v2/people/" | relURL }}" class="site-nav__link">AI 人物</a>
+      </li>
     </ul>
   </div>
 </nav>

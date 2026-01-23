@@ -1,7 +1,7 @@
 baseURL = "https://ainext.tw/"
 languageCode = "zh-TW"
 title = "AINEXT"
-theme = "newsroom"
+# theme = "newsroom"  # V2 上線後停用
 author = "James"
 canonifyurls = false
 

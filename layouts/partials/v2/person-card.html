@@ -1,0 +1,62 @@
+{{/* AINEXT V2 - 人物卡片元件 */}}
+{{/*
+  使用方式：{{ partial "v2/person-card.html" (dict "person" . "variant" "default") }}
+
+  variant 選項：
+  - default: 標準卡片
+  - small: 小型卡片（首頁精選用）
+  - horizontal: 橫向排列
+*/}}
+
+{{ $person := .person }}
+{{ $variant := .variant | default "default" }}
+
+{{ $classes := "person-card" }}
+{{ if eq $variant "small" }}
+  {{ $classes = "person-card person-card--small" }}
+{{ else if eq $variant "horizontal" }}
+  {{ $classes = "person-card person-card--horizontal" }}
+{{ end }}
+
+<a href="{{ $person.Permalink }}" class="{{ $classes }}">
+  {{/* 照片 */}}
+  <div class="person-card__photo">
+    {{ with $person.Params.photo }}
+    <img src="{{ . }}" alt="{{ $person.Title }}" loading="lazy">
+    {{ else }}
+    <div class="person-card__photo-placeholder">
+      <span>{{ substr $person.Title 0 1 | upper }}</span>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="person-card__content">
+    {{/* 姓名 */}}
+    <h3 class="person-card__name">{{ $person.Title }}</h3>
+    {{ with $person.Params.name_zh }}
+    <p class="person-card__name-zh">{{ . }}</p>
+    {{ end }}
+
+    {{/* 現職 */}}
+    <p class="person-card__position">
+      {{ with $person.Params.current_position }}{{ . }}{{ end }}
+      {{ with $person.Params.current_organization }}@ {{ . }}{{ end }}
+    </p>
+
+    {{/* 身份標籤 */}}
+    {{ with $person.Params.person_type }}
+    <div class="person-card__badges">
+      {{ range first 2 . }}
+      <span class="person-card__badge">{{ . }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* 簡介（僅 default 和 horizontal 顯示） */}}
+    {{ if ne $variant "small" }}
+    {{ with $person.Params.description_short }}
+    <p class="person-card__desc">{{ . | truncate 60 }}</p>
+    {{ end }}
+    {{ end }}
+  </div>
+</a>

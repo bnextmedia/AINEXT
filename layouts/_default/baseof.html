@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+  {{/* SEO Meta */}}
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+
+  {{/* Open Graph */}}
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{ with .Params.image }}
+  <meta property="og:image" content="{{ . | absURL }}">
+  {{ end }}
+
+  {{/* 字體載入 */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+
+  {{/* V2 樣式 */}}
+  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+  {{/* Favicon */}}
+  <link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
+
+  {{/* Google Analytics */}}
+  {{ with .Site.Params.ga_analytics }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ . }}');
+  </script>
+  {{ end }}
+
+  {{/* Google Search Console 驗證 */}}
+  {{ with .Site.Params.ga_verify }}
+  <meta name="google-site-verification" content="{{ . }}">
+  {{ end }}
+</head>
+<body class="site">
+  {{ partial "v2/header.html" . }}
+  {{ partial "v2/nav.html" . }}
+
+  <main class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "v2/footer.html" . }}
+</body>
+</html>

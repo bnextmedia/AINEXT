@@ -1,0 +1,114 @@
+{{/* AINEXT V2 - 文章卡片元件 */}}
+{{/*
+  使用方式：{{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+
+  variant 選項：
+  - default: 標準卡片（圖 + 標題 + 摘要）
+  - hero: 大型卡片
+  - small: 小型卡片
+  - text-only: 純文字
+  - horizontal: 橫向排列
+*/}}
+
+{{ $page := .page }}
+{{ $variant := .variant | default "default" }}
+
+{{ $classes := "article-card" }}
+{{ if eq $variant "hero" }}
+  {{ $classes = "article-card article-card--hero" }}
+{{ else if eq $variant "small" }}
+  {{ $classes = "article-card article-card--small" }}
+{{ else if eq $variant "text-only" }}
+  {{ $classes = "article-card article-card--text-only" }}
+{{ else if eq $variant "horizontal" }}
+  {{ $classes = "article-card article-card--horizontal" }}
+{{ end }}
+
+<a href="{{ $page.Permalink }}" class="{{ $classes }}">
+  {{/* 圖片 */}}
+  {{ if ne $variant "text-only" }}
+    {{ $image := "" }}
+    {{ $imageCredit := "" }}
+
+    {{/* 優先使用 image 參數 */}}
+    {{ with $page.Params.image }}
+      {{ $image = . }}
+    {{ end }}
+
+    {{/* 次選：頁面資源圖片 */}}
+    {{ if not $image }}
+      {{ with $page.Resources.GetMatch "*.{jpg,jpeg,png,gif,webp}" }}
+        {{ $image = .RelPermalink }}
+      {{ end }}
+    {{ end }}
+
+    {{/* 第三選：從 YouTube source_url 抓縮圖 */}}
+    {{ if not $image }}
+      {{ with $page.Params.source_url }}
+        {{ if or (strings.Contains . "youtube.com") (strings.Contains . "youtu.be") }}
+          {{ $videoId := "" }}
+          {{/* 解析 youtube.com/watch?v=ID 格式 */}}
+          {{ if strings.Contains . "watch?v=" }}
+            {{ $parts := split . "watch?v=" }}
+            {{ if gt (len $parts) 1 }}
+              {{ $idPart := index $parts 1 }}
+              {{ $videoId = index (split $idPart "&") 0 }}
+            {{ end }}
+          {{ end }}
+          {{/* 解析 youtu.be/ID 格式 */}}
+          {{ if strings.Contains . "youtu.be/" }}
+            {{ $parts := split . "youtu.be/" }}
+            {{ if gt (len $parts) 1 }}
+              {{ $videoId = index (split (index $parts 1) "?") 0 }}
+            {{ end }}
+          {{ end }}
+          {{ if $videoId }}
+            {{ $image = printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" $videoId }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{/* 圖片來源標註 */}}
+    {{ with $page.Params.image_credit }}
+      {{ $imageCredit = . }}
+    {{ end }}
+
+    {{ if $image }}
+    <div class="article-card__image-wrapper">
+      <img src="{{ $image }}" alt="{{ $page.Title }}" class="article-card__image" loading="lazy">
+      {{ if $imageCredit }}
+      <span class="article-card__credit">{{ $imageCredit }}</span>
+      {{ end }}
+    </div>
+    {{ end }}
+  {{ end }}
+
+  <div class="article-card__content">
+    {{/* 分類 */}}
+    {{ with $page.Params.categories }}
+      {{ range first 1 . }}
+      <span class="article-card__category">{{ . }}</span>
+      {{ end }}
+    {{ end }}
+
+    {{/* 標題 */}}
+    <h3 class="article-card__title">{{ $page.Title }}</h3>
+
+    {{/* 摘要 */}}
+    {{ if or (eq $variant "default") (eq $variant "hero") (eq $variant "horizontal") }}
+    <p class="article-card__excerpt">
+      {{ with $page.Description }}
+        {{ . | truncate 100 }}
+      {{ else }}
+        {{ $page.Summary | plainify | truncate 100 }}
+      {{ end }}
+    </p>
+    {{ end }}
+
+    {{/* 日期 */}}
+    <time class="article-card__date" datetime="{{ $page.Date.Format "2006-01-02" }}">
+      {{ $page.Date.Format "2006 年 1 月 2 日" }}
+    </time>
+  </div>
+</a>

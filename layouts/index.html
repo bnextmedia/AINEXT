@@ -1,71 +1,185 @@
+{{/*
+  AINEXT V2 - 首頁
+
+  去重規則：
+  1. Hero 區塊 4 篇：source_url 不得重複
+  2. 今日焦點 6 篇：不與 Hero 區塊重複
+  3. 每個分類 4 篇：source_url 不得重複
+*/}}
+
 {{ define "main" }}
-{{- $config := site.Params }}
-{{- $blog_dir := default "posts" $config.blogDir }}
-{{- $allPages := where site.RegularPages "Type" "in" $config.mainSections }}
 
-{{/* 過濾同 source_url 的重複文章，只保留最新一篇 */}}
-{{- $seenSources := slice }}
-{{- $filteredPages := slice }}
-{{- range $allPages }}
-  {{- $sourceID := "" }}
-  {{- with .Params.source_url }}
-    {{/* 從 YouTube URL 提取 video ID */}}
-    {{- if findRE "youtube\\.com|youtu\\.be" . }}
-      {{- if findRE "v=([a-zA-Z0-9_-]+)" . }}
-        {{- $sourceID = replaceRE ".*v=([a-zA-Z0-9_-]+).*" "$1" . }}
-      {{- else if findRE "youtu\\.be/([a-zA-Z0-9_-]+)" . }}
-        {{- $sourceID = replaceRE ".*youtu\\.be/([a-zA-Z0-9_-]+).*" "$1" . }}
-      {{- end }}
-    {{/* 從 Spotify URL 提取 episode ID */}}
-    {{- else if findRE "spotify\\.com" . }}
-      {{- if findRE "episode/([a-zA-Z0-9]+)" . }}
-        {{- $sourceID = replaceRE ".*episode/([a-zA-Z0-9]+).*" "$1" . }}
-      {{- end }}
-    {{/* 其他 URL 使用完整 URL 作為 ID */}}
-    {{- else }}
-      {{- $sourceID = . }}
-    {{- end }}
-  {{- end }}
+{{ $allPages := where .Site.RegularPages "Type" "posts" }}
 
-  {{/* 如果沒有 source_url 或是新的 source，加入列表 */}}
-  {{- if eq $sourceID "" }}
-    {{- $filteredPages = $filteredPages | append . }}
-  {{- else if not (in $seenSources $sourceID) }}
-    {{- $seenSources = $seenSources | append $sourceID }}
-    {{- $filteredPages = $filteredPages | append . }}
-  {{- end }}
-{{- end }}
+{{/* ========== Hero 區塊：先選出不重複 source_url 的 4 篇有圖文章 ========== */}}
+{{ $heroPages := slice }}
+{{ $usedSourceURLs := slice }}
 
-<div class="wrap pt-2 mt-2">
-  {{- $paginator := .Paginate $filteredPages -}}
-  {{- $size := $paginator.PagerSize }}
-  {{- $scratch := newScratch }}
-  {{- range $index, $value := $paginator.Pages }}
-  {{ $bg := partial "func/getImage" . }}
-  <article class="article mb-2">
-    <a href={{ $value.Permalink }} {{ if eq $index 0 }} class=grid-reverse {{ end }}>
-      <div class=article_thumb style='background-image: url({{ $bg }})'></div>
-      <div class="article_meta {{ if eq $index 0 }} center_y {{ end }}">
-        <time class="post_date">{{ dateFormat "January 02, 2006" $value.Date }}</time>
-        <h3 class="article_title">{{ $value.Title }}</h3>
-        <div class="article_excerpt {{ if eq $index 0 }} visible {{ end }}">
-          {{/* 優先使用 description，避免 Summary 包含 iframe 等 HTML 被截斷 */}}
-          {{ if $value.Description }}
-            <p>{{ $value.Description }}</p>
-          {{ else }}
-            <p>{{ $value.Summary | plainify | truncate 150 }}</p>
+{{ range $allPages }}
+  {{ if lt (len $heroPages) 4 }}
+    {{ $sourceURL := .Params.source_url | default "" }}
+    {{/* 如果沒有 source_url 或 source_url 尚未使用，就加入 */}}
+    {{ if or (eq $sourceURL "") (not (in $usedSourceURLs $sourceURL)) }}
+      {{ $heroPages = $heroPages | append . }}
+      {{ if ne $sourceURL "" }}
+        {{ $usedSourceURLs = $usedSourceURLs | append $sourceURL }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* ========== 今日焦點 6 篇：排除已在 heroPages 的文章 ========== */}}
+{{ $glancePages := slice }}
+{{ $heroPagePaths := slice }}
+{{ range $heroPages }}
+  {{ $heroPagePaths = $heroPagePaths | append .File.Path }}
+{{ end }}
+
+{{ range $allPages }}
+  {{ if lt (len $glancePages) 6 }}
+    {{ if not (in $heroPagePaths .File.Path) }}
+      {{ $glancePages = $glancePages | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* 定義分類名稱到 URL slug 的對應 */}}
+{{ $categoryURLs := dict
+  "AI 技術前沿" "/categories/ai-技術前沿/"
+  "AI 產業動態" "/categories/ai-產業動態/"
+  "AI 開發實戰" "/categories/ai-開發實戰/"
+  "AI 安全與治理" "/categories/ai-安全與治理/"
+  "科技巨頭觀察" "/categories/科技巨頭觀察/"
+  "地緣政治與經濟" "/categories/地緣政治與經濟/"
+  "領袖思維" "/categories/領袖思維/"
+  "職涯與學習" "/categories/職涯與學習/"
+}}
+
+<div class="homepage">
+
+  {{/* Hero 區塊 */}}
+  <section class="hero-section">
+    <div class="hero-section__glance">
+      <h2 class="glance-title">今日焦點</h2>
+      <p class="glance-updated">更新於 {{ now.Format "15:04" }}</p>
+      <ol class="headlines-list">
+        {{ range $i, $page := $glancePages }}
+        <li class="headlines-list__item">
+          <span class="headlines-list__number">{{ add $i 1 }}</span>
+          <div class="headlines-list__content">
+            {{ with $page.Params.categories }}
+              {{ range first 1 . }}
+              <span class="headlines-list__category">{{ . }}</span>
+              {{ end }}
+            {{ end }}
+            <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+          </div>
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+
+    <div class="hero-section__main">
+      {{ with index $heroPages 0 }}
+        {{ partial "v2/article-card.html" (dict "page" . "variant" "hero") }}
+      {{ end }}
+    </div>
+
+    <div class="hero-section__sidebar">
+      {{ range $heroPages | after 1 }}
+        {{ partial "v2/article-card.html" (dict "page" . "variant" "small") }}
+      {{ end }}
+    </div>
+  </section>
+
+  {{/* ========== 分類區塊 - 按分類動態顯示，每類去重 source_url ========== */}}
+  {{ $catIdx := 0 }}
+  {{ range .Site.Taxonomies.categories }}
+    {{ $categoryName := .Page.Title }}
+    {{ $categoryPages := .Pages }}
+    {{ $categoryURL := index $categoryURLs $categoryName | default .Page.Permalink }}
+
+    {{/* 從該分類中選出 source_url 不重複的文章（最多 4 篇） */}}
+    {{ $uniquePages := slice }}
+    {{ $catUsedURLs := slice }}
+
+    {{ range $categoryPages }}
+      {{ if lt (len $uniquePages) 4 }}
+        {{ $srcURL := .Params.source_url | default "" }}
+        {{ if or (eq $srcURL "") (not (in $catUsedURLs $srcURL)) }}
+          {{ $uniquePages = $uniquePages | append . }}
+          {{ if ne $srcURL "" }}
+            {{ $catUsedURLs = $catUsedURLs | append $srcURL }}
           {{ end }}
-        </div>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ if gt (len $uniquePages) 0 }}
+    <section class="category-section">
+      <div class="category-section__header">
+        <h2 class="category-title">
+          <a href="{{ $categoryURL }}">{{ $categoryName }}</a>
+        </h2>
       </div>
-    </a>
-  </article>
-  {{- if and (eq $index 0) (gt $size 1) }}<div class="grid-2 article_showcase">{{ end }}
-    {{- if and (eq $index (add $size -1)) (gt $size 1) }}</div>{{ end }}
-  {{- end }}
+
+      {{ if eq (mod $catIdx 2) 0 }}
+      <div class="category-layout--b">
+        {{ range $uniquePages }}
+          {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+        {{ end }}
+      </div>
+      {{ else }}
+      <div class="category-layout--c">
+        {{ range $uniquePages | first 3 }}
+          {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+        {{ end }}
+      </div>
+      {{ end }}
+    </section>
+    {{ $catIdx = add $catIdx 1 }}
+    {{ end }}
+  {{ end }}
+
+  {{/* ========== 公司庫精選 ========== */}}
+  {{ $allCompanies := where .Site.RegularPages "Section" "companies" }}
+  {{ if gt (len $allCompanies) 0 }}
+  <section class="directory-section" id="section-companies">
+    <div class="directory-section__header">
+      <h2 class="directory-section__title">
+        <a href="{{ "/companies/" | relURL }}">公司庫</a>
+      </h2>
+      <p class="directory-section__desc">收錄 {{ len $allCompanies }} 家 AI 產業重要公司</p>
+      <a href="{{ "/companies/" | relURL }}" class="directory-section__more">瀏覽全部 →</a>
+    </div>
+
+    <div class="directory-section__grid">
+      {{ range $allCompanies | first 6 }}
+        {{ partial "v2/company-card.html" (dict "company" . "variant" "small") }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ========== 人物庫精選 ========== */}}
+  {{ $allPeople := where .Site.RegularPages "Section" "people" }}
+  {{ if gt (len $allPeople) 0 }}
+  <section class="directory-section" id="section-people">
+    <div class="directory-section__header">
+      <h2 class="directory-section__title">
+        <a href="{{ "/people/" | relURL }}">人物庫</a>
+      </h2>
+      <p class="directory-section__desc">收錄 {{ len $allPeople }} 位 AI 領域重要人物</p>
+      <a href="{{ "/people/" | relURL }}" class="directory-section__more">瀏覽全部 →</a>
+    </div>
+
+    <div class="directory-section__grid directory-section__grid--people">
+      {{ range $allPeople | first 6 }}
+        {{ partial "v2/person-card.html" (dict "person" . "variant" "small") }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
 </div>
-<a href='{{ absURL (printf "%s/%s" $blog_dir "") }}' class=post_nav><span class=post_next>{{ T "archive_text" }}
-    <svg class="icon icon_scale">
-      <use xlink:href="#double-arrow"></use>
-    </svg>
-  </span></a>
 {{ end }}

@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="list-page">
+  <header class="list-page__header">
+    <h1 class="list-page__title">{{ .Title }}</h1>
+    {{ with .Description }}
+    <p class="list-page__desc">{{ . }}</p>
+    {{ end }}
+  </header>
+
+  {{/* 分頁處理 */}}
+  {{ $paginator := .Paginate .Pages }}
+
+  <div class="list-page__grid">
+    {{ range $paginator.Pages }}
+      {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+    {{ end }}
+  </div>
+
+  {{/* 分頁導航 */}}
+  {{ if gt $paginator.TotalPages 1 }}
+  <nav class="pagination">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="pagination__link pagination__link--prev">
+      ← 上一頁
+    </a>
+    {{ end }}
+
+    <span class="pagination__info">
+      第 {{ $paginator.PageNumber }} / {{ $paginator.TotalPages }} 頁
+    </span>
+
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="pagination__link pagination__link--next">
+      下一頁 →
+    </a>
+    {{ end }}
+  </nav>
+  {{ end }}
+</div>
+{{ end }}

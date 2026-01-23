@@ -1,4 +1,13 @@
-# DOGE 效應——國防產業內部人士談美國政府效率革命
+---
+title: "DOGE 效應——國防產業內部人士談美國政府效率革命"
+date: 2025-10-20T10:00:00+08:00
+description: "Anduril 創辦人 Palmer Luckey 談 DOGE（政府效率部）對美國國防產業的影響。他認為 DOGE 最大的貢獻不是砍預算，而是給了官員「心理許可」去公開批評浪費。"
+tags: ["Palmer Luckey", "Anduril", "DOGE", "Elon Musk", "國防產業", "Podcast"]
+categories: ["地緣政治與經濟"]
+source_url: "https://www.youtube.com/watch?v=-9LFj6YOK2U"
+source_name: "Joe Rogan Experience #2394"
+draft: false
+---
 
 > 「陸軍部長站上台說『我們正在浪費數十億美元』，這在以前是不可能發生的事。」Palmer Luckey 認為，DOGE 最大的貢獻不是砍掉多少預算，而是給了政府官員「心理許可」去公開批評浪費。
 

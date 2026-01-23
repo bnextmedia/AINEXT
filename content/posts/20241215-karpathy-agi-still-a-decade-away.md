@@ -1,8 +1,17 @@
-# AGI 還要等十年！為什麼 OpenAI 創辦人 Karpathy 說現在的 AI 都是些花拳繡腿？
+---
+title: "AGI 還要等十年！為什麼 OpenAI 創辦人 Karpathy 說現在的 AI 都是些花拳繡腿？"
+date: 2024-12-15T10:00:00+08:00
+description: "OpenAI 共同創辦人 Andrej Karpathy 在訪談中直言現在的 AI 模型都是「slop」，並解釋為何 AGI 還要十年。他用自駕車經驗提出「每個 9 都是等量工作」的框架，分析 AI Agent 的真正挑戰。"
+tags: ["Andrej Karpathy", "OpenAI", "AGI", "AI Agent", "Tesla"]
+categories: ["AI 技術前沿"]
+source_url: "https://www.youtube.com/watch?v=c0-0gGdDJyE"
+source_name: "YouTube 訪談"
+draft: false
+---
 
 > 當整個矽谷都在高喊「AGI 明年就來」，這位在 AI 領域耕耘 15 年的老兵，卻冷靜地說：還要等十年。他不是悲觀，而是看過太多次預測落空。
 
-YouTube 來源：https://www.youtube.com/watch?v=c0-0gGdDJyE
+{{< youtube c0-0gGdDJyE >}}
 
 ---
 

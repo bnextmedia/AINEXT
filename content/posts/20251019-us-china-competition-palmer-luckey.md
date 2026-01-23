@@ -1,4 +1,13 @@
-# 中國造船能力是美國 232 倍——國防科技創業家談美中競爭的殘酷現實
+---
+title: "中國造船能力是美國 232 倍——國防科技創業家談美中競爭的殘酷現實"
+date: 2025-10-19T10:00:00+08:00
+description: "Anduril 創辦人 Palmer Luckey 在 Joe Rogan 播客上分享美中競爭的殘酷數據：中國造船能力是美國 232 倍，台灣軍售積壓 200 億美元。他提出美國應從「世界警察」轉型為「世界軍火庫」。"
+tags: ["Palmer Luckey", "Anduril", "美中競爭", "台灣", "國防", "Podcast"]
+categories: ["地緣政治與經濟"]
+source_url: "https://www.youtube.com/watch?v=-9LFj6YOK2U"
+source_name: "Joe Rogan Experience #2394"
+draft: false
+---
 
 > 「福特 CEO 去中國參觀完，說他想把那台車帶回美國。」Palmer Luckey 在 Joe Rogan 播客中談到美中製造業差距時說。當一台中國電動車只要 3,000 美元，而美國最便宜的也要 17,000 美元時，這不只是價格問題——這是國家競爭力的問題。
 

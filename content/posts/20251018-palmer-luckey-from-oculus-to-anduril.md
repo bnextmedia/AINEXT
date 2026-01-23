@@ -1,4 +1,13 @@
-# 從 Oculus 到 AI 戰鬥機——Palmer Luckey 的「Q 先生」之路
+---
+title: "從 Oculus 到 AI 戰鬥機——Palmer Luckey 的「Q 先生」之路"
+date: 2025-10-18T10:00:00+08:00
+description: "32 歲的 Palmer Luckey，18 歲創立 Oculus 賣給 Facebook，被開除後創辦國防科技公司 Anduril，擊敗波音、洛克希德馬丁拿下美國空軍史上第一架 AI 戰鬥機合約。"
+tags: ["Palmer Luckey", "Anduril", "Oculus", "Facebook", "國防科技", "Podcast"]
+categories: ["領袖思維"]
+source_url: "https://www.youtube.com/watch?v=-9LFj6YOK2U"
+source_name: "Joe Rogan Experience #2394"
+draft: false
+---
 
 > 這位 32 歲的創業家，18 歲創立 Oculus 賣給 Facebook 賺進數十億美元，被開除後又創辦了一家國防科技公司，剛剛擊敗波音、洛克希德馬丁，拿下美國空軍史上第一架 AI 戰鬥機合約。
 

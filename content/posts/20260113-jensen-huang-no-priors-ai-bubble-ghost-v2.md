@@ -1,8 +1,17 @@
-# 黃仁勳反駁 AI 泡沫論：「悲觀者在派對上聽起來很聰明，樂觀者才是推動人類前進的人」
+---
+title: "黃仁勳反駁 AI 泡沫論：「悲觀者在派對上聽起來很聰明，樂觀者才是推動人類前進的人」"
+date: 2026-01-13T10:00:00+08:00
+description: "NVIDIA 執行長黃仁勳在 No Priors Podcast 上系統性反駁 AI 泡沫論，提出「任務 vs 目的」框架解釋為何 AI 不會消滅工作，並分享對推理系統、能源政策、美中關係的看法。"
+tags: ["Jensen Huang", "NVIDIA", "AI 泡沫", "推理系統", "Podcast"]
+categories: ["領袖思維"]
+source_url: "https://www.youtube.com/watch?v=k-xtmISBCNE"
+source_name: "No Priors Podcast"
+draft: false
+---
 
 > 本文整理自 No Priors Podcast 2026 年 1 月播出的單集，主持人為創投 Conviction 創辦人 Sarah Guo 與知名天使投資人 Elad Gil。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k-xtmISBCNE" frameborder="0" allowfullscreen></iframe>
+{{< youtube k-xtmISBCNE >}}
 
 **收聽連結：**
 - [Spotify](https://open.spotify.com/episode/4kSlkESoQ8GPU6meWACSlf)

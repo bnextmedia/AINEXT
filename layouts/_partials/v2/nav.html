@@ -1,33 +1,76 @@
-{{/* AINEXT V2 - 主導航 */}}
+{{/* AINEXT V2 - 主導航（錨點滾動版） */}}
 {{/*
   八大分類：
-  1. AI 技術前沿
-  2. AI 產業動態
-  3. AI 開發實戰
-  4. AI 安全與治理
-  5. 科技巨頭觀察
-  6. 地緣政治與經濟
-  7. 領袖思維
-  8. 職涯與學習
+  1. AI 技術前沿     → #section-ai-tech
+  2. AI 產業動態     → #section-ai-industry
+  3. AI 開發實戰     → #section-ai-dev
+  4. AI 安全與治理   → #section-ai-safety
+  5. 科技巨頭觀察    → #section-tech-giants
+  6. 地緣政治與經濟  → #section-geopolitics
+  7. 領袖思維        → #section-leadership
+  8. 職涯與學習      → #section-career
 */}}
+
+{{ $baseUrl := printf "%sv2/" .Site.BaseURL }}
 
 <nav class="site-nav">
   <div class="site-nav__inner">
     <ul class="site-nav__list">
+      {{/* 八大板塊錨點連結 */}}
       <li class="site-nav__item">
-        <a href="{{ .Site.BaseURL }}" class="site-nav__link {{ if .IsHome }}is-active{{ end }}">首頁</a>
+        <a href="{{ $baseUrl }}#section-ai-tech" class="site-nav__link site-nav__link--anchor">AI 技術前沿</a>
       </li>
-
-      {{/* 固定順序的分類導航 */}}
-      {{ $categories := slice "AI 技術前沿" "AI 產業動態" "AI 開發實戰" "AI 安全與治理" "科技巨頭觀察" "地緣政治與經濟" "領袖思維" "職涯與學習" }}
-
-      {{ range $categories }}
-        {{ $name := . }}
-        {{ $slug := . | urlize }}
-        <li class="site-nav__item">
-          <a href="{{ printf "/categories/%s/" $slug | relURL }}" class="site-nav__link">{{ $name }}</a>
-        </li>
-      {{ end }}
+      <li class="site-nav__item">
+        <a href="{{ $baseUrl }}#section-ai-industry" class="site-nav__link site-nav__link--anchor">AI 產業動態</a>
+      </li>
+      <li class="site-nav__item">
+        <a href="{{ $baseUrl }}#section-ai-dev" class="site-nav__link site-nav__link--anchor">AI 開發實戰</a>
+      </li>
+      <li class="site-nav__item">
+        <a href="{{ $baseUrl }}#section-ai-safety" class="site-nav__link site-nav__link--anchor">AI 安全與治理</a>
+      </li>
+      <li class="site-nav__item">
+        <a href="{{ $baseUrl }}#section-tech-giants" class="site-nav__link site-nav__link--anchor">科技巨頭觀察</a>
+      </li>
+      <li class="site-nav__item">
+        <a href="{{ $baseUrl }}#section-geopolitics" class="site-nav__link site-nav__link--anchor">地緣政治與經濟</a>
+      </li>
+      <li class="site-nav__item">
+        <a href="{{ $baseUrl }}#section-leadership" class="site-nav__link site-nav__link--anchor">領袖思維</a>
+      </li>
+      <li class="site-nav__item">
+        <a href="{{ $baseUrl }}#section-career" class="site-nav__link site-nav__link--anchor">職涯與學習</a>
+      </li>
     </ul>
   </div>
 </nav>
+
+{{/* 平滑滾動 JavaScript */}}
+<script>
+(function() {
+  // 為所有錨點連結添加平滑滾動
+  document.querySelectorAll('.site-nav__link--anchor').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      var href = this.getAttribute('href');
+      var hashIndex = href.indexOf('#');
+
+      if (hashIndex !== -1) {
+        var targetId = href.substring(hashIndex + 1);
+        var targetElement = document.getElementById(targetId);
+
+        // 如果目標元素在當前頁面，使用平滑滾動
+        if (targetElement) {
+          e.preventDefault();
+          targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+
+          // 更新 URL hash
+          history.pushState(null, null, '#' + targetId);
+        }
+      }
+    });
+  });
+})();
+</script>

@@ -1,15 +1,174 @@
-{{/* AINEXT V2 - 頁首 */}}
+{{/* AINEXT V2 - 頁首（Semafor 風格） */}}
+
 <header class="site-header">
   <div class="site-header__inner">
-    {{/* Logo */}}
-    <div class="site-logo">
-      <a href="{{ .Site.BaseURL }}">AINEXT</a>
+
+    {{/* 左側：旋轉地球 + 當地時間 + 日期 */}}
+    <div class="site-header__left">
+      <div class="site-header__globe">
+        <svg class="globe-icon" viewBox="0 0 24 24" width="20" height="20">
+          <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          <ellipse cx="12" cy="12" rx="10" ry="4" fill="none" stroke="currentColor" stroke-width="1"/>
+          <line x1="12" y1="2" x2="12" y2="22" stroke="currentColor" stroke-width="1"/>
+          <line x1="2" y1="12" x2="22" y2="12" stroke="currentColor" stroke-width="1"/>
+        </svg>
+      </div>
+      <div class="site-header__datetime">
+        <span class="site-header__time" id="current-time">--:-- --</span>
+        <span class="site-header__date-text" id="current-date">----年--月--日 週-</span>
+      </div>
     </div>
 
-    {{/* 右側資訊 */}}
-    <div class="site-header__meta">
-      <span class="site-header__date">{{ now.Format "2006 年 1 月 2 日" }}</span>
-      <span class="site-header__tagline">{{ .Site.Params.description | default "AI 閱讀筆記與產業觀察" }}</span>
+    {{/* 中間上方：Slogan */}}
+    <div class="site-header__center-top">
+      <span class="site-header__slogan">AI 新商業情報觀察站</span>
     </div>
+
+    {{/* 中間：城市時鐘（左三） */}}
+    <div class="site-header__clocks site-header__clocks--left">
+      <div class="clock-item" data-timezone="Asia/Taipei">
+        <span class="clock-item__city">台北</span>
+        <div class="clock-item__face">
+          <svg viewBox="0 0 40 40" class="clock-svg">
+            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
+            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+      <div class="clock-item" data-timezone="Asia/Tokyo">
+        <span class="clock-item__city">東京</span>
+        <div class="clock-item__face">
+          <svg viewBox="0 0 40 40" class="clock-svg">
+            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
+            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+      <div class="clock-item" data-timezone="Europe/London">
+        <span class="clock-item__city">倫敦</span>
+        <div class="clock-item__face">
+          <svg viewBox="0 0 40 40" class="clock-svg">
+            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
+            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    {{/* 中間：Logo */}}
+    <div class="site-header__logo">
+      <a href="{{ .Site.BaseURL }}v2/">AINEXT</a>
+    </div>
+
+    {{/* 中間：城市時鐘（右三） */}}
+    <div class="site-header__clocks site-header__clocks--right">
+      <div class="clock-item" data-timezone="America/New_York">
+        <span class="clock-item__city">紐約</span>
+        <div class="clock-item__face">
+          <svg viewBox="0 0 40 40" class="clock-svg">
+            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
+            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+      <div class="clock-item" data-timezone="America/Phoenix">
+        <span class="clock-item__city">鳳凰城</span>
+        <div class="clock-item__face">
+          <svg viewBox="0 0 40 40" class="clock-svg">
+            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
+            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+      <div class="clock-item" data-timezone="America/Los_Angeles">
+        <span class="clock-item__city">舊金山</span>
+        <div class="clock-item__face">
+          <svg viewBox="0 0 40 40" class="clock-svg">
+            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1"/>
+            <line class="clock-hand clock-hand--hour" x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <line class="clock-hand clock-hand--minute" x1="20" y1="20" x2="20" y2="6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    {{/* 右側：漢堡選單（手機版用） */}}
+    <div class="site-header__right">
+      <button class="site-header__menu-btn" aria-label="選單">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2"/>
+          <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2"/>
+          <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="2"/>
+        </svg>
+      </button>
+    </div>
+
   </div>
 </header>
+
+{{/* 時鐘 JavaScript */}}
+<script>
+(function() {
+  // 更新當地時間和日期
+  function updateLocalTime() {
+    const now = new Date();
+
+    // 時間格式：4:10 PM
+    let hours = now.getHours();
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12;
+    hours = hours ? hours : 12;
+    document.getElementById('current-time').textContent = hours + ':' + minutes + ' ' + ampm;
+
+    // 日期格式：週五 1月23日 2026
+    const weekdays = ['週日', '週一', '週二', '週三', '週四', '週五', '週六'];
+    const weekday = weekdays[now.getDay()];
+    const month = now.getMonth() + 1;
+    const date = now.getDate();
+    const year = now.getFullYear();
+    document.getElementById('current-date').textContent = weekday + ' ' + month + '月' + date + '日 ' + year;
+  }
+
+  // 更新世界時鐘
+  function updateWorldClocks() {
+    document.querySelectorAll('.clock-item').forEach(function(clock) {
+      const timezone = clock.dataset.timezone;
+      const now = new Date();
+
+      // 取得該時區的時間
+      const options = { timeZone: timezone, hour: 'numeric', minute: 'numeric', hour12: false };
+      const timeStr = now.toLocaleTimeString('en-US', options);
+      const [hours, minutes] = timeStr.split(':').map(Number);
+
+      // 計算指針角度
+      const hourAngle = (hours % 12) * 30 + minutes * 0.5;
+      const minuteAngle = minutes * 6;
+
+      // 更新指針
+      const hourHand = clock.querySelector('.clock-hand--hour');
+      const minuteHand = clock.querySelector('.clock-hand--minute');
+
+      if (hourHand) {
+        hourHand.setAttribute('transform', 'rotate(' + hourAngle + ' 20 20)');
+      }
+      if (minuteHand) {
+        minuteHand.setAttribute('transform', 'rotate(' + minuteAngle + ' 20 20)');
+      }
+    });
+  }
+
+  // 初始化
+  updateLocalTime();
+  updateWorldClocks();
+
+  // 每秒更新
+  setInterval(updateLocalTime, 1000);
+  setInterval(updateWorldClocks, 1000);
+})();
+</script>

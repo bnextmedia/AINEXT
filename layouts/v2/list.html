@@ -64,21 +64,33 @@
       </section>
 
       {{/* ============================================ */}}
-      {{/* 八大分類區塊 - 固定順序 */}}
+      {{/* 八大分類區塊 - 固定順序（含錨點 ID） */}}
       {{/* ============================================ */}}
 
-      {{ $categoryOrder := slice "AI 技術前沿" "AI 產業動態" "AI 開發實戰" "AI 安全與治理" "科技巨頭觀察" "地緣政治與經濟" "領袖思維" "職涯與學習" }}
+      {{/* 分類名稱與對應的錨點 ID */}}
+      {{ $categories := slice
+        (dict "name" "AI 技術前沿" "id" "section-ai-tech")
+        (dict "name" "AI 產業動態" "id" "section-ai-industry")
+        (dict "name" "AI 開發實戰" "id" "section-ai-dev")
+        (dict "name" "AI 安全與治理" "id" "section-ai-safety")
+        (dict "name" "科技巨頭觀察" "id" "section-tech-giants")
+        (dict "name" "地緣政治與經濟" "id" "section-geopolitics")
+        (dict "name" "領袖思維" "id" "section-leadership")
+        (dict "name" "職涯與學習" "id" "section-career")
+      }}
 
-      {{ range $idx, $catName := $categoryOrder }}
+      {{ range $idx, $cat := $categories }}
+        {{ $catName := $cat.name }}
+        {{ $sectionId := $cat.id }}
         {{ $categoryPages := where $allPages "Params.categories" "intersect" (slice $catName) }}
 
         {{ if gt (len $categoryPages) 0 }}
-        <section class="category-section">
+        <section class="category-section" id="{{ $sectionId }}">
           <div class="category-section__header">
             <h2 class="category-title">
-              <a href="{{ printf "/categories/%s/" ($catName | urlize) | relURL }}">{{ $catName }}</a>
+              <a href="{{ printf "/v2/category/%s/" ($catName | urlize) | relURL }}">{{ $catName }}</a>
             </h2>
-            <a href="{{ printf "/categories/%s/" ($catName | urlize) | relURL }}" class="category-section__more">查看全部 →</a>
+            <a href="{{ printf "/v2/category/%s/" ($catName | urlize) | relURL }}" class="category-section__more">查看全部 →</a>
           </div>
 
           <div class="category-layout--b">

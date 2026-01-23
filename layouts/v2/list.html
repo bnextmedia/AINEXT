@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AINEXT V2 預覽</title>
+
+  {{/* 字體載入 */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+
+  {{/* V2 樣式 */}}
+  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+<body class="site">
+
+  {{/* 頁首 */}}
+  {{ partial "v2/header.html" . }}
+
+  {{/* 導航 */}}
+  {{ partial "v2/nav.html" . }}
+
+  {{/* 主內容 */}}
+  <main class="site-main">
+    {{ $allPages := where .Site.RegularPages "Type" "posts" }}
+
+    <div class="homepage">
+
+      {{/* Hero 區塊 */}}
+      <section class="hero-section">
+        <div class="hero-section__glance">
+          <h2 class="glance-title">今日焦點</h2>
+          <p class="glance-updated">更新於 {{ now.Format "15:04" }}</p>
+          <ol class="headlines-list">
+            {{ range $i, $page := first 6 $allPages }}
+            <li class="headlines-list__item">
+              <span class="headlines-list__number">{{ add $i 1 }}</span>
+              <div class="headlines-list__content">
+                {{ with $page.Params.categories }}
+                  {{ range first 1 . }}
+                  <span class="headlines-list__category">{{ . }}</span>
+                  {{ end }}
+                {{ end }}
+                <a href="{{ $page.Permalink }}">{{ $page.Title }}</a>
+              </div>
+            </li>
+            {{ end }}
+          </ol>
+        </div>
+
+        <div class="hero-section__main">
+          {{ with index $allPages 0 }}
+            {{ partial "v2/article-card.html" (dict "page" . "variant" "hero") }}
+          {{ end }}
+        </div>
+
+        <div class="hero-section__sidebar">
+          {{ range $allPages | first 4 | after 1 }}
+            {{ partial "v2/article-card.html" (dict "page" . "variant" "small") }}
+          {{ end }}
+        </div>
+      </section>
+
+      {{/* ============================================ */}}
+      {{/* 八大分類區塊 - 固定順序 */}}
+      {{/* ============================================ */}}
+
+      {{ $categoryOrder := slice "AI 技術前沿" "AI 產業動態" "AI 開發實戰" "AI 安全與治理" "科技巨頭觀察" "地緣政治與經濟" "領袖思維" "職涯與學習" }}
+
+      {{ range $idx, $catName := $categoryOrder }}
+        {{ $categoryPages := where $allPages "Params.categories" "intersect" (slice $catName) }}
+
+        {{ if gt (len $categoryPages) 0 }}
+        <section class="category-section">
+          <div class="category-section__header">
+            <h2 class="category-title">
+              <a href="{{ printf "/categories/%s/" ($catName | urlize) | relURL }}">{{ $catName }}</a>
+            </h2>
+            <a href="{{ printf "/categories/%s/" ($catName | urlize) | relURL }}" class="category-section__more">查看全部 →</a>
+          </div>
+
+          <div class="category-layout--b">
+            {{ range $categoryPages | first 4 }}
+              {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+      {{ end }}
+
+    </div>
+  </main>
+
+  {{/* 頁尾 */}}
+  {{ partial "v2/footer.html" . }}
+
+</body>
+</html>

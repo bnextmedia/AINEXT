@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>公司庫 | {{ .Site.Title }}</title>
+  <meta name="description" content="AI 產業重要公司資料庫，收錄全球領先的人工智慧公司">
+
+  {{/* 字體載入 */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+
+  {{/* V2 樣式 */}}
+  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+<body class="site">
+
+  {{ partial "v2/header.html" . }}
+  {{ partial "v2/nav.html" . }}
+
+  <main class="site-main">
+    {{ $allCompanies := where .Site.RegularPages "Section" "companies" }}
+
+    <div class="directory-page">
+
+      {{/* 頁面標題 */}}
+      <header class="directory-page__header">
+        <h1 class="directory-page__title">公司庫</h1>
+        <p class="directory-page__desc">收錄全球 <strong>{{ len $allCompanies }}</strong> 家 AI 產業重要公司</p>
+      </header>
+
+      {{/* 篩選器 */}}
+      <div class="directory-filters">
+        <div class="directory-filters__group">
+          <label>母分類</label>
+          <select id="filter-category" class="directory-filters__select">
+            <option value="">全部</option>
+            {{ $categories := slice }}
+            {{ range $allCompanies }}
+              {{ with .Params.category_primary }}
+                {{ $categories = $categories | append . }}
+              {{ end }}
+            {{ end }}
+            {{ range ($categories | uniq | sort) }}
+            <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+          </select>
+        </div>
+
+        <div class="directory-filters__group">
+          <label>子分類</label>
+          <select id="filter-subcategory" class="directory-filters__select">
+            <option value="">全部</option>
+            {{ $subcategories := slice }}
+            {{ range $allCompanies }}
+              {{ with .Params.category_secondary }}
+                {{ $subcategories = $subcategories | append . }}
+              {{ end }}
+            {{ end }}
+            {{ range ($subcategories | uniq | sort) }}
+            <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+          </select>
+        </div>
+
+        <div class="directory-filters__group">
+          <label>國家</label>
+          <select id="filter-country" class="directory-filters__select">
+            <option value="">全部</option>
+            {{ $countries := slice }}
+            {{ range $allCompanies }}
+              {{ with .Params.country }}
+                {{ $countries = $countries | append . }}
+              {{ end }}
+            {{ end }}
+            {{ range ($countries | uniq | sort) }}
+            <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+          </select>
+        </div>
+
+        <div class="directory-filters__group">
+          <label>狀態</label>
+          <select id="filter-status" class="directory-filters__select">
+            <option value="">全部</option>
+            <option value="private">私有公司</option>
+            <option value="public">上市公司</option>
+            <option value="acquired">已被收購</option>
+          </select>
+        </div>
+
+        <div class="directory-filters__group directory-filters__group--search">
+          <label>搜尋</label>
+          <input type="text" id="filter-search" placeholder="輸入公司名稱..." class="directory-filters__input">
+        </div>
+      </div>
+
+      {{/* 公司網格 */}}
+      <div class="directory-grid" id="directory-grid">
+        {{ range $allCompanies.ByTitle }}
+        <div class="directory-grid__item"
+             data-category="{{ .Params.category_primary }}"
+             data-subcategory="{{ .Params.category_secondary }}"
+             data-country="{{ .Params.country }}"
+             data-status="{{ .Params.status }}"
+             data-name="{{ .Title | lower }}">
+          {{ partial "v2/company-card.html" (dict "company" . "variant" "default") }}
+        </div>
+        {{ end }}
+      </div>
+
+      <p class="directory-no-results" id="no-results" style="display: none;">沒有符合條件的公司</p>
+
+    </div>
+  </main>
+
+  {{ partial "v2/footer.html" . }}
+
+  {{/* 篩選器 JavaScript */}}
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var grid = document.getElementById('directory-grid');
+    var items = grid.querySelectorAll('.directory-grid__item');
+    var noResults = document.getElementById('no-results');
+
+    var filters = {
+      category: document.getElementById('filter-category'),
+      subcategory: document.getElementById('filter-subcategory'),
+      country: document.getElementById('filter-country'),
+      status: document.getElementById('filter-status'),
+      search: document.getElementById('filter-search')
+    };
+
+    function applyFilters() {
+      var categoryVal = filters.category.value.toLowerCase();
+      var subcategoryVal = filters.subcategory.value.toLowerCase();
+      var countryVal = filters.country.value.toLowerCase();
+      var statusVal = filters.status.value.toLowerCase();
+      var searchVal = filters.search.value.toLowerCase();
+
+      var visibleCount = 0;
+
+      items.forEach(function(item) {
+        var category = (item.dataset.category || '').toLowerCase();
+        var subcategory = (item.dataset.subcategory || '').toLowerCase();
+        var country = (item.dataset.country || '').toLowerCase();
+        var status = (item.dataset.status || '').toLowerCase();
+        var name = item.dataset.name || '';
+
+        var matchCategory = !categoryVal || category === categoryVal;
+        var matchSubcategory = !subcategoryVal || subcategory === subcategoryVal;
+        var matchCountry = !countryVal || country === countryVal;
+        var matchStatus = !statusVal || status === statusVal;
+        var matchSearch = !searchVal || name.includes(searchVal);
+
+        if (matchCategory && matchSubcategory && matchCountry && matchStatus && matchSearch) {
+          item.style.display = '';
+          visibleCount++;
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      noResults.style.display = visibleCount === 0 ? '' : 'none';
+    }
+
+    Object.values(filters).forEach(function(filter) {
+      filter.addEventListener('input', applyFilters);
+      filter.addEventListener('change', applyFilters);
+    });
+  });
+  </script>
+
+</body>
+</html>

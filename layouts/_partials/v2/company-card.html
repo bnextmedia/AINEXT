@@ -1,0 +1,75 @@
+{{/* AINEXT V2 - 公司卡片元件 */}}
+{{/*
+  使用方式：{{ partial "v2/company-card.html" (dict "company" . "variant" "default") }}
+
+  variant 選項：
+  - default: 標準卡片
+  - small: 小型卡片（首頁精選用）
+  - horizontal: 橫向排列
+*/}}
+
+{{ $company := .company }}
+{{ $variant := .variant | default "default" }}
+
+{{ $classes := "company-card" }}
+{{ if eq $variant "small" }}
+  {{ $classes = "company-card company-card--small" }}
+{{ else if eq $variant "horizontal" }}
+  {{ $classes = "company-card company-card--horizontal" }}
+{{ end }}
+
+<a href="{{ $company.Permalink }}" class="{{ $classes }}">
+  {{/* Logo */}}
+  <div class="company-card__logo">
+    {{ with $company.Params.logo }}
+    <img src="{{ . }}" alt="{{ $company.Title }}" loading="lazy">
+    {{ else }}
+    <div class="company-card__logo-placeholder">
+      <span>{{ substr $company.Title 0 2 | upper }}</span>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="company-card__content">
+    {{/* 狀態標籤 */}}
+    {{ with $company.Params.status }}
+    <span class="company-card__status company-card__status--{{ . }}">
+      {{ if eq . "private" }}私有
+      {{ else if eq . "public" }}上市
+      {{ else if eq . "acquired" }}收購
+      {{ else if eq . "defunct" }}停業
+      {{ else }}{{ . }}{{ end }}
+    </span>
+    {{ end }}
+
+    {{/* 公司名稱 */}}
+    <h3 class="company-card__name">{{ $company.Title }}</h3>
+
+    {{/* 簡介 */}}
+    {{ if ne $variant "small" }}
+    {{ with $company.Params.description_short }}
+    <p class="company-card__desc">{{ . | truncate 80 }}</p>
+    {{ end }}
+    {{ end }}
+
+    {{/* 分類與地點 */}}
+    <div class="company-card__meta">
+      {{ with $company.Params.category_secondary }}
+      <span class="company-card__category">{{ . }}</span>
+      {{ end }}
+      {{ with $company.Params.country }}
+      <span class="company-card__location">{{ . }}</span>
+      {{ end }}
+    </div>
+
+    {{/* 估值（僅 default 和 horizontal 顯示） */}}
+    {{ if ne $variant "small" }}
+    {{ with $company.Params.latest_valuation }}
+    <div class="company-card__valuation">
+      <span class="company-card__valuation-label">估值</span>
+      <span class="company-card__valuation-value">{{ . }}</span>
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</a>

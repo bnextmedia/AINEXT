@@ -264,3 +264,68 @@
 
 .section-divider--thick
   border-top: 3px solid $color-text
+
+// ============================================
+// 首頁目錄區塊（公司庫、人物庫精選）
+// ============================================
+
+.directory-section
+  padding: $spacing-xl 0
+  border-bottom: 1px solid $color-divider
+
+.directory-section__header
+  display: flex
+  flex-wrap: wrap
+  align-items: baseline
+  gap: $spacing-sm $spacing-lg
+  margin-bottom: $spacing-lg
+
+.directory-section__title
+  @include font-headline
+  font-size: 1.75rem
+
+  a
+    color: $color-text
+
+    &:hover
+      color: $color-accent
+
+.directory-section__desc
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+  flex: 1
+
+.directory-section__more
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-accent
+
+  &:hover
+    text-decoration: underline
+
+.directory-section__grid
+  display: grid
+  grid-template-columns: repeat(6, 1fr)
+  gap: $spacing-md
+
+  @media (max-width: $breakpoint-lg)
+    grid-template-columns: repeat(3, 1fr)
+
+  @media (max-width: $breakpoint-md)
+    grid-template-columns: repeat(2, 1fr)
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: 1fr
+
+.directory-section__grid--people
+  grid-template-columns: repeat(6, 1fr)
+
+  @media (max-width: $breakpoint-lg)
+    grid-template-columns: repeat(3, 1fr)
+
+  @media (max-width: $breakpoint-md)
+    grid-template-columns: repeat(2, 1fr)
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: repeat(2, 1fr)

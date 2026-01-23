@@ -1,0 +1,351 @@
+// AINEXT V2 - 目錄頁樣式（公司庫、人物庫列表）
+
+@import "variables"
+
+// ============================================
+// 目錄頁共用樣式
+// ============================================
+
+.directory-page
+  max-width: $max-width
+  margin: 0 auto
+  padding: $spacing-lg $spacing-md
+
+.directory-page__header
+  text-align: center
+  margin-bottom: $spacing-xl
+  padding-bottom: $spacing-lg
+  border-bottom: 3px solid $color-text
+
+.directory-page__title
+  @include font-headline
+  font-size: 3rem
+  margin-bottom: $spacing-sm
+
+.directory-page__desc
+  @include font-body
+  font-size: 1.125rem
+  color: $color-text-light
+
+  strong
+    color: $color-accent
+    font-weight: $font-weight-semibold
+
+// ============================================
+// 篩選器
+// ============================================
+
+.directory-filters
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-md
+  margin-bottom: $spacing-lg
+  padding: $spacing-md
+  background-color: rgba($color-text, 0.03)
+  border: 1px solid $color-divider
+
+.directory-filters__group
+  display: flex
+  flex-direction: column
+  gap: $spacing-xs
+
+  label
+    @include font-ui
+    font-size: $font-size-caption
+    font-weight: $font-weight-semibold
+    text-transform: uppercase
+    letter-spacing: 0.05em
+    color: $color-text-light
+
+.directory-filters__group--search
+  flex: 1
+  min-width: 200px
+
+.directory-filters__select,
+.directory-filters__input
+  @include font-body
+  font-size: $font-size-small
+  padding: $spacing-xs $spacing-sm
+  border: 1px solid $color-divider
+  background-color: $color-bg
+  color: $color-text
+
+  &:focus
+    outline: none
+    border-color: $color-accent
+
+.directory-filters__select
+  min-width: 140px
+  cursor: pointer
+
+.directory-filters__input
+  width: 100%
+
+// ============================================
+// 網格
+// ============================================
+
+.directory-grid
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))
+  gap: $spacing-md
+
+.directory-grid--people
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr))
+
+.directory-grid__item
+  // 用於篩選時的顯示/隱藏
+
+.directory-no-results
+  @include font-body
+  text-align: center
+  color: $color-text-light
+  padding: $spacing-xl
+
+// ============================================
+// 公司卡片
+// ============================================
+
+.company-card
+  display: flex
+  flex-direction: column
+  padding: $spacing-md
+  background-color: $color-bg
+  border: 1px solid $color-divider
+  transition: border-color 0.2s, box-shadow 0.2s
+
+  &:hover
+    border-color: $color-accent
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+
+.company-card__logo
+  width: 64px
+  height: 64px
+  margin-bottom: $spacing-sm
+  border-radius: 8px
+  overflow: hidden
+  background-color: #fff
+  border: 1px solid $color-divider
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: contain
+
+.company-card__logo-placeholder
+  width: 100%
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  background-color: $color-accent
+  color: #fff
+
+  span
+    @include font-headline
+    font-size: 1.25rem
+
+.company-card__content
+  flex: 1
+  display: flex
+  flex-direction: column
+
+.company-card__status
+  @include font-ui
+  font-size: $font-size-caption
+  padding: 2px 6px
+  border-radius: 2px
+  align-self: flex-start
+  margin-bottom: $spacing-xs
+
+  &--private
+    background-color: #e8f4f8
+    color: #2c7a7b
+
+  &--public
+    background-color: #e6fffa
+    color: #234e52
+
+  &--acquired
+    background-color: #feebc8
+    color: #744210
+
+  &--defunct
+    background-color: #fed7d7
+    color: #742a2a
+
+.company-card__name
+  @include font-headline
+  font-size: 1.25rem
+  margin-bottom: $spacing-xs
+  color: $color-text
+
+.company-card__desc
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+  margin-bottom: $spacing-sm
+  flex: 1
+
+.company-card__meta
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-xs
+  margin-bottom: $spacing-sm
+
+.company-card__category,
+.company-card__location
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+
+.company-card__category
+  &::after
+    content: "·"
+    margin-left: $spacing-xs
+
+.company-card__valuation
+  display: flex
+  justify-content: space-between
+  padding-top: $spacing-sm
+  border-top: 1px solid $color-divider
+
+.company-card__valuation-label
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+
+.company-card__valuation-value
+  @include font-ui
+  font-size: $font-size-small
+  font-weight: $font-weight-semibold
+  color: $color-accent
+
+// 小型卡片
+.company-card--small
+  padding: $spacing-sm
+
+  .company-card__logo
+    width: 48px
+    height: 48px
+
+  .company-card__name
+    font-size: 1rem
+
+// ============================================
+// 人物卡片
+// ============================================
+
+.person-card
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-align: center
+  padding: $spacing-md
+  background-color: $color-bg
+  border: 1px solid $color-divider
+  transition: border-color 0.2s, box-shadow 0.2s
+
+  &:hover
+    border-color: $color-accent
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+
+.person-card__photo
+  width: 80px
+  height: 80px
+  margin-bottom: $spacing-sm
+  border-radius: 50%
+  overflow: hidden
+  border: 2px solid $color-divider
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    filter: grayscale(30%)
+
+.person-card__photo-placeholder
+  width: 100%
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  background-color: $color-accent
+  color: #fff
+
+  span
+    @include font-headline
+    font-size: 1.5rem
+
+.person-card__content
+  flex: 1
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.person-card__name
+  @include font-headline
+  font-size: 1.125rem
+  margin-bottom: 2px
+  color: $color-text
+
+.person-card__name-zh
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+  margin-bottom: $spacing-xs
+
+.person-card__position
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+  margin-bottom: $spacing-sm
+
+.person-card__badges
+  display: flex
+  flex-wrap: wrap
+  gap: 4px
+  justify-content: center
+
+.person-card__badge
+  @include font-ui
+  font-size: $font-size-caption
+  padding: 2px 8px
+  background-color: rgba($color-accent, 0.1)
+  color: $color-accent
+  border-radius: 2px
+
+.person-card__desc
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+  margin-top: $spacing-sm
+
+// 小型卡片
+.person-card--small
+  padding: $spacing-sm
+
+  .person-card__photo
+    width: 60px
+    height: 60px
+
+  .person-card__name
+    font-size: 1rem
+
+// ============================================
+// 響應式
+// ============================================
+
+@media (max-width: $breakpoint-md)
+  .directory-page__title
+    font-size: 2rem
+
+  .directory-filters
+    flex-direction: column
+
+  .directory-grid
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr))
+
+@media (max-width: $breakpoint-sm)
+  .directory-grid
+    grid-template-columns: 1fr

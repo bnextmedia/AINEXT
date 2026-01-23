@@ -1,0 +1,596 @@
+// AINEXT V2 - 單一人物頁面樣式
+
+@import "variables"
+
+// ============================================
+// 人物頁面
+// ============================================
+
+.person-page
+  max-width: $max-width
+  margin: 0 auto
+  padding: $spacing-lg $spacing-md
+
+// ============================================
+// 頁首
+// ============================================
+
+.person-page__header
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  gap: $spacing-lg
+  padding-bottom: $spacing-lg
+  border-bottom: 3px solid $color-text
+  margin-bottom: $spacing-md
+
+.person-page__header-main
+  display: flex
+  gap: $spacing-lg
+  flex: 1
+
+.person-page__photo
+  width: 120px
+  height: 120px
+  flex-shrink: 0
+  border-radius: 50%
+  overflow: hidden
+  border: 3px solid $color-divider
+  position: relative
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    filter: grayscale(20%)
+
+.person-page__photo-credit
+  position: absolute
+  bottom: -20px
+  left: 0
+  right: 0
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+  text-align: center
+
+.person-page__photo-placeholder
+  width: 100%
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  background-color: $color-accent
+  color: #fff
+
+  span
+    @include font-headline
+    font-size: 2.5rem
+
+.person-page__info
+  flex: 1
+
+.person-page__name
+  @include font-headline
+  font-size: 2.5rem
+  margin-bottom: $spacing-xs
+
+.person-page__name-zh
+  @include font-body
+  font-size: 1.125rem
+  color: $color-text-light
+  margin-bottom: $spacing-sm
+
+.person-page__tagline
+  @include font-body
+  font-size: 1.125rem
+  margin-bottom: $spacing-md
+
+.person-page__current
+  margin-bottom: $spacing-sm
+
+.person-page__position
+  @include font-ui
+  font-size: 1rem
+  font-weight: $font-weight-semibold
+
+.person-page__org
+  @include font-body
+  font-size: 1rem
+  color: $color-text-light
+
+  a
+    color: $color-accent
+
+.person-page__meta
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-md
+
+.person-page__meta-item
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-text-light
+
+.person-page__links
+  display: flex
+  gap: $spacing-sm
+  flex-shrink: 0
+
+.person-page__btn
+  @include font-ui
+  font-size: $font-size-small
+  padding: $spacing-xs $spacing-md
+  border: 1px solid $color-text
+  background-color: transparent
+  color: $color-text
+  text-decoration: none
+  transition: all 0.2s
+
+  &:hover
+    background-color: $color-text
+    color: $color-bg
+
+.person-page__btn--primary
+  background-color: $color-accent
+  border-color: $color-accent
+  color: #fff
+
+  &:hover
+    background-color: darken($color-accent, 10%)
+
+.person-page__btn--icon
+  width: 36px
+  height: 36px
+  padding: 0
+  display: flex
+  align-items: center
+  justify-content: center
+
+// ============================================
+// 標籤
+// ============================================
+
+.person-page__badges
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-sm
+  margin-bottom: $spacing-lg
+
+.person-page__badge
+  @include font-ui
+  font-size: $font-size-small
+  padding: $spacing-xs $spacing-sm
+  border-radius: 2px
+
+  &--type
+    background-color: $color-accent
+    color: #fff
+
+  &--expertise
+    background-color: rgba($color-accent, 0.15)
+    color: $color-accent
+
+// ============================================
+// 主內容區
+// ============================================
+
+.person-page__content
+  display: grid
+  grid-template-columns: 1fr 320px
+  gap: $spacing-xl
+
+.person-page__main
+  min-width: 0
+
+.person-page__section
+  margin-bottom: $spacing-xl
+  padding-bottom: $spacing-lg
+  border-bottom: 1px solid $color-divider
+
+  &:last-child
+    border-bottom: none
+
+  h2
+    @include font-headline
+    font-size: 1.5rem
+    margin-bottom: $spacing-md
+    padding-bottom: $spacing-sm
+    border-bottom: 2px solid $color-text
+
+.person-page__description
+  @include font-body
+  font-size: 1.0625rem
+  line-height: 1.8
+
+  p
+    margin-bottom: $spacing-md
+
+// ============================================
+// 職涯經歷
+// ============================================
+
+.person-page__career
+  position: relative
+  padding-left: $spacing-lg
+
+  &::before
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    bottom: 0
+    width: 2px
+    background-color: $color-divider
+
+.person-page__career-item
+  position: relative
+  padding-bottom: $spacing-md
+  padding-left: $spacing-md
+  display: flex
+  gap: $spacing-md
+
+  &::before
+    content: ""
+    position: absolute
+    left: calc(-#{$spacing-lg} - 4px)
+    top: 4px
+    width: 10px
+    height: 10px
+    border-radius: 50%
+    background-color: $color-accent
+    border: 2px solid $color-bg
+
+.person-page__career-years
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-text-light
+  min-width: 100px
+  flex-shrink: 0
+
+.person-page__career-details
+  h3
+    @include font-headline
+    font-size: 1.125rem
+    margin-bottom: $spacing-xs
+
+  p
+    @include font-body
+    font-size: $font-size-small
+    color: $color-text-light
+
+    a
+      color: $color-accent
+
+// ============================================
+// 學歷
+// ============================================
+
+.person-page__education
+  display: flex
+  flex-direction: column
+  gap: $spacing-md
+
+.person-page__education-item
+  padding: $spacing-md
+  border: 1px solid $color-divider
+  background-color: rgba($color-text, 0.02)
+
+  h3
+    @include font-headline
+    font-size: 1.125rem
+    margin-bottom: $spacing-xs
+
+  p
+    @include font-body
+    font-size: $font-size-small
+    color: $color-text-light
+    margin-bottom: $spacing-xs
+
+.person-page__education-years
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-accent
+
+// ============================================
+// 創業經歷
+// ============================================
+
+.person-page__founded
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
+  gap: $spacing-md
+
+.person-page__founded-item
+  padding: $spacing-md
+  border: 1px solid $color-divider
+
+  h3
+    @include font-headline
+    font-size: 1.125rem
+    margin-bottom: $spacing-sm
+
+.person-page__founded-year
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-text-light
+
+.person-page__founded-outcome
+  @include font-ui
+  font-size: $font-size-caption
+  padding: 2px 6px
+  background-color: rgba($color-accent, 0.1)
+  color: $color-accent
+  border-radius: 2px
+  margin-left: $spacing-sm
+
+// ============================================
+// 投資經歷
+// ============================================
+
+.person-page__investments
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-sm
+
+.person-page__investment-item
+  display: flex
+  align-items: center
+  gap: $spacing-xs
+  padding: $spacing-xs $spacing-sm
+  border: 1px solid $color-divider
+
+.person-page__investment-company
+  @include font-body
+  font-size: $font-size-small
+
+.person-page__investment-role
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+
+// ============================================
+// 論文
+// ============================================
+
+.person-page__publications
+  display: flex
+  flex-direction: column
+  gap: $spacing-md
+
+.person-page__publication-item
+  padding-bottom: $spacing-md
+  border-bottom: 1px solid $color-divider
+
+  &:last-child
+    border-bottom: none
+
+  h3
+    @include font-body
+    font-size: 1rem
+    margin-bottom: $spacing-xs
+
+    a
+      color: $color-text
+
+      &:hover
+        color: $color-accent
+
+.person-page__publication-meta
+  display: flex
+  gap: $spacing-sm
+
+  span
+    @include font-ui
+    font-size: $font-size-caption
+    color: $color-text-light
+
+// ============================================
+// 重要言論
+// ============================================
+
+.person-page__quotes
+  display: flex
+  flex-direction: column
+  gap: $spacing-lg
+
+.person-page__quote
+  padding: $spacing-md
+  padding-left: $spacing-lg
+  border-left: 3px solid $color-accent
+  background-color: rgba($color-accent, 0.03)
+  margin: 0
+
+  p
+    @include font-body
+    font-size: 1.125rem
+    font-style: italic
+    margin-bottom: $spacing-sm
+
+  footer
+    @include font-ui
+    font-size: $font-size-small
+    color: $color-text-light
+
+    cite
+      font-style: normal
+
+    time
+      margin-left: $spacing-sm
+
+// ============================================
+// 成就與獎項
+// ============================================
+
+.person-page__achievements
+  @include font-body
+  padding-left: $spacing-lg
+  margin-bottom: $spacing-md
+
+  li
+    margin-bottom: $spacing-xs
+
+.person-page__awards
+  display: flex
+  flex-direction: column
+  gap: $spacing-sm
+
+.person-page__award
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: $spacing-sm
+  border: 1px solid $color-divider
+
+.person-page__award-name
+  @include font-body
+  font-size: $font-size-small
+  font-weight: $font-weight-semibold
+
+.person-page__award-meta
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+
+// ============================================
+// 相關報導
+// ============================================
+
+.person-page__related
+  display: flex
+  flex-direction: column
+  gap: $spacing-sm
+
+.person-page__related-item
+  display: block
+  padding: $spacing-sm
+  border: 1px solid $color-divider
+  transition: border-color 0.2s
+
+  &:hover
+    border-color: $color-accent
+
+  time
+    @include font-ui
+    font-size: $font-size-caption
+    color: $color-text-light
+
+  h3
+    @include font-body
+    font-size: 1rem
+    margin-top: $spacing-xs
+    color: $color-text
+
+// ============================================
+// 側邊欄
+// ============================================
+
+.person-page__sidebar
+  display: flex
+  flex-direction: column
+  gap: $spacing-md
+
+.person-page__info-card
+  padding: $spacing-md
+  background-color: rgba($color-text, 0.02)
+  border: 1px solid $color-divider
+
+  h3
+    @include font-headline
+    font-size: 1rem
+    margin-bottom: $spacing-sm
+    padding-bottom: $spacing-xs
+    border-bottom: 1px solid $color-divider
+
+.person-page__info-card--meta
+  background-color: transparent
+
+.person-page__info-list
+  dt
+    @include font-ui
+    font-size: $font-size-caption
+    color: $color-text-light
+    margin-top: $spacing-sm
+
+    &:first-child
+      margin-top: 0
+
+  dd
+    @include font-body
+    font-size: $font-size-small
+    margin: 0
+
+.person-page__tags
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-xs
+
+.person-page__tag
+  @include font-ui
+  font-size: $font-size-caption
+  padding: 2px 8px
+  background-color: rgba($color-accent, 0.1)
+  color: $color-accent
+  border-radius: 2px
+
+.person-page__related-companies
+  list-style: none
+  padding: 0
+  margin: 0
+
+  li
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: $spacing-xs 0
+    border-bottom: 1px solid $color-divider
+
+    &:last-child
+      border-bottom: none
+
+    a
+      @include font-body
+      font-size: $font-size-small
+      color: $color-accent
+
+    span
+      @include font-ui
+      font-size: $font-size-caption
+      color: $color-text-light
+
+// ============================================
+// 響應式
+// ============================================
+
+@media (max-width: $breakpoint-lg)
+  .person-page__content
+    grid-template-columns: 1fr 280px
+
+@media (max-width: $breakpoint-md)
+  .person-page__header
+    flex-direction: column
+
+  .person-page__header-main
+    flex-direction: column
+    align-items: center
+    text-align: center
+
+  .person-page__meta
+    justify-content: center
+
+  .person-page__links
+    justify-content: center
+
+  .person-page__content
+    grid-template-columns: 1fr
+
+  .person-page__sidebar
+    order: -1
+
+@media (max-width: $breakpoint-sm)
+  .person-page__name
+    font-size: 1.75rem
+
+  .person-page__photo
+    width: 100px
+    height: 100px

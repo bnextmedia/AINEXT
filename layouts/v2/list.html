@@ -103,6 +103,52 @@
         {{ end }}
       {{ end }}
 
+      {{/* ============================================ */}}
+      {{/* 公司庫精選 */}}
+      {{/* ============================================ */}}
+
+      {{ $allCompanies := where .Site.RegularPages "Section" "companies" }}
+      {{ if gt (len $allCompanies) 0 }}
+      <section class="directory-section" id="section-companies">
+        <div class="directory-section__header">
+          <h2 class="directory-section__title">
+            <a href="{{ "/v2/companies/" | relURL }}">公司庫</a>
+          </h2>
+          <p class="directory-section__desc">收錄 {{ len $allCompanies }} 家 AI 產業重要公司</p>
+          <a href="{{ "/v2/companies/" | relURL }}" class="directory-section__more">瀏覽全部 →</a>
+        </div>
+
+        <div class="directory-section__grid">
+          {{ range $allCompanies | first 6 }}
+            {{ partial "v2/company-card.html" (dict "company" . "variant" "small") }}
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
+
+      {{/* ============================================ */}}
+      {{/* 人物庫精選 */}}
+      {{/* ============================================ */}}
+
+      {{ $allPeople := where .Site.RegularPages "Section" "people" }}
+      {{ if gt (len $allPeople) 0 }}
+      <section class="directory-section" id="section-people">
+        <div class="directory-section__header">
+          <h2 class="directory-section__title">
+            <a href="{{ "/v2/people/" | relURL }}">人物庫</a>
+          </h2>
+          <p class="directory-section__desc">收錄 {{ len $allPeople }} 位 AI 領域重要人物</p>
+          <a href="{{ "/v2/people/" | relURL }}" class="directory-section__more">瀏覽全部 →</a>
+        </div>
+
+        <div class="directory-section__grid directory-section__grid--people">
+          {{ range $allPeople | first 6 }}
+            {{ partial "v2/person-card.html" (dict "person" . "variant" "small") }}
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
+
     </div>
   </main>
 

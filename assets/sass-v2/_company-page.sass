@@ -1,0 +1,511 @@
+// AINEXT V2 - 單一公司頁面樣式
+
+@import "variables"
+
+// ============================================
+// 公司頁面
+// ============================================
+
+.company-page
+  max-width: $max-width
+  margin: 0 auto
+  padding: $spacing-lg $spacing-md
+
+// ============================================
+// 頁首
+// ============================================
+
+.company-page__header
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  gap: $spacing-lg
+  padding-bottom: $spacing-lg
+  border-bottom: 3px solid $color-text
+  margin-bottom: $spacing-md
+
+.company-page__header-main
+  display: flex
+  gap: $spacing-lg
+  flex: 1
+
+.company-page__logo
+  width: 100px
+  height: 100px
+  flex-shrink: 0
+  border-radius: 12px
+  overflow: hidden
+  background-color: #fff
+  border: 1px solid $color-divider
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: contain
+
+.company-page__logo-placeholder
+  width: 100%
+  height: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  background-color: $color-accent
+  color: #fff
+
+  span
+    @include font-headline
+    font-size: 2rem
+
+.company-page__info
+  flex: 1
+
+.company-page__name
+  @include font-headline
+  font-size: 2.5rem
+  margin-bottom: $spacing-xs
+
+.company-page__name-zh
+  @include font-body
+  font-size: 1.125rem
+  color: $color-text-light
+  margin-bottom: $spacing-sm
+
+.company-page__tagline
+  @include font-body
+  font-size: 1.125rem
+  margin-bottom: $spacing-md
+
+.company-page__meta
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-md
+
+.company-page__meta-item
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-text-light
+  display: flex
+  align-items: center
+  gap: $spacing-xs
+
+  svg
+    color: $color-accent
+
+.company-page__links
+  display: flex
+  gap: $spacing-sm
+  flex-shrink: 0
+
+.company-page__btn
+  @include font-ui
+  font-size: $font-size-small
+  padding: $spacing-xs $spacing-md
+  border: 1px solid $color-text
+  background-color: transparent
+  color: $color-text
+  text-decoration: none
+  transition: all 0.2s
+
+  &:hover
+    background-color: $color-text
+    color: $color-bg
+
+.company-page__btn--primary
+  background-color: $color-accent
+  border-color: $color-accent
+  color: #fff
+
+  &:hover
+    background-color: darken($color-accent, 10%)
+
+.company-page__btn--icon
+  width: 36px
+  height: 36px
+  padding: 0
+  display: flex
+  align-items: center
+  justify-content: center
+
+// ============================================
+// 標籤
+// ============================================
+
+.company-page__badges
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-sm
+  margin-bottom: $spacing-lg
+
+.company-page__badge
+  @include font-ui
+  font-size: $font-size-small
+  padding: $spacing-xs $spacing-sm
+  border-radius: 2px
+
+  &--private
+    background-color: #e8f4f8
+    color: #2c7a7b
+
+  &--public
+    background-color: #e6fffa
+    color: #234e52
+
+  &--acquired
+    background-color: #feebc8
+    color: #744210
+
+  &--defunct
+    background-color: #fed7d7
+    color: #742a2a
+
+  &--category
+    background-color: $color-accent
+    color: #fff
+
+  &--subcategory
+    background-color: rgba($color-accent, 0.15)
+    color: $color-accent
+
+// ============================================
+// 主內容區
+// ============================================
+
+.company-page__content
+  display: grid
+  grid-template-columns: 1fr 320px
+  gap: $spacing-xl
+
+.company-page__main
+  min-width: 0
+
+.company-page__section
+  margin-bottom: $spacing-xl
+  padding-bottom: $spacing-lg
+  border-bottom: 1px solid $color-divider
+
+  &:last-child
+    border-bottom: none
+
+  h2
+    @include font-headline
+    font-size: 1.5rem
+    margin-bottom: $spacing-md
+    padding-bottom: $spacing-sm
+    border-bottom: 2px solid $color-text
+
+.company-page__description
+  @include font-body
+  font-size: 1.0625rem
+  line-height: 1.8
+
+  p
+    margin-bottom: $spacing-md
+
+.company-page__taiwan
+  margin-top: $spacing-lg
+  padding: $spacing-md
+  background-color: rgba($color-accent, 0.05)
+  border-left: 3px solid $color-accent
+
+  h3
+    @include font-headline
+    font-size: 1.125rem
+    margin-bottom: $spacing-sm
+
+  p
+    @include font-body
+    margin: 0
+
+// ============================================
+// 產品
+// ============================================
+
+.company-page__products
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+  gap: $spacing-md
+
+.company-page__product
+  padding: $spacing-md
+  border: 1px solid $color-divider
+  background-color: rgba($color-text, 0.02)
+
+  h3
+    @include font-headline
+    font-size: 1.125rem
+    margin-bottom: $spacing-xs
+
+  p
+    @include font-body
+    font-size: $font-size-small
+    color: $color-text-light
+    margin-bottom: $spacing-sm
+
+  a
+    @include font-ui
+    font-size: $font-size-small
+    color: $color-accent
+
+// ============================================
+// 時間軸
+// ============================================
+
+.company-page__timeline
+  position: relative
+  padding-left: $spacing-lg
+
+  &::before
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    bottom: 0
+    width: 2px
+    background-color: $color-divider
+
+.company-page__timeline-item
+  position: relative
+  padding-bottom: $spacing-md
+  padding-left: $spacing-md
+
+  &::before
+    content: ""
+    position: absolute
+    left: calc(-#{$spacing-lg} - 4px)
+    top: 4px
+    width: 10px
+    height: 10px
+    border-radius: 50%
+    background-color: $color-accent
+    border: 2px solid $color-bg
+
+.company-page__timeline-date
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-accent
+  font-weight: $font-weight-semibold
+  margin-bottom: $spacing-xs
+
+.company-page__timeline-event
+  @include font-body
+
+// ============================================
+// 融資
+// ============================================
+
+.company-page__funding-summary
+  display: flex
+  gap: $spacing-lg
+  margin-bottom: $spacing-lg
+
+.company-page__funding-stat
+  text-align: center
+
+.company-page__funding-value
+  @include font-headline
+  font-size: 1.5rem
+  color: $color-accent
+  display: block
+
+.company-page__funding-label
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+
+.company-page__funding-table
+  width: 100%
+  border-collapse: collapse
+
+  th, td
+    @include font-body
+    font-size: $font-size-small
+    padding: $spacing-sm
+    text-align: left
+    border-bottom: 1px solid $color-divider
+
+  th
+    @include font-ui
+    font-weight: $font-weight-semibold
+    background-color: rgba($color-text, 0.03)
+
+// ============================================
+// 關鍵人物
+// ============================================
+
+.company-page__people
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr))
+  gap: $spacing-md
+
+.company-page__person
+  padding: $spacing-md
+  border: 1px solid $color-divider
+  text-align: center
+
+  a
+    color: inherit
+    text-decoration: none
+
+    &:hover h3
+      color: $color-accent
+
+  h3
+    @include font-headline
+    font-size: 1rem
+    margin-bottom: $spacing-xs
+
+  p
+    @include font-body
+    font-size: $font-size-small
+    color: $color-text-light
+    margin-bottom: $spacing-xs
+
+.company-page__person-badge
+  @include font-ui
+  font-size: $font-size-caption
+  padding: 2px 8px
+  background-color: rgba($color-accent, 0.1)
+  color: $color-accent
+  border-radius: 2px
+
+// ============================================
+// 相關報導
+// ============================================
+
+.company-page__related
+  display: flex
+  flex-direction: column
+  gap: $spacing-sm
+
+.company-page__related-item
+  display: block
+  padding: $spacing-sm
+  border: 1px solid $color-divider
+  transition: border-color 0.2s
+
+  &:hover
+    border-color: $color-accent
+
+  time
+    @include font-ui
+    font-size: $font-size-caption
+    color: $color-text-light
+
+  h3
+    @include font-body
+    font-size: 1rem
+    margin-top: $spacing-xs
+    color: $color-text
+
+// ============================================
+// 側邊欄
+// ============================================
+
+.company-page__sidebar
+  display: flex
+  flex-direction: column
+  gap: $spacing-md
+
+.company-page__info-card
+  padding: $spacing-md
+  background-color: rgba($color-text, 0.02)
+  border: 1px solid $color-divider
+
+  h3
+    @include font-headline
+    font-size: 1rem
+    margin-bottom: $spacing-sm
+    padding-bottom: $spacing-xs
+    border-bottom: 1px solid $color-divider
+
+.company-page__info-card--meta
+  background-color: transparent
+
+.company-page__info-list
+  dt
+    @include font-ui
+    font-size: $font-size-caption
+    color: $color-text-light
+    margin-top: $spacing-sm
+
+    &:first-child
+      margin-top: 0
+
+  dd
+    @include font-body
+    font-size: $font-size-small
+    margin: 0
+
+.company-page__tags
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-xs
+
+.company-page__tag
+  @include font-ui
+  font-size: $font-size-caption
+  padding: 2px 8px
+  background-color: rgba($color-accent, 0.1)
+  color: $color-accent
+  border-radius: 2px
+
+.company-page__investors
+  list-style: none
+  padding: 0
+  margin: 0
+
+  li
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: $spacing-xs 0
+    border-bottom: 1px solid $color-divider
+
+    &:last-child
+      border-bottom: none
+
+    span
+      @include font-body
+      font-size: $font-size-small
+
+    small
+      @include font-ui
+      font-size: $font-size-caption
+      color: $color-text-light
+
+// ============================================
+// 響應式
+// ============================================
+
+@media (max-width: $breakpoint-lg)
+  .company-page__content
+    grid-template-columns: 1fr 280px
+
+@media (max-width: $breakpoint-md)
+  .company-page__header
+    flex-direction: column
+
+  .company-page__header-main
+    flex-direction: column
+    align-items: center
+    text-align: center
+
+  .company-page__meta
+    justify-content: center
+
+  .company-page__links
+    justify-content: center
+
+  .company-page__content
+    grid-template-columns: 1fr
+
+  .company-page__sidebar
+    order: -1
+
+@media (max-width: $breakpoint-sm)
+  .company-page__name
+    font-size: 1.75rem
+
+  .company-page__logo
+    width: 80px
+    height: 80px

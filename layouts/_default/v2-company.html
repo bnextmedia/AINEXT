@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Params.company_title | default .Title }} | 公司庫 | {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Params.company_desc | default .Description }}">
+
+  {{/* 字體載入 */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+
+  {{/* V2 樣式 */}}
+  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+<body class="site">
+
+  {{ partial "v2/header.html" . }}
+  {{ partial "v2/nav.html" . }}
+
+  <main class="site-main">
+    {{/* 根據 slug 找到對應的公司 */}}
+    {{ $slug := .Params.company_slug }}
+    {{ $company := index (where .Site.RegularPages "Section" "companies") 0 }}
+
+    {{ range where .Site.RegularPages "Section" "companies" }}
+      {{ if eq .File.ContentBaseName $slug }}
+        {{ $company = . }}
+      {{ end }}
+    {{ end }}
+
+    {{ with $company }}
+    <article class="company-page">
+
+      {{/* 公司頁首 */}}
+      <header class="company-page__header">
+        <div class="company-page__header-main">
+          {{/* Logo */}}
+          <div class="company-page__logo">
+            {{ with .Params.logo }}
+            <img src="{{ . }}" alt="{{ $.Title }}">
+            {{ else }}
+            <div class="company-page__logo-placeholder">
+              <span>{{ substr .Title 0 2 | upper }}</span>
+            </div>
+            {{ end }}
+          </div>
+
+          {{/* 基本資訊 */}}
+          <div class="company-page__info">
+            <h1 class="company-page__name">{{ .Title }}</h1>
+            {{ with .Params.name_zh }}<p class="company-page__name-zh">{{ . }}</p>{{ end }}
+            <p class="company-page__tagline">{{ .Params.description_short }}</p>
+
+            <div class="company-page__meta">
+              {{ with .Params.headquarters }}
+              <span class="company-page__meta-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                {{ . }}
+              </span>
+              {{ end }}
+              {{ with .Params.founded }}
+              <span class="company-page__meta-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                成立於 {{ . }}
+              </span>
+              {{ end }}
+              {{ with .Params.employee_count }}
+              <span class="company-page__meta-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+                {{ . }} 人
+              </span>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+
+        {{/* 連結按鈕 */}}
+        <div class="company-page__links">
+          {{ with .Params.website }}
+          <a href="{{ . }}" target="_blank" rel="noopener" class="company-page__btn company-page__btn--primary">官方網站</a>
+          {{ end }}
+          {{ with .Params.social }}
+            {{ with .twitter }}<a href="{{ . }}" target="_blank" rel="noopener" class="company-page__btn company-page__btn--icon" title="Twitter">𝕏</a>{{ end }}
+            {{ with .linkedin }}<a href="{{ . }}" target="_blank" rel="noopener" class="company-page__btn company-page__btn--icon" title="LinkedIn">in</a>{{ end }}
+            {{ with .github }}<a href="{{ . }}" target="_blank" rel="noopener" class="company-page__btn company-page__btn--icon" title="GitHub">⌨</a>{{ end }}
+          {{ end }}
+        </div>
+      </header>
+
+      {{/* 狀態標籤 */}}
+      <div class="company-page__badges">
+        {{ with .Params.status }}
+        <span class="company-page__badge company-page__badge--{{ . }}">
+          {{ if eq . "private" }}私有公司
+          {{ else if eq . "public" }}上市公司
+          {{ else if eq . "acquired" }}已被收購
+          {{ else if eq . "defunct" }}已停止營運
+          {{ else }}{{ . }}{{ end }}
+        </span>
+        {{ end }}
+        {{ with .Params.category_primary }}<span class="company-page__badge company-page__badge--category">{{ . }}</span>{{ end }}
+        {{ with .Params.category_secondary }}<span class="company-page__badge company-page__badge--subcategory">{{ . }}</span>{{ end }}
+      </div>
+
+      {{/* 主內容區 */}}
+      <div class="company-page__content">
+
+        {{/* 左側主內容 */}}
+        <div class="company-page__main">
+
+          {{/* 公司簡介 */}}
+          <section class="company-page__section">
+            <h2>關於 {{ .Title }}</h2>
+            <div class="company-page__description">
+              {{ with .Params.description_long }}{{ . | markdownify }}{{ else }}{{ .Content }}{{ end }}
+            </div>
+            {{ with .Params.taiwan_relevance }}
+            <div class="company-page__taiwan">
+              <h3>台灣觀點</h3>
+              <p>{{ . | markdownify }}</p>
+            </div>
+            {{ end }}
+          </section>
+
+          {{/* 產品與服務 */}}
+          {{ with .Params.products }}
+          <section class="company-page__section">
+            <h2>產品與服務</h2>
+            <div class="company-page__products">
+              {{ range . }}
+              <div class="company-page__product">
+                <h3>{{ .name }}</h3>
+                <p>{{ .description }}</p>
+                {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">了解更多 →</a>{{ end }}
+              </div>
+              {{ end }}
+            </div>
+          </section>
+          {{ end }}
+
+          {{/* 發展歷史 */}}
+          {{ with .Params.milestones }}
+          <section class="company-page__section">
+            <h2>發展歷史</h2>
+            <div class="company-page__timeline">
+              {{ range . }}
+              <div class="company-page__timeline-item">
+                <div class="company-page__timeline-date">{{ .date }}</div>
+                <div class="company-page__timeline-event">{{ .event }}</div>
+              </div>
+              {{ end }}
+            </div>
+          </section>
+          {{ end }}
+
+          {{/* 融資歷程 */}}
+          {{ with .Params.funding_rounds }}
+          <section class="company-page__section">
+            <h2>融資歷程</h2>
+            <div class="company-page__funding-summary">
+              {{ with $.Params.total_funding }}
+              <div class="company-page__funding-stat">
+                <span class="company-page__funding-value">{{ . }}</span>
+                <span class="company-page__funding-label">總融資額</span>
+              </div>
+              {{ end }}
+              {{ with $.Params.latest_valuation }}
+              <div class="company-page__funding-stat">
+                <span class="company-page__funding-value">{{ . }}</span>
+                <span class="company-page__funding-label">最新估值</span>
+              </div>
+              {{ end }}
+              {{ with $.Params.latest_round }}
+              <div class="company-page__funding-stat">
+                <span class="company-page__funding-value">{{ . }}</span>
+                <span class="company-page__funding-label">最新輪次</span>
+              </div>
+              {{ end }}
+            </div>
+            <table class="company-page__funding-table">
+              <thead>
+                <tr>
+                  <th>輪次</th>
+                  <th>日期</th>
+                  <th>金額</th>
+                  <th>估值</th>
+                  <th>領投方</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range . }}
+                <tr>
+                  <td>{{ .round }}</td>
+                  <td>{{ .date }}</td>
+                  <td>{{ .amount }}</td>
+                  <td>{{ with .valuation }}{{ . }}{{ else }}-{{ end }}</td>
+                  <td>{{ with .lead_investor }}{{ . }}{{ else }}-{{ end }}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </section>
+          {{ end }}
+
+          {{/* 關鍵人物 */}}
+          {{ if or .Params.founders .Params.key_people }}
+          <section class="company-page__section">
+            <h2>關鍵人物</h2>
+            <div class="company-page__people">
+              {{ with .Params.founders }}
+                {{ range . }}
+                <div class="company-page__person">
+                  {{ with .people_slug }}
+                  <a href="{{ "/v2/people/" | relURL }}{{ . }}/">
+                  {{ end }}
+                    <h3>{{ .name }}</h3>
+                    <p>{{ .role }}</p>
+                    <span class="company-page__person-badge">創辦人</span>
+                  {{ with .people_slug }}</a>{{ end }}
+                </div>
+                {{ end }}
+              {{ end }}
+              {{ with .Params.key_people }}
+                {{ range . }}
+                <div class="company-page__person">
+                  {{ with .people_slug }}
+                  <a href="{{ "/v2/people/" | relURL }}{{ . }}/">
+                  {{ end }}
+                    <h3>{{ .name }}</h3>
+                    <p>{{ .role }}</p>
+                  {{ with .people_slug }}</a>{{ end }}
+                </div>
+                {{ end }}
+              {{ end }}
+            </div>
+          </section>
+          {{ end }}
+
+          {{/* 相關報導 */}}
+          {{ $companySlug := .File.ContentBaseName }}
+          {{ $relatedPosts := where (where $.Site.RegularPages "Section" "posts") ".Params.related_companies" "intersect" (slice $companySlug) }}
+          {{ if $relatedPosts }}
+          <section class="company-page__section">
+            <h2>相關報導</h2>
+            <div class="company-page__related">
+              {{ range $relatedPosts.ByDate.Reverse }}
+              <a href="{{ .Permalink }}" class="company-page__related-item">
+                <time>{{ .Date.Format "2006-01-02" }}</time>
+                <h3>{{ .Title }}</h3>
+              </a>
+              {{ end }}
+            </div>
+          </section>
+          {{ end }}
+
+        </div>
+
+        {{/* 右側資訊卡 */}}
+        <aside class="company-page__sidebar">
+
+          <div class="company-page__info-card">
+            <h3>基本資料</h3>
+            <dl class="company-page__info-list">
+              {{ with .Params.name_en }}<dt>英文名稱</dt><dd>{{ . }}</dd>{{ end }}
+              {{ with .Params.founded }}<dt>成立年份</dt><dd>{{ . }}</dd>{{ end }}
+              {{ with .Params.country }}<dt>國家</dt><dd>{{ . }}</dd>{{ end }}
+              {{ with .Params.city }}<dt>城市</dt><dd>{{ . }}</dd>{{ end }}
+              {{ with .Params.employee_count }}<dt>員工人數</dt><dd>{{ . }}</dd>{{ end }}
+              {{ with .Params.current_ceo }}<dt>現任 CEO</dt><dd>{{ . }}</dd>{{ end }}
+              {{ with .Params.stock_ticker }}<dt>股票代號</dt><dd>{{ . }}</dd>{{ end }}
+            </dl>
+          </div>
+
+          {{ with .Params.business_model }}
+          <div class="company-page__info-card">
+            <h3>商業模式</h3>
+            <div class="company-page__tags">
+              {{ range . }}<span class="company-page__tag">{{ . }}</span>{{ end }}
+            </div>
+          </div>
+          {{ end }}
+
+          {{ with .Params.target_industries }}
+          <div class="company-page__info-card">
+            <h3>目標產業</h3>
+            <div class="company-page__tags">
+              {{ range . }}<span class="company-page__tag">{{ . }}</span>{{ end }}
+            </div>
+          </div>
+          {{ end }}
+
+          {{ with .Params.investors }}
+          <div class="company-page__info-card">
+            <h3>主要投資人</h3>
+            <ul class="company-page__investors">
+              {{ range . }}
+              <li>
+                <span>{{ .name }}</span>
+                {{ with .type }}<small>{{ . }}</small>{{ end }}
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+          {{ end }}
+
+          {{ with .Params.tags }}
+          <div class="company-page__info-card">
+            <h3>相關標籤</h3>
+            <div class="company-page__tags">
+              {{ range . }}<span class="company-page__tag">{{ . }}</span>{{ end }}
+            </div>
+          </div>
+          {{ end }}
+
+          <div class="company-page__info-card company-page__info-card--meta">
+            <h3>資料資訊</h3>
+            <dl class="company-page__info-list">
+              {{ with .Params.last_updated }}<dt>最後更新</dt><dd>{{ . }}</dd>{{ end }}
+              {{ with .Params.data_sources }}<dt>資料來源</dt><dd>{{ delimit . ", " }}</dd>{{ end }}
+            </dl>
+          </div>
+
+        </aside>
+
+      </div>
+
+    </article>
+    {{ else }}
+    <div class="company-page">
+      <p>找不到公司資料。請確認 company_slug 參數設定正確。</p>
+    </div>
+    {{ end }}
+  </main>
+
+  {{ partial "v2/footer.html" . }}
+
+</body>
+</html>

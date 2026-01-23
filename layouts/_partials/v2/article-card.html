@@ -28,15 +28,59 @@
   {{/* 圖片 */}}
   {{ if ne $variant "text-only" }}
     {{ $image := "" }}
+    {{ $imageCredit := "" }}
+
+    {{/* 優先使用 image 參數 */}}
     {{ with $page.Params.image }}
       {{ $image = . }}
-    {{ else }}
+    {{ end }}
+
+    {{/* 次選：頁面資源圖片 */}}
+    {{ if not $image }}
       {{ with $page.Resources.GetMatch "*.{jpg,jpeg,png,gif,webp}" }}
         {{ $image = .RelPermalink }}
       {{ end }}
     {{ end }}
+
+    {{/* 第三選：從 YouTube source_url 抓縮圖 */}}
+    {{ if not $image }}
+      {{ with $page.Params.source_url }}
+        {{ if or (strings.Contains . "youtube.com") (strings.Contains . "youtu.be") }}
+          {{ $videoId := "" }}
+          {{/* 解析 youtube.com/watch?v=ID 格式 */}}
+          {{ if strings.Contains . "watch?v=" }}
+            {{ $parts := split . "watch?v=" }}
+            {{ if gt (len $parts) 1 }}
+              {{ $idPart := index $parts 1 }}
+              {{ $videoId = index (split $idPart "&") 0 }}
+            {{ end }}
+          {{ end }}
+          {{/* 解析 youtu.be/ID 格式 */}}
+          {{ if strings.Contains . "youtu.be/" }}
+            {{ $parts := split . "youtu.be/" }}
+            {{ if gt (len $parts) 1 }}
+              {{ $videoId = index (split (index $parts 1) "?") 0 }}
+            {{ end }}
+          {{ end }}
+          {{ if $videoId }}
+            {{ $image = printf "https://img.youtube.com/vi/%s/maxresdefault.jpg" $videoId }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{/* 圖片來源標註 */}}
+    {{ with $page.Params.image_credit }}
+      {{ $imageCredit = . }}
+    {{ end }}
+
     {{ if $image }}
-    <img src="{{ $image }}" alt="{{ $page.Title }}" class="article-card__image" loading="lazy">
+    <div class="article-card__image-wrapper">
+      <img src="{{ $image }}" alt="{{ $page.Title }}" class="article-card__image" loading="lazy">
+      {{ if $imageCredit }}
+      <span class="article-card__credit">{{ $imageCredit }}</span>
+      {{ end }}
+    </div>
     {{ end }}
   {{ end }}
 

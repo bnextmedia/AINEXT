@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Title }} - {{ .Site.Params.description }}">
+
+  {{/* 字體載入 */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+
+  {{/* V2 樣式 */}}
+  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+<body class="site">
+
+  {{ partial "v2/header.html" . }}
+  {{ partial "v2/nav.html" . }}
+
+  <main class="site-main">
+    {{ $categoryName := .Params.category }}
+    {{ $allPages := where .Site.RegularPages "Type" "posts" }}
+    {{ $categoryPages := where $allPages "Params.categories" "intersect" (slice $categoryName) }}
+
+    <div class="category-page">
+
+      {{/* 分類標題區 */}}
+      <header class="category-page__header">
+        <h1 class="category-page__title">{{ $categoryName }}</h1>
+        <p class="category-page__count">共 {{ len $categoryPages }} 篇文章</p>
+      </header>
+
+      {{/* 文章列表 */}}
+      <div class="category-page__content">
+
+        {{/* 第一篇大圖顯示 */}}
+        {{ with index $categoryPages 0 }}
+        <article class="category-page__featured">
+          {{ partial "v2/article-card.html" (dict "page" . "variant" "hero") }}
+        </article>
+        {{ end }}
+
+        {{/* 其餘文章網格 */}}
+        {{ if gt (len $categoryPages) 1 }}
+        <div class="category-page__grid">
+          {{ range $categoryPages | after 1 }}
+            {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+          {{ end }}
+        </div>
+        {{ end }}
+
+      </div>
+
+    </div>
+  </main>
+
+  {{ partial "v2/footer.html" . }}
+
+</body>
+</html>

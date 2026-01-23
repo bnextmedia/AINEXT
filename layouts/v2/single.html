@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 150 }}{{ end }}">
+
+  {{/* Open Graph */}}
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 150 }}{{ end }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{ with .Params.image }}
+  <meta property="og:image" content="{{ . | absURL }}">
+  {{ end }}
+
+  {{/* 字體載入 */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+
+  {{/* V2 樣式 */}}
+  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+<body class="site">
+
+  {{ partial "v2/header.html" . }}
+  {{ partial "v2/nav.html" . }}
+
+  <main class="site-main">
+    <article class="post-page">
+
+      {{/* 文章標題區 */}}
+      <header class="post-page__header">
+        <div class="post-page__meta">
+          {{/* 分類 */}}
+          {{ with .Params.categories }}
+            {{ range first 1 . }}
+            <a href="{{ printf "/categories/%s/" (. | urlize) | relURL }}" class="post-page__category">{{ . }}</a>
+            {{ end }}
+          {{ end }}
+
+          {{/* 日期 */}}
+          <time class="post-page__date" datetime="{{ .Date.Format "2006-01-02" }}">
+            {{ .Date.Format "2006 年 1 月 2 日" }}
+          </time>
+        </div>
+
+        <h1 class="post-page__title">{{ .Title }}</h1>
+
+        {{/* 摘要 */}}
+        {{ with .Description }}
+        <p class="post-page__excerpt">{{ . }}</p>
+        {{ end }}
+
+        {{/* 來源資訊 */}}
+        {{ if or .Params.source_url .Params.source_name }}
+        <div class="post-page__source">
+          來源：
+          {{ if .Params.source_url }}
+          <a href="{{ .Params.source_url }}" target="_blank" rel="noopener">{{ .Params.source_name | default .Params.source_url }}</a>
+          {{ else }}
+          {{ .Params.source_name }}
+          {{ end }}
+        </div>
+        {{ end }}
+      </header>
+
+      {{/* 封面圖 */}}
+      {{ with .Params.image }}
+      <figure class="post-page__cover">
+        <img src="{{ . }}" alt="{{ $.Title }}">
+      </figure>
+      {{ end }}
+
+      {{/* 文章內容 */}}
+      <div class="post-page__content">
+        {{ .Content }}
+      </div>
+
+      {{/* 標籤 */}}
+      {{ with .Params.tags }}
+      <footer class="post-page__footer">
+        <div class="post-page__tags">
+          {{ range . }}
+          <a href="{{ printf "/tags/%s/" (. | urlize) | relURL }}" class="tag">{{ . }}</a>
+          {{ end }}
+        </div>
+      </footer>
+      {{ end }}
+
+      {{/* 相關文章 */}}
+      {{ $related := .Site.RegularPages.Related . | first 4 }}
+      {{ with $related }}
+      <aside class="post-page__related">
+        <h2 class="post-page__related-title">相關文章</h2>
+        <div class="post-page__related-grid">
+          {{ range . }}
+            {{ partial "v2/article-card.html" (dict "page" . "variant" "small") }}
+          {{ end }}
+        </div>
+      </aside>
+      {{ end }}
+
+    </article>
+  </main>
+
+  {{ partial "v2/footer.html" . }}
+
+</body>
+</html>

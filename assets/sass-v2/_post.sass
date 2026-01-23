@@ -1,0 +1,265 @@
+// AINEXT V2 - 單篇文章頁樣式
+
+@import "variables"
+
+// ============================================
+// 文章頁面
+// ============================================
+
+.post-page
+  max-width: $max-width
+  margin: 0 auto
+  padding: $spacing-lg $spacing-md
+
+// ============================================
+// 文章標題區
+// ============================================
+
+.post-page__header
+  max-width: $max-width-content
+  margin: 0 auto $spacing-xl
+  text-align: center
+
+.post-page__meta
+  display: flex
+  justify-content: center
+  align-items: center
+  gap: $spacing-md
+  margin-bottom: $spacing-md
+
+.post-page__category
+  @include font-ui
+  font-size: $font-size-caption
+  font-weight: $font-weight-medium
+  text-transform: uppercase
+  letter-spacing: 0.05em
+  color: $color-accent
+
+  &:hover
+    text-decoration: underline
+
+.post-page__date
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+
+.post-page__title
+  @include font-headline
+  font-size: 2.75rem
+  font-weight: $font-weight-regular
+  line-height: 1.2
+  margin-bottom: $spacing-md
+
+  @media (max-width: $breakpoint-md)
+    font-size: 2rem
+
+.post-page__excerpt
+  @include font-body
+  font-size: 1.25rem
+  color: $color-text-light
+  line-height: $line-height-base
+  max-width: 700px
+  margin: 0 auto $spacing-md
+
+  @media (max-width: $breakpoint-md)
+    font-size: 1.125rem
+
+.post-page__source
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-text-light
+
+  a
+    color: $color-accent
+
+    &:hover
+      text-decoration: underline
+
+// ============================================
+// 封面圖
+// ============================================
+
+.post-page__cover
+  max-width: 1000px
+  margin: 0 auto $spacing-xl
+
+  img
+    width: 100%
+    height: auto
+
+// ============================================
+// 文章內容
+// ============================================
+
+.post-page__content
+  max-width: $max-width-content
+  margin: 0 auto
+
+  // 段落
+  p
+    @include font-body
+    font-size: 1.125rem
+    line-height: 1.8
+    margin-bottom: $spacing-md
+
+  // 標題
+  h2
+    @include font-headline
+    font-size: 1.75rem
+    margin-top: $spacing-xl
+    margin-bottom: $spacing-md
+    padding-bottom: $spacing-xs
+    border-bottom: 2px solid $color-divider
+
+  h3
+    @include font-headline
+    font-size: 1.5rem
+    margin-top: $spacing-lg
+    margin-bottom: $spacing-sm
+
+  h4
+    @include font-headline
+    font-size: 1.25rem
+    margin-top: $spacing-lg
+    margin-bottom: $spacing-sm
+
+  // 連結
+  a
+    color: $color-accent
+    text-decoration: underline
+    text-underline-offset: 2px
+
+    &:hover
+      text-decoration-thickness: 2px
+
+  // 引言
+  blockquote
+    border-left: 4px solid $color-accent
+    padding: $spacing-sm $spacing-md
+    margin: $spacing-lg 0
+    background-color: rgba($color-text, 0.02)
+
+    p
+      font-style: italic
+      margin-bottom: 0
+
+      &:last-child
+        margin-bottom: 0
+
+  // 列表
+  ul, ol
+    margin: $spacing-md 0
+    padding-left: $spacing-lg
+
+    li
+      @include font-body
+      font-size: 1.125rem
+      line-height: 1.8
+      margin-bottom: $spacing-xs
+
+  // 圖片
+  img
+    max-width: 100%
+    height: auto
+    margin: $spacing-lg auto
+    display: block
+
+  figure
+    margin: $spacing-xl 0
+
+    img
+      margin: 0 auto
+
+    figcaption
+      @include font-ui
+      font-size: $font-size-caption
+      color: $color-text-light
+      text-align: center
+      margin-top: $spacing-sm
+
+  // 程式碼
+  code
+    @include font-ui
+    font-size: 0.9em
+    background-color: rgba($color-text, 0.05)
+    padding: 2px 6px
+    border-radius: 3px
+
+  pre
+    background-color: rgba($color-text, 0.05)
+    padding: $spacing-md
+    overflow-x: auto
+    margin: $spacing-md 0
+
+    code
+      background: none
+      padding: 0
+
+  // 分隔線
+  hr
+    border: none
+    border-top: 1px solid $color-divider
+    margin: $spacing-xl 0
+
+  // 表格
+  table
+    width: 100%
+    margin: $spacing-lg 0
+    border-collapse: collapse
+
+    th, td
+      @include font-body
+      padding: $spacing-sm
+      border-bottom: 1px solid $color-divider
+      text-align: left
+
+    th
+      font-weight: $font-weight-semibold
+
+  // YouTube 嵌入
+  .youtube, iframe
+    width: 100%
+    max-width: 100%
+    aspect-ratio: 16 / 9
+    margin: $spacing-lg 0
+
+// ============================================
+// 文章底部
+// ============================================
+
+.post-page__footer
+  max-width: $max-width-content
+  margin: $spacing-xl auto 0
+  padding-top: $spacing-lg
+  border-top: 1px solid $color-divider
+
+.post-page__tags
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-xs
+
+// ============================================
+// 相關文章
+// ============================================
+
+.post-page__related
+  max-width: $max-width
+  margin: $spacing-xxl auto 0
+  padding-top: $spacing-xl
+  border-top: 3px solid $color-text
+
+.post-page__related-title
+  @include font-headline
+  font-size: $font-size-h2
+  margin-bottom: $spacing-lg
+
+.post-page__related-grid
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  gap: $spacing-md
+
+  @media (max-width: $breakpoint-lg)
+    grid-template-columns: repeat(2, 1fr)
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: 1fr

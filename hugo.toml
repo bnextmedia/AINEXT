@@ -28,3 +28,4 @@ buildExpired = false
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+ignoreFiles = ['content/_companies_backup', 'content/_people_backup', 'content/companies', 'content/people']

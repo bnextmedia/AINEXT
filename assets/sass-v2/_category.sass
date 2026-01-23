@@ -1,0 +1,108 @@
+// AINEXT V2 - 分類列表頁樣式
+
+@import "variables"
+
+// ============================================
+// 分類頁面
+// ============================================
+
+.category-page
+  max-width: $max-width
+  margin: 0 auto
+  padding: $spacing-lg $spacing-md
+
+// 標題區
+.category-page__header
+  text-align: center
+  padding-bottom: $spacing-xl
+  margin-bottom: $spacing-xl
+  border-bottom: 3px solid $color-text
+
+.category-page__title
+  @include font-headline
+  font-size: 3rem
+  font-weight: $font-weight-regular
+  margin-bottom: $spacing-sm
+
+  @media (max-width: $breakpoint-md)
+    font-size: 2.5rem
+
+.category-page__count
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-text-light
+
+// 內容區
+.category-page__content
+  // 留空，讓子元素控制
+
+// 首篇大圖
+.category-page__featured
+  margin-bottom: $spacing-xl
+  padding-bottom: $spacing-xl
+  border-bottom: 1px solid $color-divider
+
+  .article-card__title
+    font-size: 2.5rem
+
+    @media (max-width: $breakpoint-md)
+      font-size: 2rem
+
+  .article-card__excerpt
+    font-size: 1.125rem
+    max-width: 800px
+
+// 文章網格
+.category-page__grid
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  gap: $spacing-lg
+
+  @media (max-width: $breakpoint-lg)
+    grid-template-columns: repeat(2, 1fr)
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: 1fr
+
+// ============================================
+// 分頁樣式
+// ============================================
+
+.pagination
+  display: flex
+  justify-content: center
+  align-items: center
+  gap: $spacing-sm
+  margin-top: $spacing-xxl
+  padding-top: $spacing-lg
+  border-top: 1px solid $color-divider
+
+.page-item
+  list-style: none
+
+  &.active .page-link
+    background-color: $color-text
+    color: $color-bg
+
+  &.disabled .page-link
+    opacity: 0.3
+    cursor: not-allowed
+
+.page-link
+  @include font-ui
+  display: inline-flex
+  align-items: center
+  justify-content: center
+  min-width: 2.5rem
+  height: 2.5rem
+  padding: 0 $spacing-sm
+  font-size: $font-size-small
+  color: $color-text
+  background-color: transparent
+  border: 1px solid $color-divider
+  transition: $transition-base
+
+  &:hover
+    background-color: $color-text
+    color: $color-bg
+    border-color: $color-text

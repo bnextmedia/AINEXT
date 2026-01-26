@@ -6,6 +6,7 @@ tags: ["台灣", "網路安全", "兵棋推演", "美國海軍戰爭學院", "�
 categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=7rqEhc9b1bo"
 source_name: "U.S. Naval War College"
+image: "/images/posts/2026-taiwan-digital-blockade-wargame.jpg"
 draft: false
 ---
 

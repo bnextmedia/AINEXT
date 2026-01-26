@@ -122,12 +122,13 @@
             <h2>職涯經歷</h2>
             <div class="person-page__career">
               {{ range . }}
+              {{ $item := . }}
               <div class="person-page__career-item">
                 <div class="person-page__career-years">{{ .years }}</div>
                 <div class="person-page__career-details">
                   <h3>{{ .position }}</h3>
                   <p>
-                    {{ with .org_slug }}<a href="{{ "/v2/companies/" | relURL }}{{ . }}/">{{ $.organization }}</a>{{ else }}{{ .organization }}{{ end }}
+                    {{ with .org_slug }}<a href="{{ "/v2/companies/" | relURL }}{{ . }}/">{{ $item.organization }}</a>{{ else }}{{ .organization }}{{ end }}
                   </p>
                 </div>
               </div>

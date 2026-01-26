@@ -95,8 +95,8 @@
       <div class="directory-grid directory-grid--people" id="directory-grid">
         {{ range $allPeople.ByTitle }}
         <div class="directory-grid__item"
-             data-type="{{ delimit .Params.person_type "," | lower }}"
-             data-expertise="{{ delimit .Params.expertise_areas "," | lower }}"
+             data-type="{{ with .Params.person_type }}{{ delimit . "," | lower }}{{ end }}"
+             data-expertise="{{ with .Params.expertise_areas }}{{ delimit . "," | lower }}{{ end }}"
              data-nationality="{{ .Params.nationality | lower }}"
              data-name="{{ .Title | lower }} {{ .Params.name_zh | lower }}">
           {{ partial "v2/person-card.html" (dict "person" . "variant" "default") }}

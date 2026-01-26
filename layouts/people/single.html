@@ -79,12 +79,13 @@
           <h2>職涯經歷</h2>
           <div class="career-timeline">
             {{ range . }}
+            {{ $item := . }}
             <div class="career-item">
               <div class="career-years">{{ .years }}</div>
               <div class="career-details">
                 <h3>{{ .position }}</h3>
                 <p class="career-org">
-                  {{ with .org_slug }}<a href="{{ "/companies/" | relURL }}{{ . }}/">{{ $.organization }}</a>{{ else }}{{ .organization }}{{ end }}
+                  {{ with .org_slug }}<a href="{{ "/companies/" | relURL }}{{ . }}/">{{ $item.organization }}</a>{{ else }}{{ .organization }}{{ end }}
                 </p>
               </div>
             </div>

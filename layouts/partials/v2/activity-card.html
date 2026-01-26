@@ -1,0 +1,105 @@
+{{/* AINEXT V2 - 活動卡片元件 */}}
+{{/*
+  使用方式：{{ partial "v2/activity-card.html" (dict "activity" . "featured" true "past" false "variant" "default") }}
+
+  參數：
+  - activity: 活動頁面物件
+  - featured: 是否為置頂活動（顯示置頂標籤）
+  - past: 是否為過去活動（顯示已結束標籤）
+  - variant: 卡片樣式 (default / small)
+*/}}
+
+{{ $activity := .activity }}
+{{ $featured := .featured | default false }}
+{{ $past := .past | default false }}
+{{ $variant := .variant | default "default" }}
+
+{{/* 判斷活動是否已結束 */}}
+{{ $today := now.Format "2006-01-02" }}
+{{ $isPast := lt $activity.Params.date_end $today }}
+
+{{ $classes := "activity-card" }}
+{{ if eq $variant "small" }}
+  {{ $classes = "activity-card activity-card--small" }}
+{{ end }}
+{{ if $isPast }}
+  {{ $classes = printf "%s activity-card--past" $classes }}
+{{ end }}
+
+<a href="{{ $activity.Permalink }}" class="{{ $classes }}">
+
+  {{/* 圖片區塊 */}}
+  <div class="activity-card__image-wrapper">
+    {{ with $activity.Params.image }}
+    <img src="{{ . }}" alt="{{ $activity.Title }}" class="activity-card__image" loading="lazy">
+    {{ else }}
+    <div class="activity-card__image activity-card__image--placeholder">
+      {{/* 依據活動類型顯示圖示 */}}
+      {{ $type := $activity.Params.activity_type | default "conference" }}
+      <span class="activity-card__placeholder-icon">
+        {{ if eq $type "conference" }}🎤
+        {{ else if eq $type "expo" }}🏛️
+        {{ else if eq $type "workshop" }}🛠️
+        {{ else if eq $type "meetup" }}👥
+        {{ else if eq $type "hackathon" }}💻
+        {{ else if eq $type "webinar" }}🌐
+        {{ else if eq $type "course" }}📚
+        {{ else if eq $type "competition" }}🏆
+        {{ else }}📅
+        {{ end }}
+      </span>
+    </div>
+    {{ end }}
+
+    {{/* 標籤 */}}
+    {{ if $featured }}
+    <span class="activity-card__badge activity-card__badge--featured">置頂</span>
+    {{ else if $isPast }}
+    <span class="activity-card__badge activity-card__badge--past">已結束</span>
+    {{ end }}
+
+    {{/* 活動類型標籤 */}}
+    {{ with $activity.Params.activity_type }}
+    <span class="activity-card__type-badge activity-card__type-badge--{{ . }}">
+      {{ if eq . "conference" }}研討會
+      {{ else if eq . "expo" }}展覽
+      {{ else if eq . "workshop" }}工作坊
+      {{ else if eq . "meetup" }}社群聚會
+      {{ else if eq . "hackathon" }}黑客松
+      {{ else if eq . "webinar" }}線上研討會
+      {{ else if eq . "course" }}課程
+      {{ else if eq . "competition" }}競賽
+      {{ else }}{{ . }}
+      {{ end }}
+    </span>
+    {{ end }}
+  </div>
+
+  {{/* 內容區塊 */}}
+  <div class="activity-card__content">
+    {{/* 標題 */}}
+    <h3 class="activity-card__title">{{ $activity.Title }}</h3>
+
+    {{/* 地點與時間 */}}
+    <div class="activity-card__meta">
+      <span class="activity-card__location">
+        📍 {{ $activity.Params.city }}{{ with $activity.Params.country }}, {{ . }}{{ end }}
+      </span>
+      <span class="activity-card__date">
+        📅 {{ if eq $activity.Params.date_start $activity.Params.date_end }}
+          {{ $activity.Params.date_start }}
+        {{ else }}
+          {{ $activity.Params.date_start }} ~ {{ $activity.Params.date_end }}
+        {{ end }}
+      </span>
+    </div>
+
+    {{/* 簡介（只在 default variant 顯示）*/}}
+    {{ if ne $variant "small" }}
+    {{ with $activity.Params.description_short }}
+    <p class="activity-card__excerpt">{{ . | truncate 60 }}</p>
+    {{ end }}
+    {{ end }}
+  </div>
+
+</a>

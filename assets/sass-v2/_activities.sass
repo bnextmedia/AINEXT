@@ -1,0 +1,587 @@
+// AINEXT V2 - 活動頁樣式
+
+@import "variables"
+
+// ============================================
+// 活動列表頁
+// ============================================
+
+.activities-page
+  max-width: $max-width
+  margin: 0 auto
+  padding: $spacing-lg $spacing-md
+
+.activities-page__header
+  text-align: center
+  margin-bottom: $spacing-lg
+  padding-bottom: $spacing-lg
+  border-bottom: 3px solid $color-text
+
+.activities-page__title
+  @include font-headline
+  font-size: 3rem
+  margin-bottom: $spacing-sm
+
+.activities-page__desc
+  @include font-body
+  font-size: 1.125rem
+  color: $color-text-light
+
+  strong
+    color: $color-accent
+    font-weight: $font-weight-semibold
+
+// ============================================
+// Tab 切換
+// ============================================
+
+.activities-tabs
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-sm
+  margin-bottom: $spacing-lg
+  padding-bottom: $spacing-md
+  border-bottom: 1px solid $color-divider
+
+.activities-tabs__btn
+  @include font-ui
+  font-size: $font-size-small
+  padding: $spacing-sm $spacing-md
+  background-color: transparent
+  border: 1px solid $color-divider
+  cursor: pointer
+  transition: all 0.2s
+
+  &:hover
+    border-color: $color-accent
+    color: $color-accent
+
+  &--active
+    background-color: $color-text
+    color: $color-bg
+    border-color: $color-text
+
+.activities-tabs__count
+  @include font-ui
+  font-size: $font-size-caption
+  margin-left: $spacing-xs
+  opacity: 0.7
+
+// ============================================
+// 篩選器
+// ============================================
+
+.activities-filters
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-md
+  margin-bottom: $spacing-lg
+  padding: $spacing-md
+  background-color: rgba($color-text, 0.03)
+  border: 1px solid $color-divider
+
+.activities-filters__group
+  display: flex
+  flex-direction: column
+  gap: $spacing-xs
+
+  label
+    @include font-ui
+    font-size: $font-size-caption
+    font-weight: $font-weight-semibold
+    text-transform: uppercase
+    letter-spacing: 0.05em
+    color: $color-text-light
+
+.activities-filters__group--search
+  flex: 1
+  min-width: 200px
+
+.activities-filters__select,
+.activities-filters__input
+  @include font-body
+  font-size: $font-size-small
+  padding: $spacing-xs $spacing-sm
+  border: 1px solid $color-divider
+  background-color: $color-bg
+  color: $color-text
+
+  &:focus
+    outline: none
+    border-color: $color-accent
+
+.activities-filters__select
+  min-width: 140px
+  cursor: pointer
+
+.activities-filters__input
+  width: 100%
+
+// ============================================
+// 活動面板
+// ============================================
+
+.activities-panel
+  display: none
+
+  &--active
+    display: block
+
+// ============================================
+// 活動網格
+// ============================================
+
+.activities-grid
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr))
+  gap: $spacing-md
+
+.activities-grid__item
+  // 用於篩選時的顯示/隱藏
+
+.activities-empty,
+.activities-no-results
+  @include font-body
+  text-align: center
+  color: $color-text-light
+  padding: $spacing-xl
+
+// ============================================
+// 活動卡片
+// ============================================
+
+.activity-card
+  display: flex
+  flex-direction: column
+  background-color: $color-bg
+  border: 1px solid $color-divider
+  transition: border-color 0.2s, box-shadow 0.2s
+  text-decoration: none
+  color: inherit
+
+  &:hover
+    border-color: $color-accent
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)
+
+  &--past
+    opacity: 0.7
+
+    &:hover
+      opacity: 1
+
+.activity-card__image-wrapper
+  position: relative
+  aspect-ratio: 16 / 9
+  overflow: hidden
+  background-color: $color-divider
+
+.activity-card__image
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+  &--placeholder
+    display: flex
+    align-items: center
+    justify-content: center
+    background: linear-gradient(135deg, rgba($color-accent, 0.1), rgba($color-accent, 0.2))
+
+.activity-card__placeholder-icon
+  font-size: 3rem
+
+.activity-card__badge
+  position: absolute
+  top: $spacing-sm
+  left: $spacing-sm
+  @include font-ui
+  font-size: $font-size-caption
+  padding: 4px 8px
+  border-radius: 2px
+
+  &--featured
+    background-color: $color-accent
+    color: #fff
+
+  &--past
+    background-color: rgba(0, 0, 0, 0.7)
+    color: #fff
+
+.activity-card__type-badge
+  position: absolute
+  bottom: $spacing-sm
+  right: $spacing-sm
+  @include font-ui
+  font-size: $font-size-caption
+  padding: 4px 8px
+  background-color: rgba(255, 255, 255, 0.95)
+  color: $color-text
+  border-radius: 2px
+
+  &--conference
+    border-left: 3px solid #3182ce
+
+  &--expo
+    border-left: 3px solid #d69e2e
+
+  &--workshop
+    border-left: 3px solid #38a169
+
+  &--meetup
+    border-left: 3px solid #dd6b20
+
+  &--hackathon
+    border-left: 3px solid #805ad5
+
+  &--webinar
+    border-left: 3px solid #00b5d8
+
+  &--course
+    border-left: 3px solid #e53e3e
+
+  &--competition
+    border-left: 3px solid #ecc94b
+
+.activity-card__content
+  padding: $spacing-md
+  flex: 1
+  display: flex
+  flex-direction: column
+
+.activity-card__title
+  @include font-headline
+  font-size: 1.125rem
+  margin-bottom: $spacing-sm
+  color: $color-text
+  line-height: 1.4
+
+.activity-card__meta
+  display: flex
+  flex-direction: column
+  gap: 4px
+  margin-bottom: $spacing-sm
+
+.activity-card__location,
+.activity-card__date
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-text-light
+
+.activity-card__excerpt
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+  margin-top: auto
+
+// 小型卡片
+.activity-card--small
+  .activity-card__image-wrapper
+    aspect-ratio: 4 / 3
+
+  .activity-card__content
+    padding: $spacing-sm
+
+  .activity-card__title
+    font-size: 1rem
+
+// ============================================
+// 活動詳細頁
+// ============================================
+
+.activity-detail
+  max-width: 900px
+  margin: 0 auto
+  padding: $spacing-lg $spacing-md
+
+.activity-detail__nav
+  margin-bottom: $spacing-lg
+
+.activity-detail__back
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-text-light
+  text-decoration: none
+
+  &:hover
+    color: $color-accent
+
+.activity-detail__hero
+  position: relative
+  margin-bottom: $spacing-lg
+  aspect-ratio: 21 / 9
+  overflow: hidden
+  border: 1px solid $color-divider
+
+.activity-detail__hero-img
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.activity-detail__badge
+  position: absolute
+  top: $spacing-md
+  left: $spacing-md
+  @include font-ui
+  font-size: $font-size-small
+  padding: $spacing-xs $spacing-sm
+  border-radius: 2px
+
+  &--past
+    background-color: rgba(0, 0, 0, 0.8)
+    color: #fff
+
+.activity-detail__header
+  margin-bottom: $spacing-xl
+  padding-bottom: $spacing-lg
+  border-bottom: 1px solid $color-divider
+
+.activity-detail__type
+  @include font-ui
+  font-size: $font-size-small
+  padding: $spacing-xs $spacing-sm
+  background-color: rgba($color-accent, 0.1)
+  color: $color-accent
+  display: inline-block
+  margin-bottom: $spacing-sm
+
+.activity-detail__title
+  @include font-headline
+  font-size: 2.5rem
+  margin-bottom: $spacing-md
+  line-height: 1.3
+
+.activity-detail__excerpt
+  @include font-body
+  font-size: 1.25rem
+  color: $color-text-light
+  line-height: 1.6
+
+// ============================================
+// 資訊卡片
+// ============================================
+
+.activity-detail__info-cards
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))
+  gap: $spacing-lg
+  margin-bottom: $spacing-xl
+
+.activity-detail__card
+  display: flex
+  gap: $spacing-md
+  padding: $spacing-lg
+  background-color: rgba($color-text, 0.02)
+  border: 1px solid $color-divider
+
+.activity-detail__card-icon
+  font-size: 2rem
+  flex-shrink: 0
+
+.activity-detail__card-content
+  flex: 1
+
+.activity-detail__card-title
+  @include font-ui
+  font-size: $font-size-small
+  font-weight: $font-weight-semibold
+  text-transform: uppercase
+  letter-spacing: 0.05em
+  color: $color-text-light
+  margin-bottom: $spacing-xs
+
+.activity-detail__card-text
+  @include font-body
+  font-size: 1.125rem
+  font-weight: $font-weight-semibold
+  margin-bottom: $spacing-xs
+
+.activity-detail__card-sub
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+
+.activity-detail__card-address
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+  margin-top: $spacing-sm
+
+// ============================================
+// 日曆與地圖按鈕
+// ============================================
+
+.activity-detail__calendar-btns,
+.activity-detail__map-links
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-xs
+  margin-top: $spacing-sm
+
+.activity-detail__cal-btn,
+.activity-detail__map-btn
+  @include font-ui
+  font-size: $font-size-caption
+  padding: $spacing-xs $spacing-sm
+  background-color: $color-bg
+  border: 1px solid $color-divider
+  color: $color-text
+  text-decoration: none
+  cursor: pointer
+  transition: all 0.2s
+
+  &:hover
+    border-color: $color-accent
+    color: $color-accent
+
+// ============================================
+// Meta 資訊
+// ============================================
+
+.activity-detail__meta
+  margin-bottom: $spacing-xl
+  padding: $spacing-md
+  background-color: rgba($color-text, 0.02)
+  border: 1px solid $color-divider
+
+.activity-detail__meta-item
+  @include font-body
+  font-size: $font-size-small
+  margin-bottom: $spacing-sm
+
+  &:last-child
+    margin-bottom: 0
+
+  strong
+    color: $color-text-light
+    margin-right: $spacing-xs
+
+  a
+    color: $color-accent
+    text-decoration: none
+
+    &:hover
+      text-decoration: underline
+
+.activity-detail__official-link
+  word-break: break-all
+
+// ============================================
+// 內容區塊
+// ============================================
+
+.activity-detail__content
+  margin-bottom: $spacing-xl
+
+.activity-detail__section-title
+  @include font-headline
+  font-size: 1.5rem
+  margin-bottom: $spacing-md
+  padding-bottom: $spacing-sm
+  border-bottom: 2px solid $color-text
+
+.activity-detail__body
+  @include font-body
+  font-size: 1rem
+  line-height: 1.8
+
+  h2, h3, h4
+    @include font-headline
+    margin-top: $spacing-lg
+    margin-bottom: $spacing-sm
+
+  h2
+    font-size: 1.5rem
+
+  h3
+    font-size: 1.25rem
+
+  p
+    margin-bottom: $spacing-md
+
+  ul, ol
+    margin-bottom: $spacing-md
+    padding-left: $spacing-lg
+
+  li
+    margin-bottom: $spacing-xs
+
+  table
+    width: 100%
+    margin-bottom: $spacing-md
+    border-collapse: collapse
+
+    th, td
+      padding: $spacing-sm
+      border: 1px solid $color-divider
+      text-align: left
+
+    th
+      background-color: rgba($color-text, 0.05)
+      font-weight: $font-weight-semibold
+
+// ============================================
+// 標籤
+// ============================================
+
+.activity-detail__tags
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-xs
+  margin-bottom: $spacing-xl
+
+.activity-detail__tag
+  @include font-ui
+  font-size: $font-size-caption
+  padding: $spacing-xs $spacing-sm
+  background-color: rgba($color-accent, 0.1)
+  color: $color-accent
+  border-radius: 2px
+
+// ============================================
+// 相關活動
+// ============================================
+
+.activity-detail__related
+  margin-top: $spacing-xl
+  padding-top: $spacing-xl
+  border-top: 3px solid $color-text
+
+.activity-detail__related-grid
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr))
+  gap: $spacing-md
+
+// ============================================
+// 響應式
+// ============================================
+
+@media (max-width: $breakpoint-md)
+  .activities-page__title
+    font-size: 2rem
+
+  .activities-tabs
+    justify-content: center
+
+  .activities-filters
+    flex-direction: column
+
+  .activities-grid
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))
+
+  .activity-detail__title
+    font-size: 2rem
+
+  .activity-detail__info-cards
+    grid-template-columns: 1fr
+
+@media (max-width: $breakpoint-sm)
+  .activities-grid
+    grid-template-columns: 1fr
+
+  .activity-detail__title
+    font-size: 1.5rem
+
+  .activity-detail__hero
+    aspect-ratio: 16 / 9
+
+  .activity-detail__related-grid
+    grid-template-columns: 1fr

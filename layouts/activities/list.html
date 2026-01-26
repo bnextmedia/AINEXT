@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 活動 | {{ .Site.Title }}</title>
+  <meta name="description" content="收錄臺灣與國際 AI 重要活動、研討會、展覽、論壇等資訊">
+
+  {{/* 字體載入 */}}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+
+  {{/* V2 樣式 */}}
+  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+</head>
+<body class="site">
+
+  {{ partial "v2/header.html" . }}
+  {{ partial "v2/nav.html" . }}
+
+  <main class="site-main">
+    {{/* 取得所有活動 */}}
+    {{ $allActivities := where .Site.RegularPages "Section" "activities" }}
+
+    {{/* 今天的日期 */}}
+    {{ $today := now.Format "2006-01-02" }}
+
+    {{/* 分離臺灣與國際活動 */}}
+    {{ $taiwanActivities := where $allActivities ".Params.region" "taiwan" }}
+    {{ $internationalActivities := where $allActivities ".Params.region" "international" }}
+
+    {{/* 分離即將到來與已結束的活動 */}}
+    {{ $taiwanUpcoming := where $taiwanActivities ".Params.date_end" ">=" $today }}
+    {{ $taiwanPast := where $taiwanActivities ".Params.date_end" "<" $today }}
+    {{ $intlUpcoming := where $internationalActivities ".Params.date_end" ">=" $today }}
+    {{ $intlPast := where $internationalActivities ".Params.date_end" "<" $today }}
+
+    <div class="activities-page">
+
+      {{/* 頁面標題 */}}
+      <header class="activities-page__header">
+        <h1 class="activities-page__title">AI 活動</h1>
+        <p class="activities-page__desc">
+          收錄 <strong>{{ len $allActivities }}</strong> 個 AI 重要活動
+          （臺灣 {{ len $taiwanActivities }} 個 / 國際 {{ len $internationalActivities }} 個）
+        </p>
+      </header>
+
+      {{/* Tab 切換 */}}
+      <div class="activities-tabs">
+        <button class="activities-tabs__btn activities-tabs__btn--active" data-tab="taiwan-upcoming">
+          臺灣即將 <span class="activities-tabs__count">{{ len $taiwanUpcoming }}</span>
+        </button>
+        <button class="activities-tabs__btn" data-tab="taiwan-past">
+          臺灣過去 <span class="activities-tabs__count">{{ len $taiwanPast }}</span>
+        </button>
+        <button class="activities-tabs__btn" data-tab="intl-upcoming">
+          國際即將 <span class="activities-tabs__count">{{ len $intlUpcoming }}</span>
+        </button>
+        <button class="activities-tabs__btn" data-tab="intl-past">
+          國際過去 <span class="activities-tabs__count">{{ len $intlPast }}</span>
+        </button>
+      </div>
+
+      {{/* 篩選器 */}}
+      <div class="activities-filters">
+        <div class="activities-filters__group">
+          <label>活動類型</label>
+          <select id="filter-type" class="activities-filters__select">
+            <option value="">全部</option>
+            <option value="conference">研討會</option>
+            <option value="expo">展覽</option>
+            <option value="workshop">工作坊</option>
+            <option value="meetup">社群聚會</option>
+            <option value="hackathon">黑客松</option>
+            <option value="webinar">線上研討會</option>
+            <option value="course">課程</option>
+            <option value="competition">競賽</option>
+          </select>
+        </div>
+
+        <div class="activities-filters__group">
+          <label>國家</label>
+          <select id="filter-country" class="activities-filters__select">
+            <option value="">全部</option>
+            {{ $countries := slice }}
+            {{ range $allActivities }}
+              {{ with .Params.country }}
+                {{ $countries = $countries | append . }}
+              {{ end }}
+            {{ end }}
+            {{ range ($countries | uniq | sort) }}
+            <option value="{{ . }}">{{ . }}</option>
+            {{ end }}
+          </select>
+        </div>
+
+        <div class="activities-filters__group activities-filters__group--search">
+          <label>搜尋</label>
+          <input type="text" id="filter-search" placeholder="輸入活動名稱..." class="activities-filters__input">
+        </div>
+      </div>
+
+      {{/* 臺灣即將到來的活動 */}}
+      <div class="activities-panel activities-panel--active" id="panel-taiwan-upcoming">
+        {{ if $taiwanUpcoming }}
+          {{/* 分離置頂與非置頂活動 */}}
+          {{ $featured := where $taiwanUpcoming ".Params.featured_order" ">" 0 }}
+          {{ $featured = sort $featured ".Params.featured_order" "asc" }}
+          {{ $regular := where $taiwanUpcoming ".Params.featured_order" "<=" 0 }}
+          {{ $regular = sort $regular ".Params.date_start" "asc" }}
+
+          <div class="activities-grid" data-tab="taiwan-upcoming">
+            {{/* 置頂活動 */}}
+            {{ range $featured }}
+            <div class="activities-grid__item"
+                 data-type="{{ .Params.activity_type }}"
+                 data-country="{{ .Params.country }}"
+                 data-name="{{ .Title | lower }}">
+              {{ partial "v2/activity-card.html" (dict "activity" . "featured" true) }}
+            </div>
+            {{ end }}
+            {{/* 一般活動 */}}
+            {{ range $regular }}
+            <div class="activities-grid__item"
+                 data-type="{{ .Params.activity_type }}"
+                 data-country="{{ .Params.country }}"
+                 data-name="{{ .Title | lower }}">
+              {{ partial "v2/activity-card.html" (dict "activity" .) }}
+            </div>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p class="activities-empty">目前沒有即將到來的臺灣活動</p>
+        {{ end }}
+      </div>
+
+      {{/* 臺灣過去活動 */}}
+      <div class="activities-panel" id="panel-taiwan-past">
+        {{ if $taiwanPast }}
+          {{ $sortedPast := sort $taiwanPast ".Params.date_end" "desc" }}
+          <div class="activities-grid" data-tab="taiwan-past">
+            {{ range $sortedPast }}
+            <div class="activities-grid__item"
+                 data-type="{{ .Params.activity_type }}"
+                 data-country="{{ .Params.country }}"
+                 data-name="{{ .Title | lower }}">
+              {{ partial "v2/activity-card.html" (dict "activity" . "past" true) }}
+            </div>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p class="activities-empty">目前沒有過去的臺灣活動</p>
+        {{ end }}
+      </div>
+
+      {{/* 國際即將到來的活動 */}}
+      <div class="activities-panel" id="panel-intl-upcoming">
+        {{ if $intlUpcoming }}
+          {{/* 分離置頂與非置頂活動 */}}
+          {{ $featured := where $intlUpcoming ".Params.featured_order" ">" 0 }}
+          {{ $featured = sort $featured ".Params.featured_order" "asc" }}
+          {{ $regular := where $intlUpcoming ".Params.featured_order" "<=" 0 }}
+          {{ $regular = sort $regular ".Params.date_start" "asc" }}
+
+          <div class="activities-grid" data-tab="intl-upcoming">
+            {{/* 置頂活動 */}}
+            {{ range $featured }}
+            <div class="activities-grid__item"
+                 data-type="{{ .Params.activity_type }}"
+                 data-country="{{ .Params.country }}"
+                 data-name="{{ .Title | lower }}">
+              {{ partial "v2/activity-card.html" (dict "activity" . "featured" true) }}
+            </div>
+            {{ end }}
+            {{/* 一般活動 */}}
+            {{ range $regular }}
+            <div class="activities-grid__item"
+                 data-type="{{ .Params.activity_type }}"
+                 data-country="{{ .Params.country }}"
+                 data-name="{{ .Title | lower }}">
+              {{ partial "v2/activity-card.html" (dict "activity" .) }}
+            </div>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p class="activities-empty">目前沒有即將到來的國際活動</p>
+        {{ end }}
+      </div>
+
+      {{/* 國際過去活動 */}}
+      <div class="activities-panel" id="panel-intl-past">
+        {{ if $intlPast }}
+          {{ $sortedPast := sort $intlPast ".Params.date_end" "desc" }}
+          <div class="activities-grid" data-tab="intl-past">
+            {{ range $sortedPast }}
+            <div class="activities-grid__item"
+                 data-type="{{ .Params.activity_type }}"
+                 data-country="{{ .Params.country }}"
+                 data-name="{{ .Title | lower }}">
+              {{ partial "v2/activity-card.html" (dict "activity" . "past" true) }}
+            </div>
+            {{ end }}
+          </div>
+        {{ else }}
+          <p class="activities-empty">目前沒有過去的國際活動</p>
+        {{ end }}
+      </div>
+
+      <p class="activities-no-results" id="no-results" style="display: none;">沒有符合條件的活動</p>
+
+    </div>
+  </main>
+
+  {{ partial "v2/footer.html" . }}
+
+  {{/* Tab 切換與篩選器 JavaScript */}}
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Tab 切換
+    var tabs = document.querySelectorAll('.activities-tabs__btn');
+    var panels = document.querySelectorAll('.activities-panel');
+
+    tabs.forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        var targetTab = this.dataset.tab;
+
+        // 移除所有 active
+        tabs.forEach(function(t) { t.classList.remove('activities-tabs__btn--active'); });
+        panels.forEach(function(p) { p.classList.remove('activities-panel--active'); });
+
+        // 加上 active
+        this.classList.add('activities-tabs__btn--active');
+        document.getElementById('panel-' + targetTab).classList.add('activities-panel--active');
+
+        // 重新套用篩選
+        applyFilters();
+      });
+    });
+
+    // 篩選器
+    var filters = {
+      type: document.getElementById('filter-type'),
+      country: document.getElementById('filter-country'),
+      search: document.getElementById('filter-search')
+    };
+
+    var noResults = document.getElementById('no-results');
+
+    function applyFilters() {
+      var activePanel = document.querySelector('.activities-panel--active');
+      if (!activePanel) return;
+
+      var items = activePanel.querySelectorAll('.activities-grid__item');
+      var typeVal = filters.type.value.toLowerCase();
+      var countryVal = filters.country.value;
+      var searchVal = filters.search.value.toLowerCase();
+
+      var visibleCount = 0;
+
+      items.forEach(function(item) {
+        var type = (item.dataset.type || '').toLowerCase();
+        var country = item.dataset.country || '';
+        var name = item.dataset.name || '';
+
+        var matchType = !typeVal || type === typeVal;
+        var matchCountry = !countryVal || country === countryVal;
+        var matchSearch = !searchVal || name.includes(searchVal);
+
+        if (matchType && matchCountry && matchSearch) {
+          item.style.display = '';
+          visibleCount++;
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      noResults.style.display = visibleCount === 0 ? '' : 'none';
+    }
+
+    Object.values(filters).forEach(function(filter) {
+      if (filter) {
+        filter.addEventListener('input', applyFilters);
+        filter.addEventListener('change', applyFilters);
+      }
+    });
+  });
+  </script>
+
+</body>
+</html>

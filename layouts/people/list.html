@@ -1,16 +1,17 @@
 {{ define "main" }}
-<div class="wrap mt people-list-page">
-  <header class="section-header">
-    <h1>{{ .Title }}</h1>
-    <p class="section-description">{{ .Description }}</p>
-    <p class="section-stats">共收錄 <strong>{{ len .Pages }}</strong> 位人物</p>
+<div class="directory-page">
+
+  {{/* 頁面標題 */}}
+  <header class="directory-page__header">
+    <h1 class="directory-page__title">{{ .Title }}</h1>
+    <p class="directory-page__desc">收錄全球 <strong>{{ len .Pages }}</strong> 位 AI 產業重要人物</p>
   </header>
 
-  <!-- 篩選器 -->
-  <div class="filters">
-    <div class="filter-group">
+  {{/* 篩選器 */}}
+  <div class="directory-filters">
+    <div class="directory-filters__group">
       <label>身份類型</label>
-      <select id="filter-type" class="filter-select">
+      <select id="filter-type" class="directory-filters__select">
         <option value="">全部</option>
         {{ $types := slice }}
         {{ range .Pages }}
@@ -25,9 +26,10 @@
         {{ end }}
       </select>
     </div>
-    <div class="filter-group">
+
+    <div class="directory-filters__group">
       <label>專長領域</label>
-      <select id="filter-expertise" class="filter-select">
+      <select id="filter-expertise" class="directory-filters__select">
         <option value="">全部</option>
         {{ $expertise := slice }}
         {{ range .Pages }}
@@ -42,9 +44,10 @@
         {{ end }}
       </select>
     </div>
-    <div class="filter-group">
+
+    <div class="directory-filters__group">
       <label>國籍</label>
-      <select id="filter-nationality" class="filter-select">
+      <select id="filter-nationality" class="directory-filters__select">
         <option value="">全部</option>
         {{ $nationalities := slice }}
         {{ range .Pages }}
@@ -57,58 +60,37 @@
         {{ end }}
       </select>
     </div>
-    <div class="filter-group filter-search">
+
+    <div class="directory-filters__group directory-filters__group--search">
       <label>搜尋</label>
-      <input type="text" id="filter-search" placeholder="輸入人名..." class="filter-input">
+      <input type="text" id="filter-search" placeholder="輸入人名..." class="directory-filters__input">
     </div>
   </div>
 
-  <!-- 人物列表 -->
-  <div class="people-grid" id="people-grid">
+  {{/* 人物網格 */}}
+  <div class="directory-grid directory-grid--people" id="directory-grid">
     {{ range .Pages.ByTitle }}
-    <a href="{{ .Permalink }}" class="person-card"
-       data-type="{{ with .Params.person_type }}{{ delimit . "," | lower }}{{ end }}"
-       data-expertise="{{ with .Params.expertise_areas }}{{ delimit . "," | lower }}{{ end }}"
-       data-nationality="{{ .Params.nationality | lower }}"
-       data-name="{{ .Title | lower }} {{ .Params.name_zh | lower }}">
-      <div class="person-card-photo">
-        {{ with .Params.photo }}
-        <img src="{{ . }}" alt="{{ $.Title }}">
-        {{ else }}
-        <div class="person-card-photo-placeholder">
-          <span>{{ substr .Title 0 1 | upper }}</span>
-        </div>
-        {{ end }}
-      </div>
-      <div class="person-card-body">
-        <h2 class="person-card-name">{{ .Title }}</h2>
-        {{ with .Params.name_zh }}<p class="person-card-name-zh">{{ . }}</p>{{ end }}
-        <p class="person-card-position">
-          {{ with .Params.current_position }}{{ . }}{{ end }}
-          {{ with .Params.current_organization }}@ {{ . }}{{ end }}
-        </p>
-        <div class="person-card-badges">
-          {{ with .Params.person_type }}
-            {{ range first 2 . }}
-            <span class="badge badge-sm">{{ . }}</span>
-            {{ end }}
-          {{ end }}
-        </div>
-      </div>
-    </a>
+    <div class="directory-grid__item"
+         data-type="{{ with .Params.person_type }}{{ delimit . "," | lower }}{{ end }}"
+         data-expertise="{{ with .Params.expertise_areas }}{{ delimit . "," | lower }}{{ end }}"
+         data-nationality="{{ .Params.nationality | lower }}"
+         data-name="{{ .Title | lower }} {{ .Params.name_zh | lower }}">
+      {{ partial "v2/person-card.html" (dict "person" . "variant" "default") }}
+    </div>
     {{ end }}
   </div>
 
-  <p class="no-results" id="no-results" style="display: none;">沒有符合條件的人物</p>
+  <p class="directory-no-results" id="no-results" style="display: none;">沒有符合條件的人物</p>
+
 </div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const grid = document.getElementById('people-grid');
-  const cards = grid.querySelectorAll('.person-card');
-  const noResults = document.getElementById('no-results');
+  var grid = document.getElementById('directory-grid');
+  var items = grid.querySelectorAll('.directory-grid__item');
+  var noResults = document.getElementById('no-results');
 
-  const filters = {
+  var filters = {
     type: document.getElementById('filter-type'),
     expertise: document.getElementById('filter-expertise'),
     nationality: document.getElementById('filter-nationality'),
@@ -116,36 +98,36 @@ document.addEventListener('DOMContentLoaded', function() {
   };
 
   function applyFilters() {
-    const typeVal = filters.type.value.toLowerCase();
-    const expertiseVal = filters.expertise.value.toLowerCase();
-    const nationalityVal = filters.nationality.value.toLowerCase();
-    const searchVal = filters.search.value.toLowerCase();
+    var typeVal = filters.type.value.toLowerCase();
+    var expertiseVal = filters.expertise.value.toLowerCase();
+    var nationalityVal = filters.nationality.value.toLowerCase();
+    var searchVal = filters.search.value.toLowerCase();
 
-    let visibleCount = 0;
+    var visibleCount = 0;
 
-    cards.forEach(card => {
-      const type = (card.dataset.type || '').toLowerCase();
-      const expertise = (card.dataset.expertise || '').toLowerCase();
-      const nationality = (card.dataset.nationality || '').toLowerCase();
-      const name = card.dataset.name || '';
+    items.forEach(function(item) {
+      var type = (item.dataset.type || '').toLowerCase();
+      var expertise = (item.dataset.expertise || '').toLowerCase();
+      var nationality = (item.dataset.nationality || '').toLowerCase();
+      var name = item.dataset.name || '';
 
-      const matchType = !typeVal || type.includes(typeVal);
-      const matchExpertise = !expertiseVal || expertise.includes(expertiseVal);
-      const matchNationality = !nationalityVal || nationality === nationalityVal;
-      const matchSearch = !searchVal || name.includes(searchVal);
+      var matchType = !typeVal || type.includes(typeVal);
+      var matchExpertise = !expertiseVal || expertise.includes(expertiseVal);
+      var matchNationality = !nationalityVal || nationality === nationalityVal;
+      var matchSearch = !searchVal || name.includes(searchVal);
 
       if (matchType && matchExpertise && matchNationality && matchSearch) {
-        card.style.display = '';
+        item.style.display = '';
         visibleCount++;
       } else {
-        card.style.display = 'none';
+        item.style.display = 'none';
       }
     });
 
     noResults.style.display = visibleCount === 0 ? '' : 'none';
   }
 
-  Object.values(filters).forEach(filter => {
+  Object.values(filters).forEach(function(filter) {
     filter.addEventListener('input', applyFilters);
     filter.addEventListener('change', applyFilters);
   });

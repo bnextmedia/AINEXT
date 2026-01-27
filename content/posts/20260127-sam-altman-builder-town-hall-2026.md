@@ -4,14 +4,14 @@ date: 2026-01-27T10:00:00+08:00
 description: "OpenAI 執行長 Sam Altman 在舊金山舉辦開發者座談會，談及軟體工程師未來、AI 成本下降曲線、生物安全風險、教育與 AI 的關係，以及他認為這個時代最重要的能力。這場一小時的 QA，是理解 OpenAI 產品方向與 AI 產業走向的重要窗口。"
 tags: ["Sam Altman", "OpenAI", "AI Agent", "軟體工程", "AI 安全", "Codex"]
 categories: ["AI 產業動態"]
-source_url: "https://www.youtube.com/watch?v=ME8_6c6eY4o"
+source_url: "https://www.youtube.com/watch?v=Wpxv-8nG8ec"
 source_name: "OpenAI YouTube"
 draft: false
 ---
 
 > 本文整理自 OpenAI 於 2026 年 1 月在舊金山舉辦的 Builder Town Hall，由執行長 Sam Altman 主持，與現場開發者進行約一小時的問答。
 
-{{< youtube ME8_6c6eY4o >}}
+{{< youtube Wpxv-8nG8ec >}}
 
 ---
 

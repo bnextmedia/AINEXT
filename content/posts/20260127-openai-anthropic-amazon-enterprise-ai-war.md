@@ -6,6 +6,7 @@ tags: ["OpenAI", "Anthropic", "Amazon", "AWS", "企業 AI", "Claude Code", "Code
 categories: ["AI 產業動態"]
 source_url: "https://www.theinformation.com/articles/openai-aims-lure-businesses-anthropic"
 source_name: "The Information"
+image: "/images/posts/20260127-ai-enterprise-war.jpg"
 draft: false
 ---
 

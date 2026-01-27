@@ -6,6 +6,7 @@ tags: ["OpenAI", "Anthropic", "Google", "AI 模型", "Podcast"]
 categories: ["AI 產業動態"]
 source_url: "https://podcasts.apple.com/rw/podcast/%24djt-goes-nuclear-openai-in-talks-at-%24750b-2025-model/id1772360235?i=1000741910856"
 source_name: "TBPN"
+image: "/images/posts/20251226-model-wars-2025-year-in-review.jpg"
 draft: false
 ---
 

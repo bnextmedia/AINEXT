@@ -11,6 +11,8 @@ draft: false
 
 > 本文整理自 The Information 於 2026 年 1 月 24 日的獨家報導，以及 Amazon CEO Andy Jassy 同週在達沃斯世界經濟論壇的訪談。
 
+{{< youtube ME8_6c6eY4o >}}
+
 ---
 
 ## Sam Altman 的高級晚宴：一場搶客戶的宣言

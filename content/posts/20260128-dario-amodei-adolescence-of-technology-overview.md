@@ -10,7 +10,7 @@ image: "/images/posts/20260128-dario-amodei-overview.jpg"
 draft: false
 ---
 
-> 本文整理自 Anthropic 執行長 Dario Amodei 於 2026 年 1 月發表的長文《The Adolescence of Technology》。本篇為系列共五篇的第一篇，聚焦全文總論、AI 失控風險、生物武器濫用，以及一個多數人從未聽過、卻可能威脅所有地球生命的概念——鏡像生命。
+> 本文整理自 Anthropic 執行長 Dario Amodei 於 2026 年 1 月發表的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)。本篇為系列共五篇的第一篇，聚焦全文總論、AI 失控風險、生物武器濫用，以及一個多數人從未聽過、卻可能威脅所有地球生命的概念——鏡像生命。強烈建議讀者閱讀原文全文。
 
 ---
 
@@ -91,3 +91,15 @@ AI 改變了這個等式。一個「受困擾的孤狼」如果得到 AI 的協�
 **鏡像生命是這篇文章裡最被低估的段落。** 多數 AI 安全討論聚焦在核武、網路攻擊、假資訊這些「熟悉的恐懼」。但鏡像生命完全不在主流視野裡。一種地球免疫系統無法辨識的合成生物，如果失控，沒有抗生素、沒有免疫反應、沒有自然天敵可以制衡。這不是科幻——Stanford 和 Science 期刊都已經發出警告。而 AI 加速合成生物學的研究速度，可能讓這個「幾十年」的時間表壓縮到「幾年」。讀者下次看到合成生物學的新聞時，值得多想一層。
 
 **「變化的速度」本身就是風險——這對台灣尤其切身。** Amodei 的第五個風險類別最抽象，但可能對台灣最有感。台灣正在同時經歷 AI 衝擊、能源轉型、少子化、地緣政治緊張。每一個單獨來看都有解法。但當勞動市場被 AI 重塑的同時，半導體產業被地緣政治重新定價，教育體系還在用二十年前的框架培養人才，社會安全網面臨少子化的結構性壓力——這些同時發生的時候，沒有任何一個「解法」可以單獨生效。Amodei 提醒我們一件容易忘記的事：不是只有「壞技術」才危險，「好技術來得太快」同樣可以壓垮一個社會的適應能力。
+
+---
+
+### 本系列全部文章
+
+本系列共五篇，整理自 Dario Amodei 的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)：
+
+1. **本篇 →** Anthropic 執行長萬字長文：人類正在經歷「文明的青春期」
+2. [Amodei 直言：別把晶片設備賣給中國，AI 極權是人類最大威脅](/posts/20260128-dario-amodei-ai-autocracy-geopolitics/)
+3. [AI 取代白領不是危言聳聽：Amodei 預估一半初階白領工作將在數年內消失](/posts/20260128-dario-amodei-ai-economy-jobs/)
+4. [不要當末日派，也別盲目樂觀：Amodei 的「外科手術式監管」主張](/posts/20260128-dario-amodei-regulation-philosophy/)
+5. [AI 正在加速開發下一代 AI：Amodei 描述的回饋循環為什麼讓人不安](/posts/20260128-dario-amodei-ai-feedback-loop/)

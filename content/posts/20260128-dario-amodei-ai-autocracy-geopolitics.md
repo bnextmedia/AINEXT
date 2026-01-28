@@ -10,7 +10,7 @@ image: "/images/posts/20260128-dario-amodei-geopolitics.jpg"
 draft: false
 ---
 
-> 本文整理自 Anthropic 執行長 Dario Amodei 於 2026 年 1 月發表的長文《The Adolescence of Technology》。本篇為系列共五篇的第二篇，聚焦 Amodei 認為最嚴重的 AI 風險：極權政權利用 AI 鞏固永久統治。
+> 本文整理自 Anthropic 執行長 Dario Amodei 於 2026 年 1 月發表的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)。本篇為系列共五篇的第二篇，聚焦 Amodei 認為最嚴重的 AI 風險：極權政權利用 AI 鞏固永久統治。強烈建議讀者閱讀原文全文。
 
 ---
 
@@ -71,3 +71,15 @@ Amodei 提出的解法是制度性的：透過憲法修正案或公民自由立�
 **台灣是這整篇論述的隱形核心——即使 Amodei 全文沒有提到「台灣」兩個字。** 他談晶片出口管制，背後的關鍵是台積電。他談 AI 地緣政治的核心緊張，焦點是台海。「不要賣晶片製造設備給 CCP」這個主張的隱含前提，是台灣半導體產能在短期內無可替代。從台灣的角度讀這篇文章，會得到一個完全不同的感受：台灣不只是被保護的對象，更是整場民主 vs. 極權 AI 競賽的戰略支點。如果台灣的半導體產能被中斷或被控制，Amodei 描述的所有防禦措施——出口管制、民主 AI 領先、技術優勢——全部瞬間失效。這不是地緣政治教科書上的抽象分析，這是台灣每天都在面對的現實。
 
 **Amodei 可能低估了「AI 極權」的民主版本。** 他把最大威脅定義為中國式的「極權 + AI」組合。但 2024 到 2025 年全球民主退潮的趨勢顯示，威脅不只來自外部。民選政府利用 AI 進行選舉操縱、壓制異議、控制輿論的案例，已經在多個國家出現。匈牙利、土耳其、印度、甚至美國自身，都有政治領袖利用演算法和自動化工具操控資訊環境的紀錄。Amodei 的框架把「民主」和「極權」畫成清楚的兩邊，但現實中這條線越來越模糊。真正該問的問題不只是「如何防止中國用 AI 鞏固權力」，而是「如何防止任何掌握 AI 的人——包括民主國家的民選領袖——將其武器化」。當 AI 讓資訊操控的成本趨近於零，民主體制自身的免疫力是否足夠？這個問題，Amodei 碰了但沒有深挖。
+
+---
+
+### 本系列全部文章
+
+本系列共五篇，整理自 Dario Amodei 的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)：
+
+1. [Anthropic 執行長萬字長文：人類正在經歷「文明的青春期」](/posts/20260128-dario-amodei-adolescence-of-technology-overview/)
+2. **本篇 → ** Amodei 直言：別把晶片設備賣給中國，AI 極權是人類最大威脅
+3. [AI 取代白領不是危言聳聽：Amodei 預估一半初階白領工作將在數年內消失](/posts/20260128-dario-amodei-ai-economy-jobs/)
+4. [不要當末日派，也別盲目樂觀：Amodei 的「外科手術式監管」主張](/posts/20260128-dario-amodei-regulation-philosophy/)
+5. [AI 正在加速開發下一代 AI：Amodei 描述的回饋循環為什麼讓人不安](/posts/20260128-dario-amodei-ai-feedback-loop/)

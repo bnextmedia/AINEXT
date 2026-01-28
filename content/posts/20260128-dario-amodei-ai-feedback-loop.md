@@ -10,7 +10,7 @@ image: "/images/posts/20260128-dario-amodei-feedback-loop.jpg"
 draft: false
 ---
 
-> 本文整理自 Anthropic 執行長 Dario Amodei 於 2026 年 1 月發表的長文《The Adolescence of Technology》。本篇為系列共五篇的第五篇，聚焦 AI 能力的加速軌跡、Scaling Laws 的實證基礎，以及 Amodei 認為最被忽視卻最關鍵的趨勢——AI 開發 AI 的回饋循環。
+> 本文整理自 Anthropic 執行長 Dario Amodei 於 2026 年 1 月發表的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)。本篇為系列共五篇的第五篇，聚焦 AI 能力的加速軌跡、Scaling Laws 的實證基礎，以及 Amodei 認為最被忽視卻最關鍵的趨勢——AI 開發 AI 的回饋循環。強烈建議讀者閱讀原文全文。
 
 ---
 
@@ -81,3 +81,15 @@ Amodei 描繪的近期未來不是遙遠的科幻場景。他估計到 2027 年�
 **「我能感覺到時鐘倒數的聲音」——這句話出自一個在整篇文章中極度克制的人，這個「破格」本身就是訊號。** Amodei 整篇文章的基調是學術式的冷靜、反覆的限定語、刻意的不確定性。這是一個受過科學訓練的人在處理複雜問題時的標準態度。但唯獨在描述 AI 進步速度的時候，他切換到了第一人稱的感性語言。如果你跟有科學背景的人共事過，你會知道讓他們說出「我能感覺到」有多困難。這些人會說「資料顯示」、「證據建議」、「機率分布指向」——幾乎永遠不會說「我感覺到」。Amodei 在這個地方破例了。這暗示他觀察到的現象可能比他願意用數據語言描述的更令他震動。讀者可以自己判斷這代表什麼，但不應該忽略這個語調的轉變。
 
 **「AI 撞牆」的敘事在 2024 年讓很多人鬆了一口氣，但很多決策者和工作者仍然活在那個認知框架裡——這個落差本身就是風險。** 2024 年底那波「AI 放緩」的報導，影響了一大批人的判斷：投資人開始收緊 AI 投資、企業推遲了 AI 導入計畫、個人覺得「AI 還早，不用急著學」。Amodei 用後續的模型能力跳躍式進步反駁了這些報導。但問題在於，公共認知的更新速度永遠比技術慢。到了 2026 年初，仍然有大量的企業主管和政策制定者在用 2024 年的「AI 可能撞牆」框架做決策。這個認知落差的後果是具體的：延遲導入 AI 的企業會在競爭中落後；沒有調整職涯策略的個人會在就業市場上措手不及；用「我們還有很多時間」為前提制定政策的政府，會發現時間比他們想的少得多。如果你現在做的任何重要決定——職涯、投資、企業策略——仍然建立在「AI 進步會放緩」的假設上，你值得重新評估那個假設。
+
+---
+
+### 本系列全部文章
+
+本系列共五篇，整理自 Dario Amodei 的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)：
+
+1. [Anthropic 執行長萬字長文：人類正在經歷「文明的青春期」](/posts/20260128-dario-amodei-adolescence-of-technology-overview/)
+2. [Amodei 直言：別把晶片設備賣給中國，AI 極權是人類最大威脅](/posts/20260128-dario-amodei-ai-autocracy-geopolitics/)
+3. [AI 取代白領不是危言聳聽：Amodei 預估一半初階白領工作將在數年內消失](/posts/20260128-dario-amodei-ai-economy-jobs/)
+4. [不要當末日派，也別盲目樂觀：Amodei 的「外科手術式監管」主張](/posts/20260128-dario-amodei-regulation-philosophy/)
+5. **本篇 →** AI 正在加速開發下一代 AI：Amodei 描述的回饋循環為什麼讓人不安

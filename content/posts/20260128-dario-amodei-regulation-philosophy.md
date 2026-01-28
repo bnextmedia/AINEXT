@@ -10,7 +10,7 @@ image: "/images/posts/20260128-dario-amodei-regulation.jpg"
 draft: false
 ---
 
-> 本文整理自 Anthropic 執行長 Dario Amodei 於 2026 年 1 月發表的長文《The Adolescence of Technology》。本篇為系列共五篇的第四篇，聚焦 Amodei 的監管哲學：他如何在末日派和加速派之間走出第三條路，以及他主張的「透明度優先」分層監管架構。
+> 本文整理自 Anthropic 執行長 Dario Amodei 於 2026 年 1 月發表的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)。本篇為系列共五篇的第四篇，聚焦 Amodei 的監管哲學：他如何在末日派和加速派之間走出第三條路，以及他主張的「透明度優先」分層監管架構。強烈建議讀者閱讀原文全文。
 
 ---
 
@@ -85,3 +85,15 @@ Amodei 用了一段話直接回應了「暫停 AI 開發」的呼籲。他的論
 **他批評末日派的「語氣」，但他自己的文章也在製造緊迫感——只是用了不同的音調。** 在同一篇文章裡，Amodei 談了 AI 欺騙、生物武器、鏡像生命可能毀滅地球所有自然生命、極權 AI 帝國。他描述的風險嚴重程度，跟末日派其實沒有本質差異。差別在什麼？差別在他多了一句「但我們可以解決」，以及他始終用學術論文的冷靜語氣在講述這些可怕的事情。這不是矛盾，但讀者要清楚地意識到：語氣的冷靜不等於內容的溫和。一個穿白袍、語調平靜的醫生告訴你「你的腫瘤很嚴重但可以治療」，跟一個大喊「你快死了」的路人，傳達的資訊嚴重程度其實相差無幾。Amodei 是前者。你被他的語氣安撫了，不代表他說的事情不可怕。
 
 **Anthropic 主動制定安全標準，然後遊說把它變成法律——這既是負責任，也是商業策略，讀者要同時看到兩面。** Anthropic 公開系統卡、接受第三方評估、實施 Constitutional AI、在分類器上投入 5% 的推論成本。這些都是真金白銀的投入，不是做做樣子。但換個角度看：當一家公司定義了一套安全標準，然後推動政府將這些標準寫入法律，它同時也在建立競爭壁壘。能負擔這些合規成本的公司，全球大概不超過五家。Amodei 設計了小公司豁免條款，試圖緩解這個問題，但開源社群和中型 AI 公司是否真的不受影響，還有待觀察。讀者不需要在「Anthropic 是真心做安全」和「Anthropic 在利用安全建立壁壘」之間二選一——因為兩件事完全可以同時為真。真正該問的問題是：如果 AI 安全的標準是由三五家最大的公司來定義的，那這些標準是否真的反映了公共利益，還是只反映了這幾家公司的利益？
+
+---
+
+### 本系列全部文章
+
+本系列共五篇，整理自 Dario Amodei 的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)：
+
+1. [Anthropic 執行長萬字長文：人類正在經歷「文明的青春期」](/posts/20260128-dario-amodei-adolescence-of-technology-overview/)
+2. [Amodei 直言：別把晶片設備賣給中國，AI 極權是人類最大威脅](/posts/20260128-dario-amodei-ai-autocracy-geopolitics/)
+3. [AI 取代白領不是危言聳聽：Amodei 預估一半初階白領工作將在數年內消失](/posts/20260128-dario-amodei-ai-economy-jobs/)
+4. **本篇 →** 不要當末日派，也別盲目樂觀：Amodei 的「外科手術式監管」主張
+5. [AI 正在加速開發下一代 AI：Amodei 描述的回饋循環為什麼讓人不安](/posts/20260128-dario-amodei-ai-feedback-loop/)

@@ -10,7 +10,7 @@ image: "/images/posts/20260128-dario-amodei-economy.jpg"
 draft: false
 ---
 
-> 本文整理自 Anthropic 執行長 Dario Amodei 於 2026 年 1 月發表的長文《The Adolescence of Technology》。本篇為系列共五篇的第三篇，聚焦 AI 對勞動市場的衝擊、財富集中問題，以及為什麼 Amodei 認為這次跟之前的技術革命「根本不一樣」。
+> 本文整理自 Anthropic 執行長 Dario Amodei 於 2026 年 1 月發表的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)。本篇為系列共五篇的第三篇，聚焦 AI 對勞動市場的衝擊、財富集中問題，以及為什麼 Amodei 認為這次跟之前的技術革命「根本不一樣」。強烈建議讀者閱讀原文全文。
 
 ---
 
@@ -75,3 +75,15 @@ Amodei 沒有在這篇文章中提出完整的解決方案。他承認經濟轉�
 **GDP 成長 10-20% 聽起來美好，但歷史上「生產力大躍進」的年代往往也是不平等最嚴重的年代。** 鍍金時代的美國、工業革命初期的英國、二戰後的經濟奇蹟——每次技術帶來的巨大經濟成長，初期幾乎都伴隨著極端的財富集中。直到社會運動、工會抗爭和政策修正介入之後，紅利才開始外溢到更廣泛的人群。Amodei 預估的 10-20% GDP 成長如果實現，我們可能正走進一個新的鍍金時代——經濟數字非常漂亮，但絕大多數人的實質所得停滯甚至下降。而這次的不同之處在於：過去的工人可以透過工會罷工來爭取權益，因為工廠離了工人就無法運轉。但如果 AI 可以直接取代勞動，勞工的議價能力從根本上被削弱了。
 
 **台灣的「白領服務經濟」可能比美國更脆弱——而且我們的因應時間更短。** 台灣的產業結構高度依賴白領服務業：金融、法律、會計、行銷、媒體、教育。這些恰好全部落在 AI 最擅長的領域。同時，台灣中小企業的 AI 導入速度遠比矽谷慢——不是因為技術不可及，而是因為組織慣性、語言門檻和人才短缺。這造成了一個危險的不對稱：台灣的工作者將面對 AI 帶來的衝擊，但台灣的企業可能還沒準備好用 AI 來提升自身的競爭力。結果就是最壞的組合——工作被取代的速度很快，但企業創造新價值的速度很慢。每一個正在台灣職場工作的人，不管你的職位是什麼，都值得問自己一個問題：如果我的核心工作在三年內可以被 AI 完成 80%，我現在正在學的東西，到時候還有用嗎？
+
+---
+
+### 本系列全部文章
+
+本系列共五篇，整理自 Dario Amodei 的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)：
+
+1. [Anthropic 執行長萬字長文：人類正在經歷「文明的青春期」](/posts/20260128-dario-amodei-adolescence-of-technology-overview/)
+2. [Amodei 直言：別把晶片設備賣給中國，AI 極權是人類最大威脅](/posts/20260128-dario-amodei-ai-autocracy-geopolitics/)
+3. **本篇 →** AI 取代白領不是危言聳聽：Amodei 預估一半初階白領工作將在數年內消失
+4. [不要當末日派，也別盲目樂觀：Amodei 的「外科手術式監管」主張](/posts/20260128-dario-amodei-regulation-philosophy/)
+5. [AI 正在加速開發下一代 AI：Amodei 描述的回饋循環為什麼讓人不安](/posts/20260128-dario-amodei-ai-feedback-loop/)

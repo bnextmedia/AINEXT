@@ -93,7 +93,7 @@ Amodei 用了一段話直接回應了「暫停 AI 開發」的呼籲。他的論
 本系列共五篇，整理自 Dario Amodei 的長文[《科技的青春期》（The Adolescence of Technology）](https://www.darioamodei.com/essay/the-adolescence-of-technology)：
 
 1. [Anthropic 執行長萬字長文：人類正在經歷「文明的青春期」](/posts/20260128-dario-amodei-adolescence-of-technology-overview/)
-2. [Amodei 直言：別把晶片設備賣給中國，AI 極權是人類最大威脅](/posts/20260128-dario-amodei-ai-autocracy-geopolitics/)
+2. [Amodei 直言：別把晶片和資料中心賣給中國，AI 極權是人類最大威脅](/posts/20260128-dario-amodei-ai-autocracy-geopolitics/)
 3. [AI 取代白領不是危言聳聽：Amodei 預估一半初階白領工作將在數年內消失](/posts/20260128-dario-amodei-ai-economy-jobs/)
 4. **本篇 →** 不要當末日派，也別盲目樂觀：Amodei 的「外科手術式監管」主張
 5. [AI 正在加速開發下一代 AI：Amodei 描述的回饋循環為什麼讓人不安](/posts/20260128-dario-amodei-ai-feedback-loop/)

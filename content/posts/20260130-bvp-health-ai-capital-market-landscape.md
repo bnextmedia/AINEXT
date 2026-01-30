@@ -6,6 +6,7 @@ tags: ["Bessemer Venture Partners", "醫療 AI", "Health Tech", "創投", "IPO"]
 categories: ["AI 產業動態"]
 source_url: "https://www.bvp.com/atlas/state-of-health-ai-2026"
 source_name: "Bessemer Venture Partners"
+image: "/images/posts/bvp-health-ai-capital-market.jpg"
 draft: false
 ---
 

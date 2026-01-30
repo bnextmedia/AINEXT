@@ -6,6 +6,7 @@ tags: ["中國", "AI", "半導體", "Zak Dychtwald", "Jodi Shelton", "GSA", "BYD
 categories: ["地緣政治與經濟"]
 source_url: "https://www.youtube.com/watch?v=ei_rOzzgqYo"
 source_name: "A Bit Personal with Jodi Shelton"
+image: "/images/posts/20260130-china-ai-misconceptions.jpg"
 draft: false
 ---
 

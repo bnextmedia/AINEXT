@@ -1,15 +1,15 @@
 ---
 title: "你手機裡的 50 個 App，有一半活不過這一年"
 date: 2026-01-31T10:00:00+08:00
-description: "MaltBot 作者 Peter Steinberger 在首次公開訪談中預言：AI 助手將讓大量 App「融化消失」。從 MyFitnessPal 到設計公司的 25 個內部工具，個人化 AI 正在瓦解我們習以為常的 App 經濟。當軟體變成對話的副產品，App Store 的商業模式還能撐多久？"
-tags: ["Peter Steinberger", "MaltBot", "AI Agent", "App 經濟", "個人 AI 助手", "Podcast"]
+description: "OpenClaw 作者 Peter Steinberger 在首次公開訪談中預言：AI 助手將讓大量 App「融化消失」。從 MyFitnessPal 到設計公司的 25 個內部工具，個人化 AI 正在瓦解我們習以為常的 App 經濟。當軟體變成對話的副產品，App Store 的商業模式還能撐多久？"
+tags: ["Peter Steinberger", "OpenClaw", "AI Agent", "App 經濟", "個人 AI 助手", "Podcast"]
 categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=qyjTpzIAEkA"
 source_name: "TBPN"
 draft: false
 ---
 
-> 本文整理自 TBPN（The Block Party Network）2026 年 1 月 28 日播出的訪談，由 John Coogan 主持，訪問開源 AI 助手 MaltBot（原名 Clawdbot）作者 Peter Steinberger。
+> 本文整理自 TBPN（The Block Party Network）2026 年 1 月 28 日播出的訪談，由 John Coogan 主持，訪問開源 AI 助手 OpenClaw 作者 Peter Steinberger。這個專案在短短數週內經歷了三次更名：最初叫 Clawdbot，因 Anthropic 的商標要求改為 Moltbot，後再更名為現在的 OpenClaw。
 
 {{< youtube qyjTpzIAEkA >}}
 
@@ -43,7 +43,7 @@ Peter 在訪談中進一步推演：當 App 的使用者介面變得不重要，
 
 Peter 分享了一個讓他自己也驚訝的案例。他在一場聚會上遇到一位來自印第安納州的設計公司負責人，這個人從未寫過程式。
 
-這位負責人在 2025 年 12 月發現了 MaltBot，開始透過 Telegram 跟他的 AI 助手對話。到訪談時，他的公司已經建了 25 個內部 Web 服務——全部是透過跟 AI 聊天產生的。他不知道程式碼怎麼運作，他只是把問題描述出來，AI 就把工具建好了。
+這位負責人在 2025 年 12 月發現了 OpenClaw（當時還叫 Clawdbot），開始透過 Telegram 跟他的 AI 助手對話。到訪談時，他的公司已經建了 25 個內部 Web 服務——全部是透過跟 AI 聊天產生的。他不知道程式碼怎麼運作，他只是把問題描述出來，AI 就把工具建好了。
 
 這個案例的震撼不在於「AI 能寫程式」——這件事大家早就知道。震撼在於：非技術者已經跳過了「學習使用現成 App」這個步驟，直接進入「讓 AI 幫我量身打造」的階段。
 

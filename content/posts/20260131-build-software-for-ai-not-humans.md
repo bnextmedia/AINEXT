@@ -1,15 +1,15 @@
 ---
-title: "不要為人類設計軟體了——MaltBot 作者談 AI 時代的軟體設計範式"
+title: "不要為人類設計軟體了——OpenClaw 作者談 AI 時代的軟體設計範式"
 date: 2026-01-31T12:00:00+08:00
-description: "MaltBot 作者 Peter Steinberger 提出一個激進觀點：現在的軟體應該為 AI 模型設計，而不是為人類設計。從 CLI 優於 GUI 到「模型怎麼想，你就怎麼建」，這是一套正在成形的新設計哲學——而它的根源，竟然是 1969 年的 Unix。"
-tags: ["Peter Steinberger", "MaltBot", "Unix", "CLI", "AI Agent", "軟體設計", "MCP", "Podcast"]
+description: "OpenClaw 作者 Peter Steinberger 提出一個激進觀點：現在的軟體應該為 AI 模型設計，而不是為人類設計。從 CLI 優於 GUI 到「模型怎麼想，你就怎麼建」，這是一套正在成形的新設計哲學——而它的根源，竟然是 1969 年的 Unix。"
+tags: ["Peter Steinberger", "OpenClaw", "Unix", "CLI", "AI Agent", "軟體設計", "MCP", "Podcast"]
 categories: ["AI 開發實戰"]
 source_url: "https://www.youtube.com/watch?v=qyjTpzIAEkA"
 source_name: "TBPN"
 draft: false
 ---
 
-> 本文整理自 TBPN（The Block Party Network）2026 年 1 月 28 日播出的訪談，由 John Coogan 主持，訪問開源 AI 助手 MaltBot（原名 Clawdbot）作者 Peter Steinberger。
+> 本文整理自 TBPN（The Block Party Network）2026 年 1 月 28 日播出的訪談，由 John Coogan 主持，訪問開源 AI 助手 OpenClaw 作者 Peter Steinberger。這個專案在短短數週內經歷了三次更名（Clawdbot → Moltbot → OpenClaw），目前 GitHub 星數已突破十萬。
 
 {{< youtube qyjTpzIAEkA >}}
 
@@ -21,7 +21,7 @@ draft: false
 
 ## 一個聽起來瘋狂的建議
 
-Peter Steinberger 在訪談中用了一句話，概括他建造 MaltBot 整套技術架構的核心原則：不要為人類設計，要為模型設計。
+Peter Steinberger 在訪談中用了一句話，概括他建造 OpenClaw 整套技術架構的核心原則：不要為人類設計，要為模型設計。
 
 他舉了一個很具體的例子。當他幫自己的 AI 助手建造各種工具時，如果模型需要一個 `--log` 參數，他就建一個真的叫 `--log` 的參數。不是建一個漂亮的 Web 儀表板讓人類去點，而是建一個 AI 模型預期會存在的命令列介面。因為模型的訓練資料裡充滿了 Unix 命令和 CLI 工具，它們對這種介面的理解遠比對任何 GUI 都深。
 
@@ -29,11 +29,11 @@ Peter Steinberger 在訪談中用了一句話，概括他建造 MaltBot 整套�
 
 ## 為什麼 AI 更懂 CLI
 
-Peter 在 MaltBot 裡幾乎沒有用 MCP（Model Context Protocol），而是把所有功能包成獨立的 CLI 工具。Google 日曆有 CLI、Sonos 音響有 CLI、居家監視器有 CLI、連智慧床都有 CLI。他在建造 MaltBot 之前，花了好幾個月就在寫這些小型命令列工具。
+Peter 在 OpenClaw 裡幾乎沒有用 MCP（Model Context Protocol），而是把所有功能包成獨立的 CLI 工具。Google 日曆有 CLI、Sonos 音響有 CLI、居家監視器有 CLI、連智慧床都有 CLI。他在建造 OpenClaw 之前，花了好幾個月就在寫這些小型命令列工具。
 
 他的解釋是這樣的：AI 模型認識 Unix。你的電腦上可以裝一千個小程式，模型只需要知道程式的名字。它去呼叫 help 選單，讀完就知道怎麼用了。整個互動模式和 Unix 的管線（pipe）哲學完全吻合——每個工具做一件事，透過標準輸入輸出串接。
 
-這種設計讓 MaltBot 的能力隨著工具數量線性成長。每多一個 CLI，助手就多一項技能。而且這些工具之間可以自由組合——模型可以決定先呼叫 A、把結果餵給 B、再根據 B 的輸出決定要不要呼叫 C。這種彈性是 MCP 之類的框架做不到的。
+這種設計讓 OpenClaw 的能力隨著工具數量線性成長。每多一個 CLI，助手就多一項技能。而且這些工具之間可以自由組合——模型可以決定先呼叫 A、把結果餵給 B、再根據 B 的輸出決定要不要呼叫 C。這種彈性是 MCP 之類的框架做不到的。
 
 更重要的是，這些 CLI 不需要額外的文件。模型第一次呼叫一個不熟悉的 CLI 會失敗，但它會讀到 help 訊息，然後第二次就成功了。Peter 說這個「失敗一次、學會一次」的迴圈大概只需要十五秒，但換來的是一個乾淨的 context——不需要在 session 啟動時就把所有工具的完整說明塞進去。
 

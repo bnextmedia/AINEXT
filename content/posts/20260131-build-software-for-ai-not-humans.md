@@ -6,6 +6,7 @@ tags: ["Peter Steinberger", "OpenClaw", "Unix", "CLI", "AI Agent", "軟體設計
 categories: ["AI 開發實戰"]
 source_url: "https://www.youtube.com/watch?v=qyjTpzIAEkA"
 source_name: "TBPN"
+image: "/images/posts/20260131-openclaw-peter-steinberger-tbpn.jpg"
 draft: false
 ---
 

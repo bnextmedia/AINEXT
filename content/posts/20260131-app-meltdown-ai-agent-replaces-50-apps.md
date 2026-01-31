@@ -6,6 +6,7 @@ tags: ["Peter Steinberger", "OpenClaw", "AI Agent", "App 經濟", "個人 AI 助
 categories: ["AI 產業動態"]
 source_url: "https://www.youtube.com/watch?v=qyjTpzIAEkA"
 source_name: "TBPN"
+image: "/images/posts/20260131-openclaw-peter-steinberger-tbpn.jpg"
 draft: false
 ---
 

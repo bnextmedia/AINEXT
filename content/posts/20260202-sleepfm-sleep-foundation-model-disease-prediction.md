@@ -7,6 +7,7 @@ categories: ["AI 技術前沿"]
 source_url: "https://www.nature.com/articles/s41591-025-04133-4"
 source_name: "Nature Medicine"
 related_companies: ["stanford"]
+image: "/images/posts/20260202-sleepfm-cover.webp"
 draft: false
 ---
 

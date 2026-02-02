@@ -4,7 +4,7 @@
   1-8. 八大分類（錨點連結到首頁區塊）
   9.   AI 活動   → /activities/
   10.  AI 公司   → /companies/
-  11.  AI 人物   → /people/ (disabled)
+  11.  AI 人物   → /people/
 */}}
 
 {{ $baseUrl := "/" | relURL }}
@@ -53,7 +53,7 @@
 
       {{/* AI 人物 */}}
       <li class="site-nav__item">
-        <a href="{{ "/people/" | relURL }}" class="site-nav__link site-nav__link--disabled" aria-disabled="true">AI 人物</a>
+        <a href="{{ "/people/" | relURL }}" class="site-nav__link">AI 人物</a>
       </li>
     </ul>
   </div>

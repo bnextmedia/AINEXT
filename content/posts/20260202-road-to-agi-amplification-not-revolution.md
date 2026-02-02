@@ -22,6 +22,13 @@ draft: false
 
 ---
 
+> **本文是 Lex Fridman Podcast #490 系列整理的第四篇，共四篇：**
+>
+> 1. [AI 寫程式的真相：從 Vibe Coding 到軟體工程的未來](/posts/20260202-ai-coding-reality-vibe-coding-software-future/)
+> 2. [Scaling Laws 還沒撞牆，但遊戲規則正在改寫](/posts/20260202-scaling-laws-not-dead-game-rules-rewritten/)
+> 3. [開源 vs 閉源、中國 vs 美國：AI 的新冷戰已經開打](/posts/20260202-open-vs-closed-china-us-ai-cold-war/)
+> 4. **通往 AGI 的路上，我們更可能先遇到什麼？**（本篇）
+
 ## AGI 到底是什麼？這個問題本身就是問題
 
 Lex Fridman Podcast 第 490 集的最後三分之一，三位對談者從技術細節退後一步，開始聊一個更大的問題：AGI（通用人工智慧）到底距離我們多遠？但在回答「多遠」之前，他們先卡在了「什麼是 AGI」這個更基本的問題上。

@@ -22,6 +22,13 @@ draft: false
 
 ---
 
+> **本文是 Lex Fridman Podcast #490 系列整理的第二篇，共四篇：**
+>
+> 1. [AI 寫程式的真相：從 Vibe Coding 到軟體工程的未來](/posts/20260202-ai-coding-reality-vibe-coding-software-future/)
+> 2. **Scaling Laws 還沒撞牆，但遊戲規則正在改寫**（本篇）
+> 3. [開源 vs 閉源、中國 vs 美國：AI 的新冷戰已經開打](/posts/20260202-open-vs-closed-china-us-ai-cold-war/)
+> 4. [通往 AGI 的路上，我們更可能先遇到什麼？](/posts/20260202-road-to-agi-amplification-not-revolution/)
+
 ## 同一個架構，居然撐了這麼久
 
 Lex Fridman 這集找來了兩位在 AI 技術前線工作的研究者。Sebastian Raschka 是 Lightning AI 的資深研究工程師，也是暢銷書《Build a Large Language Model (From Scratch)》與《Build a Reasoning Model (From Scratch)》的作者。Nathan Lambert 則是艾倫人工智慧研究所（AI2）的後訓練團隊負責人，主導 Atom Project（美國開放模型計畫），去年出版了 RLHF 領域的重要著作《Reinforcement Learning from Human Feedback》。

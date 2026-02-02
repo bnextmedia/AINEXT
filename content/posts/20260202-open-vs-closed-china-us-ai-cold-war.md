@@ -22,6 +22,13 @@ draft: false
 
 ---
 
+> **本文是 Lex Fridman Podcast #490 系列整理的第三篇，共四篇：**
+>
+> 1. [AI 寫程式的真相：從 Vibe Coding 到軟體工程的未來](/posts/20260202-ai-coding-reality-vibe-coding-software-future/)
+> 2. [Scaling Laws 還沒撞牆，但遊戲規則正在改寫](/posts/20260202-scaling-laws-not-dead-game-rules-rewritten/)
+> 3. **開源 vs 閉源、中國 vs 美國：AI 的新冷戰已經開打**（本篇）
+> 4. [通往 AGI 的路上，我們更可能先遇到什麼？](/posts/20260202-road-to-agi-amplification-not-revolution/)
+
 ## 一場關於誰「擁有」AI 未來的角力
 
 多數人討論 AI，焦點放在模型有多聰明、能做什麼事。但 Lex Fridman Podcast 第 490 集裡，Nathan Lambert 與 Sebastian Raschka 花了大量時間談的不是技術本身，而是技術背後的權力結構：誰訓練模型、誰控制模型、誰從中獲利。
@@ -76,11 +83,11 @@ Nathan 補充了另一個角度：AI 服務可能最終會變成像 AWS、Azure�
 
 ## 矽谷的 Licensing Deal 危機
 
-Nathan 談到產業整合時，情緒明顯比討論技術時更激動。2025 到 2026 年間，Grok 以 200 億美元被 NVIDIA 收購、Scale.ai 估值接近 300 億美元，還有無數較小的交易。但 Nathan 認為這些交易的結構方式「對矽谷生態系是有害的」。
+Nathan 談到產業整合時，情緒明顯比討論技術時更激動。2025 到 2026 年間，NVIDIA 與 AI 晶片新創公司 Groq 達成 200 億美元的非獨家技術授權協議、Scale.ai 估值接近 300 億美元，還有無數較小的交易。但 Nathan 認為這些交易的結構方式「對矽谷生態系是有害的」。
 
 問題出在越來越多的交易採用「授權式」架構，而非傳統收購。傳統收購中，被收購公司的全體員工（包括基層）的股票會被兌現，這是矽谷新創生態的根基。但 licensing deal 往往只帶走頂尖人才，留下其他人。「加入新創，即使它不是超級成功，你的公司很可能會被收購，你的股權會得到兌現。這是一個社會契約。Licensing deal 正在破壞這個契約。」
 
-他也承認 Grok 被 NVIDIA 收購的交易條件，據傳對員工比較友善，但趨勢本身令人擔憂。這些交易結構之所以流行，部分原因是為了規避反壟斷審查。
+他也承認 NVIDIA 與 Groq 的授權協議條件，據傳對員工比較友善，但趨勢本身令人擔憂。這些交易結構之所以流行，部分原因是為了規避反壟斷審查。
 
 ## 中國 AI 新創 IPO vs 美國不上市
 

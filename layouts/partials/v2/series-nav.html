@@ -1,0 +1,98 @@
+{{/* AINEXT V2 - 系列文章導覽元件 */}}
+{{/*
+  使用條件：文章 front matter 包含 series 欄位
+  front matter 範例：
+    series: "Yoshua Bengio AI 安全系列"
+    series_order: 2
+
+  顯示：系列名稱、共幾篇、目前第幾篇、所有篇目連結（當前篇高亮）
+*/}}
+
+{{ $currentPage := . }}
+{{ $seriesName := .Params.series }}
+
+{{ if $seriesName }}
+  {{/* 找出同系列的所有文章，按 series_order 排序；未設定 order 的按日期排 */}}
+  {{ $allPosts := where .Site.RegularPages "Type" "posts" }}
+  {{ $seriesPosts := where $allPosts "Params.series" $seriesName }}
+
+  {{/* 按 series_order 排序（有 order 的在前，按數字升序；沒有的按日期升序） */}}
+  {{ $withOrder := slice }}
+  {{ $withoutOrder := slice }}
+  {{ range $seriesPosts }}
+    {{ if .Params.series_order }}
+      {{ $withOrder = $withOrder | append . }}
+    {{ else }}
+      {{ $withoutOrder = $withoutOrder | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $withOrder = sort $withOrder "Params.series_order" }}
+  {{ $withoutOrder = sort $withoutOrder "Date" }}
+  {{ $sortedPosts := $withOrder }}
+  {{ range $withoutOrder }}
+    {{ $sortedPosts = $sortedPosts | append . }}
+  {{ end }}
+
+  {{ $totalPosts := len $sortedPosts }}
+
+  {{ if gt $totalPosts 1 }}
+  {{/* 找出目前是第幾篇 */}}
+  {{ $currentIndex := 0 }}
+  {{ range $i, $p := $sortedPosts }}
+    {{ if eq $p.Permalink $currentPage.Permalink }}
+      {{ $currentIndex = add $i 1 }}
+    {{ end }}
+  {{ end }}
+
+  <nav class="series-nav" aria-label="系列文章導覽">
+    <div class="series-nav__header">
+      <span class="series-nav__label">系列文章</span>
+      <h3 class="series-nav__title">{{ $seriesName }}</h3>
+      <p class="series-nav__progress">第 {{ $currentIndex }} 篇，共 {{ $totalPosts }} 篇</p>
+    </div>
+
+    <ol class="series-nav__list">
+      {{ range $i, $p := $sortedPosts }}
+      {{ $num := add $i 1 }}
+      {{ $isCurrent := eq $p.Permalink $currentPage.Permalink }}
+      <li class="series-nav__item{{ if $isCurrent }} series-nav__item--current{{ end }}">
+        {{ if $isCurrent }}
+        <span class="series-nav__number">{{ $num }}</span>
+        <span class="series-nav__link series-nav__link--current">{{ $p.Title }}</span>
+        {{ else }}
+        <span class="series-nav__number">{{ $num }}</span>
+        <a href="{{ $p.Permalink }}" class="series-nav__link">{{ $p.Title }}</a>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ol>
+
+    {{/* 上一篇 / 下一篇快速導覽 */}}
+    {{ if gt $currentIndex 0 }}
+    <div class="series-nav__arrows">
+      {{ if gt $currentIndex 1 }}
+        {{ $prevIndex := sub $currentIndex 2 }}
+        {{ $prevPost := index $sortedPosts $prevIndex }}
+        <a href="{{ $prevPost.Permalink }}" class="series-nav__arrow series-nav__arrow--prev">
+          <span class="series-nav__arrow-label">&larr; 上一篇</span>
+          <span class="series-nav__arrow-title">{{ $prevPost.Title | truncate 40 }}</span>
+        </a>
+      {{ else }}
+        <div></div>
+      {{ end }}
+
+      {{ if lt $currentIndex $totalPosts }}
+        {{ $nextPost := index $sortedPosts $currentIndex }}
+        <a href="{{ $nextPost.Permalink }}" class="series-nav__arrow series-nav__arrow--next">
+          <span class="series-nav__arrow-label">下一篇 &rarr;</span>
+          <span class="series-nav__arrow-title">{{ $nextPost.Title | truncate 40 }}</span>
+        </a>
+      {{ else }}
+        <div></div>
+      {{ end }}
+    </div>
+    {{ end }}
+
+  </nav>
+  {{ end }}
+{{ end }}

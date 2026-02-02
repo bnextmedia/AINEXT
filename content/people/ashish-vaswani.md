@@ -1,8 +1,8 @@
 ---
 # === 基本資訊 ===
-title: "乃謝詩・瓦斯瓦尼 Ashish Vaswani"
+title: "阿希什・瓦斯瓦尼 Ashish Vaswani"
 slug: "ashish-vaswani"
-name_zh: "乃謝詩・瓦斯瓦尼"
+name_zh: "阿希什・瓦斯瓦尼"
 name_en: "Ashish Vaswani"
 name_full_en: "Ashish Vaswani"
 

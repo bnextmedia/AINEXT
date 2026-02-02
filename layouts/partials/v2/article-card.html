@@ -76,7 +76,11 @@
 
     {{ if $image }}
     <div class="article-card__image-wrapper">
-      <img src="{{ $image }}" alt="{{ $page.Title }}" class="article-card__image" loading="lazy">
+      <img src="{{ $image }}" alt="{{ $page.Title }}" class="article-card__image" loading="lazy"
+        {{ if strings.Contains $image "maxresdefault" }}
+        onerror="if(this.src.includes('maxresdefault')){this.onerror=function(){this.style.display='none'};this.src=this.src.replace('maxresdefault','hqdefault');}else{this.style.display='none';}"
+        {{ end }}
+      >
       {{ if $imageCredit }}
       <span class="article-card__credit">{{ $imageCredit }}</span>
       {{ end }}

@@ -348,6 +348,35 @@
   &:hover
     color: $color-accent
 
+// Footer 贊助按鈕
+.site-footer__support
+  display: flex
+  gap: $spacing-xs
+  margin-top: $spacing-md
+  flex-wrap: wrap
+
+.site-footer__support-btn
+  display: inline-block
+  padding: 0.4rem 0.9rem
+  border-radius: 4px
+  font-family: $font-ui
+  font-size: $font-size-caption
+  font-weight: $font-weight-medium
+  text-decoration: none
+  transition: $transition-base
+
+  &--bmc
+    background: #FFDD00
+    color: #000000
+    &:hover
+      background: #e6c700
+
+  &--kofi
+    background: #FF5E5B
+    color: #ffffff
+    &:hover
+      background: #e54845
+
 // Footer 底部
 .site-footer__bottom
   display: flex

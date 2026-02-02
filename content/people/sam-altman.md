@@ -1,8 +1,8 @@
 ---
 # === 基本資訊 ===
-title: "山姆・乃特曼 Sam Altman"
+title: "山姆・奧特曼 Sam Altman"
 slug: "sam-altman"
-name_zh: "山姆・乃特曼"
+name_zh: "山姆・奧特曼"
 name_en: "Sam Altman"
 name_full_en: "Samuel Harris Altman"
 

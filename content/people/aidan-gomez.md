@@ -1,8 +1,8 @@
 ---
 # === 基本資訊 ===
-title: "艾丹・乃美茲 Aidan Gomez"
+title: "艾丹・戈梅茲 Aidan Gomez"
 slug: "aidan-gomez"
-name_zh: "艾丹・乃美茲"
+name_zh: "艾丹・戈梅茲"
 name_en: "Aidan Gomez"
 name_full_en: "Aidan Gomez"
 

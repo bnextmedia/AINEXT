@@ -1,0 +1,126 @@
+// ============================================
+// About 頁面樣式（關於 James / 關於 AINEXT）
+// ============================================
+
+.about-page
+  max-width: $max-width-content
+  margin: 0 auto
+  padding: $spacing-xl $spacing-md $spacing-xxl
+
+  &__header
+    margin-bottom: $spacing-xl
+    padding-bottom: $spacing-lg
+    border-bottom: 2px solid $color-text
+
+  &__title
+    font-family: $font-headline
+    font-size: $font-size-h1
+    font-weight: $font-weight-semibold
+    line-height: $line-height-tight
+    color: $color-text
+
+    @media (max-width: $breakpoint-sm)
+      font-size: 2rem
+
+  // 內文樣式
+  &__content
+    font-family: $font-body
+    font-size: $font-size-base
+    line-height: $line-height-loose
+    color: $color-text
+
+    // 段落
+    p
+      margin-bottom: $spacing-md
+      &:last-child
+        margin-bottom: 0
+
+    // 小標題
+    h2
+      font-family: $font-headline
+      font-size: $font-size-h3
+      font-weight: $font-weight-semibold
+      line-height: $line-height-tight
+      margin-top: $spacing-xl
+      margin-bottom: $spacing-md
+      padding-bottom: $spacing-xs
+      border-bottom: 1px solid $color-divider
+
+    h3
+      font-family: $font-headline
+      font-size: $font-size-h4
+      font-weight: $font-weight-medium
+      margin-top: $spacing-lg
+      margin-bottom: $spacing-sm
+
+    // 連結
+    a
+      color: $color-accent
+      text-decoration: none
+      border-bottom: 1px solid transparent
+      transition: $transition-base
+
+      &:hover
+        border-bottom-color: $color-accent
+
+    // 粗體
+    strong
+      font-weight: $font-weight-semibold
+
+    // 分隔線
+    hr
+      border: none
+      border-top: 1px solid $color-divider
+      margin: $spacing-xl 0
+
+    // 斜體結語
+    em
+      font-style: italic
+      color: $color-text-light
+
+// 贊助按鈕區
+.about-support
+  display: flex
+  gap: $spacing-sm
+  margin: $spacing-md 0 $spacing-lg
+  flex-wrap: wrap
+
+  &__btn
+    display: inline-flex
+    align-items: center
+    padding: 0.75rem 1.5rem
+    border-radius: 6px
+    font-family: $font-ui
+    font-size: $font-size-small
+    font-weight: $font-weight-medium
+    text-decoration: none
+    transition: $transition-base
+
+    &--bmc
+      background: #FFDD00
+      color: #000000
+      &:hover
+        background: #e6c700
+        transform: translateY(-1px)
+
+    &--kofi
+      background: #FF5E5B
+      color: #ffffff
+      &:hover
+        background: #e54845
+        transform: translateY(-1px)
+
+// Email 連結樣式
+.about-email
+  margin: $spacing-sm 0
+
+  a
+    font-family: $font-ui
+    font-size: 1.1rem
+    color: $color-accent
+    text-decoration: none
+    border-bottom: 1px solid $color-accent
+
+    &:hover
+      color: $color-accent-hover
+      border-bottom-color: $color-accent-hover

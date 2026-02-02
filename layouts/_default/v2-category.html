@@ -24,30 +24,93 @@
     {{ $categoryName := .Params.category }}
     {{ $allPages := where .Site.RegularPages "Type" "posts" }}
     {{ $categoryPages := where $allPages "Params.categories" "intersect" (slice $categoryName) }}
+    {{ $totalArticles := len $categoryPages }}
 
     <div class="category-page">
 
       {{/* 分類標題區 */}}
       <header class="category-page__header">
         <h1 class="category-page__title">{{ $categoryName }}</h1>
-        <p class="category-page__count">共 {{ len $categoryPages }} 篇文章</p>
+        <p class="category-page__count">共 {{ $totalArticles }} 篇文章</p>
       </header>
 
       {{/* 文章列表 */}}
       <div class="category-page__content">
 
-        {{/* 第一篇大圖顯示 */}}
+        {{/* 置頂文章：橫向排列（左圖右文） */}}
         {{ with index $categoryPages 0 }}
         <article class="category-page__featured">
-          {{ partial "v2/article-card.html" (dict "page" . "variant" "hero") }}
+          {{ partial "v2/article-card.html" (dict "page" . "variant" "horizontal") }}
         </article>
         {{ end }}
 
-        {{/* 其餘文章網格 */}}
-        {{ if gt (len $categoryPages) 1 }}
-        <div class="category-page__grid">
+        {{/* 其餘文章：緊湊列表（小圖 + 標題 + 日期，一行一篇） */}}
+        {{ if gt $totalArticles 1 }}
+        <div class="category-page__list">
           {{ range $categoryPages | after 1 }}
-            {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+          <article class="category-page__list-item">
+            <a href="{{ .Permalink }}" class="list-item">
+              {{/* 小縮圖 */}}
+              {{ $image := .Params.image }}
+              {{ if not $image }}
+                {{ with .Resources.GetMatch "*.{jpg,jpeg,png,gif,webp}" }}
+                  {{ $image = .RelPermalink }}
+                {{ end }}
+              {{ end }}
+              {{ if not $image }}
+                {{ with .Params.source_url }}
+                  {{ if or (strings.Contains . "youtube.com") (strings.Contains . "youtu.be") }}
+                    {{ $videoId := "" }}
+                    {{ if strings.Contains . "watch?v=" }}
+                      {{ $parts := split . "watch?v=" }}
+                      {{ if gt (len $parts) 1 }}
+                        {{ $videoId = index (split (index $parts 1) "&") 0 }}
+                      {{ end }}
+                    {{ end }}
+                    {{ if strings.Contains . "youtu.be/" }}
+                      {{ $parts := split . "youtu.be/" }}
+                      {{ if gt (len $parts) 1 }}
+                        {{ $videoId = index (split (index $parts 1) "?") 0 }}
+                      {{ end }}
+                    {{ end }}
+                    {{ if $videoId }}
+                      {{ $image = printf "https://img.youtube.com/vi/%s/mqdefault.jpg" $videoId }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+
+              {{ if $image }}
+              <div class="list-item__thumb">
+                <img src="{{ $image }}" alt="{{ .Title }}" loading="lazy"
+                  {{ if strings.Contains (string $image) "mqdefault" }}
+                  onerror="this.style.display='none'"
+                  {{ end }}
+                >
+              </div>
+              {{ else }}
+              <div class="list-item__thumb list-item__thumb--empty"></div>
+              {{ end }}
+
+              {{/* 文字區 */}}
+              <div class="list-item__body">
+                <h3 class="list-item__title">{{ .Title }}</h3>
+                <p class="list-item__excerpt">
+                  {{ with .Description }}
+                    {{ . | truncate 80 }}
+                  {{ else }}
+                    {{ .Summary | plainify | truncate 80 }}
+                  {{ end }}
+                </p>
+                <div class="list-item__meta">
+                  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+                  {{ with .Params.source_name }}
+                  <span class="list-item__source">{{ . }}</span>
+                  {{ end }}
+                </div>
+              </div>
+            </a>
+          </article>
           {{ end }}
         </div>
         {{ end }}

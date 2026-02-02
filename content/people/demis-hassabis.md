@@ -1,8 +1,8 @@
 ---
 # === 基本資訊 ===
-title: "戴密斯・乃薩比斯 Demis Hassabis"
+title: "德米斯・哈薩比斯 Demis Hassabis"
 slug: "demis-hassabis"
-name_zh: "戴密斯・乃薩比斯"
+name_zh: "德米斯・哈薩比斯"
 name_en: "Demis Hassabis"
 name_full_en: "Sir Demis Hassabis CBE FRS"
 

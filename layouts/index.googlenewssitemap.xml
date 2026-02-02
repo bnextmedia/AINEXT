@@ -1,0 +1,33 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  {{- $now := now }}
+  {{- $twoDaysAgo := $now.AddDate 0 0 -2 }}
+  {{- $posts := where .Site.RegularPages "Type" "posts" }}
+  {{- range $posts }}
+    {{- if ge .Date.Unix $twoDaysAgo.Unix }}
+  <url>
+    <loc>{{ .Permalink }}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>{{ $.Site.Title }}</news:name>
+        <news:language>{{ $.Site.LanguageCode | default "zh-TW" }}</news:language>
+      </news:publication>
+      <news:publication_date>{{ .Date.Format "2006-01-02T15:04:05+08:00" }}</news:publication_date>
+      <news:title>{{ .Title | htmlEscape }}</news:title>
+      {{- with .Params.tags }}
+      <news:keywords>{{ delimit . ", " }}</news:keywords>
+      {{- end }}
+    </news:news>
+    {{- with .Params.image }}
+    <image:image>
+      <image:loc>{{ . | absURL }}</image:loc>
+      <image:title>{{ $.Title | htmlEscape }}</image:title>
+    </image:image>
+    {{- end }}
+    <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05+08:00" }}</lastmod>
+  </url>
+    {{- end }}
+  {{- end }}
+</urlset>

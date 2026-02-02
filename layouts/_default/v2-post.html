@@ -6,6 +6,21 @@
   <title>{{ .Params.post_title | default .Title }} | {{ .Site.Title }}</title>
   <meta name="description" content="{{ .Params.post_description | default .Site.Params.description }}">
 
+  {{/* Open Graph */}}
+  <meta property="og:title" content="{{ .Params.post_title | default .Title }}">
+  <meta property="og:description" content="{{ .Params.post_description | default .Site.Params.description }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:locale" content="zh_TW">
+  {{ if .Params.image }}
+  <meta property="og:image" content="{{ .Params.image | absURL }}">
+  {{ else }}
+  <meta property="og:image" content="{{ "images/og-default.png" | absURL }}">
+  {{ end }}
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
   {{/* 字體載入 */}}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,6 +88,9 @@
         {{ end }}
       </header>
 
+      {{/* 系列文章導覽（文章上方） */}}
+      {{ partial "v2/series-nav.html" . }}
+
       {{/* 封面圖 */}}
       {{ with .Params.image }}
       <figure class="post-page__cover">
@@ -95,6 +113,9 @@
         </div>
       </footer>
       {{ end }}
+
+      {{/* 系列文章導覽（文章下方，重複顯示方便讀者接著看） */}}
+      {{ partial "v2/series-nav.html" . }}
 
       {{/* 相關文章 */}}
       {{ $related := $.Site.RegularPages.Related . | first 4 }}

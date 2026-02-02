@@ -1,4 +1,5 @@
 // AINEXT V2 - 分類列表頁樣式
+// 報紙風格：緊湊、高資訊密度、桌面友善
 
 @import "variables"
 
@@ -14,18 +15,18 @@
 // 標題區
 .category-page__header
   text-align: center
-  padding-bottom: $spacing-xl
-  margin-bottom: $spacing-xl
+  padding-bottom: $spacing-lg
+  margin-bottom: $spacing-lg
   border-bottom: 3px solid $color-text
 
 .category-page__title
   @include font-headline
-  font-size: 3rem
+  font-size: 2.5rem
   font-weight: $font-weight-regular
-  margin-bottom: $spacing-sm
+  margin-bottom: $spacing-xs
 
   @media (max-width: $breakpoint-md)
-    font-size: 2.5rem
+    font-size: 2rem
 
 .category-page__count
   @include font-ui
@@ -36,33 +37,130 @@
 .category-page__content
   // 留空，讓子元素控制
 
-// 首篇大圖
+// ============================================
+// 置頂文章（橫向排列，桌面版左圖右文）
+// ============================================
+
 .category-page__featured
-  margin-bottom: $spacing-xl
-  padding-bottom: $spacing-xl
+  margin-bottom: $spacing-lg
+  padding-bottom: $spacing-lg
   border-bottom: 1px solid $color-divider
 
-  .article-card__title
-    font-size: 2.5rem
+  // 覆寫 horizontal card 在分類頁的表現
+  .article-card--horizontal
+    grid-template-columns: 1fr 1fr
+    gap: $spacing-lg
 
     @media (max-width: $breakpoint-md)
-      font-size: 2rem
+      grid-template-columns: 1fr
+
+  .article-card__title
+    font-size: 1.75rem
+
+    @media (max-width: $breakpoint-md)
+      font-size: 1.5rem
 
   .article-card__excerpt
-    font-size: 1.125rem
-    max-width: 800px
+    font-size: 1rem
+    max-width: 100%
 
-// 文章網格
-.category-page__grid
+// ============================================
+// 文章列表（緊湊一行一篇）
+// ============================================
+
+.category-page__list
+  display: flex
+  flex-direction: column
+
+.category-page__list-item
+  border-bottom: 1px solid $color-divider
+
+  &:last-child
+    border-bottom: none
+
+// 列表項目
+.list-item
   display: grid
-  grid-template-columns: repeat(3, 1fr)
-  gap: $spacing-lg
+  grid-template-columns: 120px 1fr
+  gap: $spacing-md
+  padding: $spacing-md 0
+  align-items: start
+  transition: $transition-base
 
-  @media (max-width: $breakpoint-lg)
-    grid-template-columns: repeat(2, 1fr)
+  &:hover
+    .list-item__title
+      color: $color-accent
+
+  @media (min-width: $breakpoint-lg)
+    grid-template-columns: 160px 1fr
 
   @media (max-width: $breakpoint-sm)
-    grid-template-columns: 1fr
+    grid-template-columns: 100px 1fr
+    gap: $spacing-sm
+
+// 小縮圖
+.list-item__thumb
+  aspect-ratio: 16 / 9
+  overflow: hidden
+  background-color: rgba($color-text, 0.05)
+  flex-shrink: 0
+
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+    display: block
+
+.list-item__thumb--empty
+  background-color: rgba($color-text, 0.03)
+
+// 文字區
+.list-item__body
+  display: flex
+  flex-direction: column
+  gap: 4px
+  min-width: 0
+
+.list-item__title
+  @include font-headline
+  font-size: 1.125rem
+  line-height: $line-height-tight
+  transition: color 0.2s ease
+  // 最多 2 行
+  display: -webkit-box
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+  overflow: hidden
+
+  @media (max-width: $breakpoint-sm)
+    font-size: 1rem
+
+.list-item__excerpt
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+  line-height: 1.5
+  // 最多 2 行
+  display: -webkit-box
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+  overflow: hidden
+
+  @media (max-width: $breakpoint-sm)
+    display: none
+
+.list-item__meta
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+  display: flex
+  align-items: center
+  gap: $spacing-xs
+
+.list-item__source
+  &::before
+    content: "·"
+    margin-right: $spacing-xs
 
 // ============================================
 // 分頁樣式

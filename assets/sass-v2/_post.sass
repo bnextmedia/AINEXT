@@ -239,6 +239,117 @@
   gap: $spacing-xs
 
 // ============================================
+// 系列文章導覽
+// ============================================
+
+.series-nav
+  max-width: $max-width-content
+  margin: $spacing-xl auto
+  border: 2px solid $color-text
+  padding: 0
+
+.series-nav__header
+  padding: $spacing-md $spacing-lg
+  border-bottom: 1px solid $color-divider
+  background-color: rgba($color-text, 0.03)
+
+.series-nav__label
+  @include font-ui
+  font-size: $font-size-caption
+  text-transform: uppercase
+  letter-spacing: 0.1em
+  color: $color-accent
+  display: block
+  margin-bottom: 4px
+
+.series-nav__title
+  @include font-headline
+  font-size: 1.25rem
+  font-weight: $font-weight-medium
+  margin-bottom: 4px
+
+.series-nav__progress
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+
+.series-nav__list
+  list-style: none
+  padding: 0
+  margin: 0
+
+.series-nav__item
+  display: flex
+  align-items: baseline
+  gap: $spacing-sm
+  padding: $spacing-sm $spacing-lg
+  border-bottom: 1px solid rgba($color-divider, 0.5)
+
+  &:last-child
+    border-bottom: none
+
+.series-nav__item--current
+  background-color: rgba($color-accent, 0.06)
+
+.series-nav__number
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+  flex-shrink: 0
+  min-width: 1.5rem
+
+.series-nav__link
+  @include font-body
+  font-size: $font-size-small
+  line-height: 1.5
+  color: $color-text
+
+  &:hover
+    color: $color-accent
+
+.series-nav__link--current
+  font-weight: $font-weight-semibold
+  color: $color-text
+
+.series-nav__arrows
+  display: grid
+  grid-template-columns: 1fr 1fr
+  border-top: 2px solid $color-text
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: 1fr
+
+.series-nav__arrow
+  display: flex
+  flex-direction: column
+  gap: 2px
+  padding: $spacing-sm $spacing-lg
+  transition: $transition-base
+
+  &:hover
+    background-color: rgba($color-text, 0.03)
+
+.series-nav__arrow--prev
+  border-right: 1px solid $color-divider
+
+  @media (max-width: $breakpoint-sm)
+    border-right: none
+    border-bottom: 1px solid $color-divider
+
+.series-nav__arrow--next
+  text-align: right
+
+.series-nav__arrow-label
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-accent
+
+.series-nav__arrow-title
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text
+
+// ============================================
 // 相關文章
 // ============================================
 

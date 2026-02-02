@@ -1,0 +1,182 @@
+// AINEXT V2 - HTML Sitemap 頁面樣式
+
+@import "variables"
+
+// ============================================
+// Sitemap 頁面
+// ============================================
+
+.sitemap-page
+  max-width: $max-width
+  margin: 0 auto
+  padding: $spacing-lg $spacing-md
+
+.sitemap-page__header
+  text-align: center
+  padding-bottom: $spacing-lg
+  margin-bottom: $spacing-xl
+  border-bottom: 3px solid $color-text
+
+.sitemap-page__title
+  @include font-headline
+  font-size: 2.5rem
+  font-weight: $font-weight-regular
+  margin-bottom: $spacing-xs
+
+.sitemap-page__desc
+  @include font-ui
+  font-size: $font-size-small
+  color: $color-text-light
+
+// ============================================
+// Sitemap 區塊
+// ============================================
+
+.sitemap-section
+  margin-bottom: $spacing-xl
+  padding-bottom: $spacing-lg
+  border-bottom: 1px solid $color-divider
+
+  &:last-child
+    border-bottom: none
+
+.sitemap-section__title
+  @include font-headline
+  font-size: 1.5rem
+  font-weight: $font-weight-medium
+  margin-bottom: $spacing-md
+  padding-bottom: $spacing-xs
+  border-bottom: 2px solid $color-text
+
+// 基礎列表
+.sitemap-section__list
+  list-style: none
+  padding: 0
+  margin: 0
+
+  li
+    padding: $spacing-xs 0
+    border-bottom: 1px solid rgba($color-divider, 0.5)
+
+    &:last-child
+      border-bottom: none
+
+  a
+    @include font-body
+    font-size: $font-size-small
+    color: $color-text
+
+    &:hover
+      color: $color-accent
+
+  time
+    @include font-ui
+    font-size: $font-size-caption
+    color: $color-text-light
+    margin-left: $spacing-sm
+
+// 緊湊列表（文章用，含日期）
+.sitemap-section__list--compact
+  li
+    display: flex
+    justify-content: space-between
+    align-items: baseline
+    gap: $spacing-sm
+
+    a
+      flex: 1
+      min-width: 0
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+
+// Grid 列表（公司/人物用）
+.sitemap-section__list--grid
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  gap: 0 $spacing-lg
+
+  @media (max-width: $breakpoint-lg)
+    grid-template-columns: repeat(3, 1fr)
+
+  @media (max-width: $breakpoint-md)
+    grid-template-columns: repeat(2, 1fr)
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: 1fr
+
+// ============================================
+// 分類子區塊
+// ============================================
+
+.sitemap-category
+  margin-bottom: $spacing-lg
+
+.sitemap-category__title
+  @include font-headline
+  font-size: 1.125rem
+  font-weight: $font-weight-medium
+  margin-bottom: $spacing-sm
+
+.sitemap-category__count
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+  font-weight: $font-weight-regular
+
+// ============================================
+// 標籤索引
+// ============================================
+
+.sitemap-tags
+  display: flex
+  flex-wrap: wrap
+  gap: $spacing-xs
+
+.sitemap-tag
+  @include font-ui
+  display: inline-flex
+  align-items: center
+  gap: 4px
+  font-size: $font-size-caption
+  padding: 4px 10px
+  background-color: rgba($color-text, 0.05)
+  color: $color-text
+  transition: $transition-base
+
+  &:hover
+    background-color: rgba($color-accent, 0.1)
+    color: $color-accent
+
+.sitemap-tag__count
+  font-size: 11px
+  color: $color-text-light
+
+// ============================================
+// 機器可讀資源表格
+// ============================================
+
+.sitemap-meta-table
+  width: 100%
+
+  td
+    @include font-ui
+    font-size: $font-size-small
+    padding: $spacing-xs $spacing-sm
+
+    &:first-child
+      font-weight: $font-weight-medium
+      white-space: nowrap
+      width: 200px
+
+    a
+      color: $color-accent
+      word-break: break-all
+
+      &:hover
+        text-decoration: underline
+
+.sitemap-section--meta
+  background-color: rgba($color-text, 0.02)
+  padding: $spacing-lg
+  margin-top: $spacing-xl

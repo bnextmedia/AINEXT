@@ -518,5 +518,5 @@ LeNet-5 是一個 7 層的神經網路，專門設計來辨識手寫數字。雖
 
 ## 相關人物
 
-- [傑弗里·辛頓 Geoffrey Hinton](/people/geoffrey-hinton/)：博士後導師、圖靈獎共同得主
-- [乔舒亚·本吉奧 Yoshua Bengio](/people/yoshua-bengio/)：圖靈獎共同得主、長期合作者
+- [傑佛瑞・辛頓 Geoffrey Hinton](/people/geoffrey-hinton/)：博士後導師、圖靈獎共同得主
+- [約書亞・班吉歐 Yoshua Bengio](/people/yoshua-bengio/)：圖靈獎共同得主、長期合作者

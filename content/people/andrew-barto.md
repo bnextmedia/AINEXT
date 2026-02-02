@@ -1,8 +1,8 @@
 ---
 # === 基本資訊 ===
-title: "乃鑄瀚・巴托 Andrew Barto"
+title: "安德魯・巴托 Andrew Barto"
 slug: "andrew-barto"
-name_zh: "乃鑄瀚・巴托"
+name_zh: "安德魯・巴托"
 name_en: "Andrew Barto"
 name_full_en: "Andrew G. Barto"
 

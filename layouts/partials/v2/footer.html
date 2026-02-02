@@ -1,13 +1,49 @@
-{{/* V2 Footer - 報紙風格頁尾 */}}
+{{/* V2 Footer - 多欄報紙風格頁尾 */}}
 <footer class="site-footer">
-  <div class="site-footer__container">
-    <div class="site-footer__content">
-      <p class="site-footer__copyright">
-        &copy; {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.
-      </p>
-      <p class="site-footer__powered">
-        Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
-      </p>
+  <div class="site-footer__inner">
+
+    {{/* 上方三欄區域 */}}
+    <div class="site-footer__top">
+
+      {{/* 左欄：品牌 + 描述 + 贊助 */}}
+      <div class="site-footer__brand">
+        <div class="site-logo">
+          <a href="{{ "/" | relURL }}">AINEXT</a>
+        </div>
+        <p class="site-footer__desc">AI 新商業情報觀察站。追蹤 AI 技術前沿、產業動態與社會影響，用繁體中文為台灣讀者建立脈絡。</p>
+        <div class="site-footer__support">
+          <a href="https://buymeacoffee.com/jameshuangtw" target="_blank" rel="noopener" class="site-footer__support-btn site-footer__support-btn--bmc">Buy Me a Coffee</a>
+          <a href="https://ko-fi.com/jameshuangtw" target="_blank" rel="noopener" class="site-footer__support-btn site-footer__support-btn--kofi">Ko-fi</a>
+        </div>
+      </div>
+
+      {{/* 中欄：關於 */}}
+      <div class="site-footer__nav">
+        <h3 class="site-footer__nav-title">關於</h3>
+        <ul class="site-footer__nav-list">
+          <li class="site-footer__nav-item"><a href="{{ "/about/" | relURL }}" class="site-footer__nav-link">關於 James</a></li>
+          <li class="site-footer__nav-item"><a href="{{ "/about-ainext/" | relURL }}" class="site-footer__nav-link">關於 AINEXT</a></li>
+          <li class="site-footer__nav-item"><a href="mailto:ainexttw@gmail.com" class="site-footer__nav-link">聯絡我們</a></li>
+        </ul>
+      </div>
+
+      {{/* 右欄：法律 + 資源 */}}
+      <div class="site-footer__nav">
+        <h3 class="site-footer__nav-title">法律與資源</h3>
+        <ul class="site-footer__nav-list">
+          <li class="site-footer__nav-item"><a href="{{ "/terms/" | relURL }}" class="site-footer__nav-link">使用條款</a></li>
+          <li class="site-footer__nav-item"><a href="{{ "/privacy/" | relURL }}" class="site-footer__nav-link">隱私權政策</a></li>
+          <li class="site-footer__nav-item"><a href="{{ "/sitemap/" | relURL }}" class="site-footer__nav-link">網站地圖</a></li>
+          <li class="site-footer__nav-item"><a href="{{ "/index.xml" | relURL }}" class="site-footer__nav-link">RSS 訂閱</a></li>
+        </ul>
+      </div>
+
     </div>
+
+    {{/* 底部：版權 */}}
+    <div class="site-footer__bottom">
+      <p class="site-footer__copyright">&copy; {{ now.Format "2006" }} AINEXT. All rights reserved.</p>
+    </div>
+
   </div>
 </footer>

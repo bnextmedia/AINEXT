@@ -27,5 +27,20 @@ buildExpired = false
   ga_verify = "dFByHKTfCwWUh1Ni2_4hi2hhiW4swQFPKK_01cl1uOc"
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "GoogleNewsSitemap"]
+
+# Google News Sitemap 自訂 output format
+[mediaTypes."application/xml+news"]
+  suffixes = ["xml"]
+
+[outputFormats.GoogleNewsSitemap]
+  mediaType = "application/xml"
+  baseName = "news-sitemap"
+  isPlainText = false
+  notAlternative = true
+
+# 允許 Markdown 內嵌 HTML（About 頁面贊助按鈕等）
+[markup.goldmark.renderer]
+  unsafe = true
+
 ignoreFiles = ['content/_companies_backup', 'content/_people_backup']

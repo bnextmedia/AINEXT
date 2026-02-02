@@ -1,8 +1,8 @@
 ---
 # === 基本資訊 ===
-title: "乃翰・姜伯 John Jumper"
+title: "約翰・瓊珀 John Jumper"
 slug: "john-jumper"
-name_zh: "乃翰・姜伯"
+name_zh: "約翰・瓊珀"
 name_en: "John Jumper"
 name_full_en: "John Michael Jumper"
 

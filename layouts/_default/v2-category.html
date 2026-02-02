@@ -34,74 +34,86 @@
         <p class="category-page__count">共 {{ $totalArticles }} 篇文章</p>
       </header>
 
-      {{/* 文章列表 */}}
-      <div class="category-page__content">
+      {{/* ============================================ */}}
+      {{/* 第一排：3 篇有圖文章 */}}
+      {{/* ============================================ */}}
+      {{ if ge $totalArticles 1 }}
+      <section class="category-page__row category-page__row--3col">
+        {{ range $categoryPages | first 3 }}
+          {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+        {{ end }}
+      </section>
+      {{ end }}
 
-        {{/* 置頂文章：橫向排列（左圖右文） */}}
-        {{ with index $categoryPages 0 }}
-        <article class="category-page__featured">
-          {{ partial "v2/article-card.html" (dict "page" . "variant" "horizontal") }}
-        </article>
+      {{/* ============================================ */}}
+      {{/* 第二排：4 篇有圖文章 */}}
+      {{/* ============================================ */}}
+      {{ if gt $totalArticles 3 }}
+      <section class="category-page__row category-page__row--4col">
+        {{ range $categoryPages | first 7 | after 3 }}
+          {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+        {{ end }}
+      </section>
+      {{ end }}
+
+      {{/* ============================================ */}}
+      {{/* 第三～五排：每排 4 篇純文字（標題 + 摘要） */}}
+      {{/* ============================================ */}}
+      {{ if gt $totalArticles 7 }}
+      {{ $textPages := $categoryPages | after 7 }}
+      {{ $textRows := slice (slice 0 4) (slice 4 8) (slice 8 12) }}
+
+      {{ range $row := $textRows }}
+        {{ $start := index $row 0 }}
+        {{ $end := index $row 1 }}
+        {{ $rowPages := slice }}
+
+        {{/* 手動取出 start~end 範圍的文章 */}}
+        {{ range $i, $p := $textPages }}
+          {{ if and (ge $i $start) (lt $i $end) }}
+            {{ $rowPages = $rowPages | append $p }}
+          {{ end }}
         {{ end }}
 
-        {{/* 其餘文章：緊湊列表（小圖 + 標題 + 日期，一行一篇） */}}
-        {{ if gt $totalArticles 1 }}
+        {{ if gt (len $rowPages) 0 }}
+        <section class="category-page__row category-page__row--text">
+          {{ range $rowPages }}
+          <article class="category-page__text-item">
+            <a href="{{ .Permalink }}" class="text-item">
+              <h3 class="text-item__title">{{ .Title }}</h3>
+              <p class="text-item__excerpt">
+                {{ with .Description }}
+                  {{ . | truncate 100 }}
+                {{ else }}
+                  {{ .Summary | plainify | truncate 100 }}
+                {{ end }}
+              </p>
+              <div class="text-item__meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+                {{ with .Params.source_name }}
+                <span class="text-item__source">· {{ . }}</span>
+                {{ end }}
+              </div>
+            </a>
+          </article>
+          {{ end }}
+        </section>
+        {{ end }}
+      {{ end }}
+      {{ end }}
+
+      {{/* ============================================ */}}
+      {{/* 更多文章（第 19 篇之後）：緊湊列表 */}}
+      {{/* ============================================ */}}
+      {{ if gt $totalArticles 19 }}
+      <section class="category-page__more">
+        <h2 class="category-page__more-title">更多文章</h2>
         <div class="category-page__list">
-          {{ range $categoryPages | after 1 }}
+          {{ range $categoryPages | after 19 }}
           <article class="category-page__list-item">
             <a href="{{ .Permalink }}" class="list-item">
-              {{/* 小縮圖 */}}
-              {{ $image := .Params.image }}
-              {{ if not $image }}
-                {{ with .Resources.GetMatch "*.{jpg,jpeg,png,gif,webp}" }}
-                  {{ $image = .RelPermalink }}
-                {{ end }}
-              {{ end }}
-              {{ if not $image }}
-                {{ with .Params.source_url }}
-                  {{ if or (strings.Contains . "youtube.com") (strings.Contains . "youtu.be") }}
-                    {{ $videoId := "" }}
-                    {{ if strings.Contains . "watch?v=" }}
-                      {{ $parts := split . "watch?v=" }}
-                      {{ if gt (len $parts) 1 }}
-                        {{ $videoId = index (split (index $parts 1) "&") 0 }}
-                      {{ end }}
-                    {{ end }}
-                    {{ if strings.Contains . "youtu.be/" }}
-                      {{ $parts := split . "youtu.be/" }}
-                      {{ if gt (len $parts) 1 }}
-                        {{ $videoId = index (split (index $parts 1) "?") 0 }}
-                      {{ end }}
-                    {{ end }}
-                    {{ if $videoId }}
-                      {{ $image = printf "https://img.youtube.com/vi/%s/mqdefault.jpg" $videoId }}
-                    {{ end }}
-                  {{ end }}
-                {{ end }}
-              {{ end }}
-
-              {{ if $image }}
-              <div class="list-item__thumb">
-                <img src="{{ $image }}" alt="{{ .Title }}" loading="lazy"
-                  {{ if strings.Contains (string $image) "mqdefault" }}
-                  onerror="this.style.display='none'"
-                  {{ end }}
-                >
-              </div>
-              {{ else }}
-              <div class="list-item__thumb list-item__thumb--empty"></div>
-              {{ end }}
-
-              {{/* 文字區 */}}
               <div class="list-item__body">
                 <h3 class="list-item__title">{{ .Title }}</h3>
-                <p class="list-item__excerpt">
-                  {{ with .Description }}
-                    {{ . | truncate 80 }}
-                  {{ else }}
-                    {{ .Summary | plainify | truncate 80 }}
-                  {{ end }}
-                </p>
                 <div class="list-item__meta">
                   <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
                   {{ with .Params.source_name }}
@@ -113,9 +125,8 @@
           </article>
           {{ end }}
         </div>
-        {{ end }}
-
-      </div>
+      </section>
+      {{ end }}
 
     </div>
   </main>

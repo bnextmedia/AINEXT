@@ -1,6 +1,6 @@
 ---
 title: "地緣政治與經濟"
 layout: "v2-category"
-url: "/v2/category/geopolitics/"
+url: "/categories/geopolitics/"
 category: "地緣政治與經濟"
 ---

@@ -1,10 +1,10 @@
 // AINEXT V2 - 分類列表頁樣式
-// 報紙風格：緊湊、高資訊密度、桌面友善
+// Semafor 風格：3+4 有圖 + 4×3 純文字
 
 @import "variables"
 
 // ============================================
-// 分類頁面
+// 分類頁面容器
 // ============================================
 
 .category-page
@@ -12,7 +12,10 @@
   margin: 0 auto
   padding: $spacing-lg $spacing-md
 
+// ============================================
 // 標題區
+// ============================================
+
 .category-page__header
   text-align: center
   padding-bottom: $spacing-lg
@@ -33,41 +36,143 @@
   font-size: $font-size-small
   color: $color-text-light
 
-// 內容區
-.category-page__content
-  // 留空，讓子元素控制
-
 // ============================================
-// 置頂文章（橫向排列，桌面版左圖右文）
+// 通用排列行
 // ============================================
 
-.category-page__featured
+.category-page__row
   margin-bottom: $spacing-lg
   padding-bottom: $spacing-lg
   border-bottom: 1px solid $color-divider
 
-  // 覆寫 horizontal card 在分類頁的表現
-  .article-card--horizontal
-    grid-template-columns: 1fr 1fr
-    gap: $spacing-lg
+  &:last-child
+    border-bottom: none
 
-    @media (max-width: $breakpoint-md)
-      grid-template-columns: 1fr
+// ============================================
+// 第一排：3 欄有圖文章
+// ============================================
+
+.category-page__row--3col
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  gap: $spacing-lg
+
+  @media (max-width: $breakpoint-md)
+    grid-template-columns: repeat(2, 1fr)
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: 1fr
 
   .article-card__title
-    font-size: 1.75rem
-
-    @media (max-width: $breakpoint-md)
-      font-size: 1.5rem
+    font-size: 1.25rem
 
   .article-card__excerpt
-    font-size: 1rem
-    max-width: 100%
+    font-size: $font-size-small
+    // 最多 3 行
+    display: -webkit-box
+    -webkit-line-clamp: 3
+    -webkit-box-orient: vertical
+    overflow: hidden
 
 // ============================================
-// 文章列表（緊湊一行一篇）
+// 第二排：4 欄有圖文章
 // ============================================
 
+.category-page__row--4col
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  gap: $spacing-md
+
+  @media (max-width: $breakpoint-lg)
+    grid-template-columns: repeat(2, 1fr)
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: 1fr
+
+  .article-card__title
+    font-size: 1.125rem
+
+  .article-card__excerpt
+    font-size: $font-size-small
+    display: -webkit-box
+    -webkit-line-clamp: 2
+    -webkit-box-orient: vertical
+    overflow: hidden
+
+// ============================================
+// 第三～五排：4 欄純文字（標題 + 摘要）
+// ============================================
+
+.category-page__row--text
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  gap: $spacing-md
+
+  @media (max-width: $breakpoint-lg)
+    grid-template-columns: repeat(2, 1fr)
+
+  @media (max-width: $breakpoint-sm)
+    grid-template-columns: 1fr
+
+// 純文字項目
+.category-page__text-item
+  padding-bottom: $spacing-sm
+
+.text-item
+  display: block
+  transition: $transition-base
+
+  &:hover .text-item__title
+    color: $color-accent
+
+.text-item__title
+  @include font-headline
+  font-size: 1.125rem
+  line-height: $line-height-tight
+  margin-bottom: $spacing-xs
+  transition: color 0.2s ease
+  // 最多 3 行
+  display: -webkit-box
+  -webkit-line-clamp: 3
+  -webkit-box-orient: vertical
+  overflow: hidden
+
+.text-item__excerpt
+  @include font-body
+  font-size: $font-size-small
+  color: $color-text-light
+  line-height: 1.5
+  margin-bottom: $spacing-xs
+  // 最多 2 行
+  display: -webkit-box
+  -webkit-line-clamp: 2
+  -webkit-box-orient: vertical
+  overflow: hidden
+
+.text-item__meta
+  @include font-ui
+  font-size: $font-size-caption
+  color: $color-text-light
+
+.text-item__source
+  color: $color-text-light
+
+// ============================================
+// 更多文章區（第 19 篇之後）
+// ============================================
+
+.category-page__more
+  margin-top: $spacing-lg
+  padding-top: $spacing-lg
+  border-top: 3px solid $color-text
+
+.category-page__more-title
+  @include font-headline
+  font-size: $font-size-h3
+  font-weight: $font-weight-regular
+  margin-bottom: $spacing-md
+
+// 緊湊列表（沿用舊樣式）
 .category-page__list
   display: flex
   flex-direction: column
@@ -78,43 +183,17 @@
   &:last-child
     border-bottom: none
 
-// 列表項目
 .list-item
   display: grid
-  grid-template-columns: 120px 1fr
-  gap: $spacing-md
-  padding: $spacing-md 0
-  align-items: start
+  grid-template-columns: 1fr
+  gap: $spacing-sm
+  padding: $spacing-sm 0
   transition: $transition-base
 
   &:hover
     .list-item__title
       color: $color-accent
 
-  @media (min-width: $breakpoint-lg)
-    grid-template-columns: 160px 1fr
-
-  @media (max-width: $breakpoint-sm)
-    grid-template-columns: 100px 1fr
-    gap: $spacing-sm
-
-// 小縮圖
-.list-item__thumb
-  aspect-ratio: 16 / 9
-  overflow: hidden
-  background-color: rgba($color-text, 0.05)
-  flex-shrink: 0
-
-  img
-    width: 100%
-    height: 100%
-    object-fit: cover
-    display: block
-
-.list-item__thumb--empty
-  background-color: rgba($color-text, 0.03)
-
-// 文字區
 .list-item__body
   display: flex
   flex-direction: column
@@ -126,7 +205,6 @@
   font-size: 1.125rem
   line-height: $line-height-tight
   transition: color 0.2s ease
-  // 最多 2 行
   display: -webkit-box
   -webkit-line-clamp: 2
   -webkit-box-orient: vertical
@@ -134,20 +212,6 @@
 
   @media (max-width: $breakpoint-sm)
     font-size: 1rem
-
-.list-item__excerpt
-  @include font-body
-  font-size: $font-size-small
-  color: $color-text-light
-  line-height: 1.5
-  // 最多 2 行
-  display: -webkit-box
-  -webkit-line-clamp: 2
-  -webkit-box-orient: vertical
-  overflow: hidden
-
-  @media (max-width: $breakpoint-sm)
-    display: none
 
 .list-item__meta
   @include font-ui
@@ -161,46 +225,3 @@
   &::before
     content: "·"
     margin-right: $spacing-xs
-
-// ============================================
-// 分頁樣式
-// ============================================
-
-.pagination
-  display: flex
-  justify-content: center
-  align-items: center
-  gap: $spacing-sm
-  margin-top: $spacing-xxl
-  padding-top: $spacing-lg
-  border-top: 1px solid $color-divider
-
-.page-item
-  list-style: none
-
-  &.active .page-link
-    background-color: $color-text
-    color: $color-bg
-
-  &.disabled .page-link
-    opacity: 0.3
-    cursor: not-allowed
-
-.page-link
-  @include font-ui
-  display: inline-flex
-  align-items: center
-  justify-content: center
-  min-width: 2.5rem
-  height: 2.5rem
-  padding: 0 $spacing-sm
-  font-size: $font-size-small
-  color: $color-text
-  background-color: transparent
-  border: 1px solid $color-divider
-  transition: $transition-base
-
-  &:hover
-    background-color: $color-text
-    color: $color-bg
-    border-color: $color-text

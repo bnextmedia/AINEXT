@@ -89,9 +89,9 @@
         <section class="category-section" id="{{ $sectionId }}">
           <div class="category-section__header">
             <h2 class="category-title">
-              <a href="{{ printf "/v2/category/%s/" $catSlug | relURL }}">{{ $catName }}</a>
+              <a href="{{ printf "/categories/%s/" $catSlug | relURL }}">{{ $catName }}</a>
             </h2>
-            <a href="{{ printf "/v2/category/%s/" $catSlug | relURL }}" class="category-section__more">查看全部 →</a>
+            <a href="{{ printf "/categories/%s/" $catSlug | relURL }}" class="category-section__more">查看全部 →</a>
           </div>
 
           <div class="category-layout--b">

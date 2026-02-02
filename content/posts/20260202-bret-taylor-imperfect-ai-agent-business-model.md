@@ -22,6 +22,11 @@ draft: false
 
 ---
 
+> **Bret Taylor 專訪系列（共三篇）**
+> 1. [每家公司都需要 AI Agent，但別等它變完美](/posts/20260202-bret-taylor-every-company-needs-ai-agent/)
+> 2. **本篇：AI 的不完美如何變成商業優勢**
+> 3. [AI Agent 正在重新定義客戶體驗與工作](/posts/20260202-bret-taylor-ai-agent-customer-experience-jobs/)
+
 ## 每個人都在問同一個問題：AI 會犯錯怎麼辦？
 
 企業導入 AI Agent 時，最常被問到的問題不是「它能做什麼」，而是「它犯錯了怎麼辦」。AI 模型會產生幻覺（hallucination），會編造不存在的資訊。更棘手的是，它是非確定性的（non-deterministic），同一個問題問兩次可能得到兩個不同的答案。這讓傳統軟體工程中「測試」和「穩健性」的概念變得很難套用，因為你沒辦法保證模型「永遠不會」做某件事。

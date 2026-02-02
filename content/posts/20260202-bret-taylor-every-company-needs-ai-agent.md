@@ -22,6 +22,11 @@ draft: false
 
 ---
 
+> **Bret Taylor 專訪系列（共三篇）**
+> 1. **本篇：每家公司都需要 AI Agent，但別等它變完美**
+> 2. [AI 的不完美如何變成商業優勢](/posts/20260202-bret-taylor-imperfect-ai-agent-business-model/)
+> 3. [AI Agent 正在重新定義客戶體驗與工作](/posts/20260202-bret-taylor-ai-agent-customer-experience-jobs/)
+
 ## 1995 年每家公司需要網站，2026 年每家公司需要 AI Agent
 
 如果回到 1995 年，你會聽到一個聽起來很荒謬的建議：每家公司都需要一個網站。當時多數企業連「網頁能幹嘛」都說不清楚，更別提撥預算去蓋一個。三十年後回頭看，沒有網站的企業幾乎已經不存在。OpenAI 董事會主席暨 AI 客服新創 Sierra 執行長 Bret Taylor 認為，2026 年的 AI Agent 正處於那個歷史節點。

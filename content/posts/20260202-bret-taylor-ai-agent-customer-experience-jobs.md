@@ -22,6 +22,11 @@ draft: false
 
 ---
 
+> **Bret Taylor 專訪系列（共三篇）**
+> 1. [每家公司都需要 AI Agent，但別等它變完美](/posts/20260202-bret-taylor-every-company-needs-ai-agent/)
+> 2. [AI 的不完美如何變成商業優勢](/posts/20260202-bret-taylor-imperfect-ai-agent-business-model/)
+> 3. **本篇：AI Agent 正在重新定義客戶體驗與工作**
+
 ## 一位老先生和一個「好機器人」
 
 在 Sierra 執行長 Bret Taylor 收到的所有客戶案例中，有一個故事特別讓他印象深刻。一家電信公司的客戶，一位年長的男士，打電話來說他的電視接收器壞了。他和 AI Agent 通話了超過三十分鐘，最後說了一句：「謝謝你，你是個好機器人。」

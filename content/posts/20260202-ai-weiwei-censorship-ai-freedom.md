@@ -16,6 +16,10 @@ draft: false
 
 {{< youtube abKaLbXZ8NA >}}
 
+{{< spotify "episode/1QbqCo9hATH91i9c06Mq8Y" >}}
+
+{{< apple-podcast "tw/podcast/downstream-china-ai-and-the-wests-free-speech-crackdown/id1001507547?i=1000747682864" >}}
+
 ---
 
 ![封面圖](/images/posts/20260202-ai-weiwei-censorship-ai-freedom.webp)

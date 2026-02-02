@@ -1,48 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Description }}">
+{{ define "main" }}
+<article class="about-page">
 
-  {{/* Open Graph */}}
-  <meta property="og:title" content="{{ .Title }}">
-  <meta property="og:description" content="{{ .Description }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:site_name" content="{{ .Site.Title }}">
-  <meta property="og:locale" content="zh_TW">
+  <header class="about-page__header">
+    <h1 class="about-page__title">{{ .Title }}</h1>
+  </header>
 
-  {{/* 字體載入 */}}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+  <div class="about-page__content">
+    {{ .Content }}
+  </div>
 
-  {{/* V2 樣式 */}}
-  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
-</head>
-<body class="site">
-
-  {{ partial "v2/header.html" . }}
-  {{ partial "v2/nav.html" . }}
-
-  <main class="site-main">
-    <article class="about-page">
-
-      <header class="about-page__header">
-        <h1 class="about-page__title">{{ .Title }}</h1>
-      </header>
-
-      <div class="about-page__content">
-        {{ .Content }}
-      </div>
-
-    </article>
-  </main>
-
-  {{ partial "v2/footer.html" . }}
-
-</body>
-</html>
+</article>
+{{ end }}

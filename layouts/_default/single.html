@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ $catSlugs := dict "AI 技術前沿" "ai-tech" "AI 產業動態" "ai-industry" "AI 開發實戰" "ai-dev" "AI 安全與治理" "ai-safety" "科技巨頭觀察" "tech-giants" "地緣政治與經濟" "geopolitics" "領袖思維" "leadership" "職涯與學習" "career" }}
 <article class="post-page">
 
   {{/* 文章標題區 */}}
@@ -7,7 +8,8 @@
       {{/* 分類 */}}
       {{ with .Params.categories }}
         {{ range first 1 . }}
-        <a href="{{ printf "/categories/%s/" (. | urlize) | relURL }}" class="post-page__category">{{ . }}</a>
+        {{ $slug := index $catSlugs . | default (. | urlize) }}
+        <a href="{{ printf "/categories/%s/" $slug | relURL }}" class="post-page__category">{{ . }}</a>
         {{ end }}
       {{ end }}
 

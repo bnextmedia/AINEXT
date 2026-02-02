@@ -1,300 +1,264 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }} | AI 活動 | {{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Params.description_short | default .Description }}">
+{{ define "main" }}
+<article class="activity-detail">
 
-  {{/* Open Graph */}}
-  <meta property="og:title" content="{{ .Title }}">
-  <meta property="og:description" content="{{ .Params.description_short | default .Description }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ .Permalink }}">
+  {{/* 返回按鈕 */}}
+  <nav class="activity-detail__nav">
+    <a href="/activities/" class="activity-detail__back">&larr; 返回活動列表</a>
+  </nav>
+
+  {{/* 活動代表圖 */}}
   {{ with .Params.image }}
-  <meta property="og:image" content="{{ . | absURL }}">
+  <div class="activity-detail__hero">
+    <img src="{{ . }}" alt="{{ $.Title }}" class="activity-detail__hero-img">
+    {{/* 已結束標籤 */}}
+    {{ $today := now.Format "2006-01-02" }}
+    {{ if lt $.Params.date_end $today }}
+    <span class="activity-detail__badge activity-detail__badge--past">已結束</span>
+    {{ end }}
+  </div>
   {{ end }}
 
-  {{/* 字體載入 */}}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
-
-  {{/* V2 樣式 */}}
-  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
-
-  {{/* Schema.org Event 結構化資料 */}}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Event",
-    "name": "{{ .Title }}",
-    "description": "{{ .Params.description_short | default .Description }}",
-    "startDate": "{{ .Params.date_start }}",
-    "endDate": "{{ .Params.date_end }}",
-    "location": {
-      "@type": "Place",
-      "name": "{{ .Params.venue_name }}",
-      "address": "{{ .Params.venue_address }}"
-    },
-    "organizer": {
-      "@type": "Organization",
-      "name": "{{ .Params.organizer }}",
-      "url": "{{ .Params.organizer_url }}"
-    },
-    "url": "{{ .Params.official_url }}",
-    "image": "{{ .Params.image | absURL }}"
-  }
-  </script>
-</head>
-<body class="site">
-
-  {{ partial "v2/header.html" . }}
-  {{ partial "v2/nav.html" . }}
-
-  <main class="site-main">
-    <article class="activity-detail">
-
-      {{/* 返回按鈕 */}}
-      <nav class="activity-detail__nav">
-        <a href="/activities/" class="activity-detail__back">&larr; 返回活動列表</a>
-      </nav>
-
-      {{/* 活動代表圖 */}}
-      {{ with .Params.image }}
-      <div class="activity-detail__hero">
-        <img src="{{ . }}" alt="{{ $.Title }}" class="activity-detail__hero-img">
-        {{/* 已結束標籤 */}}
-        {{ $today := now.Format "2006-01-02" }}
-        {{ if lt $.Params.date_end $today }}
-        <span class="activity-detail__badge activity-detail__badge--past">已結束</span>
-        {{ end }}
-      </div>
+  {{/* 活動標題 */}}
+  <header class="activity-detail__header">
+    {{/* 活動類型標籤 */}}
+    {{ with .Params.activity_type }}
+    <span class="activity-detail__type activity-detail__type--{{ . }}">
+      {{ if eq . "conference" }}研討會
+      {{ else if eq . "expo" }}展覽
+      {{ else if eq . "workshop" }}工作坊
+      {{ else if eq . "meetup" }}社群聚會
+      {{ else if eq . "hackathon" }}黑客松
+      {{ else if eq . "webinar" }}線上研討會
+      {{ else if eq . "course" }}課程
+      {{ else if eq . "competition" }}競賽
+      {{ else }}{{ . }}
       {{ end }}
+    </span>
+    {{ end }}
 
-      {{/* 活動標題 */}}
-      <header class="activity-detail__header">
-        {{/* 活動類型標籤 */}}
-        {{ with .Params.activity_type }}
-        <span class="activity-detail__type activity-detail__type--{{ . }}">
-          {{ if eq . "conference" }}研討會
-          {{ else if eq . "expo" }}展覽
-          {{ else if eq . "workshop" }}工作坊
-          {{ else if eq . "meetup" }}社群聚會
-          {{ else if eq . "hackathon" }}黑客松
-          {{ else if eq . "webinar" }}線上研討會
-          {{ else if eq . "course" }}課程
-          {{ else if eq . "competition" }}競賽
-          {{ else }}{{ . }}
-          {{ end }}
-        </span>
-        {{ end }}
+    <h1 class="activity-detail__title">{{ .Title }}</h1>
 
-        <h1 class="activity-detail__title">{{ .Title }}</h1>
+    {{ with .Params.description_short }}
+    <p class="activity-detail__excerpt">{{ . }}</p>
+    {{ end }}
+  </header>
 
-        {{ with .Params.description_short }}
-        <p class="activity-detail__excerpt">{{ . }}</p>
-        {{ end }}
-      </header>
+  {{/* 活動資訊卡片 */}}
+  <div class="activity-detail__info-cards">
 
-      {{/* 活動資訊卡片 */}}
-      <div class="activity-detail__info-cards">
-
-        {{/* 時間卡片 */}}
-        <div class="activity-detail__card">
-          <div class="activity-detail__card-icon">📅</div>
-          <div class="activity-detail__card-content">
-            <h3 class="activity-detail__card-title">活動時間</h3>
-            <p class="activity-detail__card-text">
-              {{ if eq .Params.date_start .Params.date_end }}
-                {{ .Params.date_start }}
-              {{ else }}
-                {{ .Params.date_start }} ~ {{ .Params.date_end }}
-              {{ end }}
-            </p>
-            {{ with .Params.time_info }}
-            <p class="activity-detail__card-sub">{{ . }}</p>
-            {{ end }}
-
-            {{/* 加入日曆按鈕 */}}
-            <div class="activity-detail__calendar-btns">
-              {{/* Google Calendar */}}
-              {{ $gcalUrl := printf "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%s&dates=%s/%s&details=%s&location=%s&sf=true"
-                (.Title | urlquery)
-                (strings.Replace .Params.date_start "-" "" | printf "%sT090000")
-                (strings.Replace .Params.date_end "-" "" | printf "%sT180000")
-                (.Params.description_short | default "" | urlquery)
-                (.Params.venue_address | default "" | urlquery) }}
-              <a href="{{ $gcalUrl }}" target="_blank" rel="noopener" class="activity-detail__cal-btn">
-                + Google 日曆
-              </a>
-
-              {{/* iCalendar 下載 */}}
-              <button class="activity-detail__cal-btn" onclick="downloadICS()">
-                + iCalendar
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {{/* 地點卡片 */}}
-        <div class="activity-detail__card">
-          <div class="activity-detail__card-icon">📍</div>
-          <div class="activity-detail__card-content">
-            <h3 class="activity-detail__card-title">活動地點</h3>
-            <p class="activity-detail__card-text">{{ .Params.venue_name }}</p>
-            <p class="activity-detail__card-sub">{{ .Params.city }}, {{ .Params.country }}</p>
-            {{ with .Params.venue_address }}
-            <p class="activity-detail__card-address">{{ . }}</p>
-            {{ end }}
-
-            {{/* 地圖連結 */}}
-            {{ with .Params.venue_address }}
-            {{ $encodedAddr := . | urlquery }}
-            <div class="activity-detail__map-links">
-              <a href="https://www.google.com/maps/search/?api=1&query={{ $encodedAddr }}" target="_blank" rel="noopener" class="activity-detail__map-btn">
-                Google Map
-              </a>
-              <a href="https://maps.apple.com/?q={{ $encodedAddr }}" target="_blank" rel="noopener" class="activity-detail__map-btn">
-                Apple Map
-              </a>
-              <a href="https://www.openstreetmap.org/search?query={{ $encodedAddr }}" target="_blank" rel="noopener" class="activity-detail__map-btn">
-                OpenStreetMap
-              </a>
-            </div>
-            {{ end }}
-          </div>
-        </div>
-
-      </div>
-
-      {{/* 主辦資訊與官網 */}}
-      <div class="activity-detail__meta">
-        {{ with .Params.organizer }}
-        <div class="activity-detail__meta-item">
-          <strong>主辦單位：</strong>
-          {{ if $.Params.organizer_url }}
-          <a href="{{ $.Params.organizer_url }}" target="_blank" rel="noopener">{{ . }}</a>
+    {{/* 時間卡片 */}}
+    <div class="activity-detail__card">
+      <div class="activity-detail__card-icon">📅</div>
+      <div class="activity-detail__card-content">
+        <h3 class="activity-detail__card-title">活動時間</h3>
+        <p class="activity-detail__card-text">
+          {{ if eq .Params.date_start .Params.date_end }}
+            {{ .Params.date_start }}
           {{ else }}
-          {{ . }}
+            {{ .Params.date_start }} ~ {{ .Params.date_end }}
           {{ end }}
-        </div>
+        </p>
+        {{ with .Params.time_info }}
+        <p class="activity-detail__card-sub">{{ . }}</p>
         {{ end }}
 
-        {{ with .Params.official_url }}
-        <div class="activity-detail__meta-item">
-          <strong>官方網站：</strong>
-          <a href="{{ . }}" target="_blank" rel="noopener" class="activity-detail__official-link">{{ . }}</a>
+        {{/* 加入日曆按鈕 */}}
+        <div class="activity-detail__calendar-btns">
+          {{/* Google Calendar */}}
+          {{ $gcalUrl := printf "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%s&dates=%s/%s&details=%s&location=%s&sf=true"
+            (.Title | urlquery)
+            (strings.Replace .Params.date_start "-" "" | printf "%sT090000")
+            (strings.Replace .Params.date_end "-" "" | printf "%sT180000")
+            (.Params.description_short | default "" | urlquery)
+            (.Params.venue_address | default "" | urlquery) }}
+          <a href="{{ $gcalUrl }}" target="_blank" rel="noopener" class="activity-detail__cal-btn">
+            + Google 日曆
+          </a>
+
+          {{/* iCalendar 下載 */}}
+          <button class="activity-detail__cal-btn" onclick="downloadICS()">
+            + iCalendar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    {{/* 地點卡片 */}}
+    <div class="activity-detail__card">
+      <div class="activity-detail__card-icon">📍</div>
+      <div class="activity-detail__card-content">
+        <h3 class="activity-detail__card-title">活動地點</h3>
+        <p class="activity-detail__card-text">{{ .Params.venue_name }}</p>
+        <p class="activity-detail__card-sub">{{ .Params.city }}, {{ .Params.country }}</p>
+        {{ with .Params.venue_address }}
+        <p class="activity-detail__card-address">{{ . }}</p>
+        {{ end }}
+
+        {{/* 地圖連結 */}}
+        {{ with .Params.venue_address }}
+        {{ $encodedAddr := . | urlquery }}
+        <div class="activity-detail__map-links">
+          <a href="https://www.google.com/maps/search/?api=1&query={{ $encodedAddr }}" target="_blank" rel="noopener" class="activity-detail__map-btn">
+            Google Map
+          </a>
+          <a href="https://maps.apple.com/?q={{ $encodedAddr }}" target="_blank" rel="noopener" class="activity-detail__map-btn">
+            Apple Map
+          </a>
+          <a href="https://www.openstreetmap.org/search?query={{ $encodedAddr }}" target="_blank" rel="noopener" class="activity-detail__map-btn">
+            OpenStreetMap
+          </a>
         </div>
         {{ end }}
       </div>
+    </div>
 
-      {{/* 活動詳情 */}}
-      {{ with .Params.description_long }}
-      <div class="activity-detail__content">
-        <h2 class="activity-detail__section-title">活動詳情</h2>
-        <div class="activity-detail__body">
-          {{ . | markdownify }}
-        </div>
-      </div>
+  </div>
+
+  {{/* 主辦資訊與官網 */}}
+  <div class="activity-detail__meta">
+    {{ with .Params.organizer }}
+    <div class="activity-detail__meta-item">
+      <strong>主辦單位：</strong>
+      {{ if $.Params.organizer_url }}
+      <a href="{{ $.Params.organizer_url }}" target="_blank" rel="noopener">{{ . }}</a>
       {{ else }}
-      {{ with .Content }}
-      <div class="activity-detail__content">
-        <h2 class="activity-detail__section-title">活動詳情</h2>
-        <div class="activity-detail__body">
-          {{ . }}
-        </div>
-      </div>
+      {{ . }}
       {{ end }}
+    </div>
+    {{ end }}
+
+    {{ with .Params.official_url }}
+    <div class="activity-detail__meta-item">
+      <strong>官方網站：</strong>
+      <a href="{{ . }}" target="_blank" rel="noopener" class="activity-detail__official-link">{{ . }}</a>
+    </div>
+    {{ end }}
+  </div>
+
+  {{/* 活動詳情 */}}
+  {{ with .Params.description_long }}
+  <div class="activity-detail__content">
+    <h2 class="activity-detail__section-title">活動詳情</h2>
+    <div class="activity-detail__body">
+      {{ . | markdownify }}
+    </div>
+  </div>
+  {{ else }}
+  {{ with .Content }}
+  <div class="activity-detail__content">
+    <h2 class="activity-detail__section-title">活動詳情</h2>
+    <div class="activity-detail__body">
+      {{ . }}
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{/* 標籤 */}}
+  {{ with .Params.tags }}
+  <div class="activity-detail__tags">
+    {{ range . }}
+    <span class="activity-detail__tag">{{ . }}</span>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* 相關活動 */}}
+  {{ $currentTags := .Params.tags | default slice }}
+  {{ $currentRegion := .Params.region }}
+  {{ $currentSlug := .Params.slug }}
+  {{ $relatedActivities := slice }}
+
+  {{ range where (where .Site.RegularPages "Section" "activities") ".Params.slug" "!=" $currentSlug }}
+    {{ $matchScore := 0 }}
+    {{ if eq .Params.region $currentRegion }}
+      {{ $matchScore = add $matchScore 2 }}
+    {{ end }}
+    {{ range .Params.tags }}
+      {{ if in $currentTags . }}
+        {{ $matchScore = add $matchScore 1 }}
       {{ end }}
+    {{ end }}
+    {{ if gt $matchScore 0 }}
+      {{ $relatedActivities = $relatedActivities | append . }}
+    {{ end }}
+  {{ end }}
 
-      {{/* 標籤 */}}
-      {{ with .Params.tags }}
-      <div class="activity-detail__tags">
-        {{ range . }}
-        <span class="activity-detail__tag">{{ . }}</span>
-        {{ end }}
-      </div>
+  {{ if gt (len $relatedActivities) 0 }}
+  <div class="activity-detail__related">
+    <h2 class="activity-detail__section-title">相關活動</h2>
+    <div class="activity-detail__related-grid">
+      {{ range first 4 $relatedActivities }}
+      {{ partial "v2/activity-card.html" (dict "activity" . "variant" "small") }}
       {{ end }}
+    </div>
+  </div>
+  {{ end }}
 
-      {{/* 相關活動 */}}
-      {{ $currentTags := .Params.tags | default slice }}
-      {{ $currentRegion := .Params.region }}
-      {{ $currentSlug := .Params.slug }}
-      {{ $relatedActivities := slice }}
+</article>
 
-      {{ range where (where .Site.RegularPages "Section" "activities") ".Params.slug" "!=" $currentSlug }}
-        {{ $matchScore := 0 }}
-        {{ if eq .Params.region $currentRegion }}
-          {{ $matchScore = add $matchScore 2 }}
-        {{ end }}
-        {{ range .Params.tags }}
-          {{ if in $currentTags . }}
-            {{ $matchScore = add $matchScore 1 }}
-          {{ end }}
-        {{ end }}
-        {{ if gt $matchScore 0 }}
-          {{ $relatedActivities = $relatedActivities | append . }}
-        {{ end }}
-      {{ end }}
+{{/* Schema.org Event 結構化資料 */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{ .Title }}",
+  "description": "{{ .Params.description_short | default .Description }}",
+  "startDate": "{{ .Params.date_start }}",
+  "endDate": "{{ .Params.date_end }}",
+  "location": {
+    "@type": "Place",
+    "name": "{{ .Params.venue_name }}",
+    "address": "{{ .Params.venue_address }}"
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "{{ .Params.organizer }}",
+    "url": "{{ .Params.organizer_url }}"
+  },
+  "url": "{{ .Params.official_url }}",
+  "image": "{{ .Params.image | absURL }}"
+}
+</script>
 
-      {{ if gt (len $relatedActivities) 0 }}
-      <div class="activity-detail__related">
-        <h2 class="activity-detail__section-title">相關活動</h2>
-        <div class="activity-detail__related-grid">
-          {{ range first 4 $relatedActivities }}
-          {{ partial "v2/activity-card.html" (dict "activity" . "variant" "small") }}
-          {{ end }}
-        </div>
-      </div>
-      {{ end }}
+{{/* iCalendar 下載功能 */}}
+<script>
+function downloadICS() {
+  var title = {{ .Title | jsonify }};
+  var dateStart = {{ .Params.date_start | jsonify }};
+  var dateEnd = {{ .Params.date_end | jsonify }};
+  var description = {{ .Params.description_short | default "" | jsonify }};
+  var location = {{ .Params.venue_address | default "" | jsonify }};
+  var url = {{ .Params.official_url | default .Permalink | jsonify }};
+  var slug = {{ .Params.slug | default .File.BaseFileName | jsonify }};
 
-    </article>
-  </main>
+  // 格式化日期為 iCalendar 格式
+  var startDate = dateStart.replace(/-/g, '') + 'T090000';
+  var endDate = dateEnd.replace(/-/g, '') + 'T180000';
+  var now = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
 
-  {{ partial "v2/footer.html" . }}
+  var icsContent = [
+    'BEGIN:VCALENDAR',
+    'VERSION:2.0',
+    'PRODID:-//AINEXT//AI Activities//EN',
+    'BEGIN:VEVENT',
+    'UID:' + slug + '@ainext.tw',
+    'DTSTAMP:' + now,
+    'DTSTART:' + startDate,
+    'DTEND:' + endDate,
+    'SUMMARY:' + title,
+    'DESCRIPTION:' + description.replace(/\n/g, '\\n'),
+    'LOCATION:' + location,
+    'URL:' + url,
+    'END:VEVENT',
+    'END:VCALENDAR'
+  ].join('\r\n');
 
-  {{/* iCalendar 下載功能 */}}
-  <script>
-  function downloadICS() {
-    var title = {{ .Title | jsonify }};
-    var dateStart = {{ .Params.date_start | jsonify }};
-    var dateEnd = {{ .Params.date_end | jsonify }};
-    var description = {{ .Params.description_short | default "" | jsonify }};
-    var location = {{ .Params.venue_address | default "" | jsonify }};
-    var url = {{ .Params.official_url | default .Permalink | jsonify }};
-    var slug = {{ .Params.slug | default .File.BaseFileName | jsonify }};
-
-    // 格式化日期為 iCalendar 格式
-    var startDate = dateStart.replace(/-/g, '') + 'T090000';
-    var endDate = dateEnd.replace(/-/g, '') + 'T180000';
-    var now = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
-
-    var icsContent = [
-      'BEGIN:VCALENDAR',
-      'VERSION:2.0',
-      'PRODID:-//AINEXT//AI Activities//EN',
-      'BEGIN:VEVENT',
-      'UID:' + slug + '@ainext.tw',
-      'DTSTAMP:' + now,
-      'DTSTART:' + startDate,
-      'DTEND:' + endDate,
-      'SUMMARY:' + title,
-      'DESCRIPTION:' + description.replace(/\n/g, '\\n'),
-      'LOCATION:' + location,
-      'URL:' + url,
-      'END:VEVENT',
-      'END:VCALENDAR'
-    ].join('\r\n');
-
-    var blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
-    var link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = slug + '.ics';
-    link.click();
-  }
-  </script>
-
-</body>
-</html>
+  var blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+  var link = document.createElement('a');
+  link.href = URL.createObjectURL(blob);
+  link.download = slug + '.ics';
+  link.click();
+}
+</script>
+{{ end }}

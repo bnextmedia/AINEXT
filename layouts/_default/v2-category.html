@@ -1,137 +1,110 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Title }} - {{ .Site.Params.description }}">
+{{ define "main" }}
+{{ $categoryName := .Params.category }}
+{{ $allPages := where .Site.RegularPages "Type" "posts" }}
+{{ $categoryPages := where $allPages "Params.categories" "intersect" (slice $categoryName) }}
+{{ $totalArticles := len $categoryPages }}
 
-  {{/* 字體載入 */}}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+<div class="category-page">
 
-  {{/* V2 樣式 */}}
-  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
-</head>
-<body class="site">
+  {{/* 分類標題區 */}}
+  <header class="category-page__header">
+    <h1 class="category-page__title">{{ $categoryName }}</h1>
+    <p class="category-page__count">共 {{ $totalArticles }} 篇文章</p>
+  </header>
 
-  {{ partial "v2/header.html" . }}
-  {{ partial "v2/nav.html" . }}
+  {{/* ============================================ */}}
+  {{/* 第一排：3 篇有圖文章 */}}
+  {{/* ============================================ */}}
+  {{ if ge $totalArticles 1 }}
+  <section class="category-page__row category-page__row--3col">
+    {{ range $categoryPages | first 3 }}
+      {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+    {{ end }}
+  </section>
+  {{ end }}
 
-  <main class="site-main">
-    {{ $categoryName := .Params.category }}
-    {{ $allPages := where .Site.RegularPages "Type" "posts" }}
-    {{ $categoryPages := where $allPages "Params.categories" "intersect" (slice $categoryName) }}
-    {{ $totalArticles := len $categoryPages }}
+  {{/* ============================================ */}}
+  {{/* 第二排：4 篇有圖文章 */}}
+  {{/* ============================================ */}}
+  {{ if gt $totalArticles 3 }}
+  <section class="category-page__row category-page__row--4col">
+    {{ range $categoryPages | first 7 | after 3 }}
+      {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
+    {{ end }}
+  </section>
+  {{ end }}
 
-    <div class="category-page">
+  {{/* ============================================ */}}
+  {{/* 第三～五排：每排 4 篇純文字（標題 + 摘要） */}}
+  {{/* ============================================ */}}
+  {{ if gt $totalArticles 7 }}
+  {{ $textPages := $categoryPages | after 7 }}
+  {{ $textRows := slice (slice 0 4) (slice 4 8) (slice 8 12) }}
 
-      {{/* 分類標題區 */}}
-      <header class="category-page__header">
-        <h1 class="category-page__title">{{ $categoryName }}</h1>
-        <p class="category-page__count">共 {{ $totalArticles }} 篇文章</p>
-      </header>
+  {{ range $row := $textRows }}
+    {{ $start := index $row 0 }}
+    {{ $end := index $row 1 }}
+    {{ $rowPages := slice }}
 
-      {{/* ============================================ */}}
-      {{/* 第一排：3 篇有圖文章 */}}
-      {{/* ============================================ */}}
-      {{ if ge $totalArticles 1 }}
-      <section class="category-page__row category-page__row--3col">
-        {{ range $categoryPages | first 3 }}
-          {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
-        {{ end }}
-      </section>
+    {{/* 手動取出 start~end 範圍的文章 */}}
+    {{ range $i, $p := $textPages }}
+      {{ if and (ge $i $start) (lt $i $end) }}
+        {{ $rowPages = $rowPages | append $p }}
       {{ end }}
+    {{ end }}
 
-      {{/* ============================================ */}}
-      {{/* 第二排：4 篇有圖文章 */}}
-      {{/* ============================================ */}}
-      {{ if gt $totalArticles 3 }}
-      <section class="category-page__row category-page__row--4col">
-        {{ range $categoryPages | first 7 | after 3 }}
-          {{ partial "v2/article-card.html" (dict "page" . "variant" "default") }}
-        {{ end }}
-      </section>
+    {{ if gt (len $rowPages) 0 }}
+    <section class="category-page__row category-page__row--text">
+      {{ range $rowPages }}
+      <article class="category-page__text-item">
+        <a href="{{ .Permalink }}" class="text-item">
+          <h3 class="text-item__title">{{ .Title }}</h3>
+          <p class="text-item__excerpt">
+            {{ with .Description }}
+              {{ . | truncate 100 }}
+            {{ else }}
+              {{ .Summary | plainify | truncate 100 }}
+            {{ end }}
+          </p>
+          <div class="text-item__meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+            {{ with .Params.source_name }}
+            <span class="text-item__source">· {{ . }}</span>
+            {{ end }}
+          </div>
+        </a>
+      </article>
       {{ end }}
+    </section>
+    {{ end }}
+  {{ end }}
+  {{ end }}
 
-      {{/* ============================================ */}}
-      {{/* 第三～五排：每排 4 篇純文字（標題 + 摘要） */}}
-      {{/* ============================================ */}}
-      {{ if gt $totalArticles 7 }}
-      {{ $textPages := $categoryPages | after 7 }}
-      {{ $textRows := slice (slice 0 4) (slice 4 8) (slice 8 12) }}
-
-      {{ range $row := $textRows }}
-        {{ $start := index $row 0 }}
-        {{ $end := index $row 1 }}
-        {{ $rowPages := slice }}
-
-        {{/* 手動取出 start~end 範圍的文章 */}}
-        {{ range $i, $p := $textPages }}
-          {{ if and (ge $i $start) (lt $i $end) }}
-            {{ $rowPages = $rowPages | append $p }}
-          {{ end }}
-        {{ end }}
-
-        {{ if gt (len $rowPages) 0 }}
-        <section class="category-page__row category-page__row--text">
-          {{ range $rowPages }}
-          <article class="category-page__text-item">
-            <a href="{{ .Permalink }}" class="text-item">
-              <h3 class="text-item__title">{{ .Title }}</h3>
-              <p class="text-item__excerpt">
-                {{ with .Description }}
-                  {{ . | truncate 100 }}
-                {{ else }}
-                  {{ .Summary | plainify | truncate 100 }}
-                {{ end }}
-              </p>
-              <div class="text-item__meta">
-                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
-                {{ with .Params.source_name }}
-                <span class="text-item__source">· {{ . }}</span>
-                {{ end }}
-              </div>
-            </a>
-          </article>
-          {{ end }}
-        </section>
-        {{ end }}
+  {{/* ============================================ */}}
+  {{/* 更多文章（第 19 篇之後）：緊湊列表 */}}
+  {{/* ============================================ */}}
+  {{ if gt $totalArticles 19 }}
+  <section class="category-page__more">
+    <h2 class="category-page__more-title">更多文章</h2>
+    <div class="category-page__list">
+      {{ range $categoryPages | after 19 }}
+      <article class="category-page__list-item">
+        <a href="{{ .Permalink }}" class="list-item">
+          <div class="list-item__body">
+            <h3 class="list-item__title">{{ .Title }}</h3>
+            <div class="list-item__meta">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
+              {{ with .Params.source_name }}
+              <span class="list-item__source">{{ . }}</span>
+              {{ end }}
+            </div>
+          </div>
+        </a>
+      </article>
       {{ end }}
-      {{ end }}
-
-      {{/* ============================================ */}}
-      {{/* 更多文章（第 19 篇之後）：緊湊列表 */}}
-      {{/* ============================================ */}}
-      {{ if gt $totalArticles 19 }}
-      <section class="category-page__more">
-        <h2 class="category-page__more-title">更多文章</h2>
-        <div class="category-page__list">
-          {{ range $categoryPages | after 19 }}
-          <article class="category-page__list-item">
-            <a href="{{ .Permalink }}" class="list-item">
-              <div class="list-item__body">
-                <h3 class="list-item__title">{{ .Title }}</h3>
-                <div class="list-item__meta">
-                  <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006.01.02" }}</time>
-                  {{ with .Params.source_name }}
-                  <span class="list-item__source">{{ . }}</span>
-                  {{ end }}
-                </div>
-              </div>
-            </a>
-          </article>
-          {{ end }}
-        </div>
-      </section>
-      {{ end }}
-
     </div>
-  </main>
+  </section>
+  {{ end }}
 
-  {{ partial "v2/footer.html" . }}
-
-</body>
-</html>
+</div>
+{{ end }}

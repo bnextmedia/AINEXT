@@ -1,158 +1,131 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "zh-TW" }}">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }} | {{ .Site.Title }}</title>
-  <meta name="description" content="{{ .Description }}">
+{{ define "main" }}
+<div class="sitemap-page">
 
-  {{/* 字體載入 */}}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,800;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600&display=swap" rel="stylesheet">
+  <header class="sitemap-page__header">
+    <h1 class="sitemap-page__title">{{ .Title }}</h1>
+    <p class="sitemap-page__desc">最後更新：{{ now.Format "2006 年 1 月 2 日" }}</p>
+  </header>
 
-  {{/* V2 樣式 */}}
-  {{ $style := resources.Get "sass-v2/main.sass" | toCSS | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $style.Permalink }}">
-</head>
-<body class="site">
+  {{/* ===== 核心頁面 ===== */}}
+  <section class="sitemap-section">
+    <h2 class="sitemap-section__title">核心頁面</h2>
+    <ul class="sitemap-section__list">
+      <li><a href="{{ "/" | relURL }}">首頁</a></li>
+      <li><a href="{{ "/sitemap/" | relURL }}">網站地圖</a></li>
+      <li><a href="{{ "/sitemap.xml" | relURL }}">XML Sitemap</a></li>
+      <li><a href="{{ "/news-sitemap.xml" | relURL }}">Google News Sitemap</a></li>
+      <li><a href="{{ "/index.xml" | relURL }}">RSS Feed</a></li>
+    </ul>
+  </section>
 
-  {{ partial "v2/header.html" . }}
-  {{ partial "v2/nav.html" . }}
+  {{/* ===== 文章（按分類分組） ===== */}}
+  {{ $posts := where .Site.RegularPages "Type" "posts" }}
+  {{ $categories := .Site.Taxonomies.categories }}
 
-  <main class="site-main">
-    <div class="sitemap-page">
+  <section class="sitemap-section">
+    <h2 class="sitemap-section__title">文章（共 {{ len $posts }} 篇）</h2>
 
-      <header class="sitemap-page__header">
-        <h1 class="sitemap-page__title">{{ .Title }}</h1>
-        <p class="sitemap-page__desc">最後更新：{{ now.Format "2006 年 1 月 2 日" }}</p>
-      </header>
-
-      {{/* ===== 核心頁面 ===== */}}
-      <section class="sitemap-section">
-        <h2 class="sitemap-section__title">核心頁面</h2>
-        <ul class="sitemap-section__list">
-          <li><a href="{{ "/" | relURL }}">首頁</a></li>
-          <li><a href="{{ "/sitemap/" | relURL }}">網站地圖</a></li>
-          <li><a href="{{ "/sitemap.xml" | relURL }}">XML Sitemap</a></li>
-          <li><a href="{{ "/news-sitemap.xml" | relURL }}">Google News Sitemap</a></li>
-          <li><a href="{{ "/index.xml" | relURL }}">RSS Feed</a></li>
-        </ul>
-      </section>
-
-      {{/* ===== 文章（按分類分組） ===== */}}
-      {{ $posts := where .Site.RegularPages "Type" "posts" }}
-      {{ $categories := .Site.Taxonomies.categories }}
-
-      <section class="sitemap-section">
-        <h2 class="sitemap-section__title">文章（共 {{ len $posts }} 篇）</h2>
-
-        {{ range $catName, $catPages := $categories }}
-        <div class="sitemap-category">
-          <h3 class="sitemap-category__title">
-            {{ $catPages.Page.Title }}
-            <span class="sitemap-category__count">（{{ len $catPages.Pages }} 篇）</span>
-          </h3>
-          <ul class="sitemap-section__list sitemap-section__list--compact">
-            {{ range $catPages.Pages.ByDate.Reverse }}
-            <li>
-              <a href="{{ .Permalink }}">{{ .Title }}</a>
-              <time>{{ .Date.Format "2006.01.02" }}</time>
-            </li>
-            {{ end }}
-          </ul>
-        </div>
+    {{ range $catName, $catPages := $categories }}
+    <div class="sitemap-category">
+      <h3 class="sitemap-category__title">
+        {{ $catPages.Page.Title }}
+        <span class="sitemap-category__count">（{{ len $catPages.Pages }} 篇）</span>
+      </h3>
+      <ul class="sitemap-section__list sitemap-section__list--compact">
+        {{ range $catPages.Pages.ByDate.Reverse }}
+        <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <time>{{ .Date.Format "2006.01.02" }}</time>
+        </li>
         {{ end }}
-      </section>
-
-      {{/* ===== 公司庫 ===== */}}
-      {{ $companies := where .Site.RegularPages "Type" "companies" }}
-      {{ if gt (len $companies) 0 }}
-      <section class="sitemap-section">
-        <h2 class="sitemap-section__title">AI 公司庫（共 {{ len $companies }} 家）</h2>
-        <ul class="sitemap-section__list sitemap-section__list--grid">
-          {{ range $companies }}
-          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
-      </section>
-      {{ end }}
-
-      {{/* ===== 人物庫 ===== */}}
-      {{ $people := where .Site.RegularPages "Type" "people" }}
-      {{ if gt (len $people) 0 }}
-      <section class="sitemap-section">
-        <h2 class="sitemap-section__title">AI 人物庫（共 {{ len $people }} 位）</h2>
-        <ul class="sitemap-section__list sitemap-section__list--grid">
-          {{ range $people }}
-          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
-      </section>
-      {{ end }}
-
-      {{/* ===== 活動庫 ===== */}}
-      {{ $activities := where .Site.RegularPages "Type" "activities" }}
-      {{ if gt (len $activities) 0 }}
-      <section class="sitemap-section">
-        <h2 class="sitemap-section__title">AI 活動（共 {{ len $activities }} 個）</h2>
-        <ul class="sitemap-section__list">
-          {{ range $activities }}
-          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-          {{ end }}
-        </ul>
-      </section>
-      {{ end }}
-
-      {{/* ===== 標籤索引 ===== */}}
-      {{ $tags := .Site.Taxonomies.tags }}
-      {{ if gt (len $tags) 0 }}
-      <section class="sitemap-section">
-        <h2 class="sitemap-section__title">標籤索引（共 {{ len $tags }} 個）</h2>
-        <div class="sitemap-tags">
-          {{ range $tagName, $tagPages := $tags }}
-          <a href="{{ $tagPages.Page.Permalink }}" class="sitemap-tag">
-            {{ $tagPages.Page.Title }}
-            <span class="sitemap-tag__count">{{ len $tagPages.Pages }}</span>
-          </a>
-          {{ end }}
-        </div>
-      </section>
-      {{ end }}
-
-      {{/* ===== 機器可讀資訊 ===== */}}
-      <section class="sitemap-section sitemap-section--meta">
-        <h2 class="sitemap-section__title">機器可讀資源</h2>
-        <table class="sitemap-meta-table">
-          <tbody>
-            <tr>
-              <td>XML Sitemap</td>
-              <td><a href="{{ "/sitemap.xml" | absURL }}">{{ "/sitemap.xml" | absURL }}</a></td>
-            </tr>
-            <tr>
-              <td>Google News Sitemap</td>
-              <td><a href="{{ "/news-sitemap.xml" | absURL }}">{{ "/news-sitemap.xml" | absURL }}</a></td>
-            </tr>
-            <tr>
-              <td>RSS Feed</td>
-              <td><a href="{{ "/index.xml" | absURL }}">{{ "/index.xml" | absURL }}</a></td>
-            </tr>
-            <tr>
-              <td>JSON Feed</td>
-              <td><a href="{{ "/index.json" | absURL }}">{{ "/index.json" | absURL }}</a></td>
-            </tr>
-            <tr>
-              <td>robots.txt</td>
-              <td><a href="{{ "/robots.txt" | absURL }}">{{ "/robots.txt" | absURL }}</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-
+      </ul>
     </div>
-  </main>
+    {{ end }}
+  </section>
 
-  {{ partial "v2/footer.html" . }}
+  {{/* ===== 公司庫 ===== */}}
+  {{ $companies := where .Site.RegularPages "Type" "companies" }}
+  {{ if gt (len $companies) 0 }}
+  <section class="sitemap-section">
+    <h2 class="sitemap-section__title">AI 公司庫（共 {{ len $companies }} 家）</h2>
+    <ul class="sitemap-section__list sitemap-section__list--grid">
+      {{ range $companies }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
 
-</body>
-</html>
+  {{/* ===== 人物庫 ===== */}}
+  {{ $people := where .Site.RegularPages "Type" "people" }}
+  {{ if gt (len $people) 0 }}
+  <section class="sitemap-section">
+    <h2 class="sitemap-section__title">AI 人物庫（共 {{ len $people }} 位）</h2>
+    <ul class="sitemap-section__list sitemap-section__list--grid">
+      {{ range $people }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{/* ===== 活動庫 ===== */}}
+  {{ $activities := where .Site.RegularPages "Type" "activities" }}
+  {{ if gt (len $activities) 0 }}
+  <section class="sitemap-section">
+    <h2 class="sitemap-section__title">AI 活動（共 {{ len $activities }} 個）</h2>
+    <ul class="sitemap-section__list">
+      {{ range $activities }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+  {{/* ===== 標籤索引 ===== */}}
+  {{ $tags := .Site.Taxonomies.tags }}
+  {{ if gt (len $tags) 0 }}
+  <section class="sitemap-section">
+    <h2 class="sitemap-section__title">標籤索引（共 {{ len $tags }} 個）</h2>
+    <div class="sitemap-tags">
+      {{ range $tagName, $tagPages := $tags }}
+      <a href="{{ $tagPages.Page.Permalink }}" class="sitemap-tag">
+        {{ $tagPages.Page.Title }}
+        <span class="sitemap-tag__count">{{ len $tagPages.Pages }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* ===== 機器可讀資訊 ===== */}}
+  <section class="sitemap-section sitemap-section--meta">
+    <h2 class="sitemap-section__title">機器可讀資源</h2>
+    <table class="sitemap-meta-table">
+      <tbody>
+        <tr>
+          <td>XML Sitemap</td>
+          <td><a href="{{ "/sitemap.xml" | absURL }}">{{ "/sitemap.xml" | absURL }}</a></td>
+        </tr>
+        <tr>
+          <td>Google News Sitemap</td>
+          <td><a href="{{ "/news-sitemap.xml" | absURL }}">{{ "/news-sitemap.xml" | absURL }}</a></td>
+        </tr>
+        <tr>
+          <td>RSS Feed</td>
+          <td><a href="{{ "/index.xml" | absURL }}">{{ "/index.xml" | absURL }}</a></td>
+        </tr>
+        <tr>
+          <td>JSON Feed</td>
+          <td><a href="{{ "/index.json" | absURL }}">{{ "/index.json" | absURL }}</a></td>
+        </tr>
+        <tr>
+          <td>robots.txt</td>
+          <td><a href="{{ "/robots.txt" | absURL }}">{{ "/robots.txt" | absURL }}</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</div>
+{{ end }}

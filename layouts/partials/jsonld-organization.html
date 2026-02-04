@@ -25,6 +25,17 @@
   {{- $schema = merge $schema (dict "numberOfEmployees" (dict "@type" "QuantitativeValue" "value" (printf "%v" .))) -}}
 {{- end -}}
 
+{{- /* 中文國名 → ISO 3166-1 alpha-2 國碼對照 */ -}}
+{{- $countryCodeMap := dict
+  "美國" "US" "中國" "CN" "英國" "GB" "法國" "FR" "德國" "DE"
+  "加拿大" "CA" "以色列" "IL" "印度" "IN" "新加坡" "SG" "瑞典" "SE"
+  "南韓" "KR" "韓國" "KR" "日本" "JP" "瑞士" "CH" "沙烏地阿拉伯" "SA"
+  "澳洲" "AU" "荷蘭" "NL" "挪威" "NO" "阿聯酋" "AE" "葡萄牙" "PT"
+  "愛爾蘭" "IE" "愛沙尼亞" "EE" "開曼群島" "KY" "智利" "CL"
+  "芬蘭" "FI" "西班牙" "ES" "百慕達" "BM" "比利時" "BE"
+  "香港" "HK" "台灣" "TW" "巴西" "BR" "義大利" "IT" "波蘭" "PL"
+-}}
+
 {{- /* 地址：city 或 country 有值才加入 */ -}}
 {{- if or .Params.city .Params.country -}}
   {{- $addr := dict "@type" "PostalAddress" -}}
@@ -32,7 +43,20 @@
     {{- $addr = merge $addr (dict "addressLocality" .) -}}
   {{- end -}}
   {{- with .Params.country -}}
-    {{- $addr = merge $addr (dict "addressCountry" .) -}}
+    {{- /* 嘗試精確匹配，再嘗試前綴匹配（處理「美國（紐約）」等帶括號的值） */ -}}
+    {{- $raw := . -}}
+    {{- $code := index $countryCodeMap $raw -}}
+    {{- if not $code -}}
+      {{- /* 取括號前的部分做前綴匹配 */ -}}
+      {{- $base := index (split $raw "（") 0 -}}
+      {{- $base = index (split $base "/") 0 -}}
+      {{- $code = index $countryCodeMap $base -}}
+    {{- end -}}
+    {{- if $code -}}
+      {{- $addr = merge $addr (dict "addressCountry" $code) -}}
+    {{- else -}}
+      {{- $addr = merge $addr (dict "addressCountry" $raw) -}}
+    {{- end -}}
   {{- end -}}
   {{- $schema = merge $schema (dict "address" $addr) -}}
 {{- end -}}

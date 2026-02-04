@@ -5,7 +5,7 @@ description: "QLoRA 發明人 Tim Dettmers 主張 GPU 硬體已觸及物理極�
 tags: ["AGI", "GPU", "Coding Agent", "Tim Dettmers", "Dan Fu", "Podcast"]
 categories: ["AI 技術前沿"]
 image: "/images/posts/20260204-gpu-scaling-debate-agent-era.webp"
-source_url: "https://www.youtube.com/watch?v=2WP4jab4F30"
+source_url: "https://www.youtube.com/watch?v=XCCkgRzth6Q"
 source_name: "The MAD Podcast with Matt Turck"
 related_companies: ["together-ai"]
 related_people: []
@@ -14,9 +14,9 @@ draft: false
 
 > 本文整理自《The MAD Podcast with Matt Turck》2026 年 1 月播出的單集。
 
-{{< youtube 2WP4jab4F30 >}}
+{{< youtube XCCkgRzth6Q >}}
 
-{{< spotify "episode/6JdP2B8Lw5LsvCrt2NVNp7" >}}
+{{< spotify "episode/5fdqgGAgTqchtz9mUYBbEr" >}}
 
 ---
 

@@ -5,7 +5,7 @@ description: "Anthropic 研究員 Pavel Izmailov 與合作者提出全新的資�
 tags: ["Epiplexity", "資訊理論", "合成資料", "Pavel Izmailov", "AlphaZero", "Podcast"]
 categories: ["AI 技術前沿"]
 image: "/images/posts/20260204-ai-deception-alignment-three-labs.webp"
-source_url: "https://www.youtube.com/watch?v=XCCkgRzth6Q"
+source_url: "https://www.youtube.com/watch?v=2WP4jab4F30"
 source_name: "The MAD Podcast with Matt Turck"
 related_companies: ["anthropic", "openai"]
 related_people: []
@@ -14,9 +14,9 @@ draft: false
 
 > 本文整理自《The MAD Podcast with Matt Turck》2026 年 1 月播出的單集。
 
-{{< youtube XCCkgRzth6Q >}}
+{{< youtube 2WP4jab4F30 >}}
 
-{{< spotify "episode/5fdqgGAgTqchtz9mUYBbEr" >}}
+{{< spotify "episode/6JdP2B8Lw5LsvCrt2NVNp7" >}}
 
 ---
 

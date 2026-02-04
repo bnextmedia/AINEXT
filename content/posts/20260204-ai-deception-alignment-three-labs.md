@@ -5,7 +5,7 @@ description: "Anthropic 研究員暨紐約大學教授 Pavel Izmailov 拆解爆�
 tags: ["AI 安全", "Anthropic", "OpenAI", "對齊", "AI 欺騙", "Podcast"]
 categories: ["AI 安全與治理"]
 image: "/images/posts/20260204-ai-deception-alignment-three-labs.webp"
-source_url: "https://www.youtube.com/watch?v=XCCkgRzth6Q"
+source_url: "https://www.youtube.com/watch?v=2WP4jab4F30"
 source_name: "The MAD Podcast with Matt Turck"
 related_companies: ["anthropic", "openai"]
 related_people: []
@@ -14,9 +14,9 @@ draft: false
 
 > 本文整理自《The MAD Podcast with Matt Turck》2026 年 1 月播出的單集。
 
-{{< youtube XCCkgRzth6Q >}}
+{{< youtube 2WP4jab4F30 >}}
 
-{{< spotify "episode/5fdqgGAgTqchtz9mUYBbEr" >}}
+{{< spotify "episode/6JdP2B8Lw5LsvCrt2NVNp7" >}}
 
 ---
 

@@ -1,0 +1,90 @@
+{{- $schema := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" .Title
+  "url" .Permalink
+-}}
+
+{{- with .Params.description_short -}}
+  {{- $schema = merge $schema (dict "description" .) -}}
+{{- end -}}
+
+{{- with .Params.name_en -}}
+  {{- $schema = merge $schema (dict "alternateName" .) -}}
+{{- end -}}
+
+{{- with .Params.photo -}}
+  {{- $schema = merge $schema (dict "image" (. | absURL)) -}}
+{{- end -}}
+
+{{- with .Params.birth_year -}}
+  {{- $schema = merge $schema (dict "birthDate" (printf "%v" .)) -}}
+{{- end -}}
+
+{{- with .Params.nationality -}}
+  {{- $schema = merge $schema (dict "nationality" .) -}}
+{{- end -}}
+
+{{- with .Params.current_position -}}
+  {{- $schema = merge $schema (dict "jobTitle" .) -}}
+{{- end -}}
+
+{{- /* worksFor */ -}}
+{{- with .Params.current_organization -}}
+  {{- $org := dict "@type" "Organization" "name" . -}}
+  {{- with $.Params.current_org_slug -}}
+    {{- $orgUrl := printf "%s/companies/%s/" ($.Site.BaseURL | strings.TrimRight "/") . -}}
+    {{- $org = merge $org (dict "url" $orgUrl) -}}
+  {{- end -}}
+  {{- $schema = merge $schema (dict "worksFor" $org) -}}
+{{- end -}}
+
+{{- /* alumniOf：從 education 建立學歷陣列 */ -}}
+{{- with .Params.education -}}
+  {{- $alumni := slice -}}
+  {{- range . -}}
+    {{- with .institution -}}
+      {{- $edu := dict "@type" "EducationalOrganization" "name" . -}}
+      {{- $alumni = $alumni | append $edu -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt (len $alumni) 0 -}}
+    {{- $schema = merge $schema (dict "alumniOf" $alumni) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* award：從 awards 取名稱 */ -}}
+{{- with .Params.awards -}}
+  {{- $awardNames := slice -}}
+  {{- range . -}}
+    {{- with .name -}}
+      {{- $awardNames = $awardNames | append . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt (len $awardNames) 0 -}}
+    {{- $schema = merge $schema (dict "award" $awardNames) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* knowsAbout */ -}}
+{{- with .Params.expertise_areas -}}
+  {{- $schema = merge $schema (dict "knowsAbout" .) -}}
+{{- end -}}
+
+{{- /* sameAs：收集所有非空社群連結 */ -}}
+{{- $sameAs := slice -}}
+{{- with .Params.social -}}
+  {{- with .personal_website -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .twitter -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .linkedin -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .github -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .google_scholar -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .wikipedia -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .wikipedia_en -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .wikipedia_zh -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+{{- end -}}
+{{- if gt (len $sameAs) 0 -}}
+  {{- $schema = merge $schema (dict "sameAs" $sameAs) -}}
+{{- end -}}
+
+{{ printf `<script type="application/ld+json">%s</script>` ($schema | jsonify (dict "indent" "  ")) | safeHTML }}

@@ -1,0 +1,29 @@
+{{- $schema := dict
+  "@context" "https://schema.org"
+  "@type" "Article"
+  "headline" .Title
+  "url" .Permalink
+  "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+  "inLanguage" "zh-TW"
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+  "author" (dict "@type" "Person" "name" (.Site.Params.author | default "James") "url" (.Site.BaseURL | strings.TrimRight "/"))
+  "publisher" (dict "@type" "Organization" "name" .Site.Title "url" (.Site.BaseURL | strings.TrimRight "/") "logo" (dict "@type" "ImageObject" "url" ("images/logo.png" | absURL)))
+-}}
+
+{{- with .Description -}}
+  {{- $schema = merge $schema (dict "description" .) -}}
+{{- end -}}
+
+{{- with .Params.image -}}
+  {{- $schema = merge $schema (dict "image" (. | absURL)) -}}
+{{- end -}}
+
+{{- with .Params.tags -}}
+  {{- $schema = merge $schema (dict "keywords" (delimit . ", ")) -}}
+{{- end -}}
+
+{{- with .Params.categories -}}
+  {{- $schema = merge $schema (dict "articleSection" (index . 0)) -}}
+{{- end -}}
+
+{{ printf `<script type="application/ld+json">%s</script>` ($schema | jsonify (dict "indent" "  ")) | safeHTML }}

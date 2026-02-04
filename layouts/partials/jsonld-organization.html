@@ -1,0 +1,54 @@
+{{- $schema := dict
+  "@context" "https://schema.org"
+  "@type" "Organization"
+  "name" .Title
+  "url" (.Params.website | default .Permalink)
+-}}
+
+{{- with .Params.description_short -}}
+  {{- $schema = merge $schema (dict "description" .) -}}
+{{- end -}}
+
+{{- with .Params.name_zh -}}
+  {{- $schema = merge $schema (dict "alternateName" .) -}}
+{{- end -}}
+
+{{- with .Params.logo -}}
+  {{- $schema = merge $schema (dict "logo" (. | absURL)) -}}
+{{- end -}}
+
+{{- with .Params.founded -}}
+  {{- $schema = merge $schema (dict "foundingDate" (printf "%v" .)) -}}
+{{- end -}}
+
+{{- with .Params.employee_count -}}
+  {{- $schema = merge $schema (dict "numberOfEmployees" (dict "@type" "QuantitativeValue" "value" (printf "%v" .))) -}}
+{{- end -}}
+
+{{- /* 地址：city 或 country 有值才加入 */ -}}
+{{- if or .Params.city .Params.country -}}
+  {{- $addr := dict "@type" "PostalAddress" -}}
+  {{- with .Params.city -}}
+    {{- $addr = merge $addr (dict "addressLocality" .) -}}
+  {{- end -}}
+  {{- with .Params.country -}}
+    {{- $addr = merge $addr (dict "addressCountry" .) -}}
+  {{- end -}}
+  {{- $schema = merge $schema (dict "address" $addr) -}}
+{{- end -}}
+
+{{- /* sameAs：收集所有非空社群連結 */ -}}
+{{- $sameAs := slice -}}
+{{- with .Params.social -}}
+  {{- with .twitter -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .linkedin -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .github -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .crunchbase -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .wikipedia -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+  {{- with .investor_relations -}}{{- $sameAs = $sameAs | append . -}}{{- end -}}
+{{- end -}}
+{{- if gt (len $sameAs) 0 -}}
+  {{- $schema = merge $schema (dict "sameAs" $sameAs) -}}
+{{- end -}}
+
+{{ printf `<script type="application/ld+json">%s</script>` ($schema | jsonify (dict "indent" "  ")) | safeHTML }}

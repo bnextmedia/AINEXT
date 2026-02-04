@@ -34,7 +34,7 @@ Krizhevsky 1986 年出生在烏克蘭（當時還是蘇聯），後來隨家人�
 
 到了 2026 年，Krizhevsky 是 Two Bear Capital 的創投合夥人，這是一家總部在蒙大拿州、灣區和以色列的早期創投公司，專注 AI、生技和前沿科技。他的典型投資金額在 10 萬到 500 萬美元之間，甜蜜點大約是 150 萬美元，聚焦種子輪和 A 輪。寫出了引爆深度學習革命的程式碼的人，現在的工作是判斷別人的深度學習創業計畫值不值得投錢。
 
-2025 年 3 月，電腦歷史博物館（Computer History Museum）與 Google 合作，正式公開發布了 AlexNet 的原始碼。這件事的協商花了整整五年。Google DeepMind 的首席科學家傑夫．乾（Jeff Dean）說 Google 很高興能把 AlexNet 的原始碼貢獻給博物館。原始碼現在放在博物館的 GitHub 頁面上，任何人都可以看到——那些在 Krizhevsky 父母家臥室裡改變了歷史的 CUDA 核心程式碼。
+2025 年 3 月，電腦歷史博物館（Computer History Museum）與 Google 合作，正式公開發布了 AlexNet 的原始碼。這件事的協商花了整整五年。Google DeepMind 的首席科學家傑夫．迪恩（Jeff Dean）說 Google 很高興能把 AlexNet 的原始碼貢獻給博物館。原始碼現在放在博物館的 GitHub 頁面上，任何人都可以看到——那些在 Krizhevsky 父母家臥室裡改變了歷史的 CUDA 核心程式碼。
 
 一個寫出改變世界程式碼的人，選擇從聚光燈下消失。這在 AI 圈是一個令人著迷的反例。在這個領域，每個人都在搶著發論文、上播客、累積 Twitter 追蹤者的時代，Krizhevsky 做了相反的事。他寫了一篇論文，改變了一個產業，然後走了。
 

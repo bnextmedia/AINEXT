@@ -4,7 +4,7 @@ date: 2026-02-04T11:00:00+08:00
 description: "QLoRA 發明人 Tim Dettmers 和 FlashAttention 共同開發者 Dan Fu 對 2026 年 AI 發展做出預測：前沿模型進步放緩、小模型效能逼近大模型、開源將迎來新一波能力躍進，以及 Together AI 的 Megakernels 如何把推論加速 2 到 3 倍。"
 tags: ["AI 2026", "小模型", "開源 AI", "Together AI", "AI2", "Podcast"]
 categories: ["AI 產業動態"]
-image: "/images/posts/20260204-ai-predictions-2026-small-models.webp"
+image: "/images/posts/20260204-gpu-scaling-debate-agent-era.webp"
 source_url: "https://www.youtube.com/watch?v=2WP4jab4F30"
 source_name: "The MAD Podcast with Matt Turck"
 related_companies: ["together-ai"]

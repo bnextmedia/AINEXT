@@ -4,7 +4,7 @@ date: 2026-02-04T13:00:00+08:00
 description: "Anthropic 研究員 Pavel Izmailov 與合作者提出全新的資訊量度量 Epiplexity，挑戰夏農資訊理論的核心假設。這個概念可能改變我們對合成資料、模型訓練、甚至 AI 智慧本質的理解。"
 tags: ["Epiplexity", "資訊理論", "合成資料", "Pavel Izmailov", "AlphaZero", "Podcast"]
 categories: ["AI 技術前沿"]
-image: "/images/posts/20260204-epiplexity-redefining-information.webp"
+image: "/images/posts/20260204-ai-deception-alignment-three-labs.webp"
 source_url: "https://www.youtube.com/watch?v=XCCkgRzth6Q"
 source_name: "The MAD Podcast with Matt Turck"
 related_companies: ["anthropic", "openai"]

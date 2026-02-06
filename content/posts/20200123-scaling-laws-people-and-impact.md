@@ -19,9 +19,9 @@ draft: false
 
 ## 一篇論文，拆出了 Anthropic
 
-2021 年初，一群 OpenAI 的核心研究者集體離開，創辦了 Anthropic。領頭的是 Dario Amodei，當時 OpenAI 的研究副總裁。跟著走的有 Jared Kaplan——Scaling Laws 論文的第一作者、約翰霍普金斯大學的理論物理學教授。還有 Sam McCandlish——Scaling Laws 論文的第二作者、另一位物理學博士。Tom Brown——GPT-3 論文的第一作者。以及 Jack Clark、Daniela Amodei、Benjamin Mann 等人，加起來大約十一個人。
+2021 年初，一群 OpenAI 的核心研究者集體離開，創辦了 Anthropic。領頭的是 Dario Amodei，當時 OpenAI 的研究副總裁。跟著走的有 Jared Kaplan——Scaling Laws 論文的第一作者、約翰霍普金斯大學的理論物理學教授。還有 Sam McCandlish——Scaling Laws 論文的第二作者、另一位物理學博士。Tom Brown——Scaling Laws 論文的第四作者，同時也是 GPT-3 論文的共同第一作者。Tom Henighan——Scaling Laws 論文的第三作者。以及 Jack Clark、Daniela Amodei 等人，加起來大約十一個人。
 
-這不是普通的跳槽。這群人帶走的不只是履歷上的光環，而是 OpenAI 當時最核心的技術資產：對 Scaling Laws 的深刻理解，以及把這個理解轉化為實際模型的工程能力。Scaling Laws 論文的前兩位作者和 GPT-3 論文的第一作者同時離開，等於是把 OpenAI 在「規模」這條路線上最懂行的人帶走了一半。
+這不是普通的跳槽。這群人帶走的不只是履歷上的光環，而是 OpenAI 當時最核心的技術資產：對 Scaling Laws 的深刻理解，以及把這個理解轉化為實際模型的工程能力。Scaling Laws 論文的前四位作者一次走了三個，GPT-3 的共同第一作者也在其中，等於是把 OpenAI 在「規模」這條路線上最懂行的人帶走了大半。
 
 要理解這場出走為什麼發生、它為什麼重要，得先回到 Scaling Laws 論文背後那群人的故事。
 
@@ -33,7 +33,7 @@ draft: false
 
 Kaplan 不是第一個注意到這些相似性的人，但他可能是第一個認真拿物理學的分析工具去做系統性測量的人。他在 2019 年加入 OpenAI 擔任研究員，同時保留了約翰霍普金斯的教職。這個雙重身份本身就不尋常：他既是學術圈內有終身教職保障的物理學家，又是 AI 前沿實驗室的一線研究者。
 
-在 OpenAI，Kaplan 很快找到了志同道合的人。Sam McCandlish 同樣有物理學博士背景，在加州大學柏克萊分校研究理論物理，博士論文也涉及統計力學。兩個物理學家在 AI 實驗室相遇，用他們從物理學帶來的方法論——系統性地測量、找冪律、建構理論框架——開始研究語言模型的行為。Scaling Laws 論文就是這個合作的直接產物。
+在 OpenAI，Kaplan 很快找到了志同道合的人。Sam McCandlish 同樣有物理學博士背景，在史丹佛大學研究理論物理。兩個物理學家在 AI 實驗室相遇，用他們從物理學帶來的方法論——系統性地測量、找冪律、建構理論框架——開始研究語言模型的行為。Scaling Laws 論文就是這個合作的直接產物。
 
 這段經歷讓 Kaplan 看見了一件事：AI 研究不再只是工程和電腦科學的領地，它正在變成一門需要物理學思維的科學。不是「怎麼造一個更好的模型」，而是「模型的行為遵循什麼基本法則」。這個視角後來成了 Anthropic 的研究 DNA 的一部分。
 
@@ -43,9 +43,9 @@ Scaling Laws 論文掛了十個名字，但名字背後的故事更精彩。除�
 
 Dario Amodei 是論文的最後一位作者，在學術界這通常代表「通訊作者」或實驗室主持人的角色。他當時是 OpenAI 的研究副總裁，負責監督包括 Scaling Laws 在內的多個重要研究項目。Dario 的背景也很有意思：他在普林斯頓大學拿的是計算神經科學博士，研究的是生物神經網路，然後轉進 AI 領域。在 OpenAI 期間，他逐漸形成了一個越來越強烈的信念：大規模 AI 系統的安全問題是真實而緊迫的，而 OpenAI 在商業化壓力下越來越不願意認真面對這些問題。
 
-Tom Brown 不在 Scaling Laws 的作者名單上（他的名字是 Tom B. Brown，在論文中列為 Tom Henighan），但他是同一時期另一篇改變歷史的論文的第一作者——GPT-3。Brown 的背景同樣跨界：他在麻省理工學院同時拿了電腦科學和腦與認知科學的雙碩士。他在 OpenAI 主導了 GPT-3 的工程實現，把 Scaling Laws 的理論預測變成了一個 1,750 億參數的實際模型。如果說 Kaplan 畫出了那條冪律曲線，Brown 就是驗證那條曲線的人。
+Tom Brown（論文中署名 Tom B. Brown）是 Scaling Laws 的第四作者，同時也是 GPT-3 論文的共同第一作者。他在 OpenAI 主導了 GPT-3 的工程實現，把 Scaling Laws 的理論預測變成了一個 1,750 億參數的實際模型。如果說 Kaplan 畫出了那條冪律曲線，Brown 就是驗證那條曲線的人。
 
-Tom Henighan 是論文的第三作者，也是後來跟著 Dario 離開的人之一。Benjamin Chess 和 Rewon Child 同樣是 OpenAI 的研究員，後來分別走上了不同的道路。Alec Radford 是 GPT 系列模型的早期架構設計者，他最知名的貢獻是 GPT-1 和 GPT-2 的設計。Scott Gray 專精 GPU 計算優化。Jeffrey Wu 後來成了 InstructGPT（RLHF 方法的先驅）的核心貢獻者。
+Tom Henighan 是論文的第三作者，也是後來跟著 Dario 離開的人之一，他後來在 Anthropic 專注於可解釋性研究。Alec Radford 是 GPT 系列模型的早期架構設計者，他最知名的貢獻是 GPT-1 和 GPT-2 的設計。Scott Gray 專精 GPU 計算優化。Jeffrey Wu 後來成了 InstructGPT（RLHF 方法的先驅）的核心貢獻者。Benjamin Chess 和 Rewon Child 同樣是 OpenAI 的研究員。
 
 把這些人的去向連起來看，你會看到一個有趣的圖景：Scaling Laws 論文的作者群分裂成了至少兩個陣營。一邊跟著 Dario 去了 Anthropic，帶走了對 scaling 的深刻理解和對安全的執著。另一邊留在 OpenAI，繼續推動 GPT 系列的商業化。這兩家公司後來成了 AI 領域最激烈的競爭者，而它們的技術根基可以追溯到同一篇論文。
 

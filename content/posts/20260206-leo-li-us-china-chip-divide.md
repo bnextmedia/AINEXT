@@ -4,7 +4,7 @@ date: 2026-02-06T11:00:00+08:00
 description: "展訊通信前執行長李力游是美國公民，卻在中國創辦 AI 晶片公司。美國投資人依法不能再投資他，中國客戶要求他放棄美國籍。他的親身經歷揭示了中美半導體脫鉤的真實後果，以及這場分裂對全球晶片供應鏈意味著什麼。"
 tags: ["李力游", "中美關係", "半導體", "地緣政治", "晶片戰爭"]
 categories: ["地緣政治與經濟"]
-image: "/images/posts/20260206-leo-li-us-china-chip-divide.webp"
+image: "/images/posts/20260206-leo-li-farmer-philosophy.webp"
 source_url: "https://www.youtube.com/watch?v=HEvIS7lnBWA"
 source_name: "A Bit Personal with Jodi Shelton"
 related_companies: ["spreadtrum", "intel"]

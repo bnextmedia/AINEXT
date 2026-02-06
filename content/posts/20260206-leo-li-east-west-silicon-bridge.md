@@ -4,7 +4,7 @@ date: 2026-02-06T12:00:00+08:00
 description: "從文化大革命的農田到矽谷的晶片實驗室，從展訊的絕地重生到中美脫鉤下的身份困境。李力游的職涯是一部跨越東西方的半導體史，而他認為共事過最聰明的人，是輝達的黃仁勳。"
 tags: ["李力游", "展訊通信", "黃仁勳", "半導體", "Podcast"]
 categories: ["領袖思維"]
-image: "/images/posts/20260206-leo-li-east-west-silicon-bridge.webp"
+image: "/images/posts/20260206-leo-li-farmer-philosophy.webp"
 source_url: "https://www.youtube.com/watch?v=HEvIS7lnBWA"
 source_name: "A Bit Personal with Jodi Shelton"
 related_companies: ["spreadtrum", "nvidia"]

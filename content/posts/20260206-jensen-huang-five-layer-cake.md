@@ -4,7 +4,7 @@ date: 2026-02-06T10:30:00+08:00
 description: "黃仁勳在 Cisco AI Summit 提出 AI 產業的五層蛋糕框架：能源、晶片、基礎設施、AI 模型、應用。他認為前四層都只是基礎建設，真正的價值在最頂層的應用。每家公司都有機會成為科技優先的公司，而領域專業才是你的超能力。"
 tags: ["黃仁勳", "NVIDIA", "Cisco", "AI架構", "數位轉型"]
 categories: ["科技巨頭觀察"]
-image: "/images/posts/20260206-jensen-huang-five-layer-cake.webp"
+image: "/images/posts/20260206-jensen-huang-enterprise-ai-advice.webp"
 source_url: "https://www.youtube.com/watch?v=6fbyiPRhMSs"
 source_name: "Cisco AI Summit"
 related_companies: ["nvidia", "cisco"]

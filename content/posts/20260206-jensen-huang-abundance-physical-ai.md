@@ -4,7 +4,7 @@ date: 2026-02-06T11:00:00+08:00
 description: "黃仁勳在 Cisco AI Summit 宣告 AI 的豐裕時代已經到來。摩爾定律每十年進步 100 倍，AI 每十年進步 100 萬倍。他回顧 AlexNet 的「第一次接觸」，解釋軟體從預錄走向生成的典範轉移，並提出 Physical AI 必須理解因果關係的深刻觀點。"
 tags: ["黃仁勳", "NVIDIA", "Physical AI", "AI豐裕", "AlexNet"]
 categories: ["AI 技術前沿"]
-image: "/images/posts/20260206-jensen-huang-abundance-physical-ai.webp"
+image: "/images/posts/20260206-jensen-huang-enterprise-ai-advice.webp"
 source_url: "https://www.youtube.com/watch?v=6fbyiPRhMSs"
 source_name: "Cisco AI Summit"
 related_companies: ["nvidia", "cisco"]

@@ -16,6 +16,8 @@ draft: false
 
 {{< youtube KUNSNmr-1Bo >}}
 
+{{< spotify "episode/6pT42t5J3ydnN785GAyrpj" >}}
+
 {{< apple-podcast "tw/podcast/full-interview-sam-altman-responds-to-anthropics-attack-ads-live-on-tbpn/id1772360235?i=1000748430887" >}}
 
 ---

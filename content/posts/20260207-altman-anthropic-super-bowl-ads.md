@@ -31,13 +31,22 @@ draft: false
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ads are coming to AI. But not to Claude. Keep thinking. <a href="https://t.co/n2yECeBWyT">pic.twitter.com/n2yECeBWyT</a></p>&mdash; Claude (@claudeai) <a href="https://twitter.com/claudeai/status/2019071113741906403">February 2, 2026</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-這支廣告有效在於它具體到讓人不舒服。它不是抽象地說「AI 可能會有廣告」，而是演給你看那個體驗有多糟糕，而且選了一個最私密的情境：跟媽媽的關係。
+系列中另一支同樣引起討論的廣告，則瞄準了健身場景。一個年輕人問 AI「怎麼快速練出六塊肌？」AI 先正經地收集身體數據，結果聽到對方身高 5 呎 7 吋後，話鋒一轉開始推銷「StepBoost Max」增高鞋墊：「自信不只在健身房裡建立，試試這雙能讓你多高一吋的鞋墊，幫矮個子國王們昂首挺胸。」然後還報了折扣碼「HeightMaxing10」。同樣的套路，同樣的錯愕。
+
+{{< youtube kQRu7DdTTVA >}}
+
+這兩支廣告有效在於它們具體到讓人不舒服。它們不是抽象地說「AI 可能會有廣告」，而是演給你看那個體驗有多糟糕：一個是利用你跟媽媽的關係問題推銷約會網站，另一個是拿你的身高焦慮賣增高鞋墊。每一支都精準戳中了一個你最不希望被商業化的脆弱時刻。
 
 同一週，OpenAI 執行長山姆．奧特曼（Sam Altman）上了矽谷直播節目 TBPN。主持人問到 Anthropic 的廣告時，他的回應比平常更直接，也更帶火氣。
 
 ## 「我們不蠢」：奧特曼的三層回應
 
-奧特曼對 Anthropic 廣告的回應分成三個層次。
+在 TBPN 訪談的前一天，奧特曼已經先在 X 上發了一篇長文，正面回應 Anthropic 的廣告。這篇貼文的語氣比他在直播中更犀利，也更完整地展現了他的立場：
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First, the good part of the Anthropic ads: they are funny, and I laughed.<br><br>But I wonder why Anthropic would go for something so clearly dishonest. Our most important principle for ads says that we won't do exactly this; we would obviously never run ads in the way Anthropic depicts…</p>&mdash; Sam Altman (@sama) <a href="https://twitter.com/sama/status/2019139174339928189">February 5, 2026</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+在 TBPN 的訪談中，奧特曼對 Anthropic 廣告的回應分成三個層次。
 
 第一層是事實反駁。他說得很清楚：OpenAI 的廣告策略有一條不可逾越的底線，就是不會把廣告內容塞進 LLM 的輸出串流（stream）裡面。他用了一個很強的措辭：那種做法會像「糟糕的科幻電影」一樣反烏托邦。OpenAI 知道，如果真的做了 Anthropic 廣告中描繪的那種事，使用者會立刻離開。「我們不蠢，我們尊重使用者」，這是他反覆強調的態度。
 
@@ -57,7 +66,11 @@ Anthropic 目前則幾乎完全依賴 API 和企業服務的收入，外加大�
 
 ## 超級盃的另一面：OpenAI 自己的廣告
 
-有趣的是，OpenAI 自己在同一個超級盃週末也有廣告。前一年（2025 年超級盃），OpenAI 投放了一支以黑色圓點匯聚為主視覺的廣告，沒有具體產品展示，也沒有下載連結。奧特曼回憶說，那支廣告的反應很兩極：AI 研究者和深度使用者很有共鳴，但一般大眾不太懂在講什麼。他覺得那樣就好。
+有趣的是，OpenAI 自己在同一個超級盃週末也有廣告。前一年（2025 年超級盃），OpenAI 投放了一支以黑色圓點匯聚為主視覺的廣告，搭配各種 ChatGPT 使用場景的快剪，結尾一句「What do you want to create next?」沒有具體產品展示，也沒有下載連結。
+
+{{< youtube kIhb5pEo_j0 >}}
+
+奧特曼回憶說，那支廣告的反應很兩極：AI 研究者和深度使用者很有共鳴，但一般大眾不太懂在講什麼。他覺得那樣就好。
 
 2026 年的超級盃廣告則轉向了具體產品。奧特曼透露這次的廣告主角是 Codex，而他希望 OpenAI 未來的廣告能做到一件事：教會人們 AI 現在到底能做什麼。他觀察到一個令他焦慮的現象：全世界大部分人對 AI 的使用，還停留在向 ChatGPT 問簡單問題的階段。但模型的能力已經可以幫人建造東西、推進科學研究、加速經濟活動了。
 

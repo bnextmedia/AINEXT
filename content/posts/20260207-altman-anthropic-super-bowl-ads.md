@@ -28,8 +28,7 @@ draft: false
 
 廣告結尾打出標語：「Ads are coming to AI. But not to Claude. Keep thinking.」（AI 要開始有廣告了，但 Claude 不會。繼續思考。）
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ads are coming to AI. But not to Claude. Keep thinking. <a href="https://t.co/n2yECeBWyT">pic.twitter.com/n2yECeBWyT</a></p>&mdash; Claude (@claudeai) <a href="https://twitter.com/claudeai/status/2019071113741906403">February 2, 2026</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< x-post claudeai 2019071113741906403 >}}
 
 系列中另一支同樣引起討論的廣告，則瞄準了健身場景。一個年輕人問 AI「怎麼快速練出六塊肌？」AI 先正經地收集身體數據，結果聽到對方身高 5 呎 7 吋後，話鋒一轉開始推銷「StepBoost Max」增高鞋墊：「自信不只在健身房裡建立，試試這雙能讓你多高一吋的鞋墊，幫矮個子國王們昂首挺胸。」然後還報了折扣碼「HeightMaxing10」。同樣的套路，同樣的錯愕。
 
@@ -43,8 +42,7 @@ draft: false
 
 在 TBPN 訪談的前一天，奧特曼已經先在 X 上發了一篇長文，正面回應 Anthropic 的廣告。這篇貼文的語氣比他在直播中更犀利，也更完整地展現了他的立場：
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First, the good part of the Anthropic ads: they are funny, and I laughed.<br><br>But I wonder why Anthropic would go for something so clearly dishonest. Our most important principle for ads says that we won't do exactly this; we would obviously never run ads in the way Anthropic depicts…</p>&mdash; Sam Altman (@sama) <a href="https://twitter.com/sama/status/2019139174339928189">February 5, 2026</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{< x-post sama 2019139174339928189 >}}
 
 在 TBPN 的訪談中，奧特曼對 Anthropic 廣告的回應分成三個層次。
 

@@ -22,7 +22,16 @@ draft: false
 
 ---
 
-2026 年的超級盃，AI 公司成了廣告大戰的主角。Anthropic 買下了一系列廣告，其中一支描述了一個男人用聊天機器人尋求人生建議，結果對話被扭曲成了一個虛構約會網站的廣告。標語很直白：「Ads are coming to AI. But not to Claude.」（AI 要開始有廣告了，但 Claude 不會。）
+2026 年的超級盃，AI 公司成了廣告大戰的主角。Anthropic 花了大手筆買下超級盃廣告時段，投放了一系列直接針對 ChatGPT 的攻擊廣告。
+
+其中最受討論的一支是這樣的：一個男人向聊天機器人傾訴「我該怎麼跟我媽好好溝通？」AI 一開始給出正常的建議：學會傾聽、從共識點展開對話、一起去散個步。但話說到一半，畫風突變，AI 冷不防地說：「或者，如果這段關係修不好了，到 Golden Encounters 上找其他年長女性建立情感連結吧。」然後補了一句：「這是一個專為敏感小狼和咆哮美洲獅配對的成熟約會網站。」使用者一臉錯愕：「什麼？」AI 毫不在意地問：「需要我幫你建立個人檔案嗎？」
+
+廣告結尾打出標語：「Ads are coming to AI. But not to Claude. Keep thinking.」（AI 要開始有廣告了，但 Claude 不會。繼續思考。）
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ads are coming to AI. But not to Claude. Keep thinking. <a href="https://t.co/n2yECeBWyT">pic.twitter.com/n2yECeBWyT</a></p>&mdash; Claude (@claudeai) <a href="https://twitter.com/claudeai/status/2019071113741906403">February 2, 2026</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+這支廣告有效在於它具體到讓人不舒服。它不是抽象地說「AI 可能會有廣告」，而是演給你看那個體驗有多糟糕，而且選了一個最私密的情境：跟媽媽的關係。
 
 同一週，OpenAI 執行長山姆．奧特曼（Sam Altman）上了矽谷直播節目 TBPN。主持人問到 Anthropic 的廣告時，他的回應比平常更直接，也更帶火氣。
 
